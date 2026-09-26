@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-26T11:50:45-04:00",
+ "generated_at": "2026-09-26T14:46:36-04:00",
  "window": {
   "start": "2026-09-26",
   "end": "2026-10-03"
@@ -18,7 +18,7 @@
    "error": null,
    "n_events": 122,
    "n_food": 6,
-   "seconds": 0.8
+   "seconds": 0.7
   },
   {
    "id": "hks",
@@ -28,7 +28,7 @@
    "error": null,
    "n_events": 34,
    "n_food": 4,
-   "seconds": 1.0
+   "seconds": 7.2
   },
   {
    "id": "hls",
@@ -36,9 +36,9 @@
    "homepage": "https://hls.harvard.edu/calendar/",
    "ok": true,
    "error": null,
-   "n_events": 93,
-   "n_food": 46,
-   "seconds": 8.0
+   "n_events": 92,
+   "n_food": 45,
+   "seconds": 9.4
   },
   {
    "id": "college",
@@ -48,7 +48,7 @@
    "error": null,
    "n_events": 90,
    "n_food": 18,
-   "seconds": 0.2
+   "seconds": 0.6
   },
   {
    "id": "ash",
@@ -58,7 +58,7 @@
    "error": null,
    "n_events": 2,
    "n_food": 2,
-   "seconds": 0.3
+   "seconds": 1.8
   },
   {
    "id": "shorenstein",
@@ -68,7 +68,7 @@
    "error": null,
    "n_events": 1,
    "n_food": 0,
-   "seconds": 6.4
+   "seconds": 6.9
   },
   {
    "id": "fairbank",
@@ -78,7 +78,7 @@
    "error": null,
    "n_events": 0,
    "n_food": 0,
-   "seconds": 0.0
+   "seconds": 0.1
   },
   {
    "id": "newsletter",
@@ -98,7 +98,7 @@
    "error": null,
    "n_events": 0,
    "n_food": 0,
-   "seconds": 0.3
+   "seconds": 3.3
   }
  ],
  "stats": {
@@ -106,7 +106,7 @@
   "food_confirmed": 57,
   "food_likely": 16,
   "food_restricted": 56,
-  "seconds": 8.8
+  "seconds": 13.1
  },
  "events": [
   {
@@ -557,46 +557,6 @@
    "walk_min": 7
   },
   {
-   "id": "5e9f6afc8473",
-   "title": "Harvard University Field Hockey vs Princeton",
-   "url": "https://events.college.harvard.edu/event/224764-harvard-university-field-hockey-vs-princeton",
-   "source_id": "college",
-   "source_name": "Harvard College events",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "start": "2026-09-26T11:00:00-04:00",
-   "end": "2026-09-26T14:00:00-04:00",
-   "date": "2026-09-26",
-   "all_day": false,
-   "location": "Cambridge, Mass.",
-   "online": false,
-   "host": "Main Calendar",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
-   },
-   "audience": {
-    "level": "restricted",
-    "group": "Harvard College students",
-    "evidence": "Harvard College calendar, no sign it is open to others",
-    "basis": "default"
-   },
-   "summary": "Harvard University Field Hockey vs Princeton TV: ESPN+ Streaming Video: https://www.espn.com/watch/player/_/id/875ad890-c4e2-4bdf-9b3b-2764a2beb197 URL:https://gocrimson.com/calendar.aspx?game_id=33302&sport_id=4",
-   "notes": "",
-   "place_name": "",
-   "lat": null,
-   "lon": null,
-   "geo_method": null,
-   "walk_min": null
-  },
-  {
    "id": "b04785d790ab",
    "title": "Spotlight Tour: Un/Settled with Leandra Bautista ’28",
    "url": "https://harvardartmuseums.org/calendar/spotlight-tour-un-settled-with-leandra-bautista-28?utm_source=gazette&utm_medium=listing&utm_campaign=Spotlight_Sept26_AM&utm_id=Spotlight+Tour%3A+Un%2FSettled%2C+with+Leandra+Bautista+%E2%80%9928",
@@ -635,6 +595,46 @@
    "lon": -71.114113,
    "geo_method": "gazetteer",
    "walk_min": 7
+  },
+  {
+   "id": "5e9f6afc8473",
+   "title": "[W] Harvard University Field Hockey vs Princeton",
+   "url": "https://events.college.harvard.edu/event/224764-harvard-university-field-hockey-vs-princeton",
+   "source_id": "college",
+   "source_name": "Harvard College events",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "start": "2026-09-26T11:00:00-04:00",
+   "end": "2026-09-26T14:00:00-04:00",
+   "date": "2026-09-26",
+   "all_day": false,
+   "location": "Cambridge, Mass.",
+   "online": false,
+   "host": "Main Calendar",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "Harvard College students",
+    "evidence": "Harvard College calendar, no sign it is open to others",
+    "basis": "default"
+   },
+   "summary": "[W] Harvard University Field Hockey vs Princeton W 2-1 (4-2 SO) TV: ESPN+ Streaming Video: https://www.espn.com/watch/player/_/id/875ad890-c4e2-4bdf-9b3b-2764a2beb197 URL:https://gocrimson.com/calendar.aspx?game_id=33302&sport_id=4",
+   "notes": "",
+   "place_name": "",
+   "lat": null,
+   "lon": null,
+   "geo_method": null,
+   "walk_min": null
   },
   {
    "id": "ec649ceca954",
@@ -1054,7 +1054,7 @@
    "end": "2026-09-26T21:00:00-04:00",
    "date": "2026-09-26",
    "all_day": false,
-   "location": "Gore Courtyard",
+   "location": "Winthrop JCR",
    "online": false,
    "host": "Winthrop House",
    "food": {
@@ -7377,9 +7377,9 @@
    "walk_min": 77
   },
   {
-   "id": "793bf3ebbad7",
+   "id": "be090085dc01",
    "title": "Leading with Nature: Community Action and Climate Resilience in Puerto Rico",
-   "url": "https://www.hks.harvard.edu/events/leading-nature-community-action-and-climate-resilience-puerto-rico",
+   "url": "https://www.hks.harvard.edu/index%2ephp/events/leading-nature-community-action-and-climate-resilience-puerto-rico",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -7389,7 +7389,7 @@
    "end": "2026-09-30T15:00:00-04:00",
    "date": "2026-09-30",
    "all_day": false,
-   "location": "Darman Room, Taubman 135",
+   "location": "",
    "online": false,
    "host": "",
    "food": {
@@ -7403,18 +7403,18 @@
     "link": ""
    },
    "audience": {
-    "level": "harvard",
+    "level": "unknown",
     "group": "",
-    "evidence": "This event is open to HUID holders only.",
-    "basis": "text"
+    "evidence": "",
+    "basis": "none"
    },
-   "summary": "Join Fernando Lloveras MPP 1985, president of Para la Naturaleza, for a conversation on community-centered conservation and Puerto Rico’s evolving approach to climate change resilience and environmental policy. Lloveras will discuss the organization’s work placing citizens and communities at the forefront of…",
+   "summary": "",
    "notes": "",
-   "place_name": "Taubman Building, Harvard Kennedy School",
-   "lat": 42.371822,
-   "lon": -71.122151,
-   "geo_method": "gazetteer",
-   "walk_min": 17
+   "place_name": "Harvard Kennedy School",
+   "lat": 42.371989,
+   "lon": -71.121761,
+   "geo_method": "host",
+   "walk_min": 16
   },
   {
    "id": "3fbd4ea2c130",
@@ -7497,9 +7497,9 @@
    "walk_min": 12
   },
   {
-   "id": "5343263acca9",
+   "id": "efa4c2acb6c8",
    "title": "The Leaders We Need When Trust is on the Decline",
-   "url": "https://www.hks.harvard.edu/events/leaders-we-need-when-trust-decline",
+   "url": "https://www.hks.harvard.edu/index%2ephp/events/leaders-we-need-when-trust-decline",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -7509,32 +7509,32 @@
    "end": "2026-09-30T16:30:00-04:00",
    "date": "2026-09-30",
    "all_day": false,
-   "location": "Fainsod Room, Littauer 324",
+   "location": "",
    "online": false,
-   "host": "Center for Public Leadership",
+   "host": "",
    "food": {
     "status": "none",
     "types": [],
     "evidence": ""
    },
    "registration": {
-    "status": "required",
-    "evidence": "This event is open to HUID holders and registration is required.",
-    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001k6RdIAI"
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
    },
    "audience": {
-    "level": "harvard",
+    "level": "unknown",
     "group": "",
-    "evidence": "This event is open to HUID holders and registration is required.",
-    "basis": "text"
+    "evidence": "",
+    "basis": "none"
    },
-   "summary": "Join Doug Sosnik, CPL Hauser Leader and longtime political strategist, to discuss the qualities of leaders who are successful in environments where people have lost trust in institutions and its leaders. Drawing on lessons from this July 2026 Gallup poll showing historic lows of trust in U.S. institutions, Doug will…",
+   "summary": "",
    "notes": "",
-   "place_name": "Littauer Building, Harvard Kennedy School",
-   "lat": 42.371045,
-   "lon": -71.12209,
-   "geo_method": "gazetteer",
-   "walk_min": 18
+   "place_name": "Harvard Kennedy School",
+   "lat": 42.371989,
+   "lon": -71.121761,
+   "geo_method": "host",
+   "walk_min": 16
   },
   {
    "id": "49e083180a85",
@@ -9530,6 +9530,49 @@
    "walk_min": 16
   },
   {
+   "id": "3fa1d3db30a7",
+   "title": "Strategizing The Next Two Years",
+   "url": "https://hls.harvard.edu/events/strategizing-the-next-two-years/",
+   "source_id": "hls",
+   "source_name": "Harvard Law School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "start": "2026-10-01T12:15:00-04:00",
+   "end": "2026-10-01T13:30:00-04:00",
+   "date": "2026-10-01",
+   "all_day": false,
+   "location": "WCC B010, Harvard Law School",
+   "online": false,
+   "host": "Harvard Law School Democrats",
+   "food": {
+    "status": "confirmed",
+    "types": [
+     "Lunch"
+    ],
+    "evidence": "Lunch will be provided.",
+    "cue": "strong"
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "HLS students",
+    "evidence": "Run by an HLS student organization",
+    "basis": "inferred"
+   },
+   "summary": "Please join HLS Dems for an advising event strategizing the next two years. Lunch will be provided. Add to Calendar October 1, 2026, 12:15 pm - 1:30 pm +Google Calendar +iCal/Outlook",
+   "notes": "",
+   "place_name": "Wasserstein Hall (WCC), Harvard Law School",
+   "lat": 42.379383,
+   "lon": -71.119421,
+   "geo_method": "gazetteer",
+   "walk_min": 10
+  },
+  {
    "id": "71c570664da4",
    "title": "DC Market Lunch",
    "url": "https://hls.harvard.edu/events/dc-market-lunch/",
@@ -9737,51 +9780,6 @@
     "basis": "listing"
    },
    "summary": "Join Sidley Austin attorneys for lunch. Attendees learn about the firm’s global practice groups, summer associate program, and overall workplace culture in a relaxed setting. Add to Calendar October 1, 2026, 12:30 pm - 1:15 pm +Google Calendar +iCal/Outlook",
-   "notes": "",
-   "place_name": "Wasserstein Hall (WCC), Harvard Law School",
-   "lat": 42.379383,
-   "lon": -71.119421,
-   "geo_method": "gazetteer",
-   "walk_min": 10
-  },
-  {
-   "id": "3fa1d3db30a7",
-   "title": "Strategizing the Next Two Years",
-   "url": "https://hls.harvard.edu/events/strategizing-the-next-two-years-2/",
-   "source_id": "hls",
-   "source_name": "Harvard Law School",
-   "also_listed": [],
-   "aliases": [
-    "9f2f6493c288"
-   ],
-   "suggested": null,
-   "start": "2026-10-01T12:30:00-04:00",
-   "end": "2026-10-01T13:15:00-04:00",
-   "date": "2026-10-01",
-   "all_day": false,
-   "location": "WCC, B010 Singer Classroom, Harvard Law School",
-   "online": false,
-   "host": "Harvard Law School Democrats",
-   "food": {
-    "status": "confirmed",
-    "types": [
-     "Lunch"
-    ],
-    "evidence": "Lunch will be served!",
-    "cue": "strong"
-   },
-   "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
-   },
-   "audience": {
-    "level": "restricted",
-    "group": "HLS community",
-    "evidence": "HLS listing audience: HLS only",
-    "basis": "listing"
-   },
-   "summary": "You survived 1L… but what’s next? Join HLS Dems, Lambda, WLA, and First Class as we talk through what you need to know for your next two years – previewing things like J-Term opportunities, writing requirements, clerkships, splitting summers, and more. Plus, spend a little time reflecting on why you came to law school…",
    "notes": "",
    "place_name": "Wasserstein Hall (WCC), Harvard Law School",
    "lat": 42.379383,
@@ -12937,5 +12935,12 @@
    "walk_min": 7
   }
  ],
- "suggestions": []
+ "suggestions": [
+  {
+   "id": 4,
+   "state": "scanned",
+   "label": "Scanned at every update: 26 events found, 0 with food this week",
+   "n_food": 0
+  }
+ ]
 }
