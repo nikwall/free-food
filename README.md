@@ -142,6 +142,9 @@ tests/                     test_classify.py, test_audience.py, test_newsletter.p
 
 ## Hosting on GitHub Pages (the public website)
 
+**Live at <https://nikwall.github.io/free-food/>** (repository `github.com/nikwall/free-food`;
+votes in the Supabase project `free-food`, organization "nikwall's Org", Free plan).
+
 GitHub hosts the site for free at `https://<your-username>.github.io/<repository>/`, with HTTPS, so
 phones can install it as an app. A GitHub Actions workflow (`.github/workflows/pages.yml`) runs
 `scan.py` at 6 AM and noon Boston time, builds the site with `tools/build_site.py`, and publishes it.
