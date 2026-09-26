@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-26T14:46:36-04:00",
+ "generated_at": "2026-09-26T17:40:19-04:00",
  "window": {
   "start": "2026-09-26",
   "end": "2026-10-03"
@@ -18,7 +18,7 @@
    "error": null,
    "n_events": 122,
    "n_food": 6,
-   "seconds": 0.7
+   "seconds": 0.6
   },
   {
    "id": "hks",
@@ -28,7 +28,7 @@
    "error": null,
    "n_events": 34,
    "n_food": 4,
-   "seconds": 7.2
+   "seconds": 5.8
   },
   {
    "id": "hls",
@@ -36,9 +36,9 @@
    "homepage": "https://hls.harvard.edu/calendar/",
    "ok": true,
    "error": null,
-   "n_events": 92,
-   "n_food": 45,
-   "seconds": 9.4
+   "n_events": 94,
+   "n_food": 47,
+   "seconds": 13.0
   },
   {
    "id": "college",
@@ -46,7 +46,7 @@
    "homepage": "https://events.college.harvard.edu/",
    "ok": true,
    "error": null,
-   "n_events": 90,
+   "n_events": 94,
    "n_food": 18,
    "seconds": 0.6
   },
@@ -58,7 +58,7 @@
    "error": null,
    "n_events": 2,
    "n_food": 2,
-   "seconds": 1.8
+   "seconds": 2.0
   },
   {
    "id": "shorenstein",
@@ -68,7 +68,7 @@
    "error": null,
    "n_events": 1,
    "n_food": 0,
-   "seconds": 6.9
+   "seconds": 6.2
   },
   {
    "id": "fairbank",
@@ -98,15 +98,15 @@
    "error": null,
    "n_events": 0,
    "n_food": 0,
-   "seconds": 3.3
+   "seconds": 2.5
   }
  ],
  "stats": {
-  "events": 312,
-  "food_confirmed": 57,
+  "events": 314,
+  "food_confirmed": 59,
   "food_likely": 16,
-  "food_restricted": 56,
-  "seconds": 13.1
+  "food_restricted": 58,
+  "seconds": 16.8
  },
  "events": [
   {
@@ -628,7 +628,7 @@
     "evidence": "Harvard College calendar, no sign it is open to others",
     "basis": "default"
    },
-   "summary": "[W] Harvard University Field Hockey vs Princeton W 2-1 (4-2 SO) TV: ESPN+ Streaming Video: https://www.espn.com/watch/player/_/id/875ad890-c4e2-4bdf-9b3b-2764a2beb197 URL:https://gocrimson.com/calendar.aspx?game_id=33302&sport_id=4",
+   "summary": "[W] Harvard University Field Hockey vs Princeton W 2-1 (4-2 PS) TV: ESPN+ Streaming Video: https://www.espn.com/watch/player/_/id/875ad890-c4e2-4bdf-9b3b-2764a2beb197 URL:https://gocrimson.com/calendar.aspx?game_id=33302&sport_id=4",
    "notes": "",
    "place_name": "",
    "lat": null,
@@ -840,7 +840,7 @@
   },
   {
    "id": "3d629f4caac3",
-   "title": "Harvard University Men’s Water Polo vs Johns Hopkins",
+   "title": "[W] Harvard University Men’s Water Polo vs Johns Hopkins",
    "url": "https://events.college.harvard.edu/event/224762-harvard-university-mens-water-polo-vs-johns",
    "source_id": "college",
    "source_name": "Harvard College events",
@@ -870,7 +870,7 @@
     "evidence": "Harvard College calendar, no sign it is open to others",
     "basis": "default"
    },
-   "summary": "Harvard University Men’s Water Polo vs Johns Hopkins TV: ESPN+ Streaming Video: https://gocrim.info/t98 URL:https://gocrimson.com/calendar.aspx?game_id=33264&sport_id=23",
+   "summary": "[W] Harvard University Men’s Water Polo vs Johns Hopkins W 17-13 TV: ESPN+ Streaming Video: https://gocrim.info/t98 URL:https://gocrimson.com/calendar.aspx?game_id=33264&sport_id=23",
    "notes": "",
    "place_name": "",
    "lat": null,
@@ -2716,6 +2716,49 @@
    "walk_min": 8
   },
   {
+   "id": "42112d0009e1",
+   "title": "Kavanaugh on the Court: Jurisprudence and the Recent Term with Cameron Pritchett and Professor Richard Re",
+   "url": "https://hls.harvard.edu/events/kavanaugh-on-the-court-jurisprudence-and-the-recent-term-with-cameron-pritchett-and-professor-richard-re/",
+   "source_id": "hls",
+   "source_name": "Harvard Law School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "start": "2026-09-28T12:20:00-04:00",
+   "end": "2026-09-28T13:15:00-04:00",
+   "date": "2026-09-28",
+   "all_day": false,
+   "location": "WCC 1010, Harvard Law School",
+   "online": false,
+   "host": "Harvard Federalist Society",
+   "food": {
+    "status": "confirmed",
+    "types": [
+     "Lunch"
+    ],
+    "evidence": "Lunch will be served.",
+    "cue": "strong"
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "HLS students",
+    "evidence": "Run by an HLS student organization",
+    "basis": "inferred"
+   },
+   "summary": "What does Justice Brett Kavanaugh’s jurisprudence tell us about his role on the Supreme Court? Cameron Pritchett and Professor Re join the Federalist Society for a rundown of Justice Kavanaugh’s jurisprudence, examining his most significant opinions and votes from the recent term and the broader themes that have…",
+   "notes": "",
+   "place_name": "Wasserstein Hall (WCC), Harvard Law School",
+   "lat": 42.379383,
+   "lon": -71.119421,
+   "geo_method": "gazetteer",
+   "walk_min": 10
+  },
+  {
    "id": "da7a52bbf14b",
    "title": "Winter Term Opportunities Information Session",
    "url": "https://hls.harvard.edu/events/winter-term-opportunities-information-session-2/",
@@ -3146,8 +3189,15 @@
    "url": "https://www.hks.harvard.edu/events/study-group-chris-whipple-all-presidents-men-women-ft-jack-watson",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
-   "also_listed": [],
-   "aliases": [],
+   "also_listed": [
+    {
+     "source_name": "Harvard College events",
+     "url": "https://events.college.harvard.edu/event/225081-study-group-with-chris-whipple-all-the-presidents"
+    }
+   ],
+   "aliases": [
+    "541d0c62215e"
+   ],
    "suggested": null,
    "start": "2026-09-28T16:00:00-04:00",
    "end": "2026-09-28T17:15:00-04:00",
@@ -4446,6 +4496,49 @@
    "walk_min": 10
   },
   {
+   "id": "dd067593c1b3",
+   "title": "First Monday Is Coming: A Supreme Court Preview with the Institute for Justice and Professor Stephen Sachs",
+   "url": "https://hls.harvard.edu/events/first-monday-is-coming-a-supreme-court-preview-with-the-institute-for-justice-and-professor-stephen-sachs/",
+   "source_id": "hls",
+   "source_name": "Harvard Law School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "start": "2026-09-29T12:20:00-04:00",
+   "end": "2026-09-29T13:15:00-04:00",
+   "date": "2026-09-29",
+   "all_day": false,
+   "location": "Langdell Hall, 272 Kirkland and Ellis Classroom - South, Harvard Law School",
+   "online": false,
+   "host": "Harvard Federalist Society",
+   "food": {
+    "status": "confirmed",
+    "types": [
+     "Lunch"
+    ],
+    "evidence": "Lunch will be served.",
+    "cue": "strong"
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "HLS students",
+    "evidence": "Run by an HLS student organization",
+    "basis": "inferred"
+   },
+   "summary": "A new Supreme Court term is almost here—and there is plenty to watch. Join the Federalist Society and the Institute for Justice for a preview of the biggest cases, constitutional questions, and legal controversies on the Court’s 2026 Term docket, and what they could mean for the law in the year ahead. Lunch will be…",
+   "notes": "",
+   "place_name": "Langdell Hall, Harvard Law School",
+   "lat": 42.377966,
+   "lon": -71.118497,
+   "geo_method": "gazetteer",
+   "walk_min": 8
+  },
+  {
    "id": "dfe6e6e1643c",
    "title": "Scripture in Community: Public Reading of Scripture",
    "url": "https://hls.harvard.edu/events/scripture-in-community-public-reading-of-scripture-4/?occurrence=12476",
@@ -5074,13 +5167,20 @@
    "walk_min": 12
   },
   {
-   "id": "a63d78542bca",
+   "id": "5beb57b09412",
    "title": "Amb. Kelly Craft Study Group: Artificial Intelligence: The Race Into the Unknown",
    "url": "https://www.hks.harvard.edu/events/amb-kelly-craft-study-group-artificial-intelligence-race-unknown",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
-   "also_listed": [],
-   "aliases": [],
+   "also_listed": [
+    {
+     "source_name": "Harvard College events",
+     "url": "https://events.college.harvard.edu/event/225083-study-group-with-ambassador-kelly-craft-artificial"
+    }
+   ],
+   "aliases": [
+    "a63d78542bca"
+   ],
    "suggested": null,
    "start": "2026-09-29T16:00:00-04:00",
    "end": "2026-09-29T17:15:00-04:00",
@@ -5317,13 +5417,20 @@
    "walk_min": null
   },
   {
-   "id": "992cc4d04186",
+   "id": "464fa7c80f79",
    "title": "Study Group with Chris Whipple: All the President’s Men & Women ft Chris Liddell",
    "url": "https://www.hks.harvard.edu/events/study-group-chris-whipple-all-presidents-men-women-ft-chris-liddell",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
-   "also_listed": [],
-   "aliases": [],
+   "also_listed": [
+    {
+     "source_name": "Harvard College events",
+     "url": "https://events.college.harvard.edu/event/225085-study-group-with-chris-whipple-all-the-presidents"
+    }
+   ],
+   "aliases": [
+    "992cc4d04186"
+   ],
    "suggested": null,
    "start": "2026-09-29T16:30:00-04:00",
    "end": "2026-09-29T17:45:00-04:00",
@@ -7377,9 +7484,9 @@
    "walk_min": 77
   },
   {
-   "id": "be090085dc01",
+   "id": "793bf3ebbad7",
    "title": "Leading with Nature: Community Action and Climate Resilience in Puerto Rico",
-   "url": "https://www.hks.harvard.edu/index%2ephp/events/leading-nature-community-action-and-climate-resilience-puerto-rico",
+   "url": "https://www.hks.harvard.edu/events/leading-nature-community-action-and-climate-resilience-puerto-rico",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -7389,7 +7496,7 @@
    "end": "2026-09-30T15:00:00-04:00",
    "date": "2026-09-30",
    "all_day": false,
-   "location": "",
+   "location": "Darman Room, Taubman 135",
    "online": false,
    "host": "",
    "food": {
@@ -7403,18 +7510,18 @@
     "link": ""
    },
    "audience": {
-    "level": "unknown",
+    "level": "harvard",
     "group": "",
-    "evidence": "",
-    "basis": "none"
+    "evidence": "This event is open to HUID holders only.",
+    "basis": "text"
    },
-   "summary": "",
+   "summary": "Join Fernando Lloveras MPP 1985, president of Para la Naturaleza, for a conversation on community-centered conservation and Puerto Rico’s evolving approach to climate change resilience and environmental policy. Lloveras will discuss the organization’s work placing citizens and communities at the forefront of…",
    "notes": "",
-   "place_name": "Harvard Kennedy School",
-   "lat": 42.371989,
-   "lon": -71.121761,
-   "geo_method": "host",
-   "walk_min": 16
+   "place_name": "Taubman Building, Harvard Kennedy School",
+   "lat": 42.371822,
+   "lon": -71.122151,
+   "geo_method": "gazetteer",
+   "walk_min": 17
   },
   {
    "id": "3fbd4ea2c130",
@@ -7497,9 +7604,9 @@
    "walk_min": 12
   },
   {
-   "id": "efa4c2acb6c8",
+   "id": "5343263acca9",
    "title": "The Leaders We Need When Trust is on the Decline",
-   "url": "https://www.hks.harvard.edu/index%2ephp/events/leaders-we-need-when-trust-decline",
+   "url": "https://www.hks.harvard.edu/events/leaders-we-need-when-trust-decline",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -7509,32 +7616,32 @@
    "end": "2026-09-30T16:30:00-04:00",
    "date": "2026-09-30",
    "all_day": false,
-   "location": "",
+   "location": "Fainsod Room, Littauer 324",
    "online": false,
-   "host": "",
+   "host": "Center for Public Leadership",
    "food": {
     "status": "none",
     "types": [],
     "evidence": ""
    },
    "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
+    "status": "required",
+    "evidence": "This event is open to HUID holders and registration is required.",
+    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001k6RdIAI"
    },
    "audience": {
-    "level": "unknown",
+    "level": "harvard",
     "group": "",
-    "evidence": "",
-    "basis": "none"
+    "evidence": "This event is open to HUID holders and registration is required.",
+    "basis": "text"
    },
-   "summary": "",
+   "summary": "Join Doug Sosnik, CPL Hauser Leader and longtime political strategist, to discuss the qualities of leaders who are successful in environments where people have lost trust in institutions and its leaders. Drawing on lessons from this July 2026 Gallup poll showing historic lows of trust in U.S. institutions, Doug will…",
    "notes": "",
-   "place_name": "Harvard Kennedy School",
-   "lat": 42.371989,
-   "lon": -71.121761,
-   "geo_method": "host",
-   "walk_min": 16
+   "place_name": "Littauer Building, Harvard Kennedy School",
+   "lat": 42.371045,
+   "lon": -71.12209,
+   "geo_method": "gazetteer",
+   "walk_min": 18
   },
   {
    "id": "49e083180a85",
@@ -12254,19 +12361,21 @@
   {
    "id": "b624bcc241b0",
    "title": "OFA Dance Open Studios: Ella Wechsler-Matthaei/Soca Fusion",
-   "url": "https://events.college.harvard.edu/ofa/event/225034-ofa-dance-open-studios-ella-wechsler-matthaeisoca",
+   "url": "https://events.college.harvard.edu/event/225094-ofa-dance-open-studios-ella-wechsler-matthaeisoca",
    "source_id": "college",
    "source_name": "Harvard College events",
    "also_listed": [],
-   "aliases": [],
+   "aliases": [
+    "ebd0d36823a9"
+   ],
    "suggested": null,
    "start": "2026-10-02T18:30:00-04:00",
-   "end": null,
+   "end": "2026-10-02T20:00:00-04:00",
    "date": "2026-10-02",
    "all_day": false,
-   "location": "",
+   "location": "Location: Harvard Dance Center, 66 Garden St., Cambridge, MA",
    "online": false,
-   "host": "Office for the Arts (OFA) Dance Program",
+   "host": "Office for the Arts",
    "food": {
     "status": "none",
     "types": [],
@@ -12283,13 +12392,13 @@
     "evidence": "College calendar audience: First-Year, Junior, Senior, Sophomore",
     "basis": "listing"
    },
-   "summary": "Rooted in Soca, Caribbean, and Carnival traditions, see the development of this new work which celebrates joy, resilience, and embodied expression within the Black diaspora. The work traces a journey from everyday life to the liberation of Carnival, blending Soca, Caribbean folklore, West African, hip hop, dancehall,…",
+   "summary": "Title: OFA Dance Open Studios: Ella Wechsler-Matthaei/Soca Fusion Date/Time: Fridays, October 2 & 30, 6:30-8pm Description: You’re invited to witness and engage in an open rehearsal for a new evening‑length dance work by choreographer Ella Wechsler-Matthaei and her dance company Soca Fusion. Rooted in Soca, Caribbean,…",
    "notes": "",
-   "place_name": "",
-   "lat": null,
-   "lon": null,
-   "geo_method": null,
-   "walk_min": null
+   "place_name": "66 Garden St.",
+   "lat": 42.381444,
+   "lon": -71.126739,
+   "geo_method": "address",
+   "walk_min": 21
   },
   {
    "id": "148a22c8425a",
@@ -12937,9 +13046,15 @@
  ],
  "suggestions": [
   {
+   "id": 5,
+   "state": "scanned",
+   "label": "Scanned at every update: 1 events found, 0 with food this week",
+   "n_food": 0
+  },
+  {
    "id": 4,
    "state": "scanned",
-   "label": "Scanned at every update: 26 events found, 0 with food this week",
+   "label": "Scanned at every update: 27 events found, 0 with food this week",
    "n_food": 0
   }
  ]
