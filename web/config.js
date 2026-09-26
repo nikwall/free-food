@@ -4,6 +4,6 @@
    and paste two values from Supabase -> Project Settings -> API below. The "anon public" key is
    meant to be public; database rules (in supabase.sql) decide what it may do. */
 window.FFM_CONFIG = {
-  supabaseUrl: "",        // e.g. "https://abcdefghijklmnop.supabase.co"
-  supabaseAnonKey: "",    // the "publishable" key (sb_publishable_...) or the legacy "anon public" key
+  supabaseUrl: "https://rykkwkogdilnaifignvu.supabase.co",
+  supabaseAnonKey: "sb_publishable_MdwZc5n_DPuv5scI_CIOWA_VBXDoCBM",   // publishable: safe to be public
 };
