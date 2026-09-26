@@ -147,7 +147,8 @@ votes in the Supabase project `free-food`, organization "nikwall's Org", Free pl
 
 GitHub hosts the site for free at `https://<your-username>.github.io/<repository>/`, with HTTPS, so
 phones can install it as an app. A GitHub Actions workflow (`.github/workflows/pages.yml`) runs
-`scan.py` at 6 AM and noon Boston time, builds the site with `tools/build_site.py`, and publishes it.
+`scan.py` every three hours from 6 AM to 6 PM Boston time, builds the site with `tools/build_site.py`,
+and publishes it.
 It also saves the day's `data/events.json` back to the repository. If a scan looks broken (fewer than
 150 events, or HLS and HKS both failing), the workflow stops and yesterday's site stays up.
 
@@ -173,6 +174,25 @@ Votes are anonymous and not tamper-proof (anyone with the site could change them
 which is fine among fellows. Free Supabase projects pause after about a week without use; the
 workflow pings the database on every run to keep it awake, and a paused project can be restored
 from the Supabase dashboard.
+
+### Suggestions from fellows
+
+The **Suggest** page (a tab on phones, a button on desktop) lets anyone send a link to an event, or a
+newsletter or calendar to scan. Suggestions go into the Supabase table `suggestions`, and
+`freefood/suggestions.py` handles them at each scan:
+- **Event links** are read for the event's details: schema.org data, a linked .ics file, or the page's
+  title and first date. They then get the usual food and audience checks. If the page doesn't
+  mention food, the suggester's note counts as "food reported by a fellow". The card shows who
+  suggested it.
+- **Calendar links** are scanned for events at every update, like any other source.
+- **Newsletters without a link** are listed for you, because reading email needs a subscription for the
+  project inbox (see `inbox/README.txt`; put that address in `newsletterForwardAddress` in
+  `web/config.js` and the Suggest page will tell people to forward newsletters there).
+- **Review:** links on harvard.edu, hbs.edu, Belfer, Shorenstein, Harvard Art Museums, Eventbrite and lu.ma
+  are used right away. Anything else waits until you open Supabase → Table Editor → `suggestions` and
+  tick `approved`. Nobody can approve through the website.
+- **Status list:** each suggestion's status ("On the map", "Will show up closer to the date", "Waiting
+  for review"…) is shown on the Suggest page.
 
 ## Hosting on claude.ai
 

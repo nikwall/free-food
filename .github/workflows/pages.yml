@@ -1,11 +1,12 @@
 # Scans the Harvard calendars and publishes the website on GitHub Pages.
-# Runs twice a day, after every push, and on demand (Actions tab -> "Scan and publish" -> Run workflow).
+# Runs every three hours during the day, after every push, and on demand (Actions tab -> "Scan and publish" -> Run workflow).
 name: Scan and publish
 
 on:
   schedule:
-    - cron: "0 10 * * *"   # 6:00 AM Boston in summer time (5:00 AM in winter); GitHub uses UTC
-    - cron: "0 16 * * *"   # noon Boston: picks up events posted that morning
+    # every three hours from 6 AM to 6 PM Boston summer time (an hour earlier in winter); GitHub uses UTC.
+    # Frequent enough that fellows' suggestions show up the same day.
+    - cron: "0 10,13,16,19,22 * * *"
   push:
     branches: [main]
   workflow_dispatch:

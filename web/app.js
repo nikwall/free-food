@@ -70,6 +70,7 @@
     if (!state.day || !days.includes(state.day)) state.day = days.includes(today) ? today : days[0];
     renderAll();
     offlineBanner();
+    if (state.view === "suggest") renderSuggestions();
     if (backend === "db") tallyDb();          // event aliases are known now
     else if (backend === "supabase") loadVotes();
   }
@@ -215,7 +216,8 @@
     return out;
   }
 
-  const isFood = (ev) => ev.food.status === "confirmed" || (state.cert === "all" && ev.food.status === "likely");
+  const isFood = (ev) => ev.food.status === "confirmed" || ev.food.status === "reported" ||
+    (state.cert === "all" && ev.food.status === "likely");
   // hidden in the default "Open to fellows" view: stated limits and "probably only …" guesses alike
   const restricted = (ev) => ev.audience && (ev.audience.level === "restricted" || ev.audience.level === "likely");
 
@@ -293,7 +295,8 @@
     const place = ev.place_name && loc && !loc.toLowerCase().startsWith(ev.place_name.toLowerCase().slice(0, 6))
       ? `${esc(loc)} <span class="soft">· ${esc(ev.place_name)}</span>` : esc(loc || ev.place_name || "See event page");
     const walk = ev.walk_min != null ? ` <span class="soft">· ${ev.walk_min} min walk</span>` : "";
-    const approx = ev.geo_method === "host" ? ` <span class="soft">(map shows the organizer's building)</span>` : "";
+    const approx = ev.geo_method === "host" ? ` <span class="soft">(map shows the organizer's building)</span>`
+      : ev.geo_method === "text" ? ` <span class="soft">(place read from the event text)</span>` : "";
     return place + walk + approx;
   }
 
@@ -303,11 +306,11 @@
     const shown = v.names.slice(0, 3), others = v.going - shown.length;
     const who = !v.going ? "" : shown.length ? `${shown.join(", ")}${others > 0 ? ` +${others}` : ""} going` : `${v.going} going`;
     if (backend === "db" && dbv.readOnly) {                 // can read the votes but not cast one
-      const tally = [v.going ? who : "", v.skip ? `${v.skip} say skip` : ""].filter(Boolean).join(" · ");
+      const tally = [v.going ? who : "", v.skip ? `${v.skip} say probably no access/food` : ""].filter(Boolean).join(" · ");
       return `<span class="who">${esc(tally || "No votes yet")} <span class="soft">· voting needs Editor access</span></span>`;
     }
     return `<button type="button" class="vote going" data-vote="going" aria-pressed="${v.mine === "going"}" title="I'm going">${ICON.check}Going <span class="n">${v.going || ""}</span></button>
-      <button type="button" class="vote skip" data-vote="skip" aria-pressed="${v.mine === "skip"}" title="Not worth it">${ICON.x}Skip <span class="n">${v.skip || ""}</span></button>
+      <button type="button" class="vote skip" data-vote="skip" aria-pressed="${v.mine === "skip"}" title="Probably no access or no food">${ICON.x}Probably no access/food <span class="n">${v.skip || ""}</span></button>
       ${who ? `<span class="who">${esc(who)}</span>` : ""}`;
   }
 
@@ -316,7 +319,10 @@
     const v = voteOf(ev);
     const cert = ev.food.status === "confirmed"
       ? `<span class="badge conf" title="The event text says food is served">Food confirmed</span>`
-      : `<span class="badge likely" title="Only the title suggests food">Food likely</span>`;
+      : ev.food.status === "reported"
+        ? `<span class="badge conf" title="A fellow who suggested this event says there is food">Food reported by a fellow</span>`
+        : `<span class="badge likely" title="Only the title suggests food">Food likely</span>`;
+    const sugg = ev.suggested ? `<span class="badge sugg">Suggested by ${esc(ev.suggested.by || "a fellow")}</span>` : "";
     const rows = [
       ["Where", placeLine(ev)],
       ev.host ? ["Host", esc(ev.host)] : null,
@@ -337,8 +343,9 @@
       <div class="kicker"><span class="num${ev.lat != null ? "" : " nomap"}" title="${ev.lat != null ? "Marker " + i + " on the map" : "Not on the map"}">${ev.lat != null ? i : "–"}</span>
         <span class="t">${esc(timeRange(ev))}</span><span class="ft">${esc(ev.food.types.map((t) => TYPE_LABEL[t] || t).join(" · ") || "Food")}</span>${isOver(ev) ? "<span>finished</span>" : ""}</div>
       <h2 class="title"><a href="${esc(ev.url)}" target="_blank" rel="noopener">${esc(ev.title)}</a></h2>
-      <div class="badges">${cert}${audienceBadge(a)}<span class="badge reg-${reg.status}" title="${esc(reg.evidence)}">${REG_LABEL[reg.status]}</span></div>
-      ${ev.food.evidence && ev.food.status === "confirmed" ? `<p class="evidence">“${esc(ev.food.evidence)}”</p>` : ""}
+      <div class="badges">${cert}${sugg}${audienceBadge(a)}<span class="badge reg-${reg.status}" title="${esc(reg.evidence)}">${REG_LABEL[reg.status]}</span></div>
+      ${ev.food.evidence && (ev.food.status === "confirmed" || ev.food.status === "reported") ? `<p class="evidence">“${esc(ev.food.evidence)}”</p>` : ""}
+      ${ev.suggested && ev.suggested.note && ev.suggested.note !== ev.food.evidence ? `<p class="evidence soft">${esc(ev.suggested.by || "A fellow")}: “${esc(ev.suggested.note)}”</p>` : ""}
       <div class="meta">${rows.map(([k, val]) => `<div class="row"><span class="k">${k}</span><span class="v">${val}</span></div>`).join("")}</div>
       <div class="actions">${voteButtons(ev)}<span class="links">${links.join("")}</span></div>
       <div class="src">Source: ${src}</div>
@@ -560,6 +567,7 @@
     document.querySelectorAll(".tabbar button").forEach((b) => b.classList.toggle("on", b.dataset.view === view));
     if (view !== "map") $("#peek").hidden = true;
     if (view === "map") setTimeout(() => { map.invalidateSize(); fitMap(); }, 30);
+    if (view === "suggest") loadSuggestions();
     if (MOBILE.matches) window.scrollTo(0, 0);
   }
 
@@ -640,6 +648,85 @@
       }
       await loadVotes();
     } catch (_) { /* offline: stays local until next vote */ }
+  }
+
+  // ---------- suggestions: fellows send event links, newsletters or calendars (web host + Supabase) ----------
+  const suggest = { kind: "event", rows: [] };
+  const STATUS_CLASS = { on_map: "ok", scanned: "ok", listed_restricted: "warn", later: "wait", review: "wait" };
+
+  function initSuggest() {
+    if (backend === "db" || !sbOn()) return;                 // needs the Supabase table; not on claude.ai
+    $("#suggestBtn").hidden = false;
+    $("#suggestTab").hidden = false;
+    $("#sgName").value = state.name || "";
+    const fwd = (SB.newsletterForwardAddress || "").trim();
+    if (fwd) { $("#forwardHint").hidden = false; $("#forwardHint").textContent = `You can also forward newsletters to ${fwd}.`; }
+  }
+
+  async function loadSuggestions() {
+    try {
+      const r = await sbFetch("suggestions?select=id,kind,url,title,note,name,created_at&order=created_at.desc&limit=15", { cache: "no-store" });
+      if (!r.ok) throw 0;
+      suggest.rows = await r.json();
+    } catch (_) {
+      suggest.rows = null;
+    }
+    renderSuggestions();
+  }
+
+  function renderSuggestions() {
+    const ul = $("#suggList");
+    if (suggest.rows === null) { ul.innerHTML = `<li class="soft">Couldn't load suggestions right now.</li>`; return; }
+    if (!suggest.rows.length) { ul.innerHTML = `<li class="soft">No suggestions yet.</li>`; return; }
+    const byId = {};
+    ((state.data && state.data.suggestions) || []).forEach((s) => (byId[s.id] = s));
+    ul.innerHTML = suggest.rows.map((r) => {
+      const st = byId[r.id];
+      const label = st ? st.label : "Waiting for the next update";
+      const cls = st ? STATUS_CLASS[st.state] || "muted" : "wait";
+      const text = r.title || (r.url || "").replace(/^https?:\/\/(www\.)?/, "");
+      const what = r.url ? `<a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(text)}</a>` : esc(text);
+      const when = new Intl.DateTimeFormat("en-US", { timeZone: TZ, month: "short", day: "numeric" }).format(new Date(r.created_at));
+      return `<li><div class="sg-top"><span class="sg-kind">${r.kind === "event" ? "Event" : "Newsletter or calendar"}</span>
+          <span class="sg-status ${cls}">${esc(label)}</span></div>
+        <div class="sg-what">${what}</div>
+        <div class="sg-meta">${r.name ? esc(r.name) + " · " : ""}${when}${r.note ? ` · “${esc(r.note)}”` : ""}</div></li>`;
+    }).join("");
+  }
+
+  async function submitSuggestion(e) {
+    e.preventDefault();
+    const msg = $("#sgMsg");
+    const say = (text, kind) => { msg.textContent = text; msg.className = "form-msg" + (kind ? " " + kind : ""); };
+    const fixUrl = (u) => { u = u.trim(); return u && !/^https?:\/\//i.test(u) ? "https://" + u : u; };
+    const looksLikeUrl = (u) => /^https?:\/\/[^\s/]+\.[^\s]{2,}/i.test(u);
+    const name = $("#sgName").value.trim().slice(0, 24);
+    let body;
+    if (suggest.kind === "event") {
+      const url = fixUrl($("#sgUrl").value);
+      if (!looksLikeUrl(url)) { say("Paste the link to the event's page.", "err"); $("#sgUrl").focus(); return; }
+      body = { kind: "event", url, note: $("#sgNote").value.trim().slice(0, 400) || null };
+    } else {
+      const title = $("#sgTitle").value.trim().slice(0, 120), url = fixUrl($("#sgSrcUrl").value);
+      if (!title && !url) { say("Give the newsletter or calendar a name or a link.", "err"); $("#sgTitle").focus(); return; }
+      if (url && !looksLikeUrl(url)) { say("That link doesn't look complete.", "err"); $("#sgSrcUrl").focus(); return; }
+      body = { kind: "source", title: title || null, url: url || null, note: $("#sgSrcNote").value.trim().slice(0, 400) || null };
+    }
+    body.name = name || null;
+    $("#sgSend").disabled = true;
+    say("Sending…");
+    try {
+      const r = await sbFetch("suggestions", { method: "POST", headers: { Prefer: "return=minimal" }, body: JSON.stringify(body) });
+      if (!r.ok) throw new Error(String(r.status));
+      say(body.kind === "event" ? "Thanks! It will be checked at the next update." : "Thanks! It's on the list.", "ok");
+      ["#sgUrl", "#sgNote", "#sgTitle", "#sgSrcUrl", "#sgSrcNote"].forEach((sel) => ($(sel).value = ""));
+      if (name && name !== state.name) saveName(name);
+      loadSuggestions();
+    } catch (_) {
+      say("Couldn't send it. Check your connection and try again.", "err");
+    } finally {
+      $("#sgSend").disabled = false;
+    }
   }
 
   // ---------- banners: install and offline ----------
@@ -747,6 +834,16 @@
     document.querySelectorAll(".tabbar button").forEach((b) => b.addEventListener("click", () => setView(b.dataset.view)));
     $("#aboutBtn").addEventListener("click", () => setView(state.view === "about" ? "list" : "about"));
     $("#aboutClose").addEventListener("click", () => setView("list"));
+    $("#suggestBtn").addEventListener("click", () => setView(state.view === "suggest" ? "list" : "suggest"));
+    document.querySelectorAll("[data-close-panel]").forEach((b) => b.addEventListener("click", () => setView("list")));
+    document.querySelectorAll("[data-kind]").forEach((b) => b.addEventListener("click", () => {
+      suggest.kind = b.dataset.kind;
+      document.querySelectorAll("[data-kind]").forEach((x) => x.classList.toggle("on", x === b));
+      $(".kind-event").hidden = suggest.kind !== "event";
+      $(".kind-source").hidden = suggest.kind !== "source";
+      $("#sgMsg").textContent = "";
+    }));
+    $("#suggestForm").addEventListener("submit", submitSuggestion);
     $("#filterBtn").addEventListener("click", () => toggleSheet(!$("#filters").classList.contains("open")));
     $("#filtersDone").addEventListener("click", () => toggleSheet(false));
     $("#scrim").addEventListener("click", () => toggleSheet(false));
@@ -783,7 +880,7 @@
     $("#updated").textContent = "No data";
     $("#list").innerHTML = `<div class="empty-state">${esc(err.message)}</div>`;
   }).finally(() => { installBanner(); measure(); });
-  initVotes().catch(() => { state.voteApi = false; });
+  initVotes().catch(() => { state.voteApi = false; }).finally(initSuggest);
   setInterval(() => load().catch(() => {}), 10 * 60 * 1000);   // pick up background rescans
   setInterval(loadVotes, 45 * 1000);                           // see other fellows' votes
 })();

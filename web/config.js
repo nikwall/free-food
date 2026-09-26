@@ -6,4 +6,5 @@
 window.FFM_CONFIG = {
   supabaseUrl: "https://rykkwkogdilnaifignvu.supabase.co",
   supabaseAnonKey: "sb_publishable_MdwZc5n_DPuv5scI_CIOWA_VBXDoCBM",   // publishable: safe to be public
+  newsletterForwardAddress: "",   // optional: an inbox the scanner reads (inbox/README.txt); shown on the Suggest page
 };

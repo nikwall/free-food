@@ -7,6 +7,7 @@ import traceback
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timedelta
 
+from . import suggestions
 from .audience import detect_audience
 from .classify import detect_food, detect_registration
 from .config import DATA_DIR, DAYS_AHEAD, EVENTS_FILE, TZ
@@ -58,6 +59,10 @@ def build_record(ev, geo, home):
             place = geo.locate("", ev.source_id, extra_text=f"{ev.host} {ev.source_name}")
             if place:
                 place["geo_method"] = "host"   # building of the organizer: approximate
+        if not place and not ev.online and ev.source_id == "suggested":
+            place = geo.match_place(ev.description[:800], ev.source_id)   # a building named in the text
+            if place:
+                place["geo_method"] = "text"
     rec = {
         "id": hashlib.sha1(f"{ev.source_id}|{ev.url}|{ev.start.isoformat()}".encode()).hexdigest()[:12],
         "title": ev.title,
@@ -66,6 +71,7 @@ def build_record(ev, geo, home):
         "source_name": ev.source_name,
         "also_listed": [],
         "aliases": [],
+        "suggested": None,          # {"by", "note"} when a fellow suggested it
         "start": local_start.isoformat(),
         "end": ev.end.astimezone(TZ).isoformat() if ev.end else None,
         "date": local_start.date().isoformat(),
@@ -165,8 +171,30 @@ def run_scan(days=DAYS_AHEAD, only=None, log=print):
         log(f"  {src.id:12s} {'ok ' if err is None else 'ERR'} {len(kept):4d} events, {n_food:3d} with food"
             f"  ({secs:.0f}s){'  ' + err if err else ''}")
 
+    # fellows' suggestions from the website: read their links, check them like everything else
+    plan, t = [], time.time()
+    try:
+        plan, sugg_events = suggestions.collect(http, log=log)
+        kept = [build_record(ev, geo, home) for ev in sugg_events if not ev.canceled and ev.title
+                and not (ev.end and (ev.end - ev.start) > timedelta(hours=14))
+                and start <= ev.start.astimezone(TZ).date() <= end]
+        records += kept
+        status.append({"id": "suggested", "name": "Suggestions from fellows", "homepage": "", "ok": True,
+                       "error": None, "n_events": len(kept),
+                       "n_food": sum(r["food"]["status"] in ("confirmed", "likely") for r in kept),
+                       "seconds": round(time.time() - t, 1)})
+    except Exception as ex:
+        log(f"  suggestions  ERR {type(ex).__name__}: {ex}")
+        status.append({"id": "suggested", "name": "Suggestions from fellows", "homepage": "", "ok": False,
+                       "error": f"{type(ex).__name__}: {ex}", "n_events": 0, "n_food": 0, "seconds": 0})
+
     events = merge_duplicates(records)
     events.sort(key=lambda r: (r["start"], r["title"]))
+    try:
+        sugg_status = suggestions.finalize(events, plan, start, end) if plan else []
+    except Exception:           # suggestion statuses are a nice-to-have; never lose the scan over them
+        log(f"  ! suggestion statuses failed:\n{traceback.format_exc(limit=3)}")
+        sugg_status = []
     payload = {
         "generated_at": datetime.now(TZ).isoformat(timespec="seconds"),
         "window": {"start": start.isoformat(), "end": end.isoformat()},
@@ -179,6 +207,7 @@ def run_scan(days=DAYS_AHEAD, only=None, log=print):
                                          and e["audience"]["level"] == "restricted" for e in events),
                   "seconds": round(time.time() - t0, 1)},
         "events": events,
+        "suggestions": sugg_status,
     }
     DATA_DIR.mkdir(exist_ok=True)
     tmp = EVENTS_FILE.with_suffix(".tmp")

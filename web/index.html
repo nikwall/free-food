@@ -17,7 +17,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&family=Work+Sans:wght@400;500;600&display=swap">
 <link rel="stylesheet" href="vendor/leaflet.css">
-<link rel="stylesheet" href="style.css?v=6">
+<link rel="stylesheet" href="style.css?v=7">
 </head>
 <body>
 <header class="appbar">
@@ -27,6 +27,8 @@
   </div>
   <div class="bar-actions">
     <span id="updated" class="updated">Loading…</span>
+    <button id="suggestBtn" class="pill-btn desk-only" type="button" hidden>
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>Suggest</button>
     <button id="aboutBtn" class="icon-btn desk-only" type="button" aria-label="About and sources" title="About and sources">
       <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7.5v.5"/></svg>
     </button>
@@ -76,6 +78,41 @@
     <div id="map" role="region" aria-label="Map of event locations"></div>
     <div class="peek" id="peek" hidden></div>
   </section>
+  <section class="suggest" id="suggest" aria-label="Suggest">
+    <button type="button" class="close-about desk-only link-btn" data-close-panel>Close</button>
+    <h2>Know about free food we missed?</h2>
+    <p class="lede">Send a link. It is checked at the next update (every three hours, 6 AM to 6 PM) and shows up
+      on the map if it has a date and is open to fellows.</p>
+    <form id="suggestForm" novalidate>
+      <div class="seg wide" role="group" aria-label="What are you suggesting?">
+        <button type="button" data-kind="event" class="on">An event</button>
+        <button type="button" data-kind="source">A newsletter or calendar</button>
+      </div>
+      <div class="kind-event">
+        <label class="field">Link to the event page
+          <input type="url" id="sgUrl" inputmode="url" autocomplete="off" placeholder="https://…" maxlength="500"></label>
+        <label class="field">What should people know? <span class="soft">(optional)</span>
+          <textarea id="sgNote" rows="2" maxlength="400" placeholder="e.g. Pizza after the talk, open to all Harvard ID holders"></textarea></label>
+      </div>
+      <div class="kind-source" hidden>
+        <label class="field">Name of the newsletter or calendar
+          <input type="text" id="sgTitle" maxlength="120" placeholder="e.g. Center for European Studies weekly email"></label>
+        <label class="field">Link <span class="soft">(sign-up page or calendar page, optional)</span>
+          <input type="url" id="sgSrcUrl" inputmode="url" autocomplete="off" placeholder="https://…" maxlength="500"></label>
+        <label class="field">How to subscribe, or anything else <span class="soft">(optional)</span>
+          <textarea id="sgSrcNote" rows="2" maxlength="400" placeholder="e.g. Email ces@fas.harvard.edu to join the list"></textarea></label>
+        <p class="soft small" id="forwardHint" hidden></p>
+      </div>
+      <label class="field">Your first name <span class="soft">(optional, shown with your suggestion)</span>
+        <input type="text" id="sgName" maxlength="24" autocomplete="given-name"></label>
+      <div class="form-actions">
+        <button type="submit" class="btn" id="sgSend">Send suggestion</button>
+        <span class="form-msg" id="sgMsg" role="status"></span>
+      </div>
+    </form>
+    <h3>Recent suggestions</h3>
+    <ul class="sugg-list" id="suggList"><li class="soft">Loading…</li></ul>
+  </section>
   <section class="about" id="about" aria-label="About">
     <button type="button" class="close-about desk-only link-btn" id="aboutClose">Close</button>
     <h2>About</h2>
@@ -96,10 +133,14 @@
       <li><span class="badge aud-likely">Probably only …</span> inferred from the title or host</li>
       <li><span class="badge aud-restricted">Only …</span> limited to a school, class year, House or group</li>
     </ul>
-    <h3>Going / Skip</h3>
-    <p>Tap <b>Going</b> so other fellows see who is heading there, or <b>Skip</b> if an event isn't worth it.
-      Votes are shared by everyone using this site and kept for 30 days. On the claude.ai copy, names come
-      from Claude accounts, and voting needs Editor access; everyone else sees the votes.</p>
+    <h3>Going / Probably no access/food</h3>
+    <p>Tap <b>Going</b> so other fellows see who is heading there, or <b>Probably no access/food</b> when you
+      found out the event isn't open to us or there is no food after all. Votes are shared by everyone using
+      this site and kept for 30 days. On the claude.ai copy, names come from Claude accounts, and voting needs
+      Editor access; everyone else sees the votes.</p>
+    <h3>Suggestions</h3>
+    <p>Missing something? Use <b>Suggest</b> to send a link to an event, or a newsletter or calendar to scan.
+      Links on Harvard sites are checked at the next update; others first get a quick look from the site's maintainer.</p>
     <label class="namefield">Your first name, shown next to “going”
       <span class="namerow"><input type="text" id="nameInput" maxlength="24" autocomplete="given-name" placeholder="Optional">
       <button type="button" class="btn" id="nameSave">Save</button></span></label>
@@ -119,6 +160,8 @@
     <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 6h12M8 12h12M8 18h12M4 6h.5M4 12h.5M4 18h.5"/></svg>List</button>
   <button type="button" data-view="map">
     <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>Map</button>
+  <button type="button" data-view="suggest" id="suggestTab" hidden>
+    <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 8v8M8 12h8"/></svg>Suggest</button>
   <button type="button" data-view="about">
     <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7.5v.5"/></svg>About</button>
 </nav>
@@ -136,7 +179,7 @@
 </dialog>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
-<script src="config.js?v=6"></script>
-<script src="app.js?v=6"></script>
+<script src="config.js?v=7"></script>
+<script src="app.js?v=7"></script>
 </body>
 </html>

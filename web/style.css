@@ -263,7 +263,7 @@ svg { width: 22px; height: 22px; fill: none; stroke: currentColor; stroke-width:
 .peek .close { position: absolute; top: 4px; right: 4px; border: 0; background: none; width: 36px; height: 36px; color: var(--muted); }
 
 /* ---------- about ---------- */
-.about { display: none; padding: 16px; font: 15px/1.55 var(--serif); }
+.about, .suggest { display: none; padding: 16px; font: 15px/1.55 var(--serif); }
 .about h2 { font: 700 26px/1.15 var(--serif); margin: 4px 0 10px; }
 .about h3 { font: 600 16px/1.3 var(--sans); margin: 20px 0 6px; }
 .about p { margin: 0 0 8px; }
@@ -297,7 +297,7 @@ svg { width: 22px; height: 22px; fill: none; stroke: currentColor; stroke-width:
   .list { height: calc(100vh - var(--top)); overflow-y: auto; }
   .mapwrap { position: sticky; top: var(--top); height: calc(100vh - var(--top)); border-left: 1px solid var(--line); }
   .peek { display: none !important; }
-  .layout[data-view="about"] .about {
+  .layout[data-view="about"] .about, .layout[data-view="suggest"] .suggest {
     display: block; position: fixed; top: 0; right: 0; bottom: 0; width: min(460px, 100%); z-index: 1200;
     overflow-y: auto; background: var(--surface); box-shadow: -8px 0 30px rgba(0,0,0,.15); padding: 20px 24px;
   }
@@ -314,13 +314,13 @@ svg { width: 22px; height: 22px; fill: none; stroke: currentColor; stroke-width:
   .for { font-size: 14px; }
   @media (max-width: 359px) { .mark { font-size: 15px; } }
   .layout { display: block; }
-  .layout .mapwrap, .layout .about { display: none; }
-  .layout[data-view="map"] .list, .layout[data-view="about"] .list { display: none; }
+  .layout .mapwrap, .layout .about, .layout .suggest { display: none; }
+  .layout[data-view="map"] .list, .layout[data-view="about"] .list, .layout[data-view="suggest"] .list { display: none; }
   .layout[data-view="map"] .mapwrap {
     display: block; position: fixed; left: 0; right: 0; top: var(--top);
     bottom: calc(var(--tabbar-h) + env(safe-area-inset-bottom));
   }
-  .layout[data-view="about"] .about { display: block; padding-bottom: 28px; }
+  .layout[data-view="about"] .about, .layout[data-view="suggest"] .suggest { display: block; padding-bottom: 28px; }
   .list { padding: 12px 12px 24px; }
   .card { margin-bottom: 10px; }
   .filters {
@@ -358,3 +358,45 @@ svg { width: 22px; height: 22px; fill: none; stroke: currentColor; stroke-width:
   .in-artifact body { padding-bottom: var(--tabbar-h); }
   .in-artifact .layout[data-view="map"] .mapwrap { top: calc(var(--top) + env(safe-area-inset-top, 0px)); }
 }
+
+/* ---------- suggest panel ---------- */
+.suggest h2 { font: 700 24px/1.2 var(--serif); margin: 4px 0 8px; text-wrap: balance; }
+.suggest h3 { font: 600 16px/1.3 var(--sans); margin: 24px 0 8px; }
+.suggest .lede { margin: 0 0 14px; color: var(--muted); }
+.suggest form { display: grid; gap: 14px; font-family: var(--sans); }
+.seg.wide { display: flex; width: 100%; }
+.seg.wide button { flex: 1; padding: 9px 10px; font-size: 14px; }
+.field { display: grid; gap: 6px; font: 500 13.5px/1.35 var(--sans); }
+.field input, .field textarea {
+  width: 100%; padding: 10px 12px; border: 1px solid var(--line-strong); background: var(--surface); color: var(--text);
+  font: 16px/1.4 var(--sans); border-radius: 0; resize: vertical;
+}
+.field input:focus-visible, .field textarea:focus-visible { outline: 2px solid var(--focus); outline-offset: 0; }
+.kind-event, .kind-source { display: grid; gap: 14px; }
+.kind-event[hidden], .kind-source[hidden] { display: none !important; }
+.small { font-size: 13px; margin: 0; }
+.form-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 14px; }
+.form-actions .btn { padding: 11px 18px; font-size: 15px; }
+.form-actions .btn[disabled] { opacity: .6; }
+.form-msg { font: 14px/1.4 var(--sans); color: var(--muted); }
+.form-msg.ok { color: var(--green); }
+.form-msg.err { color: var(--red); }
+.sugg-list { list-style: none; padding: 0; margin: 0; display: grid; gap: 10px; font-family: var(--sans); }
+.sugg-list > li { background: var(--surface); border: 1px solid var(--line); padding: 10px 12px; }
+.sg-top { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 6px; align-items: center; }
+.sg-kind { font: 500 10.5px/1.4 var(--mono); letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+.sg-status { font: 500 12px/1.3 var(--sans); padding: 2px 8px; background: var(--surface-2); color: var(--muted); }
+.sg-status.ok { background: var(--green-soft); color: var(--green); }
+.sg-status.warn { background: var(--red-soft); color: var(--red); }
+.sg-status.wait { background: var(--amber-soft); color: var(--amber); }
+.sg-what { margin: 4px 0 2px; font-weight: 500; overflow-wrap: anywhere; }
+.sg-what a { color: var(--text); }
+.sg-meta { font-size: 12.5px; color: var(--muted); overflow-wrap: anywhere; }
+.badge.sugg { background: var(--surface-2); color: var(--text); border: 1px solid var(--line-strong); }
+.pill-btn {
+  display: inline-flex; align-items: center; gap: 4px; height: 34px; padding: 0 12px 0 8px; margin-right: 4px;
+  border: 1px solid var(--red); background: transparent; color: var(--red); font: 600 13px/1 var(--sans); border-radius: 999px;
+}
+.pill-btn svg { width: 18px; height: 18px; }
+.pill-btn:hover { background: var(--red-soft); }
+.vote.skip { max-width: 100%; }
