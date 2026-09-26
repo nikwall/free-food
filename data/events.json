@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-26T00:01:18-04:00",
+ "generated_at": "2026-09-26T07:08:22-04:00",
  "window": {
   "start": "2026-09-26",
   "end": "2026-10-03"
@@ -18,7 +18,7 @@
    "error": null,
    "n_events": 122,
    "n_food": 6,
-   "seconds": 5.9
+   "seconds": 0.7
   },
   {
    "id": "hks",
@@ -28,7 +28,7 @@
    "error": null,
    "n_events": 34,
    "n_food": 4,
-   "seconds": 4.6
+   "seconds": 3.7
   },
   {
    "id": "hls",
@@ -38,7 +38,7 @@
    "error": null,
    "n_events": 93,
    "n_food": 46,
-   "seconds": 16.9
+   "seconds": 10.3
   },
   {
    "id": "college",
@@ -48,7 +48,7 @@
    "error": null,
    "n_events": 90,
    "n_food": 18,
-   "seconds": 4.2
+   "seconds": 0.4
   },
   {
    "id": "ash",
@@ -58,7 +58,7 @@
    "error": null,
    "n_events": 2,
    "n_food": 2,
-   "seconds": 5.2
+   "seconds": 1.9
   },
   {
    "id": "shorenstein",
@@ -68,7 +68,7 @@
    "error": null,
    "n_events": 1,
    "n_food": 0,
-   "seconds": 13.3
+   "seconds": 7.0
   },
   {
    "id": "fairbank",
@@ -78,7 +78,7 @@
    "error": null,
    "n_events": 0,
    "n_food": 0,
-   "seconds": 9.2
+   "seconds": 0.1
   },
   {
    "id": "newsletter",
@@ -95,8 +95,8 @@
   "events": 312,
   "food_confirmed": 57,
   "food_likely": 16,
-  "food_restricted": 39,
-  "seconds": 19.7
+  "food_restricted": 56,
+  "seconds": 10.8
  },
  "events": [
   {
@@ -166,10 +166,10 @@
     "link": "https://soco.college.harvard.edu/rsvp?id=382929"
    },
    "audience": {
-    "level": "likely",
+    "level": "restricted",
     "group": "Harvard College students",
-    "evidence": "College student-organization event",
-    "basis": "inferred"
+    "evidence": "Harvard College calendar, no sign it is open to others",
+    "basis": "default"
    },
    "summary": "For nearly three decades, the Islamic Finance Conference at Harvard has brought together a global community committed to principled capital. This year, we explore how Islamic finance can meet a changing world - from AI, fintech, and digital assets to climate, inclusion, governance, and moral leadership. Join us at the…",
    "notes": "",
@@ -210,7 +210,7 @@
     "link": "https://forms.gle/QgsC33vBCiSGKdYJ8"
    },
    "audience": {
-    "level": "likely",
+    "level": "restricted",
     "group": "members of the organizing group",
     "evidence": "Title: JOLT Fall Subcite",
     "basis": "inferred"
@@ -249,10 +249,10 @@
     "link": "https://soco.college.harvard.edu/rsvp?id=382985"
    },
    "audience": {
-    "level": "likely",
+    "level": "restricted",
     "group": "Harvard College students",
-    "evidence": "College student-organization event",
-    "basis": "inferred"
+    "evidence": "Harvard College calendar, no sign it is open to others",
+    "basis": "default"
    },
    "summary": "A friendly tournament for all teams in the Massachusetts Quadball Conference — Event Details: https://soco.college.harvard.edu/rsvp?id=382985",
    "notes": "",
@@ -366,10 +366,10 @@
     "link": ""
    },
    "audience": {
-    "level": "unknown",
-    "group": "",
-    "evidence": "",
-    "basis": "none"
+    "level": "restricted",
+    "group": "Harvard College students",
+    "evidence": "Harvard College calendar, no sign it is open to others",
+    "basis": "default"
    },
    "summary": "Harvard University Men’s Water Polo vs Concordia TV: ESPN+ Streaming Video: https://gocrim.info/t98 URL:https://gocrimson.com/calendar.aspx?game_id=33263&sport_id=23",
    "notes": "",
@@ -522,10 +522,10 @@
     "link": ""
    },
    "audience": {
-    "level": "unknown",
-    "group": "",
-    "evidence": "",
-    "basis": "none"
+    "level": "restricted",
+    "group": "Harvard College students",
+    "evidence": "Harvard College calendar, no sign it is open to others",
+    "basis": "default"
    },
    "summary": "Harvard University Field Hockey vs Princeton TV: ESPN+ Streaming Video: https://www.espn.com/watch/player/_/id/875ad890-c4e2-4bdf-9b3b-2764a2beb197 URL:https://gocrimson.com/calendar.aspx?game_id=33302&sport_id=4",
    "notes": "",
@@ -797,10 +797,10 @@
     "link": ""
    },
    "audience": {
-    "level": "unknown",
-    "group": "",
-    "evidence": "",
-    "basis": "none"
+    "level": "restricted",
+    "group": "Harvard College students",
+    "evidence": "Harvard College calendar, no sign it is open to others",
+    "basis": "default"
    },
    "summary": "Harvard University Men’s Water Polo vs Johns Hopkins TV: ESPN+ Streaming Video: https://gocrim.info/t98 URL:https://gocrimson.com/calendar.aspx?game_id=33264&sport_id=23",
    "notes": "",
@@ -836,10 +836,10 @@
     "link": ""
    },
    "audience": {
-    "level": "unknown",
-    "group": "",
-    "evidence": "",
-    "basis": "none"
+    "level": "restricted",
+    "group": "Harvard College students",
+    "evidence": "Harvard College calendar, no sign it is open to others",
+    "basis": "default"
    },
    "summary": "Harvard University Women’s Volleyball vs Dartmouth College - Pack the MAC TV: ESPN+ Streaming Video: https://www.espn.com/watch/catalog/28907f94-4745-4e26-b0ac-6fd8ffac0aa6/ivy-league#bucketId=29784&sourceCollection=Browse_By_Top_Conferences URL:https://gocrimson.com/calendar.aspx?game_id=33191&sport_id=40",
    "notes": "",
@@ -875,10 +875,10 @@
     "link": "https://soco.college.harvard.edu/rsvp?id=382560"
    },
    "audience": {
-    "level": "likely",
+    "level": "restricted",
     "group": "Harvard College students",
-    "evidence": "College student-organization event",
-    "basis": "inferred"
+    "evidence": "Harvard College calendar, no sign it is open to others",
+    "basis": "default"
    },
    "summary": "Requesting field space for HMSC A game. — Event Details: https://soco.college.harvard.edu/rsvp?id=382560",
    "notes": "",
@@ -914,10 +914,10 @@
     "link": "https://soco.college.harvard.edu/rsvp?id=383012"
    },
    "audience": {
-    "level": "likely",
+    "level": "restricted",
     "group": "Harvard College students",
-    "evidence": "College student-organization event",
-    "basis": "inferred"
+    "evidence": "Harvard College calendar, no sign it is open to others",
+    "basis": "default"
    },
    "summary": "Hear from Crimson alumni Simon Levien ’24 of POLITICO, Matteo Wong ’22 of The Atlantic, Eryn Brown ’93 of Zócalo Public Square (formerly Fortune Magazine and The Los Angeles Times), Marella Gayla ’19 of The New Yorker, and Annie Goldsmith ’19 of ELLE in a panel discussion on the future of narrative journalism. — Event…",
    "notes": "",
@@ -956,7 +956,7 @@
     "link": ""
    },
    "audience": {
-    "level": "likely",
+    "level": "restricted",
     "group": "Winthrop House residents",
     "evidence": "Hosted by Winthrop House",
     "basis": "inferred"
@@ -1034,7 +1034,7 @@
     "link": ""
    },
    "audience": {
-    "level": "likely",
+    "level": "restricted",
     "group": "Winthrop House residents",
     "evidence": "Hosted by Winthrop House",
     "basis": "inferred"
@@ -1073,9 +1073,9 @@
     "link": ""
    },
    "audience": {
-    "level": "likely",
-    "group": "HLS community",
-    "evidence": "Hosted by an HLS student organization",
+    "level": "restricted",
+    "group": "HLS students",
+    "evidence": "Run by an HLS student organization",
     "basis": "inferred"
    },
    "summary": "Join Harvard Law Run Club for a long run at 9am! We will meet outside the WCC between Casperson, Langdell, and Hauser. We will have a 8 mile option, as well as a 10-12 mile option. All paces are welcome! Add to Calendar September 26, 2026, 9:00 pm - 11:00 pm +Google Calendar +iCal/Outlook",
@@ -1236,7 +1236,7 @@
     "link": "https://forms.gle/QgsC33vBCiSGKdYJ8"
    },
    "audience": {
-    "level": "likely",
+    "level": "restricted",
     "group": "members of the organizing group",
     "evidence": "Title: JOLT Fall Subcite",
     "basis": "inferred"
@@ -1356,7 +1356,7 @@
     "link": ""
    },
    "audience": {
-    "level": "likely",
+    "level": "restricted",
     "group": "members of the organizing group",
     "evidence": "Title: Journal on Legislation Fall Subcite",
     "basis": "inferred"
@@ -1436,10 +1436,10 @@
     "link": "https://soco.college.harvard.edu/rsvp?id=383174"
    },
    "audience": {
-    "level": "likely",
+    "level": "restricted",
     "group": "Harvard College students",
-    "evidence": "College student-organization event",
-    "basis": "inferred"
+    "evidence": "Harvard College calendar, no sign it is open to others",
+    "basis": "default"
    },
    "summary": "Start-of-the-season celebration where mentors and families meet for the first time. — Event Details: https://soco.college.harvard.edu/rsvp?id=383174",
    "notes": "",
@@ -1754,7 +1754,7 @@
     "link": ""
    },
    "audience": {
-    "level": "likely",
+    "level": "restricted",
     "group": "Winthrop House residents",
     "evidence": "Hosted by Winthrop House",
     "basis": "inferred"
@@ -1832,10 +1832,10 @@
     "link": "https://soco.college.harvard.edu/rsvp?id=382783"
    },
    "audience": {
-    "level": "likely",
+    "level": "restricted",
     "group": "Harvard College students",
-    "evidence": "College student-organization event",
-    "basis": "inferred"
+    "evidence": "Harvard College calendar, no sign it is open to others",
+    "basis": "default"
    },
    "summary": "This reporting bootcamp will provide an overview of the reporting skills necessary to working for The Crimson for students interested in the news, arts, sports, magazine, and multimedia boards of our newspaper. — Event Details: https://soco.college.harvard.edu/rsvp?id=382783",
    "notes": "",
@@ -1912,10 +1912,10 @@
     "link": ""
    },
    "audience": {
-    "level": "unknown",
-    "group": "",
-    "evidence": "",
-    "basis": "none"
+    "level": "restricted",
+    "group": "Harvard College students",
+    "evidence": "Harvard College calendar, no sign it is open to others",
+    "basis": "default"
    },
    "summary": "Harvard University Health Services (HUHS) will host a week-long flu vaccine clinic from Monday, September 28, through Friday, October 2, 2026, from 10 am to 6 pm in Harvard Commons within the Smith Campus Center. On Monday, September 28, and Tuesday, September 29, extended hours will be available; vaccination will be…",
    "notes": "",
@@ -2224,10 +2224,10 @@
     "link": ""
    },
    "audience": {
-    "level": "unknown",
-    "group": "",
-    "evidence": "",
-    "basis": "none"
+    "level": "restricted",
+    "group": "Harvard College students",
+    "evidence": "Harvard College calendar, no sign it is open to others",
+    "basis": "default"
    },
    "summary": "This exhibition celebrates the evolving work of Boston-based sculptor and ceramic artist Bruce Armitage, a long-time Resident Artist, Teaching Assistant, and Studio Lab Technician at the Ceramics Program, Office for the Arts at Harvard. He focuses on figurative sculpture influenced by classical traditions. Bruce is a…",
    "notes": "",
@@ -2544,10 +2544,10 @@
     "link": ""
    },
    "audience": {
-    "level": "unknown",
-    "group": "",
-    "evidence": "",
-    "basis": "none"
+    "level": "likely",
+    "group": "HLS community",
+    "evidence": "Harvard Law School calendar, audience not stated",
+    "basis": "default"
    },
    "summary": "Share a lunch with Wasserstein Fellow Erin Drake! Erin D. Drake is Senior Advisor & Legal Counsel for the Women’s National Basketball Players Association. In her role, Drake works closely with players and other staff to address social, cultural, workplace, and legal concerns that arise for players and prepares the…",
    "notes": "",
@@ -2670,7 +2670,7 @@
     "link": "http://www.google.com/calendar/event?action=TEMPLATE&text=Winter%20Term%20Opportunities%20Information%20Session&dates=20260928T162000Z/20260928T172000Z&details=HLS%20offers%202Ls,%203Ls%20and%20LL.M.%20students%20the%20opportunity%20to%20pursue%20independent%20clinicals%20or%20research%20and%20writing%20projects%20during%20J-term,%20domestically%20or%20abroad.%20Representatives%20from%20International%20Legal%20Studies,%20the%20Graduate%20Program,%20the%20Office%20of%20Clinical%20and%20Pro%20Bono%20Programs,%20the%20Committee%20on%20the%20Use%20of%20Human%20Subjects,%20and%20the%20HLS%20Registrar%E2%80%99s%20Office%20will%20discuss%20finding%20%5B%E2%80%A6%5D&sprop=Harvard%20Law%20School&location=WCC;%201015%20Classroom,%20,%20,%20,%20,%20"
    },
    "audience": {
-    "level": "likely",
+    "level": "restricted",
     "group": "HLS students",
     "evidence": "Title: Winter Term Opportunities Information Session",
     "basis": "inferred"
@@ -2751,9 +2751,9 @@
     "link": ""
    },
    "audience": {
-    "level": "likely",
-    "group": "HLS community",
-    "evidence": "Hosted by an HLS student organization",
+    "level": "restricted",
+    "group": "HLS students",
+    "evidence": "Run by an HLS student organization",
     "basis": "inferred"
    },
    "summary": "Join Paul, Weiss Corporate attorneys for a discussion on advising global investment firm 3G Capital on its acquisition of Skechers U.S.A., Inc., the world’s third-largest footwear company with $9 billion in annual sales. Food, beverages and promotional materials will be provided. Add to Calendar September 28, 2026,…",
@@ -3082,10 +3082,10 @@
     "link": "https://iop.harvard.edu/events/study-group-chris-whipple-all-presidents-men-and-women-ft-jack-watson"
    },
    "audience": {
-    "level": "harvard",
-    "group": "",
-    "evidence": "*These off-the-record conversations are open to members of the Harvard community.",
-    "basis": "text"
+    "level": "restricted",
+    "group": "HKS students",
+    "evidence": "Title: Study Group with Chris Whipple: All the President's Men & Women ft. Jack Watson",
+    "basis": "inferred"
    },
    "summary": "This session will explore the evolution of the modern White House chief of staff from Richard Nixon's H.R. Haldeman to Donald Trump's Susie Wiles. President Jimmy Carter at first rejected the idea of having an empowered chief; it wasn’t until his last year in office that he appointed Jack Watson to the position. We’ll…",
    "notes": "",
@@ -3291,10 +3291,10 @@
     "link": "https://soco.college.harvard.edu/rsvp?id=383130"
    },
    "audience": {
-    "level": "likely",
+    "level": "restricted",
     "group": "Harvard College students",
-    "evidence": "College student-organization event",
-    "basis": "inferred"
+    "evidence": "Harvard College calendar, no sign it is open to others",
+    "basis": "default"
    },
    "summary": "Harvard alumni Corrigan and Bellew will discuss their time at the College, career trajectories and views on impact investing in the American national interest. — Event Details: https://soco.college.harvard.edu/rsvp?id=383130",
    "notes": "",
@@ -3330,7 +3330,7 @@
     "link": ""
    },
    "audience": {
-    "level": "likely",
+    "level": "restricted",
     "group": "members of the organizing group",
     "evidence": "Title: National Security Journal Subcite",
     "basis": "inferred"
@@ -3369,10 +3369,10 @@
     "link": ""
    },
    "audience": {
-    "level": "public",
-    "group": "",
-    "evidence": "All are welcome to join.",
-    "basis": "text"
+    "level": "restricted",
+    "group": "HLS 1Ls students",
+    "evidence": "Title: JD/MBA Joint Degree Information Session for 1Ls",
+    "basis": "inferred"
    },
    "summary": "Attend a virtual information session to learn about the JD/MBA joint degree program. HLS and HBS admissions staff will provide an overview of the program and application process. A panel of alumni will share their experiences and answer questions. All are welcome to join. You will not be required to turn your camera…",
    "notes": "",
@@ -3447,10 +3447,10 @@
     "link": ""
    },
    "audience": {
-    "level": "unknown",
-    "group": "",
-    "evidence": "",
-    "basis": "none"
+    "level": "restricted",
+    "group": "Harvard College students",
+    "evidence": "Harvard College calendar, no sign it is open to others",
+    "basis": "default"
    },
    "summary": "The Mindfulness Institute for Emerging Adults (formerly Koru) Introduction to Mindfulness is a four-week introduction to the practice of Mindfulness. Mindfulness is about developing the ability to be fully attentive to all of the moments of your life, reducing the amount of time you spend worrying about the future or…",
    "notes": "",
@@ -3527,10 +3527,10 @@
     "link": ""
    },
    "audience": {
-    "level": "unknown",
-    "group": "",
-    "evidence": "",
-    "basis": "none"
+    "level": "restricted",
+    "group": "Harvard College students",
+    "evidence": "Harvard College calendar, no sign it is open to others",
+    "basis": "default"
    },
    "summary": "Harvard University Health Services (HUHS) will host a week-long flu vaccine clinic from Monday, September 28, through Friday, October 2, 2026, from 10 am to 6 pm in Harvard Commons within the Smith Campus Center. On Monday, September 28, and Tuesday, September 29, extended hours will be available; vaccination will be…",
    "notes": "",
@@ -3765,9 +3765,9 @@
     "link": ""
    },
    "audience": {
-    "level": "likely",
-    "group": "HLS community",
-    "evidence": "Hosted by an HLS student organization",
+    "level": "restricted",
+    "group": "HLS students",
+    "evidence": "Run by an HLS student organization",
     "basis": "inferred"
    },
    "summary": "Join us for our first event of the year! Come enjoy coffee + donuts, meet fellow members, and connect with the 2026–2027 HALO Executive Board. Add to Calendar September 29, 2026, 9:00 am - 10:00 am +Google Calendar +iCal/Outlook",
@@ -3921,10 +3921,10 @@
     "link": ""
    },
    "audience": {
-    "level": "unknown",
-    "group": "",
-    "evidence": "",
-    "basis": "none"
+    "level": "restricted",
+    "group": "Harvard College students",
+    "evidence": "Harvard College calendar, no sign it is open to others",
+    "basis": "default"
    },
    "summary": "This exhibition celebrates the evolving work of Boston-based sculptor and ceramic artist Bruce Armitage, a long-time Resident Artist, Teaching Assistant, and Studio Lab Technician at the Ceramics Program, Office for the Arts at Harvard. He focuses on figurative sculpture influenced by classical traditions. Bruce is a…",
    "notes": "",
@@ -4038,10 +4038,10 @@
     "link": "https://soco.college.harvard.edu/rsvp?id=382531"
    },
    "audience": {
-    "level": "likely",
+    "level": "restricted",
     "group": "Harvard College students",
-    "evidence": "College student-organization event",
-    "basis": "inferred"
+    "evidence": "Harvard College calendar, no sign it is open to others",
+    "basis": "default"
    },
    "summary": "Tuesday, September 29 11:30am - 5:30pm Science Center Plaza Last Open Market of the Season. Featuring the farm-fresh vendors you know and love, treats to eat at the Plaza or take home plus monthly community and campus partners pop-up promotions, performances, and showcases! — Event Details:…",
    "notes": "",
@@ -4316,7 +4316,7 @@
     "link": ""
    },
    "audience": {
-    "level": "likely",
+    "level": "restricted",
     "group": "HLS students (recruiting event)",
     "evidence": "Title: HALB – Intro to Big Law",
     "basis": "inferred"
@@ -4767,10 +4767,10 @@
     "link": "https://calendly.com/alumnicenter/alumni-in-residence-with-boisseau"
    },
    "audience": {
-    "level": "unknown",
-    "group": "",
-    "evidence": "",
-    "basis": "none"
+    "level": "likely",
+    "group": "HLS community",
+    "evidence": "Harvard Law School calendar, audience not stated",
+    "basis": "default"
    },
    "summary": "Tuesday, September 29, 2026, from 3:00 p.m.- 5:00 p.m. ET The Alumni in Residence program connects current HLS students with accomplished HLS alumni for one-on-one career mentoring and advice. You’re invited to meet with Justin Boisseau J.D. ’99 during their virtual office hours. Sign up for a 20-minute Zoom…",
    "notes": "",
@@ -4929,10 +4929,10 @@
     "link": ""
    },
    "audience": {
-    "level": "unknown",
-    "group": "",
-    "evidence": "",
-    "basis": "none"
+    "level": "restricted",
+    "group": "Harvard College students",
+    "evidence": "Harvard College calendar, no sign it is open to others",
+    "basis": "default"
    },
    "summary": "Grief can feel especially isolating while navigating the demands of university life. This ongoing group offers a supportive space for students to talk about coping with significant loss. Students who have experienced the death of a loved one, sibling, partner, or friend—whether recently or in the past—are welcome.…",
    "notes": "",
@@ -4968,10 +4968,10 @@
     "link": "https://iop.harvard.edu/events/study-group-ambassador-kelly-craft-artificial-intelligence-race-unknown-ft-stephen-garrison"
    },
    "audience": {
-    "level": "harvard",
-    "group": "",
-    "evidence": "*These off-the-record conversations are open to members of the Harvard community.",
-    "basis": "text"
+    "level": "restricted",
+    "group": "HKS students",
+    "evidence": "Title: Amb. Kelly Craft Study Group: Artificial Intelligence: The Race Into the Unknown",
+    "basis": "inferred"
    },
    "summary": "America and China are racing to lead the technology that could redefine civilization—but what happens when we don’t know where the finish line is? IN-PERSON GUEST: Stephen Garrison, CEO of the Cicero Institute *These off-the-record conversations are open to members of the Harvard community. Please RSVP with a valid…",
    "notes": "",
@@ -5046,10 +5046,10 @@
     "link": ""
    },
    "audience": {
-    "level": "unknown",
-    "group": "",
-    "evidence": "",
-    "basis": "none"
+    "level": "restricted",
+    "group": "Harvard College students",
+    "evidence": "Harvard College calendar, no sign it is open to others",
+    "basis": "default"
    },
    "summary": "The Mindfulness Institute for Emerging Adults (formerly Koru) Introduction to Mindfulness is a four-week introduction to the practice of Mindfulness. Mindfulness is about developing the ability to be fully attentive to all of the moments of your life, reducing the amount of time you spend worrying about the future or…",
    "notes": "",
@@ -5205,10 +5205,10 @@
     "link": "https://iop.harvard.edu/events/study-group-chris-whipple-all-presidents-men-and-women-ft-chris-liddell"
    },
    "audience": {
-    "level": "harvard",
-    "group": "",
-    "evidence": "*These off-the-record conversations are open to members of the Harvard community.",
-    "basis": "text"
+    "level": "restricted",
+    "group": "HKS students",
+    "evidence": "Title: Study Group with Chris Whipple: All the President’s Men & Women ft Chris Liddell",
+    "basis": "inferred"
    },
    "summary": "Why is the chief of staff so essential to the administration’s success? And why is it so important that he, or she, be empowered to execute the president’s agenda? We’ll look at how and why Donald Trump churned through four largely ineffective chiefs during his first term in office. And we’ll examine the chief’s role…",
    "notes": "",
@@ -5502,9 +5502,9 @@
     "link": "http://www.google.com/calendar/event?action=TEMPLATE&text=HLS%20Dems%20Reading%20Group:%20FDR%20and%20the%20New%20Deal&dates=20260929T220000Z/20260929T233000Z&details=Join%20HLS%20Dems%20for%20our%20first%20reading%20group%20on%20the%20New%20Deal%20and%20FDR!%20Light%20food%20will%20be%20provided.%20We%E2%80%99ll%20send%20more%20info%20about%20the%20discussion%20topics%20in%20our%20newsletter%20so%20stay%20tuned!%20Location%20available%20upon%20RSVP.&sprop=Harvard%20Law%20School"
    },
    "audience": {
-    "level": "likely",
-    "group": "HLS community",
-    "evidence": "Hosted by an HLS student organization",
+    "level": "restricted",
+    "group": "HLS students",
+    "evidence": "Run by an HLS student organization",
     "basis": "inferred"
    },
    "summary": "Join HLS Dems for our first reading group on the New Deal and FDR! Light food will be provided. We’ll send more info about the discussion topics in our newsletter so stay tuned! Location available upon RSVP. Add to Calendar September 29, 2026, 6:00 pm - 7:30 pm +Google Calendar +iCal/Outlook",
@@ -5624,10 +5624,10 @@
     "link": "https://harvard.az1.qualtrics.com/jfe/form/SV_82m4C35dXCHndoG"
    },
    "audience": {
-    "level": "unknown",
-    "group": "",
-    "evidence": "",
-    "basis": "none"
+    "level": "likely",
+    "group": "HLS community",
+    "evidence": "Harvard Law School calendar, audience not stated",
+    "basis": "default"
    },
    "summary": "We invite the HLS student community to a special evening event in which faculty will discuss the centrality of public service in the practice and study of law. Moderator: Alexandra Natapoff Panelists: Guy-Uriel Charles Ryan Doerfler Kristen Eichensehr Jody Freeman Naz K. Modirzadeh Ben Sachs Register here for the…",
    "notes": "",
@@ -5860,10 +5860,10 @@
     "link": ""
    },
    "audience": {
-    "level": "unknown",
-    "group": "",
-    "evidence": "",
-    "basis": "none"
+    "level": "restricted",
+    "group": "Harvard College students",
+    "evidence": "Harvard College calendar, no sign it is open to others",
+    "basis": "default"
    },
    "summary": "Harvard University Health Services (HUHS) will host a week-long flu vaccine clinic from Monday, September 28, through Friday, October 2, 2026, from 10 am to 6 pm in Harvard Commons within the Smith Campus Center. On Monday, September 28, and Tuesday, September 29, extended hours will be available; vaccination will be…",
    "notes": "",
@@ -6214,10 +6214,10 @@
     "link": ""
    },
    "audience": {
-    "level": "unknown",
-    "group": "",
-    "evidence": "",
-    "basis": "none"
+    "level": "restricted",
+    "group": "Harvard College students",
+    "evidence": "Harvard College calendar, no sign it is open to others",
+    "basis": "default"
    },
    "summary": "This exhibition celebrates the evolving work of Boston-based sculptor and ceramic artist Bruce Armitage, a long-time Resident Artist, Teaching Assistant, and Studio Lab Technician at the Ceramics Program, Office for the Arts at Harvard. He focuses on figurative sculpture influenced by classical traditions. Bruce is a…",
    "notes": "",
@@ -6571,10 +6571,10 @@
     "link": "https://soco.college.harvard.edu/rsvp?id=383067"
    },
    "audience": {
-    "level": "likely",
+    "level": "restricted",
     "group": "Harvard College students",
-    "evidence": "College student-organization event",
-    "basis": "inferred"
+    "evidence": "Harvard College calendar, no sign it is open to others",
+    "basis": "default"
    },
    "summary": "THE SHINY SHOP Be seen. Be safe. Be shiny. Sep. 9 through Oct. 15, 2026 Wednesdays 2-6PM | Thursdays 12-6PM Stop by to create and mend with Alex Makes Art. Bring your helmet, commuter gear, or whatever could use a little love. Get crafty, get connected + leave a little shinier! Follow us for more info:…",
    "notes": "",
@@ -6939,7 +6939,7 @@
     "link": "https://partiful.com/e/ZpUV8sf7VHyHzO12aZdW?c=nW0dwrQX"
    },
    "audience": {
-    "level": "likely",
+    "level": "restricted",
     "group": "HLS students",
     "evidence": "Title: Parody Leadership & Creative Team Info Session",
     "basis": "inferred"
@@ -7017,9 +7017,9 @@
     "link": ""
    },
    "audience": {
-    "level": "likely",
-    "group": "HLS community",
-    "evidence": "Hosted by an HLS student organization",
+    "level": "restricted",
+    "group": "HLS students",
+    "evidence": "Run by an HLS student organization",
     "basis": "inferred"
    },
    "summary": "Join the BSA, DOS-CEEB, and the Well for a structuring time and wellness panel on Wednesday, September 30th, in WCC 2004 from 12:30-1:15 PM. The panel will feature current BSAs who can speak to their experience balancing academics with job applications, extracurricular involvements, and their wellness needs. We will…",
@@ -7137,10 +7137,10 @@
     "link": ""
    },
    "audience": {
-    "level": "unknown",
-    "group": "",
-    "evidence": "",
-    "basis": "none"
+    "level": "restricted",
+    "group": "Harvard College students",
+    "evidence": "Harvard College calendar, no sign it is open to others",
+    "basis": "default"
    },
    "summary": "Whether you’re new to reading the Bible, have studied it for years, or are just curious about what it says, you are welcome to listen, learn, and reflect on the wisdom within its pages. Scripture in Community meets over lunch to read and listen to Bible passages together – from the Psalms, the Old Testament, and the…",
    "notes": "",
@@ -7254,10 +7254,10 @@
     "link": "https://soco.college.harvard.edu/rsvp?id=382536"
    },
    "audience": {
-    "level": "likely",
+    "level": "restricted",
     "group": "Harvard College students",
-    "evidence": "College student-organization event",
-    "basis": "inferred"
+    "evidence": "Harvard College calendar, no sign it is open to others",
+    "basis": "default"
    },
    "summary": "Alvèole: What’s the Buzz? From Hive to Honey Sep. 30th. Smith Campus Center, Conference Suite, 10th floor 2:00-3:00pm Join us for an exclusive, hands-on honey extraction workshop where you get to take home your own jar! Save your spot following the link below: https://myhive.alveole.buzz/harvard-smith-campus-center —…",
    "notes": "",
@@ -7378,10 +7378,10 @@
     "link": "https://iop.harvard.edu/events/study-group-ambassador-nathalie-rayes-advocacy-arts-building-power-institutions-and"
    },
    "audience": {
-    "level": "harvard",
-    "group": "",
-    "evidence": "*These off-the-record conversations are open to members of the Harvard community.",
-    "basis": "text"
+    "level": "restricted",
+    "group": "HKS students",
+    "evidence": "Title: Study Group with Amb. Nathalie Rayes: From Advocacy to the Arts",
+    "basis": "inferred"
    },
    "summary": "Study Group with Ambassador Nathalie Rayes: From Advocacy to the Arts: Building Power, Institutions, and Community ft. Frankie Miranda & Luis Miranda What does it take to build something that lasts—and know when it’s time to reinvent? Luis A. Miranda Jr., philanthropist, strategist, author, producer, and founding…",
    "notes": "",
@@ -7420,10 +7420,10 @@
     "link": "https://events.college.harvard.edu/event/225044-harvard-financial-literacy-program-hflp-kick-off"
    },
    "audience": {
-    "level": "unknown",
-    "group": "",
-    "evidence": "",
-    "basis": "none"
+    "level": "restricted",
+    "group": "Harvard College students",
+    "evidence": "Harvard College calendar, no sign it is open to others",
+    "basis": "default"
    },
    "summary": "Harvard Financial Literacy Kick-Off Event - there will be Harvard Financial Literacy Program Student Interns, information on our program, Felipe’s tacos, and Union Square Donuts! You and any of your students are invited to this event. We hope to see you there and we hope to continue our robust partnerships! Feel free…",
    "notes": "",
@@ -7505,10 +7505,10 @@
     "link": "https://iop.harvard.edu/events/study-group-governor-doug-ducey-leading-governing-0"
    },
    "audience": {
-    "level": "harvard",
-    "group": "",
-    "evidence": "*These off-the-record conversations are open to members of the Harvard community.",
-    "basis": "text"
+    "level": "restricted",
+    "group": "HKS students",
+    "evidence": "Title: Study Group with Governor Doug Ducey: Leading & Governing",
+    "basis": "inferred"
    },
    "summary": "You can’t govern if you don’t win the election. This session will discuss what it takes to win a primary election while not disqualifying yourself for the general election. We’ll go behind the scenes and discuss everything from getting one’s name on a ballot, fundraising, hiring a team, building a grass-roots…",
    "notes": "",
@@ -7583,10 +7583,10 @@
     "link": ""
    },
    "audience": {
-    "level": "unknown",
-    "group": "",
-    "evidence": "",
-    "basis": "none"
+    "level": "restricted",
+    "group": "Harvard College students",
+    "evidence": "Harvard College calendar, no sign it is open to others",
+    "basis": "default"
    },
    "summary": "The Mindfulness Institute for Emerging Adults (formerly Koru) Introduction to Mindfulness is a four-week introduction to the practice of Mindfulness. Mindfulness is about developing the ability to be fully attentive to all of the moments of your life, reducing the amount of time you spend worrying about the future or…",
    "notes": "",
@@ -7622,10 +7622,10 @@
     "link": ""
    },
    "audience": {
-    "level": "unknown",
-    "group": "",
-    "evidence": "",
-    "basis": "none"
+    "level": "restricted",
+    "group": "Harvard College students",
+    "evidence": "Harvard College calendar, no sign it is open to others",
+    "basis": "default"
    },
    "summary": "Get to know Kyungmin Park, 2026-2027 Artist-in-Residence, at the Ceramics Program, Office for the Arts at Harvard",
    "notes": "",
@@ -7788,10 +7788,10 @@
     "link": "https://soco.college.harvard.edu/rsvp?id=383170"
    },
    "audience": {
-    "level": "likely",
+    "level": "restricted",
     "group": "Harvard College students",
-    "evidence": "College student-organization event",
-    "basis": "inferred"
+    "evidence": "Harvard College calendar, no sign it is open to others",
+    "basis": "default"
    },
    "summary": "Make up session for the required Hazing Prevention Training for club sport officers. — Event Details: https://soco.college.harvard.edu/rsvp?id=383170",
    "notes": "",
@@ -8039,10 +8039,10 @@
     "link": ""
    },
    "audience": {
-    "level": "public",
-    "group": "",
-    "evidence": "NALSA is open to all Indigenous-identifying students, allies, and anyone interested in federal Indian law.",
-    "basis": "text"
+    "level": "restricted",
+    "group": "members of the organizing group",
+    "evidence": "Title: NALSA General Body Meeting",
+    "basis": "inferred"
    },
    "summary": "Join us for the HLS Native American Law Students Association first general body meeting of the year! Come meet fellow members, learn about our upcoming events and opportunities, and enjoy dinner. NALSA is open to all Indigenous-identifying students, allies, and anyone interested in federal Indian law. Add to Calendar…",
    "notes": "",
@@ -8216,10 +8216,10 @@
     "link": ""
    },
    "audience": {
-    "level": "unknown",
-    "group": "",
-    "evidence": "",
-    "basis": "none"
+    "level": "likely",
+    "group": "HLS community",
+    "evidence": "Harvard Law School calendar, audience not stated",
+    "basis": "default"
    },
    "summary": "Come to HLS Pub Trivia! Bring friends, grab a drink, and test your knowledge. Trivia takes place every Wednesday from 7–9pm in the HLS Pub. Add to Calendar September 30, 2026, 7:00 pm - 9:00 pm +Google Calendar +iCal/Outlook",
    "notes": "",
@@ -8255,9 +8255,9 @@
     "link": ""
    },
    "audience": {
-    "level": "likely",
-    "group": "HLS community",
-    "evidence": "Hosted by an HLS student organization",
+    "level": "restricted",
+    "group": "HLS students",
+    "evidence": "Run by an HLS student organization",
     "basis": "inferred"
    },
    "summary": "Add to Calendar September 30, 2026, 7:00 pm - 9:00 pm +Google Calendar +iCal/Outlook",
@@ -8335,10 +8335,10 @@
     "link": ""
    },
    "audience": {
-    "level": "unknown",
-    "group": "",
-    "evidence": "",
-    "basis": "none"
+    "level": "restricted",
+    "group": "Harvard College students",
+    "evidence": "Harvard College calendar, no sign it is open to others",
+    "basis": "default"
    },
    "summary": "Harvard University Health Services (HUHS) will host a week-long flu vaccine clinic from Monday, September 28, through Friday, October 2, 2026, from 10 am to 6 pm in Harvard Commons within the Smith Campus Center. On Monday, September 28, and Tuesday, September 29, extended hours will be available; vaccination will be…",
    "notes": "",
@@ -8768,10 +8768,10 @@
     "link": ""
    },
    "audience": {
-    "level": "unknown",
-    "group": "",
-    "evidence": "",
-    "basis": "none"
+    "level": "restricted",
+    "group": "Harvard College students",
+    "evidence": "Harvard College calendar, no sign it is open to others",
+    "basis": "default"
    },
    "summary": "This exhibition celebrates the evolving work of Boston-based sculptor and ceramic artist Bruce Armitage, a long-time Resident Artist, Teaching Assistant, and Studio Lab Technician at the Ceramics Program, Office for the Arts at Harvard. He focuses on figurative sculpture influenced by classical traditions. Bruce is a…",
    "notes": "",
@@ -8924,10 +8924,10 @@
     "link": ""
    },
    "audience": {
-    "level": "unknown",
-    "group": "",
-    "evidence": "",
-    "basis": "none"
+    "level": "likely",
+    "group": "HLS community",
+    "evidence": "Harvard Law School calendar, audience not stated",
+    "basis": "default"
    },
    "summary": "Registration is required for both online and in-person attendance: bsy.sh/q5C2d9p Lunch 12-1pm Panel 1-230pm As the government prepares for the 2030 Census, this vital dataset—produced by the government for the governed—has come under scrutiny. The Office of Management and Budget is reviewing significant changes for…",
    "notes": "",
@@ -8963,7 +8963,7 @@
     "link": ""
    },
    "audience": {
-    "level": "likely",
+    "level": "restricted",
     "group": "HLS students",
     "evidence": "Title: HIO Office Hours with Peter O’Meara (WCC 5th Floor)",
     "basis": "inferred"
@@ -9041,10 +9041,10 @@
     "link": ""
    },
    "audience": {
-    "level": "unknown",
-    "group": "",
-    "evidence": "",
-    "basis": "none"
+    "level": "restricted",
+    "group": "Harvard College students",
+    "evidence": "Harvard College calendar, no sign it is open to others",
+    "basis": "default"
    },
    "summary": "The Mindfulness Institute for Emerging Adults (formerly Koru) Introduction to Mindfulness is a four-week introduction to the practice of Mindfulness. Mindfulness is about developing the ability to be fully attentive to all of the moments of your life, reducing the amount of time you spend worrying about the future or…",
    "notes": "",
@@ -9119,10 +9119,10 @@
     "link": "https://soco.college.harvard.edu/rsvp?id=383068"
    },
    "audience": {
-    "level": "likely",
+    "level": "restricted",
     "group": "Harvard College students",
-    "evidence": "College student-organization event",
-    "basis": "inferred"
+    "evidence": "Harvard College calendar, no sign it is open to others",
+    "basis": "default"
    },
    "summary": "THE SHINY SHOP Be seen. Be safe. Be shiny. Sep. 9 through Oct. 15, 2026 Wednesdays 2-6PM | Thursdays 12-6PM Stop by to create and mend with Alex Makes Art. Bring your helmet, commuter gear, or whatever could use a little love. Get crafty, get connected + leave a little shinier! Follow us for more info:…",
    "notes": "",
@@ -9238,10 +9238,10 @@
     "link": ""
    },
    "audience": {
-    "level": "unknown",
-    "group": "",
-    "evidence": "",
-    "basis": "none"
+    "level": "likely",
+    "group": "HLS community",
+    "evidence": "Harvard Law School calendar, audience not stated",
+    "basis": "default"
    },
    "summary": "Digital platforms now dominate the creative industries, yet the value they generate is shared unevenly – from how streaming platforms compensate musicians to how AI companies use creative works as training data. This imbalance, Yaniv argues, threatens both human creativity and cultural diversity. In his new book,…",
    "notes": "",
@@ -9360,9 +9360,9 @@
     "link": ""
    },
    "audience": {
-    "level": "likely",
-    "group": "HLS community",
-    "evidence": "Hosted by an HLS student organization",
+    "level": "restricted",
+    "group": "HLS students",
+    "evidence": "Run by an HLS student organization",
     "basis": "inferred"
    },
    "summary": "Add to Calendar October 1, 2026, 12:30 pm - 1:15 pm +Google Calendar +iCal/Outlook",
@@ -9648,10 +9648,10 @@
     "link": "https://us02web.zoom.us/webinar/register/WN_2AjavYpTRDyTO1qnj4gkEA#/registration"
    },
    "audience": {
-    "level": "unknown",
-    "group": "",
-    "evidence": "",
-    "basis": "none"
+    "level": "likely",
+    "group": "HLS community",
+    "evidence": "Harvard Law School calendar, audience not stated",
+    "basis": "default"
    },
    "summary": "The Supreme Court is a cornerstone of the American governance infrastructure as well as a traditional guardian of rule of law. This webinar is inspired by Richard Re’s essay “A Court of Two Crises,” in which he describes a Court beleaguered by the aggressive legal claims of the Trump administration, and the public…",
    "notes": "",
@@ -9773,7 +9773,7 @@
     "link": ""
    },
    "audience": {
-    "level": "likely",
+    "level": "restricted",
     "group": "undergraduates",
     "evidence": "Title: Study Abroad in East Asia Info Session, Hosted by the Concentration in East Asian Studies",
     "basis": "inferred"
@@ -9853,10 +9853,10 @@
     "link": "https://events.college.harvard.edu/event/224889-afternoon-tea-at-the-study-of-religion"
    },
    "audience": {
-    "level": "unknown",
-    "group": "",
-    "evidence": "",
-    "basis": "none"
+    "level": "restricted",
+    "group": "Harvard College students",
+    "evidence": "Harvard College calendar, no sign it is open to others",
+    "basis": "default"
    },
    "summary": "Join students, faculty and staff for informal afternoon tea, every Thursday while classes are in session. All welcome!",
    "notes": "",
@@ -9892,10 +9892,10 @@
     "link": "https://calendly.com/alumnicenter/alumni-in-residence-with-katz"
    },
    "audience": {
-    "level": "unknown",
-    "group": "",
-    "evidence": "",
-    "basis": "none"
+    "level": "likely",
+    "group": "HLS community",
+    "evidence": "Harvard Law School calendar, audience not stated",
+    "basis": "default"
    },
    "summary": "Thursday, October 1, 2026, from 3:00 p.m.- 5:00 p.m. ET The Alumni in Residence program connects current HLS students with accomplished HLS alumni for one-on-one career mentoring and advice. You’re invited to meet with James Katz J.D. ’08 during their virtual office hours. Sign up for a 20-minute Zoom appointment.…",
    "notes": "",
@@ -9977,10 +9977,10 @@
     "link": "https://iop.harvard.edu/events/study-group-chris-whipple-all-presidents-men-and-women-ft-james-carville"
    },
    "audience": {
-    "level": "harvard",
-    "group": "",
-    "evidence": "*These off-the-record conversations are open to members of the Harvard community.",
-    "basis": "text"
+    "level": "restricted",
+    "group": "HKS students",
+    "evidence": "Title: Chris Whipple Study Group: All the President’s Men & Women ft. James Carville",
+    "basis": "inferred"
    },
    "summary": "We’ll look at the essential role played by campaign managers and top political strategists in the election of the president. If elections are battles for the soul of the nation, campaign managers and strategists are the commanders. James Carville, the renowned strategist who led Bill Clinton’s victorious presidential…",
    "notes": "",
@@ -10136,7 +10136,7 @@
     "link": "https://www.hks.harvard.edu/centers/cpl/fellowships/david-gergen-summer-fellowship-program"
    },
    "audience": {
-    "level": "likely",
+    "level": "restricted",
     "group": "HKS students",
     "evidence": "Title: Gergen Summer Fellowship Information Session",
     "basis": "inferred"
@@ -10493,7 +10493,7 @@
     "link": ""
    },
    "audience": {
-    "level": "likely",
+    "level": "restricted",
     "group": "Winthrop House residents",
     "evidence": "Hosted by Winthrop House",
     "basis": "inferred"
@@ -10612,10 +10612,10 @@
     "link": ""
    },
    "audience": {
-    "level": "unknown",
-    "group": "",
-    "evidence": "",
-    "basis": "none"
+    "level": "restricted",
+    "group": "Harvard College students",
+    "evidence": "Harvard College calendar, no sign it is open to others",
+    "basis": "default"
    },
    "summary": "Harvard University Health Services (HUHS) will host a week-long flu vaccine clinic from Monday, September 28, through Friday, October 2, 2026, from 10 am to 6 pm in Harvard Commons within the Smith Campus Center. On Monday, September 28, and Tuesday, September 29, extended hours will be available; vaccination will be…",
    "notes": "",
@@ -10651,10 +10651,10 @@
     "link": ""
    },
    "audience": {
-    "level": "unknown",
-    "group": "",
-    "evidence": "",
-    "basis": "none"
+    "level": "restricted",
+    "group": "Harvard College students",
+    "evidence": "Harvard College calendar, no sign it is open to others",
+    "basis": "default"
    },
    "summary": "Harvard University Women’s Tennis vs Harvard Fall Classic URL:https://gocrimson.com/calendar.aspx?game_id=33569&sport_id=38",
    "notes": "",
@@ -11086,10 +11086,10 @@
     "link": ""
    },
    "audience": {
-    "level": "unknown",
-    "group": "",
-    "evidence": "",
-    "basis": "none"
+    "level": "restricted",
+    "group": "Harvard College students",
+    "evidence": "Harvard College calendar, no sign it is open to others",
+    "basis": "default"
    },
    "summary": "This exhibition celebrates the evolving work of Boston-based sculptor and ceramic artist Bruce Armitage, a long-time Resident Artist, Teaching Assistant, and Studio Lab Technician at the Ceramics Program, Office for the Arts at Harvard. He focuses on figurative sculpture influenced by classical traditions. Bruce is a…",
    "notes": "",
@@ -11281,7 +11281,7 @@
     "link": ""
    },
    "audience": {
-    "level": "likely",
+    "level": "restricted",
     "group": "HLS students",
     "evidence": "Title: J.D. Academic Advising Drop-Ins",
     "basis": "inferred"
@@ -11401,9 +11401,9 @@
     "link": ""
    },
    "audience": {
-    "level": "likely",
-    "group": "HLS community",
-    "evidence": "Hosted by an HLS student organization",
+    "level": "restricted",
+    "group": "HLS students",
+    "evidence": "Run by an HLS student organization",
     "basis": "inferred"
    },
    "summary": "Over the summer, the Supreme Court — with its ruling in Cisco v. Doe — closed the door on recognizing modern international human rights law claims under the Alien Tort Statute, overturning the Court’s Sosa v. Alvarez-Machain decision and reversing a line of cases dating to 1980. This panel will examine the reasoning…",
@@ -11567,10 +11567,10 @@
     "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001i6HFIAY"
    },
    "audience": {
-    "level": "harvard",
-    "group": "",
-    "evidence": "This class is open to a wide audience including Harvard students, faculty, fellows, staff members, as well as students and scholars from the greater Boston area.",
-    "basis": "text"
+    "level": "restricted",
+    "group": "HKS students",
+    "evidence": "Title: Indonesian Language Class - October 2",
+    "basis": "inferred"
    },
    "summary": "The Rajawali Foundation Institute for Asia invites you to join a not-for-credit Bahasa Indonesia and culture course. This class is open to a wide audience including Harvard students, faculty, fellows, staff members, as well as students and scholars from the greater Boston area. Your instructor, Ricardus Williams Djee…",
    "notes": "",
@@ -11935,10 +11935,10 @@
     "link": "https://soco.college.harvard.edu/rsvp?id=382917"
    },
    "audience": {
-    "level": "likely",
+    "level": "restricted",
     "group": "Harvard College students",
-    "evidence": "College student-organization event",
-    "basis": "inferred"
+    "evidence": "Harvard College calendar, no sign it is open to others",
+    "basis": "default"
    },
    "summary": "We are hosting UConn’s rugby team for two Saturday afternoon matches for our A-side and B-side. — Event Details: https://soco.college.harvard.edu/rsvp?id=382917",
    "notes": "",
@@ -12091,10 +12091,10 @@
     "link": ""
    },
    "audience": {
-    "level": "unknown",
-    "group": "",
-    "evidence": "",
-    "basis": "none"
+    "level": "restricted",
+    "group": "Harvard College students",
+    "evidence": "Harvard College calendar, no sign it is open to others",
+    "basis": "default"
    },
    "summary": "Harvard University Women’s Tennis vs Harvard Fall Classic URL:https://gocrimson.com/calendar.aspx?game_id=33569&sport_id=38",
    "notes": "",
