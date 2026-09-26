@@ -1,0 +1,71 @@
+# Scans the Harvard calendars and publishes the website on GitHub Pages.
+# Runs twice a day, after every push, and on demand (Actions tab -> "Scan and publish" -> Run workflow).
+name: Scan and publish
+
+on:
+  schedule:
+    - cron: "0 10 * * *"   # 6:00 AM Boston in summer time (5:00 AM in winter); GitHub uses UTC
+    - cron: "0 16 * * *"   # noon Boston: picks up events posted that morning
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write          # to save the day's events.json back to the repository
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install
+        run: pip install -r requirements.txt
+
+      - name: Scan calendars
+        run: python scan.py
+        env:
+          # optional newsletter mailbox; set these under Settings -> Secrets and variables -> Actions
+          FFM_IMAP_HOST: ${{ secrets.FFM_IMAP_HOST }}
+          FFM_IMAP_USER: ${{ secrets.FFM_IMAP_USER }}
+          FFM_IMAP_PASSWORD: ${{ secrets.FFM_IMAP_PASSWORD }}
+          FFM_IMAP_FROM: ${{ secrets.FFM_IMAP_FROM }}
+
+      - name: Build site (stops here if the scan looks broken)
+        run: python tools/build_site.py --ping-votes
+
+      - name: Save the scan to the repository
+        # keeps a history of the data, and keeps GitHub from pausing this schedule after 60 quiet days
+        continue-on-error: true      # never block publishing because of this step
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/events.json data/geocache.json
+          git diff --cached --quiet || git commit -m "Daily scan $(date -u +%Y-%m-%d)"
+          git pull --rebase --autostash && git push
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: scan
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

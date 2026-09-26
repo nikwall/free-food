@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Your Last Name is Nieman.</title>
+<meta name="description" content="Harvard talks, seminars and receptions that come with food, collected daily for Nieman Fellows.">
+<meta name="theme-color" content="#A51C30">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Free Food">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" type="image/png" href="icons/favicon-64.png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&family=Work+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="vendor/leaflet.css">
+<link rel="stylesheet" href="style.css?v=6">
+</head>
+<body>
+<header class="appbar">
+  <div class="brand">
+    <span class="mark">Your Last Name is Nieman.</span>
+    <span class="for">So you have to search for free food.</span>
+  </div>
+  <div class="bar-actions">
+    <span id="updated" class="updated">Loading…</span>
+    <button id="aboutBtn" class="icon-btn desk-only" type="button" aria-label="About and sources" title="About and sources">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7.5v.5"/></svg>
+    </button>
+    <button id="filterBtn" class="icon-btn mobile-only" type="button" aria-label="Filters" aria-expanded="false" aria-controls="filters" title="Filters">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M7 12h10M10 18h4"/></svg>
+      <span class="count" id="filterCount" hidden></span>
+    </button>
+    <button id="rescan" class="icon-btn" type="button" aria-label="Scan calendars now" title="Scan calendars now">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 12a8 8 0 1 1-2.3-5.6M20 4v5h-5"/></svg>
+    </button>
+  </div>
+</header>
+
+<nav class="days" id="days" aria-label="Choose a day"></nav>
+
+<section class="filters" id="filters" aria-label="Filters">
+  <div class="sheet-head mobile-only"><h2>Filters</h2><button type="button" class="link-btn" id="filtersDone">Done</button></div>
+  <div class="frow">
+    <span class="flabel">Food</span>
+    <div class="seg" role="group" aria-label="Certainty">
+      <button type="button" data-cert="confirmed">Confirmed</button>
+      <button type="button" data-cert="all" class="on">+ Likely</button>
+    </div>
+  </div>
+  <div class="frow">
+    <span class="flabel">Who</span>
+    <div class="seg" role="group" aria-label="Audience">
+      <button type="button" data-aud="open" class="on" title="Hide events limited to a school, class year, House or group">Open to fellows</button>
+      <button type="button" data-aud="all">Include restricted</button>
+    </div>
+  </div>
+  <div class="frow chips-row"><span class="flabel">Type</span><div class="chips" id="chips" role="group" aria-label="Food type"></div></div>
+  <div class="frow checks">
+    <label class="check"><input type="checkbox" id="noreg"> Hide registration-required</label>
+    <label class="check"><input type="checkbox" id="hidedone" checked> Hide finished</label>
+    <label class="check"><input type="checkbox" id="popular"> Sort by most going</label>
+  </div>
+  <div class="frow"><input type="search" id="q" placeholder="Search title, host, place" aria-label="Search"></div>
+</section>
+<div class="scrim" id="scrim" hidden></div>
+
+<div class="banner" id="banner" hidden></div>
+
+<main class="layout" id="layout" data-view="list">
+  <section class="list" id="list" aria-live="polite"></section>
+  <section class="mapwrap" aria-label="Map">
+    <div id="map" role="region" aria-label="Map of event locations"></div>
+    <div class="peek" id="peek" hidden></div>
+  </section>
+  <section class="about" id="about" aria-label="About">
+    <button type="button" class="close-about desk-only link-btn" id="aboutClose">Close</button>
+    <h2>About</h2>
+    <p>Every few hours this site reads public Harvard event calendars, plus any newsletters it is given, and
+      keeps the events whose own description says food is served.</p>
+    <h3>Food</h3>
+    <p><b>Confirmed</b>: one sentence names a food and says it is served (“A light lunch will be provided.”).
+      That sentence is quoted on the card. <b>Likely</b>: only the title suggests food (“Opening Reception”).
+      Online, brown-bag and pay-for-food events are left out.</p>
+    <h3>Who may attend</h3>
+    <p>Each event is checked for audience limits. The check reads the calendar's own audience field first
+      (Harvard Law School lists “All HLS students only” or “All Harvard”; the College tags class years),
+      then sentences such as “open to HUID holders only”, then clues such as “1L Coffee Chat” or a House as host.</p>
+    <ul class="legend">
+      <li><span class="badge aud-public">Open to public</span> anyone</li>
+      <li><span class="badge aud-harvard">Harvard ID</span> Harvard ID holders: fellows qualify</li>
+      <li><span class="badge aud-unknown">Audience not stated</span></li>
+      <li><span class="badge aud-likely">Probably only …</span> inferred from the title or host</li>
+      <li><span class="badge aud-restricted">Only …</span> limited to a school, class year, House or group</li>
+    </ul>
+    <h3>Going / Skip</h3>
+    <p>Tap <b>Going</b> so other fellows see who is heading there, or <b>Skip</b> if an event isn't worth it.
+      Votes are shared by everyone using this site and kept for 30 days. On the claude.ai copy, names come
+      from Claude accounts, and voting needs Editor access; everyone else sees the votes.</p>
+    <label class="namefield">Your first name, shown next to “going”
+      <span class="namerow"><input type="text" id="nameInput" maxlength="24" autocomplete="given-name" placeholder="Optional">
+      <button type="button" class="btn" id="nameSave">Save</button></span></label>
+    <h3>Install on your phone</h3>
+    <p><b>iPhone:</b> open this page in Safari, tap Share, then “Add to Home Screen”.
+      <b>Android:</b> in Chrome, open the ⋮ menu and choose “Install app” or “Add to Home screen”.</p>
+    <h3>Sources</h3>
+    <table class="srctable"><thead><tr><th>Source</th><th>Status</th><th>Events</th><th>Food</th></tr></thead>
+      <tbody id="sources"></tbody></table>
+    <p class="fine">Food runs out and plans change: check the source link before you walk over. Walking times are
+      straight-line estimates from Lippmann House. An unofficial project by a fellow; not affiliated with the Nieman Foundation.</p>
+  </section>
+</main>
+
+<nav class="tabbar mobile-only" aria-label="Views">
+  <button type="button" data-view="list" class="on">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 6h12M8 12h12M8 18h12M4 6h.5M4 12h.5M4 18h.5"/></svg>List</button>
+  <button type="button" data-view="map">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>Map</button>
+  <button type="button" data-view="about">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7.5v.5"/></svg>About</button>
+</nav>
+
+<dialog id="nameDlg" class="dlg">
+  <form method="dialog">
+    <h2>Let fellows see you're going?</h2>
+    <p>Add your first name and it appears next to “going”. Leave it empty to count anonymously.</p>
+    <input type="text" id="dlgName" maxlength="24" autocomplete="given-name" placeholder="First name">
+    <div class="dlg-actions">
+      <button value="anon" class="btn ghost">Stay anonymous</button>
+      <button value="save" class="btn">Save</button>
+    </div>
+  </form>
+</dialog>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script src="config.js?v=6"></script>
+<script src="app.js?v=6"></script>
+</body>
+</html>

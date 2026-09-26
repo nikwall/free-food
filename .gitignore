@@ -1,0 +1,11 @@
+data/cache/
+data/*.tmp
+data/build_places.log
+__pycache__/
+inbox/*
+!inbox/README.txt
+data/votes.json
+data/votes.tmp
+# generated output
+site/
+artifact/
