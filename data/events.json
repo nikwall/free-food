@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-28T13:51:20-04:00",
+ "generated_at": "2026-09-28T19:35:40-04:00",
  "window": {
   "start": "2026-09-28",
   "end": "2026-10-05"
@@ -16,9 +16,9 @@
    "homepage": "https://news.harvard.edu/gazette/harvard-events/events-calendar/",
    "ok": true,
    "error": null,
-   "n_events": 133,
+   "n_events": 138,
    "n_food": 6,
-   "seconds": 1.9
+   "seconds": 1.4
   },
   {
    "id": "hks",
@@ -26,9 +26,9 @@
    "homepage": "https://www.hks.harvard.edu/more/events",
    "ok": true,
    "error": null,
-   "n_events": 42,
+   "n_events": 41,
    "n_food": 5,
-   "seconds": 3.5
+   "seconds": 10.4
   },
   {
    "id": "hls",
@@ -36,9 +36,9 @@
    "homepage": "https://hls.harvard.edu/calendar/",
    "ok": true,
    "error": null,
-   "n_events": 111,
-   "n_food": 52,
-   "seconds": 12.4
+   "n_events": 115,
+   "n_food": 55,
+   "seconds": 11.0
   },
   {
    "id": "college",
@@ -48,7 +48,7 @@
    "error": null,
    "n_events": 98,
    "n_food": 15,
-   "seconds": 0.5
+   "seconds": 1.0
   },
   {
    "id": "ash",
@@ -58,7 +58,7 @@
    "error": null,
    "n_events": 3,
    "n_food": 2,
-   "seconds": 1.8
+   "seconds": 2.2
   },
   {
    "id": "shorenstein",
@@ -68,7 +68,7 @@
    "error": null,
    "n_events": 1,
    "n_food": 0,
-   "seconds": 9.4
+   "seconds": 7.3
   },
   {
    "id": "fairbank",
@@ -78,7 +78,7 @@
    "error": null,
    "n_events": 2,
    "n_food": 0,
-   "seconds": 6.4
+   "seconds": 0.1
   },
   {
    "id": "newsletter",
@@ -98,15 +98,15 @@
    "error": null,
    "n_events": 3,
    "n_food": 0,
-   "seconds": 2.9
+   "seconds": 4.2
   }
  ],
  "stats": {
-  "events": 343,
-  "food_confirmed": 61,
-  "food_likely": 17,
-  "food_restricted": 60,
-  "seconds": 17.9
+  "events": 348,
+  "food_confirmed": 62,
+  "food_likely": 18,
+  "food_restricted": 63,
+  "seconds": 15.6
  },
  "events": [
   {
@@ -715,9 +715,9 @@
    "walk_min": 14
   },
   {
-   "id": "2d08e5d306aa",
+   "id": "dc0e8ccbc195",
    "title": "Stone Inequality & Social Policy Seminar: Rachel A. Potter",
-   "url": "https://www.hks.harvard.edu/index%2Ephp/events/stone-inequality-social-policy-seminar-rachel-potter",
+   "url": "https://www.hks.harvard.edu/events/stone-inequality-social-policy-seminar-rachel-potter",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -727,9 +727,9 @@
    "end": "2026-09-28T13:15:00-04:00",
    "date": "2026-09-28",
    "all_day": false,
-   "location": "",
+   "location": "Allison Dining Room",
    "online": false,
-   "host": "",
+   "host": "Stone Program in Wealth Distribution, Inequality, and Social Policy",
    "food": {
     "status": "none",
     "types": [],
@@ -746,18 +746,18 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "",
+   "summary": "The Stone Program in Wealth Distribution, Inequality, and Social Policy welcomes Professor Rachel A. Potter (University of Virginia) to speak in the Stone Inequality & Social Policy Seminar. For more information about this seminar, click here.",
    "notes": "",
-   "place_name": "Harvard Kennedy School",
-   "lat": 42.371989,
-   "lon": -71.121761,
-   "geo_method": "host",
-   "walk_min": 16
+   "place_name": "Taubman Building, Harvard Kennedy School",
+   "lat": 42.371822,
+   "lon": -71.122151,
+   "geo_method": "gazetteer",
+   "walk_min": 17
   },
   {
-   "id": "467bf86cd7c5",
+   "id": "20c1cf910587",
    "title": "Voluntary Corporate Climate Targets in a Patchwork Policy Landscape",
-   "url": "https://www.hks.harvard.edu/index%2Ephp/events/voluntary-corporate-climate-targets-patchwork-policy-landscape",
+   "url": "https://www.hks.harvard.edu/events/voluntary-corporate-climate-targets-patchwork-policy-landscape",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -767,17 +767,20 @@
    "end": "2026-09-28T13:15:00-04:00",
    "date": "2026-09-28",
    "all_day": false,
-   "location": "",
+   "location": "Rubenstein 414ab",
    "online": false,
-   "host": "",
+   "host": "Belfer Center for Science and International Affairs; Mossavar-Rahmani Center for Business and Government",
    "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
+    "status": "confirmed",
+    "types": [
+     "Lunch"
+    ],
+    "evidence": "Buffet-style lunch will be served.",
+    "cue": "strong"
    },
    "registration": {
-    "status": "unknown",
-    "evidence": "",
+    "status": "required",
+    "evidence": "Registration: RSVP required.",
     "link": ""
    },
    "audience": {
@@ -786,13 +789,13 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "",
+   "summary": "This Energy Policy Seminar will examine how voluntary corporate greenhouse gas reduction commitments interact with public policies. Researchers from the Corporate Climate Targets Project at the Salata Institute for Climate and Sustainability will present the online dashboard for the Salata Institute Corporate Climate…",
    "notes": "",
-   "place_name": "Harvard Kennedy School",
-   "lat": 42.371989,
-   "lon": -71.121761,
-   "geo_method": "host",
-   "walk_min": 16
+   "place_name": "Rubenstein Building, Harvard Kennedy School",
+   "lat": 42.371243,
+   "lon": -71.122687,
+   "geo_method": "gazetteer",
+   "walk_min": 18
   },
   {
    "id": "d3c1df78318b",
@@ -1282,9 +1285,9 @@
     "evidence": ""
    },
    "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://harvard.zoom.us/meeting/register/HtqXJhkgTf6AG_p8trfrbg#/registration"
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
    },
    "audience": {
     "level": "unknown",
@@ -1304,11 +1307,11 @@
    "id": "08a5756b9da6",
    "title": "Policy Analysis at Scale: An Instrument to Evaluate Governance Proposals",
    "url": "https://www.hks.harvard.edu/events/policy-analysis-scale-instrument-evaluate-governance-proposals",
-   "source_id": "hks",
-   "source_name": "Harvard Kennedy School",
+   "source_id": "gazette",
+   "source_name": "Harvard Gazette calendar",
    "also_listed": [
     {
-     "source_name": "Harvard Gazette calendar",
+     "source_name": "Harvard Kennedy School",
      "url": "https://www.hks.harvard.edu/events/policy-analysis-scale-instrument-evaluate-governance-proposals"
     }
    ],
@@ -1320,9 +1323,9 @@
    "end": "2026-09-28T17:00:00-04:00",
    "date": "2026-09-28",
    "all_day": false,
-   "location": "Wexner 434ab + Zoom",
+   "location": "Wexner 434AB (HKS Campus), 79 John F. Kennedy St., Cambridge",
    "online": false,
-   "host": "Mossavar-Rahmani Center for Business and Government",
+   "host": "Mossavar-Rahmani Center for Business & Government at Harvard Kennedy School",
    "food": {
     "status": "confirmed",
     "types": [
@@ -1332,9 +1335,9 @@
     "cue": "strong"
    },
    "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001haMDIAY"
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
    },
    "audience": {
     "level": "unknown",
@@ -1343,7 +1346,7 @@
     "basis": "none"
    },
    "summary": "Artificial intelligence governance is evolving faster than traditional policy analysis tools. Policymakers face a growing volume of bills, executive actions, and regulatory proposals across fragmented jurisdictions, often without a standardized way to compare their objectives, assumptions, or trade-offs. We respond to…",
-   "notes": "",
+   "notes": "Harvard Key required: No",
    "place_name": "Wexner Building, Harvard Kennedy School",
    "lat": 42.371344,
    "lon": -71.122357,
@@ -1398,17 +1401,17 @@
    "source_name": "Harvard Gazette calendar",
    "also_listed": [
     {
-     "source_name": "Harvard College events",
-     "url": "https://events.college.harvard.edu/event/225081-study-group-with-chris-whipple-all-the-presidents"
+     "source_name": "Harvard Kennedy School",
+     "url": "https://www.hks.harvard.edu/events/study-group-chris-whipple-all-presidents-men-women-ft-jack-watson"
     },
     {
-     "source_name": "Harvard Kennedy School",
-     "url": "https://www.hks.harvard.edu/index%2Ephp/events/study-group-chris-whipple-all-presidents-men-women-ft-jack-watson"
+     "source_name": "Harvard College events",
+     "url": "https://events.college.harvard.edu/event/225081-study-group-with-chris-whipple-all-the-presidents"
     }
    ],
    "aliases": [
-    "541d0c62215e",
-    "ea4f6af62b51"
+    "3b48a65297bb",
+    "541d0c62215e"
    ],
    "suggested": null,
    "start": "2026-09-28T16:00:00-04:00",
@@ -1525,23 +1528,23 @@
    "walk_min": 14
   },
   {
-   "id": "89a97605eb0a",
+   "id": "049bde8b7ed9",
    "title": "Latin America in a Changing Global Landscape: Democracy, Political Cycles, and Geopolitical Challenges ft. Leonel Fernández",
    "url": "https://iop.harvard.edu/events/latin-america-changing-global-landscape-democracy-political-cycles-and-geopolitical",
    "source_id": "gazette",
    "source_name": "Harvard Gazette calendar",
    "also_listed": [
     {
-     "source_name": "Harvard College events",
-     "url": "https://events.college.harvard.edu/event/224919-latin-america-in-a-changing-global-landscape"
+     "source_name": "Harvard Kennedy School",
+     "url": "https://www.hks.harvard.edu/events/latin-america-changing-global-landscape"
     },
     {
-     "source_name": "Harvard Kennedy School",
-     "url": "https://www.hks.harvard.edu/index%2Ephp/events/latin-america-changing-global-landscape"
+     "source_name": "Harvard College events",
+     "url": "https://events.college.harvard.edu/event/224919-latin-america-in-a-changing-global-landscape"
     }
    ],
    "aliases": [
-    "966d7d782ce9",
+    "89a97605eb0a",
     "da2d9c7955df"
    ],
    "suggested": null,
@@ -3113,8 +3116,8 @@
    },
    "registration": {
     "status": "required",
-    "evidence": "Registration link on the event page",
-    "link": "http://www.google.com/calendar/event?action=TEMPLATE&text=Women%E2%80%99s%20Sports,%20Practicing%20Democracy,%20and%20Fighting%20for%20Workers%20Voices%20at%20the%20Bargaining%20Table%20and%20Beyond&dates=20260929T163000Z/20260929T171500Z&details=Hear%20first-hand%20how%20to%20chart%20a%20non-traditional%20path%20that%20leads%20you%20to%20make%20history.%20Join%20OPIA%20for%20a%20community%20discussion%20with%20<a%20href\"https://hls.harvard.edu/wasserstein-fellows-program/meet-current-wasserstein-fellows/#Angelita-Baeyens---Vice-President,-International-Advocacy-and-Litigation,-Robert-F.-Kennedy-Human-Rights\">Wasserstein%20Fellow%20Erin%20D.%20Drake%20AB%20%E2%80%9814</a>,%20Senior%20Advisor%20and%20Legal%20Counsel%20at%20the%20Women%E2%80%99s%20National%20Basketball%20Players%20Association,%20the%20Union%20for%20WNBA%20Players.%20Erin%20will%20discuss%20her%20own%20career%20path,%20labor%20negotiations,%20and%20the%20skills%20she%20relied%20on%20most%20to%20make%20change%20for%20WNBA%20players%20and%20the%20labor%20movement%20more%20broadly.%20Whether%20you%E2%80%99re%20interested%20in%20women%E2%80%99s%20sports,%20the%20labor%20movement,%20building%20consensus%20among%20diverse%20groups%20of%20people,%20navigating%20the%20media,%20coalition%20building,%20or%20developing%20and%20executing%20strategic%20campaigns%20and%20actions,%20this%20talk%20should%20leave%20you%20ready%20to%20give%20your%20skillset%20to%20a%20movement.%20Lunch%20provided.%20Please%20RSVP.%20Open%20to%20the%20HLS%20community.&sprop=Harvard%20Law%20School&location=Pound%20Hall;%20102%20Classroom,%20,%20,%20,%20,%20"
+    "evidence": "To RSVP, please sign-in using your HarvardKey and complete the RSVP form below.",
+    "link": "http://www.google.com/calendar/event?action=TEMPLATE&text=Women%E2%80%99s%20Sports,%20Practicing%20Democracy,%20and%20Fighting%20for%20Workers%20Voices%20at%20the%20Bargaining%20Table%20and%20Beyond&dates=20260929T163000Z/20260929T171500Z&details=Hear%20first-hand%20how%20to%20chart%20a%20non-traditional%20path%20that%20leads%20you%20to%20make%20history.%20Join%20OPIA%20for%20a%20community%20discussion%20with%20<a%20href\"https://hls.harvard.edu/wasserstein-fellows-program/meet-current-wasserstein-fellows/#erin-d-drake-senior-advisor-legal-counsel-womens-national-basketball-players-association\">Wasserstein%20Fellow%20Erin%20D.%20Drake%20AB%20%E2%80%9814</a>,%20Senior%20Advisor%20and%20Legal%20Counsel%20at%20the%20Women%E2%80%99s%20National%20Basketball%20Players%20Association,%20the%20Union%20for%20WNBA%20Players.%20Erin%20will%20discuss%20her%20own%20career%20path,%20labor%20negotiations,%20and%20the%20skills%20she%20relied%20on%20most%20to%20make%20change%20for%20WNBA%20players%20and%20the%20labor%20movement%20more%20broadly.%20Whether%20you%E2%80%99re%20interested%20in%20women%E2%80%99s%20sports,%20the%20labor%20movement,%20building%20consensus%20among%20diverse%20groups%20of%20people,%20navigating%20the%20media,%20coalition%20building,%20or%20developing%20and%20executing%20strategic%20campaigns%20and%20actions,%20this%20talk%20should%20leave%20you%20ready%20to%20give%20your%20skillset%20to%20a%20movement.Lunch%20provided.%20Please%20RSVP.%20<strong>To%20RSVP,%20please%20<a%20href\"http://hls.harvard.edu/wp-admin\">sign-in%20using%20your%20HarvardKey</a>%20and%20complete%20the%20RSVP%20form%20below.%20</strong>Open%20only%20to%20the%20HLS%20community.&sprop=Harvard%20Law%20School&location=Pound%20Hall;%20102%20Classroom,%20,%20,%20,%20,%20"
    },
    "audience": {
     "level": "restricted",
@@ -3443,7 +3446,7 @@
    "end": "2026-09-29T17:15:00-04:00",
    "date": "2026-09-29",
    "all_day": false,
-   "location": "T-135 (darman Seminar Room)",
+   "location": "T-g50",
    "online": false,
    "host": "Institute of Politics (IOP)",
    "food": {
@@ -3464,11 +3467,11 @@
    },
    "summary": "America and China are racing to lead the technology that could redefine civilization—but what happens when we don’t know where the finish line is? IN-PERSON GUEST: Stephen Garrison, CEO of the Cicero Institute *These off-the-record conversations are open to members of the Harvard community. Please RSVP with a valid…",
    "notes": "",
-   "place_name": "Taubman Building, Harvard Kennedy School",
-   "lat": 42.371822,
-   "lon": -71.122151,
-   "geo_method": "gazetteer",
-   "walk_min": 17
+   "place_name": "Littauer Building, Harvard Kennedy School",
+   "lat": 42.371045,
+   "lon": -71.12209,
+   "geo_method": "host",
+   "walk_min": 18
   },
   {
    "id": "8d968390d16c",
@@ -4109,6 +4112,49 @@
    "lat": 42.379106,
    "lon": -71.119679,
    "geo_method": "host",
+   "walk_min": 10
+  },
+  {
+   "id": "b962d842a631",
+   "title": "Lambda WNBA Watch Party!",
+   "url": "https://hls.harvard.edu/events/lambda-wnba-watch-party/",
+   "source_id": "hls",
+   "source_name": "Harvard Law School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "start": "2026-09-29T18:00:00-04:00",
+   "end": "2026-09-29T22:00:00-04:00",
+   "date": "2026-09-29",
+   "all_day": false,
+   "location": "WCC, B015 Classroom, Harvard Law School",
+   "online": false,
+   "host": "Harvard Law School Lambda",
+   "food": {
+    "status": "confirmed",
+    "types": [
+     "Snacks"
+    ],
+    "evidence": "Snacks, drinks and women’s sports stickers provided!",
+    "cue": "strong"
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "HLS students",
+    "evidence": "HLS listing audience: All HLS students only",
+    "basis": "listing"
+   },
+   "summary": "Come watch Aces-Fever and Lynx-Liberty with Lambda! Snacks, drinks and women’s sports stickers provided! Add to Calendar September 29, 2026, 6:00 pm - 10:00 pm +Google Calendar +iCal/Outlook",
+   "notes": "",
+   "place_name": "Wasserstein Hall (WCC), Harvard Law School",
+   "lat": 42.379383,
+   "lon": -71.119421,
+   "geo_method": "gazetteer",
    "walk_min": 10
   },
   {
@@ -6256,46 +6302,6 @@
    "walk_min": 18
   },
   {
-   "id": "973ae9d4fc1f",
-   "title": "Who Owns a Story? Culture, Identity & Belonging",
-   "url": "https://www.hks.harvard.edu/events/who-owns-story-culture-identity-belonging",
-   "source_id": "hks",
-   "source_name": "Harvard Kennedy School",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "start": "2026-09-30T16:30:00-04:00",
-   "end": "2026-09-30T18:00:00-04:00",
-   "date": "2026-09-30",
-   "all_day": false,
-   "location": "Littauer L-332 Deland",
-   "online": false,
-   "host": "Program on Diplomacy and Statecraft",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001jgk5IAA"
-   },
-   "audience": {
-    "level": "unknown",
-    "group": "",
-    "evidence": "",
-    "basis": "none"
-   },
-   "summary": "Join us for Session 4 of the Fall 2026 Cultural Diplomacy Initiative Study Group--a five-part series designed for anyone interested in exploring how culture can serve as a source of connection, dialogue, and resilience amid rapidly changing political, social, and technological conditions. Across five sessions, the…",
-   "notes": "",
-   "place_name": "Littauer Building, Harvard Kennedy School",
-   "lat": 42.371045,
-   "lon": -71.12209,
-   "geo_method": "gazetteer",
-   "walk_min": 18
-  },
-  {
    "id": "dede4523c3a1",
    "title": "Introduction to Mindfulness - Wednesday Series",
    "url": "https://events.college.harvard.edu/event/224844-introduction-to-mindfulness-wednesday-series",
@@ -6944,6 +6950,49 @@
    "walk_min": 12
   },
   {
+   "id": "a3e6b3b8b691",
+   "title": "Italian Table",
+   "url": "https://events.college.harvard.edu/winthrop-house/event/225110-italian-table",
+   "source_id": "college",
+   "source_name": "Harvard College events",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "start": "2026-09-30T18:30:00-04:00",
+   "end": "2026-09-30T19:30:00-04:00",
+   "date": "2026-09-30",
+   "all_day": false,
+   "location": "Junior Common Room",
+   "online": false,
+   "host": "Winthrop House",
+   "food": {
+    "status": "confirmed",
+    "types": [
+     "Snacks"
+    ],
+    "evidence": "We will have light Italian snacks and, most importantly, good Italian vibes.",
+    "cue": "weak"
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "Winthrop House residents",
+    "evidence": "Hosted by Winthrop House",
+    "basis": "inferred"
+   },
+   "summary": "We could not be more excited to announce the much-anticipated return of Italian Table!!! All levels (or no level at all) welcome! We will have light Italian snacks and, most importantly, good Italian vibes. A presto! Angela & Gianmarco 🇮🇹🇮🇹🇮🇹🇮🇹🇮🇹🇮🇹🇮🇹🇮🇹",
+   "notes": "",
+   "place_name": "Winthrop House",
+   "lat": 42.370356,
+   "lon": -71.118646,
+   "geo_method": "host",
+   "walk_min": 15
+  },
+  {
    "id": "d594adf34354",
    "title": "HLS Pub Trivia",
    "url": "https://hls.harvard.edu/events/hls-pub-trivia-5/?occurrence=12105",
@@ -7144,50 +7193,6 @@
    "lon": -71.121506,
    "geo_method": "gazetteer",
    "walk_min": 24
-  },
-  {
-   "id": "debc01268121",
-   "title": "MSI Chalk Talk - Jonathan Turner",
-   "url": "https://events.college.harvard.edu/event/225093-msi-chalk-talk-jonathan-turner",
-   "source_id": "college",
-   "source_name": "Harvard College events",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "start": "2026-10-01T08:30:00-04:00",
-   "end": null,
-   "date": "2026-10-01",
-   "all_day": false,
-   "location": "Geological Museum 375",
-   "online": false,
-   "host": "Microbial Sciences Initiative",
-   "food": {
-    "status": "confirmed",
-    "types": [
-     "Breakfast",
-     "Coffee"
-    ],
-    "evidence": "Coffee, tea, and light breakfast fare will be served.",
-    "cue": "strong"
-   },
-   "registration": {
-    "status": "required",
-    "evidence": "No advanced registration required; all are welcome.",
-    "link": ""
-   },
-   "audience": {
-    "level": "public",
-    "group": "",
-    "evidence": "No advanced registration required; all are welcome.",
-    "basis": "text"
-   },
-   "summary": "No advanced registration required; all are welcome. Coffee, tea, and light breakfast fare will be served. Join us on October 1 at 8:30 am for a chalk talk by Jonathan Turner, Postdoctoral Fellow, Walker Lab, Department of Microbiology, Harvard Medical School. “Targeting bacterial proteolytic systems”",
-   "notes": "",
-   "place_name": "Harvard Museum of Natural History",
-   "lat": 42.378466,
-   "lon": -71.115646,
-   "geo_method": "gazetteer",
-   "walk_min": 5
   },
   {
    "id": "a0d640510157",
@@ -7479,7 +7484,7 @@
    "aliases": [],
    "suggested": null,
    "start": "2026-10-01T09:20:00-04:00",
-   "end": "2026-10-01T18:00:00-04:00",
+   "end": "2026-10-01T14:20:00-04:00",
    "date": "2026-10-01",
    "all_day": false,
    "location": "RSVP for location, Harvard Law School",
@@ -7497,11 +7502,11 @@
    },
    "audience": {
     "level": "restricted",
-    "group": "HLS 1Ls",
-    "evidence": "HLS listing audience: 1Ls",
+    "group": "HLS 1Ls, 2Ls, 3Ls",
+    "evidence": "HLS listing audience: 1Ls | 2Ls | 3Ls",
     "basis": "listing"
    },
-   "summary": "Sign up for a 20-minute meeting with DC legal market headhunter, Matt Schwartz of Garrison & Sisson, Inc. to get your questions answered about the DC legal market. RSVP Required. Add to Calendar October 1, 2026, 9:20 am - 6:00 pm +Google Calendar +iCal/Outlook",
+   "summary": "Sign up for a 20-minute meeting with DC legal market headhunter, Matt Schwartz of Garrison & Sisson, Inc. to get your questions answered about the DC legal market. RSVP Required. Add to Calendar October 1, 2026, 9:20 am - 2:20 pm +Google Calendar +iCal/Outlook",
    "notes": "",
    "place_name": "Harvard Law School",
    "lat": 42.379106,
@@ -8155,6 +8160,48 @@
    "walk_min": 10
   },
   {
+   "id": "08cb276aa84c",
+   "title": "International Arbitration Perspectives: A Conversation with Yas Banifatemi",
+   "url": "https://hls.harvard.edu/events/international-arbitration-perspectives-a-conversation-with-yas-banifatemi/",
+   "source_id": "hls",
+   "source_name": "Harvard Law School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "start": "2026-10-01T12:20:00-04:00",
+   "end": "2026-10-01T13:20:00-04:00",
+   "date": "2026-10-01",
+   "all_day": false,
+   "location": "WCC, 3016 Room, Harvard Law School",
+   "online": false,
+   "host": "Harvard International Arbitration Law Students Association",
+   "food": {
+    "status": "likely",
+    "types": [
+     "Lunch"
+    ],
+    "evidence": "A lunchtime conversation with Prof."
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "RSVP here.",
+    "link": "https://docs.google.com/forms/d/e/1FAIpQLSfhB0uV4LGzXv3LPIJTc3w_j9NjHJe41HjEpWjvkot4SxxFqA/viewform?usp=header"
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "HLS students",
+    "evidence": "Run by an HLS student organization",
+    "basis": "inferred"
+   },
+   "summary": "A lunchtime conversation with Prof. Yas Banifatemi (GBS Disputes) celebrating the launch of International Arbitration Perspectives, discussing the autonomy of international arbitration and current developments in the field. Sushi will be provided. RSVP here. Add to Calendar October 1, 2026, 12:20 pm - 1:20 pm +Google…",
+   "notes": "",
+   "place_name": "Wasserstein Hall (WCC), Harvard Law School",
+   "lat": 42.379383,
+   "lon": -71.119421,
+   "geo_method": "gazetteer",
+   "walk_min": 10
+  },
+  {
    "id": "71c570664da4",
    "title": "DC Market Lunch",
    "url": "https://hls.harvard.edu/events/dc-market-lunch/",
@@ -8204,7 +8251,9 @@
    "source_id": "hls",
    "source_name": "Harvard Law School",
    "also_listed": [],
-   "aliases": [],
+   "aliases": [
+    "2e931dfc9fac"
+   ],
    "suggested": null,
    "start": "2026-10-01T12:30:00-04:00",
    "end": "2026-10-01T13:15:00-04:00",
@@ -8239,6 +8288,46 @@
    "lon": -71.119421,
    "geo_method": "gazetteer",
    "walk_min": 10
+  },
+  {
+   "id": "4fb329ac9928",
+   "title": "Gallery Talk: Crafting Perfect Portraits with Photographic Proof Prints",
+   "url": "https://harvardartmuseums.org/calendar/gallery-talk-crafting-perfect-portraits-with-photographic-proof-prints?utm_source=gazette&utm_medium=listing&utm_campaign=Gallerytalk_APPC_Oct1&utm_id=Gallery+Talk%3A+Crafting+Perfect+Portraits+with+Photographic+Pro",
+   "source_id": "gazette",
+   "source_name": "Harvard Gazette calendar",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "start": "2026-10-01T12:30:00-04:00",
+   "end": "2026-10-01T13:00:00-04:00",
+   "date": "2026-10-01",
+   "all_day": false,
+   "location": "Harvard Art Museums, 32 Quincy St., Cambridge",
+   "online": false,
+   "host": "Harvard Art Museums",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "Join Madison Brown, co-curator of The Way We Never Were: The American Professional Photographers Collection (August 29, 2026–May 9, 2027), for a discussion about the role of proof prints in the craft of producing polished studio portraits. Rather than capturing a single decisive moment behind the camera, the finished…",
+   "notes": "Cost: Free admission | Harvard Key required: No",
+   "place_name": "Harvard Art Museums",
+   "lat": 42.374099,
+   "lon": -71.114113,
+   "geo_method": "gazetteer",
+   "walk_min": 7
   },
   {
    "id": "c41c66ad2643",
@@ -9061,7 +9150,7 @@
    "registration": {
     "status": "required",
     "evidence": "RSVP link on the event page",
-    "link": "https://www.hks.harvard.edu/centers/cpl/fellowships/david-gergen-summer-fellowship-program"
+    "link": "https://harvard.az1.qualtrics.com/jfe/form/SV_2aX8QP7713yw18O"
    },
    "audience": {
     "level": "restricted",
@@ -10219,6 +10308,46 @@
    "walk_min": 32
   },
   {
+   "id": "9c3246f1180e",
+   "title": "Exhibition Tour — The Way We Never Were: The American Professional Photographers Collection",
+   "url": "https://harvardartmuseums.org/calendar/exhibition-tour-the-way-we-never-were-the-american-professional-photographers-collection-2?utm_source=gazette&utm_medium=listing&utm_campaign=Tour_APPC_Oct2&utm_id=Exhibition+Tour%3A+The+Way+We+Never+Were%3A+The+Ame",
+   "source_id": "gazette",
+   "source_name": "Harvard Gazette calendar",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "start": "2026-10-02T12:00:00-04:00",
+   "end": "2026-10-02T13:00:00-04:00",
+   "date": "2026-10-02",
+   "all_day": false,
+   "location": "Harvard Art Museums, 32 Quincy St., Cambridge",
+   "online": false,
+   "host": "Harvard Art Museums",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "Join us for an in-depth tour of the exhibition The Way We Never Were: The American Professional Photographers Collection, on view from August 29, 2026 to May 9, 2027.",
+   "notes": "Cost: Free admission | Harvard Key required: No",
+   "place_name": "Harvard Art Museums",
+   "lat": 42.374099,
+   "lon": -71.114113,
+   "geo_method": "gazetteer",
+   "walk_min": 7
+  },
+  {
    "id": "d3498b99e96f",
    "title": "J.D. Academic Advising Drop-Ins",
    "url": "https://hls.harvard.edu/events/j-d-academic-advising-drop-ins/?occurrence=12093",
@@ -10303,7 +10432,7 @@
   },
   {
    "id": "0562f89f484b",
-   "title": "Crimson Courage",
+   "title": "Crimson Courage: Inside Harvard’s Legal Battle with the Trump Administration",
    "url": "https://hls.harvard.edu/events/advising-event-2/",
    "source_id": "hls",
    "source_name": "Harvard Law School",
@@ -10473,11 +10602,11 @@
    "also_listed": [
     {
      "source_name": "Harvard Kennedy School",
-     "url": "https://www.hks.harvard.edu/index%2ephp/events/saving-social-security-and-america-common-sense-solutions"
+     "url": "https://www.hks.harvard.edu/index%2Ephp/events/saving-social-security-and-america-common-sense-solutions"
     }
    ],
    "aliases": [
-    "ab8fa421e3ce"
+    "8199c28e52a9"
    ],
    "suggested": null,
    "start": "2026-10-02T13:00:00-04:00",
@@ -13493,15 +13622,15 @@
    "walk_min": 18
   },
   {
-   "id": "b8f6a2c3625f",
+   "id": "4692fd24b7d2",
    "title": "Trade Disorder and the Rise of Neomercantilism",
    "url": "https://www.hks.harvard.edu/events/trade-disorder-and-rise-neomercantilism",
-   "source_id": "hks",
-   "source_name": "Harvard Kennedy School",
+   "source_id": "gazette",
+   "source_name": "Harvard Gazette calendar",
    "also_listed": [
     {
-     "source_name": "Harvard Gazette calendar",
-     "url": "https://www.hks.harvard.edu/events/trade-disorder-and-rise-neomercantilism"
+     "source_name": "Harvard Kennedy School",
+     "url": "https://www.hks.harvard.edu/index%2Ephp/events/trade-disorder-and-rise-neomercantilism"
     }
    ],
    "aliases": [
@@ -13512,21 +13641,18 @@
    "end": "2026-10-05T13:00:00-04:00",
    "date": "2026-10-05",
    "all_day": false,
-   "location": "Wexner 434ab + Zoom",
+   "location": "Wexner 434AB (HKS), 79 John F. Kennedy St., Cambridge",
    "online": false,
-   "host": "Mossavar-Rahmani Center for Business and Government",
+   "host": "Mossavar-Rahmani Center for Business & Government at HKS",
    "food": {
-    "status": "confirmed",
-    "types": [
-     "Lunch"
-    ],
-    "evidence": "Lunch will be served.",
-    "cue": "strong"
+    "status": "none",
+    "types": [],
+    "evidence": ""
    },
    "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001k8V3IAI"
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
    },
    "audience": {
     "level": "unknown",
@@ -13534,8 +13660,8 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "The old trading system, with the WTO at the center, is fading away, while governments are increasingly using trade as a tool of economic coercion. How will globalization evolve? This seminar will be given by Robert Lawrence, Albert L. Williams Professor of International Trade and Investment, HKS; and Rana Mitter, S.T.…",
-   "notes": "",
+   "summary": "The old trading system, with the WTO at the center, is fading away, while governments are increasingly using trade as a tool of economic coercion. How will globalization evolve?",
+   "notes": "Harvard Key required: No",
    "place_name": "Wexner Building, Harvard Kennedy School",
    "lat": 42.371344,
    "lon": -71.122357,
@@ -13577,7 +13703,7 @@
     "evidence": "HLS listing audience: HLS only",
     "basis": "listing"
    },
-   "summary": "We are reaching out to share an exciting event we have coming up. Please join us for a lunch talk with Elias Kim (c/o 2019) and Daniel Ergas (c/o 2023). Elias is an associate in Cooley’s DC office, where he focuses on complex commercial litigation, trial litigation, and Supreme Court and Appellate Litigation. Before…",
+   "summary": "Please join the Journal on Legislation for a lunch talk with Elias Kim (c/o 2019) and Daniel Ergas (c/o 2023). Elias is an associate in Cooley’s DC office, where he focuses on complex commercial litigation, trial litigation, and Supreme Court and Appellate Litigation. Daniel is an associate in Cooley’s DC office,…",
    "notes": "",
    "place_name": "Wasserstein Hall (WCC), Harvard Law School",
    "lat": 42.379383,
@@ -13624,6 +13750,48 @@
    "lon": -71.118138,
    "geo_method": "gazetteer",
    "walk_min": 8
+  },
+  {
+   "id": "93d1d22cd3a7",
+   "title": "BSA Public Interest Panel",
+   "url": "https://hls.harvard.edu/events/bsa-public-interest-panel/",
+   "source_id": "hls",
+   "source_name": "Harvard Law School",
+   "also_listed": [],
+   "aliases": [
+    "f2e127d2661f"
+   ],
+   "suggested": null,
+   "start": "2026-10-05T12:20:00-04:00",
+   "end": "2026-10-05T13:15:00-04:00",
+   "date": "2026-10-05",
+   "all_day": false,
+   "location": "",
+   "online": false,
+   "host": "Board of Student Advisors",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "Please RSVP here to mark your attendance and secure lunch!",
+    "link": "https://docs.google.com/forms/d/e/1FAIpQLSfqhjLCssC_kSbKetOYukykwdDmLClvFm4vIiEmgjb9JfuaMQ/viewform?usp=header"
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "HLS graduate students",
+    "evidence": "HLS listing audience: All HLS graduate students only",
+    "basis": "listing"
+   },
+   "summary": "This panel will feature BSAs with experience in public interest roles across the country. Please RSVP here to mark your attendance and secure lunch! Add to Calendar October 5, 2026, 12:20 pm - 1:15 pm +Google Calendar +iCal/Outlook",
+   "notes": "",
+   "place_name": "Harvard Law School",
+   "lat": 42.379106,
+   "lon": -71.119679,
+   "geo_method": "host",
+   "walk_min": 10
   },
   {
    "id": "df8214a137eb",
@@ -13826,46 +13994,6 @@
     "basis": "listing"
    },
    "summary": "Interested in the intersection of law and technology? Come learn more about Harvard Law School’s Journal of Law and Technology (JOLT). Lunch will be provided! Add to Calendar October 5, 2026, 12:30 pm - 1:15 pm +Google Calendar +iCal/Outlook",
-   "notes": "",
-   "place_name": "Wasserstein Hall (WCC), Harvard Law School",
-   "lat": 42.379383,
-   "lon": -71.119421,
-   "geo_method": "gazetteer",
-   "walk_min": 10
-  },
-  {
-   "id": "f2e127d2661f",
-   "title": "Lambda 1L Public Interest Panel",
-   "url": "https://hls.harvard.edu/events/lambda-1l-public-interest-panel/",
-   "source_id": "hls",
-   "source_name": "Harvard Law School",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "start": "2026-10-05T12:30:00-04:00",
-   "end": "2026-10-05T13:15:00-04:00",
-   "date": "2026-10-05",
-   "all_day": false,
-   "location": "WCC, 2009 Classroom, Harvard Law School",
-   "online": false,
-   "host": "Harvard Law School Lambda",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
-   },
-   "audience": {
-    "level": "restricted",
-    "group": "HLS graduate students",
-    "evidence": "HLS listing audience: All HLS graduate students only",
-    "basis": "listing"
-   },
-   "summary": "Come learn about public interest opportunities across fields and 1L summer experiences from current Lambda members. Add to Calendar October 5, 2026, 12:30 pm - 1:15 pm +Google Calendar +iCal/Outlook",
    "notes": "",
    "place_name": "Wasserstein Hall (WCC), Harvard Law School",
    "lat": 42.379383,
@@ -14250,21 +14378,68 @@
    "walk_min": 18
   },
   {
-   "id": "fa76ce2794eb",
-   "title": "Assessing the AI Race: The US vs. China",
-   "url": "https://www.hks.harvard.edu/events/assessing-ai-race-us-vs-china",
-   "source_id": "hks",
-   "source_name": "Harvard Kennedy School",
+   "id": "02a3bf78037f",
+   "title": "A Conversation on Petrarch’s \"Canzoniere: A New Translation\"",
+   "url": "https://mahindrahumanities.harvard.edu/event/conversation-petrarchs-canzoniere-new-translation",
+   "source_id": "gazette",
+   "source_name": "Harvard Gazette calendar",
    "also_listed": [],
    "aliases": [],
+   "suggested": null,
+   "start": "2026-10-05T18:00:00-04:00",
+   "end": "2026-10-05T19:30:00-04:00",
+   "date": "2026-10-05",
+   "all_day": false,
+   "location": "Fong Auditorium, Boylston Hall, Harvard Yard, Cambridge",
+   "online": false,
+   "host": "Mahindra Humanities Center",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "Petrarch’s \"Canzoniere\" stands as one of the greatest and most influential collections of love poetry ever written. In this monumental translation, renowned poet A.M. Juster preserves the original text’s formal elegance, honoring Petrarch’s rhyme and meter while also capturing the profound religious and philosophical…",
+   "notes": "Cost: Free and open to the public; no registration required. | Harvard Key required: No",
+   "place_name": "Boylston Hall",
+   "lat": 42.373328,
+   "lon": -71.117315,
+   "geo_method": "gazetteer",
+   "walk_min": 10
+  },
+  {
+   "id": "3d5d07920479",
+   "title": "Assessing the AI Race: The U.S. vs. China ft. Jake Sullivan & Ylli Bajraktari",
+   "url": "https://iop.harvard.edu/events/assessing-ai-race-us-vs-china-ft-jake-sullivan-ylli-bajraktari",
+   "source_id": "gazette",
+   "source_name": "Harvard Gazette calendar",
+   "also_listed": [
+    {
+     "source_name": "Harvard Kennedy School",
+     "url": "https://www.hks.harvard.edu/events/assessing-ai-race-us-vs-china"
+    }
+   ],
+   "aliases": [
+    "fa76ce2794eb"
+   ],
    "suggested": null,
    "start": "2026-10-05T18:00:00-04:00",
    "end": "2026-10-05T19:00:00-04:00",
    "date": "2026-10-05",
    "all_day": false,
-   "location": "John F. Kennedy Jr. Forum",
+   "location": "JFK Jr. Forum, 79 JFK St., Cambridge",
    "online": false,
-   "host": "Institute of Politics (IOP)",
+   "host": "Institute of Politics at Harvard Kennedy SchoolBelfer Center for Science and International Affairs",
    "food": {
     "status": "none",
     "types": [],
@@ -14272,8 +14447,8 @@
    },
    "registration": {
     "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://hksexeced.tfaforms.net/f/iop-forum-register?c=701Pp00002Sk0IPIAZ"
+    "evidence": "Registration link on the event page",
+    "link": "https://iop.harvard.edu/events/assessing-ai-race-us-vs-china-ft-jake-sullivan-ylli-bajraktari"
    },
    "audience": {
     "level": "unknown",
@@ -14282,12 +14457,52 @@
     "basis": "none"
    },
    "summary": "What will determine the future of AI leadership? How do the United States and China compare in research, innovation, investment, talent, and access to critical technologies? With AI dominating the headlines and conversations across the globe, our panel will bring expertise and unique perspectives on the competition…",
-   "notes": "",
+   "notes": "Cost: Free | Harvard Key required: No",
    "place_name": "Littauer Building, Harvard Kennedy School",
    "lat": 42.371045,
    "lon": -71.12209,
-   "geo_method": "host",
+   "geo_method": "gazetteer",
    "walk_min": 18
+  },
+  {
+   "id": "ced275cc306c",
+   "title": "The Last Dive",
+   "url": "https://harvardfilmarchive.org/calendar/the-last-dive-2026-10",
+   "source_id": "gazette",
+   "source_name": "Harvard Gazette calendar",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "start": "2026-10-05T19:00:00-04:00",
+   "end": "2026-10-05T20:30:00-04:00",
+   "date": "2026-10-05",
+   "all_day": false,
+   "location": "Havard Film Archive, 24 Quincy St., Cambridge",
+   "online": false,
+   "host": "Harvard Film Archive & the Reischauer Institute of Japanese Studies",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "Registration link on the event page",
+    "link": "https://harvardfilmarchive.org/calendar/the-last-dive-2026-10"
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "The melancholic, self-destructive pleasure principle explored across Monteiro’s mature films is crystallized in this lyrically rambling chronicle of two debauched nights in the life of two dreamers, an older and a younger man, who accidently meet while contemplating suicide on the shore of the Tagus River. Set largely…",
+   "notes": "Cost: $10 - Regular Admission / $8 - Non-Harvard Students, Harvard staff and Senior Citizens. Harvard students free. | Harvard Key required: No",
+   "place_name": "Carpenter Center",
+   "lat": 42.373704,
+   "lon": -71.114276,
+   "geo_method": "gazetteer",
+   "walk_min": 7
   }
  ],
  "suggestions": [
