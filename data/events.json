@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-30T12:08:29-04:00",
+ "generated_at": "2026-09-30T18:41:16-04:00",
  "window": {
   "start": "2026-09-30",
   "end": "2026-10-07"
@@ -18,7 +18,7 @@
    "error": null,
    "n_events": 150,
    "n_food": 5,
-   "seconds": 2.2
+   "seconds": 1.9
   },
   {
    "id": "hks",
@@ -26,9 +26,9 @@
    "homepage": "https://www.hks.harvard.edu/more/events",
    "ok": true,
    "error": null,
-   "n_events": 41,
+   "n_events": 46,
    "n_food": 7,
-   "seconds": 1.3
+   "seconds": 4.5
   },
   {
    "id": "hls",
@@ -36,9 +36,9 @@
    "homepage": "https://hls.harvard.edu/calendar/",
    "ok": true,
    "error": null,
-   "n_events": 118,
-   "n_food": 53,
-   "seconds": 15.3
+   "n_events": 122,
+   "n_food": 56,
+   "seconds": 11.1
   },
   {
    "id": "college",
@@ -46,9 +46,9 @@
    "homepage": "https://events.college.harvard.edu/",
    "ok": true,
    "error": null,
-   "n_events": 97,
-   "n_food": 11,
-   "seconds": 0.9
+   "n_events": 100,
+   "n_food": 12,
+   "seconds": 0.4
   },
   {
    "id": "ash",
@@ -58,7 +58,7 @@
    "error": null,
    "n_events": 3,
    "n_food": 2,
-   "seconds": 2.6
+   "seconds": 2.0
   },
   {
    "id": "shorenstein",
@@ -68,7 +68,7 @@
    "error": null,
    "n_events": 2,
    "n_food": 0,
-   "seconds": 7.6
+   "seconds": 7.1
   },
   {
    "id": "fairbank",
@@ -78,7 +78,7 @@
    "error": null,
    "n_events": 5,
    "n_food": 0,
-   "seconds": 6.0
+   "seconds": 0.1
   },
   {
    "id": "newsletter",
@@ -98,15 +98,15 @@
    "error": null,
    "n_events": 6,
    "n_food": 0,
-   "seconds": 2.4
+   "seconds": 3.1
   }
  ],
  "stats": {
-  "events": 361,
-  "food_confirmed": 54,
+  "events": 373,
+  "food_confirmed": 59,
   "food_likely": 17,
-  "food_restricted": 58,
-  "seconds": 18.4
+  "food_restricted": 62,
+  "seconds": 14.6
  },
  "events": [
   {
@@ -675,6 +675,46 @@
    "walk_min": 18
   },
   {
+   "id": "51371c268d88",
+   "title": "Bruce Armitage: A Maker’s Journey",
+   "url": "https://events.college.harvard.edu/ofa/event/225170-bruce-armitage-a-makers-journey",
+   "source_id": "college",
+   "source_name": "Harvard College events",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "start": "2026-09-30T11:00:00-04:00",
+   "end": "2026-09-30T17:00:00-04:00",
+   "date": "2026-09-30",
+   "all_day": false,
+   "location": "Ceramics Studio",
+   "online": false,
+   "host": "Ceramics Program, Office for the Arts at Harvard",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "Harvard College students",
+    "evidence": "Harvard College calendar, no sign it is open to others",
+    "basis": "default"
+   },
+   "summary": "This exhibition celebrates the evolving work of Boston-based sculptor and ceramic artist Bruce Armitage, a long-time Resident Artist, Teaching Assistant, and Studio Lab Technician at the Ceramics Program, Office for the Arts at Harvard. He focuses on figurative sculpture influenced by classical traditions. Bruce is a…",
+   "notes": "",
+   "place_name": "Ceramics Studio",
+   "lat": 42.362599,
+   "lon": -71.131201,
+   "geo_method": "source",
+   "walk_min": 37
+  },
+  {
    "id": "884ba5fac016",
    "title": "Betting on Elections: How Well Do Prediction Markets Predict Election Results?",
    "url": "https://www.hks.harvard.edu/events/betting-elections-how-well-do-prediction-markets-predict-election-results",
@@ -699,9 +739,9 @@
     "cue": "strong"
    },
    "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001jsA9IAI"
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
    },
    "audience": {
     "level": "unknown",
@@ -799,46 +839,6 @@
    "lon": -71.123759,
    "geo_method": "gazetteer",
    "walk_min": 17
-  },
-  {
-   "id": "4c7a866fae94",
-   "title": "Harvard University Asia Center",
-   "url": "https://asiacenter.harvard.edu/",
-   "source_id": "suggested",
-   "source_name": "Suggested calendar: Asia Center",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "start": "2026-09-30T12:00:00-04:00",
-   "end": null,
-   "date": "2026-09-30",
-   "all_day": true,
-   "location": "",
-   "online": false,
-   "host": "",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
-   },
-   "audience": {
-    "level": "unknown",
-    "group": "",
-    "evidence": "",
-    "basis": "none"
-   },
-   "summary": "September 30 | Book Talk: Performing Transgression October 2 | When Psychology Fails: Suicide Prevention, Religious Authority, and the Making of National Policy in Indonesia",
-   "notes": "",
-   "place_name": "CGIS South Building",
-   "lat": 42.375011,
-   "lon": -71.113135,
-   "geo_method": "host",
-   "walk_min": 5
   },
   {
    "id": "95ebf3680922",
@@ -1624,46 +1624,6 @@
    "walk_min": 17
   },
   {
-   "id": "72f47157d444",
-   "title": "Bruce Armitage: A Maker’s Journey",
-   "url": "https://events.college.harvard.edu/ofa/event/225170-bruce-armitage-a-makers-journey",
-   "source_id": "college",
-   "source_name": "Harvard College events",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "start": "2026-09-30T14:00:00-04:00",
-   "end": "2026-09-30T20:00:00-04:00",
-   "date": "2026-09-30",
-   "all_day": false,
-   "location": "Ceramics Studio",
-   "online": false,
-   "host": "Ceramics Program, Office for the Arts at Harvard",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
-   },
-   "audience": {
-    "level": "restricted",
-    "group": "Harvard College students",
-    "evidence": "Harvard College calendar, no sign it is open to others",
-    "basis": "default"
-   },
-   "summary": "This exhibition celebrates the evolving work of Boston-based sculptor and ceramic artist Bruce Armitage, a long-time Resident Artist, Teaching Assistant, and Studio Lab Technician at the Ceramics Program, Office for the Arts at Harvard. He focuses on figurative sculpture influenced by classical traditions. Bruce is a…",
-   "notes": "",
-   "place_name": "Ceramics Studio",
-   "lat": 42.362599,
-   "lon": -71.131201,
-   "geo_method": "source",
-   "walk_min": 37
-  },
-  {
    "id": "3fbd4ea2c130",
    "title": "From hive to Honey",
    "url": "https://soco.college.harvard.edu/rsvp?id=382536",
@@ -1784,9 +1744,9 @@
    "walk_min": 10
   },
   {
-   "id": "5343263acca9",
+   "id": "580afcb25cf5",
    "title": "The Leaders We Need When Trust is on the Decline",
-   "url": "https://www.hks.harvard.edu/events/leaders-we-need-when-trust-decline",
+   "url": "https://www.hks.harvard.edu/index%2Ephp/events/leaders-we-need-when-trust-decline",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -1796,43 +1756,43 @@
    "end": "2026-09-30T16:30:00-04:00",
    "date": "2026-09-30",
    "all_day": false,
-   "location": "Fainsod Room, Littauer 324",
+   "location": "",
    "online": false,
-   "host": "Center for Public Leadership",
+   "host": "",
    "food": {
     "status": "none",
     "types": [],
     "evidence": ""
    },
    "registration": {
-    "status": "required",
-    "evidence": "This event is open to HUID holders and registration is required.",
-    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001k6RdIAI"
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
    },
    "audience": {
-    "level": "harvard",
+    "level": "unknown",
     "group": "",
-    "evidence": "This event is open to HUID holders and registration is required.",
-    "basis": "text"
+    "evidence": "",
+    "basis": "none"
    },
-   "summary": "Join Doug Sosnik, CPL Hauser Leader and longtime political strategist, to discuss the qualities of leaders who are successful in environments where people have lost trust in institutions and its leaders. Drawing on lessons from this July 2026 Gallup poll showing historic lows of trust in U.S. institutions, Doug will…",
+   "summary": "",
    "notes": "",
-   "place_name": "Littauer Building, Harvard Kennedy School",
-   "lat": 42.371045,
-   "lon": -71.12209,
-   "geo_method": "gazetteer",
-   "walk_min": 18
+   "place_name": "Harvard Kennedy School",
+   "lat": 42.371989,
+   "lon": -71.121761,
+   "geo_method": "host",
+   "walk_min": 16
   },
   {
    "id": "49e083180a85",
-   "title": "Study Group with Amb. Nathalie Rayes: From Advocacy to the Arts",
-   "url": "https://www.hks.harvard.edu/events/study-group-amb-nathalie-rayes-advocacy-arts",
-   "source_id": "hks",
-   "source_name": "Harvard Kennedy School",
+   "title": "Study Group with Ambassador Nathalie Rayes — From Advocacy to the Arts: Building Power, Institutions, and Community ft. Frankie Miranda & Luis Miranda",
+   "url": "https://iop.harvard.edu/events/study-group-ambassador-nathalie-rayes-advocacy-arts-building-power-institutions-and",
+   "source_id": "gazette",
+   "source_name": "Harvard Gazette calendar",
    "also_listed": [
     {
-     "source_name": "Harvard Gazette calendar",
-     "url": "https://iop.harvard.edu/events/study-group-ambassador-nathalie-rayes-advocacy-arts-building-power-institutions-and"
+     "source_name": "Harvard Kennedy School",
+     "url": "https://www.hks.harvard.edu/events/study-group-amb-nathalie-rayes-advocacy-arts"
     },
     {
      "source_name": "Harvard College events",
@@ -1848,9 +1808,9 @@
    "end": "2026-09-30T17:15:00-04:00",
    "date": "2026-09-30",
    "all_day": false,
-   "location": "L-166",
+   "location": "Institute of Politics at Harvard Kennedy School, 79 JFK St., Cambridge",
    "online": false,
-   "host": "Institute of Politics (IOP)",
+   "host": "Institute of Politics at Harvard Kennedy School",
    "food": {
     "status": "none",
     "types": [],
@@ -1858,17 +1818,17 @@
    },
    "registration": {
     "status": "required",
-    "evidence": "RSVP link on the event page",
+    "evidence": "Registration link on the event page",
     "link": "https://iop.harvard.edu/events/study-group-ambassador-nathalie-rayes-advocacy-arts-building-power-institutions-and"
    },
    "audience": {
     "level": "restricted",
-    "group": "HKS students",
-    "evidence": "Title: Study Group with Amb. Nathalie Rayes: From Advocacy to the Arts",
+    "group": "students",
+    "evidence": "Title: Study Group with Ambassador Nathalie Rayes — From Advocacy to the Arts: Building Power, Institutions, and Community ft. Frankie Miranda & Luis Miranda",
     "basis": "inferred"
    },
-   "summary": "Study Group with Ambassador Nathalie Rayes: From Advocacy to the Arts: Building Power, Institutions, and Community ft. Frankie Miranda & Luis Miranda What does it take to build something that lasts—and know when it’s time to reinvent? Luis A. Miranda Jr., philanthropist, strategist, author, producer, and founding…",
-   "notes": "",
+   "summary": "What does it take to build something that lasts—and know when it’s time to reinvent? Luis A. Miranda Jr., philanthropist, strategist, author, producer, and founding president of the Hispanic Federation, and Frankie Miranda, President and CEO of the Hispanic Federation, join Ambassador Nathalie Rayes for a candid…",
+   "notes": "Cost: Free | Harvard Key required: No",
    "place_name": "Littauer Building, Harvard Kennedy School",
    "lat": 42.371045,
    "lon": -71.12209,
@@ -1980,9 +1940,9 @@
     "evidence": ""
    },
    "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001jgfGIAQ"
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
    },
    "audience": {
     "level": "unknown",
@@ -3346,6 +3306,46 @@
    "walk_min": 7
   },
   {
+   "id": "3e53321c9453",
+   "title": "Bruce Armitage: A Maker’s Journey",
+   "url": "https://events.college.harvard.edu/ofa/event/225171-bruce-armitage-a-makers-journey",
+   "source_id": "college",
+   "source_name": "Harvard College events",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "start": "2026-10-01T11:00:00-04:00",
+   "end": "2026-10-01T17:00:00-04:00",
+   "date": "2026-10-01",
+   "all_day": false,
+   "location": "Ceramics Studio",
+   "online": false,
+   "host": "Ceramics Program, Office for the Arts at Harvard",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "Harvard College students",
+    "evidence": "Harvard College calendar, no sign it is open to others",
+    "basis": "default"
+   },
+   "summary": "This exhibition celebrates the evolving work of Boston-based sculptor and ceramic artist Bruce Armitage, a long-time Resident Artist, Teaching Assistant, and Studio Lab Technician at the Ceramics Program, Office for the Arts at Harvard. He focuses on figurative sculpture influenced by classical traditions. Bruce is a…",
+   "notes": "",
+   "place_name": "Ceramics Studio",
+   "lat": 42.362599,
+   "lon": -71.131201,
+   "geo_method": "source",
+   "walk_min": 37
+  },
+  {
    "id": "170177470b2a",
    "title": "Carmen Winant: Double Jeopardy Exhibition",
    "url": "https://www.radcliffe.harvard.edu/event/2026-carmen-winant-double-jeopardy-exhibition",
@@ -4456,46 +4456,6 @@
    "walk_min": 74
   },
   {
-   "id": "f7d8c7fdbff0",
-   "title": "Bruce Armitage: A Maker’s Journey",
-   "url": "https://events.college.harvard.edu/ofa/event/225171-bruce-armitage-a-makers-journey",
-   "source_id": "college",
-   "source_name": "Harvard College events",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "start": "2026-10-01T14:00:00-04:00",
-   "end": "2026-10-01T20:00:00-04:00",
-   "date": "2026-10-01",
-   "all_day": false,
-   "location": "Ceramics Studio",
-   "online": false,
-   "host": "Ceramics Program, Office for the Arts at Harvard",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
-   },
-   "audience": {
-    "level": "restricted",
-    "group": "Harvard College students",
-    "evidence": "Harvard College calendar, no sign it is open to others",
-    "basis": "default"
-   },
-   "summary": "This exhibition celebrates the evolving work of Boston-based sculptor and ceramic artist Bruce Armitage, a long-time Resident Artist, Teaching Assistant, and Studio Lab Technician at the Ceramics Program, Office for the Arts at Harvard. He focuses on figurative sculpture influenced by classical traditions. Bruce is a…",
-   "notes": "",
-   "place_name": "Ceramics Studio",
-   "lat": 42.362599,
-   "lon": -71.131201,
-   "geo_method": "source",
-   "walk_min": 37
-  },
-  {
    "id": "e284d28a111e",
    "title": "Prospective Concentrators AntiquiTea Party",
    "url": "https://events.college.harvard.edu/event/224982-prospective-concentrators-antiquitea-party",
@@ -5496,46 +5456,6 @@
    "walk_min": 12
   },
   {
-   "id": "997d594bc1c4",
-   "title": "Harvard University Women’s Tennis vs Harvard Fall Classic",
-   "url": "https://events.college.harvard.edu/event/224756-harvard-university-womens-tennis-vs-harvard-fall",
-   "source_id": "college",
-   "source_name": "Harvard College events",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "start": "2026-10-02T00:00:00-04:00",
-   "end": null,
-   "date": "2026-10-02",
-   "all_day": true,
-   "location": "Cambridge, Mass.",
-   "online": false,
-   "host": "Main Calendar",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
-   },
-   "audience": {
-    "level": "restricted",
-    "group": "Harvard College students",
-    "evidence": "Harvard College calendar, no sign it is open to others",
-    "basis": "default"
-   },
-   "summary": "Harvard University Women’s Tennis vs Harvard Fall Classic URL:https://gocrimson.com/calendar.aspx?game_id=33569&sport_id=38",
-   "notes": "",
-   "place_name": "",
-   "lat": null,
-   "lon": null,
-   "geo_method": null,
-   "walk_min": null
-  },
-  {
    "id": "068f61b6bbf0",
    "title": "Muriel Siebert: Redefining Power and Possibility on Wall Street",
    "url": "https://www.library.hbs.edu/special-collections-and-archives/exhibits/muriel-siebert",
@@ -6022,6 +5942,46 @@
    "walk_min": 7
   },
   {
+   "id": "9733c8cff465",
+   "title": "Bruce Armitage: A Maker’s Journey",
+   "url": "https://events.college.harvard.edu/ofa/event/225172-bruce-armitage-a-makers-journey",
+   "source_id": "college",
+   "source_name": "Harvard College events",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "start": "2026-10-02T11:00:00-04:00",
+   "end": "2026-10-02T17:00:00-04:00",
+   "date": "2026-10-02",
+   "all_day": false,
+   "location": "Ceramics Studio",
+   "online": false,
+   "host": "Ceramics Program, Office for the Arts at Harvard",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "Harvard College students",
+    "evidence": "Harvard College calendar, no sign it is open to others",
+    "basis": "default"
+   },
+   "summary": "This exhibition celebrates the evolving work of Boston-based sculptor and ceramic artist Bruce Armitage, a long-time Resident Artist, Teaching Assistant, and Studio Lab Technician at the Ceramics Program, Office for the Arts at Harvard. He focuses on figurative sculpture influenced by classical traditions. Bruce is a…",
+   "notes": "",
+   "place_name": "Ceramics Studio",
+   "lat": 42.362599,
+   "lon": -71.131201,
+   "geo_method": "source",
+   "walk_min": 37
+  },
+  {
    "id": "122b52818432",
    "title": "Carmen Winant: Double Jeopardy Exhibition",
    "url": "https://www.radcliffe.harvard.edu/event/2026-carmen-winant-double-jeopardy-exhibition",
@@ -6435,46 +6395,6 @@
    "walk_min": 17
   },
   {
-   "id": "f60ef1d62a8f",
-   "title": "Bruce Armitage: A Maker’s Journey",
-   "url": "https://events.college.harvard.edu/ofa/event/225172-bruce-armitage-a-makers-journey",
-   "source_id": "college",
-   "source_name": "Harvard College events",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "start": "2026-10-02T14:00:00-04:00",
-   "end": "2026-10-02T20:00:00-04:00",
-   "date": "2026-10-02",
-   "all_day": false,
-   "location": "Ceramics Studio",
-   "online": false,
-   "host": "Ceramics Program, Office for the Arts at Harvard",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
-   },
-   "audience": {
-    "level": "restricted",
-    "group": "Harvard College students",
-    "evidence": "Harvard College calendar, no sign it is open to others",
-    "basis": "default"
-   },
-   "summary": "This exhibition celebrates the evolving work of Boston-based sculptor and ceramic artist Bruce Armitage, a long-time Resident Artist, Teaching Assistant, and Studio Lab Technician at the Ceramics Program, Office for the Arts at Harvard. He focuses on figurative sculpture influenced by classical traditions. Bruce is a…",
-   "notes": "",
-   "place_name": "Ceramics Studio",
-   "lat": 42.362599,
-   "lon": -71.131201,
-   "geo_method": "source",
-   "walk_min": 37
-  },
-  {
    "id": "9789c26c9c3b",
    "title": "First/Hand Fridays: Power and Desire in Ancient Art",
    "url": "https://harvardartmuseums.org/calendar/first-hand-fridays-power-and-desire-in-ancient-art?utm_source=gazette&utm_medium=listing&utm_campaign=FirsthandFridays_Oct&utm_id=First%2FHand+Fridays%3A+Power+and+Desire+in+Ancient+Art",
@@ -6715,6 +6635,46 @@
    "lon": -71.12209,
    "geo_method": "gazetteer",
    "walk_min": 18
+  },
+  {
+   "id": "c1848b6c5796",
+   "title": "Harvard University Women’s Tennis vs Harvard Fall Classic Day One",
+   "url": "https://events.college.harvard.edu/event/224756-harvard-university-womens-tennis-vs-harvard-fall",
+   "source_id": "college",
+   "source_name": "Harvard College events",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "start": "2026-10-02T15:30:00-04:00",
+   "end": "2026-10-02T18:30:00-04:00",
+   "date": "2026-10-02",
+   "all_day": false,
+   "location": "Cambridge, Mass.",
+   "online": false,
+   "host": "Main Calendar",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "Harvard College students",
+    "evidence": "Harvard College calendar, no sign it is open to others",
+    "basis": "default"
+   },
+   "summary": "Harvard University Women’s Tennis vs Harvard Fall Classic Day One URL:https://gocrimson.com/calendar.aspx?game_id=33569&sport_id=38",
+   "notes": "",
+   "place_name": "",
+   "lat": null,
+   "lon": null,
+   "geo_method": null,
+   "walk_min": null
   },
   {
    "id": "9db9739ca3b0",
@@ -7110,7 +7070,6 @@
    "also_listed": [],
    "aliases": [
     "6e0c51676a1c",
-    "960438730e58",
     "be847eaa878f"
    ],
    "suggested": null,
@@ -7464,6 +7423,46 @@
    "lon": -71.115646,
    "geo_method": "gazetteer",
    "walk_min": 5
+  },
+  {
+   "id": "279aabffa287",
+   "title": "Harvard University Women’s Tennis vs Harvard Fall Classic Day Two",
+   "url": "https://events.college.harvard.edu/event/225208-harvard-university-womens-tennis-vs-harvard-fall",
+   "source_id": "college",
+   "source_name": "Harvard College events",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "start": "2026-10-03T10:00:00-04:00",
+   "end": "2026-10-03T13:00:00-04:00",
+   "date": "2026-10-03",
+   "all_day": false,
+   "location": "Cambridge, Mass.",
+   "online": false,
+   "host": "Main Calendar",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "Harvard College students",
+    "evidence": "Harvard College calendar, no sign it is open to others",
+    "basis": "default"
+   },
+   "summary": "Harvard University Women’s Tennis vs Harvard Fall Classic Day Two URL:https://gocrimson.com/calendar.aspx?game_id=33671&sport_id=38",
+   "notes": "",
+   "place_name": "",
+   "lat": null,
+   "lon": null,
+   "geo_method": null,
+   "walk_min": null
   },
   {
    "id": "509944dec65a",
@@ -8347,6 +8346,46 @@
     "basis": "default"
    },
    "summary": "glow-in-the-dark neon rave party — Event Details: https://soco.college.harvard.edu/rsvp?id=383137",
+   "notes": "",
+   "place_name": "",
+   "lat": null,
+   "lon": null,
+   "geo_method": null,
+   "walk_min": null
+  },
+  {
+   "id": "6e9075e8d8f0",
+   "title": "Harvard University Women’s Tennis vs Harvard Fall Classic Day Three",
+   "url": "https://events.college.harvard.edu/event/225207-harvard-university-womens-tennis-vs-harvard-fall",
+   "source_id": "college",
+   "source_name": "Harvard College events",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "start": "2026-10-04T08:30:00-04:00",
+   "end": "2026-10-04T11:30:00-04:00",
+   "date": "2026-10-04",
+   "all_day": false,
+   "location": "Cambridge, Mass.",
+   "online": false,
+   "host": "Main Calendar",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "Harvard College students",
+    "evidence": "Harvard College calendar, no sign it is open to others",
+    "basis": "default"
+   },
+   "summary": "Harvard University Women’s Tennis vs Harvard Fall Classic Day Three URL:https://gocrimson.com/calendar.aspx?game_id=33672&sport_id=38",
    "notes": "",
    "place_name": "",
    "lat": null,
@@ -9480,6 +9519,46 @@
    "walk_min": 3
   },
   {
+   "id": "f77385d80eca",
+   "title": "Bruce Armitage: A Maker’s Journey",
+   "url": "https://events.college.harvard.edu/ofa/event/225173-bruce-armitage-a-makers-journey",
+   "source_id": "college",
+   "source_name": "Harvard College events",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "start": "2026-10-05T11:00:00-04:00",
+   "end": "2026-10-05T17:00:00-04:00",
+   "date": "2026-10-05",
+   "all_day": false,
+   "location": "Ceramics Studio",
+   "online": false,
+   "host": "Ceramics Program, Office for the Arts at Harvard",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "Harvard College students",
+    "evidence": "Harvard College calendar, no sign it is open to others",
+    "basis": "default"
+   },
+   "summary": "This exhibition celebrates the evolving work of Boston-based sculptor and ceramic artist Bruce Armitage, a long-time Resident Artist, Teaching Assistant, and Studio Lab Technician at the Ceramics Program, Office for the Arts at Harvard. He focuses on figurative sculpture influenced by classical traditions. Bruce is a…",
+   "notes": "",
+   "place_name": "Ceramics Studio",
+   "lat": 42.362599,
+   "lon": -71.131201,
+   "geo_method": "source",
+   "walk_min": 37
+  },
+  {
    "id": "91eaed8da534",
    "title": "Fried Frank 1L Coffee Chat",
    "url": "https://hls.harvard.edu/events/fried-frank-1l-coffee-chat-2/",
@@ -9990,6 +10069,51 @@
    "walk_min": 18
   },
   {
+   "id": "7022b77ac353",
+   "title": "HBLR x Davis Polk",
+   "url": "https://hls.harvard.edu/events/hblr-x-davis-polk/",
+   "source_id": "hls",
+   "source_name": "Harvard Law School",
+   "also_listed": [],
+   "aliases": [
+    "7b6babdb7cb1"
+   ],
+   "suggested": null,
+   "start": "2026-10-05T12:15:00-04:00",
+   "end": "2026-10-05T13:15:00-04:00",
+   "date": "2026-10-05",
+   "all_day": false,
+   "location": "WCC 3019, Harvard Law School",
+   "online": false,
+   "host": "Harvard Business Law Review",
+   "food": {
+    "status": "confirmed",
+    "types": [
+     "Lunch"
+    ],
+    "evidence": "Lunch will be provided.",
+    "cue": "strong"
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "HLS community",
+    "evidence": "HLS listing audience: HLS only",
+    "basis": "listing"
+   },
+   "summary": "Join the Harvard Business Law Review for a panel discussion with attorneys from Davis Polk & Wardwell LLP. Michael Brasher will moderate the conversation, joined by Rosie Curren, Chanty Gbaye, Hope Goimarac, and Ben Malone. Lunch will be provided. Add to Calendar October 5, 2026, 12:15 pm - 1:15 pm +Google Calendar…",
+   "notes": "",
+   "place_name": "Wasserstein Hall (WCC), Harvard Law School",
+   "lat": 42.379383,
+   "lon": -71.119421,
+   "geo_method": "gazetteer",
+   "walk_min": 10
+  },
+  {
    "id": "166e1858bff1",
    "title": "Journal on Legislation Cooley Speaker Event",
    "url": "https://hls.harvard.edu/events/journal-on-legislation-cooley-speaker-event/",
@@ -10156,46 +10280,6 @@
    "lon": -71.118497,
    "geo_method": "gazetteer",
    "walk_min": 8
-  },
-  {
-   "id": "7022b77ac353",
-   "title": "Antitrust Unpacked: Inside the Practice with Davis Polk Attorneys from Associate to Partner",
-   "url": "https://hls.harvard.edu/events/antitrust-unpacked-inside-the-practice-with-davis-polk-attorneys-from-associate-to-partner/",
-   "source_id": "hls",
-   "source_name": "Harvard Law School",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "start": "2026-10-05T12:30:00-04:00",
-   "end": "2026-10-05T13:15:00-04:00",
-   "date": "2026-10-05",
-   "all_day": false,
-   "location": "WCC, 1019 Classroom, Harvard Law School",
-   "online": false,
-   "host": "Harvard Law School Antitrust Association",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
-   },
-   "audience": {
-    "level": "restricted",
-    "group": "HLS community",
-    "evidence": "HLS listing audience: HLS only",
-    "basis": "listing"
-   },
-   "summary": "The Harvard Law School Antitrust Association is welcoming a panel from Davis Polk’s Antitrust & Competition practice featuring associates, a counsel, and a partner. The panel will discuss the antitrust practice across a career trajectory at a law firm. Add to Calendar October 5, 2026, 12:30 pm - 1:15 pm +Google…",
-   "notes": "",
-   "place_name": "Wasserstein Hall (WCC), Harvard Law School",
-   "lat": 42.379383,
-   "lon": -71.119421,
-   "geo_method": "gazetteer",
-   "walk_min": 10
   },
   {
    "id": "222b3c21d840",
@@ -10443,46 +10527,6 @@
    "walk_min": 46
   },
   {
-   "id": "0bd073b16ed4",
-   "title": "Bruce Armitage: A Maker’s Journey",
-   "url": "https://events.college.harvard.edu/ofa/event/225173-bruce-armitage-a-makers-journey",
-   "source_id": "college",
-   "source_name": "Harvard College events",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "start": "2026-10-05T14:00:00-04:00",
-   "end": "2026-10-05T20:00:00-04:00",
-   "date": "2026-10-05",
-   "all_day": false,
-   "location": "Ceramics Studio",
-   "online": false,
-   "host": "Ceramics Program, Office for the Arts at Harvard",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
-   },
-   "audience": {
-    "level": "restricted",
-    "group": "Harvard College students",
-    "evidence": "Harvard College calendar, no sign it is open to others",
-    "basis": "default"
-   },
-   "summary": "This exhibition celebrates the evolving work of Boston-based sculptor and ceramic artist Bruce Armitage, a long-time Resident Artist, Teaching Assistant, and Studio Lab Technician at the Ceramics Program, Office for the Arts at Harvard. He focuses on figurative sculpture influenced by classical traditions. Bruce is a…",
-   "notes": "",
-   "place_name": "Ceramics Studio",
-   "lat": 42.362599,
-   "lon": -71.131201,
-   "geo_method": "source",
-   "walk_min": 37
-  },
-  {
    "id": "d581feb4ea82",
    "title": "Davis Polk 1L Coffee Chat",
    "url": "https://hls.harvard.edu/events/davis-polk-1l-coffee-chat-2/",
@@ -10563,6 +10607,46 @@
    "lon": null,
    "geo_method": null,
    "walk_min": null
+  },
+  {
+   "id": "1094050d0db7",
+   "title": "Ambassador Nathalie Rayes Study Group with Senator Rubén Gallego",
+   "url": "https://www.hks.harvard.edu/events/ambassador-nathalie-rayes-study-group-senator-ruben-gallego",
+   "source_id": "hks",
+   "source_name": "Harvard Kennedy School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "start": "2026-10-05T16:00:00-04:00",
+   "end": "2026-10-05T17:15:00-04:00",
+   "date": "2026-10-05",
+   "all_day": false,
+   "location": "L-166",
+   "online": false,
+   "host": "Institute of Politics (IOP)",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "RSVP link on the event page",
+    "link": "https://iop.harvard.edu/events/study-group-ambassador-nathalie-rayes-service-security-and-american-dream-leadership"
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "HKS students",
+    "evidence": "Title: Ambassador Nathalie Rayes Study Group with Senator Rubén Gallego",
+    "basis": "inferred"
+   },
+   "summary": "Service, Security, and the American Dream: Leadership in a Changing America ft. Senator Rubén Gallego What does the American Dream look like in a country undergoing profound change? Senator Rubén Gallego joins us to explore how his journey from Harvard and the U.S. Marine Corps to the United States Senate has shaped…",
+   "notes": "",
+   "place_name": "Littauer Building, Harvard Kennedy School",
+   "lat": 42.371045,
+   "lon": -71.12209,
+   "geo_method": "gazetteer",
+   "walk_min": 18
   },
   {
    "id": "74a49c2cbb8c",
@@ -11443,9 +11527,9 @@
    "walk_min": 5
   },
   {
-   "id": "d9c69386b740",
+   "id": "972cbe6f0626",
    "title": "A Conversation with Philippine Ambassador Jose Manuel Romualdez",
-   "url": "https://www.hks.harvard.edu/events/conversation-philippine-ambassador-jose-manuel-romualdez-0",
+   "url": "https://www.hks.harvard.edu/index%2ephp/events/conversation-philippine-ambassador-jose-manuel-romualdez-0",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -11455,18 +11539,18 @@
    "end": "2026-10-06T11:00:00-04:00",
    "date": "2026-10-06",
    "all_day": false,
-   "location": "Littauer 150",
+   "location": "",
    "online": false,
-   "host": "Program on Diplomacy and Statecraft",
+   "host": "",
    "food": {
     "status": "none",
     "types": [],
     "evidence": ""
    },
    "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001k9AzIAI"
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
    },
    "audience": {
     "level": "unknown",
@@ -11474,13 +11558,13 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "Join us for a fireside conversation with Philippine Ambassador Jose Manuel Romualdez and former U.S. Ambassador to China Nicholas Burns on U.S.–Philippine relations, regional dynamics in Southeast Asia, and the role of diplomacy in advancing shared priorities. Ambassador Jose Manuel “Babe” del Gallego Romualdez has…",
+   "summary": "",
    "notes": "",
-   "place_name": "Littauer Building, Harvard Kennedy School",
-   "lat": 42.371045,
-   "lon": -71.12209,
-   "geo_method": "gazetteer",
-   "walk_min": 18
+   "place_name": "Harvard Kennedy School",
+   "lat": 42.371989,
+   "lon": -71.121761,
+   "geo_method": "host",
+   "walk_min": 16
   },
   {
    "id": "6dfe47f9c983",
@@ -11561,6 +11645,46 @@
    "lon": -71.114113,
    "geo_method": "gazetteer",
    "walk_min": 7
+  },
+  {
+   "id": "13c7f53a73c0",
+   "title": "Bruce Armitage: A Maker’s Journey",
+   "url": "https://events.college.harvard.edu/ofa/event/225174-bruce-armitage-a-makers-journey",
+   "source_id": "college",
+   "source_name": "Harvard College events",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "start": "2026-10-06T11:00:00-04:00",
+   "end": "2026-10-06T17:00:00-04:00",
+   "date": "2026-10-06",
+   "all_day": false,
+   "location": "Ceramics Studio",
+   "online": false,
+   "host": "Ceramics Program, Office for the Arts at Harvard",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "Harvard College students",
+    "evidence": "Harvard College calendar, no sign it is open to others",
+    "basis": "default"
+   },
+   "summary": "This exhibition celebrates the evolving work of Boston-based sculptor and ceramic artist Bruce Armitage, a long-time Resident Artist, Teaching Assistant, and Studio Lab Technician at the Ceramics Program, Office for the Arts at Harvard. He focuses on figurative sculpture influenced by classical traditions. Bruce is a…",
+   "notes": "",
+   "place_name": "Ceramics Studio",
+   "lat": 42.362599,
+   "lon": -71.131201,
+   "geo_method": "source",
+   "walk_min": 37
   },
   {
    "id": "ffb33aa38b14",
@@ -11820,11 +11944,11 @@
    "also_listed": [
     {
      "source_name": "Harvard Kennedy School",
-     "url": "https://www.hks.harvard.edu/events/local-political-power-and-violence-over-land-and-environment-brazil"
+     "url": "https://www.hks.harvard.edu/index%2ephp/events/local-political-power-and-violence-over-land-and-environment-brazil"
     }
    ],
    "aliases": [
-    "53dfe050e076"
+    "71e36433d2ea"
    ],
    "suggested": null,
    "start": "2026-10-06T12:00:00-04:00",
@@ -11862,9 +11986,9 @@
    "walk_min": 17
   },
   {
-   "id": "eed441bb52b2",
+   "id": "181c78db1c68",
    "title": "Past and Future Tales of the Transmission Grid",
-   "url": "https://www.hks.harvard.edu/index%2ephp/events/past-and-future-tales-transmission-grid",
+   "url": "https://www.hks.harvard.edu/events/past-and-future-tales-transmission-grid",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -11874,18 +11998,21 @@
    "end": "2026-10-06T13:00:00-04:00",
    "date": "2026-10-06",
    "all_day": false,
-   "location": "",
+   "location": "Malkin Penthouse",
    "online": false,
-   "host": "",
+   "host": "Belfer Center for Science and International Affairs; Mossavar-Rahmani Center for Business and Government",
    "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
+    "status": "confirmed",
+    "types": [
+     "Lunch"
+    ],
+    "evidence": "Lunch will be served.",
+    "cue": "strong"
    },
    "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
+    "status": "required",
+    "evidence": "Registration: RSVP required.",
+    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001jjBhIAI"
    },
    "audience": {
     "level": "unknown",
@@ -11893,13 +12020,13 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "",
+   "summary": "In this Energy Policy Seminar, Michael Skelly, CEO of Grid United, will join Professor Joe Aldy for a wide-ranging conversation about transmission infrastructure and renewable energy development, covering everything from utilities in North Dakota to future directions for energy policy. Q&A to follow. Lunch will be…",
    "notes": "",
-   "place_name": "Harvard Kennedy School",
-   "lat": 42.371989,
-   "lon": -71.121761,
-   "geo_method": "host",
-   "walk_min": 16
+   "place_name": "Littauer Building, Harvard Kennedy School",
+   "lat": 42.371045,
+   "lon": -71.12209,
+   "geo_method": "gazetteer",
+   "walk_min": 18
   },
   {
    "id": "509c3d293b4e",
@@ -12454,6 +12581,46 @@
    "walk_min": 10
   },
   {
+   "id": "1e1f3bb46ad0",
+   "title": "OCS Peer Adviser Resume & Cover Letter Workshop",
+   "url": "https://hls.harvard.edu/events/ocs-peer-adviser-resume-cover-letter-workshop/",
+   "source_id": "hls",
+   "source_name": "Harvard Law School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "start": "2026-10-06T12:30:00-04:00",
+   "end": "2026-10-06T13:30:00-04:00",
+   "date": "2026-10-06",
+   "all_day": false,
+   "location": "WCC Room 3013, Harvard Law School",
+   "online": false,
+   "host": "OCS",
+   "food": {
+    "status": "byo",
+    "types": [],
+    "evidence": "Feel free to bring your lunch."
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "HLS 1Ls",
+    "evidence": "HLS listing audience: 1Ls",
+    "basis": "listing"
+   },
+   "summary": "In a small group setting, 1Ls will work with OCS’s 3L Peer Advisers on how to draft a professional, impressive resume and a persuasive cover letter for the private sector. Students can either bring their application materials to the workshop or take notes for later. Feel free to bring your lunch. Held in WCC 3013. Add…",
+   "notes": "",
+   "place_name": "Wasserstein Hall (WCC), Harvard Law School",
+   "lat": 42.379383,
+   "lon": -71.119421,
+   "geo_method": "gazetteer",
+   "walk_min": 10
+  },
+  {
    "id": "e5bf5c11fc13",
    "title": "Public Interest Lawyering in the Appellate Courts",
    "url": "https://hls.harvard.edu/events/public-interest-lawyering-in-the-appellate-courts/",
@@ -12623,46 +12790,6 @@
    "walk_min": 14
   },
   {
-   "id": "9f9fa8067991",
-   "title": "Bruce Armitage: A Maker’s Journey",
-   "url": "https://events.college.harvard.edu/ofa/event/225174-bruce-armitage-a-makers-journey",
-   "source_id": "college",
-   "source_name": "Harvard College events",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "start": "2026-10-06T14:00:00-04:00",
-   "end": "2026-10-06T20:00:00-04:00",
-   "date": "2026-10-06",
-   "all_day": false,
-   "location": "Ceramics Studio",
-   "online": false,
-   "host": "Ceramics Program, Office for the Arts at Harvard",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
-   },
-   "audience": {
-    "level": "restricted",
-    "group": "Harvard College students",
-    "evidence": "Harvard College calendar, no sign it is open to others",
-    "basis": "default"
-   },
-   "summary": "This exhibition celebrates the evolving work of Boston-based sculptor and ceramic artist Bruce Armitage, a long-time Resident Artist, Teaching Assistant, and Studio Lab Technician at the Ceramics Program, Office for the Arts at Harvard. He focuses on figurative sculpture influenced by classical traditions. Bruce is a…",
-   "notes": "",
-   "place_name": "Ceramics Studio",
-   "lat": 42.362599,
-   "lon": -71.131201,
-   "geo_method": "source",
-   "walk_min": 37
-  },
-  {
    "id": "3b93e20d45f8",
    "title": "Office Hours with ADM Rachel Levine",
    "url": "https://www.hks.harvard.edu/events/office-hours-adm-rachel-levine",
@@ -12785,9 +12912,9 @@
    "walk_min": 10
   },
   {
-   "id": "0f9e0cfc3173",
+   "id": "3d0e841e0610",
    "title": "Development Finance from Wall Street: A Conversation with Faheen A, J.P. Morgan",
-   "url": "https://www.hks.harvard.edu/events/development-finance-wall-street-conversation-faheen-jp-morgan",
+   "url": "https://www.hks.harvard.edu/index%2ephp/events/development-finance-wall-street-conversation-faheen-jp-morgan",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -12797,26 +12924,26 @@
    "end": "2026-10-06T16:00:00-04:00",
    "date": "2026-10-06",
    "all_day": false,
-   "location": "Perkins Conference Room R-429",
+   "location": "",
    "online": false,
-   "host": "Harvard Center for International Development",
+   "host": "",
    "food": {
     "status": "none",
     "types": [],
     "evidence": ""
    },
    "registration": {
-    "status": "required",
-    "evidence": "Registration is required.﻿",
-    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001kC2PIAU"
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
    },
    "audience": {
-    "level": "harvard",
+    "level": "unknown",
     "group": "",
-    "evidence": "Attendance is open to Harvard ID holders only.",
-    "basis": "text"
+    "evidence": "",
+    "basis": "none"
    },
-   "summary": "Can a global investment bank be a force for development? Join us for a conversation with Faheen Allibhoy, Managing Director and Global Head of Development Finance and Advisory at J.P. Morgan, who leads the firm's strategic relationships with the world's multilateral banks and DFIs. Faheen was the founding head of the…",
+   "summary": "",
    "notes": "",
    "place_name": "Harvard Kennedy School",
    "lat": 42.371989,
@@ -12993,6 +13120,46 @@
    "walk_min": null
   },
   {
+   "id": "38d70982790d",
+   "title": "Chris Whipple Study Group: All the President's Men & Women ft. Amb. Cofer Black",
+   "url": "https://www.hks.harvard.edu/events/chris-whipple-study-group-all-presidents-men-women-ft-amb-cofer-black",
+   "source_id": "hks",
+   "source_name": "Harvard Kennedy School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "start": "2026-10-06T16:30:00-04:00",
+   "end": "2026-10-06T17:45:00-04:00",
+   "date": "2026-10-06",
+   "all_day": false,
+   "location": "L-163",
+   "online": false,
+   "host": "Institute of Politics (IOP)",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "RSVP link on the event page",
+    "link": "https://iop.harvard.edu/events/study-group-chris-whipple-all-presidents-men-and-women-cia-director-ft-ambassador-cofer"
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "HKS students",
+    "evidence": "Title: Chris Whipple Study Group: All the President's Men & Women ft. Amb. Cofer Black",
+    "basis": "inferred"
+   },
+   "summary": "Study Group with Chris Whipple: All the President's Men and Women: The CIA Director ft. Ambassador Cofer Black This session is a dive into the role of the CIA director. We’ll look at the critical importance of the director’s relationship with the fiercely independent covert operatives of the agency—who sometimes greet…",
+   "notes": "",
+   "place_name": "Littauer Building, Harvard Kennedy School",
+   "lat": 42.371045,
+   "lon": -71.12209,
+   "geo_method": "gazetteer",
+   "walk_min": 18
+  },
+  {
    "id": "1dc716bc509a",
    "title": "HGSE Askwith Education Forum | The Modern Superintendent",
    "url": "https://calendar.gse.harvard.edu/36YmkP6/5a5YUc2gOSz?source=trumba",
@@ -13031,6 +13198,49 @@
    "lon": -71.12176,
    "geo_method": "gazetteer",
    "walk_min": 14
+  },
+  {
+   "id": "0f89accb4011",
+   "title": "Salata Institute for Climate and Sustainability Fall 2026 Open House",
+   "url": "https://events.college.harvard.edu/event/225202-salata-institute-for-climate-and-sustainability",
+   "source_id": "college",
+   "source_name": "Harvard College events",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "start": "2026-10-06T17:00:00-04:00",
+   "end": "2026-10-06T19:00:00-04:00",
+   "date": "2026-10-06",
+   "all_day": false,
+   "location": "Bell Hall (B-500), Harvard Kennedy School, Cambridge",
+   "online": false,
+   "host": "Salata Institute for Climate and Sustainability",
+   "food": {
+    "status": "confirmed",
+    "types": [
+     "Dinner"
+    ],
+    "evidence": "Dinner will be provided.",
+    "cue": "strong"
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "Harvard College students",
+    "evidence": "Harvard College calendar, no sign it is open to others",
+    "basis": "default"
+   },
+   "summary": "Join Salata Institute staff and other climate-minded students from across Harvard’s schools at the Institute’s Fall 2026 Open House! Learn about our student funding programs, professional development opportunities, and network with other students who are passionate about climate and sustainability. Dinner will be…",
+   "notes": "",
+   "place_name": "Belfer Building, Harvard Kennedy School",
+   "lat": 42.37141,
+   "lon": -71.121513,
+   "geo_method": "gazetteer",
+   "walk_min": 17
   },
   {
    "id": "027753ca20a3",
@@ -13336,6 +13546,46 @@
    "lon": null,
    "geo_method": null,
    "walk_min": null
+  },
+  {
+   "id": "a3da0eba159f",
+   "title": "German Language Table",
+   "url": "https://events.college.harvard.edu/winthrop-house/event/225204-german-language-table",
+   "source_id": "college",
+   "source_name": "Harvard College events",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "start": "2026-10-06T18:30:00-04:00",
+   "end": "2026-10-06T19:30:00-04:00",
+   "date": "2026-10-06",
+   "all_day": false,
+   "location": "Winthrop Dining Hall",
+   "online": false,
+   "host": "Winthrop House",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "Winthrop House residents",
+    "evidence": "Hosted by Winthrop House",
+    "basis": "inferred"
+   },
+   "summary": "All levels of German are welcome! See you there. Liebe Grüße, David",
+   "notes": "",
+   "place_name": "Winthrop House",
+   "lat": 42.370356,
+   "lon": -71.118646,
+   "geo_method": "host",
+   "walk_min": 15
   },
   {
    "id": "1f6016c2de9b",
@@ -13994,6 +14244,46 @@
    "walk_min": null
   },
   {
+   "id": "2ba7f2469bbc",
+   "title": "Harvard University Asia Center",
+   "url": "https://asiacenter.harvard.edu/",
+   "source_id": "suggested",
+   "source_name": "Suggested calendar: Asia Center",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "start": "2026-10-07T12:00:00-04:00",
+   "end": null,
+   "date": "2026-10-07",
+   "all_day": true,
+   "location": "",
+   "online": false,
+   "host": "",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "October 7 | Book Talk: Uncanny Beliefs October 2 | When Psychology Fails: Suicide Prevention, Religious Authority, and the Making of National Policy in Indonesia",
+   "notes": "",
+   "place_name": "CGIS South Building",
+   "lat": 42.375011,
+   "lon": -71.113135,
+   "geo_method": "host",
+   "walk_min": 5
+  },
+  {
    "id": "65536c263d0b",
    "title": "Community Gathering in Recognition of 10/7/23, Co-Hosted by the Jewish Law Students Association and Alliance for Israel",
    "url": "https://hls.harvard.edu/events/community-gathering-in-recognition-of-10-7-23-co-hosted-by-the-jewish-law-students-association-and-alliance-for-israel/",
@@ -14113,6 +14403,49 @@
    "place_name": "Pound Hall, Harvard Law School",
    "lat": 42.378601,
    "lon": -71.119747,
+   "geo_method": "gazetteer",
+   "walk_min": 10
+  },
+  {
+   "id": "330464b19c37",
+   "title": "Harvard Law & Technology Society",
+   "url": "https://hls.harvard.edu/events/harvard-law-technology-society/",
+   "source_id": "hls",
+   "source_name": "Harvard Law School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "start": "2026-10-07T12:15:00-04:00",
+   "end": "2026-10-07T13:15:00-04:00",
+   "date": "2026-10-07",
+   "all_day": false,
+   "location": "WCC, 3038 V& E Room, Harvard Law School",
+   "online": false,
+   "host": "Harvard Law and Technology Society",
+   "food": {
+    "status": "confirmed",
+    "types": [
+     "Pizza"
+    ],
+    "evidence": "We will have pizza.",
+    "cue": "weak"
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "HLS community",
+    "evidence": "HLS listing audience: HLS only",
+    "basis": "listing"
+   },
+   "summary": "Join the Harvard Law and Tech Society for a lunch chat with Wasserstein Fellow James Yoon! James Yoon is Acting Assistant Deputy Chief of the Computer Crime and Intellectual Property Section at the U.S. Department of Justice, helping to oversee federal investigations and prosecutions involving ransomware, computer…",
+   "notes": "",
+   "place_name": "Wasserstein Hall (WCC), Harvard Law School",
+   "lat": 42.379383,
+   "lon": -71.119421,
    "geo_method": "gazetteer",
    "walk_min": 10
   },
@@ -14667,6 +15000,126 @@
    "walk_min": 11
   },
   {
+   "id": "79fd703b43be",
+   "title": "Study Group with Chris Whipple: All the President's Men and Women ft. Don Lemon",
+   "url": "https://www.hks.harvard.edu/events/study-group-chris-whipple-all-presidents-men-and-women-ft-don-lemon",
+   "source_id": "hks",
+   "source_name": "Harvard Kennedy School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "start": "2026-10-07T15:00:00-04:00",
+   "end": "2026-10-07T16:15:00-04:00",
+   "date": "2026-10-07",
+   "all_day": false,
+   "location": "L-150",
+   "online": false,
+   "host": "Institute of Politics (IOP)",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "RSVP link on the event page",
+    "link": "https://iop.harvard.edu/events/study-group-chris-whipple-all-presidents-men-and-women-retribution-and-first-amendment-ft"
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "HKS students",
+    "evidence": "Title: Study Group with Chris Whipple: All the President's Men and Women ft. Don Lemon",
+    "basis": "inferred"
+   },
+   "summary": "Study Group with Chris Whipple: All the President's Men and Women: Retribution and the First Amendment ft. Don Lemon This session is a dive into the role of the CIA director. We’ll look at the critical importance of the director’s relationship with the fiercely independent covert operatives of the agency—who sometimes…",
+   "notes": "",
+   "place_name": "Littauer Building, Harvard Kennedy School",
+   "lat": 42.371045,
+   "lon": -71.12209,
+   "geo_method": "gazetteer",
+   "walk_min": 18
+  },
+  {
+   "id": "7cc0a08728c3",
+   "title": "China’s Industrial Overcapacity: Impacts Beyond the U.S. and Europe",
+   "url": "https://www.hks.harvard.edu/events/chinas-industrial-overcapacity-impacts-beyond-us-and-europe",
+   "source_id": "hks",
+   "source_name": "Harvard Kennedy School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "start": "2026-10-07T16:15:00-04:00",
+   "end": "2026-10-07T17:15:00-04:00",
+   "date": "2026-10-07",
+   "all_day": false,
+   "location": "Ofer 401",
+   "online": false,
+   "host": "Mossavar-Rahmani Center for Business and Government",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "Led by M-RCBG Senior Fellow Padmashree Gehl Sampath, this study group looks at recent geopolitical changes in light of China’s excessive industrial capacity to assess its implications for other late industrializing economies outside of USA and Europe. It will focus on emerging technological dominance in key sectors…",
+   "notes": "",
+   "place_name": "Harvard Kennedy School",
+   "lat": 42.371989,
+   "lon": -71.121761,
+   "geo_method": "host",
+   "walk_min": 16
+  },
+  {
+   "id": "37f9f424e902",
+   "title": "Study Group with Governor Doug Ducey: Leading & Governing ft. Doug Goodyear",
+   "url": "https://www.hks.harvard.edu/events/study-group-governor-doug-ducey-leading-governing-ft-doug-goodyear",
+   "source_id": "hks",
+   "source_name": "Harvard Kennedy School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "start": "2026-10-07T16:30:00-04:00",
+   "end": "2026-10-07T17:45:00-04:00",
+   "date": "2026-10-07",
+   "all_day": false,
+   "location": "L-163",
+   "online": false,
+   "host": "Institute of Politics (IOP)",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "RSVP link on the event page",
+    "link": "https://iop.harvard.edu/events/study-group-governor-doug-ducey-leading-governing-ft-doug-goodyear"
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "HKS students",
+    "evidence": "Title: Study Group with Governor Doug Ducey: Leading & Governing ft. Doug Goodyear",
+    "basis": "inferred"
+   },
+   "summary": "Hear how to navigate the rocky waters of transition from candidate to governor. Go behind the scenes with the Governor’s top advisor and political pro Douglas Goodyear, current Chairman, Arizona Board of Regents. IN-PERSON GUEST: Douglas Goodyear, Chairman, Arizona Board of Regents *These off-the-record conversations…",
+   "notes": "",
+   "place_name": "Littauer Building, Harvard Kennedy School",
+   "lat": 42.371045,
+   "lon": -71.12209,
+   "geo_method": "gazetteer",
+   "walk_min": 18
+  },
+  {
    "id": "452fefaf66f1",
    "title": "Beyond the Battlefield: Maryna Er Gorbach's Klondlike and the remaking of war cinema",
    "url": "https://www.huri.harvard.edu/event/yuliya-ladygina-beyond-battlefield-maryna-er-gorbachs-klondike-and-remaking-war-cinema",
@@ -14949,6 +15402,49 @@
    "lat": 42.379383,
    "lon": -71.119421,
    "geo_method": "gazetteer",
+   "walk_min": 10
+  },
+  {
+   "id": "8b06e986b4a0",
+   "title": "First Class 10-Year Anniversary Bash",
+   "url": "https://hls.harvard.edu/events/first-class-10-year-anniversary-bash/",
+   "source_id": "hls",
+   "source_name": "Harvard Law School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "start": "2026-10-07T18:30:00-04:00",
+   "end": "2026-10-07T21:00:00-04:00",
+   "date": "2026-10-07",
+   "all_day": false,
+   "location": "",
+   "online": false,
+   "host": "First Class Law Students Association",
+   "food": {
+    "status": "confirmed",
+    "types": [
+     "Food"
+    ],
+    "evidence": "We’ve rented out Lou’s in Harvard Square, so come join us for great drinks, food, and new (and old) friends.",
+    "cue": "weak"
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "Please RSVP at tinyurl.com/firstclassbday.",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "HLS students",
+    "evidence": "Run by an HLS student organization",
+    "basis": "inferred"
+   },
+   "summary": "First Class invites you to join us in celebrating 10 years of the success, community, and accomplishments of first-generation and low-income students at HLS! We’ve rented out Lou’s in Harvard Square, so come join us for great drinks, food, and new (and old) friends. We’re excited to celebrate everything First Class…",
+   "notes": "",
+   "place_name": "Harvard Law School",
+   "lat": 42.379106,
+   "lon": -71.119679,
+   "geo_method": "host",
    "walk_min": 10
   },
   {
