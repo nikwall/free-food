@@ -23,7 +23,7 @@ import os
 import re
 from datetime import date, datetime, timedelta
 from email import policy
-from email.utils import parsedate_to_datetime
+from email.utils import parseaddr, parsedate_to_datetime
 
 from dateutil import parser as dparser
 
@@ -58,6 +58,10 @@ SKIP_LINK = re.compile(r"unsubscribe|preferences|manage (?:your )?subscription|v
 EVENTISH = re.compile(r"event|calendar|register|rsvp|details|learn more|more info|read more|sign up|join us|"
                       r"talk|seminar|lecture|lunch|reception|panel|forum", re.I)
 MAX_LINKS_PER_EMAIL, MAX_LINKS_PER_RUN = 15, 80
+
+# the mailbox's own account mail (Google security alerts, welcome mail) is never a newsletter and
+# must not show up in the public "newsletters received" list
+SYSTEM_SENDER = re.compile(r"(^|\.)(google\.com|googlemail\.com|youtube\.com)$|^mailer-daemon|^postmaster", re.I)
 
 
 def _message_parts(msg):
@@ -266,7 +270,12 @@ class NewsletterSource:
         out, self.report = [], []
         budget = [MAX_LINKS_PER_RUN]
         messages = list(self._files()) + list(self._imap())
+        skipped = 0
         for msg, origin in messages:
+            sender = parseaddr(str(msg.get("from", "")))[1].lower()
+            if sender and (SYSTEM_SENDER.search(sender.split("@")[-1]) or SYSTEM_SENDER.search(sender)):
+                skipped += 1
+                continue
             html, plain = _message_parts(msg)
             text = _html_with_links(html) if html else plain
             text, subject, sent = unwrap_forward(text, str(msg.get("subject", "")) or origin, _sent_date(msg))
@@ -274,9 +283,11 @@ class NewsletterSource:
             if html:
                 found += linked_events(html, subject, start, end, http, budget)
             out += found
-            self.report.append({"subject": one_line(subject)[:100], "sent": sent.isoformat() if sent else None,
-                                "items": len(found)})
-        print(f"  newsletter   {len(messages)} emails read, {len(out)} items before food/audience checks", flush=True)
+            # the subject is published only when the email held events, so a mis-forwarded mail stays private
+            self.report.append({"subject": one_line(subject)[:100] if found else None,
+                                "sent": sent.isoformat() if sent else None, "items": len(found)})
+        print(f"  newsletter   {len(messages) - skipped} emails read ({skipped} account emails skipped), "
+              f"{len(out)} items before food/audience checks", flush=True)
         return out
 
     def _files(self):

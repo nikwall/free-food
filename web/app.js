@@ -681,13 +681,15 @@
 
   function renderNewsletters() {
     const list = (state.data && state.data.newsletters) || [];
-    $("#newsList").innerHTML = !list.length ? `<li class="soft">None in the last two weeks.</li>` : list.slice().reverse().map((n) => {
+    const withEvents = list.filter((n) => n.items > 0).reverse(), others = list.length - withEvents.length;
+    let html = withEvents.map((n) => {
       const when = n.sent ? fmtDay(n.sent, { month: "short", day: "numeric" }) : "";
-      const found = n.items ? `${n.items} event${n.items === 1 ? "" : "s"} found` : "No events for this week found";
       return `<li><div class="sg-top"><span class="sg-kind">Newsletter${when ? " · " + esc(when) : ""}</span>
-          <span class="sg-status ${n.items ? "ok" : "muted"}">${esc(found)}</span></div>
-        <div class="sg-what">${esc(n.subject || "(no subject)")}</div></li>`;
+          <span class="sg-status ok">${n.items} event${n.items === 1 ? "" : "s"} found</span></div>
+        <div class="sg-what">${esc(n.subject || "")}</div></li>`;
     }).join("");
+    if (others) html += `<li class="soft">${others} other email${others === 1 ? "" : "s"} read with no events for this week.</li>`;
+    $("#newsList").innerHTML = html || `<li class="soft">None in the last two weeks.</li>`;
   }
 
   function renderSuggestions() {
