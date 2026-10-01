@@ -354,15 +354,33 @@ class NewsletterSource:
             return
         since = (datetime.now() - timedelta(days=int(os.environ.get("FFM_IMAP_SINCE_DAYS", "14")))).strftime("%d-%b-%Y")
         senders = [s.strip() for s in os.environ.get("FFM_IMAP_FROM", "").split(",") if s.strip()]
+        from ..suggestions import accepted   # local import: suggestions imports this module
+
         with imaplib.IMAP4_SSL(host) as box:
             box.login(user, pw.replace(" ", ""))
-            box.select(os.environ.get("FFM_IMAP_FOLDER", "INBOX"), readonly=True)
+            # Gmail files new senders' newsletters under Spam fairly often; read that folder too, but only
+            # for mail from Harvard senders. The folder is found by its \Junk flag (its name is localized).
+            folders = [(os.environ.get("FFM_IMAP_FOLDER", "INBOX"), False)]
+            _typ, listing = box.list()
+            for raw in listing or []:
+                line = raw.decode(errors="replace") if isinstance(raw, bytes) else str(raw)
+                if "\\Junk" in line:
+                    folders.append((line.rsplit(' "/" ', 1)[-1].strip(), True))
             queries = [f'(SINCE {since} FROM "{s}")' for s in senders] or [f"(SINCE {since})"]
-            ids = set()
-            for q in queries:
-                _typ, data = box.search(None, q)
-                ids.update(data[0].split())
-            for num in sorted(ids, key=int):
-                _typ, data = box.fetch(num, "(BODY.PEEK[])")
-                if data and isinstance(data[0], tuple):
-                    yield email.message_from_bytes(data[0][1], policy=policy.default), f"imap:{num.decode()}"
+            for folder, harvard_only in folders:
+                if box.select(folder, readonly=True)[0] != "OK":
+                    continue
+                ids = set()
+                for q in queries:
+                    _typ, data = box.search(None, q)
+                    ids.update(data[0].split())
+                for num in sorted(ids, key=int):
+                    _typ, data = box.fetch(num, "(BODY.PEEK[])")
+                    if not (data and isinstance(data[0], tuple)):
+                        continue
+                    msg = email.message_from_bytes(data[0][1], policy=policy.default)
+                    if harvard_only:
+                        sender = parseaddr(str(msg.get("from", "")))[1].lower()
+                        if not (sender and accepted({"url": "https://" + sender.split("@")[-1] + "/"})):
+                            continue
+                    yield msg, f"imap:{'spam:' if harvard_only else ''}{num.decode()}"
