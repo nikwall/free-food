@@ -405,5 +405,19 @@ svg { width: 22px; height: 22px; fill: none; stroke: currentColor; stroke-width:
   display: flex; flex-wrap: wrap; align-items: center; gap: 10px 14px; margin: 0 0 18px; padding: 12px 14px;
   background: var(--surface); border: 1px solid var(--line); border-left: 3px solid var(--red); font: 14.5px/1.45 var(--sans);
 }
-.forward-box p { margin: 0; flex: 1 1 260px; }
-.forward-box .addr { font-family: var(--mono); font-size: 13.5px; color: var(--red); user-select: all; overflow-wrap: anywhere; }
+.forward-box { display: block; }
+.forward-box h3 { margin: 0 0 8px !important; font: 600 15px/1.3 var(--sans); }
+.forward-box .addr-line { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; margin: 0 0 8px; }
+.forward-box .addr { font: 500 16px/1.3 var(--mono); color: var(--red); user-select: all; overflow-wrap: anywhere; text-decoration: none; }
+.forward-box ol { margin: 0 0 8px; padding-left: 20px; display: grid; gap: 6px; }
+.forward-box .btn.ghost { padding: 6px 10px; font-size: 13px; }
+
+.mailstrip {
+  display: flex; align-items: center; gap: 8px 10px; flex-wrap: wrap; margin: 0 0 14px; padding: 9px 12px;
+  background: var(--red-soft); color: var(--text); font: 13.5px/1.4 var(--sans); border-left: 3px solid var(--red);
+}
+.mailstrip svg { width: 20px; height: 20px; color: var(--red); flex: 0 0 auto; }
+.mailstrip .grow { flex: 1 1 220px; }
+.mailstrip b { font-family: var(--mono); font-weight: 500; overflow-wrap: anywhere; }
+.mailstrip .link-btn { padding: 2px 0; font-size: 13.5px; }
+.strip-x { border: 0; background: none; color: var(--muted); font-size: 20px; line-height: 1; padding: 0 4px; }

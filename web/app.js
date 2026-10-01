@@ -365,7 +365,13 @@
     const finished = state.hideDone ? dayFood.filter(isOver).length : 0;
     const today = dayKey(new Date());
     const title = state.day === today ? "Today" : fmtDay(state.day, { weekday: "long" });
-    let html = `<div class="dayhead"><h1>${title}</h1><span class="sub">${fmtDay(state.day, { month: "long", day: "numeric" })} · ${evs.length} with food</span></div>`;
+    const fwd = (SB.newsletterForwardAddress || "").trim();
+    const strip = fwd && backend !== "db" && !store.get("ffm_strip_hidden")
+      ? `<div class="mailstrip"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="1"/><path d="M3 7l9 6 9-6"/></svg>
+          <span class="grow">Newsletter with free food? Forward it to <b>${esc(fwd)}</b> or subscribe that address.</span>
+          <button type="button" class="link-btn" data-howto>How it works</button>
+          <button type="button" class="strip-x" data-hide-strip aria-label="Hide this tip">×</button></div>` : "";
+    let html = strip + `<div class="dayhead"><h1>${title}</h1><span class="sub">${fmtDay(state.day, { month: "long", day: "numeric" })} · ${evs.length} with food</span></div>`;
     const notes = [];
     if (hiddenRestricted) notes.push(`${hiddenRestricted} for students, Houses or clubs only, hidden · <button type="button" class="link-btn" data-showrestricted>Show</button>`);
     if (finished) notes.push(`${finished} already finished`);
@@ -665,6 +671,7 @@
       $("#forwardHint").textContent = `Easiest: forward an issue to ${fwd}.`;
       $("#forwardBox").hidden = false;
       $("#forwardAddr").textContent = fwd;
+      $("#forwardAddr").href = "mailto:" + fwd;
     }
   }
 
@@ -681,8 +688,15 @@
 
   function renderNewsletters() {
     const list = (state.data && state.data.newsletters) || [];
-    const withEvents = list.filter((n) => n.items > 0).reverse(), others = list.length - withEvents.length;
-    let html = withEvents.map((n) => {
+    const subscribed = list.filter((n) => n.confirm === "confirmed");
+    const waiting = list.filter((n) => n.confirm === "needs_click").length;
+    const withEvents = list.filter((n) => n.items > 0).reverse();
+    const others = list.length - withEvents.length - subscribed.length - waiting;
+    let html = subscribed.map((n) => `<li><div class="sg-top"><span class="sg-kind">Subscription</span>
+        <span class="sg-status ok">Confirmed</span></div><div class="sg-what">${esc(n.subject || "")}</div></li>`).join("");
+    if (waiting) html += `<li><div class="sg-top"><span class="sg-kind">Subscription</span>
+        <span class="sg-status wait">${waiting} waiting for the maintainer to confirm</span></div></li>`;
+    html += withEvents.map((n) => {
       const when = n.sent ? fmtDay(n.sent, { month: "short", day: "numeric" }) : "";
       return `<li><div class="sg-top"><span class="sg-kind">Newsletter${when ? " · " + esc(when) : ""}</span>
           <span class="sg-status ok">${n.items} event${n.items === 1 ? "" : "s"} found</span></div>
@@ -690,6 +704,7 @@
     }).join("");
     if (others) html += `<li class="soft">${others} other email${others === 1 ? "" : "s"} read with no events for this week.</li>`;
     $("#newsList").innerHTML = html || `<li class="soft">None in the last two weeks.</li>`;
+    $("#newsList").previousElementSibling.textContent = "Newsletters and subscriptions";
   }
 
   function renderSuggestions() {
@@ -828,6 +843,8 @@
 
     $("#list").addEventListener("click", (e) => {
       const card = e.target.closest(".card");
+      if (e.target.closest("[data-howto]")) return setView("suggest");
+      if (e.target.closest("[data-hide-strip]")) { store.set("ffm_strip_hidden", "1"); return renderList(); }
       if (e.target.closest("[data-showrestricted]")) {
         state.aud = "all";
         document.querySelectorAll("[data-aud]").forEach((x) => x.classList.toggle("on", x.dataset.aud === "all"));

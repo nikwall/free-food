@@ -3,8 +3,8 @@
    - events.json: network first, falls back to the last copy when offline
    - the basemap is drawn from basemap.json (part of the shell), so no map tiles are fetched
    - /api/* (votes, scans): always network, never cached */
-const VERSION = "ffm-v8";
-const SHELL = ["./", "index.html", "app.js?v=8", "style.css?v=8", "config.js?v=8", "manifest.webmanifest", "basemap.json", "vendor/leaflet.css",
+const VERSION = "ffm-v9";
+const SHELL = ["./", "index.html", "app.js?v=9", "style.css?v=9", "config.js?v=9", "manifest.webmanifest", "basemap.json", "vendor/leaflet.css",
   "icons/icon-192.png", "icons/icon-512.png", "icons/apple-touch-icon.png", "icons/favicon-64.png"];
 const MAX_TILES = 400;
 

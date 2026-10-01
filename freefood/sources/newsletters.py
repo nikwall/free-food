@@ -63,6 +63,13 @@ MAX_LINKS_PER_EMAIL, MAX_LINKS_PER_RUN = 15, 80
 # must not show up in the public "newsletters received" list
 SYSTEM_SENDER = re.compile(r"(^|\.)(google\.com|googlemail\.com|youtube\.com)$|^mailer-daemon|^postmaster", re.I)
 
+# "Please confirm your subscription" mails: when the sender is a Harvard address, the scanner opens the
+# confirm link itself, so a fellow can sign the inbox up to a list without anyone clicking anything.
+CONFIRM_SUBJECT = re.compile(r"confirm|verif|activate|opt.?in|subscription request|subscribe request|welcome|bestätig", re.I)
+CONFIRM_LINK = re.compile(r"confirm|verif|activate|yes,? (?:please )?(?:subscribe|sign me up|add me)|subscribe me|opt.?in|bestätig", re.I)
+CONFIRMED_PAGE = re.compile(r"confirmed|thank|success|you(?:'|’)re (?:on the list|subscribed|in)|subscribed|welcome", re.I)
+CONFIRM_MAX_AGE_DAYS = 3
+
 
 def _message_parts(msg):
     """(html, plain) bodies of an email."""
@@ -259,6 +266,35 @@ def linked_events(html, subject, start, end, http, budget):
     return out
 
 
+def confirm_subscription(msg, html, plain, subject, sent, http):
+    """For a recent 'please confirm' mail from a Harvard sender, open its confirm link.
+
+    -> None (not a confirmation mail), "confirmed", or "needs_click" (a person has to confirm in Gmail).
+    """
+    from ..suggestions import accepted   # local import: suggestions imports this module
+
+    if not CONFIRM_SUBJECT.search(subject or ""):
+        return None
+    candidates = links(html) if html else [("", u) for u in URL_RE.findall(plain or "")]
+    confirm = [href for text, href in candidates
+               if href.startswith("http") and not SKIP_LINK.search(f"{text} {href}")
+               and (CONFIRM_LINK.search(text) or CONFIRM_LINK.search(href))]
+    if not confirm:
+        return None                      # a "welcome" mail without anything to confirm
+    sender = parseaddr(str(msg.get("from", "")))[1].lower()
+    harvard_sender = bool(sender) and accepted({"url": "https://" + sender.split("@")[-1] + "/"})
+    too_old = sent and (datetime.now(TZ).date() - sent).days > CONFIRM_MAX_AGE_DAYS
+    if not harvard_sender or too_old:
+        return "needs_click"
+    try:
+        r = http.s.get(confirm[0], timeout=20)
+        if r.ok and CONFIRMED_PAGE.search(html_to_text(r.text)[:4000]):
+            return "confirmed"
+    except Exception:
+        pass
+    return "needs_click"
+
+
 class NewsletterSource:
     id, name = "newsletter", "Newsletters (forwarded to the project inbox)"
     homepage = ""
@@ -279,6 +315,12 @@ class NewsletterSource:
             html, plain = _message_parts(msg)
             text = _html_with_links(html) if html else plain
             text, subject, sent = unwrap_forward(text, str(msg.get("subject", "")) or origin, _sent_date(msg))
+            confirm = confirm_subscription(msg, html, plain, subject, sent, http)
+            if confirm:
+                # list name is shown only for Harvard senders (those are the ones confirmed automatically)
+                self.report.append({"subject": one_line(subject)[:100] if confirm == "confirmed" else None,
+                                    "sent": sent.isoformat() if sent else None, "items": 0, "confirm": confirm})
+                continue
             found = extract_items(text, subject, start, end, today=sent, origin=origin)
             if html:
                 found += linked_events(html, subject, start, end, http, budget)

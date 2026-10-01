@@ -17,7 +17,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&family=Work+Sans:wght@400;500;600&display=swap">
 <link rel="stylesheet" href="vendor/leaflet.css">
-<link rel="stylesheet" href="style.css?v=8">
+<link rel="stylesheet" href="style.css?v=9">
 </head>
 <body>
 <header class="appbar">
@@ -84,9 +84,16 @@
     <p class="lede">Send a link. It is checked at the next update (every three hours, 6 AM to 6 PM) and shows up
       on the map if it has a date and is open to fellows.</p>
     <div class="forward-box" id="forwardBox" hidden>
-      <p><b>Got a newsletter with events?</b> Forward it to <span class="addr" id="forwardAddr"></span>.
-        It is read at every update; events with food that are open to fellows go on the map.</p>
-      <button type="button" class="btn ghost" id="copyAddr">Copy address</button>
+      <h3>Add a newsletter: two ways</h3>
+      <p class="addr-line"><a class="addr" id="forwardAddr" href="#"></a>
+        <button type="button" class="btn ghost" id="copyAddr">Copy address</button></p>
+      <ol>
+        <li><b>Forward</b> any issue to this address. It is read at the next update (every three hours, 6 AM to 6 PM).</li>
+        <li><b>Subscribe</b> this address on the newsletter's own sign-up page, so every future issue arrives by itself.
+          Confirmation emails from Harvard senders are confirmed automatically; others get confirmed by the site's maintainer.</li>
+      </ol>
+      <p class="soft small">Events with food that are open to fellows go on the map. Images inside emails can't be read,
+        so a forwarded flyer alone won't show up.</p>
     </div>
     <form id="suggestForm" novalidate>
       <div class="seg wide" role="group" aria-label="What are you suggesting?">
@@ -148,7 +155,7 @@
     <h3>Suggestions</h3>
     <p>Missing something? Use <b>Suggest</b> to send a link to an event, or a newsletter or calendar to scan.
       Links on Harvard sites are checked at the next update; others first get a quick look from the site's maintainer.
-      Newsletters can be forwarded to the address shown on the Suggest page.</p>
+      Newsletters: forward them to <b>hungrynieman@gmail.com</b>, or subscribe that address to a mailing list.</p>
     <label class="namefield">Your first name, shown next to “going”
       <span class="namerow"><input type="text" id="nameInput" maxlength="24" autocomplete="given-name" placeholder="Optional">
       <button type="button" class="btn" id="nameSave">Save</button></span></label>
@@ -187,7 +194,7 @@
 </dialog>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
-<script src="config.js?v=8"></script>
-<script src="app.js?v=8"></script>
+<script src="config.js?v=9"></script>
+<script src="app.js?v=9"></script>
 </body>
 </html>
