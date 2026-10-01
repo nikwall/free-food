@@ -208,6 +208,8 @@ def run_scan(days=DAYS_AHEAD, only=None, log=print):
                   "seconds": round(time.time() - t0, 1)},
         "events": events,
         "suggestions": sugg_status,
+        # newsletters read this scan (subject, send date, items found), shown on the Suggest page
+        "newsletters": next((getattr(s, "report", []) for s in sources if s.id == "newsletter"), []),
     }
     DATA_DIR.mkdir(exist_ok=True)
     tmp = EVENTS_FILE.with_suffix(".tmp")

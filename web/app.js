@@ -329,7 +329,7 @@
       (a.level === "restricted" || a.level === "likely") && a.evidence ? ["Who", `<span class="soft">${esc(a.evidence)}</span>`] : null,
       ev.notes ? ["Note", esc(ev.notes)] : null,
     ].filter(Boolean);
-    const links = [`<a href="${esc(ev.url)}" target="_blank" rel="noopener">Event page ↗</a>`];
+    const links = ev.url ? [`<a href="${esc(ev.url)}" target="_blank" rel="noopener">Event page ↗</a>`] : [];
     if (reg.link && reg.link !== ev.url && /^https?:/.test(reg.link)) links.push(`<a href="${esc(reg.link)}" target="_blank" rel="noopener">Register ↗</a>`);
     if (ev.lat != null) {
       links.push(`<a href="https://www.google.com/maps/dir/?api=1&amp;destination=${ev.lat},${ev.lon}&amp;travelmode=walking" target="_blank" rel="noopener">Directions ↗</a>`);
@@ -660,7 +660,12 @@
     $("#suggestTab").hidden = false;
     $("#sgName").value = state.name || "";
     const fwd = (SB.newsletterForwardAddress || "").trim();
-    if (fwd) { $("#forwardHint").hidden = false; $("#forwardHint").textContent = `You can also forward newsletters to ${fwd}.`; }
+    if (fwd) {
+      $("#forwardHint").hidden = false;
+      $("#forwardHint").textContent = `Easiest: forward an issue to ${fwd}.`;
+      $("#forwardBox").hidden = false;
+      $("#forwardAddr").textContent = fwd;
+    }
   }
 
   async function loadSuggestions() {
@@ -674,7 +679,19 @@
     renderSuggestions();
   }
 
+  function renderNewsletters() {
+    const list = (state.data && state.data.newsletters) || [];
+    $("#newsList").innerHTML = !list.length ? `<li class="soft">None in the last two weeks.</li>` : list.slice().reverse().map((n) => {
+      const when = n.sent ? fmtDay(n.sent, { month: "short", day: "numeric" }) : "";
+      const found = n.items ? `${n.items} event${n.items === 1 ? "" : "s"} found` : "No events for this week found";
+      return `<li><div class="sg-top"><span class="sg-kind">Newsletter${when ? " · " + esc(when) : ""}</span>
+          <span class="sg-status ${n.items ? "ok" : "muted"}">${esc(found)}</span></div>
+        <div class="sg-what">${esc(n.subject || "(no subject)")}</div></li>`;
+    }).join("");
+  }
+
   function renderSuggestions() {
+    renderNewsletters();
     const ul = $("#suggList");
     if (suggest.rows === null) { ul.innerHTML = `<li class="soft">Couldn't load suggestions right now.</li>`; return; }
     if (!suggest.rows.length) { ul.innerHTML = `<li class="soft">No suggestions yet.</li>`; return; }
@@ -844,6 +861,16 @@
       $("#sgMsg").textContent = "";
     }));
     $("#suggestForm").addEventListener("submit", submitSuggestion);
+    $("#copyAddr").addEventListener("click", async () => {
+      const addr = $("#forwardAddr").textContent;
+      try { await navigator.clipboard.writeText(addr); $("#copyAddr").textContent = "Copied"; }
+      catch (_) {                                            // some in-app browsers refuse the clipboard
+        const r = document.createRange(); r.selectNodeContents($("#forwardAddr"));
+        const sel = window.getSelection(); sel.removeAllRanges(); sel.addRange(r);
+        $("#copyAddr").textContent = "Selected, copy it";
+      }
+      setTimeout(() => ($("#copyAddr").textContent = "Copy address"), 2500);
+    });
     $("#filterBtn").addEventListener("click", () => toggleSheet(!$("#filters").classList.contains("open")));
     $("#filtersDone").addEventListener("click", () => toggleSheet(false));
     $("#scrim").addEventListener("click", () => toggleSheet(false));

@@ -400,3 +400,10 @@ svg { width: 22px; height: 22px; fill: none; stroke: currentColor; stroke-width:
 .pill-btn svg { width: 18px; height: 18px; }
 .pill-btn:hover { background: var(--red-soft); }
 .vote.skip { max-width: 100%; }
+
+.forward-box {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 10px 14px; margin: 0 0 18px; padding: 12px 14px;
+  background: var(--surface); border: 1px solid var(--line); border-left: 3px solid var(--red); font: 14.5px/1.45 var(--sans);
+}
+.forward-box p { margin: 0; flex: 1 1 260px; }
+.forward-box .addr { font-family: var(--mono); font-size: 13.5px; color: var(--red); user-select: all; overflow-wrap: anywhere; }

@@ -40,6 +40,41 @@ def test_extract():
     assert launch.start.hour == 18 and launch.location == "Harvard Book Store"
 
 
+
+
+FORWARDED = """Hi all, this one looks good.
+
+---------- Forwarded message ---------
+From: Example Center <events@example.harvard.edu>
+Date: Mon, Sep 28, 2026 at 9:00 AM
+Subject: Example Center Weekly
+To: Someone <someone@example.com>
+
+This week at the Example Center
+
+Example Panel on Local News
+Thursday at 12:15 pm | CGIS South S020
+Lunch will be served.
+
+Example Film Night
+Tomorrow, 7 pm
+Location: Barker Center
+Popcorn and drinks provided.
+"""
+
+
+def test_forwarded_and_relative_dates():
+    from freefood.sources.newsletters import unwrap_forward
+    text, subject, sent = unwrap_forward(FORWARDED, "Fwd: Example Center Weekly", date(2026, 9, 29))
+    assert subject == "Example Center Weekly" and sent == date(2026, 9, 28), (subject, sent)
+    evs = extract_items(text, subject, date(2026, 9, 28), date(2026, 10, 5), today=sent)
+    got = [(e.title, e.start.day, e.start.hour, e.location) for e in evs]
+    # "Thursday" after Mon Sep 28 is Oct 1; "Tomorrow" is Sep 29
+    assert got == [("Example Panel on Local News", 1, 12, "CGIS South S020"),
+                   ("Example Film Night", 29, 19, "Barker Center")], got
+
+
 if __name__ == "__main__":
     test_extract()
+    test_forwarded_and_relative_dates()
     print("newsletter extraction checks passed")

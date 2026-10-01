@@ -6,7 +6,7 @@ on:
   schedule:
     # every three hours from 6 AM to 6 PM Boston summer time (an hour earlier in winter); GitHub uses UTC.
     # Frequent enough that fellows' suggestions show up the same day.
-    - cron: "0 10,13,16,19,22 * * *"
+    - cron: "17 10,13,16,19,22 * * *"   # :17, because GitHub drops many top-of-the-hour runs
   push:
     branches: [main]
   workflow_dispatch:

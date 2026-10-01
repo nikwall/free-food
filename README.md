@@ -108,10 +108,19 @@ School and HBS are blocked too, and they are far from Lippmann House anyway.
 
 ## Newsletters
 
-Save newsletter emails as `.eml` files, or paste them as `.txt`/`.html`, into `inbox/`. Or point
-the scanner at a mailbox that receives them (e.g. a Gmail address subscribed to the lists) through
-environment variables. Details are in `inbox/README.txt`. Items are cut out at date lines and kept
-only if the food rules fire. Their cards are labeled "Newsletter: <subject>".
+Fellows forward newsletters to **hungrynieman@gmail.com**, the project inbox. The address is shown on the
+Suggest page. At every update the GitHub scan reads the last 14 days of that inbox over IMAP (read-only:
+nothing is marked read, moved or deleted). The login comes from the repository secrets `FFM_IMAP_HOST`,
+`FFM_IMAP_USER` and `FFM_IMAP_PASSWORD`, which hold a Gmail app password. Each email is read two ways:
+- **Links:** links that look like event pages ("Register", "Details", `/events/…`) are followed through the
+  newsletter's click-tracking redirects. Pages on Harvard sites are then read like a suggested link.
+- **Text:** the email is cut into items at date lines ("Tuesday, Sept. 29, 12:15 p.m.", "9/29", or
+  "Thursday at noon", resolved against the send date). Items whose text says food is served are kept.
+
+Forwarded emails are unwrapped first, so the original subject and date are used. All items then get the
+usual food and audience checks. The Suggest page lists the newsletters received, with how many events each
+contained. Events that appear only as images in an email are not read; that would need an AI model.
+On your own laptop, `.eml`, `.txt` or `.html` files dropped into `inbox/` are read the same way.
 
 ## Files
 
