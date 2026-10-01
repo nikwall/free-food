@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-01T13:37:50-04:00",
+ "generated_at": "2026-10-01T13:50:09-04:00",
  "window": {
   "start": "2026-10-01",
   "end": "2026-10-08"
@@ -18,7 +18,7 @@
    "error": null,
    "n_events": 143,
    "n_food": 5,
-   "seconds": 0.3
+   "seconds": 1.7
   },
   {
    "id": "hks",
@@ -28,7 +28,7 @@
    "error": null,
    "n_events": 47,
    "n_food": 8,
-   "seconds": 21.8
+   "seconds": 19.9
   },
   {
    "id": "hls",
@@ -38,7 +38,7 @@
    "error": null,
    "n_events": 115,
    "n_food": 51,
-   "seconds": 10.2
+   "seconds": 8.1
   },
   {
    "id": "college",
@@ -48,7 +48,7 @@
    "error": null,
    "n_events": 95,
    "n_food": 13,
-   "seconds": 0.8
+   "seconds": 0.3
   },
   {
    "id": "ash",
@@ -58,7 +58,7 @@
    "error": null,
    "n_events": 2,
    "n_food": 1,
-   "seconds": 0.4
+   "seconds": 1.9
   },
   {
    "id": "shorenstein",
@@ -68,7 +68,7 @@
    "error": null,
    "n_events": 2,
    "n_food": 0,
-   "seconds": 7.1
+   "seconds": 8.4
   },
   {
    "id": "fairbank",
@@ -78,7 +78,7 @@
    "error": null,
    "n_events": 5,
    "n_food": 0,
-   "seconds": 0.1
+   "seconds": 0.0
   },
   {
    "id": "newsletter",
@@ -88,7 +88,7 @@
    "error": null,
    "n_events": 0,
    "n_food": 0,
-   "seconds": 2.7
+   "seconds": 2.3
   },
   {
    "id": "suggested",
@@ -98,7 +98,7 @@
    "error": null,
    "n_events": 5,
    "n_food": 0,
-   "seconds": 3.0
+   "seconds": 2.3
   }
  ],
  "stats": {
@@ -106,7 +106,7 @@
   "food_confirmed": 52,
   "food_likely": 19,
   "food_restricted": 57,
-  "seconds": 25.4
+  "seconds": 22.7
  },
  "events": [
   {
@@ -15013,9 +15013,17 @@
  ],
  "newsletters": [
   {
-   "subject": null,
+   "subject": "DRCLAS Announcements: Please Confirm Subscription",
    "sent": "2026-10-01",
-   "items": 0
+   "items": 0,
+   "confirm": "confirmed",
+   "sender": "David Rockefeller Center for Latin American Studies"
+  },
+  {
+   "subject": "WCFIA Newsletter: Subscription Confirmed",
+   "sent": "2026-10-01",
+   "items": 0,
+   "sender": "Weatherhead Center for International Affairs"
   }
  ]
 }
