@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-01T09:44:30-04:00",
+ "generated_at": "2026-10-01T13:28:42-04:00",
  "window": {
   "start": "2026-10-01",
   "end": "2026-10-08"
@@ -16,9 +16,9 @@
    "homepage": "https://news.harvard.edu/gazette/harvard-events/events-calendar/",
    "ok": true,
    "error": null,
-   "n_events": 141,
+   "n_events": 143,
    "n_food": 5,
-   "seconds": 0.7
+   "seconds": 0.6
   },
   {
    "id": "hks",
@@ -28,7 +28,7 @@
    "error": null,
    "n_events": 47,
    "n_food": 8,
-   "seconds": 0.7
+   "seconds": 4.5
   },
   {
    "id": "hls",
@@ -38,7 +38,7 @@
    "error": null,
    "n_events": 115,
    "n_food": 51,
-   "seconds": 9.6
+   "seconds": 8.6
   },
   {
    "id": "college",
@@ -48,7 +48,7 @@
    "error": null,
    "n_events": 95,
    "n_food": 13,
-   "seconds": 0.7
+   "seconds": 0.4
   },
   {
    "id": "ash",
@@ -58,7 +58,7 @@
    "error": null,
    "n_events": 2,
    "n_food": 1,
-   "seconds": 0.2
+   "seconds": 0.1
   },
   {
    "id": "shorenstein",
@@ -68,7 +68,7 @@
    "error": null,
    "n_events": 2,
    "n_food": 0,
-   "seconds": 7.5
+   "seconds": 0.3
   },
   {
    "id": "fairbank",
@@ -78,7 +78,7 @@
    "error": null,
    "n_events": 5,
    "n_food": 0,
-   "seconds": 0.1
+   "seconds": 0.0
   },
   {
    "id": "newsletter",
@@ -88,7 +88,7 @@
    "error": null,
    "n_events": 0,
    "n_food": 0,
-   "seconds": 1.9
+   "seconds": 1.1
   },
   {
    "id": "suggested",
@@ -96,17 +96,17 @@
    "homepage": "",
    "ok": true,
    "error": null,
-   "n_events": 6,
+   "n_events": 5,
    "n_food": 0,
-   "seconds": 2.0
+   "seconds": 2.4
   }
  ],
  "stats": {
-  "events": 360,
+  "events": 361,
   "food_confirmed": 52,
   "food_likely": 19,
   "food_restricted": 57,
-  "seconds": 12.0
+  "seconds": 11.4
  },
  "events": [
   {
@@ -893,9 +893,9 @@
     "evidence": ""
    },
    "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001k50vIAA"
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
    },
    "audience": {
     "level": "unknown",
@@ -1312,11 +1312,11 @@
    },
    "audience": {
     "level": "restricted",
-    "group": "HLS 1Ls",
-    "evidence": "HLS listing audience: 1Ls",
+    "group": "HLS 1Ls, 2Ls, 3Ls, LLMs",
+    "evidence": "HLS listing audience: 1Ls | 2Ls | 3Ls | LLMs",
     "basis": "listing"
    },
-   "summary": "Room Change: Langdell 225 – North Heard the phrase “government-facing work”? Want to learn what that means? Come learn about DC legal market from an expert headhunter. Topics covered will include hot practice areas and the industries that drive the market. Lunch will be served, RSVP requested. Register here. Please…",
+   "summary": "Room Change: Langdell 225 – North Heard the phrase “government-facing work”? Want to learn what that means? Come learn about DC legal market from an expert headhunter. Topics covered will include hot practice areas and the industries that drive the market. This event is now open to all HLS students, and an additional…",
    "notes": "",
    "place_name": "Langdell Hall, Harvard Law School",
    "lat": 42.377966,
@@ -10805,7 +10805,7 @@
    "end": "2026-10-06T19:30:00-04:00",
    "date": "2026-10-06",
    "all_day": false,
-   "location": "Sever Hall, Room 113, Harvard Yard, Cambridge",
+   "location": "Science Center, Lecture Hall B, 1 Oxford St., Cambridge",
    "online": false,
    "host": "Mahindra Humanities Center",
    "food": {
@@ -10826,9 +10826,9 @@
    },
    "summary": "Douglas Stuart is a Scottish-American author. His New York Times-bestselling debut novel Shuggie Bain won the 2020 Booker Prize and the Sue Kaufman Prize from the American Academy of Arts and Letters, was a finalist for the National Book Award and the PEN/Hemingway Award, and was named one of the “25 Best Books of the…",
    "notes": "Cost: Free and open to the public; no registration required. | Harvard Key required: No",
-   "place_name": "Sever Hall",
-   "lat": 42.374373,
-   "lon": -71.115483,
+   "place_name": "Science Center",
+   "lat": 42.376491,
+   "lon": -71.117051,
    "geo_method": "gazetteer",
    "walk_min": 7
   },
@@ -11652,46 +11652,6 @@
    "lon": null,
    "geo_method": null,
    "walk_min": null
-  },
-  {
-   "id": "2ba7f2469bbc",
-   "title": "Harvard University Asia Center",
-   "url": "https://asiacenter.harvard.edu/",
-   "source_id": "suggested",
-   "source_name": "Suggested calendar: Asia Center",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "start": "2026-10-07T12:00:00-04:00",
-   "end": null,
-   "date": "2026-10-07",
-   "all_day": true,
-   "location": "",
-   "online": false,
-   "host": "",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
-   },
-   "audience": {
-    "level": "unknown",
-    "group": "",
-    "evidence": "",
-    "basis": "none"
-   },
-   "summary": "October 7 | Book Talk: Uncanny Beliefs October 2 | When Psychology Fails: Suicide Prevention, Religious Authority, and the Making of National Policy in Indonesia",
-   "notes": "",
-   "place_name": "CGIS South Building",
-   "lat": 42.375011,
-   "lon": -71.113135,
-   "geo_method": "host",
-   "walk_min": 5
   },
   {
    "id": "cc3d05183a5a",
@@ -12578,6 +12538,46 @@
    "walk_min": 18
   },
   {
+   "id": "40a6b5fc290b",
+   "title": "PIER Public Seminar: Phone-Free Schools and Achievement Growth",
+   "url": "https://news.harvard.edu/gazette/harvard-events/events-calendar/?trumbaEmbed=view%3Devent%26eventid%3D210150061",
+   "source_id": "gazette",
+   "source_name": "Harvard Gazette calendar",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "start": "2026-10-07T16:00:00-04:00",
+   "end": "2026-10-07T17:30:00-04:00",
+   "date": "2026-10-07",
+   "all_day": false,
+   "location": "Eliot Lyman Room, Longfellow Hall, 13 Appian Way, Cambridge",
+   "online": false,
+   "host": "Center for Education Policy Research at Harvard University",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "Registration link on the event page",
+    "link": "https://cepr.harvard.edu/event/pier-public-seminar-staiger"
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "",
+   "notes": "Harvard Key required: No",
+   "place_name": "Graduate School of Education (Appian Way)",
+   "lat": 42.374893,
+   "lon": -71.12176,
+   "geo_method": "gazetteer",
+   "walk_min": 14
+  },
+  {
    "id": "7cc0a08728c3",
    "title": "China’s Industrial Overcapacity: Impacts Beyond the U.S. and Europe",
    "url": "https://www.hks.harvard.edu/events/chinas-industrial-overcapacity-impacts-beyond-us-and-europe",
@@ -12826,6 +12826,46 @@
    "lon": -71.122151,
    "geo_method": "gazetteer",
    "walk_min": 17
+  },
+  {
+   "id": "72da89577f93",
+   "title": "American Art Curators in Conversation",
+   "url": "https://harvardartmuseums.org/calendar/american-art-curators-in-conversation?utm_source=gazette&utm_medium=listing&utm_campaign=Lecture_American+Art_Oct7&utm_id=American+Art+Curators+in+Conversation",
+   "source_id": "gazette",
+   "source_name": "Harvard Gazette calendar",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "start": "2026-10-07T18:00:00-04:00",
+   "end": "2026-10-07T19:15:00-04:00",
+   "date": "2026-10-07",
+   "all_day": false,
+   "location": "Harvard Art Museums, 32 Quincy St., Cambridge",
+   "online": false,
+   "host": "Harvard Art Museums",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "Registration link on the event page",
+    "link": "https://secure.touchnet.net/C20832_ustores/web/store_cat.jsp?STOREID=99&CATID=276&SINGLESTORE=true"
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "Join us for an evocative and exciting discussion around the possibilities and stakes of curating American art in the 21st century with three of the field’s most influential curators—Candice Hopkins, Ilona Katzew, and Stephanie Sparling Williams.",
+   "notes": "Cost: Free admission | Harvard Key required: No",
+   "place_name": "Harvard Art Museums",
+   "lat": 42.374099,
+   "lon": -71.114113,
+   "geo_method": "gazetteer",
+   "walk_min": 7
   },
   {
    "id": "86b0b869f6eb",
