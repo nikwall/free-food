@@ -22,6 +22,14 @@ FOOD_CASES = [
     ("Workshop", "Food will be available for purchase.", "byo", None),
     ("The Reception of Kant", "On the critical reception of Kant in the 19th century.", "none", None),
     ("Webinar", "Lunch will be served.", "none", None),  # online -> never food (checked below)
+    # plausibility check
+    ("Blessing of the Pets", "We welcome all your beloved pets. We will have cat and dog treats in addition to the blessings.", "none", None),
+    ("Puppy Study Break", "Snacks for your furry friends will be provided.", "none", None),
+    ("Book talk", "Join us for an evening that will give you food for thought.", "none", None),
+    ("Food for Thought: AI and Democracy", "A conversation with the author.", "likely", "Food"),
+    ("Dunster Hoedown", "Enjoy fall-themed treats and games!", "confirmed", "Sweets"),
+    ("Fundraiser", "Dinner will be served; tickets are $50 per person.", "byo", None),
+    ("Seminar", "Join us for a discussion of how the Senate works, which over the decades has changed in ways that matter for what comes after lunch.", "none", None),
 ]
 
 
@@ -32,6 +40,13 @@ def test_food():
         assert got["status"] == status, (title, got)
         if first:
             assert got["types"][0] == first, (title, got)
+
+
+def test_plausibility():
+    pets = detect_food("Blessing of the Pets", "We will have cat and dog treats in addition to the blessings.")
+    assert "food for animals" in pets["doubt"], pets
+    assert detect_food("LIDS Introductory Meeting", "Non-pizza lunch will be served.")["types"] == ["Lunch"]
+    assert detect_food("Mixer", "Treats for people and their dogs will be served.")["status"] == "confirmed"
 
 
 def test_registration():
@@ -46,5 +61,5 @@ def test_registration():
 
 
 if __name__ == "__main__":
-    test_food(); test_registration()
+    test_food(); test_plausibility(); test_registration()
     print("all classifier checks passed")

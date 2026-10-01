@@ -394,6 +394,11 @@
     $("#sources").innerHTML = state.data.sources.map((s) =>
       `<tr><td>${s.homepage ? `<a href="${esc(s.homepage)}" target="_blank" rel="noopener">${esc(s.name)}</a>` : esc(s.name)}</td>
        <td class="${s.ok ? "" : "err"}">${s.ok ? "OK" : "Error"}</td><td>${s.n_events}</td><td>${s.n_food}</td></tr>`).join("");
+    // events the plausibility check kept off the list, so readers can see what was filtered and why
+    const doubts = state.data.events.filter((ev) => ev.food.doubt);
+    $("#doubts").hidden = !doubts.length;
+    $("#doubts").innerHTML = doubts.length ? "<b>Skipped this week:</b> " + doubts.map((ev) =>
+      `${esc(ev.title)} (${fmtDay(ev.date, { weekday: "short" })}), ${esc(ev.food.doubt)}`).join("; ") : "";
   }
 
   // ---------- map ----------

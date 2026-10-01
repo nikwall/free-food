@@ -7,11 +7,14 @@ out ("will be served", "provided", "to follow", "join us for"...). That is a
 check it. Food words in the title alone ("Lunch Seminar", "Opening
 Reception") make an event *likely*. Sentences about food as a topic ("food
 insecurity") or food you must bring or buy ("brown-bag", "for purchase")
-never count.
+never count. A plausibility check also drops food that is not for the people
+attending ("cat and dog treats"), figures of speech ("food for thought") and
+excluded food ("non-pizza lunch").
 
-Rigorous version: per sentence s, after deleting topical phrases T(s):
+Rigorous version: per sentence s, after deleting topical and implausible phrases T(s):
     food(s)    = any FOOD_TYPES regex matches T(s)
-    provide(s) = STRONG or WEAK matches s (STRONG sentences are preferred as evidence)
+    provide(s) = STRONG matches s, or WEAK matches T(s) within WEAK_REACH characters of a food word
+                 (STRONG sentences are preferred as evidence)
     negate(s)  = NEGATE matches s
     confirmed  <=> exists s: food(s) & provide(s) & ~negate(s)
     likely     <=> ~confirmed & (TITLE_LIKELY(title) | LIKELY_PHRASE(text)), no negation
@@ -67,8 +70,29 @@ NEGATE = re.compile(
     r"\bbring (?:your|a|their) (?:own )?(?:lunch|food|dinner|breakfast)\b|\bbyo[lbf]?\b|\bbrown[- ]bag"
     r"|\bfor (?:purchase|sale)\b|\bto purchase\b|\bpurchase (?:food|lunch|dinner|tickets)\b|\bcash bar\b"
     r"|\bnot (?:be )?(?:provided|served|included|available)\b|\bno (?:food|lunch|refreshments|dinner|meals?|drinks)\b"
-    r"|\b(?:will not|won['’]t) be (?:provided|served)\b|\bpotluck\b|\bown expense\b|\bvendors?\b|\bfood trucks?\b",
+    r"|\b(?:will not|won['’]t) be (?:provided|served)\b|\bpotluck\b|\bown expense\b|\bvendors?\b|\bfood trucks?\b"
+    r"|\$\s?\d+(?:\.\d\d)?\s*(?:per|a|/|each)\s*(?:person|plate|head|guest)\b"
+    r"|\b(?:tickets?|admission|cost|fee|price)\b[^.!?$]{0,25}\$\s?\d",
     re.I)
+
+# Plausibility check. A food word plus a "served"/"we will have" cue is not enough when the food
+# is not for the people attending ("cat and dog treats"), is a figure of speech ("food for
+# thought"), or is explicitly excluded ("non-pizza lunch"). Such phrases are blanked out before a
+# sentence is read; when that is what kept an event off the map, the reason is kept as `doubt`.
+ANIMAL = (r"(?:cats?|dogs?|pets?|pupp(?:y|ies)|pups?|kittens?|canines?|felines?|horses?|birds?|animals?|"
+          r"dogg(?:y|ie)s?|(?:furry|four[- ]legged) (?:friends?|companions?))(?:['’]s?)?")
+IMPLAUSIBLE = [  # (reason shown to readers, regex); checked on sentences, not titles, except animal food
+    ("food for animals",
+     rf"\b{ANIMAL}(?:\s*(?:,|and|&|or|/)\s*{ANIMAL})*\s+(?:treats|food|snacks|biscuits|cookies|chews|kibble|feed|chow)\b"
+     rf"|\b(?:treats|food|snacks|biscuits|cookies)\s+for\s+(?:your\s+|the\s+|our\s+|all\s+)?(?:beloved\s+)?{ANIMAL}"
+     r"|\bkibble\b|\bbird ?seed\b"),
+    ("figure of speech",
+     r"\bfood for thought\b|\bpiece of cake\b|\bmolotov cocktails?\b|\b(?:the )?last supper\b|\bspill(?:s|ing)? the tea\b"
+     r"|\bcocktail of\b|\b(?:eye|ear|brain) candy\b|\bcake ?walk\b|\btreats? (?:you|yourself|them)\b"),
+]
+IMPLAUSIBLE_RES = [(why, re.compile(rx, re.I)) for why, rx in IMPLAUSIBLE]
+EXCLUDED = re.compile(r"\bnon-\s?\w+|\b(?:instead of|rather than|other than) (?:a |an |the |the usual )?\w+", re.I)
+WEAK_REACH = 60   # a weak cue counts only within this many characters of the food word
 
 TITLE_LIKELY = re.compile(
     r"\b(?:lunch(?:eon)?|dinner|breakfast|brunch|pizza|reception|refreshments|snacks|"
@@ -115,25 +139,55 @@ def _trim(s, n=240):
     return s if len(s) <= n else s[: n - 1].rsplit(" ", 1)[0] + "…"
 
 
+def _screen(s, is_title=False):
+    """Blank out topical and implausible food phrases. -> (text left to read, reasons for what was removed)"""
+    body, reasons = TOPIC.sub(" ", s), []
+    for why, rx in IMPLAUSIBLE_RES:
+        if is_title and why != "food for animals":
+            continue      # "Food for Thought" is a real lunch series name
+        if any(_food_labels(m.group(0)) for m in rx.finditer(body)):
+            reasons.append(why)
+        body = rx.sub(" ", body)
+    return EXCLUDED.sub(" ", body), reasons
+
+
+def _near(body, cue_rx, reach=WEAK_REACH):
+    """True when a cue match and a food word lie within `reach` characters of each other."""
+    cues = [m.span() for m in cue_rx.finditer(body)]
+    foods = [m.span() for _, rx in FOOD_RES for m in rx.finditer(body)]
+    return any(max(c0, f0) - min(c1, f1) <= reach for c0, c1 in cues for f0, f1 in foods)
+
+
 def detect_food(title, text, online=False):
-    """-> {"status": confirmed|likely|byo|none, "types": [...], "evidence": str}"""
+    """-> {"status": confirmed|likely|byo|none, "types": [...], "evidence": str, "doubt"?: str}"""
     if online:
         return {"status": "none", "types": [], "evidence": ""}
-    confirmed, likely, negated = [], [], []
+    confirmed, likely, negated, doubts = [], [], [], []
     for s in [title] + sentences(text):
-        body = TOPIC.sub(" ", s)
+        body, reasons = _screen(s, is_title=s is title)
         labels = _food_labels(body)
         if not labels:
+            # Would this sentence have counted without the plausibility check? Then say why it didn't.
+            if reasons and s is not title and (STRONG.search(s) or WEAK.search(s)) and not NEGATE.search(s):
+                doubts.append(f"{', '.join(reasons)}: “{_trim(s, 160)}”")
             continue
         if NEGATE.search(s):
             negated.append(s)
         elif s is not title and STRONG.search(s):
             confirmed.append((0, s, labels))
-        elif s is not title and WEAK.search(s):
+        elif s is not title and _near(body, WEAK):
             confirmed.append((1, s, labels))
         elif LIKELY_PHRASE.search(body):
             likely.append((s, labels))
-    title_body = TOPIC.sub(" ", title)
+    title_body = _screen(title, is_title=True)[0]
+    result = _decide(title, title_body, confirmed, likely, negated)
+    if doubts and result["status"] != "confirmed":
+        result["doubt"] = doubts[0]
+    return result
+
+
+def _decide(title, title_body, confirmed, likely, negated):
+    """Pick the status from the sentences sorted into confirmed / likely / negated."""
     if confirmed:
         types = []
         for _rank, _s, labels in confirmed:
