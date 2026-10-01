@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-01T13:50:09-04:00",
+ "generated_at": "2026-10-01T14:20:12-04:00",
  "window": {
   "start": "2026-10-01",
   "end": "2026-10-08"
@@ -17,8 +17,8 @@
    "ok": true,
    "error": null,
    "n_events": 143,
-   "n_food": 5,
-   "seconds": 1.7
+   "n_food": 4,
+   "seconds": 0.4
   },
   {
    "id": "hks",
@@ -26,9 +26,9 @@
    "homepage": "https://www.hks.harvard.edu/more/events",
    "ok": true,
    "error": null,
-   "n_events": 47,
+   "n_events": 48,
    "n_food": 8,
-   "seconds": 19.9
+   "seconds": 6.3
   },
   {
    "id": "hls",
@@ -38,7 +38,7 @@
    "error": null,
    "n_events": 115,
    "n_food": 51,
-   "seconds": 8.1
+   "seconds": 9.2
   },
   {
    "id": "college",
@@ -48,7 +48,7 @@
    "error": null,
    "n_events": 95,
    "n_food": 13,
-   "seconds": 0.3
+   "seconds": 0.8
   },
   {
    "id": "ash",
@@ -58,7 +58,7 @@
    "error": null,
    "n_events": 2,
    "n_food": 1,
-   "seconds": 1.9
+   "seconds": 0.4
   },
   {
    "id": "shorenstein",
@@ -68,7 +68,7 @@
    "error": null,
    "n_events": 2,
    "n_food": 0,
-   "seconds": 8.4
+   "seconds": 7.5
   },
   {
    "id": "fairbank",
@@ -78,7 +78,7 @@
    "error": null,
    "n_events": 5,
    "n_food": 0,
-   "seconds": 0.0
+   "seconds": 0.1
   },
   {
    "id": "newsletter",
@@ -88,7 +88,7 @@
    "error": null,
    "n_events": 0,
    "n_food": 0,
-   "seconds": 2.3
+   "seconds": 5.3
   },
   {
    "id": "suggested",
@@ -98,15 +98,15 @@
    "error": null,
    "n_events": 5,
    "n_food": 0,
-   "seconds": 2.3
+   "seconds": 2.2
   }
  ],
  "stats": {
-  "events": 361,
-  "food_confirmed": 52,
+  "events": 362,
+  "food_confirmed": 51,
   "food_likely": 19,
   "food_restricted": 57,
-  "seconds": 22.7
+  "seconds": 12.1
  },
  "events": [
   {
@@ -5091,12 +5091,10 @@
    "online": false,
    "host": "Harvard/Memorial Church",
    "food": {
-    "status": "confirmed",
-    "types": [
-     "Sweets"
-    ],
-    "evidence": "We will have cat and dog treats in addition to the blessings.",
-    "cue": "weak"
+    "status": "none",
+    "types": [],
+    "evidence": "",
+    "doubt": "food for animals: “We will have cat and dog treats in addition to the blessings.”"
    },
    "registration": {
     "status": "unknown",
@@ -14221,6 +14219,46 @@
    "walk_min": 10
   },
   {
+   "id": "272f205721bd",
+   "title": "Aligning Policymakers and Private Capital to Meet Infrastructure Needs",
+   "url": "https://www.hks.harvard.edu/events/aligning-policymakers-and-private-capital-meet-infrastructure-needs",
+   "source_id": "hks",
+   "source_name": "Harvard Kennedy School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "start": "2026-10-08T12:30:00-04:00",
+   "end": "2026-10-08T13:30:00-04:00",
+   "date": "2026-10-08",
+   "all_day": false,
+   "location": "Ofer 401",
+   "online": false,
+   "host": "Mossavar-Rahmani Center for Business and Government",
+   "food": {
+    "status": "byo",
+    "types": [],
+    "evidence": "Please feel free to bring your lunch to the session."
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "Led by an M-RCBG Senior Fellow Gareth Davies, this study group will discuss infrastructure financing structures and institutions available to governments, as well as the fundamental requirements for mobilizing private capital investment in transportation, energy, and other critical national infrastructure. Please feel…",
+   "notes": "",
+   "place_name": "Harvard Kennedy School",
+   "lat": 42.371989,
+   "lon": -71.121761,
+   "geo_method": "host",
+   "walk_min": 16
+  },
+  {
    "id": "a315b32a0f44",
    "title": "Antitrust Association: Who Worked Where? And How Was it? Non-Big Law Edition",
    "url": "https://hls.harvard.edu/events/antitrust-association-who-worked-where-and-how-was-it-non-big-law-edition/",
@@ -14402,8 +14440,7 @@
    "food": {
     "status": "confirmed",
     "types": [
-     "Lunch",
-     "Pizza"
+     "Lunch"
     ],
     "evidence": "Non-pizza lunch will be served.",
     "cue": "strong"
@@ -15018,6 +15055,18 @@
    "items": 0,
    "confirm": "confirmed",
    "sender": "David Rockefeller Center for Latin American Studies"
+  },
+  {
+   "subject": "DRCLAS Announcements: Subscription Confirmed",
+   "sent": "2026-10-01",
+   "items": 0,
+   "sender": "David Rockefeller Center for Latin American Studies"
+  },
+  {
+   "subject": "Jodidi Lecture / Testimony (1989–2026) with Ron Haviv",
+   "sent": "2026-10-01",
+   "items": 0,
+   "sender": "Weatherhead Center for International Affairs"
   },
   {
    "subject": "WCFIA Newsletter: Subscription Confirmed",
