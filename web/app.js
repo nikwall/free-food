@@ -246,6 +246,17 @@
     const stamp = new Intl.DateTimeFormat("en-US", { timeZone: TZ, weekday: "short", hour: "numeric", minute: "2-digit" }).format(when);
     $("#updated").textContent = `Updated ${stamp}`;
     $("#updated").title = `${d.stats.events} events scanned from ${d.sources.filter((s) => s.ok).length}/${d.sources.length} sources`;
+    const stale = Date.now() - when.getTime() > 12 * 3600e3;
+    const fwd = (SB.newsletterForwardAddress || "").trim();
+    const canSuggest = backend !== "db" && sbOn();
+    const parts = [
+      `<span class="${stale ? "stale" : ""}">Updated ${esc(stamp)}${stale ? " (may be out of date)" : ""}</span>`,
+      `<span>Sources: <button type="button" class="link-btn" data-goto="about">About</button></span>`,
+      canSuggest ? `<span>Missing an event? <button type="button" class="link-btn" data-goto="suggest">Suggest</button>` +
+        (fwd ? ` or forward newsletters to <a href="mailto:${esc(fwd)}">${esc(fwd)}</a>` : "") + `</span>` : "",
+    ].filter(Boolean);
+    $("#notice").innerHTML = parts.join("");
+    $("#notice").hidden = false;
   }
 
   function renderDays() {
@@ -365,17 +376,10 @@
     const finished = state.hideDone ? dayFood.filter(isOver).length : 0;
     const today = dayKey(new Date());
     const title = state.day === today ? "Today" : fmtDay(state.day, { weekday: "long" });
-    const fwd = (SB.newsletterForwardAddress || "").trim();
-    const strip = fwd && backend !== "db" && !store.get("ffm_strip_hidden")
-      ? `<div class="mailstrip"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="1"/><path d="M3 7l9 6 9-6"/></svg>
-          <span class="grow">Newsletter with free food? Forward it to <b>${esc(fwd)}</b> or subscribe that address.</span>
-          <button type="button" class="link-btn" data-howto>How it works</button>
-          <button type="button" class="strip-x" data-hide-strip aria-label="Hide this tip">×</button></div>` : "";
-    let html = strip + `<div class="dayhead"><h1>${title}</h1><span class="sub">${fmtDay(state.day, { month: "long", day: "numeric" })} · ${evs.length} with food</span></div>`;
+    let html = `<div class="dayhead"><h1>${title}</h1><span class="sub">${fmtDay(state.day, { month: "long", day: "numeric" })} · ${evs.length} with food</span></div>`;
     const notes = [];
     if (hiddenRestricted) notes.push(`${hiddenRestricted} for students, Houses or clubs only, hidden · <button type="button" class="link-btn" data-showrestricted>Show</button>`);
     if (finished) notes.push(`${finished} already finished`);
-    if (MOBILE.matches) notes.push(esc($("#updated").textContent));
     if (notes.length) html += `<p class="note">${notes.join(" · ")}</p>`;
     if (!evs.length) html += `<div class="empty-state">No food events match for this day.<br>Try another day or loosen the filters.</div>`;
     let n = 0;
@@ -692,7 +696,10 @@
     const waiting = list.filter((n) => n.confirm === "needs_click").length;
     const withEvents = list.filter((n) => n.items > 0).reverse();
     const others = list.length - withEvents.length - subscribed.length - waiting;
-    let html = subscribed.map((n) => `<li><div class="sg-top"><span class="sg-kind">Subscription</span>
+    const senders = [...new Set(list.map((n) => n.sender).filter(Boolean))];
+    let html = senders.length ? `<li><div class="sg-top"><span class="sg-kind">Receiving newsletters from</span></div>
+        <div class="sg-what">${senders.map(esc).join(" · ")}</div></li>` : "";
+    html += subscribed.map((n) => `<li><div class="sg-top"><span class="sg-kind">Subscription</span>
         <span class="sg-status ok">Confirmed</span></div><div class="sg-what">${esc(n.subject || "")}</div></li>`).join("");
     if (waiting) html += `<li><div class="sg-top"><span class="sg-kind">Subscription</span>
         <span class="sg-status wait">${waiting} waiting for the maintainer to confirm</span></div></li>`;
@@ -843,8 +850,6 @@
 
     $("#list").addEventListener("click", (e) => {
       const card = e.target.closest(".card");
-      if (e.target.closest("[data-howto]")) return setView("suggest");
-      if (e.target.closest("[data-hide-strip]")) { store.set("ffm_strip_hidden", "1"); return renderList(); }
       if (e.target.closest("[data-showrestricted]")) {
         state.aud = "all";
         document.querySelectorAll("[data-aud]").forEach((x) => x.classList.toggle("on", x.dataset.aud === "all"));
@@ -880,6 +885,10 @@
       $("#sgMsg").textContent = "";
     }));
     $("#suggestForm").addEventListener("submit", submitSuggestion);
+    $("#notice").addEventListener("click", (e) => {
+      const b = e.target.closest("[data-goto]");
+      if (b) setView(state.view === b.dataset.goto && !MOBILE.matches ? "list" : b.dataset.goto);
+    });
     $("#copyAddr").addEventListener("click", async () => {
       const addr = $("#forwardAddr").textContent;
       try { await navigator.clipboard.writeText(addr); $("#copyAddr").textContent = "Copied"; }
@@ -926,7 +935,7 @@
     $("#updated").textContent = "No data";
     $("#list").innerHTML = `<div class="empty-state">${esc(err.message)}</div>`;
   }).finally(() => { installBanner(); measure(); });
-  initVotes().catch(() => { state.voteApi = false; }).finally(initSuggest);
+  initVotes().catch(() => { state.voteApi = false; }).finally(() => { initSuggest(); if (state.data) renderHeader(); });
   setInterval(() => load().catch(() => {}), 10 * 60 * 1000);   // pick up background rescans
   setInterval(loadVotes, 45 * 1000);                           // see other fellows' votes
 })();

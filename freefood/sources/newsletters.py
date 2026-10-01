@@ -315,19 +315,25 @@ class NewsletterSource:
             html, plain = _message_parts(msg)
             text = _html_with_links(html) if html else plain
             text, subject, sent = unwrap_forward(text, str(msg.get("subject", "")) or origin, _sent_date(msg))
+            # Harvard senders (a center's own newsletter) are named in the public report; anyone else stays anonymous
+            from ..suggestions import accepted   # local import: suggestions imports this module
+            harvard = bool(sender) and accepted({"url": "https://" + sender.split("@")[-1] + "/"})
+            who = (one_line(parseaddr(str(msg.get("from", "")))[0]) or sender.split("@")[-1])[:60] if harvard else None
             confirm = confirm_subscription(msg, html, plain, subject, sent, http)
             if confirm:
                 # list name is shown only for Harvard senders (those are the ones confirmed automatically)
                 self.report.append({"subject": one_line(subject)[:100] if confirm == "confirmed" else None,
-                                    "sent": sent.isoformat() if sent else None, "items": 0, "confirm": confirm})
+                                    "sent": sent.isoformat() if sent else None, "items": 0, "confirm": confirm,
+                                    "sender": who})
                 continue
             found = extract_items(text, subject, start, end, today=sent, origin=origin)
             if html:
                 found += linked_events(html, subject, start, end, http, budget)
             out += found
-            # the subject is published only when the email held events, so a mis-forwarded mail stays private
-            self.report.append({"subject": one_line(subject)[:100] if found else None,
-                                "sent": sent.isoformat() if sent else None, "items": len(found)})
+            # the subject is published only when the email held events or came from a Harvard sender,
+            # so a mis-forwarded personal mail stays private
+            self.report.append({"subject": one_line(subject)[:100] if (found or harvard) else None,
+                                "sent": sent.isoformat() if sent else None, "items": len(found), "sender": who})
         print(f"  newsletter   {len(messages) - skipped} emails read ({skipped} account emails skipped), "
               f"{len(out)} items before food/audience checks", flush=True)
         return out

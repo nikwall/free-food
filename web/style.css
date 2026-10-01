@@ -412,12 +412,18 @@ svg { width: 22px; height: 22px; fill: none; stroke: currentColor; stroke-width:
 .forward-box ol { margin: 0 0 8px; padding-left: 20px; display: grid; gap: 6px; }
 .forward-box .btn.ghost { padding: 6px 10px; font-size: 13px; }
 
-.mailstrip {
-  display: flex; align-items: center; gap: 8px 10px; flex-wrap: wrap; margin: 0 0 14px; padding: 9px 12px;
-  background: var(--red-soft); color: var(--text); font: 13.5px/1.4 var(--sans); border-left: 3px solid var(--red);
+
+/* notice line under the date bar: last update, sources, how to add events */
+.notice {
+  margin: 0; padding: 6px 16px 7px; display: flex; flex-wrap: wrap; gap: 2px 0; align-items: baseline;
+  font: 12.5px/1.45 var(--sans); color: var(--muted); background: var(--bg); border-bottom: 1px solid var(--line);
 }
-.mailstrip svg { width: 20px; height: 20px; color: var(--red); flex: 0 0 auto; }
-.mailstrip .grow { flex: 1 1 220px; }
-.mailstrip b { font-family: var(--mono); font-weight: 500; overflow-wrap: anywhere; }
-.mailstrip .link-btn { padding: 2px 0; font-size: 13.5px; }
-.strip-x { border: 0; background: none; color: var(--muted); font-size: 20px; line-height: 1; padding: 0 4px; }
+.notice > span + span::before { content: "·"; margin: 0 8px; color: var(--faint); }
+.notice .link-btn { padding: 0; font-size: 12.5px; }
+.notice a { color: var(--red); font-family: var(--mono); font-size: 12px; overflow-wrap: anywhere; }
+.notice .stale { color: var(--amber); }
+.updated { display: none !important; }      /* the notice line shows the update time */
+@media (max-width: 899px) {
+  .notice > span:nth-child(3) { flex-basis: 100%; }          /* "Missing an event? ..." gets its own line */
+  .notice > span:nth-child(3)::before { content: none; }
+}
