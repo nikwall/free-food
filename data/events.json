@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-02T12:17:54-04:00",
+ "generated_at": "2026-10-02T19:00:39-04:00",
  "window": {
   "start": "2026-10-02",
   "end": "2026-10-09"
@@ -18,7 +18,7 @@
    "error": null,
    "n_events": 136,
    "n_food": 5,
-   "seconds": 2.0
+   "seconds": 1.7
   },
   {
    "id": "hks",
@@ -26,9 +26,9 @@
    "homepage": "https://www.hks.harvard.edu/more/events",
    "ok": true,
    "error": null,
-   "n_events": 45,
-   "n_food": 11,
-   "seconds": 21.4
+   "n_events": 47,
+   "n_food": 10,
+   "seconds": 10.6
   },
   {
    "id": "hls",
@@ -36,9 +36,9 @@
    "homepage": "https://hls.harvard.edu/calendar/",
    "ok": true,
    "error": null,
-   "n_events": 98,
-   "n_food": 43,
-   "seconds": 19.2
+   "n_events": 102,
+   "n_food": 45,
+   "seconds": 10.5
   },
   {
    "id": "college",
@@ -48,7 +48,7 @@
    "error": null,
    "n_events": 98,
    "n_food": 11,
-   "seconds": 1.0
+   "seconds": 0.8
   },
   {
    "id": "ash",
@@ -58,7 +58,7 @@
    "error": null,
    "n_events": 3,
    "n_food": 2,
-   "seconds": 2.0
+   "seconds": 2.4
   },
   {
    "id": "shorenstein",
@@ -68,7 +68,7 @@
    "error": null,
    "n_events": 2,
    "n_food": 0,
-   "seconds": 7.6
+   "seconds": 7.0
   },
   {
    "id": "fairbank",
@@ -78,7 +78,7 @@
    "error": null,
    "n_events": 6,
    "n_food": 0,
-   "seconds": 6.7
+   "seconds": 0.1
   },
   {
    "id": "newsletter",
@@ -88,7 +88,7 @@
    "error": null,
    "n_events": 1,
    "n_food": 0,
-   "seconds": 9.8
+   "seconds": 11.6
   },
   {
    "id": "suggested",
@@ -96,17 +96,17 @@
    "homepage": "",
    "ok": true,
    "error": null,
-   "n_events": 6,
+   "n_events": 7,
    "n_food": 0,
-   "seconds": 2.2
+   "seconds": 2.7
   }
  ],
  "stats": {
-  "events": 340,
-  "food_confirmed": 48,
+  "events": 345,
+  "food_confirmed": 50,
   "food_likely": 15,
-  "food_restricted": 49,
-  "seconds": 23.9
+  "food_restricted": 51,
+  "seconds": 18.1
  },
  "events": [
   {
@@ -1112,9 +1112,9 @@
     "evidence": ""
    },
    "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001jmzBIAQ"
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
    },
    "audience": {
     "level": "unknown",
@@ -1192,9 +1192,9 @@
     "evidence": ""
    },
    "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001i6HFIAY"
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
    },
    "audience": {
     "level": "restricted",
@@ -1356,7 +1356,7 @@
    "registration": {
     "status": "required",
     "evidence": "Whether attending in person or virtually, please register in advance.",
-    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001k2O1IAI"
+    "link": ""
    },
    "audience": {
     "level": "unknown",
@@ -1500,12 +1500,12 @@
    "source_name": "Harvard Gazette calendar",
    "also_listed": [
     {
-     "source_name": "Harvard Kennedy School",
-     "url": "https://www.hks.harvard.edu/events/healthier-food-all-closing-affordability-gap"
-    },
-    {
      "source_name": "Harvard College events",
      "url": "https://events.college.harvard.edu/event/224886-healthier-food-for-all-closing-the-affordability"
+    },
+    {
+     "source_name": "Harvard Kennedy School",
+     "url": "https://www.hks.harvard.edu/events/healthier-food-all-closing-affordability-gap"
     }
    ],
    "aliases": [
@@ -1845,8 +1845,7 @@
    "source_name": "Harvard College events",
    "also_listed": [],
    "aliases": [
-    "6e0c51676a1c",
-    "be847eaa878f"
+    "6e0c51676a1c"
    ],
    "suggested": null,
    "start": "2026-10-03T00:00:00-04:00",
@@ -5098,6 +5097,49 @@
    "walk_min": 8
   },
   {
+   "id": "3748ef5ccc0a",
+   "title": "“Frederick Douglass and the Original Originalists” with Professor Bradley Rebeiro (BYU Law) and John Stauffer (Harvard College)",
+   "url": "https://hls.harvard.edu/events/frederick-douglass-and-the-original-originalists-with-professor-bradley-rebeiro-byu-law-and-john-stauffer-harvard-college-2/",
+   "source_id": "hls",
+   "source_name": "Harvard Law School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "start": "2026-10-05T12:20:00-04:00",
+   "end": "2026-10-05T13:20:00-04:00",
+   "date": "2026-10-05",
+   "all_day": false,
+   "location": "Langdell Hall, 272 Kirkland and Ellis Classroom - South, Harvard Law School",
+   "online": false,
+   "host": "Harvard Federalist Society",
+   "food": {
+    "status": "confirmed",
+    "types": [
+     "Lunch"
+    ],
+    "evidence": "Lunch will be served.",
+    "cue": "strong"
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "HLS students",
+    "evidence": "Run by an HLS student organization",
+    "basis": "inferred"
+   },
+   "summary": "What can Frederick Douglass teach us about constitutional interpretation? Join Bradley Rebeiro (BYU Law) and Professor John Stauffer (Harvard University) for a conversation on Douglass’s constitutional thought and its relationship to the history and development of originalism. The discussion will explore Douglass’s…",
+   "notes": "",
+   "place_name": "Langdell Hall, Harvard Law School",
+   "lat": 42.377966,
+   "lon": -71.118497,
+   "geo_method": "gazetteer",
+   "walk_min": 8
+  },
+  {
    "id": "222b3c21d840",
    "title": "FoodSoc Introduction Meeting",
    "url": "https://hls.harvard.edu/events/foodsoc-introduction-meeting-2/",
@@ -6591,7 +6633,9 @@
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
-   "aliases": [],
+   "aliases": [
+    "f09022bffb00"
+   ],
    "suggested": null,
    "start": "2026-10-06T12:00:00-04:00",
    "end": "2026-10-06T13:00:00-04:00",
@@ -6885,23 +6929,18 @@
    "walk_min": null
   },
   {
-   "id": "49d10f46dc2d",
+   "id": "9acc63e254ac",
    "title": "The Future of Labor in America and Abroad: A Discussion with Rick Levy & Gladys Cisneros",
    "url": "https://iop.harvard.edu/events/future-labor-america-and-abroad-discussion-rick-levy-gladys-cisneros",
    "source_id": "gazette",
    "source_name": "Harvard Gazette calendar",
    "also_listed": [
     {
-     "source_name": "Harvard Kennedy School",
-     "url": "https://www.hks.harvard.edu/events/future-labor-america-and-abroad-ft-rick-levy-gladys-cisneros"
-    },
-    {
      "source_name": "Harvard College events",
      "url": "https://events.college.harvard.edu/event/225046-the-future-of-labor-in-america-and-abroad-a"
     }
    ],
    "aliases": [
-    "9acc63e254ac",
     "aa83a7a23026"
    ],
    "suggested": null,
@@ -7188,6 +7227,51 @@
    "walk_min": 8
   },
   {
+   "id": "380c4ae9a4c1",
+   "title": "Prosecution and the Rule of Law with Judge Amul Thapar (6th Cir.) and Judge Michael Garcia (N.Y. Court of Appeals)",
+   "url": "https://hls.harvard.edu/events/prosecution-and-the-rule-of-law-with-judge-amul-thapar-6th-cir-and-judge-michael-garcia-n-y-court-of-appeals/",
+   "source_id": "hls",
+   "source_name": "Harvard Law School",
+   "also_listed": [],
+   "aliases": [
+    "66124b538c1e"
+   ],
+   "suggested": null,
+   "start": "2026-10-06T12:20:00-04:00",
+   "end": "2026-10-06T13:20:00-04:00",
+   "date": "2026-10-06",
+   "all_day": false,
+   "location": "Pound Hall, 102 Classroom, Harvard Law School",
+   "online": false,
+   "host": "Harvard Federalist Society",
+   "food": {
+    "status": "confirmed",
+    "types": [
+     "Lunch"
+    ],
+    "evidence": "Lunch will be served.",
+    "cue": "strong"
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "HLS 1Ls",
+    "evidence": "HLS listing audience: 1Ls",
+    "basis": "listing"
+   },
+   "summary": "What does it mean to wield prosecutorial power consistent with the rule of law? Join Judge Amul Thapar of the U.S. Court of Appeals for the Sixth Circuit and Judge Michael Garcia of the New York Court of Appeals for a conversation drawing on their extensive experience as both federal prosecutors and judges. Both Judge…",
+   "notes": "",
+   "place_name": "Pound Hall, Harvard Law School",
+   "lat": 42.378601,
+   "lon": -71.119747,
+   "geo_method": "gazetteer",
+   "walk_min": 10
+  },
+  {
    "id": "2eaa3f431e3a",
    "title": "Scripture in Community: Public Reading of Scripture",
    "url": "https://hls.harvard.edu/events/scripture-in-community-public-reading-of-scripture-4/?occurrence=12477",
@@ -7229,46 +7313,6 @@
    "lon": -71.118138,
    "geo_method": "gazetteer",
    "walk_min": 8
-  },
-  {
-   "id": "66124b538c1e",
-   "title": "Business of Law",
-   "url": "https://hls.harvard.edu/events/business-of-law/",
-   "source_id": "hls",
-   "source_name": "Harvard Law School",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "start": "2026-10-06T12:30:00-04:00",
-   "end": "2026-10-06T13:15:00-04:00",
-   "date": "2026-10-06",
-   "all_day": false,
-   "location": "WCC 1019, Harvard Law School",
-   "online": false,
-   "host": "OCS; Harvard Association for Law and Business",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
-   },
-   "audience": {
-    "level": "restricted",
-    "group": "HLS 1Ls",
-    "evidence": "HLS listing audience: 1Ls",
-    "basis": "listing"
-   },
-   "summary": "The managing partners of Paul Hastings dive behind the scenes to discuss law firms’ bottom lines. From the billable hour, to practice area profitability, to fee structures and realization, join us to understand the business side of law. Persons with disabilities who wish to request accommodations or who have questions…",
-   "notes": "",
-   "place_name": "Wasserstein Hall (WCC), Harvard Law School",
-   "lat": 42.379383,
-   "lon": -71.119421,
-   "geo_method": "gazetteer",
-   "walk_min": 10
   },
   {
    "id": "d2a8a5b67087",
@@ -7891,6 +7935,46 @@
    "lon": null,
    "geo_method": null,
    "walk_min": null
+  },
+  {
+   "id": "349b4c6fba2f",
+   "title": "Study Group with Amb. Kelly Craft: Building Your Own Future ft. Codie Sanchez",
+   "url": "https://www.hks.harvard.edu/events/study-group-amb-kelly-craft-building-your-own-future-ft-codie-sanchez",
+   "source_id": "hks",
+   "source_name": "Harvard Kennedy School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "start": "2026-10-06T16:00:00-04:00",
+   "end": "2026-10-06T17:00:00-04:00",
+   "date": "2026-10-06",
+   "all_day": false,
+   "location": "L-166",
+   "online": false,
+   "host": "Institute of Politics (IOP)",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "RSVP link on the event page",
+    "link": "https://iop.harvard.edu/events/study-group-ambassador-kelly-craft-building-your-own-future-ft-codie-sanchez"
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "HKS students",
+    "evidence": "Title: Study Group with Amb. Kelly Craft: Building Your Own Future ft. Codie Sanchez",
+    "basis": "inferred"
+   },
+   "summary": "Codie Sanchez is an entrepreneur, investor, and New York Times bestselling author on a mission to help one million people achieve financial independence through business ownership. As founder and CEO of Contrarian Thinking, she brings the strategies of Wall Street to Main Street, helping entrepreneurs acquire, grow,…",
+   "notes": "",
+   "place_name": "Littauer Building, Harvard Kennedy School",
+   "lat": 42.371045,
+   "lon": -71.12209,
+   "geo_method": "gazetteer",
+   "walk_min": 18
   },
   {
    "id": "38d70982790d",
@@ -9591,6 +9675,46 @@
    "walk_min": 8
   },
   {
+   "id": "d154b1f8e14f",
+   "title": "Researching Firms for International JDs",
+   "url": "https://hls.harvard.edu/events/researching-firms-for-international-jds/",
+   "source_id": "hls",
+   "source_name": "Harvard Law School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "start": "2026-10-07T12:30:00-04:00",
+   "end": "2026-10-07T13:15:00-04:00",
+   "date": "2026-10-07",
+   "all_day": false,
+   "location": "WCC 4059, Harvard Law School",
+   "online": false,
+   "host": "OCS",
+   "food": {
+    "status": "byo",
+    "types": [],
+    "evidence": "Bring your lunch and your questions to an informal meeting with OCS’s Peer Advisers, Mihaela Esanu and Meghna Adhikari."
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "HLS 1Ls",
+    "evidence": "HLS listing audience: 1Ls",
+    "basis": "listing"
+   },
+   "summary": "This workshop will include tips about the big law job search strategy with a focus on the unique concerns of international JD students. Bring your lunch and your questions to an informal meeting with OCS’s Peer Advisers, Mihaela Esanu and Meghna Adhikari. We will cover useful resources (such as Chambers), timing…",
+   "notes": "",
+   "place_name": "Wasserstein Hall (WCC), Harvard Law School",
+   "lat": 42.379383,
+   "lon": -71.119421,
+   "geo_method": "gazetteer",
+   "walk_min": 10
+  },
+  {
    "id": "5815418cea27",
    "title": "Summer Internship Panel: National Security Practice Groups in Big Law",
    "url": "https://hls.harvard.edu/events/summer-internship-panel-national-security-practice-groups-in-big-law/",
@@ -10153,21 +10277,28 @@
    "walk_min": 14
   },
   {
-   "id": "7cc0a08728c3",
+   "id": "1210e8b4a25b",
    "title": "China’s Industrial Overcapacity: Impacts Beyond the U.S. and Europe",
-   "url": "https://www.hks.harvard.edu/events/chinas-industrial-overcapacity-impacts-beyond-us-and-europe",
-   "source_id": "hks",
-   "source_name": "Harvard Kennedy School",
-   "also_listed": [],
-   "aliases": [],
+   "url": "https://fairbank.fas.harvard.edu/events/chinas-industrial-overcapacity-impacts-beyond-the-u-s-and-europe/",
+   "source_id": "suggested",
+   "source_name": "Suggested calendar: Fairbanks center",
+   "also_listed": [
+    {
+     "source_name": "Harvard Kennedy School",
+     "url": "https://www.hks.harvard.edu/events/chinas-industrial-overcapacity-impacts-beyond-us-and-europe"
+    }
+   ],
+   "aliases": [
+    "7cc0a08728c3"
+   ],
    "suggested": null,
    "start": "2026-10-07T16:15:00-04:00",
    "end": "2026-10-07T17:15:00-04:00",
    "date": "2026-10-07",
    "all_day": false,
-   "location": "Ofer 401",
+   "location": "Ofer 401, Harvard Kennedy School, 79 JFK St., Cambridge, Massachusetts, 02138, United States",
    "online": false,
-   "host": "Mossavar-Rahmani Center for Business and Government",
+   "host": "",
    "food": {
     "status": "none",
     "types": [],
@@ -10184,12 +10315,12 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "Led by M-RCBG Senior Fellow Padmashree Gehl Sampath, this study group looks at recent geopolitical changes in light of China’s excessive industrial capacity to assess its implications for other late industrializing economies outside of USA and Europe. It will focus on emerging technological dominance in key sectors…",
+   "summary": "Speaker: Padmashree Gehl Sampath, Senior Fellow, Mossavar-Rahmani Center for Business and Government, Harvard Kennedy School Led by M-RCBG Senior Fellow Padmashree Gehl Sampath, this study group looks at recent geopolitical changes in light of China’s excessive industrial capacity to assess its implications for other…",
    "notes": "",
    "place_name": "Harvard Kennedy School",
    "lat": 42.371989,
    "lon": -71.121761,
-   "geo_method": "host",
+   "geo_method": "gazetteer",
    "walk_min": 16
   },
   {
@@ -10521,6 +10652,46 @@
    "lon": -71.119421,
    "geo_method": "gazetteer",
    "walk_min": 10
+  },
+  {
+   "id": "9c14f3b226f3",
+   "title": "No Day But Today: A Climate Talk That’s Also Kind of a Broadway Musical",
+   "url": "https://www.hks.harvard.edu/events/no-day-today-climate-talk-thats-also-kind-broadway-musical",
+   "source_id": "hks",
+   "source_name": "Harvard Kennedy School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "start": "2026-10-07T18:00:00-04:00",
+   "end": "2026-10-07T19:00:00-04:00",
+   "date": "2026-10-07",
+   "all_day": false,
+   "location": "Wexner W-332",
+   "online": false,
+   "host": "Culture and Civil Society Initiative",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "Join us as Broadway artists pull back the curtain on the climate crisis, guiding you through an engaging, musical slide show framed as a play. The prologue sets the stage for the threat posed to humanity; then the talk shifts its tone to that of a hopeful Broadway musical, spotlighting the solutions already within…",
+   "notes": "",
+   "place_name": "Wexner Building, Harvard Kennedy School",
+   "lat": 42.371344,
+   "lon": -71.122357,
+   "geo_method": "gazetteer",
+   "walk_min": 18
   },
   {
    "id": "e7b4780bf1e1",
@@ -12001,7 +12172,7 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "Led by an M-RCBG Senior Fellow Gareth Davies, this study group will discuss infrastructure financing structures and institutions available to governments, as well as the fundamental requirements for mobilizing private capital investment in transportation, energy, and other critical national infrastructure. Please feel…",
+   "summary": "Led by an M-RCBG Senior Fellow Gareth Davies MP, this study group will discuss infrastructure financing structures and institutions available to governments, as well as the fundamental requirements for mobilizing private capital investment in transportation, energy, and other critical national infrastructure. Please…",
    "notes": "",
    "place_name": "Harvard Kennedy School",
    "lat": 42.371989,
@@ -12378,6 +12549,46 @@
    "walk_min": 77
   },
   {
+   "id": "df578eaec05b",
+   "title": "LILtalks Presents: Who is Patent Disclosure For with Visiting Professor of Law Janet Freilich",
+   "url": "https://hls.harvard.edu/events/liltalks-presents-who-is-patent-disclosure-for-with-visiting-professor-of-law-janet-freilich/",
+   "source_id": "hls",
+   "source_name": "Harvard Law School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "start": "2026-10-08T13:00:00-04:00",
+   "end": "2026-10-08T14:00:00-04:00",
+   "date": "2026-10-08",
+   "all_day": false,
+   "location": "Zoom, Harvard Law School",
+   "online": false,
+   "host": "Harvard Law School",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "likely",
+    "group": "HLS community",
+    "evidence": "Harvard Law School calendar, audience not stated",
+    "basis": "default"
+   },
+   "summary": "Patents are one of the world’s largest public libraries of technological information. Laws governing this library, however, focus on readers of individual patents, and do little to facilitate larger scale, aggregate use. This LIL talk will illustrate this point through theory and an empirical case study of…",
+   "notes": "",
+   "place_name": "Harvard Law School",
+   "lat": 42.379106,
+   "lon": -71.119679,
+   "geo_method": "host",
+   "walk_min": 10
+  },
+  {
    "id": "09fdb5fbf912",
    "title": "Texas Market 1:1 Office Hours with Tim Regan (virtual)",
    "url": "https://hls.harvard.edu/events/texas-market-11-office-hours-with-tim-regan-virtual/",
@@ -12700,13 +12911,20 @@
    "walk_min": 18
   },
   {
-   "id": "8e6ffc2536d5",
+   "id": "2cc8763184b5",
    "title": "Amb. Nathalie Rayes Study Group: Climate, Energy, and Finding Common Ground",
    "url": "https://www.hks.harvard.edu/events/amb-nathalie-rayes-study-group-climate-energy-and-finding-common-ground",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
-   "also_listed": [],
-   "aliases": [],
+   "also_listed": [
+    {
+     "source_name": "Harvard College events",
+     "url": "https://events.college.harvard.edu/event/225248-study-group-with-ambassador-nathalie-rayes-the"
+    }
+   ],
+   "aliases": [
+    "8e6ffc2536d5"
+   ],
    "suggested": null,
    "start": "2026-10-08T17:00:00-04:00",
    "end": "2026-10-08T18:15:00-04:00",
@@ -13032,7 +13250,7 @@
    "walk_min": 5
   },
   {
-   "id": "7964b911290b",
+   "id": "f9f329341787",
    "title": "HoCo Meeting",
    "url": "https://events.college.harvard.edu/winthrop-house/event/224216-hoco-meeting",
    "source_id": "college",
@@ -13040,8 +13258,8 @@
    "also_listed": [],
    "aliases": [],
    "suggested": null,
-   "start": "2026-10-08T21:00:00-04:00",
-   "end": "2026-10-08T22:00:00-04:00",
+   "start": "2026-10-08T20:00:00-04:00",
+   "end": "2026-10-08T21:00:00-04:00",
    "date": "2026-10-08",
    "all_day": false,
    "location": "Junior Common Room",
