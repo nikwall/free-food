@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-03T15:16:37-04:00",
+ "generated_at": "2026-10-03T18:11:54-04:00",
  "window": {
   "start": "2026-10-03",
   "end": "2026-10-10"
@@ -18,7 +18,7 @@
    "error": null,
    "n_events": 126,
    "n_food": 5,
-   "seconds": 0.4
+   "seconds": 0.8
   },
   {
    "id": "hks",
@@ -28,7 +28,7 @@
    "error": null,
    "n_events": 43,
    "n_food": 10,
-   "seconds": 4.9
+   "seconds": 13.0
   },
   {
    "id": "hls",
@@ -38,7 +38,7 @@
    "error": null,
    "n_events": 91,
    "n_food": 40,
-   "seconds": 16.6
+   "seconds": 9.3
   },
   {
    "id": "college",
@@ -48,7 +48,7 @@
    "error": null,
    "n_events": 98,
    "n_food": 11,
-   "seconds": 0.9
+   "seconds": 0.5
   },
   {
    "id": "ash",
@@ -58,7 +58,7 @@
    "error": null,
    "n_events": 3,
    "n_food": 2,
-   "seconds": 2.0
+   "seconds": 1.8
   },
   {
    "id": "shorenstein",
@@ -88,7 +88,7 @@
    "error": null,
    "n_events": 1,
    "n_food": 0,
-   "seconds": 9.8
+   "seconds": 9.5
   },
   {
    "id": "suggested",
@@ -98,7 +98,7 @@
    "error": null,
    "n_events": 8,
    "n_food": 0,
-   "seconds": 2.6
+   "seconds": 2.7
   }
  ],
  "stats": {
@@ -106,7 +106,7 @@
   "food_confirmed": 45,
   "food_likely": 14,
   "food_restricted": 46,
-  "seconds": 19.8
+  "seconds": 16.3
  },
  "events": [
   {
@@ -759,7 +759,7 @@
   },
   {
    "id": "498bd875b350",
-   "title": "Harvard University Women’s Soccer vs Cornell University",
+   "title": "[W] Harvard University Women’s Soccer vs Cornell University",
    "url": "https://events.college.harvard.edu/event/224746-harvard-university-womens-soccer-vs-cornell",
    "source_id": "college",
    "source_name": "Harvard College events",
@@ -789,7 +789,7 @@
     "evidence": "Harvard College calendar, no sign it is open to others",
     "basis": "default"
    },
-   "summary": "Harvard University Women’s Soccer vs Cornell University TV: ESPN+ Streaming Video: https://www.espn.com/watch/catalog/28907f94-4745-4e26-b0ac-6fd8ffac0aa6/ivy-league URL:https://gocrimson.com/calendar.aspx?game_id=33240&sport_id=35",
+   "summary": "[W] Harvard University Women’s Soccer vs Cornell University W 4-1 TV: ESPN+ Streaming Video: https://www.espn.com/watch/catalog/28907f94-4745-4e26-b0ac-6fd8ffac0aa6/ivy-league URL:https://gocrimson.com/calendar.aspx?game_id=33240&sport_id=35",
    "notes": "",
    "place_name": "",
    "lat": null,
@@ -5116,11 +5116,11 @@
    "also_listed": [
     {
      "source_name": "Harvard Kennedy School",
-     "url": "https://www.hks.harvard.edu/events/local-political-power-and-violence-over-land-and-environment-brazil"
+     "url": "https://www.hks.harvard.edu/index%2ephp/events/local-political-power-and-violence-over-land-and-environment-brazil"
     }
    ],
    "aliases": [
-    "53dfe050e076"
+    "71e36433d2ea"
    ],
    "suggested": null,
    "start": "2026-10-06T12:00:00-04:00",
@@ -10627,7 +10627,7 @@
   },
   {
    "id": "bf2f17aff538",
-   "title": "HALB x Ropes & Grey",
+   "title": "HALB x Ropes & Gray",
    "url": "https://hls.harvard.edu/events/halb-x-ropes-grey/",
    "source_id": "hls",
    "source_name": "Harvard Law School",
@@ -12222,9 +12222,9 @@
    "walk_min": 7
   },
   {
-   "id": "623c8846719d",
+   "id": "636a7b13ec60",
    "title": "Data + Donuts: Can AI Advance Responsible Policy Decisions?",
-   "url": "https://www.hks.harvard.edu/index%2ephp/events/data-donuts-can-ai-advance-responsible-policy-decisions",
+   "url": "https://www.hks.harvard.edu/events/data-donuts-can-ai-advance-responsible-policy-decisions",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -12234,9 +12234,9 @@
    "end": "2026-10-09T11:30:00-04:00",
    "date": "2026-10-09",
    "all_day": false,
-   "location": "",
+   "location": "Wexner 434 + Zoom",
    "online": false,
-   "host": "",
+   "host": "Library & Research Services",
    "food": {
     "status": "likely",
     "types": [
@@ -12245,9 +12245,9 @@
     "evidence": "Data + Donuts: Can AI Advance Responsible Policy Decisions?"
    },
    "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
+    "status": "required",
+    "evidence": "Harvard affiliates are invited to register to attend in person, while members of the public are invited to attend online.",
+    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001jAInIAM"
    },
    "audience": {
     "level": "unknown",
@@ -12255,13 +12255,13 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "",
+   "summary": "Madison Coots is a fifth-year PhD candidate in Public Policy at HKS and a Stone PhD Scholar in Inequality and Wealth Concentration. She is also a researcher at the Computational Policy Lab. Coots's research interests lie in responsible AI, inequality, and the use of computational methods to advance decision-making and…",
    "notes": "",
-   "place_name": "Harvard Kennedy School",
-   "lat": 42.371989,
-   "lon": -71.121761,
-   "geo_method": "host",
-   "walk_min": 16
+   "place_name": "Wexner Building, Harvard Kennedy School",
+   "lat": 42.371344,
+   "lon": -71.122357,
+   "geo_method": "gazetteer",
+   "walk_min": 18
   },
   {
    "id": "afc61097c490",
@@ -12349,26 +12349,26 @@
   {
    "id": "3a59c480762c",
    "title": "American Politics Speaker Series: Lobbying and Legislative Representation",
-   "url": "https://ash.harvard.edu/events/american-politics-speaker-series-lobbying-and-legislative-representation/",
-   "source_id": "ash",
-   "source_name": "Ash Center (HKS)",
+   "url": "https://www.hks.harvard.edu/events/american-politics-speaker-series-lobbying-and-legislative-representation",
+   "source_id": "hks",
+   "source_name": "Harvard Kennedy School",
    "also_listed": [
     {
-     "source_name": "Harvard Kennedy School",
-     "url": "https://www.hks.harvard.edu/index%2ephp/events/american-politics-speaker-series-lobbying-and-legislative-representation"
+     "source_name": "Ash Center (HKS)",
+     "url": "https://ash.harvard.edu/events/american-politics-speaker-series-lobbying-and-legislative-representation/"
     }
    ],
    "aliases": [
-    "bbc41329a1dc"
+    "7c0ae93df25b"
    ],
    "suggested": null,
    "start": "2026-10-09T12:00:00-04:00",
    "end": "2026-10-09T13:30:00-04:00",
    "date": "2026-10-09",
    "all_day": false,
-   "location": "Ash Center, 124 Mount Auburn, 2nd Floor, Suite 200N, Room 225",
+   "location": "Ash Center, 124 Mount Auburn, 2nd Floor, Suite 200n, Room 225",
    "online": false,
-   "host": "Ash Center for Democratic Governance",
+   "host": "Ash Center for Democratic Governance and Innovation",
    "food": {
     "status": "confirmed",
     "types": [
@@ -13549,6 +13549,12 @@
    "sent": "2026-10-02",
    "items": 1,
    "sender": "Harvard University Asia Center"
+  },
+  {
+   "subject": "Weatherhead Events / Week of October 4, 2026 + Weatherhead Forum: The Photojournalist as Witness",
+   "sent": "2026-10-03",
+   "items": 0,
+   "sender": "Weatherhead Center for International Affairs"
   },
   {
    "subject": "WCFIA Newsletter: Subscription Confirmed",
