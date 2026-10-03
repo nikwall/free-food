@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-03T10:45:11-04:00",
+ "generated_at": "2026-10-03T15:16:37-04:00",
  "window": {
   "start": "2026-10-03",
   "end": "2026-10-10"
@@ -18,7 +18,7 @@
    "error": null,
    "n_events": 126,
    "n_food": 5,
-   "seconds": 1.8
+   "seconds": 0.4
   },
   {
    "id": "hks",
@@ -28,7 +28,7 @@
    "error": null,
    "n_events": 43,
    "n_food": 10,
-   "seconds": 1.3
+   "seconds": 4.9
   },
   {
    "id": "hls",
@@ -38,7 +38,7 @@
    "error": null,
    "n_events": 91,
    "n_food": 40,
-   "seconds": 13.4
+   "seconds": 16.6
   },
   {
    "id": "college",
@@ -48,7 +48,7 @@
    "error": null,
    "n_events": 98,
    "n_food": 11,
-   "seconds": 0.5
+   "seconds": 0.9
   },
   {
    "id": "ash",
@@ -58,7 +58,7 @@
    "error": null,
    "n_events": 3,
    "n_food": 2,
-   "seconds": 1.8
+   "seconds": 2.0
   },
   {
    "id": "shorenstein",
@@ -68,7 +68,7 @@
    "error": null,
    "n_events": 2,
    "n_food": 0,
-   "seconds": 9.4
+   "seconds": 6.6
   },
   {
    "id": "fairbank",
@@ -78,7 +78,7 @@
    "error": null,
    "n_events": 8,
    "n_food": 0,
-   "seconds": 6.2
+   "seconds": 0.1
   },
   {
    "id": "newsletter",
@@ -88,7 +88,7 @@
    "error": null,
    "n_events": 1,
    "n_food": 0,
-   "seconds": 9.0
+   "seconds": 9.8
   },
   {
    "id": "suggested",
@@ -98,7 +98,7 @@
    "error": null,
    "n_events": 8,
    "n_food": 0,
-   "seconds": 2.5
+   "seconds": 2.6
   }
  ],
  "stats": {
@@ -106,7 +106,7 @@
   "food_confirmed": 45,
   "food_likely": 14,
   "food_restricted": 46,
-  "seconds": 16.3
+  "seconds": 19.8
  },
  "events": [
   {
@@ -5116,11 +5116,11 @@
    "also_listed": [
     {
      "source_name": "Harvard Kennedy School",
-     "url": "https://www.hks.harvard.edu/index%2ephp/events/local-political-power-and-violence-over-land-and-environment-brazil"
+     "url": "https://www.hks.harvard.edu/events/local-political-power-and-violence-over-land-and-environment-brazil"
     }
    ],
    "aliases": [
-    "71e36433d2ea"
+    "53dfe050e076"
    ],
    "suggested": null,
    "start": "2026-10-06T12:00:00-04:00",
@@ -5201,9 +5201,9 @@
    "walk_min": 18
   },
   {
-   "id": "aa62e8823c87",
+   "id": "509c3d293b4e",
    "title": "Strategic Litigation: Advancing LGBTQI+ Rights Through the Courts",
-   "url": "https://www.hks.harvard.edu/index%2ephp/events/strategic-litigation-advancing-lgbtqi-rights-through-courts",
+   "url": "https://www.hks.harvard.edu/events/strategic-litigation-advancing-lgbtqi-rights-through-courts",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -5213,18 +5213,18 @@
    "end": "2026-10-06T13:00:00-04:00",
    "date": "2026-10-06",
    "all_day": false,
-   "location": "",
-   "online": false,
-   "host": "",
+   "location": "Online",
+   "online": true,
+   "host": "Carr-Ryan Center for Human Rights",
    "food": {
     "status": "none",
     "types": [],
     "evidence": ""
    },
    "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
+    "status": "required",
+    "evidence": "Register here",
+    "link": "https://harvard.zoom.us/webinar/register/WN_iFWOcMndQjqYFlYY4aNKLA"
    },
    "audience": {
     "level": "unknown",
@@ -5232,13 +5232,13 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "",
+   "summary": "Why is impact litigation so important to advancing the cause of global LGBTQI+ equality? Join us for an engaging session to learn more about how this strategy is used to target laws, government policies, or practices that discriminate against LGBTQI+ people, as well as dive into its potential and its risks. Our…",
    "notes": "",
-   "place_name": "Harvard Kennedy School",
-   "lat": 42.371989,
-   "lon": -71.121761,
-   "geo_method": "host",
-   "walk_min": 16
+   "place_name": "",
+   "lat": null,
+   "lon": null,
+   "geo_method": null,
+   "walk_min": null
   },
   {
    "id": "49d10f46dc2d",
@@ -8601,17 +8601,17 @@
    "source_name": "Suggested calendar: Fairbanks center",
    "also_listed": [
     {
-     "source_name": "Fairbank Center",
-     "url": "https://fairbank.fas.harvard.edu/events/chinas-industrial-overcapacity-impacts-beyond-the-u-s-and-europe/"
+     "source_name": "Harvard Kennedy School",
+     "url": "https://www.hks.harvard.edu/events/chinas-industrial-overcapacity-impacts-beyond-us-and-europe"
     },
     {
-     "source_name": "Harvard Kennedy School",
-     "url": "https://www.hks.harvard.edu/index%2ephp/events/chinas-industrial-overcapacity-impacts-beyond-us-and-europe"
+     "source_name": "Fairbank Center",
+     "url": "https://fairbank.fas.harvard.edu/events/chinas-industrial-overcapacity-impacts-beyond-the-u-s-and-europe/"
     }
    ],
    "aliases": [
-    "b53d2b521dcb",
-    "cb5ca7d5a164"
+    "7cc0a08728c3",
+    "b53d2b521dcb"
    ],
    "suggested": null,
    "start": "2026-10-07T16:15:00-04:00",
@@ -12222,9 +12222,9 @@
    "walk_min": 7
   },
   {
-   "id": "636a7b13ec60",
+   "id": "623c8846719d",
    "title": "Data + Donuts: Can AI Advance Responsible Policy Decisions?",
-   "url": "https://www.hks.harvard.edu/events/data-donuts-can-ai-advance-responsible-policy-decisions",
+   "url": "https://www.hks.harvard.edu/index%2ephp/events/data-donuts-can-ai-advance-responsible-policy-decisions",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -12234,9 +12234,9 @@
    "end": "2026-10-09T11:30:00-04:00",
    "date": "2026-10-09",
    "all_day": false,
-   "location": "Wexner 434 + Zoom",
+   "location": "",
    "online": false,
-   "host": "Library & Research Services",
+   "host": "",
    "food": {
     "status": "likely",
     "types": [
@@ -12245,9 +12245,9 @@
     "evidence": "Data + Donuts: Can AI Advance Responsible Policy Decisions?"
    },
    "registration": {
-    "status": "required",
-    "evidence": "Harvard affiliates are invited to register to attend in person, while members of the public are invited to attend online.",
-    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001jAInIAM"
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
    },
    "audience": {
     "level": "unknown",
@@ -12255,13 +12255,13 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "Madison Coots is a fifth-year PhD candidate in Public Policy at HKS and a Stone PhD Scholar in Inequality and Wealth Concentration. She is also a researcher at the Computational Policy Lab. Coots's research interests lie in responsible AI, inequality, and the use of computational methods to advance decision-making and…",
+   "summary": "",
    "notes": "",
-   "place_name": "Wexner Building, Harvard Kennedy School",
-   "lat": 42.371344,
-   "lon": -71.122357,
-   "geo_method": "gazetteer",
-   "walk_min": 18
+   "place_name": "Harvard Kennedy School",
+   "lat": 42.371989,
+   "lon": -71.121761,
+   "geo_method": "host",
+   "walk_min": 16
   },
   {
    "id": "afc61097c490",
@@ -12349,26 +12349,26 @@
   {
    "id": "3a59c480762c",
    "title": "American Politics Speaker Series: Lobbying and Legislative Representation",
-   "url": "https://www.hks.harvard.edu/events/american-politics-speaker-series-lobbying-and-legislative-representation",
-   "source_id": "hks",
-   "source_name": "Harvard Kennedy School",
+   "url": "https://ash.harvard.edu/events/american-politics-speaker-series-lobbying-and-legislative-representation/",
+   "source_id": "ash",
+   "source_name": "Ash Center (HKS)",
    "also_listed": [
     {
-     "source_name": "Ash Center (HKS)",
-     "url": "https://ash.harvard.edu/events/american-politics-speaker-series-lobbying-and-legislative-representation/"
+     "source_name": "Harvard Kennedy School",
+     "url": "https://www.hks.harvard.edu/index%2ephp/events/american-politics-speaker-series-lobbying-and-legislative-representation"
     }
    ],
    "aliases": [
-    "7c0ae93df25b"
+    "bbc41329a1dc"
    ],
    "suggested": null,
    "start": "2026-10-09T12:00:00-04:00",
    "end": "2026-10-09T13:30:00-04:00",
    "date": "2026-10-09",
    "all_day": false,
-   "location": "Ash Center, 124 Mount Auburn, 2nd Floor, Suite 200n, Room 225",
+   "location": "Ash Center, 124 Mount Auburn, 2nd Floor, Suite 200N, Room 225",
    "online": false,
-   "host": "Ash Center for Democratic Governance and Innovation",
+   "host": "Ash Center for Democratic Governance",
    "food": {
     "status": "confirmed",
     "types": [
