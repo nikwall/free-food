@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-06T12:50:52-04:00",
+ "generated_at": "2026-10-06T19:05:59-04:00",
  "window": {
   "start": "2026-10-06",
   "end": "2026-10-13"
@@ -26,9 +26,9 @@
    "homepage": "https://www.hks.harvard.edu/more/events",
    "ok": true,
    "error": null,
-   "n_events": 38,
+   "n_events": 43,
    "n_food": 10,
-   "seconds": 1.3
+   "seconds": 2.8
   },
   {
    "id": "hls",
@@ -36,9 +36,9 @@
    "homepage": "https://hls.harvard.edu/calendar/",
    "ok": true,
    "error": null,
-   "n_events": 84,
-   "n_food": 39,
-   "seconds": 9.4
+   "n_events": 82,
+   "n_food": 38,
+   "seconds": 10.5
   },
   {
    "id": "college",
@@ -46,9 +46,9 @@
    "homepage": "https://events.college.harvard.edu/",
    "ok": true,
    "error": null,
-   "n_events": 93,
+   "n_events": 95,
    "n_food": 11,
-   "seconds": 0.9
+   "seconds": 1.1
   },
   {
    "id": "ash",
@@ -58,7 +58,7 @@
    "error": null,
    "n_events": 3,
    "n_food": 3,
-   "seconds": 2.2
+   "seconds": 2.0
   },
   {
    "id": "shorenstein",
@@ -68,7 +68,7 @@
    "error": null,
    "n_events": 3,
    "n_food": 0,
-   "seconds": 6.9
+   "seconds": 7.3
   },
   {
    "id": "fairbank",
@@ -78,7 +78,7 @@
    "error": null,
    "n_events": 8,
    "n_food": 0,
-   "seconds": 6.7
+   "seconds": 0.0
   },
   {
    "id": "newsletter",
@@ -88,7 +88,7 @@
    "error": null,
    "n_events": 1,
    "n_food": 0,
-   "seconds": 18.8
+   "seconds": 18.2
   },
   {
    "id": "suggested",
@@ -98,15 +98,15 @@
    "error": null,
    "n_events": 8,
    "n_food": 0,
-   "seconds": 6.2
+   "seconds": 3.3
   }
  ],
  "stats": {
-  "events": 304,
-  "food_confirmed": 46,
+  "events": 309,
+  "food_confirmed": 45,
   "food_likely": 11,
-  "food_restricted": 45,
-  "seconds": 28.9
+  "food_restricted": 44,
+  "seconds": 24.8
  },
  "events": [
   {
@@ -877,7 +877,7 @@
    "registration": {
     "status": "required",
     "evidence": "Registration: RSVP required.",
-    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001jjBhIAI"
+    "link": ""
    },
    "audience": {
     "level": "unknown",
@@ -1764,7 +1764,7 @@
    "registration": {
     "status": "required",
     "evidence": "Registration is required.﻿",
-    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001kC2PIAU"
+    "link": ""
    },
    "audience": {
     "level": "harvard",
@@ -2001,58 +2001,6 @@
    "walk_min": 18
   },
   {
-   "id": "0dabc2ecd653",
-   "title": "Chris Whipple Study Group: All the President's Men & Women ft. Amb. Cofer Black",
-   "url": "https://www.hks.harvard.edu/events/chris-whipple-study-group-all-presidents-men-women-ft-amb-cofer-black",
-   "source_id": "hks",
-   "source_name": "Harvard Kennedy School",
-   "also_listed": [
-    {
-     "source_name": "Harvard Gazette calendar",
-     "url": "https://iop.harvard.edu/events/study-group-chris-whipple-all-presidents-men-and-women-cia-director-ft-ambassador-cofer"
-    },
-    {
-     "source_name": "Harvard College events",
-     "url": "https://events.college.harvard.edu/event/225238-study-group-with-chris-whipple-all-the-presidents"
-    }
-   ],
-   "aliases": [
-    "2ee7f0548fdd",
-    "38d70982790d"
-   ],
-   "suggested": null,
-   "start": "2026-10-06T16:30:00-04:00",
-   "end": "2026-10-06T17:45:00-04:00",
-   "date": "2026-10-06",
-   "all_day": false,
-   "location": "L-163",
-   "online": false,
-   "host": "Institute of Politics (IOP)",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://iop.harvard.edu/events/study-group-chris-whipple-all-presidents-men-and-women-cia-director-ft-ambassador-cofer"
-   },
-   "audience": {
-    "level": "restricted",
-    "group": "HKS students",
-    "evidence": "Title: Chris Whipple Study Group: All the President's Men & Women ft. Amb. Cofer Black",
-    "basis": "inferred"
-   },
-   "summary": "Study Group with Chris Whipple: All the President's Men and Women: The CIA Director ft. Ambassador Cofer Black This session is a dive into the role of the CIA director. We’ll look at the critical importance of the director’s relationship with the fiercely independent covert operatives of the agency—who sometimes greet…",
-   "notes": "",
-   "place_name": "Littauer Building, Harvard Kennedy School",
-   "lat": 42.371045,
-   "lon": -71.12209,
-   "geo_method": "gazetteer",
-   "walk_min": 18
-  },
-  {
    "id": "1dc716bc509a",
    "title": "HGSE Askwith Education Forum | The Modern Superintendent",
    "url": "https://calendar.gse.harvard.edu/36YmkP6/5a5YUc2gOSz?source=trumba",
@@ -2134,6 +2082,58 @@
    "lon": -71.118646,
    "geo_method": "host",
    "walk_min": 15
+  },
+  {
+   "id": "0dabc2ecd653",
+   "title": "Study Group with Chris Whipple & Amb. Cofer Black — All the President's Men and Women: The CIA Director",
+   "url": "https://iop.harvard.edu/events/study-group-chris-whipple-all-presidents-men-and-women-cia-director-ft-ambassador-cofer",
+   "source_id": "gazette",
+   "source_name": "Harvard Gazette calendar",
+   "also_listed": [
+    {
+     "source_name": "Harvard Kennedy School",
+     "url": "https://www.hks.harvard.edu/events/chris-whipple-study-group-all-presidents-men-women-ft-amb-cofer-black"
+    },
+    {
+     "source_name": "Harvard College events",
+     "url": "https://events.college.harvard.edu/event/225238-study-group-with-chris-whipple-all-the-presidents"
+    }
+   ],
+   "aliases": [
+    "2ee7f0548fdd",
+    "38d70982790d"
+   ],
+   "suggested": null,
+   "start": "2026-10-06T16:30:00-04:00",
+   "end": "2026-10-06T17:30:00-04:00",
+   "date": "2026-10-06",
+   "all_day": false,
+   "location": "Institute of Politics, 79 JFK St., Cambridge",
+   "online": false,
+   "host": "Institute of Politics at Harvard Kennedy School",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "Registration link on the event page",
+    "link": "https://iop.harvard.edu/events/study-group-chris-whipple-all-presidents-men-and-women-cia-director-ft-ambassador-cofer"
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "students",
+    "evidence": "Title: Study Group with Chris Whipple & Amb. Cofer Black — All the President's Men and Women: The CIA Director",
+    "basis": "inferred"
+   },
+   "summary": "This session is a dive into the role of the CIA director. We’ll look at the critical importance of the director’s relationship with the fiercely independent covert operatives of the agency — who sometimes greet outsiders “like Scottish tribes welcoming an English king.” Cofer Black, a legendary operative and head of…",
+   "notes": "Cost: Free | Harvard Key required: No",
+   "place_name": "Littauer Building, Harvard Kennedy School",
+   "lat": 42.371045,
+   "lon": -71.12209,
+   "geo_method": "gazetteer",
+   "walk_min": 18
   },
   {
    "id": "0f89accb4011",
@@ -3473,15 +3473,13 @@
    "walk_min": 10
   },
   {
-   "id": "2cf91dfb2d7c",
+   "id": "3a1c79ad9a23",
    "title": "HBLR x Paul, Weiss",
-   "url": "https://hls.harvard.edu/events/hblr-x-paul-weiss-2/",
+   "url": "https://hls.harvard.edu/events/hblr-x-paul-weiss/",
    "source_id": "hls",
    "source_name": "Harvard Law School",
    "also_listed": [],
-   "aliases": [
-    "3a1c79ad9a23"
-   ],
+   "aliases": [],
    "suggested": null,
    "start": "2026-10-07T12:15:00-04:00",
    "end": "2026-10-07T13:15:00-04:00",
@@ -3489,14 +3487,11 @@
    "all_day": false,
    "location": "Pound Hall, 100 Cahill Classroom, Harvard Law School",
    "online": false,
-   "host": "Harvard Business Law Review",
+   "host": "Harvard Law School",
    "food": {
-    "status": "confirmed",
-    "types": [
-     "Lunch"
-    ],
-    "evidence": "Lunch will be provided.",
-    "cue": "strong"
+    "status": "none",
+    "types": [],
+    "evidence": ""
    },
    "registration": {
     "status": "unknown",
@@ -3504,12 +3499,12 @@
     "link": ""
    },
    "audience": {
-    "level": "restricted",
-    "group": "HLS students",
-    "evidence": "Run by an HLS student organization",
-    "basis": "inferred"
+    "level": "likely",
+    "group": "HLS community",
+    "evidence": "Harvard Law School calendar, audience not stated",
+    "basis": "default"
    },
-   "summary": "Join the Harvard Business Law Review for a panel discussion with attorneys from Paul, Weiss, Rifkind, Wharton & Garrison LLP. Elizabeth McColm will lead the conversation, joined by Tyler Zelinger and Mira Haqqani. Lunch will be provided. Add to Calendar October 7, 2026, 12:15 pm - 1:15 pm +Google Calendar +iCal/Outlook",
+   "summary": "Add to Calendar October 7, 2026, 12:15 pm - 1:15 pm +Google Calendar +iCal/Outlook",
    "notes": "",
    "place_name": "Pound Hall, Harvard Law School",
    "lat": 42.378601,
@@ -5803,46 +5798,6 @@
    "walk_min": 10
   },
   {
-   "id": "8c1805d5374d",
-   "title": "AI for Science and Society: A Conversation with James Manyika",
-   "url": "https://www.hks.harvard.edu/events/ai-science-and-society-conversation-james-manyika",
-   "source_id": "hks",
-   "source_name": "Harvard Kennedy School",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "start": "2026-10-08T12:00:00-04:00",
-   "end": "2026-10-08T13:00:00-04:00",
-   "date": "2026-10-08",
-   "all_day": false,
-   "location": "Democracy Lab (r-414-b)",
-   "online": false,
-   "host": "Belfer Center for Science and International Affairs",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "required",
-    "evidence": "Space is limited so please only RSVP if you plan to attend.",
-    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001kKuPIAU"
-   },
-   "audience": {
-    "level": "harvard",
-    "group": "",
-    "evidence": "Attendance is in-person and for HUID holders only.",
-    "basis": "text"
-   },
-   "summary": "Please join the Belfer Center for Science and International Affairs for a conversation with James Manyika, President of Research, Labs, Technology and Society at Google and Alphabet. Drawing on a recent issue of Daedalus, edited by Manyika and titled AI & Science: What Is the Future of Discovery?, he will discuss the…",
-   "notes": "",
-   "place_name": "Harvard Kennedy School",
-   "lat": 42.371989,
-   "lon": -71.121761,
-   "geo_method": "host",
-   "walk_min": 16
-  },
-  {
    "id": "387f5bfe1124",
    "title": "Carmen Winant: Double Jeopardy Exhibition",
    "url": "https://www.radcliffe.harvard.edu/event/2026-carmen-winant-double-jeopardy-exhibition",
@@ -5889,7 +5844,9 @@
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
-   "aliases": [],
+   "aliases": [
+    "9c78cbb91032"
+   ],
    "suggested": null,
    "start": "2026-10-08T12:00:00-04:00",
    "end": "2026-10-08T13:15:00-04:00",
@@ -6866,7 +6823,7 @@
     "evidence": "HLS listing audience: 1Ls | 2Ls | 3Ls",
     "basis": "listing"
    },
-   "summary": "Thinking about private practice in Houston, Dallas, Austin, or another Texas market? Learn about the Texas legal market from an expert legal headhunter. Topics covered will include hot practice areas and the industries that drive the market. Join remotely via Zoom or RSVP to join us live for lunch in WCC 2004. Add to…",
+   "summary": "Thinking about private practice in Houston, Dallas, Austin, or another Texas market? Learn about the Texas legal market from an expert legal headhunter. Topics covered will include hot practice areas and the industries that drive the market. Join remotely via Zoom or RSVP to join us live for lunch in WCC 2004. In…",
    "notes": "",
    "place_name": "Wasserstein Hall (WCC), Harvard Law School",
    "lat": 42.379383,
@@ -7166,7 +7123,7 @@
    "aliases": [],
    "suggested": null,
    "start": "2026-10-08T15:45:00-04:00",
-   "end": "2026-10-08T17:30:00-04:00",
+   "end": "2026-10-08T17:15:00-04:00",
    "date": "2026-10-08",
    "all_day": false,
    "location": "WCC 5048, Harvard Law School",
@@ -9669,6 +9626,46 @@
    "walk_min": null
   },
   {
+   "id": "ba81cc72ed6f",
+   "title": "HCDT High School Clinic",
+   "url": "https://soco.college.harvard.edu/rsvp?id=383042",
+   "source_id": "college",
+   "source_name": "Harvard College events",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "start": "2026-10-10T12:30:00-04:00",
+   "end": "2026-10-10T14:30:00-04:00",
+   "date": "2026-10-10",
+   "all_day": false,
+   "location": "SoCo",
+   "online": false,
+   "host": "Dean of Students Office",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "Registration link on the event page",
+    "link": "https://soco.college.harvard.edu/rsvp?id=383042"
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "high schoolers to learn what it’s like to be a member of the Harvard C",
+    "evidence": "We are hosting a dance team clinic open to all high schoolers to learn what it’s like to be a member of the Harvard Crimson Dance Team.",
+    "basis": "text"
+   },
+   "summary": "We are hosting a dance team clinic open to all high schoolers to learn what it’s like to be a member of the Harvard Crimson Dance Team. Captains and team members will lead warm up, technique, and a short combo. This is also a fundraiser for our team. — Event Details: https://soco.college.harvard.edu/rsvp?id=383042",
+   "notes": "",
+   "place_name": "",
+   "lat": null,
+   "lon": null,
+   "geo_method": null,
+   "walk_min": null
+  },
+  {
    "id": "1c69a2871104",
    "title": "Harvard University Women’s Rugby vs Navy - Senior Day",
    "url": "https://events.college.harvard.edu/event/224728-harvard-university-womens-rugby-vs-navy-senior",
@@ -9989,6 +9986,46 @@
    "lon": -71.118484,
    "geo_method": "source",
    "walk_min": 12
+  },
+  {
+   "id": "8af1b2956b12",
+   "title": "Harvard Ultimate 50th Reunion",
+   "url": "https://soco.college.harvard.edu/rsvp?id=383214",
+   "source_id": "college",
+   "source_name": "Harvard College events",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "start": "2026-10-11T00:00:00-04:00",
+   "end": null,
+   "date": "2026-10-11",
+   "all_day": true,
+   "location": "SoCo",
+   "online": false,
+   "host": "Dean of Students Office",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "Registration link on the event page",
+    "link": "https://soco.college.harvard.edu/rsvp?id=383214"
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "Harvard College students",
+    "evidence": "Harvard College calendar, no sign it is open to others",
+    "basis": "default"
+   },
+   "summary": "50th Reunion of Harvard’s Ultimate Frisbee Team — Event Details: https://soco.college.harvard.edu/rsvp?id=383214",
+   "notes": "",
+   "place_name": "",
+   "lat": null,
+   "lon": null,
+   "geo_method": null,
+   "walk_min": null
   },
   {
    "id": "9ba39b1c0a6c",
@@ -11649,6 +11686,46 @@
    "walk_min": 7
   },
   {
+   "id": "1dc248f29b2b",
+   "title": "The Power of the Story: Hollywood, Soft Power, and America’s Global Image",
+   "url": "https://www.hks.harvard.edu/events/power-story-hollywood-soft-power-and-americas-global-image",
+   "source_id": "hks",
+   "source_name": "Harvard Kennedy School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "start": "2026-10-13T10:30:00-04:00",
+   "end": "2026-10-13T11:45:00-04:00",
+   "date": "2026-10-13",
+   "all_day": false,
+   "location": "Belfer Library (l369)",
+   "online": false,
+   "host": "Belfer Center for Science and International Affairs",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "RSVP link on the event page",
+    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001kXgLIAU"
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "The Belfer Center launches its Soft Power Series with acclaimed director and producer Lesli Linka Glatter, whose work includes Homeland, Zero Day, Mad Men, and The West Wing. Drawing on her experience bringing politics, national security, and human drama to the screen, Glatter will explore how film and television…",
+   "notes": "",
+   "place_name": "Harvard Kennedy School",
+   "lat": 42.371989,
+   "lon": -71.121761,
+   "geo_method": "host",
+   "walk_min": 16
+  },
+  {
    "id": "89a95f06d6fc",
    "title": "When Men Marry into Their Wives’ Families: Changing Patriarchy, Intimacy, and Masculinity in Everyday Family Life of Post-Reform China",
    "url": "https://fairbank.fas.harvard.edu/events/when-men-marry-into-the-wifes-family-patriarchy-intimacy-and-masculinity-in-everyday-family-life-of-post-reform-china/",
@@ -12445,6 +12522,46 @@
    "walk_min": 11
   },
   {
+   "id": "f40b742b219c",
+   "title": "\"The Quiet Diplomat\" Screening and Conversation with Ban Ki-moon and filmmakers",
+   "url": "https://www.hks.harvard.edu/events/quiet-diplomat-screening-and-conversation-ban-ki-moon-and-filmmakers",
+   "source_id": "hks",
+   "source_name": "Harvard Kennedy School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "start": "2026-10-13T15:30:00-04:00",
+   "end": "2026-10-13T17:00:00-04:00",
+   "date": "2026-10-13",
+   "all_day": false,
+   "location": "Wiener Auditorium, Taubman Ground Floor",
+   "online": false,
+   "host": "Center for Public Leadership; Program on Diplomacy and Statecraft",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "RSVP link on the event page",
+    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001kWcDIAU"
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "Join us for a screening of the documentary film The Quiet Diplomat, which centers on former UN Secretary-General Ban Ki-moon. The UN saved his life during the Korea War, inspiring him to become a man of peace. Across two terms as the 8th Secretary-General, Ban discovered the challenges of international diplomacy in an…",
+   "notes": "",
+   "place_name": "Taubman Building, Harvard Kennedy School",
+   "lat": 42.371822,
+   "lon": -71.122151,
+   "geo_method": "gazetteer",
+   "walk_min": 17
+  },
+  {
    "id": "fad42b3e1c41",
    "title": "In Dreams Awake: Tar Paintings in Conversation with American Transcendentalism by Christopher Volpe",
    "url": "https://cswr.hds.harvard.edu/news-events/calendar?trumbaEmbed=view%3Devent%26eventid%3D205356735",
@@ -12485,6 +12602,86 @@
    "walk_min": 5
   },
   {
+   "id": "a62ca2c347dc",
+   "title": "Study Group with Ambassador Kelly Craft: Autonomy and War in the 21st Century",
+   "url": "https://www.hks.harvard.edu/events/study-group-ambassador-kelly-craft-autonomy-and-war-21st-century",
+   "source_id": "hks",
+   "source_name": "Harvard Kennedy School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "start": "2026-10-13T16:00:00-04:00",
+   "end": "2026-10-13T17:15:00-04:00",
+   "date": "2026-10-13",
+   "all_day": false,
+   "location": "L-166",
+   "online": false,
+   "host": "Institute of Politics (IOP)",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "RSVP link on the event page",
+    "link": "https://iop.harvard.edu/events/study-group-ambassador-kelly-craft-autonomy-and-war-21st-century-ft-dino-mavrookas"
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "HKS students",
+    "evidence": "Title: Study Group with Ambassador Kelly Craft: Autonomy and War in the 21st Century",
+    "basis": "inferred"
+   },
+   "summary": "Join Dino Mavrookas, Co-Founder and Chief Executive Officer at Saronic Technologies, for a discussion of \"how autonomous weapons will save Western Civilization.\" These off-the-record conversations are open to members of the Harvard community. Please RSVP with a valid Harvard email address.",
+   "notes": "",
+   "place_name": "Littauer Building, Harvard Kennedy School",
+   "lat": 42.371045,
+   "lon": -71.12209,
+   "geo_method": "gazetteer",
+   "walk_min": 18
+  },
+  {
+   "id": "3c6c1b8f03e4",
+   "title": "Ambassador Chris Lu Study Group: When the Public Interest Is in Private Hands",
+   "url": "https://www.hks.harvard.edu/events/ambassador-chris-lu-study-group-when-public-interest-private-hands",
+   "source_id": "hks",
+   "source_name": "Harvard Kennedy School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "start": "2026-10-13T17:00:00-04:00",
+   "end": "2026-10-13T18:15:00-04:00",
+   "date": "2026-10-13",
+   "all_day": false,
+   "location": "L-230",
+   "online": false,
+   "host": "Institute of Politics (IOP)",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "RSVP link on the event page",
+    "link": "https://iop.harvard.edu/events/study-group-ambassador-chris-lu-leading-beyond-government-when-public-interest-private-hands"
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "HKS students",
+    "evidence": "Title: Ambassador Chris Lu Study Group: When the Public Interest Is in Private Hands",
+    "basis": "inferred"
+   },
+   "summary": "Study Group with Ambassador Chris Lu: Leading Beyond Government: When the Public Interest Is in Private Hands What changes when public servants leave government service, and what responsibilities do they carry with them? Drawing on careers spanning diplomacy, law, higher education, and technology, we’ll explore how…",
+   "notes": "",
+   "place_name": "Littauer Building, Harvard Kennedy School",
+   "lat": 42.371045,
+   "lon": -71.12209,
+   "geo_method": "gazetteer",
+   "walk_min": 18
+  },
+  {
    "id": "dc8f431feb7a",
    "title": "Global Development and Humanitarian Relief in a Changed Landscape",
    "url": "https://www.hks.harvard.edu/events/global-development-and-humanitarian-relief-changed-landscape",
@@ -12523,6 +12720,46 @@
    "lon": -71.121761,
    "geo_method": "host",
    "walk_min": 16
+  },
+  {
+   "id": "11154dc747d6",
+   "title": "Global Climate Leadership: Our Planet at a Crossroads",
+   "url": "https://www.hks.harvard.edu/events/global-climate-leadership-our-planet-crossroads",
+   "source_id": "hks",
+   "source_name": "Harvard Kennedy School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "start": "2026-10-13T18:00:00-04:00",
+   "end": "2026-10-13T19:00:00-04:00",
+   "date": "2026-10-13",
+   "all_day": false,
+   "location": "John F. Kennedy Jr. Forum",
+   "online": false,
+   "host": "Institute of Politics (IOP)",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "RSVP link on the event page",
+    "link": "https://iop.harvard.edu/events/global-climate-leadership-our-planet-crossroads-ft-ban-ki-moon-fmr-un-secretary-general"
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "Ban Ki-moon, former United Nations Secretary-General (2007–2016) joins us for a discussion on the changing international order, the future of multilateral cooperation, and the urgency of global climate change. The discussion will explore the role of diplomacy and global institutions in addressing shared challenges,…",
+   "notes": "",
+   "place_name": "Littauer Building, Harvard Kennedy School",
+   "lat": 42.371045,
+   "lon": -71.12209,
+   "geo_method": "host",
+   "walk_min": 18
   },
   {
    "id": "8126a8c6c7ea",
@@ -12726,46 +12963,6 @@
    "lon": null,
    "geo_method": null,
    "walk_min": null
-  },
-  {
-   "id": "d4ab2173db48",
-   "title": "Alumni in Residence with Max Chen J.D. ’10 of Primavera Capital Group",
-   "url": "https://hls.harvard.edu/events/alumni-in-residence-with-max-chen-j-d-10-of-primavera-capital-group/",
-   "source_id": "hls",
-   "source_name": "Harvard Law School",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "start": "2026-10-13T21:00:00-04:00",
-   "end": "2026-10-13T23:00:00-04:00",
-   "date": "2026-10-13",
-   "all_day": false,
-   "location": "Zoom, Harvard Law School",
-   "online": false,
-   "host": "Harvard Law School",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "required",
-    "evidence": "Sign up for a 20-minute Zoom appointment.",
-    "link": "https://calendly.com/alumnicenter/alumni-in-residence-with-chen"
-   },
-   "audience": {
-    "level": "likely",
-    "group": "HLS community",
-    "evidence": "Harvard Law School calendar, audience not stated",
-    "basis": "default"
-   },
-   "summary": "Tuesday, October 13, 2026, from 9:00 p.m.- 11:00 p.m. ET (Please note that this is a late evening event) The Alumni in Residence program connects current HLS students with accomplished HLS alumni for one-on-one career mentoring and advice. You’re invited to meet with Max Chen J.D. ’10 during their virtual office…",
-   "notes": "",
-   "place_name": "Harvard Law School",
-   "lat": 42.379106,
-   "lon": -71.119679,
-   "geo_method": "host",
-   "walk_min": 10
   }
  ],
  "suggestions": [
