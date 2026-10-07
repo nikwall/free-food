@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-07T13:27:17-04:00",
+ "generated_at": "2026-10-07T19:36:44-04:00",
  "window": {
   "start": "2026-10-07",
   "end": "2026-10-14"
@@ -18,7 +18,7 @@
    "error": null,
    "n_events": 121,
    "n_food": 4,
-   "seconds": 1.9
+   "seconds": 2.0
   },
   {
    "id": "hks",
@@ -26,9 +26,9 @@
    "homepage": "https://www.hks.harvard.edu/more/events",
    "ok": true,
    "error": null,
-   "n_events": 39,
-   "n_food": 7,
-   "seconds": 12.8
+   "n_events": 42,
+   "n_food": 6,
+   "seconds": 1.9
   },
   {
    "id": "hls",
@@ -38,7 +38,7 @@
    "error": null,
    "n_events": 83,
    "n_food": 35,
-   "seconds": 11.1
+   "seconds": 11.4
   },
   {
    "id": "college",
@@ -58,7 +58,7 @@
    "error": null,
    "n_events": 4,
    "n_food": 3,
-   "seconds": 2.2
+   "seconds": 2.1
   },
   {
    "id": "shorenstein",
@@ -68,7 +68,7 @@
    "error": null,
    "n_events": 1,
    "n_food": 0,
-   "seconds": 8.8
+   "seconds": 9.8
   },
   {
    "id": "fairbank",
@@ -78,7 +78,7 @@
    "error": null,
    "n_events": 9,
    "n_food": 0,
-   "seconds": 6.0
+   "seconds": 0.1
   },
   {
    "id": "newsletter",
@@ -88,7 +88,7 @@
    "error": null,
    "n_events": 3,
    "n_food": 0,
-   "seconds": 15.7
+   "seconds": 16.4
   },
   {
    "id": "suggested",
@@ -96,17 +96,17 @@
    "homepage": "",
    "ok": true,
    "error": null,
-   "n_events": 8,
+   "n_events": 5,
    "n_food": 0,
-   "seconds": 3.2
+   "seconds": 5.3
   }
  ],
  "stats": {
-  "events": 302,
-  "food_confirmed": 39,
+  "events": 303,
+  "food_confirmed": 38,
   "food_likely": 10,
   "food_restricted": 37,
-  "seconds": 28.1
+  "seconds": 24.4
  },
  "events": [
   {
@@ -1522,15 +1522,10 @@
     {
      "source_name": "Harvard Gazette calendar",
      "url": "https://iaas.fas.harvard.edu/2026-27-inner-asian-and-altaic-studies-lecture-series"
-    },
-    {
-     "source_name": "Suggested calendar: Fairbanks center",
-     "url": "https://fairbank.fas.harvard.edu/events/muslim-transnationalism-in-modern-china-debates-on-hui-identity-and-islamic-reform/"
     }
    ],
    "aliases": [
-    "e0c84135ef86",
-    "e5da48593fa1"
+    "e0c84135ef86"
    ],
    "suggested": null,
    "start": "2026-10-07T13:15:00-04:00",
@@ -1774,15 +1769,8 @@
    "url": "https://fairbank.fas.harvard.edu/events/on-political-thought-in-china/",
    "source_id": "fairbank",
    "source_name": "Fairbank Center",
-   "also_listed": [
-    {
-     "source_name": "Suggested calendar: Fairbanks center",
-     "url": "https://fairbank.fas.harvard.edu/events/on-political-thought-in-china/"
-    }
-   ],
-   "aliases": [
-    "d13dfc862ce4"
-   ],
+   "also_listed": [],
+   "aliases": [],
    "suggested": null,
    "start": "2026-10-07T15:00:00-04:00",
    "end": "2026-10-07T16:15:00-04:00",
@@ -1948,23 +1936,18 @@
    "walk_min": 14
   },
   {
-   "id": "1210e8b4a25b",
+   "id": "7cc0a08728c3",
    "title": "China’s Industrial Overcapacity: Impacts Beyond the U.S. and Europe",
-   "url": "https://fairbank.fas.harvard.edu/events/chinas-industrial-overcapacity-impacts-beyond-the-u-s-and-europe/",
-   "source_id": "suggested",
-   "source_name": "Suggested calendar: Fairbanks center",
+   "url": "https://www.hks.harvard.edu/events/chinas-industrial-overcapacity-impacts-beyond-us-and-europe",
+   "source_id": "hks",
+   "source_name": "Harvard Kennedy School",
    "also_listed": [
     {
      "source_name": "Fairbank Center",
      "url": "https://fairbank.fas.harvard.edu/events/chinas-industrial-overcapacity-impacts-beyond-the-u-s-and-europe/"
-    },
-    {
-     "source_name": "Harvard Kennedy School",
-     "url": "https://www.hks.harvard.edu/index%2Ephp/events/chinas-industrial-overcapacity-impacts-beyond-us-and-europe"
     }
    ],
    "aliases": [
-    "4716ae8cfc31",
     "b53d2b521dcb"
    ],
    "suggested": null,
@@ -1972,9 +1955,9 @@
    "end": "2026-10-07T17:15:00-04:00",
    "date": "2026-10-07",
    "all_day": false,
-   "location": "Ofer 401, Harvard Kennedy School, 79 JFK St., Cambridge, Massachusetts, 02138, United States",
+   "location": "Ofer 401",
    "online": false,
-   "host": "",
+   "host": "Mossavar-Rahmani Center for Business and Government",
    "food": {
     "status": "none",
     "types": [],
@@ -1991,12 +1974,12 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "Speaker: Padmashree Gehl Sampath, Senior Fellow, Mossavar-Rahmani Center for Business and Government, Harvard Kennedy School Led by M-RCBG Senior Fellow Padmashree Gehl Sampath, this study group looks at recent geopolitical changes in light of China’s excessive industrial capacity to assess its implications for other…",
+   "summary": "Led by M-RCBG Senior Fellow Padmashree Gehl Sampath, this study group looks at recent geopolitical changes in light of China’s excessive industrial capacity to assess its implications for other late industrializing economies outside of USA and Europe. It will focus on emerging technological dominance in key sectors…",
    "notes": "",
    "place_name": "Harvard Kennedy School",
    "lat": 42.371989,
    "lon": -71.121761,
-   "geo_method": "gazetteer",
+   "geo_method": "host",
    "walk_min": 16
   },
   {
@@ -2160,9 +2143,9 @@
     "evidence": ""
    },
    "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001kN2fIAE"
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
    },
    "audience": {
     "level": "unknown",
@@ -2235,17 +2218,14 @@
    "online": false,
    "host": "Bloomberg Center for Cities",
    "food": {
-    "status": "confirmed",
-    "types": [
-     "Snacks"
-    ],
-    "evidence": "Light refreshments will be provided.",
-    "cue": "strong"
+    "status": "none",
+    "types": [],
+    "evidence": ""
    },
    "registration": {
     "status": "required",
     "evidence": "Registration is required as space is limited.",
-    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001hXY1IAM"
+    "link": ""
    },
    "audience": {
     "level": "unknown",
@@ -3291,7 +3271,9 @@
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
-   "aliases": [],
+   "aliases": [
+    "8c1805d5374d"
+   ],
    "suggested": null,
    "start": "2026-10-08T12:00:00-04:00",
    "end": "2026-10-08T13:00:00-04:00",
@@ -3363,46 +3345,6 @@
    "lon": -71.121949,
    "geo_method": "gazetteer",
    "walk_min": 13
-  },
-  {
-   "id": "9c78cbb91032",
-   "title": "Federal Scholarship Tax Credit",
-   "url": "https://www.hks.harvard.edu/events/federal-scholarship-tax-credit",
-   "source_id": "hks",
-   "source_name": "Harvard Kennedy School",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "start": "2026-10-08T12:00:00-04:00",
-   "end": "2026-10-08T13:15:00-04:00",
-   "date": "2026-10-08",
-   "all_day": false,
-   "location": "T-102 Wappp Cason Conference Room",
-   "online": false,
-   "host": "Taubman Center for State and Local Government",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001kEqbIAE"
-   },
-   "audience": {
-    "level": "unknown",
-    "group": "",
-    "evidence": "",
-    "basis": "none"
-   },
-   "summary": "The Program on Education Policy and Governance Colloquium Series was initiated in the spring of 2004 to foster an interest in education research within the Harvard community by inviting top scholars from across the country to present their recent research findings in an open discussion with colloquium attendees. PEPG…",
-   "notes": "",
-   "place_name": "Taubman Building, Harvard Kennedy School",
-   "lat": 42.371822,
-   "lon": -71.122151,
-   "geo_method": "gazetteer",
-   "walk_min": 17
   },
   {
    "id": "b458ada60fe7",
@@ -3608,9 +3550,9 @@
    "walk_min": 10
   },
   {
-   "id": "9d7a4b067548",
+   "id": "cfbda0a5a10b",
    "title": "Stone Inequality Book Talk: Ray Madoff",
-   "url": "https://www.hks.harvard.edu/index%2Ephp/events/stone-inequality-book-talk-ray-madoff",
+   "url": "https://www.hks.harvard.edu/events/stone-inequality-book-talk-ray-madoff",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -3620,9 +3562,9 @@
    "end": "2026-10-08T13:15:00-04:00",
    "date": "2026-10-08",
    "all_day": false,
-   "location": "",
+   "location": "Malkin Penthouse",
    "online": false,
-   "host": "",
+   "host": "Stone Program in Wealth Distribution, Inequality, and Social Policy",
    "food": {
     "status": "none",
     "types": [],
@@ -3639,13 +3581,13 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "",
+   "summary": "In this Stone Inequality Book Talk, legal scholar Ray Madoff (Boston College) will discuss her recent book The Second Estate: How the Tax Code Made an American Aristocracy. For more information, click here.",
    "notes": "",
-   "place_name": "Harvard Kennedy School",
-   "lat": 42.371989,
-   "lon": -71.121761,
-   "geo_method": "host",
-   "walk_min": 16
+   "place_name": "Littauer Building, Harvard Kennedy School",
+   "lat": 42.371045,
+   "lon": -71.12209,
+   "geo_method": "gazetteer",
+   "walk_min": 18
   },
   {
    "id": "6576b497d5fc",
@@ -3949,9 +3891,9 @@
    "walk_min": 10
   },
   {
-   "id": "0de499da2def",
+   "id": "272f205721bd",
    "title": "Aligning Policymakers and Private Capital to Meet Infrastructure Needs",
-   "url": "https://www.hks.harvard.edu/index%2Ephp/events/aligning-policymakers-and-private-capital-meet-infrastructure-needs",
+   "url": "https://www.hks.harvard.edu/events/aligning-policymakers-and-private-capital-meet-infrastructure-needs",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -3961,13 +3903,13 @@
    "end": "2026-10-08T13:30:00-04:00",
    "date": "2026-10-08",
    "all_day": false,
-   "location": "",
+   "location": "Ofer 401",
    "online": false,
-   "host": "",
+   "host": "Mossavar-Rahmani Center for Business and Government",
    "food": {
-    "status": "none",
+    "status": "byo",
     "types": [],
-    "evidence": ""
+    "evidence": "Please feel free to bring your lunch to the session."
    },
    "registration": {
     "status": "unknown",
@@ -3980,7 +3922,7 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "",
+   "summary": "Led by an M-RCBG Senior Fellow Gareth Davies MP, this study group will discuss infrastructure financing structures and institutions available to governments, as well as the fundamental requirements for mobilizing private capital investment in transportation, energy, and other critical national infrastructure. Please…",
    "notes": "",
    "place_name": "Harvard Kennedy School",
    "lat": 42.371989,
@@ -4913,34 +4855,34 @@
    "id": "1935e1a67204",
    "title": "Public Health in Polarized Times",
    "url": "https://www.hks.harvard.edu/events/public-health-polarized-times",
-   "source_id": "gazette",
-   "source_name": "Harvard Gazette calendar",
+   "source_id": "hks",
+   "source_name": "Harvard Kennedy School",
    "also_listed": [
     {
-     "source_name": "Harvard Kennedy School",
-     "url": "https://www.hks.harvard.edu/index%2Ephp/events/public-health-polarized-times"
+     "source_name": "Harvard Gazette calendar",
+     "url": "https://www.hks.harvard.edu/events/public-health-polarized-times"
     }
    ],
    "aliases": [
-    "d93db3b8c491"
+    "9b6c675b086c"
    ],
    "suggested": null,
    "start": "2026-10-08T17:00:00-04:00",
    "end": "2026-10-08T18:00:00-04:00",
    "date": "2026-10-08",
    "all_day": false,
-   "location": "R-414-ab, David Ellwood Democracy Lab, Rubenstein Building, Harvard Kennedy School, 79 John F. Kennedy St., Cambridge",
+   "location": "Rubenstein Building - R-414-ab David Ellwood Democracy Lab",
    "online": false,
-   "host": "Carr-Ryan Center for Human RightsWeatherhead Center for International Affairs",
+   "host": "Carr-Ryan Center for Human Rights",
    "food": {
     "status": "none",
     "types": [],
     "evidence": ""
    },
    "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
+    "status": "required",
+    "evidence": "RSVP link on the event page",
+    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001hKanIAE"
    },
    "audience": {
     "level": "unknown",
@@ -4949,7 +4891,7 @@
     "basis": "none"
    },
    "summary": "What will it take to build a public health system in the United States that is effective, equitable, and trusted by a deeply divided public? Debates about personal liberties in the context of public health have become highly polarized. Amid this turbulence, one fact remains clear: the health and wellbeing of the…",
-   "notes": "Cost: Free | Harvard Key required: No",
+   "notes": "",
    "place_name": "Rubenstein Building, Harvard Kennedy School",
    "lat": 42.371243,
    "lon": -71.122687,
@@ -5781,9 +5723,9 @@
    "walk_min": 7
   },
   {
-   "id": "75e0effacc5c",
+   "id": "636a7b13ec60",
    "title": "Data + Donuts: Can AI Advance Responsible Policy Decisions?",
-   "url": "https://www.hks.harvard.edu/index%2Ephp/events/data-donuts-can-ai-advance-responsible-policy-decisions",
+   "url": "https://www.hks.harvard.edu/events/data-donuts-can-ai-advance-responsible-policy-decisions",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -5793,9 +5735,9 @@
    "end": "2026-10-09T11:30:00-04:00",
    "date": "2026-10-09",
    "all_day": false,
-   "location": "",
+   "location": "Wexner 434 + Zoom",
    "online": false,
-   "host": "",
+   "host": "Library & Research Services",
    "food": {
     "status": "likely",
     "types": [
@@ -5804,9 +5746,9 @@
     "evidence": "Data + Donuts: Can AI Advance Responsible Policy Decisions?"
    },
    "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
+    "status": "required",
+    "evidence": "Harvard affiliates are invited to register to attend in person, while members of the public are invited to attend online.",
+    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001jAInIAM"
    },
    "audience": {
     "level": "unknown",
@@ -5814,13 +5756,13 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "",
+   "summary": "Madison Coots is a fifth-year PhD candidate in Public Policy at HKS and a Stone PhD Scholar in Inequality and Wealth Concentration. She is also a researcher at the Computational Policy Lab. Coots's research interests lie in responsible AI, inequality, and the use of computational methods to advance decision-making and…",
    "notes": "",
-   "place_name": "Harvard Kennedy School",
-   "lat": 42.371989,
-   "lon": -71.121761,
-   "geo_method": "host",
-   "walk_min": 16
+   "place_name": "Wexner Building, Harvard Kennedy School",
+   "lat": 42.371344,
+   "lon": -71.122357,
+   "geo_method": "gazetteer",
+   "walk_min": 18
   },
   {
    "id": "afc61097c490",
@@ -9984,9 +9926,9 @@
     "evidence": ""
    },
    "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://harvard.zoom.us/webinar/register/WN_etjyuZl0RQKTKHYQIQicsw"
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
    },
    "audience": {
     "level": "unknown",
@@ -10200,13 +10142,53 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "Join us for a screening of the documentary film The Quiet Diplomat, which centers on former UN Secretary-General Ban Ki-moon. The UN saved his life during the Korea War, inspiring him to become a man of peace. Across two terms as the 8th Secretary-General, Ban discovered the challenges of international diplomacy in an…",
+   "summary": "Join us for a screening of The Quiet Diplomat, a documentary about former United Nations Secretary-General Ban Ki-moon. The film traces how the UN’s role in saving his life during the Korean War inspired his commitment to peace, and explores the challenges he faced during two terms as the UN’s eighth…",
    "notes": "",
    "place_name": "Taubman Building, Harvard Kennedy School",
    "lat": 42.371822,
    "lon": -71.122151,
    "geo_method": "gazetteer",
    "walk_min": 17
+  },
+  {
+   "id": "d484211bd011",
+   "title": "Bearing Witness: Migration, Journalism, and Human Rights with Sally Hayden",
+   "url": "https://www.hks.harvard.edu/events/bearing-witness-migration-journalism-and-human-rights-sally-hayden",
+   "source_id": "hks",
+   "source_name": "Harvard Kennedy School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "start": "2026-10-13T15:30:00-04:00",
+   "end": "2026-10-13T16:30:00-04:00",
+   "date": "2026-10-13",
+   "all_day": false,
+   "location": "L-324 Fainsod Room",
+   "online": false,
+   "host": "Carr-Ryan Center for Human Rights",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "Join the Carr-Ryan Center for Human Rights and the British-Irish Caucus for a discussion with Sally Hayden, award-winning Irish journalist. The event will focus on human-rights journalism, drawing on Sally's two books, winner of the Orwell Prize for Political Writing, 'My Fourth Time, We Drowned', and upcoming release…",
+   "notes": "",
+   "place_name": "Littauer Building, Harvard Kennedy School",
+   "lat": 42.371045,
+   "lon": -71.12209,
+   "geo_method": "gazetteer",
+   "walk_min": 18
   },
   {
    "id": "b4c9d9861f86",
@@ -10409,9 +10391,9 @@
    "walk_min": 18
   },
   {
-   "id": "e06f81e776cf",
+   "id": "dc8f431feb7a",
    "title": "Global Development and Humanitarian Relief in a Changed Landscape",
-   "url": "https://www.hks.harvard.edu/index%2Ephp/events/global-development-and-humanitarian-relief-changed-landscape",
+   "url": "https://www.hks.harvard.edu/events/global-development-and-humanitarian-relief-changed-landscape",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -10421,18 +10403,18 @@
    "end": "2026-10-13T19:30:00-04:00",
    "date": "2026-10-13",
    "all_day": false,
-   "location": "",
+   "location": "Partnership For Public Service, Washington, Dc",
    "online": false,
-   "host": "",
+   "host": "Alumni Relations & Resource Development (ARRD)",
    "food": {
     "status": "none",
     "types": [],
     "evidence": ""
    },
    "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
+    "status": "required",
+    "evidence": "RSVP link on the event page",
+    "link": "https://www.hksdc.org/events/looking-forward-global-development-and-humanitarian-relief-in-a-changed-landscape"
    },
    "audience": {
     "level": "unknown",
@@ -10440,7 +10422,7 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "",
+   "summary": "The landscape has dramatically changed for efforts to advance global development and provide humanitarian support for people around the world. Even as a historic number of people are displaced and facing instability, waning financial resources and political will are straining efforts to continue advancing relief,…",
    "notes": "",
    "place_name": "Harvard Kennedy School",
    "lat": 42.371989,
@@ -10449,9 +10431,9 @@
    "walk_min": 16
   },
   {
-   "id": "31ac0bdeca87",
+   "id": "11154dc747d6",
    "title": "Global Climate Leadership: Our Planet at a Crossroads",
-   "url": "https://www.hks.harvard.edu/index%2Ephp/events/global-climate-leadership-our-planet-crossroads",
+   "url": "https://www.hks.harvard.edu/events/global-climate-leadership-our-planet-crossroads",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -10461,18 +10443,18 @@
    "end": "2026-10-13T19:00:00-04:00",
    "date": "2026-10-13",
    "all_day": false,
-   "location": "",
+   "location": "John F. Kennedy Jr. Forum",
    "online": false,
-   "host": "",
+   "host": "Institute of Politics (IOP)",
    "food": {
     "status": "none",
     "types": [],
     "evidence": ""
    },
    "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
+    "status": "required",
+    "evidence": "RSVP link on the event page",
+    "link": "https://iop.harvard.edu/events/global-climate-leadership-our-planet-crossroads-ft-ban-ki-moon-fmr-un-secretary-general"
    },
    "audience": {
     "level": "unknown",
@@ -10480,13 +10462,13 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "",
+   "summary": "Ban Ki-moon, former United Nations Secretary-General (2007–2016) joins us for a discussion on the changing international order, the future of multilateral cooperation, and the urgency of global climate change. The discussion will explore the role of diplomacy and global institutions in addressing shared challenges,…",
    "notes": "",
-   "place_name": "Harvard Kennedy School",
-   "lat": 42.371989,
-   "lon": -71.121761,
+   "place_name": "Littauer Building, Harvard Kennedy School",
+   "lat": 42.371045,
+   "lon": -71.12209,
    "geo_method": "host",
-   "walk_min": 16
+   "walk_min": 18
   },
   {
    "id": "8126a8c6c7ea",
@@ -11375,9 +11357,9 @@
    "walk_min": 10
   },
   {
-   "id": "de614b423655",
+   "id": "ec0f1507d2fd",
    "title": "WAPPP Changemakers with Carolina Müller-Möhl",
-   "url": "https://www.hks.harvard.edu/index%2Ephp/events/wappp-changemakers-carolina-muller-mohl",
+   "url": "https://www.hks.harvard.edu/events/wappp-changemakers-carolina-muller-mohl",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -11387,18 +11369,18 @@
    "end": "2026-10-14T13:00:00-04:00",
    "date": "2026-10-14",
    "all_day": false,
-   "location": "",
-   "online": false,
-   "host": "",
+   "location": "Online",
+   "online": true,
+   "host": "Women and Public Policy Program",
    "food": {
     "status": "none",
     "types": [],
     "evidence": ""
    },
    "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
+    "status": "required",
+    "evidence": "RSVP link on the event page",
+    "link": "https://harvard.zoom.us/webinar/register/WN_-h2QgO73TfGck7j2waRABw#/registration"
    },
    "audience": {
     "level": "unknown",
@@ -11406,13 +11388,13 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "",
+   "summary": "Join us for WAPPP's Changemakers Series - conversations exploring how leaders can turn bold ideas into meaningful and lasting change. These sessions will explore how evidence-based policymaking and organizational practices can help advance gender equity: from translating research into organizational change and policy…",
    "notes": "",
-   "place_name": "Harvard Kennedy School",
-   "lat": 42.371989,
-   "lon": -71.121761,
-   "geo_method": "host",
-   "walk_min": 16
+   "place_name": "",
+   "lat": null,
+   "lon": null,
+   "geo_method": null,
+   "walk_min": null
   },
   {
    "id": "5406d6e4e630",
@@ -11957,13 +11939,60 @@
    "walk_min": 10
   },
   {
+   "id": "4e13ebcc6366",
+   "title": "Gender Gaps: From the Past to the AI Future",
+   "url": "https://www.hks.harvard.edu/events/gender-gaps-past-ai-future",
+   "source_id": "hks",
+   "source_name": "Harvard Kennedy School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "start": "2026-10-14T13:00:00-04:00",
+   "end": "2026-10-14T14:00:00-04:00",
+   "date": "2026-10-14",
+   "all_day": false,
+   "location": "Ofer 401",
+   "online": false,
+   "host": "Mossavar-Rahmani Center for Business and Government",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "This study group will explore gender gaps and the policies aimed at narrowing them. It will examine the motherhood penalty, the role of regulation, workplace practices, and social norms, as well as what international gender-equality indicators reveal about persistent disparities. We will also discuss how AI could…",
+   "notes": "",
+   "place_name": "Harvard Kennedy School",
+   "lat": 42.371989,
+   "lon": -71.121761,
+   "geo_method": "host",
+   "walk_min": 16
+  },
+  {
    "id": "a0a81d6e90ec",
    "title": "Fall Study Group: How Should Democracies Govern Scarce, Life-Saving Resources? The Case of Organ Transplantation",
    "url": "https://ash.harvard.edu/events/fall-study-group-how-should-democracies-govern-scarce-life-saving-resources-the-case-of-organ-transplantation/",
    "source_id": "ash",
    "source_name": "Ash Center (HKS)",
-   "also_listed": [],
-   "aliases": [],
+   "also_listed": [
+    {
+     "source_name": "Harvard Kennedy School",
+     "url": "https://www.hks.harvard.edu/events/fall-study-group-how-should-democracies-govern-scarce-life-saving-resources"
+    }
+   ],
+   "aliases": [
+    "f806ed4b8016"
+   ],
    "suggested": null,
    "start": "2026-10-14T14:00:00-04:00",
    "end": "2026-10-14T15:00:00-04:00",
@@ -12595,7 +12624,7 @@
   {
    "id": 4,
    "state": "scanned",
-   "label": "Scanned at every update: 30 events found, 0 with food this week",
+   "label": "Scanned at every update: 29 events found, 0 with food this week",
    "n_food": 0
   }
  ],
@@ -12666,6 +12695,12 @@
    "sent": "2026-10-07",
    "items": 0,
    "sender": "Fairbank Center for Chinese Studies"
+  },
+  {
+   "subject": "Event: Mapping Global China: Data, Maps, and Stories of China’s Global Presence",
+   "sent": "2026-10-07",
+   "items": 0,
+   "sender": "Harvard University Asia Center"
   },
   {
    "subject": "WCFIA Newsletter: Subscription Confirmed",
