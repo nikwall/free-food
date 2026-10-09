@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-09T13:01:35-04:00",
+ "generated_at": "2026-10-09T19:18:34-04:00",
  "window": {
   "start": "2026-10-09",
   "end": "2026-10-16"
@@ -18,7 +18,7 @@
    "error": null,
    "n_events": 108,
    "n_food": 4,
-   "seconds": 1.6
+   "seconds": 1.7
   },
   {
    "id": "hks",
@@ -26,9 +26,9 @@
    "homepage": "https://www.hks.harvard.edu/more/events",
    "ok": true,
    "error": null,
-   "n_events": 42,
+   "n_events": 43,
    "n_food": 8,
-   "seconds": 4.1
+   "seconds": 2.4
   },
   {
    "id": "hls",
@@ -36,9 +36,9 @@
    "homepage": "https://hls.harvard.edu/calendar/",
    "ok": true,
    "error": null,
-   "n_events": 71,
-   "n_food": 35,
-   "seconds": 8.7
+   "n_events": 73,
+   "n_food": 37,
+   "seconds": 9.7
   },
   {
    "id": "college",
@@ -48,7 +48,7 @@
    "error": null,
    "n_events": 80,
    "n_food": 6,
-   "seconds": 0.5
+   "seconds": 0.9
   },
   {
    "id": "ash",
@@ -58,7 +58,7 @@
    "error": null,
    "n_events": 4,
    "n_food": 3,
-   "seconds": 2.1
+   "seconds": 2.0
   },
   {
    "id": "shorenstein",
@@ -68,7 +68,7 @@
    "error": null,
    "n_events": 1,
    "n_food": 0,
-   "seconds": 9.4
+   "seconds": 8.4
   },
   {
    "id": "fairbank",
@@ -78,7 +78,7 @@
    "error": null,
    "n_events": 5,
    "n_food": 0,
-   "seconds": 6.0
+   "seconds": 0.1
   },
   {
    "id": "newsletter",
@@ -88,7 +88,7 @@
    "error": null,
    "n_events": 3,
    "n_food": 0,
-   "seconds": 29.4
+   "seconds": 24.2
   },
   {
    "id": "suggested",
@@ -98,15 +98,15 @@
    "error": null,
    "n_events": 6,
    "n_food": 0,
-   "seconds": 3.3
+   "seconds": 3.2
   }
  ],
  "stats": {
-  "events": 282,
-  "food_confirmed": 40,
+  "events": 285,
+  "food_confirmed": 42,
   "food_likely": 12,
-  "food_restricted": 34,
-  "seconds": 37.3
+  "food_restricted": 36,
+  "seconds": 30.5
  },
  "events": [
   {
@@ -800,7 +800,7 @@
    "registration": {
     "status": "recommended",
     "evidence": "Registration is encouraged but not required.",
-    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001k5LtIAI"
+    "link": ""
    },
    "audience": {
     "level": "harvard",
@@ -1053,9 +1053,9 @@
     "evidence": ""
    },
    "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001kTsrIAE"
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
    },
    "audience": {
     "level": "restricted",
@@ -1176,9 +1176,9 @@
     "evidence": ""
    },
    "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001i6IrIAI"
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
    },
    "audience": {
     "level": "restricted",
@@ -1970,6 +1970,46 @@
    "walk_min": 15
   },
   {
+   "id": "91328d76e558",
+   "title": "Harvard University Women’s Rugby vs Navy - Senior Day",
+   "url": "https://events.college.harvard.edu/event/224728-harvard-university-womens-rugby-vs-navy-senior",
+   "source_id": "college",
+   "source_name": "Harvard College events",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "start": "2026-10-10T11:00:00-04:00",
+   "end": "2026-10-10T14:00:00-04:00",
+   "date": "2026-10-10",
+   "all_day": false,
+   "location": "Cambridge, MA",
+   "online": false,
+   "host": "Main Calendar",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "undergraduates",
+    "evidence": "Title mentions “Senior”",
+    "basis": "inferred"
+   },
+   "summary": "Harvard University Women’s Rugby vs Navy - Senior Day TV: ESPN+ Streaming Video: https://www.espn.com/watch/catalog/28907f94-4745-4e26-b0ac-6fd8ffac0aa6/ivy-league#bucketId=29784&sourceCollection=Browse_By_Top_Conferences URL:https://gocrimson.com/calendar.aspx?game_id=33287&sport_id=32",
+   "notes": "",
+   "place_name": "",
+   "lat": null,
+   "lon": null,
+   "geo_method": null,
+   "walk_min": null
+  },
+  {
    "id": "f8c8faaf995f",
    "title": "Second Saturdays Story Time",
    "url": "https://harvardartmuseums.org/calendar/second-saturdays-story-time-20?utm_source=gazette&utm_medium=listing&utm_campaign=Storytime_Oct2026&utm_id=Second+Saturdays+Story+Time",
@@ -2162,46 +2202,6 @@
     "basis": "text"
    },
    "summary": "We are hosting a dance team clinic open to all high schoolers to learn what it’s like to be a member of the Harvard Crimson Dance Team. Captains and team members will lead warm up, technique, and a short combo. This is also a fundraiser for our team. — Event Details: https://soco.college.harvard.edu/rsvp?id=383042",
-   "notes": "",
-   "place_name": "",
-   "lat": null,
-   "lon": null,
-   "geo_method": null,
-   "walk_min": null
-  },
-  {
-   "id": "1c69a2871104",
-   "title": "Harvard University Women’s Rugby vs Navy - Senior Day",
-   "url": "https://events.college.harvard.edu/event/224728-harvard-university-womens-rugby-vs-navy-senior",
-   "source_id": "college",
-   "source_name": "Harvard College events",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "start": "2026-10-10T13:00:00-04:00",
-   "end": "2026-10-10T16:00:00-04:00",
-   "date": "2026-10-10",
-   "all_day": false,
-   "location": "Cambridge, MA",
-   "online": false,
-   "host": "Main Calendar",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
-   },
-   "audience": {
-    "level": "restricted",
-    "group": "undergraduates",
-    "evidence": "Title mentions “Senior”",
-    "basis": "inferred"
-   },
-   "summary": "Harvard University Women’s Rugby vs Navy - Senior Day TV: ESPN+ Streaming Video: https://www.espn.com/watch/catalog/28907f94-4745-4e26-b0ac-6fd8ffac0aa6/ivy-league#bucketId=29784&sourceCollection=Browse_By_Top_Conferences URL:https://gocrimson.com/calendar.aspx?game_id=33287&sport_id=32",
    "notes": "",
    "place_name": "",
    "lat": null,
@@ -5163,17 +5163,17 @@
     "evidence": ""
    },
    "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
+    "status": "required",
+    "evidence": "RSVP link on the event page",
+    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001kb41IAA"
    },
    "audience": {
-    "level": "unknown",
+    "level": "harvard",
     "group": "",
-    "evidence": "",
-    "basis": "none"
+    "evidence": "This is an in-person event for HUID holders only.",
+    "basis": "text"
    },
-   "summary": "Join the Carr-Ryan Center for Human Rights and the British-Irish Caucus for a discussion with Sally Hayden, award-winning Irish journalist. The event will focus on human-rights journalism, drawing on Sally's two books, winner of the Orwell Prize for Political Writing, 'My Fourth Time, We Drowned', and upcoming release…",
+   "summary": "Join the Carr-Ryan Center for Human Rights and the British-Irish Caucus for a discussion with Sally Hayden, award-winning Irish journalist. The event will focus on human-rights journalism, drawing on Sally's two books, winner of the Orwell Prize for Political Writing, My Fourth Time, We Drowned, and upcoming release…",
    "notes": "",
    "place_name": "Littauer Building, Harvard Kennedy School",
    "lat": 42.371045,
@@ -7568,7 +7568,7 @@
    "end": "2026-10-14T17:15:00-04:00",
    "date": "2026-10-14",
    "all_day": false,
-   "location": "L-163",
+   "location": "R-306",
    "online": false,
    "host": "Institute of Politics (IOP)",
    "food": {
@@ -7589,9 +7589,9 @@
    },
    "summary": "The campaign is over. It’s time to get to the real work of leading and governing! How do you build and structure a senior staff and a government? How do you move your agenda into actual policy and law? Attend this session to hear the behind-the-scenes reality of these monumental tasks! These off-the-record…",
    "notes": "",
-   "place_name": "Littauer Building, Harvard Kennedy School",
-   "lat": 42.371045,
-   "lon": -71.12209,
+   "place_name": "Rubenstein Building, Harvard Kennedy School",
+   "lat": 42.371243,
+   "lon": -71.122687,
    "geo_method": "gazetteer",
    "walk_min": 18
   },
@@ -7738,6 +7738,53 @@
    "walk_min": null
   },
   {
+   "id": "5454c32367d6",
+   "title": "Balancing the Books: Congress and the Federal Budget",
+   "url": "https://www.hks.harvard.edu/events/balancing-books-congress-and-federal-budget",
+   "source_id": "hks",
+   "source_name": "Harvard Kennedy School",
+   "also_listed": [
+    {
+     "source_name": "Harvard College events",
+     "url": "https://events.college.harvard.edu/event/225290-balancing-the-books-congress-and-the-federal"
+    }
+   ],
+   "aliases": [
+    "87486a520ae0"
+   ],
+   "suggested": null,
+   "start": "2026-10-14T17:30:00-04:00",
+   "end": "2026-10-14T18:30:00-04:00",
+   "date": "2026-10-14",
+   "all_day": false,
+   "location": "John F. Kennedy Jr. Forum",
+   "online": false,
+   "host": "Institute of Politics (IOP)",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "RSVP link on the event page",
+    "link": "https://iop.harvard.edu/events/balancing-books-congress-and-federal-budget-bipartisan-conversation-ft-rep-jody-arrington-r"
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "How should the federal government balance competing spending priorities, address the nation's fiscal challenges, and invest in America's future? At a time of deep partisan divisions and difficult budget decisions, this conversation will put a spotlight on the federal budget and the priorities shaping the nation's…",
+   "notes": "",
+   "place_name": "Littauer Building, Harvard Kennedy School",
+   "lat": 42.371045,
+   "lon": -71.12209,
+   "geo_method": "host",
+   "walk_min": 18
+  },
+  {
    "id": "6ab6f8a7f8f1",
    "title": "Legal Observer Training",
    "url": "https://hls.harvard.edu/events/legal-observer-training/",
@@ -7856,53 +7903,6 @@
    "lon": -71.114576,
    "geo_method": "gazetteer",
    "walk_min": 9
-  },
-  {
-   "id": "4a8050262228",
-   "title": "Balancing the Books: Congress and the Federal Budget",
-   "url": "https://www.hks.harvard.edu/events/balancing-books-congress-and-federal-budget",
-   "source_id": "hks",
-   "source_name": "Harvard Kennedy School",
-   "also_listed": [
-    {
-     "source_name": "Harvard College events",
-     "url": "https://events.college.harvard.edu/event/225290-balancing-the-books-congress-and-the-federal"
-    }
-   ],
-   "aliases": [
-    "5454c32367d6"
-   ],
-   "suggested": null,
-   "start": "2026-10-14T18:00:00-04:00",
-   "end": "2026-10-14T19:00:00-04:00",
-   "date": "2026-10-14",
-   "all_day": false,
-   "location": "John F. Kennedy Jr. Forum",
-   "online": false,
-   "host": "Institute of Politics (IOP)",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://iop.harvard.edu/events/balancing-books-congress-and-federal-budget-bipartisan-conversation-ft-rep-jody-arrington-r"
-   },
-   "audience": {
-    "level": "unknown",
-    "group": "",
-    "evidence": "",
-    "basis": "none"
-   },
-   "summary": "How should the federal government balance competing spending priorities, address the nation's fiscal challenges, and invest in America's future? At a time of deep partisan divisions and difficult budget decisions, this conversation will put a spotlight on the federal budget and the priorities shaping the nation's…",
-   "notes": "",
-   "place_name": "Littauer Building, Harvard Kennedy School",
-   "lat": 42.371045,
-   "lon": -71.12209,
-   "geo_method": "host",
-   "walk_min": 18
   },
   {
    "id": "0693914ec773",
@@ -8063,6 +8063,46 @@
    "lon": -71.119679,
    "geo_method": "gazetteer",
    "walk_min": 10
+  },
+  {
+   "id": "cadd82f4186f",
+   "title": "At the Negotiating Table",
+   "url": "https://www.hks.harvard.edu/events/negotiating-table",
+   "source_id": "hks",
+   "source_name": "Harvard Kennedy School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "start": "2026-10-14T19:30:00-04:00",
+   "end": "2026-10-14T20:30:00-04:00",
+   "date": "2026-10-14",
+   "all_day": false,
+   "location": "John F. Kennedy Jr. Forum",
+   "online": false,
+   "host": "Institute of Politics (IOP)",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "RSVP link on the event page",
+    "link": "https://iop.harvard.edu/events/negotiating-table-steve-witkoff"
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "Special Envoy to the Middle East and Peace Missions Steve Witkoff joins us for a discussion on the Trump Administration's approach to negotiating with world powers. Featuring: Steve Witkoff President Trump's Special Envoy to the Middle East and Peace Missions Meghan O'Sullivan (co-moderator) Director, Belfer Center…",
+   "notes": "",
+   "place_name": "Littauer Building, Harvard Kennedy School",
+   "lat": 42.371045,
+   "lon": -71.12209,
+   "geo_method": "host",
+   "walk_min": 18
   },
   {
    "id": "ce3ac2c244ef",
@@ -9237,6 +9277,49 @@
     "basis": "inferred"
    },
    "summary": "Hear from practitioners who left life in big law to pursue public interest work, including discussions about financial considerations. Add to Calendar October 15, 2026, 12:15 pm - 1:15 pm +Google Calendar +iCal/Outlook",
+   "notes": "",
+   "place_name": "Wasserstein Hall (WCC), Harvard Law School",
+   "lat": 42.379383,
+   "lon": -71.119421,
+   "geo_method": "gazetteer",
+   "walk_min": 10
+  },
+  {
+   "id": "efc7dad5e13c",
+   "title": "America at 250: Thank Harvard for the Founding – Judge John K. Bush (6th Cir.)",
+   "url": "https://hls.harvard.edu/events/america-at-250-thank-harvard-for-the-founding-judge-john-k-bush-6th-cir/",
+   "source_id": "hls",
+   "source_name": "Harvard Law School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "start": "2026-10-15T12:20:00-04:00",
+   "end": "2026-10-15T13:20:00-04:00",
+   "date": "2026-10-15",
+   "all_day": false,
+   "location": "WCC B010, Harvard Law School",
+   "online": false,
+   "host": "Harvard Federalist Society",
+   "food": {
+    "status": "confirmed",
+    "types": [
+     "Lunch"
+    ],
+    "evidence": "Lunch will be served.",
+    "cue": "strong"
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "HLS students",
+    "evidence": "Run by an HLS student organization",
+    "basis": "inferred"
+   },
+   "summary": "As America approaches its 250th anniversary, join the Federalist Society for a conversation with Judge John K. Bush of the U.S. Court of Appeals for the Sixth Circuit about Harvard’s role in the American Founding and the intellectual and constitutional traditions that shaped the nation. From the ideas that inspired…",
    "notes": "",
    "place_name": "Wasserstein Hall (WCC), Harvard Law School",
    "lat": 42.379383,
@@ -11399,6 +11482,49 @@
    "lon": -71.12209,
    "geo_method": "gazetteer",
    "walk_min": 18
+  },
+  {
+   "id": "01820e4f6699",
+   "title": "Respectfully, No: Guns, Gender, and Dissenting on the Ninth Circuit – A Conversation with Judge Lawrence VanDyke (9th Cir.)",
+   "url": "https://hls.harvard.edu/events/respectfully-no-guns-gender-and-dissenting-on-the-ninth-circuit-a-conversation-with-judge-lawrence-vandyke-9th-cir/",
+   "source_id": "hls",
+   "source_name": "Harvard Law School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "start": "2026-10-16T12:15:00-04:00",
+   "end": "2026-10-16T13:20:00-04:00",
+   "date": "2026-10-16",
+   "all_day": false,
+   "location": "Langdell Hall, 225 Vorenberg Classroom - North, Harvard Law School",
+   "online": false,
+   "host": "Harvard Federalist Society",
+   "food": {
+    "status": "confirmed",
+    "types": [
+     "Lunch"
+    ],
+    "evidence": "Lunch will be served.",
+    "cue": "strong"
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "HLS students",
+    "evidence": "Run by an HLS student organization",
+    "basis": "inferred"
+   },
+   "summary": "Join the Federalist Society for a conversation with Judge Lawrence VanDyke of the U.S. Court of Appeals for the Ninth Circuit, whose sharp dissents, colorful prose, and willingness to challenge his colleagues have made him one of the court’s most distinctive voices. From Second Amendment challenges to disputes over…",
+   "notes": "",
+   "place_name": "Langdell Hall, Harvard Law School",
+   "lat": 42.377966,
+   "lon": -71.118497,
+   "geo_method": "gazetteer",
+   "walk_min": 8
   },
   {
    "id": "81157b80574f",
