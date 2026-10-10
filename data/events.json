@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-10T11:53:51-04:00",
+ "generated_at": "2026-10-10T16:06:29-04:00",
  "window": {
   "start": "2026-10-10",
   "end": "2026-10-17"
@@ -18,7 +18,7 @@
    "error": null,
    "n_events": 100,
    "n_food": 2,
-   "seconds": 1.8
+   "seconds": 0.7
   },
   {
    "id": "hks",
@@ -28,7 +28,7 @@
    "error": null,
    "n_events": 38,
    "n_food": 5,
-   "seconds": 6.1
+   "seconds": 5.7
   },
   {
    "id": "hls",
@@ -38,7 +38,7 @@
    "error": null,
    "n_events": 68,
    "n_food": 34,
-   "seconds": 10.1
+   "seconds": 8.7
   },
   {
    "id": "college",
@@ -48,7 +48,7 @@
    "error": null,
    "n_events": 79,
    "n_food": 6,
-   "seconds": 0.5
+   "seconds": 0.3
   },
   {
    "id": "ash",
@@ -58,7 +58,7 @@
    "error": null,
    "n_events": 3,
    "n_food": 2,
-   "seconds": 1.7
+   "seconds": 2.0
   },
   {
    "id": "shorenstein",
@@ -68,7 +68,7 @@
    "error": null,
    "n_events": 1,
    "n_food": 0,
-   "seconds": 13.1
+   "seconds": 10.1
   },
   {
    "id": "fairbank",
@@ -78,7 +78,7 @@
    "error": null,
    "n_events": 5,
    "n_food": 0,
-   "seconds": 6.2
+   "seconds": 0.1
   },
   {
    "id": "newsletter",
@@ -86,9 +86,9 @@
    "homepage": "",
    "ok": true,
    "error": null,
-   "n_events": 3,
-   "n_food": 0,
-   "seconds": 21.9
+   "n_events": 16,
+   "n_food": 2,
+   "seconds": 27.8
   },
   {
    "id": "suggested",
@@ -98,15 +98,15 @@
    "error": null,
    "n_events": 5,
    "n_food": 0,
-   "seconds": 3.2
+   "seconds": 3.3
   }
  ],
  "stats": {
-  "events": 267,
-  "food_confirmed": 37,
+  "events": 270,
+  "food_confirmed": 39,
   "food_likely": 11,
   "food_restricted": 34,
-  "seconds": 31.4
+  "seconds": 34.1
  },
  "events": [
   {
@@ -522,46 +522,6 @@
    "walk_min": 15
   },
   {
-   "id": "91328d76e558",
-   "title": "Harvard University Women’s Rugby vs Navy - Senior Day",
-   "url": "https://events.college.harvard.edu/event/224728-harvard-university-womens-rugby-vs-navy-senior",
-   "source_id": "college",
-   "source_name": "Harvard College events",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "start": "2026-10-10T11:00:00-04:00",
-   "end": "2026-10-10T14:00:00-04:00",
-   "date": "2026-10-10",
-   "all_day": false,
-   "location": "Cambridge, MA",
-   "online": false,
-   "host": "Main Calendar",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
-   },
-   "audience": {
-    "level": "restricted",
-    "group": "undergraduates",
-    "evidence": "Title mentions “Senior”",
-    "basis": "inferred"
-   },
-   "summary": "Harvard University Women’s Rugby vs Navy - Senior Day TV: ESPN+ Streaming Video: https://www.espn.com/watch/catalog/28907f94-4745-4e26-b0ac-6fd8ffac0aa6/ivy-league#bucketId=29784&sourceCollection=Browse_By_Top_Conferences URL:https://gocrimson.com/calendar.aspx?game_id=33287&sport_id=32",
-   "notes": "",
-   "place_name": "",
-   "lat": null,
-   "lon": null,
-   "geo_method": null,
-   "walk_min": null
-  },
-  {
    "id": "f8c8faaf995f",
    "title": "Second Saturdays Story Time",
    "url": "https://harvardartmuseums.org/calendar/second-saturdays-story-time-20?utm_source=gazette&utm_medium=listing&utm_campaign=Storytime_Oct2026&utm_id=Second+Saturdays+Story+Time",
@@ -642,6 +602,46 @@
    "walk_min": 7
   },
   {
+   "id": "91328d76e558",
+   "title": "[W] Harvard University Women’s Rugby vs Navy - Senior Day",
+   "url": "https://events.college.harvard.edu/event/224728-harvard-university-womens-rugby-vs-navy-senior",
+   "source_id": "college",
+   "source_name": "Harvard College events",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "start": "2026-10-10T11:00:00-04:00",
+   "end": "2026-10-10T14:00:00-04:00",
+   "date": "2026-10-10",
+   "all_day": false,
+   "location": "Cambridge, MA",
+   "online": false,
+   "host": "Main Calendar",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "undergraduates",
+    "evidence": "Title mentions “Senior”",
+    "basis": "inferred"
+   },
+   "summary": "[W] Harvard University Women’s Rugby vs Navy - Senior Day W 53-26 TV: ESPN+ Streaming Video: https://www.espn.com/watch/catalog/28907f94-4745-4e26-b0ac-6fd8ffac0aa6/ivy-league#bucketId=29784&sourceCollection=Browse_By_Top_Conferences URL:https://gocrimson.com/calendar.aspx?game_id=33287&sport_id=32",
+   "notes": "",
+   "place_name": "",
+   "lat": null,
+   "lon": null,
+   "geo_method": null,
+   "walk_min": null
+  },
+  {
    "id": "e24d5a659fcd",
    "title": "HMCS Field Request (Saturdays)",
    "url": "https://soco.college.harvard.edu/rsvp?id=382562",
@@ -683,7 +683,7 @@
   },
   {
    "id": "e7678199921a",
-   "title": "Harvard University Men’s Water Polo vs Brown",
+   "title": "[W] Harvard University Men’s Water Polo vs Brown",
    "url": "https://events.college.harvard.edu/event/224729-harvard-university-mens-water-polo-vs-brown",
    "source_id": "college",
    "source_name": "Harvard College events",
@@ -713,7 +713,7 @@
     "evidence": "Harvard College calendar, no sign it is open to others",
     "basis": "default"
    },
-   "summary": "Harvard University Men’s Water Polo vs Brown TV: ESPN+ Streaming Video: https://gocrim.info/a8853e URL:https://gocrimson.com/calendar.aspx?game_id=33269&sport_id=23",
+   "summary": "[W] Harvard University Men’s Water Polo vs Brown W 14-8 TV: ESPN+ Streaming Video: https://gocrim.info/a8853e URL:https://gocrimson.com/calendar.aspx?game_id=33269&sport_id=23",
    "notes": "",
    "place_name": "",
    "lat": null,
@@ -2293,6 +2293,49 @@
    "walk_min": 12
   },
   {
+   "id": "f8d62361fe3f",
+   "title": "Must RSVP with a valid Harvard email address",
+   "url": "",
+   "source_id": "newsletter",
+   "source_name": "Newsletter: JFK Jr. Forum: Senator Andy Kim, Ban Ki-moon, & More on Forces Shaping Our Futur",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "start": "2026-10-13T00:00:00-04:00",
+   "end": null,
+   "date": "2026-10-13",
+   "all_day": true,
+   "location": "",
+   "online": false,
+   "host": "",
+   "food": {
+    "status": "confirmed",
+    "types": [
+     "Snacks"
+    ],
+    "evidence": "*Refreshments will be provided.",
+    "cue": "strong"
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "Must RSVP with a valid Harvard email address",
+    "link": ""
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "Must RSVP with a valid Harvard email address Join us on October 13 for our Pathways to Public Service Networking Night at the IOP! Hear from a panel of young alumni working in public service, network with notable professionals in the field, and gain firsthand insights into careers in politics and public service. This…",
+   "notes": "",
+   "place_name": "Littauer Building, Harvard Kennedy School",
+   "lat": 42.371045,
+   "lon": -71.12209,
+   "geo_method": "host",
+   "walk_min": 18
+  },
+  {
    "id": "29db35e44de1",
    "title": "Muriel Siebert: Redefining Power and Possibility on Wall Street",
    "url": "https://www.library.hbs.edu/special-collections-and-archives/exhibits/muriel-siebert",
@@ -2653,9 +2696,9 @@
    "walk_min": 7
   },
   {
-   "id": "1dc248f29b2b",
+   "id": "3fe8bda2d00d",
    "title": "The Power of the Story: Hollywood, Soft Power, and America’s Global Image",
-   "url": "https://www.hks.harvard.edu/events/power-story-hollywood-soft-power-and-americas-global-image",
+   "url": "https://www.hks.harvard.edu/index%2ephp/events/power-story-hollywood-soft-power-and-americas-global-image",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -2665,18 +2708,18 @@
    "end": "2026-10-13T11:45:00-04:00",
    "date": "2026-10-13",
    "all_day": false,
-   "location": "Belfer Library (l369)",
+   "location": "",
    "online": false,
-   "host": "Belfer Center for Science and International Affairs",
+   "host": "",
    "food": {
     "status": "none",
     "types": [],
     "evidence": ""
    },
    "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001kXgLIAU"
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
    },
    "audience": {
     "level": "unknown",
@@ -2684,7 +2727,7 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "The Belfer Center launches its Soft Power Series with acclaimed director and producer Lesli Linka Glatter, whose work includes Homeland, Zero Day, Mad Men, and The West Wing. Drawing on her experience bringing politics, national security, and human drama to the screen, Glatter will explore how film and television…",
+   "summary": "",
    "notes": "",
    "place_name": "Harvard Kennedy School",
    "lat": 42.371989,
@@ -2987,6 +3030,49 @@
    "lat": 42.371045,
    "lon": -71.12209,
    "geo_method": "gazetteer",
+   "walk_min": 18
+  },
+  {
+   "id": "42b2d64c3bd7",
+   "title": "Pathways to Public Service Networking Night",
+   "url": "https://iop.harvard.edu/events/pathways-public-service-networking-night",
+   "source_id": "newsletter",
+   "source_name": "Newsletter: JFK Jr. Forum: Senator Andy Kim, Ban Ki-moon, & More on Forces Shaping Our Futur",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "start": "2026-10-13T12:00:00-04:00",
+   "end": null,
+   "date": "2026-10-13",
+   "all_day": true,
+   "location": "",
+   "online": false,
+   "host": "",
+   "food": {
+    "status": "confirmed",
+    "types": [
+     "Snacks"
+    ],
+    "evidence": "*Refreshments will be provided",
+    "cue": "strong"
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "Space is limited; Harvard undergraduates will be prioritized for access.",
+    "link": ""
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "Join us on October 13 for our Pathways to Public Service Networking Night at the IOP! Hear from a panel of young alumni working in public service, network with notable professionals in the field, and gain firsthand insights into careers in politics and public service. This informal gathering offers an opportunity to…",
+   "notes": "",
+   "place_name": "Littauer Building, Harvard Kennedy School",
+   "lat": 42.371045,
+   "lon": -71.12209,
+   "geo_method": "host",
    "walk_min": 18
   },
   {
@@ -3867,9 +3953,14 @@
     {
      "source_name": "Harvard College events",
      "url": "https://events.college.harvard.edu/event/225342-study-group-with-ambassador-kelly-craft-autonomy"
+    },
+    {
+     "source_name": "Newsletter: Next Week: New Study Groups & Special Guests!",
+     "url": "https://iop.harvard.edu/events/study-group-ambassador-kelly-craft-autonomy-and-war-21st-century-dino-mavrookas"
     }
    ],
    "aliases": [
+    "86d56454b5bf",
     "a62ca2c347dc",
     "f14bafc063f4"
    ],
@@ -3906,7 +3997,7 @@
    "walk_min": 18
   },
   {
-   "id": "3c6c1b8f03e4",
+   "id": "0b9df05a3b45",
    "title": "Ambassador Chris Lu Study Group: When the Public Interest Is in Private Hands",
    "url": "https://www.hks.harvard.edu/events/ambassador-chris-lu-study-group-when-public-interest-private-hands",
    "source_id": "hks",
@@ -3919,9 +4010,14 @@
     {
      "source_name": "Harvard College events",
      "url": "https://events.college.harvard.edu/event/225344-study-group-with-ambassador-chris-lu-leading"
+    },
+    {
+     "source_name": "Newsletter: Next Week: New Study Groups & Special Guests!",
+     "url": "https://iop.harvard.edu/events/study-group-ambassador-chris-lu-leading-beyond-government-when-public-interest-private-hands"
     }
    ],
    "aliases": [
+    "3c6c1b8f03e4",
     "823c21b9ac94",
     "87ae6755364d"
    ],
@@ -3955,6 +4051,46 @@
    "lat": 42.371045,
    "lon": -71.12209,
    "geo_method": "gazetteer",
+   "walk_min": 18
+  },
+  {
+   "id": "7303b2049692",
+   "title": "The Youth Vote and the Midterms",
+   "url": "https://iop.harvard.edu/events/youth-vote-and-midterms",
+   "source_id": "newsletter",
+   "source_name": "Newsletter: JFK Jr. Forum: Senator Andy Kim, Ban Ki-moon, & More on Forces Shaping Our Futur",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "start": "2026-10-13T17:00:00-04:00",
+   "end": null,
+   "date": "2026-10-13",
+   "all_day": false,
+   "location": "",
+   "online": false,
+   "host": "",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "Register Here",
+    "link": ""
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "Tuesday, October 13, 2026 Time: 5:00pm EST Where: L-280 Meeting Method: In-Person Add to Calendar 2026-10-13 17:00:00 2026-10-10 16:06:21 The Youth Vote and the Midterms <p>Join the Institute of Politics' Campaigns & Advocacy Program, Harvard Public Opinion Project, and Harvard Votes Challenge for a candid…",
+   "notes": "",
+   "place_name": "Littauer Building, Harvard Kennedy School",
+   "lat": 42.371045,
+   "lon": -71.12209,
+   "geo_method": "host",
    "walk_min": 18
   },
   {
@@ -4001,9 +4137,9 @@
    "walk_min": 74
   },
   {
-   "id": "f401e6d73d38",
+   "id": "dc8f431feb7a",
    "title": "Global Development and Humanitarian Relief in a Changed Landscape",
-   "url": "https://www.hks.harvard.edu/index%2ephp/events/global-development-and-humanitarian-relief-changed-landscape",
+   "url": "https://www.hks.harvard.edu/events/global-development-and-humanitarian-relief-changed-landscape",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -4013,18 +4149,18 @@
    "end": "2026-10-13T19:30:00-04:00",
    "date": "2026-10-13",
    "all_day": false,
-   "location": "",
+   "location": "Partnership For Public Service, Washington, Dc",
    "online": false,
-   "host": "",
+   "host": "Alumni Relations & Resource Development (ARRD)",
    "food": {
     "status": "none",
     "types": [],
     "evidence": ""
    },
    "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
+    "status": "required",
+    "evidence": "RSVP link on the event page",
+    "link": "https://www.hksdc.org/events/looking-forward-global-development-and-humanitarian-relief-in-a-changed-landscape"
    },
    "audience": {
     "level": "unknown",
@@ -4032,7 +4168,7 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "",
+   "summary": "The landscape has dramatically changed for efforts to advance global development and provide humanitarian support for people around the world. Even as a historic number of people are displaced and facing instability, waning financial resources and political will are straining efforts to continue advancing relief,…",
    "notes": "",
    "place_name": "Harvard Kennedy School",
    "lat": 42.371989,
@@ -4050,10 +4186,15 @@
     {
      "source_name": "Harvard College events",
      "url": "https://events.college.harvard.edu/event/225333-global-climate-leadership-our-planet-at-a"
+    },
+    {
+     "source_name": "Newsletter: JFK Jr. Forum: Senator Andy Kim, Ban Ki-moon, & More on Forces Shaping Our Futur",
+     "url": "https://iop.harvard.edu/events/global-climate-leadership-our-planet-crossroads-ban-ki-moon-fmr-un-secretary-general"
     }
    ],
    "aliases": [
-    "11154dc747d6"
+    "11154dc747d6",
+    "9cacbd345e49"
    ],
    "suggested": null,
    "start": "2026-10-13T18:00:00-04:00",
@@ -4733,9 +4874,9 @@
    "walk_min": 7
   },
   {
-   "id": "515243b33726",
+   "id": "50dd07649aae",
    "title": "European nuclear deterrence future(s): NATO and beyond",
-   "url": "https://www.hks.harvard.edu/index%2ephp/events/european-nuclear-deterrence-futures-nato-and-beyond",
+   "url": "https://www.hks.harvard.edu/events/european-nuclear-deterrence-futures-nato-and-beyond",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -4745,9 +4886,9 @@
    "end": "2026-10-14T12:30:00-04:00",
    "date": "2026-10-14",
    "all_day": false,
-   "location": "",
+   "location": "Fainsod (l324)",
    "online": false,
-   "host": "",
+   "host": "Managing the Atom Project",
    "food": {
     "status": "none",
     "types": [],
@@ -4764,13 +4905,13 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "",
+   "summary": "Speaker: Łukasz Kulesa, Deputy Head of Research Office at the Polish Institute of International Affairs. Between the end of the Cold War and Russian aggression against Ukraine, nuclear weapons and nuclear deterrence remained a marginal issue for most European countries, and a back-burner question for NATO. Last years’…",
    "notes": "",
-   "place_name": "Harvard Kennedy School",
-   "lat": 42.371989,
-   "lon": -71.121761,
-   "geo_method": "host",
-   "walk_min": 16
+   "place_name": "Littauer Building, Harvard Kennedy School",
+   "lat": 42.371045,
+   "lon": -71.12209,
+   "geo_method": "gazetteer",
+   "walk_min": 18
   },
   {
    "id": "276c73584399",
@@ -6011,6 +6152,58 @@
    "walk_min": 10
   },
   {
+   "id": "d8265605d47f",
+   "title": "Ambassador Nathalie Rayes Study Group: Building Influence, Power, and Purpose",
+   "url": "https://www.hks.harvard.edu/events/ambassador-nathalie-rayes-study-group-building-influence-power-and-purpose",
+   "source_id": "hks",
+   "source_name": "Harvard Kennedy School",
+   "also_listed": [
+    {
+     "source_name": "Harvard College events",
+     "url": "https://events.college.harvard.edu/event/225346-study-group-with-ambassador-nathalie-rayes-from"
+    },
+    {
+     "source_name": "Newsletter: Next Week: New Study Groups & Special Guests!",
+     "url": "https://iop.harvard.edu/events/study-group-ambassador-nathalie-rayes-culture-city-hall-building-influence-power-and-purpose"
+    }
+   ],
+   "aliases": [
+    "d90d95a28451",
+    "ef6b77f99fb5"
+   ],
+   "suggested": null,
+   "start": "2026-10-14T16:00:00-04:00",
+   "end": "2026-10-14T17:15:00-04:00",
+   "date": "2026-10-14",
+   "all_day": false,
+   "location": "L-166",
+   "online": false,
+   "host": "Institute of Politics (IOP)",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "RSVP link on the event page",
+    "link": "https://iop.harvard.edu/events/study-group-ambassador-nathalie-rayes-culture-city-hall-building-influence-power-and-purpose"
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "HKS students",
+    "evidence": "Title: Ambassador Nathalie Rayes Study Group: Building Influence, Power, and Purpose",
+    "basis": "inferred"
+   },
+   "summary": "Study Group with Ambassador Nathalie Rayes: From Culture to City Hall: Building Influence, Power, and Purpose What happens when influence moves beyond media and into public service? Jason Lee’s path from founding Hollywood Unlocked to serving as Vice Mayor of Stockton, California, challenges traditional ideas about…",
+   "notes": "",
+   "place_name": "Littauer Building, Harvard Kennedy School",
+   "lat": 42.371045,
+   "lon": -71.12209,
+   "geo_method": "gazetteer",
+   "walk_min": 18
+  },
+  {
    "id": "3a04b568d078",
    "title": "Do Social Media Platforms Make People Happier?",
    "url": "https://ash.harvard.edu/events/do-social-media-platforms-make-people-happier/",
@@ -6054,98 +6247,56 @@
    "walk_min": 17
   },
   {
-   "id": "0148ab9b0b50",
-   "title": "Study Group with Ambassador Nathalie Rayes: From Culture to City Hall: Building Influence, Power, and Purpose ft. Jason Lee",
-   "url": "https://events.college.harvard.edu/event/225346-study-group-with-ambassador-nathalie-rayes-from",
-   "source_id": "college",
-   "source_name": "Harvard College events",
-   "also_listed": [
-    {
-     "source_name": "Harvard Kennedy School",
-     "url": "https://www.hks.harvard.edu/index%2ephp/events/ambassador-nathalie-rayes-study-group-building-influence-power-and-purpose"
-    }
-   ],
-   "aliases": [
-    "ef6b77f99fb5"
-   ],
-   "suggested": null,
-   "start": "2026-10-14T16:00:00-04:00",
-   "end": null,
-   "date": "2026-10-14",
-   "all_day": false,
-   "location": "79 JFK St., Cambridge, MA",
-   "online": false,
-   "host": "Institute of Politics at Harvard Kennedy School",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
-   },
-   "audience": {
-    "level": "restricted",
-    "group": "undergraduates",
-    "evidence": "Title: Study Group with Ambassador Nathalie Rayes: From Culture to City Hall: Building Influence, Power, and Purpose ft. Jason Lee",
-    "basis": "inferred"
-   },
-   "summary": "What happens when influence moves beyond media and into public service? Jason Lee’s path from founding Hollywood Unlocked to serving as Vice Mayor of Stockton, California, challenges traditional ideas about who leads, where leadership begins, and how cultural influence can translate into civic engagement. This…",
-   "notes": "",
-   "place_name": "Harvard Kennedy School",
-   "lat": 42.371989,
-   "lon": -71.121761,
-   "geo_method": "gazetteer",
-   "walk_min": 16
-  },
-  {
-   "id": "9a58c1349840",
+   "id": "063b42f40baa",
    "title": "Study Group with Governor Doug Ducey: Leading & Governing",
-   "url": "https://events.college.harvard.edu/event/225348-study-group-with-governor-doug-ducey-leading-amp",
-   "source_id": "college",
-   "source_name": "Harvard College events",
+   "url": "https://www.hks.harvard.edu/events/study-group-governor-doug-ducey-leading-governing-1",
+   "source_id": "hks",
+   "source_name": "Harvard Kennedy School",
    "also_listed": [
     {
-     "source_name": "Harvard Kennedy School",
-     "url": "https://www.hks.harvard.edu/index%2ephp/events/study-group-governor-doug-ducey-leading-governing-1"
+     "source_name": "Harvard College events",
+     "url": "https://events.college.harvard.edu/event/225348-study-group-with-governor-doug-ducey-leading-amp"
+    },
+    {
+     "source_name": "Newsletter: Next Week: New Study Groups & Special Guests!",
+     "url": "https://iop.harvard.edu/events/study-group-governor-doug-ducey-leading-governing-1"
     }
    ],
    "aliases": [
-    "f50a43fa9a5a"
+    "53249214e308",
+    "9a58c1349840"
    ],
    "suggested": null,
    "start": "2026-10-14T16:00:00-04:00",
-   "end": null,
+   "end": "2026-10-14T17:15:00-04:00",
    "date": "2026-10-14",
    "all_day": false,
-   "location": "79 JFK St., Cambridge, MA",
+   "location": "R-306",
    "online": false,
-   "host": "Institute of Politics at Harvard Kennedy School",
+   "host": "Institute of Politics (IOP)",
    "food": {
     "status": "none",
     "types": [],
     "evidence": ""
    },
    "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
+    "status": "required",
+    "evidence": "RSVP link on the event page",
+    "link": "https://iop.harvard.edu/events/study-group-governor-doug-ducey-leading-governing-1"
    },
    "audience": {
     "level": "restricted",
-    "group": "undergraduates",
+    "group": "HKS students",
     "evidence": "Title: Study Group with Governor Doug Ducey: Leading & Governing",
     "basis": "inferred"
    },
-   "summary": "The campaign is over. It’s time to get to the real work of leading and governing! *How do you build and structure a senior staff and a government? *How do you move your agenda into actual policy and law? Attend this session to hear the behind-the-scenes reality of these monumental tasks! These off-the-record…",
+   "summary": "The campaign is over. It’s time to get to the real work of leading and governing! How do you build and structure a senior staff and a government? How do you move your agenda into actual policy and law? Attend this session to hear the behind-the-scenes reality of these monumental tasks! These off-the-record…",
    "notes": "",
-   "place_name": "Harvard Kennedy School",
-   "lat": 42.371989,
-   "lon": -71.121761,
+   "place_name": "Rubenstein Building, Harvard Kennedy School",
+   "lat": 42.371243,
+   "lon": -71.122687,
    "geo_method": "gazetteer",
-   "walk_min": 16
+   "walk_min": 18
   },
   {
    "id": "7d7a25aaafce",
@@ -6297,12 +6448,17 @@
    "source_name": "Harvard Kennedy School",
    "also_listed": [
     {
+     "source_name": "Newsletter: JFK Jr. Forum: Senator Andy Kim, Ban Ki-moon, & More on Forces Shaping Our Futur",
+     "url": "https://iop.harvard.edu/events/balancing-books-congress-and-federal-budget-chair-and-ranking-member-house-budget-committee"
+    },
+    {
      "source_name": "Harvard College events",
      "url": "https://events.college.harvard.edu/event/225290-balancing-the-books-congress-and-the-federal"
     }
    ],
    "aliases": [
-    "87486a520ae0"
+    "87486a520ae0",
+    "ace4e77cc104"
    ],
    "suggested": null,
    "start": "2026-10-14T17:30:00-04:00",
@@ -6617,9 +6773,9 @@
    "walk_min": 10
   },
   {
-   "id": "fecf4af0238d",
+   "id": "cadd82f4186f",
    "title": "At the Negotiating Table",
-   "url": "https://www.hks.harvard.edu/index%2ephp/events/negotiating-table",
+   "url": "https://www.hks.harvard.edu/events/negotiating-table",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -6629,18 +6785,18 @@
    "end": "2026-10-14T20:30:00-04:00",
    "date": "2026-10-14",
    "all_day": false,
-   "location": "",
+   "location": "John F. Kennedy Jr. Forum",
    "online": false,
-   "host": "",
+   "host": "Institute of Politics (IOP)",
    "food": {
     "status": "none",
     "types": [],
     "evidence": ""
    },
    "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
+    "status": "required",
+    "evidence": "RSVP link on the event page",
+    "link": "https://iop.harvard.edu/events/negotiating-table-steve-witkoff"
    },
    "audience": {
     "level": "unknown",
@@ -6648,13 +6804,13 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "",
+   "summary": "Special Envoy to the Middle East and Peace Missions Steve Witkoff joins us for a discussion on the Trump Administration's approach to negotiating with world powers. Featuring: Steve Witkoff President Trump's Special Envoy to the Middle East and Peace Missions Meghan O'Sullivan (co-moderator) Director, Belfer Center…",
    "notes": "",
-   "place_name": "Harvard Kennedy School",
-   "lat": 42.371989,
-   "lon": -71.121761,
+   "place_name": "Littauer Building, Harvard Kennedy School",
+   "lat": 42.371045,
+   "lon": -71.12209,
    "geo_method": "host",
-   "walk_min": 16
+   "walk_min": 18
   },
   {
    "id": "ce3ac2c244ef",
@@ -7717,9 +7873,9 @@
    "walk_min": 12
   },
   {
-   "id": "dcc553ff11f3",
+   "id": "68e305ef54bf",
    "title": "Industrial Mobilization for War",
-   "url": "https://www.hks.harvard.edu/index%2ephp/events/industrial-mobilization-war",
+   "url": "https://www.hks.harvard.edu/events/industrial-mobilization-war",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -7729,9 +7885,9 @@
    "end": "2026-10-15T13:45:00-04:00",
    "date": "2026-10-15",
    "all_day": false,
-   "location": "",
+   "location": "One Brattle 350",
    "online": false,
-   "host": "",
+   "host": "International Security Program",
    "food": {
     "status": "none",
     "types": [],
@@ -7748,7 +7904,7 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "",
+   "summary": "Why do some states generate military power from economic resources more effectively than others? Standard answers focused on regime type, wealth, or aggregate resources cannot explain why countries matched on these characteristics often diverge sharply in mobilization outcomes. I argue that the effectiveness of…",
    "notes": "",
    "place_name": "Harvard Kennedy School",
    "lat": 42.371989,
@@ -8502,9 +8658,9 @@
    "walk_min": 10
   },
   {
-   "id": "50ebd9e52f3c",
+   "id": "c96c407f49e2",
    "title": "Leaders in Tech Series: AI in National Security with Ziad Reslan MPP '18",
-   "url": "https://www.hks.harvard.edu/index%2ephp/events/leaders-tech-series-ai-national-security-ziad-reslan-mpp-18",
+   "url": "https://www.hks.harvard.edu/events/leaders-tech-series-ai-national-security-ziad-reslan-mpp-18",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -8514,18 +8670,18 @@
    "end": "2026-10-15T15:30:00-04:00",
    "date": "2026-10-15",
    "all_day": false,
-   "location": "",
+   "location": "Malkin Penthouse",
    "online": false,
-   "host": "",
+   "host": "Office of Career Advancement (OCA); Alumni Relations & Resource Development (ARRD)",
    "food": {
     "status": "none",
     "types": [],
     "evidence": ""
    },
    "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
+    "status": "required",
+    "evidence": "RSVP link on the event page",
+    "link": "https://hks-harvard-csm.symplicity.com/students/?s=event&ss=is&mode=form&id=fd24c5ea3bc51350adf303217eeb0f9b"
    },
    "audience": {
     "level": "unknown",
@@ -8533,13 +8689,13 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "",
+   "summary": "Leaders in Tech Series - AI in National Security: A Conversation with Ziad Reslan MPP 2018 of OpenAI Thursday, October 15, 2:30PM Malkin Penthouse (top floor of Littauer Building) Ziad Reslan MPP 2018 is a Product Manager on the Safety team at OpenAI and a Senior Fellow and Lecturer with Yale’s Schmidt Program on…",
    "notes": "",
-   "place_name": "Harvard Kennedy School",
-   "lat": 42.371989,
-   "lon": -71.121761,
-   "geo_method": "host",
-   "walk_min": 16
+   "place_name": "Littauer Building, Harvard Kennedy School",
+   "lat": 42.371045,
+   "lon": -71.12209,
+   "geo_method": "gazetteer",
+   "walk_min": 18
   },
   {
    "id": "dfb94ca89c34",
@@ -8795,10 +8951,15 @@
     {
      "source_name": "Harvard College events",
      "url": "https://events.college.harvard.edu/event/225350-study-group-with-ambassador-chris-lu-when-politics"
+    },
+    {
+     "source_name": "Newsletter: Next Week: New Study Groups & Special Guests!",
+     "url": "https://iop.harvard.edu/events/study-group-ambassador-chris-lu-when-politics-and-policy-collide-tom-perez"
     }
    ],
    "aliases": [
-    "987b15de25d2"
+    "987b15de25d2",
+    "c76346268186"
    ],
    "suggested": null,
    "start": "2026-10-15T16:00:00-04:00",
@@ -8882,10 +9043,15 @@
     {
      "source_name": "Harvard College events",
      "url": "https://events.college.harvard.edu/event/225354-study-group-with-chris-whipple-into-the-breach-the"
+    },
+    {
+     "source_name": "Newsletter: Next Week: New Study Groups & Special Guests!",
+     "url": "https://iop.harvard.edu/events/study-group-chris-whipple-breach-2024-kamala-harris-campaign-sheila-nix"
     }
    ],
    "aliases": [
-    "c933709a865e"
+    "c933709a865e",
+    "eb7c519ed3a6"
    ],
    "suggested": null,
    "start": "2026-10-15T16:30:00-04:00",
@@ -8920,7 +9086,7 @@
    "walk_min": 18
   },
   {
-   "id": "67d97855a291",
+   "id": "4c5fd558f58e",
    "title": "Study Group with Sec. Alejandro Mayorkas: Homeland Security Issues in Congress",
    "url": "https://www.hks.harvard.edu/events/study-group-sec-alejandro-mayorkas-homeland-security-issues-congress",
    "source_id": "hks",
@@ -8929,9 +9095,14 @@
     {
      "source_name": "Harvard College events",
      "url": "https://events.college.harvard.edu/event/225352-study-group-with-the-honorable-alejandro-mayorkas"
+    },
+    {
+     "source_name": "Newsletter: Next Week: New Study Groups & Special Guests!",
+     "url": "https://iop.harvard.edu/events/study-group-honorable-alejandro-mayorkas-homeland-security-issues-congress-and-whats-next"
     }
    ],
    "aliases": [
+    "67d97855a291",
     "87ca32120b91"
    ],
    "suggested": null,
@@ -10422,11 +10593,16 @@
     {
      "source_name": "Harvard College events",
      "url": "https://events.college.harvard.edu/event/197772-america-at-250-and-beyond-a-well-informed"
+    },
+    {
+     "source_name": "Newsletter: JFK Jr. Forum: Senator Andy Kim, Ban Ki-moon, & More on Forces Shaping Our Futur",
+     "url": "https://iop.harvard.edu/events/america-250-and-beyond-well-informed-citizenry"
     }
    ],
    "aliases": [
     "937cad43fb26",
-    "cab5f06f3d01"
+    "cab5f06f3d01",
+    "f3821f025830"
    ],
    "suggested": null,
    "start": "2026-10-16T16:00:00-04:00",
@@ -11211,6 +11387,24 @@
    "sent": "2026-10-09",
    "items": 1,
    "sender": "Harvard University Asia Center"
+  },
+  {
+   "subject": "JFK Jr. Forum: Senator Andy Kim, Ban Ki-moon, & More on Forces Shaping Our Future",
+   "sent": "2026-10-10",
+   "items": 6,
+   "sender": "Nakashima, Ellen"
+  },
+  {
+   "subject": "Next Week: New Study Groups & Special Guests!",
+   "sent": "2026-10-10",
+   "items": 7,
+   "sender": "Nakashima, Ellen"
+  },
+  {
+   "subject": "Weatherhead Events / Week of October 11, 2026",
+   "sent": "2026-10-10",
+   "items": 0,
+   "sender": "Weatherhead Center for International Affairs"
   },
   {
    "subject": "WCFIA Newsletter: Subscription Confirmed",
