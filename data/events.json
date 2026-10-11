@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-10T16:06:29-04:00",
+ "generated_at": "2026-10-10T21:02:24-04:00",
  "window": {
   "start": "2026-10-10",
   "end": "2026-10-17"
@@ -18,7 +18,7 @@
    "error": null,
    "n_events": 100,
    "n_food": 2,
-   "seconds": 0.7
+   "seconds": 0.6
   },
   {
    "id": "hks",
@@ -28,7 +28,7 @@
    "error": null,
    "n_events": 38,
    "n_food": 5,
-   "seconds": 5.7
+   "seconds": 4.9
   },
   {
    "id": "hls",
@@ -38,7 +38,7 @@
    "error": null,
    "n_events": 68,
    "n_food": 34,
-   "seconds": 8.7
+   "seconds": 9.9
   },
   {
    "id": "college",
@@ -46,9 +46,9 @@
    "homepage": "https://events.college.harvard.edu/",
    "ok": true,
    "error": null,
-   "n_events": 79,
+   "n_events": 81,
    "n_food": 6,
-   "seconds": 0.3
+   "seconds": 0.9
   },
   {
    "id": "ash",
@@ -58,7 +58,7 @@
    "error": null,
    "n_events": 3,
    "n_food": 2,
-   "seconds": 2.0
+   "seconds": 1.9
   },
   {
    "id": "shorenstein",
@@ -68,7 +68,7 @@
    "error": null,
    "n_events": 1,
    "n_food": 0,
-   "seconds": 10.1
+   "seconds": 9.9
   },
   {
    "id": "fairbank",
@@ -78,7 +78,7 @@
    "error": null,
    "n_events": 5,
    "n_food": 0,
-   "seconds": 0.1
+   "seconds": 0.2
   },
   {
    "id": "newsletter",
@@ -88,7 +88,7 @@
    "error": null,
    "n_events": 16,
    "n_food": 2,
-   "seconds": 27.8
+   "seconds": 32.1
   },
   {
    "id": "suggested",
@@ -96,17 +96,17 @@
    "homepage": "",
    "ok": true,
    "error": null,
-   "n_events": 5,
+   "n_events": 4,
    "n_food": 0,
-   "seconds": 3.3
+   "seconds": 5.8
   }
  ],
  "stats": {
-  "events": 270,
+  "events": 271,
   "food_confirmed": 39,
   "food_likely": 11,
   "food_restricted": 34,
-  "seconds": 34.1
+  "seconds": 40.9
  },
  "events": [
   {
@@ -192,20 +192,13 @@
    "walk_min": null
   },
   {
-   "id": "0b53e88d91a5",
+   "id": "579ff3e1c1a6",
    "title": "Celebrating the Scholarship and Legacy of Professor Elizabeth J. Perry",
    "url": "https://fairbank.fas.harvard.edu/events/celebrating-the-scholarship-and-legacy-of-professor-elizabeth-j-perry/",
    "source_id": "fairbank",
    "source_name": "Fairbank Center",
-   "also_listed": [
-    {
-     "source_name": "Suggested calendar: Fairbanks center",
-     "url": "https://fairbank.fas.harvard.edu/events/celebrating-the-scholarship-and-legacy-of-professor-elizabeth-j-perry/"
-    }
-   ],
-   "aliases": [
-    "579ff3e1c1a6"
-   ],
+   "also_listed": [],
+   "aliases": [],
    "suggested": null,
    "start": "2026-10-10T09:00:00-04:00",
    "end": "2026-10-10T17:30:00-04:00",
@@ -319,13 +312,15 @@
    "walk_min": 4
   },
   {
-   "id": "e5a7c6ffd6ad",
+   "id": "2d878bb4dffc",
    "title": "Harvard University Men’s Tennis vs ITA New England Regionals Day Three",
    "url": "https://events.college.harvard.edu/event/225408-harvard-university-mens-tennis-vs-ita-new-england",
    "source_id": "college",
    "source_name": "Harvard College events",
    "also_listed": [],
-   "aliases": [],
+   "aliases": [
+    "e5a7c6ffd6ad"
+   ],
    "suggested": null,
    "start": "2026-10-10T09:00:00-04:00",
    "end": "2026-10-10T12:00:00-04:00",
@@ -1282,6 +1277,46 @@
    "lon": -71.115646,
    "geo_method": "gazetteer",
    "walk_min": 5
+  },
+  {
+   "id": "478cd97fa638",
+   "title": "Harvard University Men’s Tennis vs ITA New England Regionals Day Four",
+   "url": "https://events.college.harvard.edu/event/225410-harvard-university-mens-tennis-vs-ita-new-england",
+   "source_id": "college",
+   "source_name": "Harvard College events",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "start": "2026-10-11T10:00:00-04:00",
+   "end": "2026-10-11T13:00:00-04:00",
+   "date": "2026-10-11",
+   "all_day": false,
+   "location": "Cambridge, Mass.",
+   "online": false,
+   "host": "Main Calendar",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "Harvard College students",
+    "evidence": "Harvard College calendar, no sign it is open to others",
+    "basis": "default"
+   },
+   "summary": "Harvard University Men’s Tennis vs ITA New England Regionals Day Four URL:https://gocrimson.com/calendar.aspx?game_id=33737&sport_id=20",
+   "notes": "",
+   "place_name": "",
+   "lat": null,
+   "lon": null,
+   "geo_method": null,
+   "walk_min": null
   },
   {
    "id": "17fadbee3776",
@@ -2696,9 +2731,9 @@
    "walk_min": 7
   },
   {
-   "id": "3fe8bda2d00d",
+   "id": "1dc248f29b2b",
    "title": "The Power of the Story: Hollywood, Soft Power, and America’s Global Image",
-   "url": "https://www.hks.harvard.edu/index%2ephp/events/power-story-hollywood-soft-power-and-americas-global-image",
+   "url": "https://www.hks.harvard.edu/events/power-story-hollywood-soft-power-and-americas-global-image",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -2708,18 +2743,18 @@
    "end": "2026-10-13T11:45:00-04:00",
    "date": "2026-10-13",
    "all_day": false,
-   "location": "",
+   "location": "Belfer Library (l369)",
    "online": false,
-   "host": "",
+   "host": "Belfer Center for Science and International Affairs",
    "food": {
     "status": "none",
     "types": [],
     "evidence": ""
    },
    "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
+    "status": "required",
+    "evidence": "RSVP link on the event page",
+    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001kXgLIAU"
    },
    "audience": {
     "level": "unknown",
@@ -2727,7 +2762,7 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "",
+   "summary": "The Belfer Center launches its Soft Power Series with acclaimed director and producer Lesli Linka Glatter, whose work includes Homeland, Zero Day, Mad Men, and The West Wing. Drawing on her experience bringing politics, national security, and human drama to the screen, Glatter will explore how film and television…",
    "notes": "",
    "place_name": "Harvard Kennedy School",
    "lat": 42.371989,
@@ -11298,7 +11333,7 @@
   {
    "id": 4,
    "state": "scanned",
-   "label": "Scanned at every update: 28 events found, 0 with food this week",
+   "label": "Scanned at every update: 27 events found, 0 with food this week",
    "n_food": 0
   }
  ],
