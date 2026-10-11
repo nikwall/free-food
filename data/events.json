@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-11T12:20:58-04:00",
+ "generated_at": "2026-10-11T18:58:06-04:00",
  "window": {
   "start": "2026-10-11",
   "end": "2026-10-18"
@@ -18,7 +18,7 @@
    "error": null,
    "n_events": 97,
    "n_food": 2,
-   "seconds": 1.5
+   "seconds": 1.4
   },
   {
    "id": "hks",
@@ -28,7 +28,7 @@
    "error": null,
    "n_events": 38,
    "n_food": 5,
-   "seconds": 4.3
+   "seconds": 14.0
   },
   {
    "id": "hls",
@@ -38,7 +38,7 @@
    "error": null,
    "n_events": 68,
    "n_food": 34,
-   "seconds": 12.3
+   "seconds": 10.3
   },
   {
    "id": "college",
@@ -48,7 +48,7 @@
    "error": null,
    "n_events": 87,
    "n_food": 7,
-   "seconds": 0.4
+   "seconds": 0.9
   },
   {
    "id": "ash",
@@ -58,7 +58,7 @@
    "error": null,
    "n_events": 3,
    "n_food": 2,
-   "seconds": 1.8
+   "seconds": 2.6
   },
   {
    "id": "shorenstein",
@@ -68,7 +68,7 @@
    "error": null,
    "n_events": 1,
    "n_food": 0,
-   "seconds": 9.2
+   "seconds": 9.1
   },
   {
    "id": "fairbank",
@@ -78,7 +78,7 @@
    "error": null,
    "n_events": 4,
    "n_food": 0,
-   "seconds": 5.8
+   "seconds": 0.2
   },
   {
    "id": "newsletter",
@@ -86,9 +86,9 @@
    "homepage": "",
    "ok": true,
    "error": null,
-   "n_events": 16,
-   "n_food": 2,
-   "seconds": 26.4
+   "n_events": 17,
+   "n_food": 3,
+   "seconds": 39.2
   },
   {
    "id": "suggested",
@@ -96,17 +96,17 @@
    "homepage": "",
    "ok": true,
    "error": null,
-   "n_events": 4,
+   "n_events": 5,
    "n_food": 0,
-   "seconds": 2.9
+   "seconds": 4.1
   }
  ],
  "stats": {
-  "events": 269,
-  "food_confirmed": 40,
+  "events": 271,
+  "food_confirmed": 41,
   "food_likely": 11,
   "food_restricted": 35,
-  "seconds": 34.2
+  "seconds": 47.4
  },
  "events": [
   {
@@ -592,6 +592,46 @@
    "lon": -71.118646,
    "geo_method": "host",
    "walk_min": 15
+  },
+  {
+   "id": "bce7e5eae4b7",
+   "title": "Events Archive - Harvard Law School",
+   "url": "https://hls.harvard.edu/calendar/",
+   "source_id": "suggested",
+   "source_name": "Suggested calendar: HLS",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "start": "2026-10-11T12:00:00-04:00",
+   "end": null,
+   "date": "2026-10-11",
+   "all_day": true,
+   "location": "",
+   "online": false,
+   "host": "",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "Showing 0 events for the week starting 10/11/2026 Compact View There are no events today.",
+   "notes": "",
+   "place_name": "Harvard Law School",
+   "lat": 42.379106,
+   "lon": -71.119679,
+   "geo_method": "host",
+   "walk_min": 10
   },
   {
    "id": "065b4093e4b6",
@@ -2644,9 +2684,9 @@
    "walk_min": 8
   },
   {
-   "id": "b6ea9a99a494",
+   "id": "bd9aebb2780d",
    "title": "How Much Should We Worry? Recent Developments in Artificial Intelligence",
-   "url": "https://www.hks.harvard.edu/index%2Ephp/events/how-much-should-we-worry-recent-developments-artificial-intelligence",
+   "url": "https://www.hks.harvard.edu/events/how-much-should-we-worry-recent-developments-artificial-intelligence",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -2656,18 +2696,18 @@
    "end": "2026-10-13T13:30:00-04:00",
    "date": "2026-10-13",
    "all_day": false,
-   "location": "",
-   "online": false,
-   "host": "",
+   "location": "Online",
+   "online": true,
+   "host": "Carr-Ryan Center for Human Rights",
    "food": {
     "status": "none",
     "types": [],
     "evidence": ""
    },
    "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
+    "status": "required",
+    "evidence": "RSVP link on the event page",
+    "link": "https://harvard.zoom.us/webinar/register/WN_etjyuZl0RQKTKHYQIQicsw"
    },
    "audience": {
     "level": "unknown",
@@ -2675,13 +2715,13 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "",
+   "summary": "Artificial intelligence is advancing at a remarkable pace, bringing transformative possibilities alongside profound questions about privacy, security, democracy, and human rights. How concerned should we be about where AI is headed, and how can societies harness its benefits while guarding against its risks? Join…",
    "notes": "",
-   "place_name": "Harvard Kennedy School",
-   "lat": 42.371989,
-   "lon": -71.121761,
-   "geo_method": "host",
-   "walk_min": 16
+   "place_name": "",
+   "lat": null,
+   "lon": null,
+   "geo_method": null,
+   "walk_min": null
   },
   {
    "id": "6833054a505b",
@@ -3148,18 +3188,18 @@
   },
   {
    "id": "0b9df05a3b45",
-   "title": "Study Group with Ambassador Chris Lu — Leading Beyond Government: When the Public Interest Is in Private Hands",
-   "url": "https://iop.harvard.edu/events/study-group-ambassador-chris-lu-leading-beyond-government-when-public-interest-private-hands",
-   "source_id": "gazette",
-   "source_name": "Harvard Gazette calendar",
+   "title": "Ambassador Chris Lu Study Group: When the Public Interest Is in Private Hands",
+   "url": "https://www.hks.harvard.edu/events/ambassador-chris-lu-study-group-when-public-interest-private-hands",
+   "source_id": "hks",
+   "source_name": "Harvard Kennedy School",
    "also_listed": [
+    {
+     "source_name": "Harvard Gazette calendar",
+     "url": "https://iop.harvard.edu/events/study-group-ambassador-chris-lu-leading-beyond-government-when-public-interest-private-hands"
+    },
     {
      "source_name": "Harvard College events",
      "url": "https://events.college.harvard.edu/event/225344-study-group-with-ambassador-chris-lu-leading"
-    },
-    {
-     "source_name": "Harvard Kennedy School",
-     "url": "https://www.hks.harvard.edu/index%2Ephp/events/ambassador-chris-lu-study-group-when-public-interest-private-hands"
     },
     {
      "source_name": "Newsletter: Next Week: New Study Groups & Special Guests!",
@@ -3167,18 +3207,18 @@
     }
    ],
    "aliases": [
-    "59fff4f0ef6b",
+    "3c6c1b8f03e4",
     "823c21b9ac94",
     "87ae6755364d"
    ],
    "suggested": null,
    "start": "2026-10-13T17:00:00-04:00",
-   "end": "2026-10-13T18:00:00-04:00",
+   "end": "2026-10-13T18:15:00-04:00",
    "date": "2026-10-13",
    "all_day": false,
-   "location": "Institute of Politics, 79 JFK St., Cambridge",
+   "location": "L-230",
    "online": false,
-   "host": "Institute of Politics at Harvard Kennedy School",
+   "host": "Institute of Politics (IOP)",
    "food": {
     "status": "none",
     "types": [],
@@ -3186,17 +3226,17 @@
    },
    "registration": {
     "status": "required",
-    "evidence": "Registration link on the event page",
+    "evidence": "RSVP link on the event page",
     "link": "https://iop.harvard.edu/events/study-group-ambassador-chris-lu-leading-beyond-government-when-public-interest-private-hands"
    },
    "audience": {
     "level": "restricted",
-    "group": "students",
-    "evidence": "Title: Study Group with Ambassador Chris Lu — Leading Beyond Government: When the Public Interest Is in Private Hands",
+    "group": "HKS students",
+    "evidence": "Title: Ambassador Chris Lu Study Group: When the Public Interest Is in Private Hands",
     "basis": "inferred"
    },
-   "summary": "What changes when public servants leave government service, and what responsibilities do they carry with them? Drawing on careers spanning diplomacy, law, higher education, and technology, we’ll explore how leaders navigate the transition between sectors and how their approach to leadership changes along the way.…",
-   "notes": "Cost: Free | Harvard Key required: No",
+   "summary": "Study Group with Ambassador Chris Lu: Leading Beyond Government: When the Public Interest Is in Private Hands What changes when public servants leave government service, and what responsibilities do they carry with them? Drawing on careers spanning diplomacy, law, higher education, and technology, we’ll explore how…",
+   "notes": "",
    "place_name": "Littauer Building, Harvard Kennedy School",
    "lat": 42.371045,
    "lon": -71.12209,
@@ -4427,6 +4467,49 @@
    "walk_min": 12
   },
   {
+   "id": "c0587c127710",
+   "title": "Schooling Mobility Across Three Generations in Latin America",
+   "url": "",
+   "source_id": "newsletter",
+   "source_name": "Newsletter: DRCLAS Weekly: Borders, Mobility, and 20 Years in Brazil",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "start": "2026-10-14T12:00:00-04:00",
+   "end": null,
+   "date": "2026-10-14",
+   "all_day": false,
+   "location": "",
+   "online": false,
+   "host": "",
+   "food": {
+    "status": "confirmed",
+    "types": [
+     "Lunch"
+    ],
+    "evidence": "Lunch will be provided for in-person attendees.",
+    "cue": "strong"
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "Schooling Mobility Across Three Generations in Latin America Wednesday, October 14 @ 12 PM ET Hybrid Sebastian Gallegos, Harvard-UAI Visiting Researcher, presents new evidence on educational mobility across three generations in six Latin American countries. His findings show substantially greater multigenerational…",
+   "notes": "",
+   "place_name": "CGIS South Building",
+   "lat": 42.375011,
+   "lon": -71.113135,
+   "geo_method": "host",
+   "walk_min": 5
+  },
+  {
    "id": "7891a9bdf7dc",
    "title": "The Shiny Shop Pop-Up at Smith Campus Center",
    "url": "https://soco.college.harvard.edu/rsvp?id=383071",
@@ -5092,9 +5175,9 @@
    "walk_min": 7
   },
   {
-   "id": "4e13ebcc6366",
+   "id": "6ab165400389",
    "title": "Gender Gaps: From the Past to the AI Future",
-   "url": "https://www.hks.harvard.edu/events/gender-gaps-past-ai-future",
+   "url": "https://www.hks.harvard.edu/index%2ephp/events/gender-gaps-past-ai-future",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -5104,9 +5187,9 @@
    "end": "2026-10-14T14:00:00-04:00",
    "date": "2026-10-14",
    "all_day": false,
-   "location": "Ofer 401",
+   "location": "",
    "online": false,
-   "host": "Mossavar-Rahmani Center for Business and Government",
+   "host": "",
    "food": {
     "status": "none",
     "types": [],
@@ -5123,7 +5206,7 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "This study group will explore gender gaps and the policies aimed at narrowing them. It will examine the motherhood penalty, the role of regulation, workplace practices, and social norms, as well as what international gender-equality indicators reveal about persistent disparities. We will also discuss how AI could…",
+   "summary": "",
    "notes": "",
    "place_name": "Harvard Kennedy School",
    "lat": 42.371989,
@@ -11249,6 +11332,18 @@
  ],
  "suggestions": [
   {
+   "id": 8,
+   "state": "unreadable",
+   "label": "Couldn't open that page",
+   "n_food": 0
+  },
+  {
+   "id": 7,
+   "state": "scanned",
+   "label": "Scanned at every update: 1 events found, 0 with food this week",
+   "n_food": 0
+  },
+  {
    "id": 6,
    "state": "unreadable",
    "label": "Couldn't open that page"
@@ -11369,6 +11464,42 @@
    "sent": "2026-10-10",
    "items": 0,
    "sender": "Weatherhead Center for International Affairs"
+  },
+  {
+   "subject": "DRCLAS Weekly: Borders, Mobility, and 20 Years in Brazil",
+   "sent": "2026-10-11",
+   "items": 1,
+   "sender": "David Rockefeller Center for Latin American Studies"
+  },
+  {
+   "subject": null,
+   "sent": "2026-10-07",
+   "items": 0,
+   "sender": null
+  },
+  {
+   "subject": null,
+   "sent": "2026-09-28",
+   "items": 0,
+   "sender": null
+  },
+  {
+   "subject": null,
+   "sent": "2026-09-19",
+   "items": 0,
+   "sender": null
+  },
+  {
+   "subject": "At the Harvard Film Archive October 9 – 11",
+   "sent": "2026-10-11",
+   "items": 0,
+   "sender": "Reyes, Cecilia"
+  },
+  {
+   "subject": "Thank You for Joining Us! See What’s Next at the Carpenter Center",
+   "sent": "2026-10-11",
+   "items": 0,
+   "sender": "Reyes, Cecilia"
   },
   {
    "subject": "WCFIA Newsletter: Subscription Confirmed",
