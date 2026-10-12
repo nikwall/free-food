@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-12T12:12:27-04:00",
+ "generated_at": "2026-10-12T14:08:24-04:00",
  "window": {
   "start": "2026-10-12",
   "end": "2026-10-19"
@@ -22,7 +22,7 @@
    "error": null,
    "n_events": 96,
    "n_food": 2,
-   "seconds": 0.8
+   "seconds": 1.5
   },
   {
    "id": "hks",
@@ -32,7 +32,7 @@
    "error": null,
    "n_events": 46,
    "n_food": 9,
-   "seconds": 2.1
+   "seconds": 8.5
   },
   {
    "id": "hls",
@@ -40,9 +40,9 @@
    "homepage": "https://hls.harvard.edu/calendar/",
    "ok": true,
    "error": null,
-   "n_events": 82,
-   "n_food": 42,
-   "seconds": 8.5
+   "n_events": 80,
+   "n_food": 40,
+   "seconds": 11.3
   },
   {
    "id": "college",
@@ -52,7 +52,7 @@
    "error": null,
    "n_events": 93,
    "n_food": 9,
-   "seconds": 0.1
+   "seconds": 0.8
   },
   {
    "id": "ash",
@@ -62,7 +62,7 @@
    "error": null,
    "n_events": 4,
    "n_food": 2,
-   "seconds": 0.2
+   "seconds": 1.9
   },
   {
    "id": "shorenstein",
@@ -72,7 +72,7 @@
    "error": null,
    "n_events": 2,
    "n_food": 0,
-   "seconds": 9.5
+   "seconds": 9.4
   },
   {
    "id": "fairbank",
@@ -92,7 +92,7 @@
    "error": null,
    "n_events": 30,
    "n_food": 5,
-   "seconds": 68.8
+   "seconds": 55.2
   },
   {
    "id": "suggested",
@@ -102,17 +102,17 @@
    "error": null,
    "n_events": 5,
    "n_food": 0,
-   "seconds": 5.6
+   "seconds": 4.8
   }
  ],
  "stats": {
-  "events": 293,
-  "food_confirmed": 49,
-  "food_likely": 17,
+  "events": 291,
+  "food_confirmed": 48,
+  "food_likely": 16,
   "forwarded": 25,
-  "forwarded_listed": 17,
-  "food_restricted": 42,
-  "seconds": 76.0
+  "forwarded_listed": 18,
+  "food_restricted": 40,
+  "seconds": 63.6
  },
  "events": [
   {
@@ -1788,52 +1788,6 @@
    "walk_min": 10
   },
   {
-   "id": "497a9690fefc",
-   "title": "JOLT x Paul, Weiss",
-   "url": "https://hls.harvard.edu/events/jolt-x-paul-weiss-2/",
-   "source_id": "hls",
-   "source_name": "Harvard Law School",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-10-13T12:15:00-04:00",
-   "end": "2026-10-13T13:15:00-04:00",
-   "date": "2026-10-13",
-   "all_day": false,
-   "location": "WCC, 1010 Classroom, Harvard Law School",
-   "online": false,
-   "host": "Journal of Law & Technology",
-   "food": {
-    "status": "confirmed",
-    "types": [
-     "Lunch"
-    ],
-    "evidence": "Lunch will be served.",
-    "cue": "strong"
-   },
-   "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
-   },
-   "audience": {
-    "level": "restricted",
-    "group": "HLS community",
-    "evidence": "HLS listing audience: HLS only",
-    "basis": "listing"
-   },
-   "summary": "Join JOLT for a lunch talk with law firm Paul, Weiss to learn more about their practice! Lunch will be served. Add to Calendar October 13, 2026, 12:15 pm - 1:15 pm +Google Calendar +iCal/Outlook",
-   "blurb": "",
-   "event_page": true,
-   "notes": "",
-   "place_name": "Wasserstein Hall (WCC), Harvard Law School",
-   "lat": 42.379383,
-   "lon": -71.119421,
-   "geo_method": "gazetteer",
-   "walk_min": 10
-  },
-  {
    "id": "d0cba99bfa9b",
    "title": "Morrison Foerster x National Security Journal",
    "url": "https://hls.harvard.edu/events/morrison-foerster-x-national-security-journal/",
@@ -2953,52 +2907,6 @@
    "lon": -71.12209,
    "geo_method": "host",
    "walk_min": 18
-  },
-  {
-   "id": "8126a8c6c7ea",
-   "title": "JOLT x McKool Smith – Litigating Against AI: Lessons from the Front Line",
-   "url": "https://hls.harvard.edu/events/jolt-x-mckool-smith-ai-dinner-and-discussion/",
-   "source_id": "hls",
-   "source_name": "Harvard Law School",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-10-13T18:00:00-04:00",
-   "end": "2026-10-13T20:00:00-04:00",
-   "date": "2026-10-13",
-   "all_day": false,
-   "location": "WCC, 1015 Classroom, Harvard Law School",
-   "online": false,
-   "host": "Journal of Law & Technology",
-   "food": {
-    "status": "confirmed",
-    "types": [
-     "Dinner"
-    ],
-    "evidence": "Dinner will be served!",
-    "cue": "strong"
-   },
-   "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
-   },
-   "audience": {
-    "level": "restricted",
-    "group": "HLS community",
-    "evidence": "HLS listing audience: HLS only",
-    "basis": "listing"
-   },
-   "summary": "McKool Smith attorneys discuss litigating against AI and lessons from the front lines. Curious about patent litigation and what it’s like to build a career at one of the nation’s leading trial firms? Join McKool Smith attorneys for an inside look at the practice, from breaking info patent litigation to succeeding as a…",
-   "blurb": "McKool Smith attorneys discuss litigating against AI and lessons from the front lines. Curious about patent litigation and what it’s like to build a career at one of the nation’s leading trial firms? Join McKool Smith attorneys for an inside look at the…",
-   "event_page": true,
-   "notes": "",
-   "place_name": "Wasserstein Hall (WCC), Harvard Law School",
-   "lat": 42.379383,
-   "lon": -71.119421,
-   "geo_method": "gazetteer",
-   "walk_min": 10
   },
   {
    "id": "23583366e154",
@@ -4942,19 +4850,19 @@
    "walk_min": 16
   },
   {
-   "id": "82e0ec001e40",
-   "title": "Fall Study Group: How Should Democracies Govern Scarce, Life-Saving Resources? The Case of Organ Transplantation",
-   "url": "https://ash.harvard.edu/events/fall-study-group-how-should-democracies-govern-scarce-life-saving-resources-the-case-of-organ-transplantation/",
-   "source_id": "ash",
-   "source_name": "Ash Center (HKS)",
+   "id": "a0a81d6e90ec",
+   "title": "Fall Study Group: How Should Democracies Govern Scarce, Life-Saving Resources?",
+   "url": "https://www.hks.harvard.edu/events/fall-study-group-how-should-democracies-govern-scarce-life-saving-resources",
+   "source_id": "hks",
+   "source_name": "Harvard Kennedy School",
    "also_listed": [
     {
-     "source_name": "Harvard Kennedy School",
-     "url": "https://www.hks.harvard.edu/index%2ephp/events/fall-study-group-how-should-democracies-govern-scarce-life-saving-resources"
+     "source_name": "Ash Center (HKS)",
+     "url": "https://ash.harvard.edu/events/fall-study-group-how-should-democracies-govern-scarce-life-saving-resources-the-case-of-organ-transplantation/"
     }
    ],
    "aliases": [
-    "a0a81d6e90ec"
+    "f806ed4b8016"
    ],
    "suggested": null,
    "forwarded": null,
@@ -4962,9 +4870,9 @@
    "end": "2026-10-14T15:00:00-04:00",
    "date": "2026-10-14",
    "all_day": false,
-   "location": "Harvard Kennedy School",
+   "location": "Ash Seminar Room 225, 124 Mount Auburn Street, Suite 200 N",
    "online": false,
-   "host": "Ash Center for Democratic Governance",
+   "host": "Ash Center for Democratic Governance and Innovation",
    "food": {
     "status": "none",
     "types": [],
@@ -4972,24 +4880,24 @@
    },
    "registration": {
     "status": "required",
-    "evidence": "Registration link on the event page",
+    "evidence": "RSVP link on the event page",
     "link": "https://harvard.az1.qualtrics.com/jfe/form/SV_5cHLizAnkR7Cpts"
    },
    "audience": {
     "level": "restricted",
-    "group": "students",
-    "evidence": "Title: Fall Study Group: How Should Democracies Govern Scarce, Life-Saving Resources? The Case of Organ Transplantation",
+    "group": "HKS students",
+    "evidence": "Title: Fall Study Group: How Should Democracies Govern Scarce, Life-Saving Resources?",
     "basis": "inferred"
    },
-   "summary": "This in-person study group led by Aditya Pawar, Ash Center Democracy Visiting Fellow, and Santiago Creuheras, Ash Center Democracy Visiting Fellow, will take place throughout six sessions. Applications are necessary. Nearly 110,000 people are currently on the U.S. transplant waiting list, and about 12 people die each…",
-   "blurb": "Nearly 110,000 people are currently on the U.S. transplant waiting list, and about 12 people die each day while waiting for an organ. This study group will examine transplantation as a governance and democracy issue, asking how institutions allocate scarce…",
+   "summary": "Fall Study Group: How Should Democracies Govern Scarce, Life-Saving Resources? Who decides how scarce, life-saving resources are distributed—and what makes those decisions fair? Join Ash Center Democracy Visiting Fellows Aditya Pawar and Santiago Creuheras for a six-session study group exploring organ transplantation…",
+   "blurb": "Who decides how scarce, life-saving resources are distributed—and what makes those decisions fair? Join Ash Center Democracy Visiting Fellows Aditya Pawar and Santiago Creuheras for a six-session study group exploring organ transplantation as a question of…",
    "event_page": true,
    "notes": "",
-   "place_name": "Harvard Kennedy School",
-   "lat": 42.371989,
-   "lon": -71.121761,
+   "place_name": "Ash Center (124 Mt Auburn St)",
+   "lat": 42.372952,
+   "lon": -71.123759,
    "geo_method": "gazetteer",
-   "walk_min": 16
+   "walk_min": 17
   },
   {
    "id": "365524a51688",
@@ -12965,9 +12873,9 @@
    "walk_min": 18
   },
   {
-   "id": "d1771ad1bb18",
-   "title": "Constitutive Outside",
-   "url": "https://carpenter.center/exhibitions/constitutive-outside",
+   "id": "f6380b5376d4",
+   "title": "Artist Talk and Opening Reception for Constitutive Outside",
+   "url": "https://carpenter.center/programs/artist-talk-and-opening-reception-for-constitutive-outside",
    "source_id": "newsletter",
    "source_name": "Forwarded: Thank You for Joining Us! See What’s Next at the Carpenter Center",
    "also_listed": [],
@@ -12976,23 +12884,22 @@
    "forwarded": {
     "by": "Cecilia",
     "subject": "Thank You for Joining Us! See What’s Next at the Carpenter Center",
-    "missing": [
-     "time"
-    ]
+    "missing": []
    },
-   "start": "2026-10-22T12:00:00-04:00",
+   "start": "2026-10-22T18:00:00-04:00",
    "end": null,
    "date": "2026-10-22",
-   "all_day": true,
+   "all_day": false,
    "location": "",
    "online": false,
    "host": "",
    "food": {
-    "status": "likely",
+    "status": "confirmed",
     "types": [
      "Reception"
     ],
-    "evidence": "Opening Reception: Thursday, October 22, 2026"
+    "evidence": "Join us for an artist conversation with Steffani Jemison and Jibade-Khalil Huffman, moderated by curator Tarik Garrett, followed by a reception on Level 1 of the Carpenter Center.",
+    "cue": "strong"
    },
    "registration": {
     "status": "unknown",
@@ -13000,13 +12907,13 @@
     "link": ""
    },
    "audience": {
-    "level": "unknown",
+    "level": "public",
     "group": "",
-    "evidence": "",
-    "basis": "none"
+    "evidence": "Free and open to the public.",
+    "basis": "text"
    },
-   "summary": "This exhibition will be on view from October 22 to December 13, 2026. Constitutive Outside Jibade-Khalil Huffman, You Are Here, 2026. Gameplay still. Courtesy of the artist. Constitutive Outside On View October 22—December 13, 2026 Opening Reception: Thursday, October 22, 2026 6:00–8:00 pm Constitutive Outside brings…",
-   "blurb": "This exhibition will be on view from October 22 to December 13, 2026. Constitutive Outside brings together works by Markele Cullins, Jibade-Khalil Huffman, Steffani Jemison, and Rindon Johnson. Across performance, installation, and screen space, the…",
+   "summary": "This program is happening on October 22, 2026 from 6:00pm–9:00pm. Artist Talk and Opening Reception for Constitutive Outside Join us for an artist conversation with Steffani Jemison and Jibade-Khalil Huffman, moderated by curator Tarik Garrett, followed by a reception on Level 1 of the Carpenter Center. 6:00–7:00 pm,…",
+   "blurb": "Join us for an artist conversation with Steffani Jemison and Jibade-Khalil Huffman, moderated by curator Tarik Garrett, followed by a reception on Level 1 of the Carpenter Center.",
    "event_page": true,
    "notes": "",
    "place_name": "Carpenter Center",
