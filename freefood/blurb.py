@@ -24,6 +24,32 @@ WEEKDAY = re.compile(r"\b(?:mon|tues|wednes|thurs|fri|satur|sun)day\b|\b(?:today
 SENTENCE_SPLIT = re.compile(r"(?<=[.!?])\s+(?=[\"“‘(A-Z0-9])")
 
 
+SMALL = {"a", "an", "and", "the", "of", "in", "on", "for", "with", "to", "at", "by", "or", "ft", "ft.", "&", "vs", "vs."}
+STARTERS = {"what", "how", "why", "when", "who", "which", "please", "join", "this", "these", "the", "in", "during",
+            "drawing", "after", "as", "our", "we", "you", "explore", "learn", "discover", "come", "celebrate", "hear"}
+
+
+def _capitalized(word):
+    w = word.strip("\"“”‘’'()[]:,;*")
+    return not w or not w[0].isalpha() or w[0].isupper() or w.lower() in SMALL
+
+
+def _drop_heading(sentence):
+    """Calendars often start the description with the event's heading, run into the first sentence:
+    'Study Group with Ambassador Chris Lu: ... in Private Hands What changes when public servants leave ...'.
+    Cut that heading off; return "" when the whole sentence is a heading."""
+    words = sentence.split()
+    if len(words) >= 4 and all(_capitalized(w) for w in words):
+        return ""
+    for k in range(2, len(words) - 3):
+        lead, rest = words[:k], words[k + 1:k + 4]
+        # cut only where a sentence evidently starts ("... Private Hands What changes when ...")
+        if words[k].strip("\"“‘(").lower() in STARTERS and all(_capitalized(w) for w in lead) and \
+                all(w[:1].islower() for w in rest if w[:1].isalpha()):
+            return " ".join(words[k:])
+    return sentence
+
+
 def _is_schedule(sentence):
     """True for lines that are mostly a date or time ("6:00–7:00 pm, Film Screening + Q & A, Theater")."""
     if re.match(r"^\s*\d{1,2}(?::\d{2})?\s*(?:[ap]\.?m\.?)?\s*[-–—]", sentence, re.I):
@@ -49,8 +75,8 @@ def blurb(title, text, limit=260):
         # headings and list items: no sentence punctuation and short
         if not re.search(r"[.!?…]$", line) and len(line.split()) <= 12:
             continue
-        for sentence in SENTENCE_SPLIT.split(line):
-            sentence = sentence.strip()
+        for sentence in SENTENCE_SPLIT.split(line.replace("*", " ")):
+            sentence = _drop_heading(re.sub(r"\s+", " ", sentence).strip())
             if len(sentence.split()) < 6 or BOILER.search(sentence) or _is_schedule(sentence):
                 continue
             out.append(sentence)

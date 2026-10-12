@@ -405,8 +405,9 @@ def verify_items(items, subject, http, budget, cache):
             for d in found:
                 a, b = _title_words(t.title), _title_words(d["title"])
                 shared = len(a & b)
-                if d.get("start") and d["start"].astimezone(TZ).date() == day and shared >= 2 \
-                        and shared / min(len(a), len(b)) >= 0.5:
+                similar = shared >= 2 and shared / min(len(a), len(b)) >= 0.5
+                # the item's own link landing on a page about one event on that day is its page, whatever its title
+                if d.get("start") and d["start"].astimezone(TZ).date() == day and (similar or len(found) == 1):
                     page = _page_event(d, landing, subject)
                     if page.all_day and not t.all_day:            # the email gives the time, the page only the date
                         page.start, page.all_day = t.start, False

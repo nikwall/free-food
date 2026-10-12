@@ -33,6 +33,11 @@ def test_blurb():
     assert blurb("The Youth Vote and the Midterms", IOP_PAGE).startswith("Join the Institute of Politics for a candid")
     got = blurb("Artist Talk and Opening Reception for Constitutive Outside", CARPENTER_PAGE)
     assert got.startswith("Join us for an artist conversation") and "archive" not in got and "6:00" not in got, got
+    # calendars run the heading into the first sentence; the heading is cut, real sentences are kept
+    assert blurb("Study Group", "Study Group with Ambassador Chris Lu: When the Public Interest Is in Private Hands What "
+                 "changes when public servants leave government service for the private sector?").startswith("What changes")
+    assert blurb("Rudd", "Former Australian Prime Minister Kevin Rudd joins us for a timely discussion on the U.S. "
+                 "and China.").startswith("Former Australian Prime Minister")
     # only a title and a date line: nothing to decide on
     assert blurb("Opening Reception", "Opening Reception\nOctober 28 | 12:00-1:00 pm") == ""
 
