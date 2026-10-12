@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-11T23:44:56-04:00",
+ "generated_at": "2026-10-11T23:47:18-04:00",
  "window": {
   "start": "2026-10-11",
   "end": "2026-10-18"
@@ -22,7 +22,7 @@
    "error": null,
    "n_events": 97,
    "n_food": 2,
-   "seconds": 0.6
+   "seconds": 0.7
   },
   {
    "id": "hks",
@@ -32,7 +32,7 @@
    "error": null,
    "n_events": 38,
    "n_food": 5,
-   "seconds": 1.2
+   "seconds": 1.5
   },
   {
    "id": "hls",
@@ -42,7 +42,7 @@
    "error": null,
    "n_events": 68,
    "n_food": 34,
-   "seconds": 7.7
+   "seconds": 10.2
   },
   {
    "id": "college",
@@ -52,7 +52,7 @@
    "error": null,
    "n_events": 87,
    "n_food": 7,
-   "seconds": 0.2
+   "seconds": 0.6
   },
   {
    "id": "ash",
@@ -62,7 +62,7 @@
    "error": null,
    "n_events": 3,
    "n_food": 2,
-   "seconds": 0.4
+   "seconds": 0.5
   },
   {
    "id": "shorenstein",
@@ -72,7 +72,7 @@
    "error": null,
    "n_events": 1,
    "n_food": 0,
-   "seconds": 8.7
+   "seconds": 13.6
   },
   {
    "id": "fairbank",
@@ -90,9 +90,9 @@
    "homepage": "",
    "ok": true,
    "error": null,
-   "n_events": 28,
+   "n_events": 29,
    "n_food": 4,
-   "seconds": 38.9
+   "seconds": 44.4
   },
   {
    "id": "suggested",
@@ -102,16 +102,16 @@
    "error": null,
    "n_events": 5,
    "n_food": 0,
-   "seconds": 4.9
+   "seconds": 4.2
   }
  ],
  "stats": {
-  "events": 274,
+  "events": 275,
   "food_confirmed": 40,
   "food_likely": 13,
-  "forwarded": 24,
+  "forwarded": 25,
   "food_restricted": 34,
-  "seconds": 45.1
+  "seconds": 50.3
  },
  "events": [
   {
@@ -1520,6 +1520,50 @@
    "walk_min": null
   },
   {
+   "id": "42679af01fa6",
+   "title": "Whitley Yates explores how political",
+   "url": "https://click.comms.hks.harvard.edu/?qs=ABp7ImQiOjUwMjMsInQiOjE0MDgsInMiOjExfQALAAAAAAWbxDexEaPv4bQSpdJDUOxBUblQdP2V2A1XI180DtIh-b2VeMeyQRYTlUOU1W1KeTBb-T65DoZG-uHZ9uUoFZg_rjTZothWF-5ZSQF8mk0",
+   "source_id": "newsletter",
+   "source_name": "Forwarded: JFK Jr. Forum: Senator Andy Kim, Ban Ki-moon, & More on Forces Shaping Our Futur",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": {
+    "by": "Ellen",
+    "subject": "JFK Jr. Forum: Senator Andy Kim, Ban Ki-moon, & More on Forces Shaping Our Future"
+   },
+   "start": "2026-10-13T00:00:00-04:00",
+   "end": null,
+   "date": "2026-10-13",
+   "all_day": true,
+   "location": "",
+   "online": false,
+   "host": "",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "Whitley Yates explores how political belonging shapes coalition formation, voter behavior, and the electoral realignments that could determine control of Congress. Plus, join us for our Pathways to Public Service Networking Night on October 13! Hear from young alumni working in public service, network with notable…",
+   "notes": "",
+   "place_name": "Littauer Building, Harvard Kennedy School",
+   "lat": 42.371045,
+   "lon": -71.12209,
+   "geo_method": "host",
+   "walk_min": 18
+  },
+  {
    "id": "29db35e44de1",
    "title": "Muriel Siebert: Redefining Power and Possibility on Wall Street",
    "url": "https://www.library.hbs.edu/special-collections-and-archives/exhibits/muriel-siebert",
@@ -2279,53 +2323,6 @@
    "lat": 42.371045,
    "lon": -71.12209,
    "geo_method": "gazetteer",
-   "walk_min": 18
-  },
-  {
-   "id": "42b2d64c3bd7",
-   "title": "Pathways to Public Service Networking Night",
-   "url": "https://iop.harvard.edu/events/pathways-public-service-networking-night",
-   "source_id": "newsletter",
-   "source_name": "Forwarded: JFK Jr. Forum: Senator Andy Kim, Ban Ki-moon, & More on Forces Shaping Our Futur",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": {
-    "by": "Ellen",
-    "subject": "JFK Jr. Forum: Senator Andy Kim, Ban Ki-moon, & More on Forces Shaping Our Future"
-   },
-   "start": "2026-10-13T12:00:00-04:00",
-   "end": null,
-   "date": "2026-10-13",
-   "all_day": true,
-   "location": "",
-   "online": false,
-   "host": "",
-   "food": {
-    "status": "confirmed",
-    "types": [
-     "Snacks"
-    ],
-    "evidence": "*Refreshments will be provided",
-    "cue": "strong"
-   },
-   "registration": {
-    "status": "required",
-    "evidence": "Space is limited; Harvard undergraduates will be prioritized for access.",
-    "link": ""
-   },
-   "audience": {
-    "level": "unknown",
-    "group": "",
-    "evidence": "",
-    "basis": "none"
-   },
-   "summary": "Join us on October 13 for our Pathways to Public Service Networking Night at the IOP! Hear from a panel of young alumni working in public service, network with notable professionals in the field, and gain firsthand insights into careers in politics and public service. This informal gathering offers an opportunity to…",
-   "notes": "",
-   "place_name": "Littauer Building, Harvard Kennedy School",
-   "lat": 42.371045,
-   "lon": -71.12209,
-   "geo_method": "host",
    "walk_min": 18
   },
   {
@@ -3604,6 +3601,53 @@
    "lon": null,
    "geo_method": null,
    "walk_min": null
+  },
+  {
+   "id": "bed7406ff6cd",
+   "title": "Pathways to Public Service Networking Night",
+   "url": "https://iop.harvard.edu/events/pathways-public-service-networking-night",
+   "source_id": "newsletter",
+   "source_name": "Forwarded: JFK Jr. Forum: Senator Andy Kim, Ban Ki-moon, & More on Forces Shaping Our Futur",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": {
+    "by": "Ellen",
+    "subject": "JFK Jr. Forum: Senator Andy Kim, Ban Ki-moon, & More on Forces Shaping Our Future"
+   },
+   "start": "2026-10-13T18:00:00-04:00",
+   "end": null,
+   "date": "2026-10-13",
+   "all_day": false,
+   "location": "",
+   "online": false,
+   "host": "",
+   "food": {
+    "status": "confirmed",
+    "types": [
+     "Snacks"
+    ],
+    "evidence": "*Refreshments will be provided",
+    "cue": "strong"
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "Space is limited; Harvard undergraduates will be prioritized for access.",
+    "link": ""
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "Join us on October 13 for our Pathways to Public Service Networking Night at the IOP! Hear from a panel of young alumni working in public service, network with notable professionals in the field, and gain firsthand insights into careers in politics and public service. This informal gathering offers an opportunity to…",
+   "notes": "",
+   "place_name": "Littauer Building, Harvard Kennedy School",
+   "lat": 42.371045,
+   "lon": -71.12209,
+   "geo_method": "host",
+   "walk_min": 18
   },
   {
    "id": "687e40e44a1e",
@@ -11861,7 +11905,7 @@
   {
    "subject": "JFK Jr. Forum: Senator Andy Kim, Ban Ki-moon, & More on Forces Shaping Our Future",
    "sent": "2026-10-10",
-   "items": 11,
+   "items": 12,
    "sender": null,
    "forwarded_by": "Ellen"
   },
