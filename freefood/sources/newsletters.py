@@ -70,7 +70,13 @@ NOT_TITLE = re.compile(
     r"in[- ]person|online|virtual|zoom|free and open|all are welcome|doors open|"
     # section headers of a digest, and lines that continue a sentence
     r"upcoming|later this|this week|next week|coming up|save the date|in case you missed|more events|featured|"
-    r"plus|and|or|but|also|so)\b", re.I)
+    r"plus|and|or|but|also|so|directed by|written by|starring|produced by|"
+    # header lines of a forwarded email inside a forward
+    r"(?:subject|from|sent|to|cc|betreff|von|an)(?=\s*:))\b", re.I)
+# "Sanders Theatre, Memorial Hall": a place, written the way titles are
+PLACE_LINE = re.compile(r"^[^:,]{2,50},[^:,]{2,50}$")
+PLACE_WORD = re.compile(r"\b(?:theat(?:re|er)|hall|building|room|center|centre|auditorium|forum|library|museum|"
+                        r"house|chapel|street|st\.|ave(?:nue)?|square|floor|lobby|lounge|penthouse)\b", re.I)
 # a line that is cut off mid-sentence, a speaker bio ("X is the former ..."), or film data ("1997, DCP, 145 min.")
 FRAGMENT_END = re.compile(r"\b(?:with|and|or|the|of|for|at|to|in|on|a|an|our|by|from|featuring)$", re.I)
 NOT_TITLE_ANYWHERE = re.compile(r"\b\d{2,3}\s*min\b|\b(?:dcp|35\s?mm|16\s?mm)\b", re.I)
@@ -223,6 +229,10 @@ def _titleish(line):
         return ""                         # a sentence, e.g. a speaker's bio
     if len(t.split()) == 1 and t.endswith("."):
         return ""                         # "Amb." left over from a broken line
+    if PLACE_LINE.match(t) and PLACE_WORD.search(t):
+        return ""                         # the event's place
+    if len(re.findall(r"[^\W\d_]{2,}", DATE_RE.sub(" ", TIME_RE.sub(" ", t)))) < 2:
+        return ""                         # only a date or time ("6:00–9:00pm")
     return t
 
 

@@ -149,7 +149,9 @@ def test_fellow_forward():
     from freefood.sources.newsletters import _html_with_links, _titleish
     for junk in ["Plus, join us for our Pathways", "with IOP Resident Fellows", "Amb.", "LATER THIS SEMESTER",
                  "Upcoming October Programs", "Doug Ducey is the former Governor of Arizona (2015-2023).",
-                 "Portugal/France 1997, DCP, color, 145 min. French and Portuguese with"]:
+                 "Portugal/France 1997, DCP, color, 145 min. French and Portuguese with",
+                 "Directed by João César Monteiro. With Hugues Quester", "Subject: Next Week: New Study Groups!",
+                 "Sanders Theatre, Memorial Hall", "6:00–9:00pm"]:
         assert _titleish(junk) == "", junk
     for title in ["The Diplomat: On Screen and in the World", "Study Group with Amb. Chris Lu: When Politics Collide",
                   "In Conversation with Ban Ki-moon", "Hamlet"]:
