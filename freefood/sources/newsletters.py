@@ -67,7 +67,14 @@ NOT_TITLE = re.compile(
     r"^(?:must|please|rsvp|register|registration|join|click|location|where|when|time|date|venue|room|address|"
     r"open to|space is|seating|this event|tickets?|cost|admission|hosted by|sponsored by|co-?sponsored|presented by|"
     r"moderated by|speakers?|featuring|learn more|read more|more info|details|view|watch|livestream|add to calendar|"
-    r"in[- ]person|online|virtual|zoom|free and open|all are welcome|doors open)\b", re.I)
+    r"in[- ]person|online|virtual|zoom|free and open|all are welcome|doors open|"
+    # section headers of a digest, and lines that continue a sentence
+    r"upcoming|later this|this week|next week|coming up|save the date|in case you missed|more events|featured|"
+    r"plus|and|or|but|also|so)\b", re.I)
+# a line that is cut off mid-sentence, a speaker bio ("X is the former ..."), or film data ("1997, DCP, 145 min.")
+FRAGMENT_END = re.compile(r"\b(?:with|and|or|the|of|for|at|to|in|on|a|an|our|by|from|featuring)$", re.I)
+NOT_TITLE_ANYWHERE = re.compile(r"\b\d{2,3}\s*min\b|\b(?:dcp|35\s?mm|16\s?mm)\b", re.I)
+ABBREV_END = re.compile(r"\b(?:jr|sr|dr|st|amb|sen|rep|gov|prof|u\.s|d\.c)\.$", re.I)
 MAX_ITEMS_PER_EMAIL = 25
 
 # links worth following: event-ish wording, never unsubscribe/social/preferences links
@@ -115,8 +122,12 @@ def _message_text(msg):
 
 
 def _html_with_links(html):
-    html = re.sub(r"<a\b[^>]*href=\"([^\"]+)\"[^>]*>(.*?)</a>", r"\2 <\1>", html, flags=re.S | re.I)
+    # escaped, so the HTML parser keeps "<url>" as text instead of reading it as a tag
+    html = re.sub(r"<a\b[^>]*href=\"([^\"]+)\"[^>]*>(.*?)</a>", r"\2 &lt;\1&gt;", html, flags=re.S | re.I)
     return html_to_text(html)
+
+
+INLINE_URL = re.compile(r"\s*<https?://[^>\s]*>")
 
 
 def _sent_date(msg):
@@ -202,9 +213,16 @@ def _is_anchor(line):
 
 
 def _titleish(line):
-    t = re.sub(URL_RE, "", line).strip(" <>|–—-•*·:")
-    if not (4 <= len(t) <= 140) or NOT_TITLE.match(t) or (t.endswith(".") and len(t) > 60):
+    """The line as an event title, or "" when it reads like something else."""
+    t = re.sub(URL_RE, "", INLINE_URL.sub("", line)).strip(" <>|–—-•*·:")
+    if not (4 <= len(t) <= 140) or NOT_TITLE.match(t) or NOT_TITLE_ANYWHERE.search(t):
         return ""
+    if t[0].islower() or FRAGMENT_END.search(t):
+        return ""                         # continues or breaks off a sentence
+    if t.endswith(".") and not ABBREV_END.search(t) and (len(t.split()) >= 4 or len(t) > 60):
+        return ""                         # a sentence, e.g. a speaker's bio
+    if len(t.split()) == 1 and t.endswith("."):
+        return ""                         # "Amb." left over from a broken line
     return t
 
 
@@ -240,7 +258,9 @@ def extract_items(text, subject, start, end, today=None, origin="", keep_all=Fal
     from ..classify import detect_food  # local import: classify is independent of sources
 
     today = today or datetime.now(TZ).date()
-    lines = [ln.strip() for ln in text.split("\n")]
+    raw = [ln.strip() for ln in text.split("\n")]
+    # dates, times and titles are read without the inline link targets ("/2026/10/13/" is not a date)
+    lines = [INLINE_URL.sub("", ln).strip() for ln in raw]
     anchors = [i for i, ln in enumerate(lines) if _is_anchor(ln)]
     # each date line gets a title line; an item runs from its title line to just before the next item's
     heads, floor = [], 0
@@ -252,6 +272,7 @@ def extract_items(text, subject, start, end, today=None, origin="", keep_all=Fal
     for n, (i, title, top) in enumerate(heads):
         stop = heads[n + 1][2] if n + 1 < len(heads) else min(len(lines), i + 15)
         block = [ln for ln in lines[top:max(stop, i + 1)] if ln]
+        raw_block = "\n".join(raw[top:max(stop, i + 1)])
         if not block:
             continue
         m = DATE_RE.search(lines[i])
@@ -278,7 +299,7 @@ def extract_items(text, subject, start, end, today=None, origin="", keep_all=Fal
                 break
         if not loc and "|" in lines[i]:
             loc = lines[i].split("|", 1)[1]
-        url = (URL_RE.findall(body) or [""])[0]
+        url = (URL_RE.findall(raw_block) or [""])[0]
         events.append(Event(
             source_id="newsletter", source_name=f"Newsletter: {one_line(subject)[:80]}",
             title=one_line(title)[:200] or one_line(subject), url=url.rstrip(".,>"),
@@ -335,7 +356,8 @@ def first_name(display):
     if "," in display:
         display = display.split(",", 1)[1]
     parts = [w for w in display.split() if re.match(r"^[^\W\d_][\w.\-’]*$", w)]
-    return parts[0][:24] if parts else ""
+    name = parts[0][:24] if parts else ""
+    return name[:1].upper() + name[1:] if name.islower() else name
 
 
 def forwarded_by(msg, text):
@@ -382,6 +404,15 @@ def confirm_subscription(msg, html, plain, subject, sent, http):
     return "needs_click"
 
 
+def _prefer_pages(text_items, page_items):
+    """Drop text items at the same day and time (within 15 minutes) as an event page the email links to:
+    the page has the real title, place and link."""
+    def clash(a, b):
+        same_day = a.start.astimezone(TZ).date() == b.start.astimezone(TZ).date()
+        return same_day and (a.all_day or b.all_day or abs((a.start - b.start).total_seconds()) <= 900)
+    return [t for t in text_items if not any(clash(t, p) and (not t.all_day or p.all_day) for p in page_items)] + page_items
+
+
 class NewsletterSource:
     id, name = "newsletter", "Newsletters (forwarded to the project inbox)"
     homepage = ""
@@ -422,7 +453,7 @@ class NewsletterSource:
                 n_fwd += 1
                 found = extract_items(text, subject, start, fwd_end, today=sent, origin=origin, keep_all=True)
                 if html:
-                    found += linked_events(html, subject, start, fwd_end, http, budget)
+                    found = _prefer_pages(found, linked_events(html, subject, start, fwd_end, http, budget))
                 tag = {"by": by or None, "subject": one_line(subject)[:120]}
                 for ev in found:
                     ev.extra["forwarded"] = tag
@@ -441,7 +472,7 @@ class NewsletterSource:
                 continue
             found = extract_items(text, subject, start, end, today=sent, origin=origin)
             if html:
-                found += linked_events(html, subject, start, end, http, budget)
+                found = _prefer_pages(found, linked_events(html, subject, start, end, http, budget))
             out += found
             # the subject is published only when the email held events or came from a Harvard sender,
             # so a mis-forwarded personal mail stays private

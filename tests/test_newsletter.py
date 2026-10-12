@@ -145,6 +145,17 @@ def test_fellow_forward():
     assert got == [("Pathways to Public Service Networking Night", 13, True, ""),
                    ("The Youth Vote and the Midterms", 13, 17, "L-280"),
                    ("New Study Group: Covering Congress", 14, 18, "")], got
+    # lines from real forwarded digests that are not titles, and real titles that look odd
+    from freefood.sources.newsletters import _html_with_links, _titleish
+    for junk in ["Plus, join us for our Pathways", "with IOP Resident Fellows", "Amb.", "LATER THIS SEMESTER",
+                 "Upcoming October Programs", "Doug Ducey is the former Governor of Arizona (2015-2023).",
+                 "Portugal/France 1997, DCP, color, 145 min. French and Portuguese with"]:
+        assert _titleish(junk) == "", junk
+    for title in ["The Diplomat: On Screen and in the World", "Study Group with Amb. Chris Lu: When Politics Collide",
+                  "In Conversation with Ban Ki-moon", "Hamlet"]:
+        assert _titleish(title) == title, title
+    # link targets survive the HTML-to-text step
+    assert "<https://example.harvard.edu/e?a=1&b=2>" in _html_with_links('<p>See <a href="https://example.harvard.edu/e?a=1&amp;b=2">it</a></p>')
     # without keep_all only food items count, and none of these has food
     assert extract_items(DIGEST, "Next Week", date(2026, 10, 12), date(2026, 11, 8), today=date(2026, 10, 9)) == []
 

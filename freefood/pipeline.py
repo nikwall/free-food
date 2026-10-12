@@ -38,6 +38,8 @@ def _same_event(a, b):
         return False
     overlap = len(ta & tb) / min(len(ta), len(tb))
     minutes_apart = abs(datetime.fromisoformat(a["start"]) - datetime.fromisoformat(b["start"])).total_seconds() / 60
+    if a["all_day"] or b["all_day"]:
+        minutes_apart = 0         # a page that gives only the date vs. a listing with the time
     # calendars sometimes disagree by a few minutes (12:15 vs 12:20); repeated sessions are hours apart
     return (overlap >= 0.9 and minutes_apart <= 60) or (minutes_apart <= 15 and overlap >= 0.5)
 
@@ -121,6 +123,11 @@ def merge_duplicates(records):
                     best[k] = other[k]
             if best["registration"]["status"] == "unknown" and other["registration"]["status"] != "unknown":
                 best["registration"] = other["registration"]
+            if best["all_day"] and not other["all_day"]:
+                for k in ("start", "end", "all_day"):
+                    best[k] = other[k]
+            if not best["url"] and other["url"]:
+                best["url"] = other["url"]
         # audience: the most authoritative statement wins (a listing field beats a sentence beats a guess);
         # between equally authoritative ones, the more restrictive
         best["audience"] = max((r["audience"] for r in group),
