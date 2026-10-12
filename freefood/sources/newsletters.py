@@ -420,7 +420,16 @@ def _prefer_pages(text_items, page_items):
     def clash(a, b):
         same_day = a.start.astimezone(TZ).date() == b.start.astimezone(TZ).date()
         return same_day and (a.all_day or b.all_day or abs((a.start - b.start).total_seconds()) <= 900)
-    return [t for t in text_items if not any(clash(t, p) and (not t.all_day or p.all_day) for p in page_items)] + page_items
+    kept = []
+    for t in text_items:
+        pages = [p for p in page_items if clash(t, p) and (not t.all_day or p.all_day)]
+        if not pages:
+            kept.append(t)
+            continue
+        for p in pages:                   # a page that gives only the date takes the email's time
+            if p.all_day and not t.all_day and len(pages) == 1:
+                p.start, p.all_day = t.start, False
+    return kept + page_items
 
 
 class NewsletterSource:
