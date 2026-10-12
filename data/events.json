@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-11T23:31:03-04:00",
+ "generated_at": "2026-10-11T23:38:43-04:00",
  "window": {
   "start": "2026-10-11",
   "end": "2026-10-18"
@@ -22,7 +22,7 @@
    "error": null,
    "n_events": 97,
    "n_food": 2,
-   "seconds": 0.7
+   "seconds": 0.5
   },
   {
    "id": "hks",
@@ -32,7 +32,7 @@
    "error": null,
    "n_events": 38,
    "n_food": 5,
-   "seconds": 0.8
+   "seconds": 1.5
   },
   {
    "id": "hls",
@@ -42,7 +42,7 @@
    "error": null,
    "n_events": 68,
    "n_food": 34,
-   "seconds": 8.7
+   "seconds": 7.6
   },
   {
    "id": "college",
@@ -52,7 +52,7 @@
    "error": null,
    "n_events": 87,
    "n_food": 7,
-   "seconds": 0.6
+   "seconds": 0.4
   },
   {
    "id": "ash",
@@ -62,7 +62,7 @@
    "error": null,
    "n_events": 3,
    "n_food": 2,
-   "seconds": 1.8
+   "seconds": 0.5
   },
   {
    "id": "shorenstein",
@@ -72,7 +72,7 @@
    "error": null,
    "n_events": 1,
    "n_food": 0,
-   "seconds": 8.9
+   "seconds": 0.6
   },
   {
    "id": "fairbank",
@@ -90,9 +90,9 @@
    "homepage": "",
    "ok": true,
    "error": null,
-   "n_events": 46,
-   "n_food": 5,
-   "seconds": 34.7
+   "n_events": 31,
+   "n_food": 4,
+   "seconds": 60.3
   },
   {
    "id": "suggested",
@@ -102,16 +102,16 @@
    "error": null,
    "n_events": 5,
    "n_food": 0,
-   "seconds": 4.7
+   "seconds": 4.2
   }
  ],
  "stats": {
-  "events": 290,
+  "events": 277,
   "food_confirmed": 40,
   "food_likely": 13,
-  "forwarded": 33,
-  "food_restricted": 35,
-  "seconds": 40.8
+  "forwarded": 27,
+  "food_restricted": 34,
+  "seconds": 66.1
  },
  "events": [
   {
@@ -693,9 +693,9 @@
    "walk_min": 5
   },
   {
-   "id": "ebd6196b72a3",
-   "title": "Portugal/France 1997, DCP, color, 145 min. French and Portuguese with English subtitles",
-   "url": "",
+   "id": "056f1a176f1b",
+   "title": "Directed by João César Monteiro. With Hugues Quester, Pierre Clémenti, Joana Azevedo",
+   "url": "https://us.list-manage.com/t9bk5VdF0CW?e=845ecf4e81&c2id=87902c114d6ea92bdbd5623aa4789407",
    "source_id": "newsletter",
    "source_name": "Forwarded: At the Harvard Film Archive October 9 – 11",
    "also_listed": [],
@@ -728,7 +728,7 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "Portugal/France 1997, DCP, color, 145 min. French and Portuguese with English subtitles Sunday October 11 at 3pm Recollections of the Yellow House Recordações da Casa Amarela In his debut as his libidinous alter ego João de Deus, Monteiro stars as a meticulous and melancholy bachelor living in a rambling boarding…",
+   "summary": "Directed by João César Monteiro. With Hugues Quester, Pierre Clémenti, Joana Azevedo Portugal/France 1997, DCP, color, 145 min. French and Portuguese with English subtitles Sunday October 11 at 3pm Recollections of the Yellow House Recordações da Casa Amarela In his debut as his libidinous alter ego João de Deus,…",
    "notes": "",
    "place_name": "Carpenter Center",
    "lat": 42.373704,
@@ -1524,95 +1524,49 @@
   },
   {
    "id": "ece257a47107",
-   "title": "Dance in Public",
-   "url": "https://events.college.harvard.edu/ofa/event/223329-dance-in-public",
+   "title": "Register for OFA Dance Community Courses",
+   "url": "https://events.college.harvard.edu/ofa/event/223700-register-for-ofa-dance-community-courses",
    "source_id": "college",
    "source_name": "Harvard College events",
    "also_listed": [],
-   "aliases": [
-    "ffe3a474918d"
-   ],
+   "aliases": [],
    "suggested": null,
    "forwarded": null,
    "start": "2026-10-13T00:00:00-04:00",
    "end": null,
    "date": "2026-10-13",
    "all_day": true,
-   "location": "Richard A. and Susan F. Smith Campus Center",
-   "online": false,
-   "host": "Office for the Arts Dance Program",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "none",
-    "evidence": "Each individual lab session is open to Harvard student drop-in participation.",
-    "link": ""
-   },
-   "audience": {
-    "level": "likely",
-    "group": "Harvard student drop-in participation",
-    "evidence": "Each individual lab session is open to Harvard student drop-in participation.",
-    "basis": "text"
-   },
-   "summary": "Join the Dance in Public Undergraduate Research Fellows who will be investigating and activating sites throughout the academic year, exploring themes in design and architecture, civic engagement, creative research, and public life. Each individual lab session is open to Harvard student drop-in participation. REGISTER…",
-   "notes": "",
-   "place_name": "Richard A. and Susan F. Smith Campus Center",
-   "lat": 42.372951,
-   "lon": -71.118484,
-   "geo_method": "source",
-   "walk_min": 12
-  },
-  {
-   "id": "f8d62361fe3f",
-   "title": "Plus, join us for our Pathways",
-   "url": "",
-   "source_id": "newsletter",
-   "source_name": "Forwarded: JFK Jr. Forum: Senator Andy Kim, Ban Ki-moon, & More on Forces Shaping Our Futur",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": {
-    "by": "Ellen",
-    "subject": "JFK Jr. Forum: Senator Andy Kim, Ban Ki-moon, & More on Forces Shaping Our Future"
-   },
-   "start": "2026-10-13T00:00:00-04:00",
-   "end": null,
-   "date": "2026-10-13",
-   "all_day": true,
    "location": "",
    "online": false,
-   "host": "",
+   "host": "Office for the Arts (OFA) Dance Program",
    "food": {
     "status": "none",
     "types": [],
     "evidence": ""
    },
    "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
+    "status": "required",
+    "evidence": "All are welcome to register for the OFA Dance Program’s Fall 2026 Community Courses which starts September 2!",
+    "link": "https://ofa.fas.harvard.edu/dance-program-community-classes"
    },
    "audience": {
-    "level": "unknown",
+    "level": "public",
     "group": "",
-    "evidence": "",
-    "basis": "none"
+    "evidence": "All are welcome to register for the OFA Dance Program’s Fall 2026 Community Courses which starts September 2!",
+    "basis": "text"
    },
-   "summary": "Plus, join us for our Pathways to Public Service Networking Night on October 13! Hear from young alumni working in public service, network with notable professionals, and gain insights into potential career paths. As always, registering for an in-person seat requires a Harvard ID. However, all Forums are available to…",
+   "summary": "All are welcome to register for the OFA Dance Program’s Fall 2026 Community Courses which starts September 2! Courses range across global dance traditions and movement frameworks including Ballet, Bharatanatyam, Conditioning, Contemporary, Feldenkrais, Gaga+, Hip-Hop, Kathak, Soca Fusion, Vogue, and West African, with…",
    "notes": "",
-   "place_name": "Littauer Building, Harvard Kennedy School",
-   "lat": 42.371045,
-   "lon": -71.12209,
-   "geo_method": "host",
-   "walk_min": 18
+   "place_name": "",
+   "lat": null,
+   "lon": null,
+   "geo_method": null,
+   "walk_min": null
   },
   {
-   "id": "f8d62361fe3f",
-   "title": "with IOP Resident Fellows",
-   "url": "",
+   "id": "a4956f664057",
+   "title": "Subject: Next Week: New Study Groups & Special Guests!",
+   "url": "https://click.comms.hks.harvard.edu/?qs=ABp7ImQiOjUwMjQsInQiOjE0MDgsInMiOjExfQALAAAAAAWje9POaHtTr2uqLxYcvu8V0jxuQQEIeaEpwysM4_0ReH-ntj4gGjCOU3RQhXcu9f1IPR_i5G9UyvxsKSmF3trl3dF1j3bh7CF0VQY",
    "source_id": "newsletter",
    "source_name": "Forwarded: Next Week: New Study Groups & Special Guests!",
    "also_listed": [],
@@ -1645,7 +1599,7 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "with IOP Resident Fellows October 13 - October 15 Sign Up for New Study Groups Only pre-registered, valid Harvard ID holding attendees permitted. Reminder: These study groups are off-the-record and not-for-credit Ambassador Kelly Craft",
+   "summary": "Subject: Next Week: New Study Groups & Special Guests! Upcoming Study Groups with IOP Resident Fellows October 13 - October 15 Sign Up for New Study Groups Only pre-registered, valid Harvard ID holding attendees permitted. Reminder: These study groups are off-the-record and not-for-credit",
    "notes": "",
    "place_name": "",
    "lat": null,
@@ -2286,6 +2240,54 @@
    "walk_min": 13
   },
   {
+   "id": "17ae55363553",
+   "title": "Dance in Public",
+   "url": "https://events.college.harvard.edu/ofa/event/223329-dance-in-public",
+   "source_id": "college",
+   "source_name": "Harvard College events",
+   "also_listed": [
+    {
+     "source_name": "Harvard Gazette calendar",
+     "url": "https://news.harvard.edu/gazette/harvard-events/events-calendar/?trumbaEmbed=view%3Devent%26eventid%3D209559494"
+    }
+   ],
+   "aliases": [
+    "ffe3a474918d"
+   ],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-10-13T12:00:00-04:00",
+   "end": "2026-10-13T13:30:00-04:00",
+   "date": "2026-10-13",
+   "all_day": false,
+   "location": "Richard A. and Susan F. Smith Campus Center",
+   "online": false,
+   "host": "Office for the Arts Dance Program",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "none",
+    "evidence": "Each individual lab session is open to Harvard student drop-in participation.",
+    "link": ""
+   },
+   "audience": {
+    "level": "likely",
+    "group": "Harvard student drop-in participation",
+    "evidence": "Each individual lab session is open to Harvard student drop-in participation.",
+    "basis": "text"
+   },
+   "summary": "Join the Dance in Public Undergraduate Research Fellows who will be investigating and activating sites throughout the academic year, exploring themes in design and architecture, civic engagement, creative research, and public life. Each individual lab session is open to Harvard student drop-in participation. REGISTER…",
+   "notes": "",
+   "place_name": "Richard A. and Susan F. Smith Campus Center",
+   "lat": 42.372951,
+   "lon": -71.118484,
+   "geo_method": "source",
+   "walk_min": 12
+  },
+  {
    "id": "673838c0214b",
    "title": "Michael C. Rockefeller Fellowship Application Deadline",
    "url": "https://events.college.harvard.edu/uraf/event/224274-michael-c-rockefeller-fellowship-application-deadline",
@@ -2413,47 +2415,6 @@
    "lon": -71.12209,
    "geo_method": "host",
    "walk_min": 18
-  },
-  {
-   "id": "17ae55363553",
-   "title": "Public Research Talk: Frederick Douglass and Jesus Christ",
-   "url": "https://news.harvard.edu/gazette/harvard-events/events-calendar/?trumbaEmbed=view%3Devent%26eventid%3D209559494",
-   "source_id": "gazette",
-   "source_name": "Harvard Gazette calendar",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-10-13T12:00:00-04:00",
-   "end": "2026-10-13T13:30:00-04:00",
-   "date": "2026-10-13",
-   "all_day": false,
-   "location": "Common Room, Center for the Study of World Religions, 42 Francis Ave. Cambridge, MA",
-   "online": false,
-   "host": "Center for the Study of World Religions",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "required",
-    "evidence": "Registration is required.",
-    "link": "https://harvard.az1.qualtrics.com/jfe/form/SV_8nXIEk7i3VhN7i6"
-   },
-   "audience": {
-    "level": "unknown",
-    "group": "",
-    "evidence": "",
-    "basis": "none"
-   },
-   "summary": "Registration is required. Please register to attend in person. Please register to attend on Zoom. Abolitionists described themselves as followers of Jesus, but they disagreed about what kind of person he was. Douglass’s ideas about Jesus took shape in dialogue with the Transcendentalists: his Jesus was fully human,…",
-   "notes": "",
-   "place_name": "Center for the Study of World Religions",
-   "lat": 42.380142,
-   "lon": -71.112151,
-   "geo_method": "gazetteer",
-   "walk_min": 5
   },
   {
    "id": "aea49c1e35b7",
@@ -3218,50 +3179,6 @@
    "walk_min": 12
   },
   {
-   "id": "0a462e818637",
-   "title": "Amb.",
-   "url": "",
-   "source_id": "newsletter",
-   "source_name": "Forwarded: Next Week: New Study Groups & Special Guests!",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": {
-    "by": "Ellen",
-    "subject": "Next Week: New Study Groups & Special Guests!"
-   },
-   "start": "2026-10-13T16:00:00-04:00",
-   "end": null,
-   "date": "2026-10-13",
-   "all_day": false,
-   "location": "",
-   "online": false,
-   "host": "",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
-   },
-   "audience": {
-    "level": "unknown",
-    "group": "",
-    "evidence": "",
-    "basis": "none"
-   },
-   "summary": "Amb. Kelly Craft is the former U.S. Ambassador to the United Nations (2019-2021) & the U.S. Ambassador to Canada (2017-2019). Tuesday, October 13, 2026 4:00 PM ET | L-166 Autonomy and War in the 21st Century Guest: Dino Mavrookas, Co-Founder and Chief Executive Officer at Saronic Technologies; Former Navy SEAL Join…",
-   "notes": "",
-   "place_name": "",
-   "lat": null,
-   "lon": null,
-   "geo_method": null,
-   "walk_min": null
-  },
-  {
    "id": "fad42b3e1c41",
    "title": "In Dreams Awake: Tar Paintings in Conversation with American Transcendentalism by Christopher Volpe",
    "url": "https://cswr.hds.harvard.edu/news-events/calendar?trumbaEmbed=view%3Devent%26eventid%3D205356735",
@@ -3466,6 +3383,50 @@
    "walk_min": 18
   },
   {
+   "id": "7303b2049692",
+   "title": "The Youth Vote and the Midterms",
+   "url": "https://iop.harvard.edu/events/youth-vote-and-midterms",
+   "source_id": "newsletter",
+   "source_name": "Forwarded: JFK Jr. Forum: Senator Andy Kim, Ban Ki-moon, & More on Forces Shaping Our Futur",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": {
+    "by": "Ellen",
+    "subject": "JFK Jr. Forum: Senator Andy Kim, Ban Ki-moon, & More on Forces Shaping Our Future"
+   },
+   "start": "2026-10-13T17:00:00-04:00",
+   "end": null,
+   "date": "2026-10-13",
+   "all_day": false,
+   "location": "",
+   "online": false,
+   "host": "",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "Register Here",
+    "link": ""
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "Tuesday, October 13, 2026 Time: 5:00pm EST Where: L-280 Meeting Method: In-Person Add to Calendar 2026-10-13 17:00:00 2026-10-10 16:06:21 The Youth Vote and the Midterms <p>Join the Institute of Politics' Campaigns & Advocacy Program, Harvard Public Opinion Project, and Harvard Votes Challenge for a candid…",
+   "notes": "",
+   "place_name": "Littauer Building, Harvard Kennedy School",
+   "lat": 42.371045,
+   "lon": -71.12209,
+   "geo_method": "host",
+   "walk_min": 18
+  },
+  {
    "id": "07350fd344c9",
    "title": "World Mental Health Day 2026: Reception & Fireside Chat",
    "url": "https://countway.info/wmhd",
@@ -3558,18 +3519,17 @@
    "source_name": "Harvard Kennedy School",
    "also_listed": [
     {
-     "source_name": "Forwarded: JFK Jr. Forum: Senator Andy Kim, Ban Ki-moon, & More on Forces Shaping Our Futur",
-     "url": ""
-    },
-    {
      "source_name": "Harvard College events",
      "url": "https://events.college.harvard.edu/event/225333-global-climate-leadership-our-planet-at-a"
+    },
+    {
+     "source_name": "Forwarded: JFK Jr. Forum: Senator Andy Kim, Ban Ki-moon, & More on Forces Shaping Our Futur",
+     "url": "https://iop.harvard.edu/events/global-climate-leadership-our-planet-crossroads-ban-ki-moon-fmr-un-secretary-general"
     }
    ],
    "aliases": [
     "11154dc747d6",
-    "9cacbd345e49",
-    "a916db40f076"
+    "9cacbd345e49"
    ],
    "suggested": null,
    "forwarded": {
@@ -3734,50 +3694,6 @@
    "walk_min": null
   },
   {
-   "id": "a916db40f076",
-   "title": "Pathways to Public Service Networking Night",
-   "url": "",
-   "source_id": "newsletter",
-   "source_name": "Forwarded: JFK Jr. Forum: Senator Andy Kim, Ban Ki-moon, & More on Forces Shaping Our Futur",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": {
-    "by": "Ellen",
-    "subject": "JFK Jr. Forum: Senator Andy Kim, Ban Ki-moon, & More on Forces Shaping Our Future"
-   },
-   "start": "2026-10-13T18:00:00-04:00",
-   "end": null,
-   "date": "2026-10-13",
-   "all_day": false,
-   "location": "6:00pm - 8:00pm ET | Malkin Penthouse",
-   "online": false,
-   "host": "",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "required",
-    "evidence": "Must RSVP with a valid Harvard email address",
-    "link": ""
-   },
-   "audience": {
-    "level": "unknown",
-    "group": "",
-    "evidence": "",
-    "basis": "none"
-   },
-   "summary": "Pathways to Public Service Networking Night Tuesday, October 13 | 6:00pm - 8:00pm ET | Malkin Penthouse Must RSVP with a valid Harvard email address",
-   "notes": "",
-   "place_name": "Littauer Building, Harvard Kennedy School",
-   "lat": 42.371045,
-   "lon": -71.12209,
-   "geo_method": "gazetteer",
-   "walk_min": 18
-  },
-  {
    "id": "687e40e44a1e",
    "title": "The Tobacco Takers: Puritans, Pipes and Bodily Care",
    "url": "https://hmsc.harvard.edu/calendar_event/the-tobacco-takers-puritans-pipes-and-bodily-care/",
@@ -3817,52 +3733,6 @@
    "lon": -71.115646,
    "geo_method": "gazetteer",
    "walk_min": 5
-  },
-  {
-   "id": "7303b2049692",
-   "title": "The Youth Vote and the Midterms",
-   "url": "",
-   "source_id": "newsletter",
-   "source_name": "Forwarded: JFK Jr. Forum: Senator Andy Kim, Ban Ki-moon, & More on Forces Shaping Our Futur",
-   "also_listed": [],
-   "aliases": [
-    "a916db40f076"
-   ],
-   "suggested": null,
-   "forwarded": {
-    "by": "Ellen",
-    "subject": "JFK Jr. Forum: Senator Andy Kim, Ban Ki-moon, & More on Forces Shaping Our Future"
-   },
-   "start": "2026-10-13T18:00:00-04:00",
-   "end": null,
-   "date": "2026-10-13",
-   "all_day": false,
-   "location": "6:00pm ET | Wexner W-434",
-   "online": false,
-   "host": "",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "required",
-    "evidence": "Must RSVP with a valid Harvard email address",
-    "link": ""
-   },
-   "audience": {
-    "level": "unknown",
-    "group": "",
-    "evidence": "",
-    "basis": "none"
-   },
-   "summary": "The Youth Vote and the Midterms Tuesday, October 13 | 6:00pm ET | Wexner W-434 Must RSVP with a valid Harvard email address Join the Institute of Politics' Campaigns & Advocacy Program, Harvard Public Opinion Project, and Harvard Votes Challenge for a candid conversation with Teddy Landis, who leads the Strategic…",
-   "notes": "",
-   "place_name": "Wexner Building, Harvard Kennedy School",
-   "lat": 42.371344,
-   "lon": -71.122357,
-   "geo_method": "gazetteer",
-   "walk_min": 18
   },
   {
    "id": "1b57a4f60ff6",
@@ -3945,49 +3815,6 @@
    "lon": -71.119421,
    "geo_method": "gazetteer",
    "walk_min": 10
-  },
-  {
-   "id": "4f9b9940a9d9",
-   "title": "Dance in Public",
-   "url": "https://events.college.harvard.edu/ofa/event/223329-dance-in-public",
-   "source_id": "college",
-   "source_name": "Harvard College events",
-   "also_listed": [],
-   "aliases": [
-    "b8e26a40a56d"
-   ],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-10-14T00:00:00-04:00",
-   "end": null,
-   "date": "2026-10-14",
-   "all_day": true,
-   "location": "Richard A. and Susan F. Smith Campus Center",
-   "online": false,
-   "host": "Office for the Arts Dance Program",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "none",
-    "evidence": "Each individual lab session is open to Harvard student drop-in participation.",
-    "link": ""
-   },
-   "audience": {
-    "level": "likely",
-    "group": "Harvard student drop-in participation",
-    "evidence": "Each individual lab session is open to Harvard student drop-in participation.",
-    "basis": "text"
-   },
-   "summary": "Join the Dance in Public Undergraduate Research Fellows who will be investigating and activating sites throughout the academic year, exploring themes in design and architecture, civic engagement, creative research, and public life. Each individual lab session is open to Harvard student drop-in participation. REGISTER…",
-   "notes": "",
-   "place_name": "Richard A. and Susan F. Smith Campus Center",
-   "lat": 42.372951,
-   "lon": -71.118484,
-   "geo_method": "source",
-   "walk_min": 12
   },
   {
    "id": "02373e5d8a75",
@@ -4687,50 +4514,6 @@
    "walk_min": 7
   },
   {
-   "id": "c0587c127710",
-   "title": "LATER THIS SEMESTER",
-   "url": "",
-   "source_id": "newsletter",
-   "source_name": "Forwarded: The Hutch: September 28 - October 4, 2026",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": {
-    "by": "cecilia",
-    "subject": "The Hutch: September 28 - October 4, 2026"
-   },
-   "start": "2026-10-14T12:00:00-04:00",
-   "end": null,
-   "date": "2026-10-14",
-   "all_day": false,
-   "location": "",
-   "online": false,
-   "host": "",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
-   },
-   "audience": {
-    "level": "unknown",
-    "group": "",
-    "evidence": "",
-    "basis": "none"
-   },
-   "summary": "LATER THIS SEMESTER October 14, 12:00pm. Colloquium with Rita Freed , Image of Nubia: Defining Nubian Art",
-   "notes": "",
-   "place_name": "",
-   "lat": null,
-   "lon": null,
-   "geo_method": null,
-   "walk_min": null
-  },
-  {
    "id": "6140fba9e644",
    "title": "La Alianza x Weil Coffee Chat",
    "url": "https://hls.harvard.edu/events/la-alianza-x-weil-coffee-chat/",
@@ -4816,9 +4599,53 @@
    "walk_min": 12
   },
   {
-   "id": "c0587c127710",
+   "id": "86167b8387ad",
+   "title": "Sanders Theatre, Memorial Hall",
+   "url": "https://us.list-manage.com/13CojWHglv8?e=a1a26792d9&c2id=7425a2fbc7f1fc01ee380a511113942f",
+   "source_id": "newsletter",
+   "source_name": "Forwarded: The Hutch: September 28 - October 4, 2026",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": {
+    "by": "Cecilia",
+    "subject": "The Hutch: September 28 - October 4, 2026"
+   },
+   "start": "2026-10-14T12:00:00-04:00",
+   "end": null,
+   "date": "2026-10-14",
+   "all_day": false,
+   "location": "",
+   "online": false,
+   "host": "",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "Sanders Theatre, Memorial Hall LATER THIS SEMESTER October 14, 12:00pm. Colloquium with Rita Freed, Image of Nubia: Defining Nubian Art",
+   "notes": "",
+   "place_name": "",
+   "lat": null,
+   "lon": null,
+   "geo_method": null,
+   "walk_min": null
+  },
+  {
+   "id": "7185395cc34b",
    "title": "Schooling Mobility Across Three Generations in Latin America",
-   "url": "",
+   "url": "https://us.list-manage.com/U3ddkYLeG3Q?e=47fd1b5679&c2id=e16b879dc543fc1e49d6366bda8a5a69",
    "source_id": "newsletter",
    "source_name": "Newsletter: DRCLAS Weekly: Borders, Mobility, and 20 Years in Brazil",
    "also_listed": [],
@@ -5497,13 +5324,16 @@
    "walk_min": 10
   },
   {
-   "id": "cf62d9060f91",
+   "id": "4f9b9940a9d9",
    "title": "Scripture in Community: Public Reading of Scripture",
    "url": "https://events.college.harvard.edu/event/224300-scripture-in-community-public-reading-of-scripture",
    "source_id": "college",
    "source_name": "Harvard College events",
    "also_listed": [],
-   "aliases": [],
+   "aliases": [
+    "b8e26a40a56d",
+    "cf62d9060f91"
+   ],
    "suggested": null,
    "forwarded": null,
    "start": "2026-10-14T12:40:00-04:00",
@@ -5522,15 +5352,15 @@
     "cue": "strong"
    },
    "registration": {
-    "status": "unknown",
-    "evidence": "",
+    "status": "none",
+    "evidence": "Each individual lab session is open to Harvard student drop-in participation.",
     "link": ""
    },
    "audience": {
-    "level": "restricted",
-    "group": "Harvard College students",
-    "evidence": "Harvard College calendar, no sign it is open to others",
-    "basis": "default"
+    "level": "likely",
+    "group": "Harvard student drop-in participation",
+    "evidence": "Each individual lab session is open to Harvard student drop-in participation.",
+    "basis": "text"
    },
    "summary": "Whether you’re new to reading the Bible, have studied it for years, or are just curious about what it says, you are welcome to listen, learn, and reflect on the wisdom within its pages. Scripture in Community meets over lunch to read and listen to Bible passages together – from the Psalms, the Old Testament, and the…",
    "notes": "",
@@ -5756,50 +5586,6 @@
    "walk_min": 10
   },
   {
-   "id": "6df0ae844375",
-   "title": "Amb.",
-   "url": "",
-   "source_id": "newsletter",
-   "source_name": "Forwarded: Next Week: New Study Groups & Special Guests!",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": {
-    "by": "Ellen",
-    "subject": "Next Week: New Study Groups & Special Guests!"
-   },
-   "start": "2026-10-14T16:00:00-04:00",
-   "end": null,
-   "date": "2026-10-14",
-   "all_day": false,
-   "location": "",
-   "online": false,
-   "host": "",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
-   },
-   "audience": {
-    "level": "unknown",
-    "group": "",
-    "evidence": "",
-    "basis": "none"
-   },
-   "summary": "Amb. Nathalie Rayes is the former U.S. Ambassador to Croatia (2024-2025). Wednesday, October 14, 2026 4:00 PM ET | L-166 From Culture to City Hall: Building Influence, Power, and Purpose Guest: Jason Lee, Hollywood Unlocked Founder and CEO, Vice Mayor of Stockton, CA What happens when influence moves beyond media and…",
-   "notes": "",
-   "place_name": "",
-   "lat": null,
-   "lon": null,
-   "geo_method": null,
-   "walk_min": null
-  },
-  {
    "id": "d8265605d47f",
    "title": "Ambassador Nathalie Rayes Study Group: Building Influence, Power, and Purpose",
    "url": "https://www.hks.harvard.edu/events/ambassador-nathalie-rayes-study-group-building-influence-power-and-purpose",
@@ -5898,50 +5684,6 @@
    "lon": -71.123759,
    "geo_method": "gazetteer",
    "walk_min": 17
-  },
-  {
-   "id": "6df0ae844375",
-   "title": "Doug Ducey is the former Governor of Arizona (2015-2023).",
-   "url": "",
-   "source_id": "newsletter",
-   "source_name": "Forwarded: Next Week: New Study Groups & Special Guests!",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": {
-    "by": "Ellen",
-    "subject": "Next Week: New Study Groups & Special Guests!"
-   },
-   "start": "2026-10-14T16:00:00-04:00",
-   "end": null,
-   "date": "2026-10-14",
-   "all_day": false,
-   "location": "",
-   "online": false,
-   "host": "",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
-   },
-   "audience": {
-    "level": "unknown",
-    "group": "",
-    "evidence": "",
-    "basis": "none"
-   },
-   "summary": "Doug Ducey is the former Governor of Arizona (2015-2023). Wednesday, October 14, 2026 4:00 PM ET | L-163 Leading & Governing The campaign is over. It’s time to get to the real work of leading and governing! How do you build and structure a senior staff and a government? How do you move your agenda into actual policy…",
-   "notes": "",
-   "place_name": "",
-   "lat": null,
-   "lon": null,
-   "geo_method": null,
-   "walk_min": null
   },
   {
    "id": "063b42f40baa",
@@ -6242,9 +5984,9 @@
    "walk_min": 10
   },
   {
-   "id": "d3443d263a8c",
+   "id": "83b323e914fd",
    "title": "A Bipartisan Conversation Featuring Rep. Jody Arrington (R-TX) & Rep. Brendan Boyle (D-PA)",
-   "url": "",
+   "url": "https://click.comms.hks.harvard.edu/?qs=ABp7ImQiOjUwMjMsInQiOjE0MDgsInMiOjExfQALAAAAAAWbxDexIGlqfHpDP9YKBfY04d44Czt4mjzYFncXYbZIxywlL2vC4IX30UBA7kTcEhtIO4KaRk4R6ND7yNQWq9ij7WamOrRddFIytocNL9Y",
    "source_id": "newsletter",
    "source_name": "Forwarded: JFK Jr. Forum: Senator Andy Kim, Ban Ki-moon, & More on Forces Shaping Our Futur",
    "also_listed": [],
@@ -6655,47 +6397,45 @@
    "walk_min": null
   },
   {
-   "id": "5e774fa0606c",
-   "title": "Dance in Public",
-   "url": "https://events.college.harvard.edu/ofa/event/223329-dance-in-public",
+   "id": "f869f0eb177a",
+   "title": "Register for OFA Dance Community Courses",
+   "url": "https://events.college.harvard.edu/ofa/event/223702-register-for-ofa-dance-community-courses",
    "source_id": "college",
    "source_name": "Harvard College events",
    "also_listed": [],
-   "aliases": [
-    "f869f0eb177a"
-   ],
+   "aliases": [],
    "suggested": null,
    "forwarded": null,
    "start": "2026-10-15T00:00:00-04:00",
    "end": null,
    "date": "2026-10-15",
    "all_day": true,
-   "location": "Richard A. and Susan F. Smith Campus Center",
+   "location": "",
    "online": false,
-   "host": "Office for the Arts Dance Program",
+   "host": "Office for the Arts (OFA) Dance Program",
    "food": {
     "status": "none",
     "types": [],
     "evidence": ""
    },
    "registration": {
-    "status": "none",
-    "evidence": "Each individual lab session is open to Harvard student drop-in participation.",
-    "link": ""
+    "status": "required",
+    "evidence": "All are welcome to register for the OFA Dance Program’s Fall 2026 Community Courses which starts September 2!",
+    "link": "https://ofa.fas.harvard.edu/dance-program-community-classes"
    },
    "audience": {
-    "level": "likely",
-    "group": "Harvard student drop-in participation",
-    "evidence": "Each individual lab session is open to Harvard student drop-in participation.",
+    "level": "public",
+    "group": "",
+    "evidence": "All are welcome to register for the OFA Dance Program’s Fall 2026 Community Courses which starts September 2!",
     "basis": "text"
    },
-   "summary": "Join the Dance in Public Undergraduate Research Fellows who will be investigating and activating sites throughout the academic year, exploring themes in design and architecture, civic engagement, creative research, and public life. Each individual lab session is open to Harvard student drop-in participation. REGISTER…",
+   "summary": "All are welcome to register for the OFA Dance Program’s Fall 2026 Community Courses which starts September 2! Courses range across global dance traditions and movement frameworks including Ballet, Bharatanatyam, Conditioning, Contemporary, Feldenkrais, Gaga+, Hip-Hop, Kathak, Soca Fusion, Vogue, and West African, with…",
    "notes": "",
-   "place_name": "Richard A. and Susan F. Smith Campus Center",
-   "lat": 42.372951,
-   "lon": -71.118484,
-   "geo_method": "source",
-   "walk_min": 12
+   "place_name": "",
+   "lat": null,
+   "lon": null,
+   "geo_method": null,
+   "walk_min": null
   },
   {
    "id": "9c1c995d47da",
@@ -7659,6 +7399,54 @@
    "walk_min": 12
   },
   {
+   "id": "17ab6023132e",
+   "title": "Dance in Public",
+   "url": "https://events.college.harvard.edu/ofa/event/223329-dance-in-public",
+   "source_id": "college",
+   "source_name": "Harvard College events",
+   "also_listed": [
+    {
+     "source_name": "Harvard Law School",
+     "url": "https://hls.harvard.edu/events/leaving-big-law-for-public-interest-work/"
+    }
+   ],
+   "aliases": [
+    "5e774fa0606c"
+   ],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-10-15T12:15:00-04:00",
+   "end": "2026-10-15T13:15:00-04:00",
+   "date": "2026-10-15",
+   "all_day": false,
+   "location": "Richard A. and Susan F. Smith Campus Center",
+   "online": false,
+   "host": "Office for the Arts Dance Program",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "none",
+    "evidence": "Each individual lab session is open to Harvard student drop-in participation.",
+    "link": ""
+   },
+   "audience": {
+    "level": "likely",
+    "group": "Harvard student drop-in participation",
+    "evidence": "Each individual lab session is open to Harvard student drop-in participation.",
+    "basis": "text"
+   },
+   "summary": "Join the Dance in Public Undergraduate Research Fellows who will be investigating and activating sites throughout the academic year, exploring themes in design and architecture, civic engagement, creative research, and public life. Each individual lab session is open to Harvard student drop-in participation. REGISTER…",
+   "notes": "",
+   "place_name": "Richard A. and Susan F. Smith Campus Center",
+   "lat": 42.372951,
+   "lon": -71.118484,
+   "geo_method": "source",
+   "walk_min": 12
+  },
+  {
    "id": "68e305ef54bf",
    "title": "Industrial Mobilization for War",
    "url": "https://www.hks.harvard.edu/events/industrial-mobilization-war",
@@ -7739,47 +7527,6 @@
    "lon": -71.118138,
    "geo_method": "gazetteer",
    "walk_min": 8
-  },
-  {
-   "id": "17ab6023132e",
-   "title": "Leaving Big Law for Public Interest Work",
-   "url": "https://hls.harvard.edu/events/leaving-big-law-for-public-interest-work/",
-   "source_id": "hls",
-   "source_name": "Harvard Law School",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-10-15T12:15:00-04:00",
-   "end": "2026-10-15T13:15:00-04:00",
-   "date": "2026-10-15",
-   "all_day": false,
-   "location": "WCC, 3019 Classroom, Harvard Law School",
-   "online": false,
-   "host": "Public Interest Law",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
-   },
-   "audience": {
-    "level": "restricted",
-    "group": "HLS students (recruiting event)",
-    "evidence": "Title: Leaving Big Law for Public Interest Work",
-    "basis": "inferred"
-   },
-   "summary": "Hear from practitioners who left life in big law to pursue public interest work, including discussions about financial considerations. Add to Calendar October 15, 2026, 12:15 pm - 1:15 pm +Google Calendar +iCal/Outlook",
-   "notes": "",
-   "place_name": "Wasserstein Hall (WCC), Harvard Law School",
-   "lat": 42.379383,
-   "lon": -71.119421,
-   "geo_method": "gazetteer",
-   "walk_min": 10
   },
   {
    "id": "efc7dad5e13c",
@@ -8770,7 +8517,6 @@
     }
    ],
    "aliases": [
-    "83b92c8c2a98",
     "987b15de25d2",
     "c76346268186"
    ],
@@ -8925,7 +8671,6 @@
    ],
    "aliases": [
     "67d97855a291",
-    "8370596a7441",
     "87ca32120b91"
    ],
    "suggested": null,
@@ -9004,50 +8749,6 @@
    "lon": -71.121761,
    "geo_method": "host",
    "walk_min": 16
-  },
-  {
-   "id": "8370596a7441",
-   "title": "Whipple is an Author and Contributing Writer at Vanity Fair.",
-   "url": "",
-   "source_id": "newsletter",
-   "source_name": "Forwarded: Next Week: New Study Groups & Special Guests!",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": {
-    "by": "Ellen",
-    "subject": "Next Week: New Study Groups & Special Guests!"
-   },
-   "start": "2026-10-15T16:30:00-04:00",
-   "end": null,
-   "date": "2026-10-15",
-   "all_day": false,
-   "location": "",
-   "online": false,
-   "host": "",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
-   },
-   "audience": {
-    "level": "harvard",
-    "group": "",
-    "evidence": "AUDIENCE: These conversations are open to members of the Harvard community.",
-    "basis": "text"
-   },
-   "summary": "Whipple is an Author and Contributing Writer at Vanity Fair. Thursday, October 15, 2026 4:30 PM ET | L-130 Into the Breach: The 2024 Kamala Harris Campaign Guest: Sheila Nix, CEO of The Mobile Voting Project; Former Chief of Staff to Vice President Kamala Harris; Former Chief of Staff to Dr. Jill Biden; Former Deputy…",
-   "notes": "",
-   "place_name": "",
-   "lat": null,
-   "lon": null,
-   "geo_method": null,
-   "walk_min": null
   },
   {
    "id": "5a5a6316c8d6",
@@ -9284,15 +8985,15 @@
    "also_listed": [
     {
      "source_name": "Forwarded: The Hutch: September 28 - October 4, 2026",
-     "url": ""
+     "url": "https://us.list-manage.com/VsyYygRcxvM?e=a1a26792d9&c2id=7425a2fbc7f1fc01ee380a511113942f"
     }
    ],
    "aliases": [
-    "e4f5721e5dfa"
+    "f7db49f84a4c"
    ],
    "suggested": null,
    "forwarded": {
-    "by": "cecilia",
+    "by": "Cecilia",
     "subject": "The Hutch: September 28 - October 4, 2026"
    },
    "start": "2026-10-15T18:00:00-04:00",
@@ -9451,49 +9152,6 @@
    "lon": -71.118646,
    "geo_method": "host",
    "walk_min": 15
-  },
-  {
-   "id": "4fd44bdc044d",
-   "title": "(Half Term) Fall Session 1 classes end.",
-   "url": "https://events.college.harvard.edu/academic_calendar/event/197571-half-term-fall-session-1-classes-end",
-   "source_id": "college",
-   "source_name": "Harvard College events",
-   "also_listed": [],
-   "aliases": [
-    "bf8d684834ed"
-   ],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-10-16T00:00:00-04:00",
-   "end": null,
-   "date": "2026-10-16",
-   "all_day": true,
-   "location": "",
-   "online": false,
-   "host": "Academic Calendar",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
-   },
-   "audience": {
-    "level": "restricted",
-    "group": "Harvard College students",
-    "evidence": "Harvard College calendar, no sign it is open to others",
-    "basis": "default"
-   },
-   "summary": "Only applies to courses taken for a half term at FAS. Filter Course Search by session for a list of those courses.",
-   "notes": "",
-   "place_name": "",
-   "lat": null,
-   "lon": null,
-   "geo_method": null,
-   "walk_min": null
   },
   {
    "id": "91d2ecf29e3b",
@@ -10496,7 +10154,7 @@
    "walk_min": null
   },
   {
-   "id": "66274ac99386",
+   "id": "8921b6459cbe",
    "title": "America at 250 and Beyond: A Well-Informed Citizenry",
    "url": "https://iop.harvard.edu/events/america-250-and-beyond-well-informed-citizenry",
    "source_id": "gazette",
@@ -10516,7 +10174,6 @@
     }
    ],
    "aliases": [
-    "8921b6459cbe",
     "937cad43fb26",
     "cab5f06f3d01",
     "f3821f025830"
@@ -10851,13 +10508,16 @@
    "walk_min": null
   },
   {
-   "id": "57a064dd0b98",
-   "title": "GSAS: (Half Term) Fall Session 1 - Course Withdraw Deadline - no fees.",
-   "url": "https://events.college.harvard.edu/academic_calendar/event/197245-gsas-half-term-fall-session-1-course-withdraw",
+   "id": "4fd44bdc044d",
+   "title": "(Half Term) Fall Session 1 classes end.",
+   "url": "https://events.college.harvard.edu/academic_calendar/event/197571-half-term-fall-session-1-classes-end",
    "source_id": "college",
    "source_name": "Harvard College events",
    "also_listed": [],
-   "aliases": [],
+   "aliases": [
+    "57a064dd0b98",
+    "bf8d684834ed"
+   ],
    "suggested": null,
    "forwarded": null,
    "start": "2026-10-16T23:59:00-04:00",
@@ -10883,7 +10543,7 @@
     "evidence": "Harvard College calendar, no sign it is open to others",
     "basis": "default"
    },
-   "summary": "",
+   "summary": "Only applies to courses taken for a half term at FAS. Filter Course Search by session for a list of those courses.",
    "notes": "",
    "place_name": "",
    "lat": null,
@@ -10933,92 +10593,6 @@
    "lon": -71.118484,
    "geo_method": "source",
    "walk_min": 12
-  },
-  {
-   "id": "567255c86d0c",
-   "title": "Harvard Band at Harvard VS. Holy Cross",
-   "url": "https://events.college.harvard.edu/ofa/event/harvard-band-at-harvard-vs-holy-cross",
-   "source_id": "college",
-   "source_name": "Harvard College events",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-10-17T00:00:00-04:00",
-   "end": null,
-   "date": "2026-10-17",
-   "all_day": true,
-   "location": "Harvard Stadium",
-   "online": false,
-   "host": "Office for the Arts",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
-   },
-   "audience": {
-    "level": "restricted",
-    "group": "Harvard College students",
-    "evidence": "Harvard College calendar, no sign it is open to others",
-    "basis": "default"
-   },
-   "summary": "Come see the Harvard Band perform at the Harvard Vs. Holy Cross Football game at the Harvard Stadium!",
-   "notes": "",
-   "place_name": "Harvard Stadium",
-   "lat": 42.36673,
-   "lon": -71.127491,
-   "geo_method": "source",
-   "walk_min": 28
-  },
-  {
-   "id": "03d1670f31f3",
-   "title": "Harvard University Women’s Heavyweight Rowing vs Head of the Charles",
-   "url": "https://events.college.harvard.edu/event/224716-harvard-university-womens-heavyweight-rowing-vs",
-   "source_id": "college",
-   "source_name": "Harvard College events",
-   "also_listed": [],
-   "aliases": [
-    "ac7dd0e7c186",
-    "b495b0cd5b20",
-    "e61f3488d6e6"
-   ],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-10-17T00:00:00-04:00",
-   "end": null,
-   "date": "2026-10-17",
-   "all_day": true,
-   "location": "Cambridge, MA",
-   "online": false,
-   "host": "Main Calendar",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
-   },
-   "audience": {
-    "level": "restricted",
-    "group": "Harvard College students",
-    "evidence": "Harvard College calendar, no sign it is open to others",
-    "basis": "default"
-   },
-   "summary": "Harvard University Women’s Heavyweight Rowing vs Head of the Charles URL:https://gocrimson.com/calendar.aspx?game_id=33564&sport_id=26",
-   "notes": "",
-   "place_name": "",
-   "lat": null,
-   "lon": null,
-   "geo_method": null,
-   "walk_min": null
   },
   {
    "id": "1c32e3d5467e",
@@ -11308,63 +10882,25 @@
    "walk_min": 7
   },
   {
-   "id": "ada13ffd186a",
-   "title": "Harvard University Men’s Water Polo vs Navy",
-   "url": "https://events.college.harvard.edu/event/224711-harvard-university-mens-water-polo-vs-navy",
+   "id": "567255c86d0c",
+   "title": "Harvard Band at Harvard VS. Holy Cross",
+   "url": "https://events.college.harvard.edu/ofa/event/harvard-band-at-harvard-vs-holy-cross",
    "source_id": "college",
    "source_name": "Harvard College events",
    "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-10-17T10:30:00-04:00",
-   "end": "2026-10-17T12:00:00-04:00",
-   "date": "2026-10-17",
-   "all_day": false,
-   "location": "Cambridge, MA, Blodgett Pool",
-   "online": false,
-   "host": "Main Calendar",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
-   },
-   "audience": {
-    "level": "restricted",
-    "group": "Harvard College students",
-    "evidence": "Harvard College calendar, no sign it is open to others",
-    "basis": "default"
-   },
-   "summary": "Harvard University Men’s Water Polo vs Navy TV: ESPN+ URL:https://gocrimson.com/calendar.aspx?game_id=33273&sport_id=23",
-   "notes": "",
-   "place_name": "",
-   "lat": null,
-   "lon": null,
-   "geo_method": null,
-   "walk_min": null
-  },
-  {
-   "id": "5e6e55dc6ff5",
-   "title": "Harvard University Football vs Holy Cross - Youth Day",
-   "url": "https://events.college.harvard.edu/event/224707-harvard-university-football-vs-holy-cross-youth",
-   "source_id": "college",
-   "source_name": "Harvard College events",
-   "also_listed": [],
-   "aliases": [],
+   "aliases": [
+    "5e6e55dc6ff5",
+    "e2cb2f7aa318"
+   ],
    "suggested": null,
    "forwarded": null,
    "start": "2026-10-17T13:00:00-04:00",
    "end": "2026-10-17T16:00:00-04:00",
    "date": "2026-10-17",
    "all_day": false,
-   "location": "Cambridge, MA",
+   "location": "Harvard Stadium",
    "online": false,
-   "host": "Main Calendar",
+   "host": "Office for the Arts",
    "food": {
     "status": "none",
     "types": [],
@@ -11381,24 +10917,22 @@
     "evidence": "Harvard College calendar, no sign it is open to others",
     "basis": "default"
    },
-   "summary": "Harvard University Football vs Holy Cross - Youth Day TV: ESPN+ Streaming Video: https://www.espn.com/watch/ Streaming Audio: https://www.iheart.com/live/bloomberg-929-fm-5800/ Tickets: https://gocrimson.evenue.net/event/FB26/FB02 URL:https://gocrimson.com/calendar.aspx?game_id=33141&sport_id=5",
+   "summary": "Come see the Harvard Band perform at the Harvard Vs. Holy Cross Football game at the Harvard Stadium!",
    "notes": "",
-   "place_name": "",
-   "lat": null,
-   "lon": null,
-   "geo_method": null,
-   "walk_min": null
+   "place_name": "Harvard Stadium",
+   "lat": 42.36673,
+   "lon": -71.127491,
+   "geo_method": "source",
+   "walk_min": 28
   },
   {
-   "id": "cd04e7e65326",
+   "id": "d8b7b991cd61",
    "title": "Winthrop Game Day: Women’s Soccer",
    "url": "https://events.college.harvard.edu/winthrop-house/event/225233-winthrop-game-day-womens-soccer",
    "source_id": "college",
    "source_name": "Harvard College events",
    "also_listed": [],
-   "aliases": [
-    "d8b7b991cd61"
-   ],
+   "aliases": [],
    "suggested": null,
    "forwarded": null,
    "start": "2026-10-17T13:00:00-04:00",
@@ -11521,13 +11055,21 @@
    "walk_min": 15
   },
   {
-   "id": "18a0ac7cd2fd",
+   "id": "03d1670f31f3",
    "title": "Harvard University Women’s Volleyball vs University of Pennsylvania",
    "url": "https://events.college.harvard.edu/event/224706-harvard-university-womens-volleyball-vs-university",
    "source_id": "college",
    "source_name": "Harvard College events",
    "also_listed": [],
-   "aliases": [],
+   "aliases": [
+    "18a0ac7cd2fd",
+    "ac7dd0e7c186",
+    "ada13ffd186a",
+    "b495b0cd5b20",
+    "cd04e7e65326",
+    "e23dd4b6180f",
+    "e61f3488d6e6"
+   ],
    "suggested": null,
    "forwarded": null,
    "start": "2026-10-17T17:00:00-04:00",
@@ -11554,88 +11096,6 @@
     "basis": "default"
    },
    "summary": "Harvard University Women’s Volleyball vs University of Pennsylvania TV: ESPN+ Streaming Video: https://www.espn.com/watch/catalog/28907f94-4745-4e26-b0ac-6fd8ffac0aa6/ivy-league#bucketId=29784&sourceCollection=Browse_By_Top_Conferences URL:https://gocrimson.com/calendar.aspx?game_id=33197&sport_id=40",
-   "notes": "",
-   "place_name": "",
-   "lat": null,
-   "lon": null,
-   "geo_method": null,
-   "walk_min": null
-  },
-  {
-   "id": "e23dd4b6180f",
-   "title": "Harvard University Men’s Water Polo vs UC Merced",
-   "url": "https://events.college.harvard.edu/event/224704-harvard-university-mens-water-polo-vs-uc-merced",
-   "source_id": "college",
-   "source_name": "Harvard College events",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-10-17T18:00:00-04:00",
-   "end": "2026-10-17T19:30:00-04:00",
-   "date": "2026-10-17",
-   "all_day": false,
-   "location": "Cambridge, MA, Blodgett Pool",
-   "online": false,
-   "host": "Main Calendar",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
-   },
-   "audience": {
-    "level": "restricted",
-    "group": "Harvard College students",
-    "evidence": "Harvard College calendar, no sign it is open to others",
-    "basis": "default"
-   },
-   "summary": "Harvard University Men’s Water Polo vs UC Merced TV: ESPN+ URL:https://gocrimson.com/calendar.aspx?game_id=33271&sport_id=23",
-   "notes": "",
-   "place_name": "",
-   "lat": null,
-   "lon": null,
-   "geo_method": null,
-   "walk_min": null
-  },
-  {
-   "id": "e2cb2f7aa318",
-   "title": "Harvard University Women’s Ice Hockey vs Holy Cross",
-   "url": "https://events.college.harvard.edu/event/224705-harvard-university-womens-ice-hockey-vs-holy-cross",
-   "source_id": "college",
-   "source_name": "Harvard College events",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-10-17T18:00:00-04:00",
-   "end": "2026-10-17T21:00:00-04:00",
-   "date": "2026-10-17",
-   "all_day": false,
-   "location": "Cambridge, MA, Bright-Landry Hockey Center",
-   "online": false,
-   "host": "Main Calendar",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
-   },
-   "audience": {
-    "level": "restricted",
-    "group": "Harvard College students",
-    "evidence": "Harvard College calendar, no sign it is open to others",
-    "basis": "default"
-   },
-   "summary": "Harvard University Women’s Ice Hockey vs Holy Cross Tickets: https://gocrimson.evenue.net/event/WH26/WH01 URL:https://gocrimson.com/calendar.aspx?game_id=33460&sport_id=30",
    "notes": "",
    "place_name": "",
    "lat": null,
@@ -12055,14 +11515,12 @@
   },
   {
    "id": "6546b6922e0a",
-   "title": "Debate, Debrief, and Dessert: The Role of the United States in the World",
-   "url": "",
+   "title": "Debate, Debrief, and Dessert: The Role of the United States in the World with Jake Sullivan and Michael Anton",
+   "url": "https://iop.harvard.edu/events/debate-debrief-and-dessert-role-united-states-world-jake-sullivan-and-michael-anton",
    "source_id": "newsletter",
    "source_name": "Forwarded: JFK Jr. Forum: Senator Andy Kim, Ban Ki-moon, & More on Forces Shaping Our Futur",
    "also_listed": [],
-   "aliases": [
-    "f750c0414330"
-   ],
+   "aliases": [],
    "suggested": null,
    "forwarded": {
     "by": "Ellen",
@@ -12072,7 +11530,7 @@
    "end": null,
    "date": "2026-10-19",
    "all_day": false,
-   "location": "6:00pm - 7:30pm ET",
+   "location": "",
    "online": false,
    "host": "",
    "food": {
@@ -12080,7 +11538,7 @@
     "types": [
      "Sweets"
     ],
-    "evidence": "Debate, Debrief, and Dessert: The Role of the United States in the World"
+    "evidence": "Debate, Debrief, and Dessert: The Role of the United States in the World with Jake Sullivan and Michael Anton"
    },
    "registration": {
     "status": "unknown",
@@ -12093,7 +11551,7 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "Debate, Debrief, and Dessert: The Role of the United States in the World Featuring: Jake Sullivan & Michael Anton Monday, October 19 | 6:00pm - 7:30pm ET Harvard ID required for in-person seat; livestream available In a conversation moderated by Amna Nawaz, of PBS News Hour, Jake Sullivan, Former U.S. National…",
+   "summary": "Monday, October 19, 2026 Time: 6:00pm EST Where: JFK Jr. Forum, 79 John F. Kennedy St., Cambridge, MA 02138 Meeting Method: Hybrid Add to Calendar 2026-10-19 18:00:00 2026-10-10 13:07:39 Debate, Debrief, and Dessert: The Role of the United States in the World with Jake Sullivan and Michael Anton <p><a…",
    "notes": "",
    "place_name": "Littauer Building, Harvard Kennedy School",
    "lat": 42.371045,
@@ -12102,15 +11560,13 @@
    "walk_min": 18
   },
   {
-   "id": "af5dfb8b8b5b",
-   "title": "Peacekeeping in Africa and Beyond",
-   "url": "",
+   "id": "f90c77021388",
+   "title": "Peacekeeping in Africa and Beyond with President Olusegun Obasanjo",
+   "url": "https://iop.harvard.edu/events/peacekeeping-africa-and-beyond-president-olusegun-obasanjo",
    "source_id": "newsletter",
    "source_name": "Forwarded: JFK Jr. Forum: Senator Andy Kim, Ban Ki-moon, & More on Forces Shaping Our Futur",
    "also_listed": [],
-   "aliases": [
-    "f90c77021388"
-   ],
+   "aliases": [],
    "suggested": null,
    "forwarded": {
     "by": "Ellen",
@@ -12120,7 +11576,7 @@
    "end": null,
    "date": "2026-10-20",
    "all_day": false,
-   "location": "6:00pm ET",
+   "location": "",
    "online": false,
    "host": "",
    "food": {
@@ -12139,7 +11595,7 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "Peacekeeping in Africa and Beyond Featuring: Olusegun Obasanjo, President of Nigeria (1999-2007) Tuesday, October 20 | 6:00pm ET Harvard ID required for in-person seat; livestream available Drawing on a career that spans military service, democratic leadership, and high-level diplomacy under the United Nations and…",
+   "summary": "Tuesday, October 20, 2026 Time: 6:00pm EST Where: JFK Jr. Forum, 79 John F. Kennedy St., Cambridge, MA 02138 Meeting Method: Hybrid Add to Calendar 2026-10-20 18:00:00 2026-10-11 19:38:08 Peacekeeping in Africa and Beyond with President Olusegun Obasanjo Drawing on a career that spans military service, democratic…",
    "notes": "",
    "place_name": "Littauer Building, Harvard Kennedy School",
    "lat": 42.371045,
@@ -12148,9 +11604,9 @@
    "walk_min": 18
   },
   {
-   "id": "88d1c7d6ad6b",
+   "id": "6e66ee435acb",
    "title": "Constitutive Outside",
-   "url": "",
+   "url": "https://us.list-manage.com/MF6aM1RH077?e=c030c5a855&c2id=6ca0113ad60f41de3d6253915ce62a42",
    "source_id": "newsletter",
    "source_name": "Forwarded: Thank You for Joining Us! See What’s Next at the Carpenter Center",
    "also_listed": [],
@@ -12193,7 +11649,7 @@
   },
   {
    "id": "c1609e8737f2",
-   "title": "Upcoming October Programs",
+   "title": "6:00–9:00pm",
    "url": "",
    "source_id": "newsletter",
    "source_name": "Forwarded: Thank You for Joining Us! See What’s Next at the Carpenter Center",
@@ -12222,12 +11678,12 @@
     "link": ""
    },
    "audience": {
-    "level": "unknown",
+    "level": "public",
     "group": "",
-    "evidence": "",
-    "basis": "none"
+    "evidence": "Free and open to the public.",
+    "basis": "text"
    },
-   "summary": "Upcoming October Programs October 22 | 6:00–9:00 pm Constitutive Outside",
+   "summary": "6:00–9:00pm Free and open to the public. Upcoming October Programs October 22 | 6:00–9:00 pm Constitutive Outside",
    "notes": "",
    "place_name": "Carpenter Center",
    "lat": 42.373704,
@@ -12236,15 +11692,13 @@
    "walk_min": 7
   },
   {
-   "id": "1ed6f82fa2bf",
+   "id": "4455d92aaaed",
    "title": "Meeting the China Challenge with Kevin Rudd, Fmr. Prime Minister of Australia",
    "url": "https://iop.harvard.edu/events/meeting-china-challenge-kevin-rudd-fmr-prime-minister-australia",
    "source_id": "newsletter",
    "source_name": "Forwarded: JFK Jr. Forum: Senator Andy Kim, Ban Ki-moon, & More on Forces Shaping Our Futur",
    "also_listed": [],
-   "aliases": [
-    "4455d92aaaed"
-   ],
+   "aliases": [],
    "suggested": null,
    "forwarded": {
     "by": "Ellen",
@@ -12282,9 +11736,9 @@
    "walk_min": 18
   },
   {
-   "id": "cf448b7c780b",
+   "id": "83893740e76f",
    "title": "Policing, Public Safety, and Community",
-   "url": "",
+   "url": "https://click.comms.hks.harvard.edu/?qs=ABp7ImQiOjUwMjMsInQiOjE0MDgsInMiOjExfQALAAAAAAWbxDexNmvqS-dPJp-At3OsuIARm0jA-n1tCfYlxMnZK9UFBBxezbHfeeuU9oSSjB6lV5eGOjSGpXanCEz-nUL2OvCthPx0b2WetY8C2eQ",
    "source_id": "newsletter",
    "source_name": "Forwarded: JFK Jr. Forum: Senator Andy Kim, Ban Ki-moon, & More on Forces Shaping Our Futur",
    "also_listed": [],
@@ -12326,15 +11780,13 @@
    "walk_min": 18
   },
   {
-   "id": "3d2030cd01f3",
-   "title": "The Diplomat: On Screen and in the World",
-   "url": "",
+   "id": "e53b82e6fa51",
+   "title": "The Diplomat: On Screen and in the World with Keri Russell, Debora Cahn, & Amb. Samantha Power",
+   "url": "https://iop.harvard.edu/events/diplomat-screen-and-world-keri-russell-debora-cahn-amb-samantha-power",
    "source_id": "newsletter",
    "source_name": "Forwarded: JFK Jr. Forum: Senator Andy Kim, Ban Ki-moon, & More on Forces Shaping Our Futur",
    "also_listed": [],
-   "aliases": [
-    "e53b82e6fa51"
-   ],
+   "aliases": [],
    "suggested": null,
    "forwarded": {
     "by": "Ellen",
@@ -12344,7 +11796,7 @@
    "end": null,
    "date": "2026-10-26",
    "all_day": false,
-   "location": "7:30pm ET",
+   "location": "",
    "online": false,
    "host": "",
    "food": {
@@ -12363,7 +11815,7 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "The Diplomat: On Screen and in the World Featuring: Keri Russell, Debora Cahn, & Amb. Samantha Power Monday, October 26 | 7:30pm ET Harvard ID required for in-person seat; livestream available Netflix's \"The Diplomat\" has brought the high-stakes world of international diplomacy to millions of viewers. But how closely…",
+   "summary": "Monday, October 26, 2026 Time: 7:30pm EST Where: JFK Jr. Forum, 79 John F. Kennedy St., Cambridge, MA 02138 Meeting Method: Hybrid Add to Calendar 2026-10-26 19:30:00 2026-10-09 08:25:58 The Diplomat: On Screen and in the World with Keri Russell, Debora Cahn, & Amb. Samantha Power <p>Netflix's \"The Diplomat\" has…",
    "notes": "",
    "place_name": "Littauer Building, Harvard Kennedy School",
    "lat": 42.371045,
@@ -12372,9 +11824,9 @@
    "walk_min": 18
   },
   {
-   "id": "06531de3a00e",
+   "id": "52f30e589e35",
    "title": "Opening Reception and Artist Conversation",
-   "url": "",
+   "url": "https://us.list-manage.com/18aimc0QxZ0?e=c030c5a855&c2id=6ca0113ad60f41de3d6253915ce62a42",
    "source_id": "newsletter",
    "source_name": "Forwarded: Thank You for Joining Us! See What’s Next at the Carpenter Center",
    "also_listed": [],
@@ -12409,7 +11861,7 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "Opening Reception and Artist Conversation October 28 | 12:00–1:00 pm Multi-Site Exhibition Tour . Join curators Ally Cirelli",
+   "summary": "Opening Reception and Artist Conversation October 28 | 12:00–1:00 pm",
    "notes": "",
    "place_name": "Carpenter Center",
    "lat": 42.373704,
@@ -12418,9 +11870,9 @@
    "walk_min": 7
   },
   {
-   "id": "eb84dc373303",
-   "title": "and Danni Shen for a tour of Alfonso Ossorio: Line and Lineage at the Harvard Art Museums and",
-   "url": "",
+   "id": "21864a1eaf95",
+   "title": "Multi-Site Exhibition Tour. Join curators Ally Cirelli",
+   "url": "https://us.list-manage.com/zBER8za_cAm?e=c030c5a855&c2id=6ca0113ad60f41de3d6253915ce62a42",
    "source_id": "newsletter",
    "source_name": "Forwarded: Thank You for Joining Us! See What’s Next at the Carpenter Center",
    "also_listed": [],
@@ -12453,7 +11905,7 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "and Danni Shen for a tour of Alfonso Ossorio: Line and Lineage at the Harvard Art Museums and Knowledge Is Myth: Chimeric Continuities at the Carpenter Center. October 29 | 5:00–9:00 pm ArtsThursdays: Late Nights at the Carpenter Center View All Upcoming Programs for the Fall → In the News: Cosmos Falling in Frieze…",
+   "summary": "Multi-Site Exhibition Tour. Join curators Ally Cirelli and Danni Shen for a tour of Alfonso Ossorio: Line and Lineage at the Harvard Art Museums and Knowledge Is Myth: Chimeric Continuities at the Carpenter Center. October 29 | 5:00–9:00 pm ArtsThursdays: Late Nights at the Carpenter Center View All Upcoming Programs…",
    "notes": "",
    "place_name": "Carpenter Center",
    "lat": 42.373704,
@@ -12462,16 +11914,16 @@
    "walk_min": 7
   },
   {
-   "id": "9bab7d023017",
+   "id": "d944200601ec",
    "title": "Colloquium with Suzi Analogue BY ANY MEANZ SONICALLY",
-   "url": "",
+   "url": "https://us.list-manage.com/7xG2qdEgSnq?e=a1a26792d9&c2id=7425a2fbc7f1fc01ee380a511113942f",
    "source_id": "newsletter",
    "source_name": "Forwarded: The Hutch: September 28 - October 4, 2026",
    "also_listed": [],
    "aliases": [],
    "suggested": null,
    "forwarded": {
-    "by": "cecilia",
+    "by": "Cecilia",
     "subject": "The Hutch: September 28 - October 4, 2026"
    },
    "start": "2026-11-04T12:00:00-05:00",
@@ -12497,7 +11949,7 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "November 4, 12:00pm. Colloquium with Suzi Analogue , BY ANY MEANZ SONICALLY November 12, 1:00pm. Panel discussion with Mathias Hanses, Black Cicero: W.E.B. Du Bois and the Ancient Romans in the Nineteenth and Twentieth Centuries . Co-sponsored with Department of Classics, Harvard University.",
+   "summary": "November 4, 12:00pm. Colloquium with Suzi Analogue, BY ANY MEANZ SONICALLY November 12, 1:00pm. Panel discussion with Mathias Hanses, Black Cicero: W.E.B. Du Bois and the Ancient Romans in the Nineteenth and Twentieth Centuries. Co-sponsored with Department of Classics, Harvard University.",
    "notes": "",
    "place_name": "",
    "lat": null,
@@ -12541,14 +11993,14 @@
   {
    "subject": "JFK Jr. Forum: Senator Andy Kim, Ban Ki-moon, & More on Forces Shaping Our Future",
    "sent": "2026-10-10",
-   "items": 20,
+   "items": 11,
    "sender": null,
    "forwarded_by": "Ellen"
   },
   {
    "subject": "Next Week: New Study Groups & Special Guests!",
    "sent": "2026-10-10",
-   "items": 14,
+   "items": 8,
    "sender": null,
    "forwarded_by": "Ellen"
   },
@@ -12557,21 +12009,21 @@
    "sent": "2026-10-07",
    "items": 0,
    "sender": null,
-   "forwarded_by": "cecilia"
+   "forwarded_by": "Cecilia"
   },
   {
    "subject": "The Hutch: September 28 - October 4, 2026",
    "sent": "2026-09-28",
    "items": 3,
    "sender": null,
-   "forwarded_by": "cecilia"
+   "forwarded_by": "Cecilia"
   },
   {
    "subject": null,
    "sent": "2026-09-19",
    "items": 0,
    "sender": null,
-   "forwarded_by": "cecilia"
+   "forwarded_by": "Cecilia"
   },
   {
    "subject": "At the Harvard Film Archive October 9 – 11",
