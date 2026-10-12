@@ -1,4 +1,6 @@
-# Free Food Map ("Your Last Name is Nieman.")
+# FFFFE at Harvard (Faculty for Free Food and Fantastic Events)
+
+Formerly "Your Last Name is Nieman." The code still calls it the Free Food Map.
 
 A local website that lists, day by day, the Harvard events that come with food (talks, panels,
 reading groups, receptions) and pins them on a map of Cambridge. It is built for Nieman Fellows,

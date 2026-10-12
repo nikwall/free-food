@@ -1,4 +1,4 @@
-/* Free Food Map front end: day tabs, event cards, Leaflet map, audience filter, shared Going/Skip votes.
+/* FFFFE at Harvard (Free Food Map) front end: day tabs, event cards, Leaflet map, audience filter, shared Going/Skip votes.
    Works as an installable app (see manifest.webmanifest and sw.js). Runs in three homes:
    the local serve.py, a static web host such as GitHub Pages (votes via Supabase, see config.js),
    and a claude.ai Artifact (votes in the page's own database). */
@@ -848,7 +848,7 @@
     const ios = /iphone|ipad|ipod/i.test(navigator.userAgent);
     const close = '<button type="button" class="link-btn" data-dismiss-install>Not now</button>';
     if (installEvent) {
-      banner(`<span class="grow">Install Free Food Map as an app on this phone.</span><button type="button" class="btn" data-install>Install</button>${close}`);
+      banner(`<span class="grow">Install FFFFE as an app on this phone.</span><button type="button" class="btn" data-install>Install</button>${close}`);
     } else if (ios) {
       banner(`<span class="grow">Use it like an app: tap <b>Share</b>, then <b>Add to Home Screen</b>.</span>${close}`);
     }
