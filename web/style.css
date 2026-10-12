@@ -91,6 +91,8 @@ svg { width: 22px; height: 22px; fill: none; stroke: currentColor; stroke-width:
 }
 .brand { display: flex; align-items: center; gap: 10px; min-width: 0; }
 .crest { display: block; height: 40px; width: auto; flex: none; }
+.titles { display: flex; align-items: center; gap: 12px; min-width: 0; }
+.longname { min-width: 0; font: 12.5px/1.25 var(--sans); color: var(--muted); white-space: nowrap; }
 .mark {
   background: var(--red); color: #fff; font: 600 18px/1 var(--sans); letter-spacing: -.01em;
   padding: 7px 10px 8px; white-space: nowrap;
@@ -350,6 +352,9 @@ body[data-mode="events"] .food-only { display: none !important; }
   .updated { display: none; }
   .crest { height: 36px; }
   .mark { font-size: 17px; padding: 6px 9px 7px; }
+  .brand { gap: 8px; }
+  .titles { flex-direction: column; align-items: flex-start; gap: 3px; }
+  .longname { font-size: 10.5px; line-height: 1.2; max-width: 100%; overflow: hidden; text-overflow: ellipsis; }
   @media (max-width: 359px) { .mark { font-size: 15px; } }
   .layout { display: block; }
   .layout .mapwrap, .layout .about, .layout .suggest { display: none; }
