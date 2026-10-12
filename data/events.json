@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-12T12:04:04-04:00",
+ "generated_at": "2026-10-12T12:12:27-04:00",
  "window": {
   "start": "2026-10-12",
   "end": "2026-10-19"
@@ -22,7 +22,7 @@
    "error": null,
    "n_events": 96,
    "n_food": 2,
-   "seconds": 0.7
+   "seconds": 0.8
   },
   {
    "id": "hks",
@@ -32,7 +32,7 @@
    "error": null,
    "n_events": 46,
    "n_food": 9,
-   "seconds": 16.2
+   "seconds": 2.1
   },
   {
    "id": "hls",
@@ -42,7 +42,7 @@
    "error": null,
    "n_events": 82,
    "n_food": 42,
-   "seconds": 8.2
+   "seconds": 8.5
   },
   {
    "id": "college",
@@ -52,7 +52,7 @@
    "error": null,
    "n_events": 93,
    "n_food": 9,
-   "seconds": 0.4
+   "seconds": 0.1
   },
   {
    "id": "ash",
@@ -62,7 +62,7 @@
    "error": null,
    "n_events": 4,
    "n_food": 2,
-   "seconds": 1.8
+   "seconds": 0.2
   },
   {
    "id": "shorenstein",
@@ -72,7 +72,7 @@
    "error": null,
    "n_events": 2,
    "n_food": 0,
-   "seconds": 10.8
+   "seconds": 9.5
   },
   {
    "id": "fairbank",
@@ -92,7 +92,7 @@
    "error": null,
    "n_events": 30,
    "n_food": 5,
-   "seconds": 53.5
+   "seconds": 68.8
   },
   {
    "id": "suggested",
@@ -102,17 +102,17 @@
    "error": null,
    "n_events": 5,
    "n_food": 0,
-   "seconds": 4.0
+   "seconds": 5.6
   }
  ],
  "stats": {
   "events": 293,
-  "food_confirmed": 50,
-  "food_likely": 16,
+  "food_confirmed": 49,
+  "food_likely": 17,
   "forwarded": 25,
-  "forwarded_listed": 18,
+  "forwarded_listed": 17,
   "food_restricted": 42,
-  "seconds": 60.3
+  "seconds": 76.0
  },
  "events": [
   {
@@ -12965,9 +12965,9 @@
    "walk_min": 18
   },
   {
-   "id": "f6380b5376d4",
-   "title": "Artist Talk and Opening Reception for Constitutive Outside",
-   "url": "https://carpenter.center/programs/artist-talk-and-opening-reception-for-constitutive-outside",
+   "id": "d1771ad1bb18",
+   "title": "Constitutive Outside",
+   "url": "https://carpenter.center/exhibitions/constitutive-outside",
    "source_id": "newsletter",
    "source_name": "Forwarded: Thank You for Joining Us! See What’s Next at the Carpenter Center",
    "also_listed": [],
@@ -12976,22 +12976,23 @@
    "forwarded": {
     "by": "Cecilia",
     "subject": "Thank You for Joining Us! See What’s Next at the Carpenter Center",
-    "missing": []
+    "missing": [
+     "time"
+    ]
    },
-   "start": "2026-10-22T18:00:00-04:00",
+   "start": "2026-10-22T12:00:00-04:00",
    "end": null,
    "date": "2026-10-22",
-   "all_day": false,
+   "all_day": true,
    "location": "",
    "online": false,
    "host": "",
    "food": {
-    "status": "confirmed",
+    "status": "likely",
     "types": [
      "Reception"
     ],
-    "evidence": "Join us for an artist conversation with Steffani Jemison and Jibade-Khalil Huffman, moderated by curator Tarik Garrett, followed by a reception on Level 1 of the Carpenter Center.",
-    "cue": "strong"
+    "evidence": "Opening Reception: Thursday, October 22, 2026"
    },
    "registration": {
     "status": "unknown",
@@ -12999,13 +13000,13 @@
     "link": ""
    },
    "audience": {
-    "level": "public",
+    "level": "unknown",
     "group": "",
-    "evidence": "Free and open to the public.",
-    "basis": "text"
+    "evidence": "",
+    "basis": "none"
    },
-   "summary": "This program is happening on October 22, 2026 from 6:00pm–9:00pm. Artist Talk and Opening Reception for Constitutive Outside Join us for an artist conversation with Steffani Jemison and Jibade-Khalil Huffman, moderated by curator Tarik Garrett, followed by a reception on Level 1 of the Carpenter Center. 6:00–7:00 pm,…",
-   "blurb": "Join us for an artist conversation with Steffani Jemison and Jibade-Khalil Huffman, moderated by curator Tarik Garrett, followed by a reception on Level 1 of the Carpenter Center.",
+   "summary": "This exhibition will be on view from October 22 to December 13, 2026. Constitutive Outside Jibade-Khalil Huffman, You Are Here, 2026. Gameplay still. Courtesy of the artist. Constitutive Outside On View October 22—December 13, 2026 Opening Reception: Thursday, October 22, 2026 6:00–8:00 pm Constitutive Outside brings…",
+   "blurb": "This exhibition will be on view from October 22 to December 13, 2026. Constitutive Outside brings together works by Markele Cullins, Jibade-Khalil Huffman, Steffani Jemison, and Rindon Johnson. Across performance, installation, and screen space, the…",
    "event_page": true,
    "notes": "",
    "place_name": "Carpenter Center",
