@@ -16,6 +16,10 @@ Each email is read two ways, and the results are merged like any other source:
     "9/29", or "Thursday at noon" resolved against the send date). An item is kept
     when it falls in the scan window and the food rules fire on it.
 Forwarded emails are unwrapped first, so the original subject and date are used.
+
+Emails a fellow forwarded (sent by a person, not a mailing list, and marked as a forward)
+feed the site's "Events" view: every dated item in them is kept, food or not, up to
+FORWARD_DAYS ahead, tagged with the forwarder's first name.
 """
 import email
 import imaplib
@@ -27,7 +31,7 @@ from email.utils import parseaddr, parsedate_to_datetime
 
 from dateutil import parser as dparser
 
-from ..config import INBOX_DIR, TZ
+from ..config import FORWARD_DAYS, FORWARD_LOOKBACK_DAYS, INBOX_DIR, TZ
 from ..models import Event
 from ..text import html_to_text, links, one_line
 
@@ -50,6 +54,21 @@ FWD_MARK = re.compile(r"^\s*-{2,}\s*(?:forwarded message|original message|weiter
                       r"|^\s*begin forwarded message:\s*$|^\s*_{10,}\s*$", re.I | re.M)
 HEADER_LINE = re.compile(r"^(from|von|sent|date|datum|gesendet|subject|betreff|to|an|cc)\s*:\s*(.*)$", re.I)
 SUBJECT_PREFIX = re.compile(r"^\s*(?:(?:fwd?|wg|aw|re)\s*:\s*)+", re.I)
+FWD_SUBJECT = re.compile(r"^\s*(?:(?:re|aw)\s*:\s*)*(?:fwd?|wg|tr)\s*:", re.I)
+
+# A newsletter as the list sent it carries list headers; a person's forward does not. Only a person's
+# forward counts as "a fellow shared this" (a center admin mailing from Outlook has no forward marker).
+BULK_HEADERS = ("list-id", "list-unsubscribe", "list-post")
+BULK_PRECEDENCE = re.compile(r"bulk|list|junk", re.I)
+NEWSLETTER_SINCE_DAYS = int(os.environ.get("FFM_IMAP_SINCE_DAYS", "14"))
+
+# lines above a date line that are details, not the event's title
+NOT_TITLE = re.compile(
+    r"^(?:must|please|rsvp|register|registration|join|click|location|where|when|time|date|venue|room|address|"
+    r"open to|space is|seating|this event|tickets?|cost|admission|hosted by|sponsored by|co-?sponsored|presented by|"
+    r"moderated by|speakers?|featuring|learn more|read more|more info|details|view|watch|livestream|add to calendar|"
+    r"in[- ]person|online|virtual|zoom|free and open|all are welcome|doors open)\b", re.I)
+MAX_ITEMS_PER_EMAIL = 25
 
 # links worth following: event-ish wording, never unsubscribe/social/preferences links
 SKIP_LINK = re.compile(r"unsubscribe|preferences|manage (?:your )?subscription|view (?:this )?(?:email|in (?:your )?browser)|"
@@ -182,33 +201,73 @@ def _is_anchor(line):
     return bool(DATE_RE.search(line) or (REL_RE.search(line) and TIME_RE.search(line)))
 
 
-def extract_items(text, subject, start, end, today=None, origin=""):
+def _titleish(line):
+    t = re.sub(URL_RE, "", line).strip(" <>|–—-•*·:")
+    if not (4 <= len(t) <= 140) or NOT_TITLE.match(t) or (t.endswith(".") and len(t) > 60):
+        return ""
+    return t
+
+
+def _title_for(lines, i, floor):
+    """Title for the date line lines[i] -> (title or "", index of the title line).
+
+    The nearest title-like line among the three non-empty lines above it (never above `floor`, the line after
+    the previous date line); else the date line itself minus date and time, when that leaves a short name
+    ("Oct 13, 6 pm: Pathways to Public Service").
+    """
+    seen = 0
+    for j in range(i - 1, floor - 1, -1):
+        if not lines[j]:
+            continue
+        if _is_anchor(lines[j]) or seen == 3:
+            break
+        seen += 1
+        t = _titleish(lines[j])
+        if t:
+            return t, j
+    rest = DATE_RE.sub(" ", TIME_RE.sub(" ", re.sub(URL_RE, "", lines[i])))
+    rest = re.sub(r"\s+", " ", re.sub(r"\b(?:at|from|to|on|until)\b|[,|–—-]", " ", rest, flags=re.I)).strip(" :.")
+    rest = _titleish(rest) if len(rest.split()) >= 3 and len(rest) <= 100 else ""
+    return rest, i
+
+
+def extract_items(text, subject, start, end, today=None, origin="", keep_all=False):
     """Cut newsletter text into dated items; return Events for items within [start, end].
 
-    `today` is the reference date for year-less and relative dates: the email's send date.
+    `today` is the reference date for year-less and relative dates: the email's send date. An item is kept when
+    the food rules fire on it; with keep_all (an email a fellow forwarded) every item is kept.
     """
     from ..classify import detect_food  # local import: classify is independent of sources
 
     today = today or datetime.now(TZ).date()
     lines = [ln.strip() for ln in text.split("\n")]
     anchors = [i for i, ln in enumerate(lines) if _is_anchor(ln)]
-    events = []
-    for n, i in enumerate(anchors):
-        # the item starts at the title line just above the date line, ends before the next item's title
-        begin = i - 1 if i > 0 and lines[i - 1] and not _is_anchor(lines[i - 1]) else i
-        stop = (anchors[n + 1] - 1) if n + 1 < len(anchors) else min(len(lines), i + 15)
-        block = [ln for ln in lines[begin:max(stop, i + 1)] if ln]
+    # each date line gets a title line; an item runs from its title line to just before the next item's
+    heads, floor = [], 0
+    for i in anchors:
+        title, top = _title_for(lines, i, floor)
+        heads.append((i, title, top))
+        floor = i + 1
+    events, seen = [], set()
+    for n, (i, title, top) in enumerate(heads):
+        stop = heads[n + 1][2] if n + 1 < len(heads) else min(len(lines), i + 15)
+        block = [ln for ln in lines[top:max(stop, i + 1)] if ln]
         if not block:
             continue
         m = DATE_RE.search(lines[i])
         day = _parse_day(m.group(0), today) if m else _relative_day(lines[i], today)
         if not day or not (start <= day <= end):
             continue
+        if not title:
+            if keep_all and len(anchors) > 1:
+                continue          # a dated line in a digest with nothing that names it: skip rather than guess
+            title = re.sub(URL_RE, "", subject).strip()
         body = "\n".join(block)
-        title = re.sub(URL_RE, "", block[0]).strip(" <>|–-") if begin < i else re.sub(URL_RE, "", subject)
-        food = detect_food(title, body)
-        if food["status"] not in ("confirmed", "likely"):
+        if not keep_all and detect_food(title, body)["status"] not in ("confirmed", "likely"):
             continue
+        if (day, title.lower()) in seen:
+            continue
+        seen.add((day, title.lower()))
         hm = _parse_time(lines[i]) or _parse_time(body)
         start_dt = datetime(day.year, day.month, day.day, *(hm or (0, 0)), tzinfo=TZ)
         loc = ""
@@ -227,6 +286,8 @@ def extract_items(text, subject, start, end, today=None, origin=""):
             description=re.sub(r"\s*<https?://[^>]+>", "", body),
             extra={"origin": origin, "newsletter_subject": one_line(subject)},
         ))
+        if len(events) >= MAX_ITEMS_PER_EMAIL:
+            break
     return events
 
 
@@ -266,6 +327,32 @@ def linked_events(html, subject, start, end, http, budget):
     return out
 
 
+def first_name(display):
+    """'Nakashima, Ellen' -> 'Ellen'; 'Ellen Nakashima' -> 'Ellen'; '' when there is no usable name."""
+    display = re.sub(r"\(.*?\)|\[.*?\]|[\"']", "", display or "").strip()
+    if "@" in display:
+        return ""
+    if "," in display:
+        display = display.split(",", 1)[1]
+    parts = [w for w in display.split() if re.match(r"^[^\W\d_][\w.\-’]*$", w)]
+    return parts[0][:24] if parts else ""
+
+
+def forwarded_by(msg, text):
+    """For an email a fellow forwarded: their first name ('' if the mail gives none). None otherwise.
+
+    "Forwarded by a fellow" = sent by a person (no mailing-list headers, not an auto-reply) and marked as a
+    forward, by the subject (Fwd:, FW:, WG:) or a forwarded-message block in the text.
+    """
+    if any(msg.get(h) for h in BULK_HEADERS) or BULK_PRECEDENCE.search(str(msg.get("precedence", ""))):
+        return None
+    if str(msg.get("auto-submitted", "no")).lower() not in ("", "no"):
+        return None
+    if not (FWD_SUBJECT.match(str(msg.get("subject", ""))) or FWD_MARK.search(text or "")):
+        return None
+    return first_name(one_line(parseaddr(str(msg.get("from", "")))[0]))
+
+
 def confirm_subscription(msg, html, plain, subject, sent, http):
     """For a recent 'please confirm' mail from a Harvard sender, open its confirm link.
 
@@ -303,22 +390,48 @@ class NewsletterSource:
         self.report = []      # one line per email for the Suggest page: subject, date, events found
 
     def fetch(self, start, end, http):
+        from ..suggestions import accepted   # local import: suggestions imports this module
+
         out, self.report = [], []
         budget = [MAX_LINKS_PER_RUN]
-        messages = list(self._files()) + list(self._imap())
-        skipped = 0
-        for msg, origin in messages:
+        fwd_end = start + timedelta(days=FORWARD_DAYS - 1)
+        news_since = start - timedelta(days=NEWSLETTER_SINCE_DAYS)
+        rows, skipped = [], 0
+        for msg, origin in list(self._files()) + list(self._imap()):
             sender = parseaddr(str(msg.get("from", "")))[1].lower()
             if sender and (SYSTEM_SENDER.search(sender.split("@")[-1]) or SYSTEM_SENDER.search(sender)):
                 skipped += 1
                 continue
             html, plain = _message_parts(msg)
-            text = _html_with_links(html) if html else plain
-            text, subject, sent = unwrap_forward(text, str(msg.get("subject", "")) or origin, _sent_date(msg))
-            # Harvard senders (a center's own newsletter) are named in the public report; anyone else stays anonymous
-            from ..suggestions import accepted   # local import: suggestions imports this module
+            raw_text = _html_with_links(html) if html else plain
+            rows.append((msg, origin, sender, html, plain, raw_text, forwarded_by(msg, raw_text)))
+        # fellows' forwards first, so they always get their share of the link budget
+        rows.sort(key=lambda r: r[6] is None)
+        n_read = n_fwd = 0
+        for msg, origin, sender, html, plain, raw_text, by in rows:
+            sent_outer = _sent_date(msg)
+            if by is None and sent_outer and sent_outer < news_since:
+                continue          # the mailbox is read further back for forwards; ordinary newsletters: 2 weeks
+            n_read += 1
+            text, subject, sent = unwrap_forward(raw_text, str(msg.get("subject", "")) or origin, sent_outer)
+            # a center's own newsletter is named in the public report; a person's mail never is
             harvard = bool(sender) and accepted({"url": "https://" + sender.split("@")[-1] + "/"})
-            who = (one_line(parseaddr(str(msg.get("from", "")))[0]) or sender.split("@")[-1])[:60] if harvard else None
+            who = (one_line(parseaddr(str(msg.get("from", "")))[0]) or sender.split("@")[-1])[:60] \
+                if harvard and by is None else None
+            if by is not None:
+                n_fwd += 1
+                found = extract_items(text, subject, start, fwd_end, today=sent, origin=origin, keep_all=True)
+                if html:
+                    found += linked_events(html, subject, start, fwd_end, http, budget)
+                tag = {"by": by or None, "subject": one_line(subject)[:120]}
+                for ev in found:
+                    ev.extra["forwarded"] = tag
+                    ev.source_name = f"Forwarded: {one_line(subject)[:80]}"
+                out += found
+                self.report.append({"subject": one_line(subject)[:100] if found else None,
+                                    "sent": sent.isoformat() if sent else None, "items": len(found),
+                                    "sender": None, "forwarded_by": by or "a fellow"})
+                continue
             confirm = confirm_subscription(msg, html, plain, subject, sent, http)
             if confirm:
                 # list name is shown only for Harvard senders (those are the ones confirmed automatically)
@@ -334,8 +447,8 @@ class NewsletterSource:
             # so a mis-forwarded personal mail stays private
             self.report.append({"subject": one_line(subject)[:100] if (found or harvard) else None,
                                 "sent": sent.isoformat() if sent else None, "items": len(found), "sender": who})
-        print(f"  newsletter   {len(messages) - skipped} emails read ({skipped} account emails skipped), "
-              f"{len(out)} items before food/audience checks", flush=True)
+        print(f"  newsletter   {n_read} emails read ({n_fwd} forwarded by fellows, {skipped} account emails "
+              f"skipped), {len(out)} items before food/audience checks", flush=True)
         return out
 
     def _files(self):
@@ -358,7 +471,8 @@ class NewsletterSource:
         host, user, pw = (os.environ.get(k) for k in ("FFM_IMAP_HOST", "FFM_IMAP_USER", "FFM_IMAP_PASSWORD"))
         if not (host and user and pw):
             return
-        since = (datetime.now() - timedelta(days=int(os.environ.get("FFM_IMAP_SINCE_DAYS", "14")))).strftime("%d-%b-%Y")
+        # forwards are read further back than newsletters (fetch() drops newsletters older than 14 days)
+        since = (datetime.now() - timedelta(days=max(NEWSLETTER_SINCE_DAYS, FORWARD_LOOKBACK_DAYS))).strftime("%d-%b-%Y")
         senders = [s.strip() for s in os.environ.get("FFM_IMAP_FROM", "").split(",") if s.strip()]
         from ..suggestions import accepted   # local import: suggestions imports this module
 

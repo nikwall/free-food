@@ -111,12 +111,26 @@ svg { width: 22px; height: 22px; fill: none; stroke: currentColor; stroke-width:
   background: var(--red); color: #fff; font: 600 10px/16px var(--sans); text-align: center;
 }
 
-/* ---------- day strip ---------- */
-.days {
+/* ---------- mode switch + day strip ---------- */
+.strip {
   position: sticky; top: var(--bar, calc(var(--appbar-h) + env(safe-area-inset-top))); z-index: 1000;   /* --bar: measured app bar */
-  display: flex; gap: 6px; overflow-x: auto; scrollbar-width: none; background: var(--bg);
-  padding: 10px 16px; border-bottom: 1px solid var(--line); scroll-snap-type: x proximity;
+  display: flex; align-items: stretch; background: var(--bg); border-bottom: 1px solid var(--line);
 }
+.seg.mode { flex: none; margin: 10px 0 10px 16px; border-color: var(--red); }
+.seg.mode button { padding: 0 14px; font: 600 14px/1 var(--sans); color: var(--red); }
+.seg.mode button + button { border-left-color: var(--red); }
+.seg.mode button.on { background: var(--red); color: #fff; }
+.days {
+  flex: 1; min-width: 0; display: flex; gap: 6px; overflow-x: auto; scrollbar-width: none;
+  padding: 10px 16px 10px 10px; scroll-snap-type: x proximity;
+}
+body[data-mode="events"] .food-only { display: none !important; }
+.agenda-day {
+  display: flex; align-items: baseline; gap: 10px; margin: 18px 0 8px; padding-bottom: 4px; border-bottom: 1px solid var(--line);
+  font: 600 17px/1.2 var(--serif);
+}
+.agenda-day span { font: 500 10.5px/1 var(--mono); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+.dayhead + .agenda-day, .note + .agenda-day { margin-top: 4px; }
 .days::-webkit-scrollbar { display: none; }
 .day {
   flex: 0 0 auto; scroll-snap-align: start; border: 1px solid var(--line); background: var(--surface);
@@ -355,7 +369,7 @@ svg { width: 22px; height: 22px; fill: none; stroke: currentColor; stroke-width:
 
 /* ---------- when hosted on claude.ai ---------- */
 .in-artifact .appbar { top: env(safe-area-inset-top, 0px); padding-top: 8px; }
-.in-artifact .days { top: calc(var(--bar) + env(safe-area-inset-top, 0px)); }
+.in-artifact .strip { top: calc(var(--bar) + env(safe-area-inset-top, 0px)); }
 @media (max-width: 899px) {
   .in-artifact body { padding-bottom: var(--tabbar-h); }
   .in-artifact .layout[data-view="map"] .mapwrap { top: calc(var(--top) + env(safe-area-inset-top, 0px)); }
@@ -428,4 +442,10 @@ svg { width: 22px; height: 22px; fill: none; stroke: currentColor; stroke-width:
 @media (max-width: 899px) {
   .notice > span:nth-child(3) { flex-basis: 100%; }          /* "Missing an event? ..." gets its own line */
   .notice > span:nth-child(3)::before { content: none; }
+}
+
+@media (max-width: 899px) {
+  .seg.mode { margin-left: 12px; width: auto; }
+  .seg.mode button { flex: none; padding: 0 11px; font-size: 14px; }
+  .days { padding-left: 8px; padding-right: 12px; }
 }

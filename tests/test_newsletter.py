@@ -105,8 +105,53 @@ def test_confirmation_mail():
     assert confirm_subscription(msg, html, "", "This week at the Example Center", today, FakeHttp) is None
 
 
+DIGEST = """Next Week at the Example Institute
+
+Pathways to Public Service Networking Night
+
+Must RSVP with a valid Harvard email address
+Join us on October 13 for our Pathways to Public Service Networking Night at the Institute.
+
+The Youth Vote and the Midterms
+Tuesday, October 13, 2026
+Time: 5:00pm EST
+Where: L-280
+
+New Study Group: Covering Congress
+Wednesdays, 6 pm, starting Oct. 14
+"""
+
+
+def test_fellow_forward():
+    from email.message import EmailMessage
+    from freefood.sources.newsletters import forwarded_by
+
+    def mail(sender, subject, **headers):
+        m = EmailMessage()
+        m["From"], m["Subject"] = sender, subject
+        for k, v in headers.items():
+            m[k.replace("_", "-")] = v
+        return m
+
+    assert forwarded_by(mail("\"Nakashima, Ellen\" <en@example.harvard.edu>", "Fwd: Next Week"), "") == "Ellen"
+    assert forwarded_by(mail("Cecilia Reyes <cr@example.com>", "Film Archive"), FORWARDED) == "Cecilia"   # marker in the text
+    assert forwarded_by(mail("<x@example.com>", "FW: Talk"), "") == ""                                     # unnamed fellow
+    assert forwarded_by(mail("Institute <news@example.harvard.edu>", "Fwd: Next Week",
+                             List_Unsubscribe="<https://example.org/u>"), "") is None                       # a list's own mail
+    assert forwarded_by(mail("Jane Doe <jd@example.com>", "Hello"), "Hi there") is None                     # not a forward
+
+    evs = extract_items(DIGEST, "Next Week", date(2026, 10, 12), date(2026, 11, 8), today=date(2026, 10, 9), keep_all=True)
+    got = [(e.title, e.start.day, e.all_day or e.start.hour, e.location) for e in evs]
+    assert got == [("Pathways to Public Service Networking Night", 13, True, ""),
+                   ("The Youth Vote and the Midterms", 13, 17, "L-280"),
+                   ("New Study Group: Covering Congress", 14, 18, "")], got
+    # without keep_all only food items count, and none of these has food
+    assert extract_items(DIGEST, "Next Week", date(2026, 10, 12), date(2026, 11, 8), today=date(2026, 10, 9)) == []
+
+
 if __name__ == "__main__":
     test_extract()
     test_forwarded_and_relative_dates()
     test_confirmation_mail()
+    test_fellow_forward()
     print("newsletter extraction checks passed")

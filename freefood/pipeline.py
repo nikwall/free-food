@@ -10,7 +10,7 @@ from datetime import datetime, timedelta
 from . import suggestions
 from .audience import detect_audience
 from .classify import detect_food, detect_registration
-from .config import DATA_DIR, DAYS_AHEAD, EVENTS_FILE, TZ
+from .config import DATA_DIR, DAYS_AHEAD, EVENTS_FILE, FORWARD_DAYS, TZ
 from .geo import Geocoder, walk_minutes
 from .http import Http
 from .sources import SOURCES
@@ -72,6 +72,7 @@ def build_record(ev, geo, home):
         "also_listed": [],
         "aliases": [],
         "suggested": None,          # {"by", "note"} when a fellow suggested it
+        "forwarded": ev.extra.get("forwarded"),   # {"by", "subject"} when a fellow forwarded it (Events view)
         "start": local_start.isoformat(),
         "end": ev.end.astimezone(TZ).isoformat() if ev.end else None,
         "date": local_start.date().isoformat(),
@@ -124,6 +125,8 @@ def merge_duplicates(records):
         # between equally authoritative ones, the more restrictive
         best["audience"] = max((r["audience"] for r in group),
                                key=lambda a: (BASIS_RANK[a["basis"]], LEVEL_RANK[a["level"]]))
+        # a fellow's forward stays visible in the Events view even when a calendar's record is richer
+        best["forwarded"] = next((r["forwarded"] for r in group if r.get("forwarded")), None)
         # votes are keyed by id, so a merged event keeps the same id whichever record is "best"
         ids = sorted(r["id"] for r in group)
         best["id"], best["aliases"] = ids[0], ids[1:]
@@ -135,6 +138,7 @@ def run_scan(days=DAYS_AHEAD, only=None, log=print):
     t0 = time.time()
     today = datetime.now(TZ).date()
     start, end = today, today + timedelta(days=days - 1)
+    fwd_end = today + timedelta(days=max(days, FORWARD_DAYS) - 1)     # fellows' forwards reach further ahead
     http, geo = Http(), Geocoder()
     home = geo.home()
     sources = [s for s in SOURCES if not only or s.id in only]
@@ -158,7 +162,7 @@ def run_scan(days=DAYS_AHEAD, only=None, log=print):
                 continue
             if ev.end and (ev.end - ev.start) > timedelta(hours=14):
                 continue          # exhibitions and multi-day programs are not meals
-            if not (start <= ev.start.astimezone(TZ).date() <= end):
+            if not (start <= ev.start.astimezone(TZ).date() <= (fwd_end if ev.extra.get("forwarded") else end)):
                 continue
             try:
                 kept.append(build_record(ev, geo, home))
@@ -198,11 +202,13 @@ def run_scan(days=DAYS_AHEAD, only=None, log=print):
     payload = {
         "generated_at": datetime.now(TZ).isoformat(timespec="seconds"),
         "window": {"start": start.isoformat(), "end": end.isoformat()},
+        "events_window": {"start": start.isoformat(), "end": fwd_end.isoformat()},
         "home": home,
         "sources": status,
         "stats": {"events": len(events),
                   "food_confirmed": sum(e["food"]["status"] == "confirmed" for e in events),
                   "food_likely": sum(e["food"]["status"] == "likely" for e in events),
+                  "forwarded": sum(bool(e["forwarded"]) for e in events),
                   "food_restricted": sum(e["food"]["status"] in ("confirmed", "likely")
                                          and e["audience"]["level"] == "restricted" for e in events),
                   "seconds": round(time.time() - t0, 1)},

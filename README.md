@@ -122,6 +122,16 @@ usual food and audience checks. The Suggest page lists the newsletters received,
 contained. Events that appear only as images in an email are not read; that would need an AI model.
 On your own laptop, `.eml`, `.txt` or `.html` files dropped into `inbox/` are read the same way.
 
+### The Events view
+
+The site has two modes, switched at the left of the day strip: **Food** (above) and **Events**. Events lists
+what fellows forwarded to the inbox, food or not. An email counts as a fellow's forward when a person sent
+it (no mailing-list headers such as `List-Unsubscribe`) and it is marked as a forward (`Fwd:`, `FW:`, `WG:`
+or a forwarded-message block). From such an email every dated item is kept, plus the event pages it links
+to, up to `FFM_FORWARD_DAYS` (28) days ahead; forwards are read `FFM_FORWARD_LOOKBACK_DAYS` (30) days back.
+Each event carries `forwarded: {"by": first name, "subject"}`; only the first name is published. Events
+mode opens on "All upcoming", an agenda grouped by day. A link to `…/free-food/#events` opens it directly.
+
 ## Files
 
 ```
