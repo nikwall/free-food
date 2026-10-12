@@ -231,7 +231,7 @@ def _titleish(line):
         return ""                         # "Amb." left over from a broken line
     if PLACE_LINE.match(t) and PLACE_WORD.search(t):
         return ""                         # the event's place
-    if len(re.findall(r"[^\W\d_]{2,}", DATE_RE.sub(" ", TIME_RE.sub(" ", t)))) < 2:
+    if (TIME_RE.search(t) or DATE_RE.search(t)) and len(re.findall(r"[^\W\d_]{2,}", DATE_RE.sub(" ", TIME_RE.sub(" ", t)))) < 2:
         return ""                         # only a date or time ("6:00–9:00pm")
     return t
 
