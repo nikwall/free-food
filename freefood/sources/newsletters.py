@@ -417,12 +417,20 @@ def confirm_subscription(msg, html, plain, subject, sent, http):
 def _prefer_pages(text_items, page_items):
     """Drop text items at the same day and time (within 15 minutes) as an event page the email links to:
     the page has the real title, place and link."""
-    def clash(a, b):
-        same_day = a.start.astimezone(TZ).date() == b.start.astimezone(TZ).date()
-        return same_day and (a.all_day or b.all_day or abs((a.start - b.start).total_seconds()) <= 900)
+    def words(title):
+        return {w for w in re.findall(r"[a-z0-9]+", title.lower()) if len(w) > 2}
+
+    def same(t, p):
+        if t.start.astimezone(TZ).date() != p.start.astimezone(TZ).date():
+            return False
+        a, b = words(t.title), words(p.title)
+        overlap = len(a & b) / min(len(a), len(b)) if a and b else 0
+        close = not (t.all_day or p.all_day) and abs((t.start - p.start).total_seconds()) <= 900
+        return overlap >= 0.6 or (close and overlap >= 0.3)
+
     kept = []
     for t in text_items:
-        pages = [p for p in page_items if clash(t, p) and (not t.all_day or p.all_day)]
+        pages = [p for p in page_items if same(t, p)]
         if not pages:
             kept.append(t)
             continue
