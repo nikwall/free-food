@@ -431,6 +431,8 @@ def _prefer_pages(text_items, page_items):
     kept = []
     for t in text_items:
         pages = [p for p in page_items if same(t, p)]
+        if t.all_day and any(p.start.astimezone(TZ).date() == t.start.astimezone(TZ).date() for p in page_items):
+            continue              # a date mentioned in a sentence ("... on October 13"); the linked page has the event
         if not pages:
             kept.append(t)
             continue
