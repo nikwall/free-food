@@ -235,7 +235,7 @@
   // hidden in the default "Open to fellows" view: stated limits, and in Food also "probably only …" guesses
   // (a fellow forwarded the Events, so a guess alone doesn't hide one there)
   const restricted = (ev) => ev.audience && (ev.audience.level === "restricted" || (!EVENTS() && ev.audience.level === "likely"));
-  const evColor = (ev) => (EVENTS() ? "var(--red)" : typeColor(ev.food.types[0]));
+  const evColor = (ev) => (EVENTS() ? "var(--blue)" : typeColor(ev.food.types[0]));
   // the pipeline lists what a forwarded event lacks (time, place, event page, description); only complete ones show
   const listable = (ev) => !!ev.forwarded && !(ev.forwarded.missing || []).length;
   const forwardedBadge = (ev) => ev.forwarded
@@ -409,7 +409,7 @@
     const fwd = (SB.newsletterForwardAddress || "").trim();
     const title = all ? "Coming up" : state.day === today ? "Today" : fmtDay(state.day, { weekday: "long" });
     const count = EVENTS() ? `${evs.length} forwarded by fellows` : `${evs.length} with food`;
-    let html = `<div class="dayhead"><h1>${title}</h1><span class="sub">${all ? "" : fmtDay(state.day, { month: "long", day: "numeric" }) + " · "}${count}</span></div>`;
+    let html = `<div class="dayhead"><h1><span class="modetag">${EVENTS() ? "Events" : "Free food"}</span>${title}</h1><span class="sub">${all ? "" : fmtDay(state.day, { month: "long", day: "numeric" }) + " · "}${count}</span></div>`;
     const notes = [];
     if (hiddenRestricted) notes.push(`${hiddenRestricted} for students, Houses or clubs only, hidden · <button type="button" class="link-btn" data-showrestricted>Show</button>`);
     if (finished) notes.push(`${finished} already finished`);
