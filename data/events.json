@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-12T09:09:10-04:00",
+ "generated_at": "2026-10-12T12:04:04-04:00",
  "window": {
   "start": "2026-10-12",
   "end": "2026-10-19"
@@ -22,7 +22,7 @@
    "error": null,
    "n_events": 96,
    "n_food": 2,
-   "seconds": 0.4
+   "seconds": 0.7
   },
   {
    "id": "hks",
@@ -32,7 +32,7 @@
    "error": null,
    "n_events": 46,
    "n_food": 9,
-   "seconds": 1.1
+   "seconds": 16.2
   },
   {
    "id": "hls",
@@ -42,7 +42,7 @@
    "error": null,
    "n_events": 82,
    "n_food": 42,
-   "seconds": 8.8
+   "seconds": 8.2
   },
   {
    "id": "college",
@@ -50,9 +50,9 @@
    "homepage": "https://events.college.harvard.edu/",
    "ok": true,
    "error": null,
-   "n_events": 90,
-   "n_food": 8,
-   "seconds": 0.2
+   "n_events": 93,
+   "n_food": 9,
+   "seconds": 0.4
   },
   {
    "id": "ash",
@@ -62,7 +62,7 @@
    "error": null,
    "n_events": 4,
    "n_food": 2,
-   "seconds": 0.2
+   "seconds": 1.8
   },
   {
    "id": "shorenstein",
@@ -72,7 +72,7 @@
    "error": null,
    "n_events": 2,
    "n_food": 0,
-   "seconds": 9.1
+   "seconds": 10.8
   },
   {
    "id": "fairbank",
@@ -90,9 +90,9 @@
    "homepage": "",
    "ok": true,
    "error": null,
-   "n_events": 29,
+   "n_events": 30,
    "n_food": 5,
-   "seconds": 47.6
+   "seconds": 53.5
   },
   {
    "id": "suggested",
@@ -102,17 +102,17 @@
    "error": null,
    "n_events": 5,
    "n_food": 0,
-   "seconds": 7.6
+   "seconds": 4.0
   }
  ],
  "stats": {
-  "events": 291,
-  "food_confirmed": 49,
+  "events": 293,
+  "food_confirmed": 50,
   "food_likely": 16,
-  "forwarded": 24,
+  "forwarded": 25,
   "forwarded_listed": 18,
-  "food_restricted": 41,
-  "seconds": 56.5
+  "food_restricted": 42,
+  "seconds": 60.3
  },
  "events": [
   {
@@ -465,6 +465,51 @@
    "walk_min": 5
   },
   {
+   "id": "682b2a37a803",
+   "title": "Harvard University Men’s Tennis vs ITA New England Regionals Day Five",
+   "url": "https://events.college.harvard.edu/event/225429-harvard-university-mens-tennis-vs-ita-new-england",
+   "source_id": "college",
+   "source_name": "Harvard College events",
+   "also_listed": [],
+   "aliases": [
+    "757dc16f3389"
+   ],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-10-12T10:00:00-04:00",
+   "end": "2026-10-12T13:00:00-04:00",
+   "date": "2026-10-12",
+   "all_day": false,
+   "location": "Cambridge, Mass.",
+   "online": false,
+   "host": "Main Calendar",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "Harvard College students",
+    "evidence": "Harvard College calendar, no sign it is open to others",
+    "basis": "default"
+   },
+   "summary": "Harvard University Men’s Tennis vs ITA New England Regionals Day Five Streaming Video: https://ivyleague.tv/?school=harvard URL:https://gocrimson.com/calendar.aspx?game_id=33741&sport_id=20",
+   "blurb": "",
+   "event_page": true,
+   "notes": "",
+   "place_name": "",
+   "lat": null,
+   "lon": null,
+   "geo_method": null,
+   "walk_min": null
+  },
+  {
    "id": "34f2a2e4779b",
    "title": "Harvard and the American Revolution",
    "url": "https://library.harvard.edu/exhibits/harvard-and-american-revolution",
@@ -807,6 +852,56 @@
    "lon": null,
    "geo_method": null,
    "walk_min": null
+  },
+  {
+   "id": "48e04d475b7d",
+   "title": "Weekly SITREP October 13-16",
+   "url": "https://engage.hks.harvard.edu/organization/armedforcescommittee",
+   "source_id": "newsletter",
+   "source_name": "Forwarded: Weekly SITREP October 13-16",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": {
+    "by": "Ellen",
+    "subject": "Weekly SITREP October 13-16",
+    "missing": [
+     "time",
+     "event page"
+    ]
+   },
+   "start": "2026-10-13T00:00:00-04:00",
+   "end": null,
+   "date": "2026-10-13",
+   "all_day": true,
+   "location": "",
+   "online": false,
+   "host": "",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "Subject: Weekly SITREP October 13-16 Links and Reminders Find the newsletter PDF with direct links attached to this E-Mail RSVP link for the upcoming AFC Happy Hour will be shared shortly. Join AFC on HKS Engage HERE All events can be seen on the Armed Forces Committee Calendar (found in Outlook, under your HKS…",
+   "blurb": "Armed Forces Committee Calendar (found in Outlook, under your HKS account, and \"Groups\") You’re receiving this message because you are a member of the Armed Forces Committee.",
+   "event_page": false,
+   "notes": "",
+   "place_name": "Harvard Kennedy School",
+   "lat": 42.371989,
+   "lon": -71.121761,
+   "geo_method": "text",
+   "walk_min": 16
   },
   {
    "id": "29db35e44de1",
@@ -2753,6 +2848,52 @@
    "lon": -71.121761,
    "geo_method": "host",
    "walk_min": 16
+  },
+  {
+   "id": "61739c1a0cb6",
+   "title": "Teaching & Teacher Leadership Info Session",
+   "url": "https://events.college.harvard.edu/winthrop-house/event/225415-teaching-teacher-leadership-info-session",
+   "source_id": "college",
+   "source_name": "Harvard College events",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-10-13T17:30:00-04:00",
+   "end": "2026-10-13T18:30:00-04:00",
+   "date": "2026-10-13",
+   "all_day": false,
+   "location": "Private Dining Room",
+   "online": false,
+   "host": "Winthrop House",
+   "food": {
+    "status": "confirmed",
+    "types": [
+     "Dinner"
+    ],
+    "evidence": "Join us for an informative dinner with the Harvard Graduate School of Education where you’ll engage with current students and learn how to align your passions with the right program.",
+    "cue": "weak"
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "Winthrop House residents",
+    "evidence": "Hosted by Winthrop House",
+    "basis": "inferred"
+   },
+   "summary": "Interested in learning more about the Harvard Graduate School of Education (HGSE)? HGSE will be at Winthrop House on October 13th and wants to speak with you! Come join us during dinner, from 5:30-6:30pm in the Private Dining Room where you can: - Learn more about our Teaching & Teacher Leadership program from current…",
+   "blurb": "Interested in learning more about the Harvard Graduate School of Education (HGSE)? HGSE will be at Winthrop House on October 13th and wants to speak with you! Come join us during dinner, from 5:30-6:30pm in the Private Dining Room where you can: - Discuss…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Winthrop House",
+   "lat": 42.370356,
+   "lon": -71.118646,
+   "geo_method": "host",
+   "walk_min": 15
   },
   {
    "id": "014c78910e5e",
@@ -4801,19 +4942,19 @@
    "walk_min": 16
   },
   {
-   "id": "a0a81d6e90ec",
-   "title": "Fall Study Group: How Should Democracies Govern Scarce, Life-Saving Resources?",
-   "url": "https://www.hks.harvard.edu/events/fall-study-group-how-should-democracies-govern-scarce-life-saving-resources",
-   "source_id": "hks",
-   "source_name": "Harvard Kennedy School",
+   "id": "82e0ec001e40",
+   "title": "Fall Study Group: How Should Democracies Govern Scarce, Life-Saving Resources? The Case of Organ Transplantation",
+   "url": "https://ash.harvard.edu/events/fall-study-group-how-should-democracies-govern-scarce-life-saving-resources-the-case-of-organ-transplantation/",
+   "source_id": "ash",
+   "source_name": "Ash Center (HKS)",
    "also_listed": [
     {
-     "source_name": "Ash Center (HKS)",
-     "url": "https://ash.harvard.edu/events/fall-study-group-how-should-democracies-govern-scarce-life-saving-resources-the-case-of-organ-transplantation/"
+     "source_name": "Harvard Kennedy School",
+     "url": "https://www.hks.harvard.edu/index%2ephp/events/fall-study-group-how-should-democracies-govern-scarce-life-saving-resources"
     }
    ],
    "aliases": [
-    "f806ed4b8016"
+    "a0a81d6e90ec"
    ],
    "suggested": null,
    "forwarded": null,
@@ -4821,9 +4962,9 @@
    "end": "2026-10-14T15:00:00-04:00",
    "date": "2026-10-14",
    "all_day": false,
-   "location": "Ash Seminar Room 225, 124 Mount Auburn Street, Suite 200 N",
+   "location": "Harvard Kennedy School",
    "online": false,
-   "host": "Ash Center for Democratic Governance and Innovation",
+   "host": "Ash Center for Democratic Governance",
    "food": {
     "status": "none",
     "types": [],
@@ -4831,24 +4972,24 @@
    },
    "registration": {
     "status": "required",
-    "evidence": "RSVP link on the event page",
+    "evidence": "Registration link on the event page",
     "link": "https://harvard.az1.qualtrics.com/jfe/form/SV_5cHLizAnkR7Cpts"
    },
    "audience": {
     "level": "restricted",
-    "group": "HKS students",
-    "evidence": "Title: Fall Study Group: How Should Democracies Govern Scarce, Life-Saving Resources?",
+    "group": "students",
+    "evidence": "Title: Fall Study Group: How Should Democracies Govern Scarce, Life-Saving Resources? The Case of Organ Transplantation",
     "basis": "inferred"
    },
-   "summary": "Fall Study Group: How Should Democracies Govern Scarce, Life-Saving Resources? Who decides how scarce, life-saving resources are distributed—and what makes those decisions fair? Join Ash Center Democracy Visiting Fellows Aditya Pawar and Santiago Creuheras for a six-session study group exploring organ transplantation…",
-   "blurb": "Who decides how scarce, life-saving resources are distributed—and what makes those decisions fair? Join Ash Center Democracy Visiting Fellows Aditya Pawar and Santiago Creuheras for a six-session study group exploring organ transplantation as a question of…",
+   "summary": "This in-person study group led by Aditya Pawar, Ash Center Democracy Visiting Fellow, and Santiago Creuheras, Ash Center Democracy Visiting Fellow, will take place throughout six sessions. Applications are necessary. Nearly 110,000 people are currently on the U.S. transplant waiting list, and about 12 people die each…",
+   "blurb": "Nearly 110,000 people are currently on the U.S. transplant waiting list, and about 12 people die each day while waiting for an organ. This study group will examine transplantation as a governance and democracy issue, asking how institutions allocate scarce…",
    "event_page": true,
    "notes": "",
-   "place_name": "Ash Center (124 Mt Auburn St)",
-   "lat": 42.372952,
-   "lon": -71.123759,
+   "place_name": "Harvard Kennedy School",
+   "lat": 42.371989,
+   "lon": -71.121761,
    "geo_method": "gazetteer",
-   "walk_min": 17
+   "walk_min": 16
   },
   {
    "id": "365524a51688",
@@ -8772,49 +8913,6 @@
    "walk_min": 12
   },
   {
-   "id": "c43291e157f0",
-   "title": "Harvard University Cross Country vs IC4A/ECAC Championships",
-   "url": "https://events.college.harvard.edu/event/224721-harvard-university-cross-country-vs-ic4aecac",
-   "source_id": "college",
-   "source_name": "Harvard College events",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-10-16T00:00:00-04:00",
-   "end": null,
-   "date": "2026-10-16",
-   "all_day": true,
-   "location": "New York, N.Y.",
-   "online": false,
-   "host": "Main Calendar",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
-   },
-   "audience": {
-    "level": "restricted",
-    "group": "Harvard College students",
-    "evidence": "Harvard College calendar, no sign it is open to others",
-    "basis": "default"
-   },
-   "summary": "Harvard University Cross Country vs IC4A/ECAC Championships URL:https://gocrimson.com/calendar.aspx?game_id=33357&sport_id=2",
-   "blurb": "",
-   "event_page": true,
-   "notes": "",
-   "place_name": "",
-   "lat": null,
-   "lon": null,
-   "geo_method": null,
-   "walk_min": null
-  },
-  {
    "id": "84f0b138159c",
    "title": "Muriel Siebert: Redefining Power and Possibility on Wall Street",
    "url": "https://www.library.hbs.edu/special-collections-and-archives/exhibits/muriel-siebert",
@@ -10546,7 +10644,8 @@
    "also_listed": [],
    "aliases": [
     "5e6e55dc6ff5",
-    "e2cb2f7aa318"
+    "e2cb2f7aa318",
+    "e512f5c29565"
    ],
    "suggested": null,
    "forwarded": null,
@@ -13292,6 +13391,13 @@
    "items": 3,
    "sender": null,
    "forwarded_by": "Cecilia"
+  },
+  {
+   "subject": "Weekly SITREP October 13-16",
+   "sent": "2026-10-12",
+   "items": 1,
+   "sender": null,
+   "forwarded_by": "Ellen"
   },
   {
    "subject": "Jodidi Lecture / Testimony (1989–2026) with Ron Haviv",
