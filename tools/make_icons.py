@@ -25,6 +25,7 @@ GOLD, GOLD_DARK = "#CDA349", "#8E6A1F"
 WHITE, CREAM, CREAM_DARK = "#FFFFFF", "#F6EEDC", "#DCCBA3"
 TILE = "#F7F6F5"                         # the site's background, behind the icons
 
+MOTTO_FONT = "&apos;Source Serif 4&apos;, serif"   # the site's serif; the page puts the crest inline to use it
 SHIELD = "M20,10 H180 V100 C180,158 142,190 100,208 C58,190 20,158 20,100 Z"
 
 
@@ -74,8 +75,8 @@ def motto_svg():
             f'<path d="M20,212 Q100,236 180,212 L183,242 Q100,266 17,242 Z" fill="{CREAM}" stroke="{GOLD_DARK}" '
             f'stroke-width="1.5" stroke-linejoin="round"/>'
             f'<path id="mottoLine" d="M24,232 Q100,256 176,232" fill="none"/>'
-            f'<text font-family="Georgia, Times New Roman, serif" font-size="12.5" font-weight="700" '
-            f'letter-spacing="1.3" fill="{CRIMSON_DARK}"><textPath href="#mottoLine" startOffset="50%" '
+            f'<text font-family="{MOTTO_FONT}" font-size="12.5" font-weight="700" '
+            f'fill="{CRIMSON_DARK}"><textPath href="#mottoLine" startOffset="50%" '
             f'text-anchor="middle">PRANDIUM GRATIS</textPath></text>')
 
 

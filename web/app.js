@@ -1009,6 +1009,12 @@
   try {
     if (!window.claude && "serviceWorker" in navigator && window.isSecureContext) navigator.serviceWorker.register("sw.js").catch(() => {});
   } catch (_) { /* sandboxed frame */ }
+  // The About crest's motto is set in Source Serif 4. An <img> can't use the page's web fonts, so the SVG
+  // is put into the page itself (the <img> stays as the fallback).
+  fetch("crest.svg").then((r) => (r.ok ? r.text() : Promise.reject())).then((svg) => {
+    const img = document.querySelector(".about-crest .crest-full");
+    if (img && svg.startsWith("<svg")) img.outerHTML = svg.replace("<svg ", '<svg class="crest-full" ');
+  }).catch(() => {});
   initMap();
   bind();
   setMode(state.mode, { remember: false });
