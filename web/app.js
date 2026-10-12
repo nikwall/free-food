@@ -235,12 +235,14 @@
   // hidden in the default "Open to fellows" view: stated limits, and in Food also "probably only …" guesses
   // (a fellow forwarded the Events, so a guess alone doesn't hide one there)
   const restricted = (ev) => ev.audience && (ev.audience.level === "restricted" || (!EVENTS() && ev.audience.level === "likely"));
-  const evColor = (ev) => (EVENTS() && !hasFood(ev) ? "var(--red)" : typeColor(ev.food.types[0]));
+  const evColor = (ev) => (EVENTS() ? "var(--red)" : typeColor(ev.food.types[0]));
+  // the pipeline lists what a forwarded event lacks (time, place, event page, description); only complete ones show
+  const listable = (ev) => !!ev.forwarded && !(ev.forwarded.missing || []).length;
   const forwardedBadge = (ev) => ev.forwarded
     ? `<span class="badge sugg" title="${esc(ev.forwarded.subject || "")}">Forwarded by ${esc(ev.forwarded.by || "a fellow")}</span>` : "";
 
   function matches(ev, { ignoreTypes = false, ignoreDay = false, ignoreAud = false } = {}) {
-    if (EVENTS() ? !ev.forwarded : !isFood(ev)) return false;
+    if (EVENTS() ? !listable(ev) : !isFood(ev)) return false;
     if (!ignoreDay && state.day !== "all" && ev.date !== state.day) return false;
     if (!ignoreAud && state.aud === "open" && restricted(ev)) return false;
     if (!EVENTS() && !ignoreTypes && state.types.size && !ev.food.types.some((t) => state.types.has(t))) return false;
@@ -269,7 +271,6 @@
     const canSuggest = backend !== "db" && sbOn();
     const parts = EVENTS() ? [
       `<span class="${stale ? "stale" : ""}">Updated ${esc(stamp)}${stale ? " (may be out of date)" : ""}</span>`,
-      `<span>Forwarded by fellows, food or not</span>`,
       fwd ? `<span>Seen a good one? Forward it to <a href="mailto:${esc(fwd)}">${esc(fwd)}</a></span>` : "",
     ].filter(Boolean) : [
       `<span class="${stale ? "stale" : ""}">Updated ${esc(stamp)}${stale ? " (may be out of date)" : ""}</span>`,
@@ -345,7 +346,7 @@
       const tally = [v.going ? who : "", v.skip ? `${v.skip} say probably no access/food` : ""].filter(Boolean).join(" · ");
       return `<span class="who">${esc(tally || "No votes yet")} <span class="soft">· voting needs Editor access</span></span>`;
     }
-    const skip = EVENTS() && !hasFood(ev) ? ["Probably no access", "Probably no access"] : ["Probably no access/food", "Probably no access or no food"];
+    const skip = EVENTS() ? ["Probably no access", "Probably no access"] : ["Probably no access/food", "Probably no access or no food"];
     return `<button type="button" class="vote going" data-vote="going" aria-pressed="${v.mine === "going"}" title="I'm going">${ICON.check}Going <span class="n">${v.going || ""}</span></button>
       <button type="button" class="vote skip" data-vote="skip" aria-pressed="${v.mine === "skip"}" title="${skip[1]}">${ICON.x}${skip[0]} <span class="n">${v.skip || ""}</span></button>
       ${who ? `<span class="who">${esc(who)}</span>` : ""}`;
@@ -354,15 +355,16 @@
   function card(ev, i) {
     const c = evColor(ev), reg = ev.registration, a = ev.audience;
     const v = voteOf(ev);
-    const cert = ev.food.status === "confirmed"
+    const cert = EVENTS() ? "" : ev.food.status === "confirmed"
       ? `<span class="badge conf" title="The event text says food is served">Food confirmed</span>`
       : ev.food.status === "reported"
         ? `<span class="badge conf" title="A fellow who suggested this event says there is food">Food reported by a fellow</span>`
         : ev.food.status === "likely" ? `<span class="badge likely" title="Only the title suggests food">Food likely</span>` : "";
     const sugg = (ev.suggested ? `<span class="badge sugg">Suggested by ${esc(ev.suggested.by || "a fellow")}</span>` : "") + forwardedBadge(ev);
-    const foodLine = hasFood(ev) ? ev.food.types.map((t) => TYPE_LABEL[t] || t).join(" · ") || "Food" : "";
+    const foodLine = !EVENTS() && hasFood(ev) ? ev.food.types.map((t) => TYPE_LABEL[t] || t).join(" · ") || "Food" : "";
+    const online = ev.online ? `<span class="badge online">Online</span>` : "";
     const rows = [
-      ["Where", placeLine(ev)],
+      ["Where", ev.online && !ev.location && ev.lat == null ? "Online" : placeLine(ev)],
       ev.host ? ["Host", esc(ev.host)] : null,
       (a.level === "restricted" || a.level === "likely") && a.evidence ? ["Who", `<span class="soft">${esc(a.evidence)}</span>`] : null,
       ev.notes ? ["Note", esc(ev.notes)] : null,
@@ -379,10 +381,11 @@
     const skipped = v.skip >= 2 && v.skip > v.going;
     return `<article class="card${isOver(ev) ? " done" : ""}${skipped ? " skipped" : ""}${state.sel === ev.id ? " sel" : ""}" data-id="${ev.id}" style="--c:${c}">
       <div class="kicker"><span class="num${ev.lat != null ? "" : " nomap"}" title="${ev.lat != null ? "Marker " + i + " on the map" : "Not on the map"}">${ev.lat != null ? i : "–"}</span>
-        <span class="t">${esc((state.day === "all" && state.popular ? fmtDay(ev.date, { weekday: "short", month: "short", day: "numeric" }) + ", " : "") + timeRange(ev))}</span>${foodLine ? `<span class="ft">${esc(EVENTS() ? "Food: " + foodLine : foodLine)}</span>` : ""}${isOver(ev) ? "<span>finished</span>" : ""}</div>
+        <span class="t">${esc((state.day === "all" && state.popular ? fmtDay(ev.date, { weekday: "short", month: "short", day: "numeric" }) + ", " : "") + timeRange(ev))}</span>${foodLine ? `<span class="ft">${esc(foodLine)}</span>` : ""}${isOver(ev) ? "<span>finished</span>" : ""}</div>
       <h2 class="title"><a href="${esc(ev.url)}" target="_blank" rel="noopener">${esc(ev.title)}</a></h2>
-      <div class="badges">${cert}${sugg}${audienceBadge(a)}<span class="badge reg-${reg.status}" title="${esc(reg.evidence)}">${REG_LABEL[reg.status]}</span></div>
-      ${ev.food.evidence && (ev.food.status === "confirmed" || ev.food.status === "reported") ? `<p class="evidence">“${esc(ev.food.evidence)}”</p>` : ""}
+      ${EVENTS() && ev.blurb ? `<p class="blurb">${esc(ev.blurb)}</p>` : ""}
+      <div class="badges">${cert}${sugg}${online}${audienceBadge(a)}<span class="badge reg-${reg.status}" title="${esc(reg.evidence)}">${REG_LABEL[reg.status]}</span></div>
+      ${!EVENTS() && ev.food.evidence && (ev.food.status === "confirmed" || ev.food.status === "reported") ? `<p class="evidence">“${esc(ev.food.evidence)}”</p>` : ""}
       ${ev.suggested && ev.suggested.note && ev.suggested.note !== ev.food.evidence ? `<p class="evidence soft">${esc(ev.suggested.by || "A fellow")}: “${esc(ev.suggested.note)}”</p>` : ""}
       <div class="meta">${rows.map(([k, val]) => `<div class="row"><span class="k">${k}</span><span class="v">${val}</span></div>`).join("")}</div>
       <div class="actions">${voteButtons(ev)}<span class="links">${links.join("")}</span></div>
@@ -399,7 +402,7 @@
   function renderList() {
     const evs = sortedDayEvents();
     const all = state.day === "all";
-    const dayEvs = state.data.events.filter((ev) => (all || ev.date === state.day) && (EVENTS() ? ev.forwarded : isFood(ev)));
+    const dayEvs = state.data.events.filter((ev) => (all || ev.date === state.day) && (EVENTS() ? listable(ev) : isFood(ev)));
     const hiddenRestricted = state.aud === "open" ? dayEvs.filter((ev) => restricted(ev) && matches(ev, { ignoreAud: true })).length : 0;
     const finished = state.hideDone ? dayEvs.filter(isOver).length : 0;
     const today = dayKey(new Date());
@@ -436,6 +439,10 @@
       `<tr><td>${s.homepage ? `<a href="${esc(s.homepage)}" target="_blank" rel="noopener">${esc(s.name)}</a>` : esc(s.name)}</td>
        <td class="${s.ok ? "" : "err"}">${s.ok ? "OK" : "Error"}</td><td>${s.n_events}</td><td>${s.n_food}</td></tr>`).join("");
     // events the plausibility check kept off the list, so readers can see what was filtered and why
+    const gaps = state.data.events.filter((ev) => ev.forwarded && (ev.forwarded.missing || []).length && !isOver(ev));
+    $("#evGaps").hidden = !gaps.length;
+    $("#evGaps").innerHTML = gaps.length ? `<b>Forwarded but not listed (${gaps.length}):</b> ` + gaps.map((ev) =>
+      `${esc(ev.title)} (no ${esc(ev.forwarded.missing.join(", no "))})`).join("; ") : "";
     const doubts = state.data.events.filter((ev) => ev.food.doubt);
     $("#doubts").hidden = !doubts.length;
     $("#doubts").innerHTML = doubts.length ? "<b>Skipped this week:</b> " + doubts.map((ev) =>
@@ -567,7 +574,7 @@
         title: ev.title, riseOnHover: true,
       }).addTo(markerLayer);
       if (!MOBILE.matches) {
-        const what = [hasFood(ev) ? ev.food.types.join(" · ") : "", ev.place_name].filter(Boolean).join(" · ");
+        const what = [!EVENTS() && hasFood(ev) ? ev.food.types.join(" · ") : "", ev.place_name].filter(Boolean).join(" · ");
         const when = (state.day === "all" ? fmtDay(ev.date, { weekday: "short", month: "short", day: "numeric" }) + ", " : "") + timeRange(ev);
         m.bindPopup(`<div>${esc(when)}</div><b>${esc(ev.title)}</b><div>${esc(what)}</div>
           <a class="pop-link" href="${esc(ev.url)}" target="_blank" rel="noopener">Event page ↗</a>`);
@@ -593,7 +600,7 @@
     p.style.setProperty("--c", evColor(ev));
     const when = (state.day === "all" ? fmtDay(ev.date, { weekday: "short", month: "short", day: "numeric" }) + ", " : "") + timeRange(ev);
     p.innerHTML = `<button type="button" class="close" aria-label="Close">${ICON.x}</button>
-      <div class="kicker"><span class="t">${esc(when)}</span>${hasFood(ev) ? `<span class="ft">${esc(ev.food.types.join(" · "))}</span>` : ""}</div>
+      <div class="kicker"><span class="t">${esc(when)}</span>${!EVENTS() && hasFood(ev) ? `<span class="ft">${esc(ev.food.types.join(" · "))}</span>` : ""}</div>
       <div class="title">${esc(ev.title)}</div>
       <div class="badges">${forwardedBadge(ev)}${audienceBadge(ev.audience)}</div>
       <div class="row2"><span class="soft">${esc(ev.place_name || ev.location)}${ev.walk_min != null ? " · " + ev.walk_min + " min walk" : ""}</span>
@@ -876,9 +883,9 @@
     state.day = state.dayBy[mode] || null;
     state.sel = null;
     document.body.dataset.mode = mode;
-    document.querySelectorAll("[data-mode]").forEach((b) => {
-      b.classList.toggle("on", b.dataset.mode === mode); b.setAttribute("aria-pressed", b.dataset.mode === mode);
-    });
+    document.querySelectorAll(".tlabel").forEach((b) => b.classList.toggle("on", b.dataset.mode === mode));
+    $("#modeSwitch").setAttribute("aria-checked", mode === "events");
+    $("#modeHint").textContent = mode === "events" ? "Fellows' picks" : "Free food at Harvard";
     if (remember) {
       store.set("ffm_mode", mode);
       try { history.replaceState(null, "", mode === "events" ? "#events" : location.pathname + location.search); } catch (_) { /* sandboxed */ }
@@ -891,9 +898,10 @@
   }
 
   function bind() {
-    document.querySelectorAll("[data-mode]").forEach((b) => b.addEventListener("click", () => {
+    document.querySelectorAll(".tlabel").forEach((b) => b.addEventListener("click", () => {
       if (b.dataset.mode !== state.mode) setMode(b.dataset.mode);
     }));
+    $("#modeSwitch").addEventListener("click", () => setMode(state.mode === "events" ? "food" : "events"));
     $("#days").addEventListener("click", (e) => {
       const b = e.target.closest(".day"); if (!b) return;
       state.day = b.dataset.day; state.sel = null; $("#peek").hidden = true;

@@ -31,7 +31,8 @@ from .sources.newsletters import DATE_RE, _parse_day, _parse_time
 from .text import html_to_text, one_line
 
 AUTO_OK = re.compile(r"(^|\.)(harvard\.edu|hbs\.edu|belfercenter\.org|shorensteincenter\.org|"
-                     r"harvardartmuseums\.org|harvard-yenching\.org|eventbrite\.com|lu\.ma)$", re.I)
+                     r"harvardartmuseums\.org|harvard-yenching\.org|eventbrite\.com|lu\.ma|"
+                     r"carpenter\.center|harvardfilmarchive\.org)$", re.I)
 LOC_LABEL = re.compile(r"^(?:location|where|venue|place|room)\s*[:\-]?\s*(.*)$", re.I)
 
 
@@ -114,7 +115,7 @@ def _from_jsonld(item, page_url):
             "end": _aware(item.get("endDate")), "location": one_line(_jsonld_location(item.get("location"))),
             "description": html_to_text(str(item.get("description", ""))),
             "url": item.get("url") if isinstance(item.get("url"), str) else page_url,
-            "online": "OnlineEventAttendanceMode" in mode}
+            "online": "OnlineEventAttendanceMode" in mode, "structured": True}
 
 
 def _ics_events(text, page_url):
@@ -138,14 +139,16 @@ def _ics_events(text, page_url):
         if start and val("SUMMARY"):
             out.append({"title": one_line(val("SUMMARY")), "start": start, "end": when("DTEND"),
                         "location": one_line(val("LOCATION")), "description": val("DESCRIPTION"),
-                        "url": val("URL") or page_url, "online": False})
+                        "url": val("URL") or page_url, "online": False, "structured": True})
     return out
 
 
 def _single_event(doc, page_url):
     """Fallback for pages without structured data: title plus the first date in the main text."""
-    title = (doc.xpath('//meta[@property="og:title"]/@content') or doc.xpath("//h1//text()")
-             or doc.xpath("//title/text()") or [""])[0]
+    # the page's own heading first; og:title and <title> often carry the site name ("CCVA | Artist Talk ...")
+    h1 = one_line(" ".join(t.strip() for t in (doc.xpath("//h1")[0].itertext() if doc.xpath("//h1") else [])))
+    meta = (doc.xpath('//meta[@property="og:title"]/@content') or doc.xpath("//title/text()") or [""])[0]
+    title = h1 if len(h1) >= 4 else max(re.split(r"\s+[|–—]\s+", meta), key=len)
     main = (doc.xpath("//main") or doc.xpath("//article") or doc.xpath("//body") or [doc])[0]
     for bad in main.xpath(".//script|.//style|.//nav|.//header|.//footer"):
         bad.drop_tree()
@@ -162,16 +165,20 @@ def _single_event(doc, page_url):
             continue
         # pages often split "5–7pm" across elements, so read the date line together with the next ones
         hm = _parse_time(" ".join(lines[i:i + 2])) or _parse_time(" ".join(lines[i:i + 3]))
-        loc = ""
-        for x in lines[i:i + 8]:
+        loc, online = "", False
+        for k, x in enumerate(lines[i:i + 10]):
             lm = LOC_LABEL.match(x)
-            if lm:
-                loc = lm.group(1) or ""
-                break
+            if lm and not loc:
+                # "Where:" on one line and the place on the next (IOP pages)
+                loc = lm.group(1) or (lines[i + k + 1] if i + k + 1 < len(lines) else "")
+            mm = re.match(r"^(?:meeting method|format|attendance)\s*:?\s*(.*)$", x, re.I)
+            if mm:
+                method = mm.group(1) or (lines[i + k + 1] if i + k + 1 < len(lines) else "")
+                online = bool(re.search(r"virtual|online|zoom|webinar", method, re.I)) and not re.search(r"hybrid|in.person", method, re.I)
         start = datetime(day.year, day.month, day.day, *(hm or (12, 0)), tzinfo=TZ)
-        return {"title": one_line(re.sub(r"\s+\|\s+[^|]*$", "", title) or title), "start": start, "end": None,
+        return {"title": one_line(title), "start": start, "end": None,
                 "location": one_line(loc), "description": "\n".join(lines[i:i + 60]), "url": page_url,
-                "online": False, "all_day": hm is None}
+                "online": online, "all_day": hm is None, "structured": False}
     return None
 
 

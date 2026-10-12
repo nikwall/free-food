@@ -28,6 +28,7 @@ import re
 from datetime import date, datetime, timedelta
 from email import policy
 from email.utils import parseaddr, parsedate_to_datetime
+from urllib.parse import urlsplit
 
 from dateutil import parser as dparser
 
@@ -89,7 +90,7 @@ SKIP_LINK = re.compile(r"unsubscribe|preferences|manage (?:your )?subscription|v
                        r"update (?:your )?profile|mailto:", re.I)
 EVENTISH = re.compile(r"event|calendar|register|rsvp|details|learn more|more info|read more|sign up|join us|"
                       r"talk|seminar|lecture|lunch|reception|panel|forum", re.I)
-MAX_LINKS_PER_EMAIL, MAX_LINKS_PER_RUN = 15, 80
+MAX_LINKS_PER_EMAIL, MAX_LINKS_PER_RUN = 15, 150
 
 # the mailbox's own account mail (Google security alerts, welcome mail) is never a newsletter and
 # must not show up in the public "newsletters received" list
@@ -308,7 +309,8 @@ def extract_items(text, subject, start, end, today=None, origin="", keep_all=Fal
                 loc = lm.group(1)
                 break
         if not loc and "|" in lines[i]:
-            loc = lines[i].split("|", 1)[1]
+            # "Tuesday, October 13 | 5:00pm | L-280": the first part after the date that isn't the time
+            loc = next((part for part in lines[i].split("|")[1:] if part.strip() and not TIME_RE.search(part)), "")
         url = (URL_RE.findall(raw_block) or [""])[0]
         events.append(Event(
             source_id="newsletter", source_name=f"Newsletter: {one_line(subject)[:80]}",
@@ -322,10 +324,51 @@ def extract_items(text, subject, start, end, today=None, origin="", keep_all=Fal
     return events
 
 
-def linked_events(html, subject, start, end, http, budget):
-    """Follow event-looking links in the email and read the Harvard event pages they lead to."""
+# A page counts as an event page when it carries structured event data (schema.org Event, an .ics file), or
+# when its address is an event address (/events/..., /programs/...). A person's page (/people/...) or a
+# YouTube channel that a newsletter links next to an event is not one.
+EVENT_PATH = re.compile(r"/(?:events?|calendar|programs?|exhibitions?|screenings?|films?|series|lectures?|talks?|"
+                        r"seminars?|workshops?|conferences?|colloqui\w*)(?:/|-|$)|[?&](?:event|eid|trumbaEmbed)=", re.I)
+
+
+def _event_page_ok(d, url):
+    if d.get("structured", True):
+        return True
+    parts = urlsplit(url)
+    return bool(EVENT_PATH.search(parts.path + ("?" + parts.query if parts.query else "")))
+
+
+def _open_page(href, http, budget, cache):
+    """Follow a link (through click tracking) -> (landing url, events read from it); cached per scan."""
     from ..suggestions import accepted, events_from_page   # local import: suggestions imports this module
 
+    if href in cache:
+        return cache[href]
+    cache[href] = ("", [])
+    if budget[0] <= 0:
+        return cache[href]
+    budget[0] -= 1
+    try:
+        r = http.s.get(href, timeout=20)              # follows click-tracking redirects to the real page
+        r.raise_for_status()
+        if accepted({"url": r.url}):
+            found = [d for d in events_from_page(r.url, r.text, http) if _event_page_ok(d, d.get("url") or r.url)]
+            cache[href] = (r.url, found)
+    except Exception:
+        pass
+    return cache[href]
+
+
+def _page_event(d, landing, subject):
+    return Event(source_id="newsletter", source_name=f"Newsletter: {one_line(subject)[:80]}",
+                 title=d["title"], url=d.get("url") or landing, start=d["start"], end=d.get("end"),
+                 all_day=d.get("all_day", False), location=d.get("location", ""), description=d["description"],
+                 online=d.get("online", False), extra={"newsletter_subject": one_line(subject), "page": True})
+
+
+def linked_events(html, subject, start, end, http, budget, cache=None):
+    """Follow event-looking links in the email and read the Harvard event pages they lead to."""
+    cache = {} if cache is None else cache
     out, seen, tried = [], set(), 0
     for text, href in links(html):
         if tried >= MAX_LINKS_PER_EMAIL or budget[0] <= 0:
@@ -336,25 +379,41 @@ def linked_events(html, subject, start, end, http, budget):
             continue
         seen.add(href)
         tried += 1
-        budget[0] -= 1
-        try:
-            r = http.s.get(href, timeout=20)          # follows click-tracking redirects to the real page
-            r.raise_for_status()
-        except Exception:
-            continue
-        if not accepted({"url": r.url}):
-            continue
-        try:
-            found = events_from_page(r.url, r.text, http)
-        except Exception:
-            continue
+        landing, found = _open_page(href, http, budget, cache)
         for d in found[:5]:
             if d.get("start") and start <= d["start"].astimezone(TZ).date() <= end:
-                out.append(Event(
-                    source_id="newsletter", source_name=f"Newsletter: {one_line(subject)[:80]}",
-                    title=d["title"], url=d["url"] or r.url, start=d["start"], end=d.get("end"),
-                    all_day=d.get("all_day", False), location=d.get("location", ""), description=d["description"],
-                    online=d.get("online", False), extra={"newsletter_subject": one_line(subject)}))
+                out.append(_page_event(d, landing, subject))
+    return out
+
+
+def _title_words(title):
+    return {w for w in re.findall(r"[a-z0-9]+", (title or "").lower()) if len(w) > 2}
+
+
+def verify_items(items, subject, http, budget, cache):
+    """For items read from an email's text: open each item's own link and, when it lands on the event page
+    for that item (same day, similar title), use the page's version. Other items stay, marked page=False."""
+    out = []
+    for t in items:
+        if t.extra.get("page"):
+            out.append(t)
+            continue
+        page = None
+        if t.url:
+            landing, found = _open_page(t.url, http, budget, cache)
+            day = t.start.astimezone(TZ).date()
+            for d in found:
+                a, b = _title_words(t.title), _title_words(d["title"])
+                shared = len(a & b)
+                if d.get("start") and d["start"].astimezone(TZ).date() == day and shared >= 2 \
+                        and shared / min(len(a), len(b)) >= 0.5:
+                    page = _page_event(d, landing, subject)
+                    if page.all_day and not t.all_day:            # the email gives the time, the page only the date
+                        page.start, page.all_day = t.start, False
+                    break
+        if page is None:
+            t.extra["page"] = False
+        out.append(page or t)
     return out
 
 
@@ -453,7 +512,7 @@ class NewsletterSource:
         from ..suggestions import accepted   # local import: suggestions imports this module
 
         out, self.report = [], []
-        budget = [MAX_LINKS_PER_RUN]
+        budget, cache = [MAX_LINKS_PER_RUN], {}
         fwd_end = start + timedelta(days=FORWARD_DAYS - 1)
         news_since = start - timedelta(days=NEWSLETTER_SINCE_DAYS)
         rows, skipped = [], 0
@@ -482,7 +541,11 @@ class NewsletterSource:
                 n_fwd += 1
                 found = extract_items(text, subject, start, fwd_end, today=sent, origin=origin, keep_all=True)
                 if html:
-                    found = _prefer_pages(found, linked_events(html, subject, start, fwd_end, http, budget))
+                    found = _prefer_pages(found, linked_events(html, subject, start, fwd_end, http, budget, cache))
+                # every item needs its own event page for the Events view: follow the item's link to check
+                found, seen = verify_items(found, subject, http, budget, cache), set()
+                found = [e for e in found if not ((e.title.lower(), e.start.date()) in seen
+                                                  or seen.add((e.title.lower(), e.start.date())))]
                 tag = {"by": by or None, "subject": one_line(subject)[:120]}
                 for ev in found:
                     ev.extra["forwarded"] = tag
@@ -501,7 +564,7 @@ class NewsletterSource:
                 continue
             found = extract_items(text, subject, start, end, today=sent, origin=origin)
             if html:
-                found = _prefer_pages(found, linked_events(html, subject, start, end, http, budget))
+                found = _prefer_pages(found, linked_events(html, subject, start, end, http, budget, cache))
             out += found
             # the subject is published only when the email held events or came from a Harvard sender,
             # so a mis-forwarded personal mail stays private

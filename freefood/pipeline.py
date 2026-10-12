@@ -9,6 +9,7 @@ from datetime import datetime, timedelta
 
 from . import suggestions
 from .audience import detect_audience
+from .blurb import blurb
 from .classify import detect_food, detect_registration
 from .config import DATA_DIR, DAYS_AHEAD, EVENTS_FILE, FORWARD_DAYS, TZ
 from .geo import Geocoder, walk_minutes
@@ -23,6 +24,7 @@ LEVEL_RANK = {"restricted": 4, "likely": 3, "harvard": 2, "public": 1, "unknown"
 
 
 STOP = {"the", "a", "an", "and", "of", "in", "on", "for", "with", "to", "at", "by", "ft", "feat", "featuring"}
+HKS_PAGE = re.compile(r"^https?://(?:www\.)?(?:hks|iop)\.harvard\.edu/", re.I)
 
 
 def _tokens(title):
@@ -56,7 +58,13 @@ def build_record(ev, geo, home):
     if ev.lat is not None and ev.lon is not None:
         place = {"place_name": ev.location.split(",")[0], "lat": ev.lat, "lon": ev.lon, "geo_method": "source"}
     else:
-        place = geo.locate(ev.location, ev.source_id) if not ev.online else None
+        # an HKS or IOP event page uses HKS room codes ("L-280" = Littauer), like the HKS calendar does
+        geo_source = "hks" if HKS_PAGE.search(ev.url or "") else ev.source_id
+        place = geo.locate(ev.location, geo_source) if not ev.online else None
+        if not place and not ev.online and ev.extra.get("forwarded") and not ev.location:
+            place = geo.match_place(ev.description[:1500], ev.source_id)   # "a reception on Level 1 of the Carpenter Center"
+            if place:
+                place["geo_method"] = "text"
         if not place and not ev.online:
             place = geo.locate("", ev.source_id, extra_text=f"{ev.host} {ev.source_name}")
             if place:
@@ -86,6 +94,9 @@ def build_record(ev, geo, home):
         "registration": reg,
         "audience": detect_audience(ev.title, ev.description, ev.source_id, ev.host, ev.extra),
         "summary": _summary(ev.description),
+        "blurb": blurb(ev.title, ev.description),          # 2-3 sentences for the Events view, "" if none
+        # the link is the event's own page (calendars, pages read from a link), not just a link found in an email
+        "event_page": bool(ev.extra.get("page", ev.source_id != "newsletter")) and bool(ev.url),
         "notes": ev.extra.get("notes", ""),
         "place_name": place["place_name"] if place else "",
         "lat": round(place["lat"], 6) if place else None,
@@ -96,6 +107,21 @@ def build_record(ev, geo, home):
     if place and home.get("lat") is not None:
         rec["walk_min"] = walk_minutes(home["lat"], home["lon"], place["lat"], place["lon"])
     return rec
+
+
+def events_view_gaps(e):
+    """What keeps a forwarded event out of the Events view. Listed only with a start time, a place on the
+    map (or clearly online), its own event page, and a short description to decide on."""
+    gaps = []
+    if e["all_day"]:
+        gaps.append("time")
+    if not e["online"] and (e["lat"] is None or (e["geo_method"] == "host" and not e["location"])):
+        gaps.append("place")
+    if not e["event_page"]:
+        gaps.append("event page")
+    if not e["blurb"]:
+        gaps.append("description")
+    return gaps
 
 
 def merge_duplicates(records):
@@ -126,8 +152,12 @@ def merge_duplicates(records):
             if best["all_day"] and not other["all_day"]:
                 for k in ("start", "end", "all_day"):
                     best[k] = other[k]
-            if not best["url"] and other["url"]:
+            if other["event_page"] and not best["event_page"]:
+                best["url"], best["event_page"] = other["url"], True
+            elif not best["url"] and other["url"]:
                 best["url"] = other["url"]
+            if len(other["blurb"]) > len(best["blurb"]):
+                best["blurb"] = other["blurb"]
         # audience: the most authoritative statement wins (a listing field beats a sentence beats a guess);
         # between equally authoritative ones, the more restrictive
         best["audience"] = max((r["audience"] for r in group),
@@ -201,6 +231,9 @@ def run_scan(days=DAYS_AHEAD, only=None, log=print):
 
     events = merge_duplicates(records)
     events.sort(key=lambda r: (r["start"], r["title"]))
+    for e in events:
+        if e["forwarded"]:
+            e["forwarded"] = {**e["forwarded"], "missing": events_view_gaps(e)}
     try:
         sugg_status = suggestions.finalize(events, plan, start, end) if plan else []
     except Exception:           # suggestion statuses are a nice-to-have; never lose the scan over them
@@ -216,6 +249,7 @@ def run_scan(days=DAYS_AHEAD, only=None, log=print):
                   "food_confirmed": sum(e["food"]["status"] == "confirmed" for e in events),
                   "food_likely": sum(e["food"]["status"] == "likely" for e in events),
                   "forwarded": sum(bool(e["forwarded"]) for e in events),
+                  "forwarded_listed": sum(bool(e["forwarded"]) and not e["forwarded"]["missing"] for e in events),
                   "food_restricted": sum(e["food"]["status"] in ("confirmed", "likely")
                                          and e["audience"]["level"] == "restricted" for e in events),
                   "seconds": round(time.time() - t0, 1)},

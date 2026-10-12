@@ -17,7 +17,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&family=Work+Sans:wght@400;500;600&display=swap">
 <link rel="stylesheet" href="vendor/leaflet.css">
-<link rel="stylesheet" href="style.css?v=12">
+<link rel="stylesheet" href="style.css?v=13">
 </head>
 <body>
 <header class="appbar">
@@ -43,9 +43,13 @@
 </header>
 
 <div class="strip" id="strip">
-  <div class="seg mode" role="group" aria-label="Show">
-    <button type="button" data-mode="food" class="on" aria-pressed="true">Food</button>
-    <button type="button" data-mode="events" aria-pressed="false">Events</button>
+  <div class="modebar">
+    <div class="toggle" role="group" aria-label="Show free food or events">
+      <button type="button" class="tlabel on" data-mode="food">Free food</button>
+      <button type="button" class="switch" id="modeSwitch" role="switch" aria-checked="false" aria-label="Show events instead of free food"><span class="knob"></span></button>
+      <button type="button" class="tlabel" data-mode="events">Events</button>
+    </div>
+    <span class="mode-hint" id="modeHint">Free food at Harvard</span>
   </div>
   <nav class="days" id="days" aria-label="Choose a day"></nav>
 </div>
@@ -141,10 +145,13 @@
     <p>Every few hours this site reads public Harvard event calendars, plus any newsletters it is given, and
       keeps the events whose own description says food is served.</p>
     <h3>Food and Events</h3>
-    <p><b>Food</b> lists free food from all calendars and newsletters. <b>Events</b> lists what fellows forwarded to
-      <b>hungrynieman@gmail.com</b>: every dated event in a forwarded email, with or without food, up to four weeks
-      ahead, marked with the first name of the fellow who sent it. An email counts as forwarded when a person (not a
-      mailing list) sent it as a forward. Events with food show up under Food as well.</p>
+    <p><b>Free food</b> lists free food from all calendars and newsletters. <b>Events</b> lists talks, screenings and
+      other events that fellows forwarded to <b>hungrynieman@gmail.com</b>, up to four weeks ahead, marked with the first
+      name of the fellow who sent it. An email counts as forwarded when a person (not a mailing list) sent it as a forward.</p>
+    <p>An event is listed only when it has a start time, a place on the map (or is clearly online), its own event page
+      with date, place and description, and a short description to decide on. Each link is followed and checked; links
+      to a video channel or a person's page don't count.</p>
+    <p class="doubts" id="evGaps" hidden></p>
     <h3>Food</h3>
     <p><b>Confirmed</b>: one sentence names a food and says it is served (“A light lunch will be provided.”).
       That sentence is quoted on the card. <b>Likely</b>: only the title suggests food (“Opening Reception”).
@@ -209,7 +216,7 @@
 </dialog>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
-<script src="config.js?v=12"></script>
-<script src="app.js?v=12"></script>
+<script src="config.js?v=13"></script>
+<script src="app.js?v=13"></script>
 </body>
 </html>

@@ -129,8 +129,19 @@ what fellows forwarded to the inbox, food or not. An email counts as a fellow's 
 it (no mailing-list headers such as `List-Unsubscribe`) and it is marked as a forward (`Fwd:`, `FW:`, `WG:`
 or a forwarded-message block). From such an email every dated item is kept, plus the event pages it links
 to, up to `FFM_FORWARD_DAYS` (28) days ahead; forwards are read `FFM_FORWARD_LOOKBACK_DAYS` (30) days back.
-Each event carries `forwarded: {"by": first name, "subject"}`; only the first name is published. Events
-mode opens on "All upcoming", an agenda grouped by day. A link to `…/free-food/#events` opens it directly.
+Each event carries `forwarded: {"by": first name, "subject", "missing"}`; only the first name is published.
+Events mode opens on "All upcoming", an agenda grouped by day. A link to `…/free-food/#events` opens it directly.
+
+Events shows nothing about food. It lists an event only when `missing` is empty, i.e. the event has
+- a **start time** (not just a date);
+- a **place on the map**, or it is clearly online (the organizer's building alone does not count);
+- its **own event page**: structured event data, or an event address such as `/events/…` or `/programs/…`.
+  Every item's link is followed through click tracking and checked (same day, similar title); a
+  video channel or a person's page does not count;
+- a **short description** (`blurb`, freefood/blurb.py): two or three sentences about the event, without
+  labels, schedules or registration boilerplate. Cards show it in three lines.
+
+The About tab names the forwarded events left out and what they lack.
 
 ## Files
 
