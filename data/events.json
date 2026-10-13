@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-12T15:50:52-04:00",
+ "generated_at": "2026-10-12T23:05:21-04:00",
  "window": {
   "start": "2026-10-12",
   "end": "2026-10-19"
@@ -22,7 +22,7 @@
    "error": null,
    "n_events": 96,
    "n_food": 2,
-   "seconds": 0.7
+   "seconds": 1.4
   },
   {
    "id": "hks",
@@ -32,7 +32,7 @@
    "error": null,
    "n_events": 46,
    "n_food": 9,
-   "seconds": 1.5
+   "seconds": 4.2
   },
   {
    "id": "hls",
@@ -42,7 +42,7 @@
    "error": null,
    "n_events": 80,
    "n_food": 40,
-   "seconds": 9.0
+   "seconds": 13.4
   },
   {
    "id": "college",
@@ -50,9 +50,9 @@
    "homepage": "https://events.college.harvard.edu/",
    "ok": true,
    "error": null,
-   "n_events": 93,
+   "n_events": 94,
    "n_food": 9,
-   "seconds": 0.6
+   "seconds": 1.5
   },
   {
    "id": "ash",
@@ -62,7 +62,7 @@
    "error": null,
    "n_events": 4,
    "n_food": 2,
-   "seconds": 2.2
+   "seconds": 2.4
   },
   {
    "id": "shorenstein",
@@ -72,7 +72,7 @@
    "error": null,
    "n_events": 2,
    "n_food": 0,
-   "seconds": 9.6
+   "seconds": 8.5
   },
   {
    "id": "fairbank",
@@ -92,7 +92,7 @@
    "error": null,
    "n_events": 30,
    "n_food": 5,
-   "seconds": 51.7
+   "seconds": 62.5
   },
   {
    "id": "suggested",
@@ -102,17 +102,17 @@
    "error": null,
    "n_events": 5,
    "n_food": 0,
-   "seconds": 8.3
+   "seconds": 4.7
   }
  ],
  "stats": {
-  "events": 291,
+  "events": 292,
   "food_confirmed": 48,
   "food_likely": 16,
   "forwarded": 25,
   "forwarded_listed": 18,
   "food_restricted": 40,
-  "seconds": 62.3
+  "seconds": 71.8
  },
  "events": [
   {
@@ -682,49 +682,6 @@
    "walk_min": 5
   },
   {
-   "id": "9fa33004d9f9",
-   "title": "Events Calendar",
-   "url": "https://hls.harvard.edu/calendar/",
-   "source_id": "suggested",
-   "source_name": "Suggested calendar: HLS",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-10-12T12:00:00-04:00",
-   "end": null,
-   "date": "2026-10-12",
-   "all_day": true,
-   "location": "",
-   "online": false,
-   "host": "",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
-   },
-   "audience": {
-    "level": "unknown",
-    "group": "",
-    "evidence": "",
-    "basis": "none"
-   },
-   "summary": "Showing 0 events for the week starting 10/12/2026 Compact View There are no events today.",
-   "blurb": "",
-   "event_page": true,
-   "notes": "",
-   "place_name": "Harvard Law School",
-   "lat": 42.379106,
-   "lon": -71.119679,
-   "geo_method": "host",
-   "walk_min": 10
-  },
-  {
    "id": "bf9b4d842502",
    "title": "Peabody Museum Tours Led by Harvard Students",
    "url": "https://peabody.harvard.edu/groups-and-tours/#tours",
@@ -1205,6 +1162,49 @@
    "walk_min": 5
   },
   {
+   "id": "af3aa3fdb90f",
+   "title": "Harvard University Women’s Tennis vs ITA New England Regionals Day Six",
+   "url": "https://events.college.harvard.edu/event/225431-harvard-university-womens-tennis-vs-ita-new",
+   "source_id": "college",
+   "source_name": "Harvard College events",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-10-13T10:00:00-04:00",
+   "end": "2026-10-13T13:00:00-04:00",
+   "date": "2026-10-13",
+   "all_day": false,
+   "location": "New Haven, Conn.",
+   "online": false,
+   "host": "Main Calendar",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "Harvard College students",
+    "evidence": "Harvard College calendar, no sign it is open to others",
+    "basis": "default"
+   },
+   "summary": "Harvard University Women’s Tennis vs ITA New England Regionals Day Six URL:https://gocrimson.com/calendar.aspx?game_id=33742&sport_id=38",
+   "blurb": "",
+   "event_page": true,
+   "notes": "",
+   "place_name": "",
+   "lat": null,
+   "lon": null,
+   "geo_method": null,
+   "walk_min": null
+  },
+  {
    "id": "34a900dc2d39",
    "title": "Harvard and the American Revolution",
    "url": "https://library.harvard.edu/exhibits/harvard-and-american-revolution",
@@ -1614,6 +1614,49 @@
    "lon": -71.118484,
    "geo_method": "source",
    "walk_min": 12
+  },
+  {
+   "id": "3b8a8dd79afb",
+   "title": "Events Calendar",
+   "url": "https://hls.harvard.edu/calendar/",
+   "source_id": "suggested",
+   "source_name": "Suggested calendar: HLS",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-10-13T12:00:00-04:00",
+   "end": null,
+   "date": "2026-10-13",
+   "all_day": true,
+   "location": "",
+   "online": false,
+   "host": "",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "Showing 0 events for the week starting 10/13/2026 Compact View There are no events today.",
+   "blurb": "",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Harvard Law School",
+   "lat": 42.379106,
+   "lon": -71.119679,
+   "geo_method": "host",
+   "walk_min": 10
   },
   {
    "id": "673838c0214b",
@@ -2704,7 +2747,7 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "Tuesday, October 13, 2026 Time: 5:00pm EST Where: L-280 Meeting Method: In-Person Add to Calendar 2026-10-13 17:00:00 2026-10-10 16:06:21 The Youth Vote and the Midterms <p>Join the Institute of Politics' Campaigns & Advocacy Program, Harvard Public Opinion Project, and Harvard Votes Challenge for a candid…",
+   "summary": "Tuesday, October 13, 2026 Time: 5:00pm EST Where: L-280 Meeting Method: In-Person Add to Calendar 2026-10-13 17:00:00 2026-10-12 19:06:15 The Youth Vote and the Midterms <p>Join the Institute of Politics' Campaigns & Advocacy Program, Harvard Public Opinion Project, and Harvard Votes Challenge for a candid…",
    "blurb": "Join the Institute of Politics' Campaigns & Advocacy Program, Harvard Public Opinion Project, and Harvard Votes Challenge for a candid conversation with Teddy Landis, who leads the Strategic Victory Fund’s Youth Turnout Projects, and Jahnavi Rao, president…",
    "event_page": true,
    "notes": "",
@@ -12862,7 +12905,7 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "Tuesday, October 20, 2026 Time: 6:00pm EST Where: JFK Jr. Forum, 79 John F. Kennedy St., Cambridge, MA 02138 Meeting Method: Hybrid Add to Calendar 2026-10-20 18:00:00 2026-10-11 19:38:08 Peacekeeping in Africa and Beyond with President Olusegun Obasanjo Drawing on a career that spans military service, democratic…",
+   "summary": "Tuesday, October 20, 2026 Time: 6:00pm EST Where: JFK Jr. Forum, 79 John F. Kennedy St., Cambridge, MA 02138 Meeting Method: Hybrid Add to Calendar 2026-10-20 18:00:00 2026-10-12 17:56:23 Peacekeeping in Africa and Beyond with President Olusegun Obasanjo Drawing on a career that spans military service, democratic…",
    "blurb": "Drawing on a career that spans military service, democratic leadership, and high-level diplomacy under the United Nations and African Union, former President Olusegun Obasanjo will discuss the complexities of peacekeeping in modern times, both in his native…",
    "event_page": true,
    "notes": "",
@@ -12959,7 +13002,7 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "Friday, October 23, 2026 Time: 4:00pm EST Where: JFK Jr. Forum, 79 John F. Kennedy St., Cambridge, MA 02138 Meeting Method: Hybrid Add to Calendar 2026-10-23 16:00:00 2026-10-09 07:58:14 Meeting the China Challenge with Kevin Rudd, Fmr. Prime Minister of Australia Former Australian Prime Minister Kevin Rudd joins us…",
+   "summary": "Friday, October 23, 2026 Time: 4:00pm EST Where: JFK Jr. Forum, 79 John F. Kennedy St., Cambridge, MA 02138 Meeting Method: Hybrid Add to Calendar 2026-10-23 16:00:00 2026-10-12 17:47:52 Meeting the China Challenge with Kevin Rudd, Fmr. Prime Minister of Australia Former Australian Prime Minister Kevin Rudd joins us…",
    "blurb": "Former Australian Prime Minister Kevin Rudd joins us for a timely discussion on the U.S., China, and the pathway forward for this consequential relationship. Rudd is the author of \"On Xi Jinping: How Xi's Marxist Nationalism is Shaping China and the World\"…",
    "event_page": true,
    "notes": "",
