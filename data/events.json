@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T11:13:09-04:00",
+ "generated_at": "2026-10-14T16:15:00-04:00",
  "window": {
   "start": "2026-10-14",
   "end": "2026-10-21"
@@ -22,7 +22,7 @@
    "error": null,
    "n_events": 137,
    "n_food": 5,
-   "seconds": 1.7
+   "seconds": 1.6
   },
   {
    "id": "hks",
@@ -30,9 +30,9 @@
    "homepage": "https://www.hks.harvard.edu/more/events",
    "ok": true,
    "error": null,
-   "n_events": 48,
-   "n_food": 10,
-   "seconds": 24.6
+   "n_events": 47,
+   "n_food": 9,
+   "seconds": 14.8
   },
   {
    "id": "hls",
@@ -40,9 +40,9 @@
    "homepage": "https://hls.harvard.edu/calendar/",
    "ok": true,
    "error": null,
-   "n_events": 115,
+   "n_events": 118,
    "n_food": 60,
-   "seconds": 17.7
+   "seconds": 13.6
   },
   {
    "id": "college",
@@ -50,9 +50,9 @@
    "homepage": "https://events.college.harvard.edu/",
    "ok": true,
    "error": null,
-   "n_events": 91,
-   "n_food": 10,
-   "seconds": 1.0
+   "n_events": 98,
+   "n_food": 11,
+   "seconds": 0.9
   },
   {
    "id": "ash",
@@ -62,7 +62,7 @@
    "error": null,
    "n_events": 4,
    "n_food": 1,
-   "seconds": 2.2
+   "seconds": 2.3
   },
   {
    "id": "shorenstein",
@@ -72,7 +72,7 @@
    "error": null,
    "n_events": 1,
    "n_food": 0,
-   "seconds": 9.3
+   "seconds": 11.3
   },
   {
    "id": "fairbank",
@@ -82,7 +82,7 @@
    "error": null,
    "n_events": 7,
    "n_food": 1,
-   "seconds": 6.3
+   "seconds": 0.1
   },
   {
    "id": "newsletter",
@@ -90,9 +90,9 @@
    "homepage": "",
    "ok": true,
    "error": null,
-   "n_events": 61,
+   "n_events": 67,
    "n_food": 9,
-   "seconds": 79.5
+   "seconds": 84.0
   },
   {
    "id": "suggested",
@@ -100,19 +100,19 @@
    "homepage": "",
    "ok": true,
    "error": null,
-   "n_events": 9,
+   "n_events": 10,
    "n_food": 2,
-   "seconds": 5.0
+   "seconds": 4.2
   }
  ],
  "stats": {
-  "events": 363,
-  "food_confirmed": 64,
-  "food_likely": 22,
-  "forwarded": 25,
-  "forwarded_listed": 17,
-  "food_restricted": 56,
-  "seconds": 95.0
+  "events": 376,
+  "food_confirmed": 66,
+  "food_likely": 21,
+  "forwarded": 30,
+  "forwarded_listed": 18,
+  "food_restricted": 58,
+  "seconds": 92.6
  },
  "events": [
   {
@@ -463,6 +463,49 @@
    "walk_min": 5
   },
   {
+   "id": "af0bedd9d4ea",
+   "title": "Bruce Armitage: A Maker’s Journey",
+   "url": "https://events.college.harvard.edu/ofa/event/225691-bruce-armitage-a-makers-journey",
+   "source_id": "college",
+   "source_name": "Harvard College events",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-10-14T10:00:00-04:00",
+   "end": "2026-10-14T16:00:00-04:00",
+   "date": "2026-10-14",
+   "all_day": false,
+   "location": "Ceramics Studio",
+   "online": false,
+   "host": "Ceramics Program, Office for the Arts at Harvard",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "Harvard College students",
+    "evidence": "Harvard College calendar, no sign it is open to others",
+    "basis": "default"
+   },
+   "summary": "This exhibition celebrates the evolving work of Boston-based sculptor and ceramic artist Bruce Armitage, a long-time Resident Artist, Teaching Assistant, and Studio Lab Technician at the Ceramics Program, Office for the Arts at Harvard. He focuses on figurative sculpture influenced by classical traditions. Bruce is a…",
+   "blurb": "This exhibition celebrates the evolving work of Boston-based sculptor and ceramic artist Bruce Armitage, a long-time Resident Artist, Teaching Assistant, and Studio Lab Technician at the Ceramics Program, Office for the Arts at Harvard. He focuses on…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Ceramics Studio",
+   "lat": 42.362599,
+   "lon": -71.131201,
+   "geo_method": "source",
+   "walk_min": 37
+  },
+  {
    "id": "e621f9dc54f2",
    "title": "Harvard and the American Revolution",
    "url": "https://library.harvard.edu/exhibits/harvard-and-american-revolution",
@@ -700,9 +743,9 @@
     "evidence": ""
    },
    "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://harvard.zoom.us/meeting/register/G454vSNBRX-asaifFnYmbw"
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
    },
    "audience": {
     "level": "restricted",
@@ -1148,9 +1191,9 @@
     "evidence": ""
    },
    "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://harvard.zoom.us/webinar/register/WN_-h2QgO73TfGck7j2waRABw#/registration"
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
    },
    "audience": {
     "level": "unknown",
@@ -2786,15 +2829,24 @@
    "source_name": "Harvard Gazette calendar",
    "also_listed": [
     {
+     "source_name": "Forwarded: Flamenco and more this month!",
+     "url": "https://us.list-manage.com/VecyIhykHmw?e=75bbdee856&c2id=e6ff79e9a31816184c42e7d96486835a"
+    },
+    {
      "source_name": "Harvard College events",
      "url": "https://events.college.harvard.edu/event/225362-emerging-ideas-on-art-and-society-jonathan"
     }
    ],
    "aliases": [
-    "c16c97354bc2"
+    "c16c97354bc2",
+    "cf240007d705"
    ],
    "suggested": null,
-   "forwarded": null,
+   "forwarded": {
+    "by": "Ellen",
+    "subject": "Flamenco and more this month!",
+    "missing": []
+   },
    "start": "2026-10-14T18:30:00-04:00",
    "end": "2026-10-14T20:00:00-04:00",
    "date": "2026-10-14",
@@ -3489,6 +3541,49 @@
    "lon": -71.115646,
    "geo_method": "gazetteer",
    "walk_min": 5
+  },
+  {
+   "id": "c6e72c9ed039",
+   "title": "Bruce Armitage: A Maker’s Journey",
+   "url": "https://events.college.harvard.edu/ofa/event/225692-bruce-armitage-a-makers-journey",
+   "source_id": "college",
+   "source_name": "Harvard College events",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-10-15T10:00:00-04:00",
+   "end": "2026-10-15T16:00:00-04:00",
+   "date": "2026-10-15",
+   "all_day": false,
+   "location": "Ceramics Studio",
+   "online": false,
+   "host": "Ceramics Program, Office for the Arts at Harvard",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "Harvard College students",
+    "evidence": "Harvard College calendar, no sign it is open to others",
+    "basis": "default"
+   },
+   "summary": "This exhibition celebrates the evolving work of Boston-based sculptor and ceramic artist Bruce Armitage, a long-time Resident Artist, Teaching Assistant, and Studio Lab Technician at the Ceramics Program, Office for the Arts at Harvard. He focuses on figurative sculpture influenced by classical traditions. Bruce is a…",
+   "blurb": "This exhibition celebrates the evolving work of Boston-based sculptor and ceramic artist Bruce Armitage, a long-time Resident Artist, Teaching Assistant, and Studio Lab Technician at the Ceramics Program, Office for the Arts at Harvard. He focuses on…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Ceramics Studio",
+   "lat": 42.362599,
+   "lon": -71.131201,
+   "geo_method": "source",
+   "walk_min": 37
   },
   {
    "id": "90f7a0106606",
@@ -5929,24 +6024,29 @@
    "walk_min": 10
   },
   {
-   "id": "e1ffe7edf4e4",
+   "id": "461bc3b8f75a",
    "title": "Floor Lords at 45: Breaking as a Living Knowledge System",
    "url": "https://events.college.harvard.edu/ofa/event/224834-floor-lords-at-45-breaking-as-a-living-knowledge",
    "source_id": "college",
    "source_name": "Harvard College events",
    "also_listed": [
     {
+     "source_name": "Forwarded: Flamenco and more this month!",
+     "url": "https://us.list-manage.com/5wLIxW3KgrD?e=75bbdee856&c2id=e6ff79e9a31816184c42e7d96486835a"
+    },
+    {
      "source_name": "Forwarded: The Hutch: September 28 - October 4, 2026",
      "url": "https://us.list-manage.com/VsyYygRcxvM?e=a1a26792d9&c2id=7425a2fbc7f1fc01ee380a511113942f"
     }
    ],
    "aliases": [
+    "e1ffe7edf4e4",
     "f7db49f84a4c"
    ],
    "suggested": null,
    "forwarded": {
-    "by": "Cecilia",
-    "subject": "The Hutch: September 28 - October 4, 2026",
+    "by": "Ellen",
+    "subject": "Flamenco and more this month!",
     "missing": []
    },
    "start": "2026-10-15T18:00:00-04:00",
@@ -6588,6 +6688,49 @@
    "lon": -71.115646,
    "geo_method": "gazetteer",
    "walk_min": 5
+  },
+  {
+   "id": "8b1c6a826666",
+   "title": "Bruce Armitage: A Maker’s Journey",
+   "url": "https://events.college.harvard.edu/ofa/event/225693-bruce-armitage-a-makers-journey",
+   "source_id": "college",
+   "source_name": "Harvard College events",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-10-16T10:00:00-04:00",
+   "end": "2026-10-16T16:00:00-04:00",
+   "date": "2026-10-16",
+   "all_day": false,
+   "location": "Ceramics Studio",
+   "online": false,
+   "host": "Ceramics Program, Office for the Arts at Harvard",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "Harvard College students",
+    "evidence": "Harvard College calendar, no sign it is open to others",
+    "basis": "default"
+   },
+   "summary": "This exhibition celebrates the evolving work of Boston-based sculptor and ceramic artist Bruce Armitage, a long-time Resident Artist, Teaching Assistant, and Studio Lab Technician at the Ceramics Program, Office for the Arts at Harvard. He focuses on figurative sculpture influenced by classical traditions. Bruce is a…",
+   "blurb": "This exhibition celebrates the evolving work of Boston-based sculptor and ceramic artist Bruce Armitage, a long-time Resident Artist, Teaching Assistant, and Studio Lab Technician at the Ceramics Program, Office for the Arts at Harvard. He focuses on…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Ceramics Studio",
+   "lat": 42.362599,
+   "lon": -71.131201,
+   "geo_method": "source",
+   "walk_min": 37
   },
   {
    "id": "3dab5d0684ab",
@@ -9726,6 +9869,52 @@
    "walk_min": 7
   },
   {
+   "id": "6e25bdaf8f3c",
+   "title": "Sunday Reset",
+   "url": "https://events.college.harvard.edu/winthrop-house/event/225713-sunday-reset",
+   "source_id": "college",
+   "source_name": "Harvard College events",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-10-18T17:00:00-04:00",
+   "end": "2026-10-18T18:00:00-04:00",
+   "date": "2026-10-18",
+   "all_day": false,
+   "location": "Private Dining Room",
+   "online": false,
+   "host": "Winthrop House",
+   "food": {
+    "status": "confirmed",
+    "types": [
+     "Sweets"
+    ],
+    "evidence": "Boba will be available for the first 10 folks to join the conversation!",
+    "cue": "strong"
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "Winthrop House residents",
+    "evidence": "Hosted by Winthrop House",
+    "basis": "inferred"
+   },
+   "summary": "Terrol owes his provenance to Jamaica and spent his teenage years in Florida. He graduated from Wake Forest University in 2011 where he was a Gordon Scholar and Gates Millennium Scholar. He holds an MPH in Health Policy and Management with a concentration in Global Health from the Yale School of Public Health and is…",
+   "blurb": "Terrol owes his provenance to Jamaica and spent his teenage years in Florida. He graduated from Wake Forest University in 2011 where he was a Gordon Scholar and Gates Millennium Scholar. He holds an MPH in Health Policy and Management with a concentration in…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Winthrop House",
+   "lat": 42.370356,
+   "lon": -71.118646,
+   "geo_method": "host",
+   "walk_min": 15
+  },
+  {
    "id": "996128bd6338",
    "title": "Weekly SCR Dinner Table",
    "url": "https://events.college.harvard.edu/winthrop-house/event/225217-weekly-scr-dinner-table",
@@ -10294,6 +10483,49 @@
    "walk_min": 5
   },
   {
+   "id": "0a60563b2dd2",
+   "title": "Bruce Armitage: A Maker’s Journey",
+   "url": "https://events.college.harvard.edu/ofa/event/225694-bruce-armitage-a-makers-journey",
+   "source_id": "college",
+   "source_name": "Harvard College events",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-10-19T10:00:00-04:00",
+   "end": "2026-10-19T16:00:00-04:00",
+   "date": "2026-10-19",
+   "all_day": false,
+   "location": "Ceramics Studio",
+   "online": false,
+   "host": "Ceramics Program, Office for the Arts at Harvard",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "Harvard College students",
+    "evidence": "Harvard College calendar, no sign it is open to others",
+    "basis": "default"
+   },
+   "summary": "This exhibition celebrates the evolving work of Boston-based sculptor and ceramic artist Bruce Armitage, a long-time Resident Artist, Teaching Assistant, and Studio Lab Technician at the Ceramics Program, Office for the Arts at Harvard. He focuses on figurative sculpture influenced by classical traditions. Bruce is a…",
+   "blurb": "This exhibition celebrates the evolving work of Boston-based sculptor and ceramic artist Bruce Armitage, a long-time Resident Artist, Teaching Assistant, and Studio Lab Technician at the Ceramics Program, Office for the Arts at Harvard. He focuses on…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Ceramics Studio",
+   "lat": 42.362599,
+   "lon": -71.131201,
+   "geo_method": "source",
+   "walk_min": 37
+  },
+  {
    "id": "2c2a0790b7d4",
    "title": "Harvard and the American Revolution",
    "url": "https://library.harvard.edu/exhibits/harvard-and-american-revolution",
@@ -10430,6 +10662,49 @@
    "lon": -71.118484,
    "geo_method": "source",
    "walk_min": 12
+  },
+  {
+   "id": "cf8e805a936a",
+   "title": "Farewell to Grand Narratives: The Cultural Psychology of China’s Younger Generation (告别宏大叙事：当代中国年轻一代的文化心理)",
+   "url": "https://fairbank.fas.harvard.edu/events/farewell-to-grand-narratives-the-cultural-psychology-of-chinas-younger-generation-%e5%91%8a%e5%88%ab%e5%ae%8f%e5%a4%a7%e5%8f%99%e4%ba%8b%ef%bc%9a%e5%bd%93%e4%bb%a3%e4%b8%ad%e5%9b%bd/",
+   "source_id": "suggested",
+   "source_name": "Suggested calendar: Fairbanks center",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-10-19T12:00:00-04:00",
+   "end": "2026-10-19T14:00:00-04:00",
+   "date": "2026-10-19",
+   "all_day": false,
+   "location": "Common Room, 2 Divinity Ave., 2 Divinity Ave., Cambridge, Massachusetts, 02138, United States",
+   "online": false,
+   "host": "",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "Speaker: Xu Jilin (许纪霖), Professor of History, East China Normal UniversityCo-Chair: Yedong Sh-Chen, Visiting Assistant Teaching Professor in Chinese, Department of East Asian Languages and Cultures, Wellesley College***This talk will be in Chinese*** Venue",
+   "blurb": "",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Harvard-Yenching Institute",
+   "lat": 42.377696,
+   "lon": -71.113744,
+   "geo_method": "gazetteer",
+   "walk_min": 2
   },
   {
    "id": "234081343942",
@@ -10638,9 +10913,7 @@
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
-   "aliases": [
-    "8590d61d4b45"
-   ],
+   "aliases": [],
    "suggested": null,
    "forwarded": null,
    "start": "2026-10-19T12:00:00-04:00",
@@ -12243,6 +12516,49 @@
    "walk_min": null
   },
   {
+   "id": "d205cd122670",
+   "title": "Bruce Armitage: A Maker’s Journey",
+   "url": "https://events.college.harvard.edu/ofa/event/225695-bruce-armitage-a-makers-journey",
+   "source_id": "college",
+   "source_name": "Harvard College events",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-10-20T10:00:00-04:00",
+   "end": "2026-10-20T16:00:00-04:00",
+   "date": "2026-10-20",
+   "all_day": false,
+   "location": "Ceramics Studio",
+   "online": false,
+   "host": "Ceramics Program, Office for the Arts at Harvard",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "Harvard College students",
+    "evidence": "Harvard College calendar, no sign it is open to others",
+    "basis": "default"
+   },
+   "summary": "This exhibition celebrates the evolving work of Boston-based sculptor and ceramic artist Bruce Armitage, a long-time Resident Artist, Teaching Assistant, and Studio Lab Technician at the Ceramics Program, Office for the Arts at Harvard. He focuses on figurative sculpture influenced by classical traditions. Bruce is a…",
+   "blurb": "This exhibition celebrates the evolving work of Boston-based sculptor and ceramic artist Bruce Armitage, a long-time Resident Artist, Teaching Assistant, and Studio Lab Technician at the Ceramics Program, Office for the Arts at Harvard. He focuses on…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Ceramics Studio",
+   "lat": 42.362599,
+   "lon": -71.131201,
+   "geo_method": "source",
+   "walk_min": 37
+  },
+  {
    "id": "ca2dc73e64a5",
    "title": "Harvard and the American Revolution",
    "url": "https://library.harvard.edu/exhibits/harvard-and-american-revolution",
@@ -12821,7 +13137,7 @@
   },
   {
    "id": "3af25dea52cb",
-   "title": "Lunch Talk with Dr. E. Michael Harrington",
+   "title": "Recording Artists Project – Talk with Dr. E. Michael Harrington",
    "url": "https://hls.harvard.edu/events/lunch-talk-with-dr-michael-e-harrington/",
    "source_id": "hls",
    "source_name": "Harvard Law School",
@@ -12837,11 +13153,9 @@
    "online": false,
    "host": "Recording Artists Project",
    "food": {
-    "status": "likely",
-    "types": [
-     "Lunch"
-    ],
-    "evidence": "Lunch Talk with Dr. E. Michael Harrington"
+    "status": "none",
+    "types": [],
+    "evidence": ""
    },
    "registration": {
     "status": "unknown",
@@ -13353,6 +13667,57 @@
    "walk_min": null
   },
   {
+   "id": "a4763ebc2c94",
+   "title": "Dance Medicine Clinic",
+   "url": "https://us.list-manage.com/1B0oylGS9A2?e=75bbdee856&c2id=e6ff79e9a31816184c42e7d96486835a",
+   "source_id": "newsletter",
+   "source_name": "Forwarded: Flamenco and more this month!",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": {
+    "by": "Ellen",
+    "subject": "Flamenco and more this month!",
+    "missing": [
+     "place",
+     "event page",
+     "description"
+    ]
+   },
+   "start": "2026-10-20T18:00:00-04:00",
+   "end": null,
+   "date": "2026-10-20",
+   "all_day": false,
+   "location": "",
+   "online": false,
+   "host": "",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "Dance Medicine Clinic Tues, 10/20, 6pm:",
+   "blurb": "",
+   "event_page": false,
+   "notes": "",
+   "place_name": "",
+   "lat": null,
+   "lon": null,
+   "geo_method": null,
+   "walk_min": null
+  },
+  {
    "id": "e93e9da2244d",
    "title": "Harvard Community Seminar: Faith and the First Amendment",
    "url": "https://news.harvard.edu/gazette/harvard-events/events-calendar/?trumbaEmbed=view%3Devent%26eventid%3D209707160",
@@ -13397,7 +13762,7 @@
   },
   {
    "id": "4919720ff520",
-   "title": "Leading Under Pressure: Decision-Making in Public Life",
+   "title": "Leading Under Pressure: Anthony Foxx & Jim Gilman on Values in Leadership",
    "url": "https://www.hks.harvard.edu/events/leading-under-pressure-decision-making-public-life",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
@@ -13428,8 +13793,8 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "What does principled public leadership look like when the stakes are high and the right answer isn't obvious? Join us for the first event in the Principled Public Leadership Speaker Series, a fireside chat between CPL Director Anthony Foxx, former U.S. Secretary of Transportation and Mayor of Charlotte, and CPL…",
-   "blurb": "What does principled public leadership look like when the stakes are high and the right answer isn't obvious? Join us for the first event in the Principled Public Leadership Speaker Series, a fireside chat between CPL Director Anthony Foxx, former U.S.…",
+   "summary": "What does it take to lead with your values, not only in moments of crisis but in the everyday choices that shape a life in public service? How do you prepare for the pressures that come with a role in the public sector? Join us for the first event in the Principled Public Leadership Speaker Series, a fireside chat…",
+   "blurb": "What does it take to lead with your values, not only in moments of crisis but in the everyday choices that shape a life in public service? How do you prepare for the pressures that come with a role in the public sector? Join us for the first event in the…",
    "event_page": true,
    "notes": "",
    "place_name": "Littauer Building, Harvard Kennedy School",
@@ -13437,6 +13802,49 @@
    "lon": -71.12209,
    "geo_method": "gazetteer",
    "walk_min": 18
+  },
+  {
+   "id": "85723b8f3025",
+   "title": "Lighting Design for Dance",
+   "url": "https://events.college.harvard.edu/ofa/event/225658-lighting-design-for-dance",
+   "source_id": "college",
+   "source_name": "Harvard College events",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-10-20T18:00:00-04:00",
+   "end": null,
+   "date": "2026-10-20",
+   "all_day": false,
+   "location": "",
+   "online": true,
+   "host": "Office for the Arts at Harvard (OFA) Dance Program",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "harvard",
+    "group": "",
+    "evidence": "Open to all Harvard students!",
+    "basis": "text"
+   },
+   "summary": "Learn basic concepts in theatrical lighting for dance, including the functions and qualities of light, how to use lighting to create a choreographic container, and so much more! For choreographers: learn what to think about when it comes to lighting your piece and how to communicate your ideas to a lighting designer.…",
+   "blurb": "Learn basic concepts in theatrical lighting for dance, including the functions and qualities of light, how to use lighting to create a choreographic container, and so much more! For choreographers: learn what to think about when it comes to lighting your…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "",
+   "lat": null,
+   "lon": null,
+   "geo_method": null,
+   "walk_min": null
   },
   {
    "id": "1d2f60d3b7d8",
@@ -13774,25 +14182,31 @@
   },
   {
    "id": "2a2f28b04a57",
-   "title": "Discussion on Campus Sexual Violence (SJC/WLA/SHARE)",
-   "url": "https://hls.harvard.edu/events/discussion-on-campus-sexual-violence-sjc-wla-share/",
+   "title": "SJC x WLA Safe Discussion",
+   "url": "https://hls.harvard.edu/events/sjc-x-wla-safe-discussion/",
    "source_id": "hls",
    "source_name": "Harvard Law School",
    "also_listed": [],
-   "aliases": [],
+   "aliases": [
+    "46e72be397fb"
+   ],
    "suggested": null,
    "forwarded": null,
    "start": "2026-10-21T08:00:00-04:00",
    "end": "2026-10-21T10:00:00-04:00",
    "date": "2026-10-21",
    "all_day": false,
-   "location": "WCC, 5044 Room, Harvard Law School",
+   "location": "WCC 5044, Harvard Law School",
    "online": false,
-   "host": "Harvard Law School Survivor Justice Coalition",
+   "host": "Harvard Law School Survivor Justice Coalition; Harvard Women's Law Association",
    "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
+    "status": "confirmed",
+    "types": [
+     "Coffee",
+     "Sweets"
+    ],
+    "evidence": "We will have coffee and donuts.",
+    "cue": "weak"
    },
    "registration": {
     "status": "unknown",
@@ -13805,8 +14219,8 @@
     "evidence": "HLS listing audience: All HLS students only",
     "basis": "listing"
    },
-   "summary": "Please join us for a safe space to discuss campus sexual violence. This event is sponsored by Survivor Justice Coalition, Women’s Law Associate, and SHARE Team. Add to Calendar October 21, 2026, 8:00 am - 10:00 am +Google Calendar +iCal/Outlook",
-   "blurb": "Please join us for a safe space to discuss campus sexual violence. This event is sponsored by Survivor Justice Coalition, Women’s Law Associate, and SHARE Team.",
+   "summary": "Upset about the recent news at Cornell? Are you seeking a safe space where you can share your emotions and release your anger? Come join SJC and WLA for an open discussion and venting session moderated by a confidential SHARE counselor. This event will be taking place on Wednesday, October 21st from 8:00am to 10:00am…",
+   "blurb": "Upset about the recent news at Cornell? Are you seeking a safe space where you can share your emotions and release your anger? Come join SJC and WLA for an open discussion and venting session moderated by a confidential SHARE counselor. This event will be…",
    "event_page": true,
    "notes": "",
    "place_name": "Wasserstein Hall (WCC), Harvard Law School",
@@ -14940,15 +15354,17 @@
   {
    "id": "83e47f9c6d9a",
    "title": "Crossing the Red Line: Biden, His Advisors, and Israel’s War in Gaza",
-   "url": "https://hls.harvard.edu/events/crossing-the-red-line-biden-his-advisors-and-israels-war-in-gaza/",
+   "url": "https://hls.harvard.edu/events/crossing-the-red-line-biden-his-advisors-and-israels-war-in-gaza-2/",
    "source_id": "hls",
    "source_name": "Harvard Law School",
    "also_listed": [],
-   "aliases": [],
+   "aliases": [
+    "86b1288070e6"
+   ],
    "suggested": null,
    "forwarded": null,
    "start": "2026-10-21T12:30:00-04:00",
-   "end": "2026-10-21T13:15:00-04:00",
+   "end": "2026-10-21T13:30:00-04:00",
    "date": "2026-10-21",
    "all_day": false,
    "location": "Hauser Hall, 104 Lumbard Classroom, Harvard Law School",
@@ -14970,7 +15386,7 @@
     "evidence": "HLS listing audience: All Harvard",
     "basis": "listing"
    },
-   "summary": "Join us to hear from award-winning foreign affairs journalist Akbar Shahid Ahmed on his new book, “Crossing the Red Line: Biden, His Advisors, and Israel’s War in Gaza”. This book is an urgent reckoning with American complicity and participation in Israel’s unthinkable, horrifying atrocities in Gaza. Akbar will take…",
+   "summary": "Join us to hear from award-winning foreign affairs journalist Akbar Shahid Ahmed on his new book, Crossing the Red Line: Biden, His Advisors, and Israel’s War in Gaza. This book is an urgent reckoning with American complicity and participation in Israel’s unthinkable, horrifying atrocities in Gaza. Akbar will take us…",
    "blurb": "Join us to hear from award-winning foreign affairs journalist Akbar Shahid Ahmed on his new book, “Crossing the Red Line: Biden, His Advisors, and Israel’s War in Gaza”. This book is an urgent reckoning with American complicity and participation in Israel’s…",
    "event_page": true,
    "notes": "",
@@ -14979,6 +15395,49 @@
    "lon": -71.118138,
    "geo_method": "gazetteer",
    "walk_min": 8
+  },
+  {
+   "id": "c2c6ff76f656",
+   "title": "J.D./M.P.H. Virtual Info Session",
+   "url": "https://hls.harvard.edu/events/j-d-m-p-h-virtual-info-session/",
+   "source_id": "hls",
+   "source_name": "Harvard Law School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-10-21T12:30:00-04:00",
+   "end": "2026-10-21T13:15:00-04:00",
+   "date": "2026-10-21",
+   "all_day": false,
+   "location": "Zoom, Harvard Law School",
+   "online": false,
+   "host": "Harvard Law School",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "Register here.",
+    "link": "https://harvard.az1.qualtrics.com/jfe/form/SV_3EOGawUNHUHgTT8"
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "HLS students",
+    "evidence": "Title: J.D./M.P.H. Virtual Info Session",
+    "basis": "inferred"
+   },
+   "summary": "Discover how a joint J.D./M.P.H.—an opportunity available only to 1Ls—can prepare you to tackle today’s most pressing challenges at the intersection of law and public health at this virtual information session, featuring faculty, admissions staff, and current/former students from HLS and Harvard T.H. Chan School of…",
+   "blurb": "Discover how a joint J.D./M.P.H.—an opportunity available only to 1Ls—can prepare you to tackle today’s most pressing challenges at the intersection of law and public health at this virtual information session, featuring faculty, admissions staff, and…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Harvard Law School",
+   "lat": 42.379106,
+   "lon": -71.119679,
+   "geo_method": "host",
+   "walk_min": 10
   },
   {
    "id": "60ee829f711a",
@@ -16062,7 +16521,7 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "Thursday, October 22, 2026 Time: 6:00pm EST Where: JFK Jr. Forum, 79 John F. Kennedy St., Cambridge, MA 02138 Meeting Method: Hybrid Add to Calendar 2026-10-22 18:00:00 2026-10-14 08:42:39 2026 Stone Lecture in Economic Inequality with Cecilia Rouse <p>The 2026 Stone Lecture in Economic Inequality will be delivered by…",
+   "summary": "Thursday, October 22, 2026 Time: 6:00pm EST Where: JFK Jr. Forum, 79 John F. Kennedy St., Cambridge, MA 02138 Meeting Method: Hybrid Add to Calendar 2026-10-22 18:00:00 2026-10-14 16:08:57 2026 Stone Lecture in Economic Inequality with Cecilia Rouse <p>The 2026 Stone Lecture in Economic Inequality will be delivered by…",
    "blurb": "The 2026 Stone Lecture in Economic Inequality will be delivered by economist Cecilia Rouse, who will present \"Where’s the Squeeze?",
    "event_page": true,
    "notes": "",
@@ -16167,7 +16626,7 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "Friday, October 23, 2026 Time: 4:00pm EST Where: JFK Jr. Forum, 79 John F. Kennedy St., Cambridge, MA 02138 Meeting Method: Hybrid Add to Calendar 2026-10-23 16:00:00 2026-10-14 09:12:31 Meeting the China Challenge with Kevin Rudd, Fmr. Prime Minister of Australia Former Australian Prime Minister Kevin Rudd joins us…",
+   "summary": "Friday, October 23, 2026 Time: 4:00pm EST Where: JFK Jr. Forum, 79 John F. Kennedy St., Cambridge, MA 02138 Meeting Method: Hybrid Add to Calendar 2026-10-23 16:00:00 2026-10-14 16:13:54 Meeting the China Challenge with Kevin Rudd, Fmr. Prime Minister of Australia Former Australian Prime Minister Kevin Rudd joins us…",
    "blurb": "Former Australian Prime Minister Kevin Rudd joins us for a timely discussion on the U.S., China, and the pathway forward for this consequential relationship. Rudd is the author of \"On Xi Jinping: How Xi's Marxist Nationalism is Shaping China and the World\"…",
    "event_page": true,
    "notes": "",
@@ -16273,7 +16732,7 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "Monday, October 26, 2026 Time: 6:00pm EST Where: JFK Jr. Forum, 79 John F. Kennedy St., Cambridge, MA 02138 Meeting Method: Hybrid Add to Calendar 2026-10-26 18:00:00 2026-10-14 08:43:44 The Diplomat: On Screen and in the World with Keri Russell, Debora Cahn, & Amb. Samantha Power <p><em><strong>Please note this Forum…",
+   "summary": "Monday, October 26, 2026 Time: 6:00pm EST Where: JFK Jr. Forum, 79 John F. Kennedy St., Cambridge, MA 02138 Meeting Method: Hybrid Add to Calendar 2026-10-26 18:00:00 2026-10-14 16:13:56 The Diplomat: On Screen and in the World with Keri Russell, Debora Cahn, & Amb. Samantha Power <p><em><strong>Please note this Forum…",
    "blurb": "",
    "event_page": true,
    "notes": "",
@@ -16282,6 +16741,55 @@
    "lon": -71.12209,
    "geo_method": "gazetteer",
    "walk_min": 18
+  },
+  {
+   "id": "a77ed58959ba",
+   "title": "Flamenco Workshop + Performance",
+   "url": "https://us.list-manage.com/LxXK641W_tT?e=75bbdee856&c2id=e6ff79e9a31816184c42e7d96486835a",
+   "source_id": "newsletter",
+   "source_name": "Forwarded: Flamenco and more this month!",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": {
+    "by": "Ellen",
+    "subject": "Flamenco and more this month!",
+    "missing": [
+     "event page"
+    ]
+   },
+   "start": "2026-10-27T18:00:00-04:00",
+   "end": null,
+   "date": "2026-10-27",
+   "all_day": false,
+   "location": "",
+   "online": false,
+   "host": "",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "harvard",
+    "group": "",
+    "evidence": "Free and open to all HUID holders!",
+    "basis": "text"
+   },
+   "summary": "Flamenco Workshop + Performance with María Aliaga Tuesday, October 27, 6pm Leverett Library Theater Join the OFA Dance Program and Leverett House for an evening exploring the art of flamenco through both practice and performance with international flamenco dancer María Aliaga! Learn and embody the foundations of…",
+   "blurb": "Leverett House for an evening exploring the art of flamenco through both practice and performance with international flamenco dancer Learn and embody the foundations of flamenco including its history, rhythmic structures (compás), expressive movement, and the…",
+   "event_page": false,
+   "notes": "",
+   "place_name": "Leverett House",
+   "lat": 42.369718,
+   "lon": -71.117109,
+   "geo_method": "text",
+   "walk_min": 15
   },
   {
    "id": "52f30e589e35",
@@ -16375,7 +16883,7 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "Wednesday, October 28, 2026 Time: 6:00pm EST Where: JFK Jr. Forum, 79 John F. Kennedy St., Cambridge, MA 02138 Meeting Method: Hybrid Add to Calendar 2026-10-28 18:00:00 2026-10-14 08:42:01 Gender Apartheid: Power and Oppression in Afghanistan with Metra Mehran, Sima Samar, & Fatema Z. Sumar Our panel of experts will…",
+   "summary": "Wednesday, October 28, 2026 Time: 6:00pm EST Where: JFK Jr. Forum, 79 John F. Kennedy St., Cambridge, MA 02138 Meeting Method: Hybrid Add to Calendar 2026-10-28 18:00:00 2026-10-14 16:07:14 Gender Apartheid: Power and Oppression in Afghanistan with Metra Mehran, Sima Samar, & Fatema Z. Sumar Our panel of experts will…",
    "blurb": "Our panel of experts will unpack the state of women’s and girls’ rights in Afghanistan under Taliban rule, including restrictions on education, employment, freedom of movement, political participation, and public life. In partnership with the Women and Public…",
    "event_page": true,
    "notes": "",
@@ -16384,6 +16892,57 @@
    "lon": -71.12209,
    "geo_method": "gazetteer",
    "walk_min": 18
+  },
+  {
+   "id": "2923f41cd51c",
+   "title": "Lighting Design for Dance",
+   "url": "https://us.list-manage.com/7uMLrRmY4jY?e=75bbdee856&c2id=e6ff79e9a31816184c42e7d96486835a",
+   "source_id": "newsletter",
+   "source_name": "Forwarded: Flamenco and more this month!",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": {
+    "by": "Ellen",
+    "subject": "Flamenco and more this month!",
+    "missing": [
+     "place",
+     "event page",
+     "description"
+    ]
+   },
+   "start": "2026-10-28T18:30:00-04:00",
+   "end": null,
+   "date": "2026-10-28",
+   "all_day": false,
+   "location": "",
+   "online": false,
+   "host": "",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "Lighting Design for Dance Wed, 10/28, 6:30pm:",
+   "blurb": "",
+   "event_page": false,
+   "notes": "",
+   "place_name": "",
+   "lat": null,
+   "lon": null,
+   "geo_method": null,
+   "walk_min": null
   },
   {
    "id": "21864a1eaf95",
@@ -16435,6 +16994,57 @@
    "walk_min": 7
   },
   {
+   "id": "ac1cf1877069",
+   "title": "Dance in Public lab session #3",
+   "url": "https://us.list-manage.com/MCdpDnk4YPQ?e=75bbdee856&c2id=e6ff79e9a31816184c42e7d96486835a",
+   "source_id": "newsletter",
+   "source_name": "Forwarded: Flamenco and more this month!",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": {
+    "by": "Ellen",
+    "subject": "Flamenco and more this month!",
+    "missing": [
+     "place",
+     "event page",
+     "description"
+    ]
+   },
+   "start": "2026-10-30T18:30:00-04:00",
+   "end": null,
+   "date": "2026-10-30",
+   "all_day": false,
+   "location": "",
+   "online": false,
+   "host": "",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "Dance in Public lab session #3 Fri, 10/30, 6:30pm: Open Studios with Ella Wechsler Mattaei/Soca Fusion From our friends in TDM",
+   "blurb": "",
+   "event_page": false,
+   "notes": "",
+   "place_name": "",
+   "lat": null,
+   "lon": null,
+   "geo_method": null,
+   "walk_min": null
+  },
+  {
    "id": "0d98ffce6565",
    "title": "Three Weeks Until Election Day: House Republican and House Democrat on What to Expect on November 3",
    "url": "https://iop.harvard.edu/events/three-weeks-until-election-day-house-republican-and-house-democrat-what-expect-november-3",
@@ -16481,7 +17091,7 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "Three Weeks Until Election Day: House Republican and House Democrat on What to Expect on November 3 Description A House Republican and House Democrat, both from crucial battleground states, discuss the fast-approaching midterms, and what to expect in the lead up to Election Day, with Puck News' Peter Hamby. Plus, as…",
+   "summary": "Three Weeks Until Election Day: House Republican and House Democrat on What to Expect on November 3 Description View the livestream A House Republican and House Democrat, both from crucial battleground states, discuss the fast-approaching midterms, and what to expect in the lead up to Election Day, with Puck News'…",
    "blurb": "A House Republican and House Democrat, both from crucial battleground states, discuss the fast-approaching midterms, and what to expect in the lead up to Election Day, with Puck News' Peter Hamby. Plus, as Chairman and Ranking Member of the House Budget…",
    "event_page": true,
    "notes": "",
@@ -16582,7 +17192,7 @@
   {
    "id": 4,
    "state": "scanned",
-   "label": "Scanned at every update: 27 events found, 1 with food this week",
+   "label": "Scanned at every update: 30 events found, 1 with food this week",
    "n_food": 1
   }
  ],
@@ -16663,6 +17273,13 @@
    "items": 17,
    "sender": null,
    "forwarded_by": "Cecilia"
+  },
+  {
+   "subject": "Flamenco and more this month!",
+   "sent": "2026-10-14",
+   "items": 6,
+   "sender": null,
+   "forwarded_by": "Ellen"
   },
   {
    "subject": "Jodidi Lecture / Testimony (1989–2026) with Ron Haviv",
