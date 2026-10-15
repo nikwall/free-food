@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T16:15:00-04:00",
+ "generated_at": "2026-10-14T20:35:03-04:00",
  "window": {
   "start": "2026-10-14",
   "end": "2026-10-21"
@@ -22,7 +22,7 @@
    "error": null,
    "n_events": 137,
    "n_food": 5,
-   "seconds": 1.6
+   "seconds": 1.5
   },
   {
    "id": "hks",
@@ -32,7 +32,7 @@
    "error": null,
    "n_events": 47,
    "n_food": 9,
-   "seconds": 14.8
+   "seconds": 2.4
   },
   {
    "id": "hls",
@@ -42,7 +42,7 @@
    "error": null,
    "n_events": 118,
    "n_food": 60,
-   "seconds": 13.6
+   "seconds": 12.0
   },
   {
    "id": "college",
@@ -50,9 +50,9 @@
    "homepage": "https://events.college.harvard.edu/",
    "ok": true,
    "error": null,
-   "n_events": 98,
+   "n_events": 99,
    "n_food": 11,
-   "seconds": 0.9
+   "seconds": 0.6
   },
   {
    "id": "ash",
@@ -62,7 +62,7 @@
    "error": null,
    "n_events": 4,
    "n_food": 1,
-   "seconds": 2.3
+   "seconds": 2.0
   },
   {
    "id": "shorenstein",
@@ -72,7 +72,7 @@
    "error": null,
    "n_events": 1,
    "n_food": 0,
-   "seconds": 11.3
+   "seconds": 8.2
   },
   {
    "id": "fairbank",
@@ -92,7 +92,7 @@
    "error": null,
    "n_events": 67,
    "n_food": 9,
-   "seconds": 84.0
+   "seconds": 66.8
   },
   {
    "id": "suggested",
@@ -100,19 +100,19 @@
    "homepage": "",
    "ok": true,
    "error": null,
-   "n_events": 10,
+   "n_events": 9,
    "n_food": 2,
-   "seconds": 4.2
+   "seconds": 5.8
   }
  ],
  "stats": {
-  "events": 376,
+  "events": 377,
   "food_confirmed": 66,
   "food_likely": 21,
   "forwarded": 30,
   "forwarded_listed": 18,
   "food_restricted": 58,
-  "seconds": 92.6
+  "seconds": 75.9
  },
  "events": [
   {
@@ -937,8 +937,8 @@
     "evidence": "This event is held in conjunction with the University-Wide Wellness Group and is open to all members…",
     "basis": "text"
    },
-   "summary": "October 14 Wednesday • 24 events Harvard Law Run Club Bagel Run 8:00 am - 9:00 am Join Harvard Law Run Club for a bagel run at 8am! We will meet outside the WCC between Casperson, Langdell, and Hauser. There will be bagels after the run! All paces are welcome! Please RSVP here… Alumni in Residence with Graham Robinson…",
-   "blurb": "Join Harvard Law Run Club for a bagel run at 8am! We will meet outside the WCC between Casperson, Langdell, and Hauser. There will be bagels after the run! Graham Robinson is an M&A partner at Kirkland & Ellis LLP, focusing on public-company acquisitions in…",
+   "summary": "October 14 Wednesday • 24 events Harvard Law Run Club Bagel Run 8:00 am - 9:00 am Join Harvard Law Run Club for a bagel run at 8am! We will meet outside the WCC between Casperson, Langdell, and Hauser. There will be bagels after the run! All paces are welcome! Please RSVP here… La Alianza x Weil Coffee Chat 12:00 pm -…",
+   "blurb": "Join Harvard Law Run Club for a bagel run at 8am! We will meet outside the WCC between Casperson, Langdell, and Hauser. There will be bagels after the run! La Alianza will host attorneys from Weil for a coffee chat to discuss practice areas, firm life and…",
    "event_page": true,
    "notes": "",
    "place_name": "Harvard Law School",
@@ -2125,12 +2125,12 @@
      "url": "https://iop.harvard.edu/events/study-group-ambassador-nathalie-rayes-culture-city-hall-building-influence-power-and-purpose"
     },
     {
-     "source_name": "Harvard Kennedy School",
-     "url": "https://www.hks.harvard.edu/events/ambassador-nathalie-rayes-study-group-building-influence-power-and-purpose"
-    },
-    {
      "source_name": "Harvard Gazette calendar",
      "url": "https://iop.harvard.edu/events/study-group-ambassador-nathalie-rayes-culture-city-hall-building-influence-power-and-purpose"
+    },
+    {
+     "source_name": "Harvard Kennedy School",
+     "url": "https://www.hks.harvard.edu/events/ambassador-nathalie-rayes-study-group-building-influence-power-and-purpose"
     },
     {
      "source_name": "Harvard College events",
@@ -2199,12 +2199,12 @@
      "url": "https://iop.harvard.edu/events/study-group-governor-doug-ducey-leading-governing-1"
     },
     {
-     "source_name": "Harvard Kennedy School",
-     "url": "https://www.hks.harvard.edu/events/study-group-governor-doug-ducey-leading-governing-1"
-    },
-    {
      "source_name": "Harvard College events",
      "url": "https://events.college.harvard.edu/event/225348-study-group-with-governor-doug-ducey-leading-amp"
+    },
+    {
+     "source_name": "Harvard Kennedy School",
+     "url": "https://www.hks.harvard.edu/events/study-group-governor-doug-ducey-leading-governing-1"
     }
    ],
    "aliases": [
@@ -2257,13 +2257,9 @@
    "id": "7d7a25aaafce",
    "title": "Taiwan Studies Workshop featuring Eyck Freymann — Defending Taiwan: A Strategy to Prevent War with China",
    "url": "https://fairbank.fas.harvard.edu/events/taiwan-studies-workshop-featuring-eyck-freymann-defending-taiwan-a-strategy-to-prevent-war-with-china/",
-   "source_id": "suggested",
-   "source_name": "Suggested calendar: Fairbanks center",
+   "source_id": "fairbank",
+   "source_name": "Fairbank Center",
    "also_listed": [
-    {
-     "source_name": "Fairbank Center",
-     "url": "https://fairbank.fas.harvard.edu/events/taiwan-studies-workshop-featuring-eyck-freymann-defending-taiwan-a-strategy-to-prevent-war-with-china/"
-    },
     {
      "source_name": "Newsletter: Asia Bulletin: October 2–16",
      "url": "https://fairbank.fas.harvard.edu/events/taiwan-studies-workshop-featuring-eyck-freymann-defending-taiwan-a-strategy-to-prevent-war-with-china/"
@@ -2278,7 +2274,6 @@
     }
    ],
    "aliases": [
-    "c90e50b987c9",
     "f464de940db3",
     "f464de940db3",
     "f464de940db3",
@@ -2290,9 +2285,9 @@
    "end": "2026-10-14T17:15:00-04:00",
    "date": "2026-10-14",
    "all_day": false,
-   "location": "CGIS South, Room S050, 1730 Cambridge St, Cambridge, Massachusetts, 02138, United States",
+   "location": "CGIS South, Room S050, 1730 Cambridge St, Cambridge",
    "online": false,
-   "host": "",
+   "host": "Fairbank Center for Chinese Studies",
    "food": {
     "status": "none",
     "types": [],
@@ -2309,8 +2304,8 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "Speaker: Eyck Freymann, Hoover Fellow, Stanford University PLEASE NOTE: THIS EVENT’S START TIME HAS CHANGED TO 4PMTaiwan is where the uneasy peace between the United States and China will be tested–and possibly broken. Beijing believes that “reunification” is inevitable. American military strength has preserved peace…",
-   "blurb": "PLEASE NOTE: THIS EVENT’S START TIME HAS CHANGED TO 4PMTaiwan is where the uneasy peace between the United States and China will be tested–and possibly broken. Beijing believes that “reunification” is inevitable. American military strength has preserved peace…",
+   "summary": "@ Speaker: Eyck Freymann, Hoover Fellow, Stanford University PLEASE NOTE: THIS EVENT’S START TIME HAS CHANGED TO 4PM Taiwan is where the uneasy peace between the United States and China will be tested–and possibly broken. Beijing believes that “reunification” is inevitable. American military strength has preserved…",
+   "blurb": "Taiwan is where the uneasy peace between the United States and China will be tested–and possibly broken. Beijing believes that “reunification” is inevitable. American military strength has preserved peace and stability for decades, but its advantages are…",
    "event_page": true,
    "notes": "",
    "place_name": "CGIS South Building",
@@ -3001,9 +2996,9 @@
     "evidence": ""
    },
    "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://iop.harvard.edu/events/negotiating-table-steve-witkoff"
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
    },
    "audience": {
     "level": "unknown",
@@ -5738,6 +5733,49 @@
    "lon": -71.121761,
    "geo_method": "host",
    "walk_min": 16
+  },
+  {
+   "id": "1412b1482327",
+   "title": "Info Session with Nominal",
+   "url": "https://soco.college.harvard.edu/rsvp?id=383315",
+   "source_id": "college",
+   "source_name": "Harvard College events",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-10-15T17:00:00-04:00",
+   "end": "2026-10-15T18:00:00-04:00",
+   "date": "2026-10-15",
+   "all_day": false,
+   "location": "SoCo",
+   "online": false,
+   "host": "Dean of Students Office",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "Registration link on the event page",
+    "link": "https://soco.college.harvard.edu/rsvp?id=383315"
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "undergraduates",
+    "evidence": "Title: Info Session with Nominal",
+    "basis": "inferred"
+   },
+   "summary": "Welcoming members of the Nominal team to speak to students about their work! — Event Details: https://soco.college.harvard.edu/rsvp?id=383315",
+   "blurb": "Welcoming members of the Nominal team to speak to students about their work!",
+   "event_page": true,
+   "notes": "",
+   "place_name": "",
+   "lat": null,
+   "lon": null,
+   "geo_method": null,
+   "walk_min": null
   },
   {
    "id": "4384b09286ab",
