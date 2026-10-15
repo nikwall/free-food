@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T11:06:43-04:00",
+ "generated_at": "2026-10-15T15:56:49-04:00",
  "window": {
   "start": "2026-10-15",
   "end": "2026-10-22"
@@ -20,9 +20,9 @@
    "homepage": "https://news.harvard.edu/gazette/harvard-events/events-calendar/",
    "ok": true,
    "error": null,
-   "n_events": 140,
-   "n_food": 5,
-   "seconds": 1.8
+   "n_events": 166,
+   "n_food": 8,
+   "seconds": 1.4
   },
   {
    "id": "hks",
@@ -30,9 +30,9 @@
    "homepage": "https://www.hks.harvard.edu/more/events",
    "ok": true,
    "error": null,
-   "n_events": 46,
-   "n_food": 9,
-   "seconds": 11.2
+   "n_events": 52,
+   "n_food": 8,
+   "seconds": 1.7
   },
   {
    "id": "hls",
@@ -40,9 +40,9 @@
    "homepage": "https://hls.harvard.edu/calendar/",
    "ok": true,
    "error": null,
-   "n_events": 108,
+   "n_events": 109,
    "n_food": 59,
-   "seconds": 10.0
+   "seconds": 11.0
   },
   {
    "id": "college",
@@ -52,7 +52,7 @@
    "error": null,
    "n_events": 99,
    "n_food": 11,
-   "seconds": 0.6
+   "seconds": 1.0
   },
   {
    "id": "ash",
@@ -62,7 +62,7 @@
    "error": null,
    "n_events": 2,
    "n_food": 0,
-   "seconds": 1.7
+   "seconds": 2.0
   },
   {
    "id": "shorenstein",
@@ -72,7 +72,7 @@
    "error": null,
    "n_events": 2,
    "n_food": 0,
-   "seconds": 9.2
+   "seconds": 8.7
   },
   {
    "id": "fairbank",
@@ -82,7 +82,7 @@
    "error": null,
    "n_events": 8,
    "n_food": 1,
-   "seconds": 6.9
+   "seconds": 0.2
   },
   {
    "id": "newsletter",
@@ -90,9 +90,9 @@
    "homepage": "",
    "ok": true,
    "error": null,
-   "n_events": 51,
+   "n_events": 52,
    "n_food": 10,
-   "seconds": 68.4
+   "seconds": 96.3
   },
   {
    "id": "suggested",
@@ -100,19 +100,19 @@
    "homepage": "",
    "ok": true,
    "error": null,
-   "n_events": 10,
+   "n_events": 9,
    "n_food": 2,
-   "seconds": 5.4
+   "seconds": 5.2
   }
  ],
  "stats": {
-  "events": 367,
-  "food_confirmed": 64,
+  "events": 397,
+  "food_confirmed": 65,
   "food_likely": 21,
-  "forwarded": 23,
+  "forwarded": 24,
   "forwarded_listed": 13,
   "food_restricted": 56,
-  "seconds": 83.6
+  "seconds": 104.3
  },
  "events": [
   {
@@ -551,6 +551,92 @@
    "walk_min": 5
   },
   {
+   "id": "6753e91b0c8c",
+   "title": "50 Shades of Modern",
+   "url": "https://library.harvard.edu/exhibits/50-shades-modern",
+   "source_id": "gazette",
+   "source_name": "Harvard Gazette calendar",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-10-15T10:00:00-04:00",
+   "end": "2026-10-15T17:00:00-04:00",
+   "date": "2026-10-15",
+   "all_day": false,
+   "location": "Houghton Library, Harvard Yard, Cambridge",
+   "online": false,
+   "host": "Houghton Library",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "Seeking to provoke both “wow, what an amazing object” and “wow, I didn’t know Houghton collected stuff like that,” \"50 Shades of Modern\" showcases just a few of the thousands of acquisitions Houghton’s Modern Books and Manuscripts Department has made over the past 20 years. Dating from 1800 to the present, these items…",
+   "blurb": "Seeking to provoke both “wow, what an amazing object” and “wow, I didn’t know Houghton collected stuff like that,” \"50 Shades of Modern\" showcases just a few of the thousands of acquisitions Houghton’s Modern Books and Manuscripts Department has made over the…",
+   "event_page": true,
+   "notes": "Harvard Key required: No",
+   "place_name": "Houghton Library",
+   "lat": 42.373191,
+   "lon": -71.115923,
+   "geo_method": "gazetteer",
+   "walk_min": 9
+  },
+  {
+   "id": "0d455edf6afd",
+   "title": "Adam Smith and the other revolution of 1776",
+   "url": "https://library.harvard.edu/exhibits/adam-smith-and-other-revolution-1776",
+   "source_id": "gazette",
+   "source_name": "Harvard Gazette calendar",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-10-15T10:00:00-04:00",
+   "end": "2026-10-15T17:00:00-04:00",
+   "date": "2026-10-15",
+   "all_day": false,
+   "location": "Houghton Library, Harvard Yard, Cambridge",
+   "online": false,
+   "host": "Houghton Library",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "This exhibition features two items by the Scottish moral philosopher Adam Smith: his monumental two-volume \"Inquiry into the Nature and Causes of the Wealth of Nations\" (1776) and a signed letter to his publisher, William Strahan, from that same year. Smith famously argued that economic prosperity is driven by open…",
+   "blurb": "This exhibition features two items by the Scottish moral philosopher Adam Smith: his monumental two-volume \"Inquiry into the Nature and Causes of the Wealth of Nations\" (1776) and a signed letter to his publisher, William Strahan, from that same year. Smith…",
+   "event_page": true,
+   "notes": "Harvard Key required: No",
+   "place_name": "Houghton Library",
+   "lat": 42.373191,
+   "lon": -71.115923,
+   "geo_method": "gazetteer",
+   "walk_min": 9
+  },
+  {
    "id": "c6e72c9ed039",
    "title": "Bruce Armitage: A Maker’s Journey",
    "url": "https://events.college.harvard.edu/ofa/event/225692-bruce-armitage-a-makers-journey",
@@ -633,6 +719,49 @@
    "place_name": "Harvard Yard",
    "lat": 42.37409,
    "lon": -71.116716,
+   "geo_method": "gazetteer",
+   "walk_min": 9
+  },
+  {
+   "id": "275e554ff59e",
+   "title": "Making a Scene: 125 Years of the Harvard Theatre Collection",
+   "url": "https://library.harvard.edu/exhibits/making-scene-0",
+   "source_id": "gazette",
+   "source_name": "Harvard Gazette calendar",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-10-15T10:00:00-04:00",
+   "end": "2026-10-15T17:00:00-04:00",
+   "date": "2026-10-15",
+   "all_day": false,
+   "location": "Houghton Library, Harvard Yard, Cambridge",
+   "online": false,
+   "host": "Houghton Library",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "Founded in 1901, the Harvard Theatre Collection is one of the world’s largest repositories for rare books, manuscripts, illustrations, and archives relating to the performing arts. Pairing archival objects with a defining moment from the past 125 years, this exhibition celebrates the extraordinary breadth of HTC’s…",
+   "blurb": "Founded in 1901, the Harvard Theatre Collection is one of the world’s largest repositories for rare books, manuscripts, illustrations, and archives relating to the performing arts. Pairing archival objects with a defining moment from the past 125 years, this…",
+   "event_page": true,
+   "notes": "Harvard Key required: No",
+   "place_name": "Houghton Library",
+   "lat": 42.373191,
+   "lon": -71.115923,
    "geo_method": "gazetteer",
    "walk_min": 9
   },
@@ -723,20 +852,13 @@
    "walk_min": 13
   },
   {
-   "id": "4d39b1533318",
+   "id": "f76cc40793e8",
    "title": "Critical Issues Confronting China Series featuring Maria Adele Carrai — Can China Remake Global Digital Norms and Governance?",
    "url": "https://fairbank.fas.harvard.edu/events/critical-issues-confronting-china-series-featuring-maria-adele-carrai-can-china-remake-global-digital-norms-and-governance/",
    "source_id": "fairbank",
    "source_name": "Fairbank Center",
-   "also_listed": [
-    {
-     "source_name": "Suggested calendar: Fairbanks center",
-     "url": "https://fairbank.fas.harvard.edu/events/critical-issues-confronting-china-series-featuring-maria-adele-carrai-can-china-remake-global-digital-norms-and-governance/"
-    }
-   ],
-   "aliases": [
-    "f76cc40793e8"
-   ],
+   "also_listed": [],
+   "aliases": [],
    "suggested": null,
    "forwarded": null,
    "start": "2026-10-15T12:00:00-04:00",
@@ -816,52 +938,6 @@
    "walk_min": 15
   },
   {
-   "id": "4c2507ac79f1",
-   "title": "Events Calendar",
-   "url": "https://hls.harvard.edu/calendar/",
-   "source_id": "suggested",
-   "source_name": "Suggested calendar: HLS",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-10-15T12:00:00-04:00",
-   "end": null,
-   "date": "2026-10-15",
-   "all_day": true,
-   "location": "",
-   "online": false,
-   "host": "",
-   "food": {
-    "status": "confirmed",
-    "types": [
-     "Lunch"
-    ],
-    "evidence": "Lunch will be served, RSVP requested.",
-    "cue": "strong"
-   },
-   "registration": {
-    "status": "recommended",
-    "evidence": "Lunch will be served, RSVP requested.",
-    "link": ""
-   },
-   "audience": {
-    "level": "unknown",
-    "group": "",
-    "evidence": "",
-    "basis": "none"
-   },
-   "summary": "October 15 Thursday • 28 events The Shiny Shop: Community Crafting Hub 12:00 pm - 6:00 pm Recurring September 9 to October 15 – Wednesdays 2-6pm | Thursdays 12-6pm Stop by to craft and mend at The Shiny Shop, a drop-in community crafting hub dedicated to micromobility safety. Alex Makes Art is onsite with workshops…",
-   "blurb": "September 9 to October 15 – Wednesdays 2-6pm | Thursdays 12-6pm Stop by to craft and mend at The Shiny Shop, a drop-in community crafting hub dedicated to micromobility safety. Alex Makes Art is onsite with workshops and drop-in opportunities to make and mend.",
-   "event_page": true,
-   "notes": "",
-   "place_name": "Harvard Law School",
-   "lat": 42.379106,
-   "lon": -71.119679,
-   "geo_method": "host",
-   "walk_min": 10
-  },
-  {
    "id": "4885e04597e0",
    "title": "From Syriac to Arabic: The Rise of Arabic as a Christian Language",
    "url": "https://cmes.fas.harvard.edu/event/syriac-arabic-rise-arabic-christian-language",
@@ -930,9 +1006,9 @@
     "cue": "strong"
    },
    "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001hlr7IAA"
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
    },
    "audience": {
     "level": "unknown",
@@ -951,9 +1027,9 @@
    "walk_min": 18
   },
   {
-   "id": "7e626dd95e4b",
+   "id": "5ac78b7f4e19",
    "title": "Growth and Structural Transformation in Morocco",
-   "url": "https://www.hks.harvard.edu/index%2ephp/events/growth-and-structural-transformation-morocco",
+   "url": "https://www.hks.harvard.edu/events/growth-and-structural-transformation-morocco",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -964,17 +1040,20 @@
    "end": "2026-10-15T13:00:00-04:00",
    "date": "2026-10-15",
    "all_day": false,
-   "location": "",
+   "location": "Malkin Penthouse / Zoom",
    "online": false,
-   "host": "",
+   "host": "Growth Lab",
    "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
+    "status": "confirmed",
+    "types": [
+     "Lunch"
+    ],
+    "evidence": "Lunch will be served.",
+    "cue": "strong"
    },
    "registration": {
-    "status": "unknown",
-    "evidence": "",
+    "status": "required",
+    "evidence": "Whether attending in person or virtually, please register in advance.",
     "link": ""
    },
    "audience": {
@@ -983,15 +1062,15 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "",
-   "blurb": "",
+   "summary": "Over twenty-five years Morocco built an automotive and aeronautics export base largely from scratch, expanded renewables, and positioned itself as a bridge between Europe and Africa — while still struggling with low female labor-force participation, weak educational outcomes, and a growth rate that has not delivered…",
+   "blurb": "Over twenty-five years Morocco built an automotive and aeronautics export base largely from scratch, expanded renewables, and positioned itself as a bridge between Europe and Africa — while still struggling with low female labor-force participation, weak…",
    "event_page": true,
    "notes": "",
-   "place_name": "Harvard Kennedy School",
-   "lat": 42.371989,
-   "lon": -71.121761,
-   "geo_method": "host",
-   "walk_min": 16
+   "place_name": "Littauer Building, Harvard Kennedy School",
+   "lat": 42.371045,
+   "lon": -71.12209,
+   "geo_method": "gazetteer",
+   "walk_min": 18
   },
   {
    "id": "0f628a9e27f9",
@@ -1302,9 +1381,68 @@
    "walk_min": 12
   },
   {
-   "id": "dcc553ff11f3",
+   "id": "04336c521762",
+   "title": "Events Calendar",
+   "url": "https://hls.harvard.edu/calendar/",
+   "source_id": "suggested",
+   "source_name": "Suggested calendar: HLS",
+   "also_listed": [
+    {
+     "source_name": "Forwarded: BKC in the News and October Events",
+     "url": "https://cyber.harvard.edu/events"
+    }
+   ],
+   "aliases": [
+    "4c2507ac79f1"
+   ],
+   "suggested": null,
+   "forwarded": {
+    "by": "Juan",
+    "subject": "BKC in the News and October Events",
+    "missing": [
+     "place"
+    ]
+   },
+   "start": "2026-10-15T12:15:00-04:00",
+   "end": null,
+   "date": "2026-10-15",
+   "all_day": false,
+   "location": "",
+   "online": false,
+   "host": "",
+   "food": {
+    "status": "confirmed",
+    "types": [
+     "Lunch"
+    ],
+    "evidence": "Lunch will be served, RSVP requested.",
+    "cue": "strong"
+   },
+   "registration": {
+    "status": "recommended",
+    "evidence": "Lunch will be served, RSVP requested.",
+    "link": ""
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "October 15 Thursday • 28 events The Shiny Shop: Community Crafting Hub 12:00 pm - 6:00 pm Recurring September 9 to October 15 – Wednesdays 2-6pm | Thursdays 12-6pm Stop by to craft and mend at The Shiny Shop, a drop-in community crafting hub dedicated to micromobility safety. Alex Makes Art is onsite with workshops…",
+   "blurb": "September 9 to October 15 – Wednesdays 2-6pm | Thursdays 12-6pm Stop by to craft and mend at The Shiny Shop, a drop-in community crafting hub dedicated to micromobility safety. Alex Makes Art is onsite with workshops and drop-in opportunities to make and mend.",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Harvard Law School",
+   "lat": 42.379106,
+   "lon": -71.119679,
+   "geo_method": "host",
+   "walk_min": 10
+  },
+  {
+   "id": "68e305ef54bf",
    "title": "Industrial Mobilization for War",
-   "url": "https://www.hks.harvard.edu/index%2ephp/events/industrial-mobilization-war",
+   "url": "https://www.hks.harvard.edu/events/industrial-mobilization-war",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -1315,9 +1453,9 @@
    "end": "2026-10-15T13:45:00-04:00",
    "date": "2026-10-15",
    "all_day": false,
-   "location": "",
+   "location": "One Brattle 350",
    "online": false,
-   "host": "",
+   "host": "International Security Program",
    "food": {
     "status": "none",
     "types": [],
@@ -1334,8 +1472,8 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "",
-   "blurb": "",
+   "summary": "Why do some states generate military power from economic resources more effectively than others? Standard answers focused on regime type, wealth, or aggregate resources cannot explain why countries matched on these characteristics often diverge sharply in mobilization outcomes. I argue that the effectiveness of…",
+   "blurb": "Why do some states generate military power from economic resources more effectively than others? Standard answers focused on regime type, wealth, or aggregate resources cannot explain why countries matched on these characteristics often diverge sharply in…",
    "event_page": true,
    "notes": "",
    "place_name": "Harvard Kennedy School",
@@ -2021,9 +2159,9 @@
    "walk_min": 10
   },
   {
-   "id": "794e72a34ee5",
+   "id": "f999f0917a4b",
    "title": "The Agenda for Adolescent Girls: Power, Policy & Philanthropy: Brown Bag Event",
-   "url": "https://www.hks.harvard.edu/index%2ephp/events/agenda-adolescent-girls-power-policy-philanthropy-brown-bag-event",
+   "url": "https://www.hks.harvard.edu/events/agenda-adolescent-girls-power-policy-philanthropy-brown-bag-event",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -2034,13 +2172,13 @@
    "end": "2026-10-15T14:00:00-04:00",
    "date": "2026-10-15",
    "all_day": false,
-   "location": "",
+   "location": "Hks, Cason Room (taubman 102)",
    "online": false,
-   "host": "",
+   "host": "Center for Public Leadership",
    "food": {
-    "status": "none",
+    "status": "byo",
     "types": [],
-    "evidence": ""
+    "evidence": "Brown bag lunch — bring your lunch and your questions."
    },
    "registration": {
     "status": "unknown",
@@ -2053,15 +2191,15 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "",
-   "blurb": "",
+   "summary": "The Agenda for Adolescent Girls: Power, Policy & Philanthropy: A Brown Bag Roundtable with UNICEF’s Leaders on the Frontier of Global Gender Policy What would it take to make adolescent girls a true global priority—not only in rhetoric, but in how governments, institutions, and philanthropists allocate power and…",
+   "blurb": "What would it take to make adolescent girls a true global priority—not only in rhetoric, but in how governments, institutions, and philanthropists allocate power and resources? In coordination with the Center for Public Leadership and the Women and Public…",
    "event_page": true,
    "notes": "",
-   "place_name": "Harvard Kennedy School",
-   "lat": 42.371989,
-   "lon": -71.121761,
-   "geo_method": "host",
-   "walk_min": 16
+   "place_name": "Taubman Building, Harvard Kennedy School",
+   "lat": 42.371822,
+   "lon": -71.122151,
+   "geo_method": "gazetteer",
+   "walk_min": 17
   },
   {
    "id": "b9bbba3a4810",
@@ -2107,9 +2245,9 @@
    "walk_min": 10
   },
   {
-   "id": "50ebd9e52f3c",
+   "id": "c96c407f49e2",
    "title": "Leaders in Tech Series: AI in National Security with Ziad Reslan MPP '18",
-   "url": "https://www.hks.harvard.edu/index%2ephp/events/leaders-tech-series-ai-national-security-ziad-reslan-mpp-18",
+   "url": "https://www.hks.harvard.edu/events/leaders-tech-series-ai-national-security-ziad-reslan-mpp-18",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -2120,18 +2258,18 @@
    "end": "2026-10-15T15:30:00-04:00",
    "date": "2026-10-15",
    "all_day": false,
-   "location": "",
+   "location": "Malkin Penthouse",
    "online": false,
-   "host": "",
+   "host": "Office of Career Advancement (OCA); Alumni Relations & Resource Development (ARRD)",
    "food": {
     "status": "none",
     "types": [],
     "evidence": ""
    },
    "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
+    "status": "required",
+    "evidence": "RSVP link on the event page",
+    "link": "https://hks-harvard-csm.symplicity.com/students/?s=event&ss=is&mode=form&id=fd24c5ea3bc51350adf303217eeb0f9b"
    },
    "audience": {
     "level": "unknown",
@@ -2139,15 +2277,15 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "",
-   "blurb": "",
+   "summary": "Leaders in Tech Series - AI in National Security: A Conversation with Ziad Reslan MPP 2018 of OpenAI Thursday, October 15, 2:30PM Malkin Penthouse (top floor of Littauer Building) Ziad Reslan MPP 2018 is a Product Manager on the Safety team at OpenAI and a Senior Fellow and Lecturer with Yale’s Schmidt Program on…",
+   "blurb": "Ziad Reslan MPP 2018 is a Product Manager on the Safety team at OpenAI and a Senior Fellow and Lecturer with Yale’s Schmidt Program on Artificial Intelligence, Emerging Technologies, and National Power. He previously spent six years at Google as a Senior…",
    "event_page": true,
    "notes": "",
-   "place_name": "Harvard Kennedy School",
-   "lat": 42.371989,
-   "lon": -71.121761,
-   "geo_method": "host",
-   "walk_min": 16
+   "place_name": "Littauer Building, Harvard Kennedy School",
+   "lat": 42.371045,
+   "lon": -71.12209,
+   "geo_method": "gazetteer",
+   "walk_min": 18
   },
   {
    "id": "dfb94ca89c34",
@@ -2240,47 +2378,54 @@
    "walk_min": 10
   },
   {
-   "id": "005c0ec512d4",
+   "id": "00455edb0d23",
    "title": "PODCASTING 101 - For the Record: How to capture brilliant audio",
-   "url": "https://www.hks.harvard.edu/index%2ephp/events/record-how-capture-brilliant-audio-communications-workshop",
+   "url": "https://www.hks.harvard.edu/events/record-how-capture-brilliant-audio-communications-workshop",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
-   "also_listed": [],
-   "aliases": [],
+   "also_listed": [
+    {
+     "source_name": "Harvard Gazette calendar",
+     "url": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001jzLJIAY"
+    }
+   ],
+   "aliases": [
+    "a83a525d341f"
+   ],
    "suggested": null,
    "forwarded": null,
    "start": "2026-10-15T15:00:00-04:00",
    "end": "2026-10-15T16:00:00-04:00",
    "date": "2026-10-15",
    "all_day": false,
-   "location": "",
+   "location": "Littauer Building, Room 332 (deland)",
    "online": false,
-   "host": "",
+   "host": "Communications Program",
    "food": {
     "status": "none",
     "types": [],
     "evidence": ""
    },
    "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
+    "status": "required",
+    "evidence": "RSVP link on the event page",
+    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001jzLJIAY"
    },
    "audience": {
-    "level": "unknown",
+    "level": "harvard",
     "group": "",
-    "evidence": "",
-    "basis": "none"
+    "evidence": "Gazette listing: Harvard Key required",
+    "basis": "listing"
    },
-   "summary": "",
-   "blurb": "",
+   "summary": "PODCASTING 101 - For the record: How to capture brilliant Audio Learn the basics of what makes exceptional audio – including gear, technique and software needed to build and share content. Learn storytelling instincts and skills that apply to podcasts, digital blogs, digital video platforms like YouTube, documentary…",
+   "blurb": "Learn the basics of what makes exceptional audio – including gear, technique and software needed to build and share content. Learn storytelling instincts and skills that apply to podcasts, digital blogs, digital video platforms like YouTube, documentary work…",
    "event_page": true,
    "notes": "",
-   "place_name": "Harvard Kennedy School",
-   "lat": 42.371989,
-   "lon": -71.121761,
-   "geo_method": "host",
-   "walk_min": 16
+   "place_name": "Littauer Building, Harvard Kennedy School",
+   "lat": 42.371045,
+   "lon": -71.12209,
+   "geo_method": "gazetteer",
+   "walk_min": 18
   },
   {
    "id": "5d34551612ec",
@@ -2412,9 +2557,9 @@
    "walk_min": 10
   },
   {
-   "id": "409fdcb275d8",
+   "id": "0dd21a3f587e",
    "title": "Reading Group: Topics in Renewable Energy and Transmission Development",
-   "url": "https://www.hks.harvard.edu/index%2ephp/events/reading-group-topics-renewable-energy-and-transmission-development",
+   "url": "https://www.hks.harvard.edu/events/reading-group-topics-renewable-energy-and-transmission-development",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -2425,27 +2570,27 @@
    "end": null,
    "date": "2026-10-15",
    "all_day": false,
-   "location": "",
+   "location": "Various",
    "online": false,
-   "host": "",
+   "host": "Belfer Center for Science and International Affairs",
    "food": {
     "status": "none",
     "types": [],
     "evidence": ""
    },
    "registration": {
-    "status": "unknown",
-    "evidence": "",
+    "status": "none",
+    "evidence": "Registration is not required.",
     "link": ""
    },
    "audience": {
-    "level": "unknown",
+    "level": "harvard",
     "group": "",
-    "evidence": "",
-    "basis": "none"
+    "evidence": "This reading group is open to all Harvard University ID holders.",
+    "basis": "text"
    },
-   "summary": "",
-   "blurb": "",
+   "summary": "During October 2026, Dr. Dan Schrag, Co-Director of the Belfer Center's Science, Technology and Public Policy Program, and clean energy entrepreneur Michael Skelly will host four discussions on carbon-free energy and the U.S. electric grid. The reading list introduces four practical debates shaping renewable energy…",
+   "blurb": "Dan Schrag, Co-Director of the Belfer Center's Science, Technology and Public Policy Program, and clean energy entrepreneur Michael Skelly will host four discussions on carbon-free energy and the U.S. electric grid. The reading list introduces four practical…",
    "event_page": true,
    "notes": "",
    "place_name": "Harvard Kennedy School",
@@ -2455,16 +2600,12 @@
    "walk_min": 16
   },
   {
-   "id": "17a8da45a507",
+   "id": "0794fbd38a10",
    "title": "Study Group with Ambassador Chris Lu: When Politics and Policy Collide ft. Tom Perez",
    "url": "https://iop.harvard.edu/events/study-group-ambassador-chris-lu-when-politics-and-policy-collide-ft-tom-perez",
    "source_id": "gazette",
    "source_name": "Harvard Gazette calendar",
    "also_listed": [
-    {
-     "source_name": "Harvard Kennedy School",
-     "url": "https://www.hks.harvard.edu/events/study-group-amb-chris-lu-when-politics-and-policy-collide-ft-tom-perez"
-    },
     {
      "source_name": "Forwarded: Next Week: New Study Groups & Special Guests!",
      "url": "https://iop.harvard.edu/events/study-group-ambassador-chris-lu-when-politics-and-policy-collide-tom-perez"
@@ -2476,6 +2617,10 @@
     {
      "source_name": "Harvard College events",
      "url": "https://events.college.harvard.edu/event/225350-study-group-with-ambassador-chris-lu-when-politics"
+    },
+    {
+     "source_name": "Harvard Kennedy School",
+     "url": "https://www.hks.harvard.edu/index%2ephp/events/study-group-amb-chris-lu-when-politics-and-policy-collide-ft-tom-perez"
     }
    ],
    "aliases": [
@@ -3787,6 +3932,92 @@
    "walk_min": 5
   },
   {
+   "id": "642b9db26f2a",
+   "title": "50 Shades of Modern",
+   "url": "https://library.harvard.edu/exhibits/50-shades-modern",
+   "source_id": "gazette",
+   "source_name": "Harvard Gazette calendar",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-10-16T10:00:00-04:00",
+   "end": "2026-10-16T17:00:00-04:00",
+   "date": "2026-10-16",
+   "all_day": false,
+   "location": "Houghton Library, Harvard Yard, Cambridge",
+   "online": false,
+   "host": "Houghton Library",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "Seeking to provoke both “wow, what an amazing object” and “wow, I didn’t know Houghton collected stuff like that,” \"50 Shades of Modern\" showcases just a few of the thousands of acquisitions Houghton’s Modern Books and Manuscripts Department has made over the past 20 years. Dating from 1800 to the present, these items…",
+   "blurb": "Seeking to provoke both “wow, what an amazing object” and “wow, I didn’t know Houghton collected stuff like that,” \"50 Shades of Modern\" showcases just a few of the thousands of acquisitions Houghton’s Modern Books and Manuscripts Department has made over the…",
+   "event_page": true,
+   "notes": "Harvard Key required: No",
+   "place_name": "Houghton Library",
+   "lat": 42.373191,
+   "lon": -71.115923,
+   "geo_method": "gazetteer",
+   "walk_min": 9
+  },
+  {
+   "id": "f3684ffc9a50",
+   "title": "Adam Smith and the other revolution of 1776",
+   "url": "https://library.harvard.edu/exhibits/adam-smith-and-other-revolution-1776",
+   "source_id": "gazette",
+   "source_name": "Harvard Gazette calendar",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-10-16T10:00:00-04:00",
+   "end": "2026-10-16T17:00:00-04:00",
+   "date": "2026-10-16",
+   "all_day": false,
+   "location": "Houghton Library, Harvard Yard, Cambridge",
+   "online": false,
+   "host": "Houghton Library",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "This exhibition features two items by the Scottish moral philosopher Adam Smith: his monumental two-volume \"Inquiry into the Nature and Causes of the Wealth of Nations\" (1776) and a signed letter to his publisher, William Strahan, from that same year. Smith famously argued that economic prosperity is driven by open…",
+   "blurb": "This exhibition features two items by the Scottish moral philosopher Adam Smith: his monumental two-volume \"Inquiry into the Nature and Causes of the Wealth of Nations\" (1776) and a signed letter to his publisher, William Strahan, from that same year. Smith…",
+   "event_page": true,
+   "notes": "Harvard Key required: No",
+   "place_name": "Houghton Library",
+   "lat": 42.373191,
+   "lon": -71.115923,
+   "geo_method": "gazetteer",
+   "walk_min": 9
+  },
+  {
    "id": "8b1c6a826666",
    "title": "Bruce Armitage: A Maker’s Journey",
    "url": "https://events.college.harvard.edu/ofa/event/225693-bruce-armitage-a-makers-journey",
@@ -3869,6 +4100,49 @@
    "place_name": "Harvard Yard",
    "lat": 42.37409,
    "lon": -71.116716,
+   "geo_method": "gazetteer",
+   "walk_min": 9
+  },
+  {
+   "id": "05f38d5756ef",
+   "title": "Making a Scene: 125 Years of the Harvard Theatre Collection",
+   "url": "https://library.harvard.edu/exhibits/making-scene-0",
+   "source_id": "gazette",
+   "source_name": "Harvard Gazette calendar",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-10-16T10:00:00-04:00",
+   "end": "2026-10-16T17:00:00-04:00",
+   "date": "2026-10-16",
+   "all_day": false,
+   "location": "Houghton Library, Harvard Yard, Cambridge",
+   "online": false,
+   "host": "Houghton Library",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "Founded in 1901, the Harvard Theatre Collection is one of the world’s largest repositories for rare books, manuscripts, illustrations, and archives relating to the performing arts. Pairing archival objects with a defining moment from the past 125 years, this exhibition celebrates the extraordinary breadth of HTC’s…",
+   "blurb": "Founded in 1901, the Harvard Theatre Collection is one of the world’s largest repositories for rare books, manuscripts, illustrations, and archives relating to the performing arts. Pairing archival objects with a defining moment from the past 125 years, this…",
+   "event_page": true,
+   "notes": "Harvard Key required: No",
+   "place_name": "Houghton Library",
+   "lat": 42.373191,
+   "lon": -71.115923,
    "geo_method": "gazetteer",
    "walk_min": 9
   },
@@ -4090,9 +4364,9 @@
    "walk_min": 10
   },
   {
-   "id": "ae566173370a",
+   "id": "f6fdabe7d6a1",
    "title": "Development Policies in a World of Geoeconomic Fragmentation | Adnan Khan",
-   "url": "https://www.hks.harvard.edu/events/who-shapes-global-economy-power-policy-and-development",
+   "url": "https://www.hks.harvard.edu/index%2ephp/events/who-shapes-global-economy-power-policy-and-development",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -4103,34 +4377,34 @@
    "end": "2026-10-16T13:00:00-04:00",
    "date": "2026-10-16",
    "all_day": false,
-   "location": "Rubenstein 414-ab Democracy Lab",
+   "location": "",
    "online": false,
-   "host": "Harvard Center for International Development",
+   "host": "",
    "food": {
     "status": "none",
     "types": [],
     "evidence": ""
    },
    "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001hoSPIAY"
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
    },
    "audience": {
-    "level": "public",
+    "level": "unknown",
     "group": "",
-    "evidence": "All are welcome.",
-    "basis": "text"
+    "evidence": "",
+    "basis": "none"
    },
-   "summary": "Join the Harvard Center for International Development for a conversation with Professor Adnan Khan, Professor of Public Policy and Co-Director of the Executive MPA/MPP Program at the London School of Economics and Political Science. With more than three decades of experience spanning government, academia, and…",
-   "blurb": "Join the Harvard Center for International Development for a conversation with Professor Adnan Khan, Professor of Public Policy and Co-Director of the Executive MPA/MPP Program at the London School of Economics and Political Science. With more than three…",
+   "summary": "",
+   "blurb": "",
    "event_page": true,
    "notes": "",
-   "place_name": "Rubenstein Building, Harvard Kennedy School",
-   "lat": 42.371243,
-   "lon": -71.122687,
-   "geo_method": "gazetteer",
-   "walk_min": 18
+   "place_name": "Harvard Kennedy School",
+   "lat": 42.371989,
+   "lon": -71.121761,
+   "geo_method": "host",
+   "walk_min": 16
   },
   {
    "id": "0e075ec82523",
@@ -5691,6 +5965,49 @@
    "walk_min": 7
   },
   {
+   "id": "1a8599a7a9a6",
+   "title": "Spotlight Tour: Coloring the Past with Jide Anekwe ’28",
+   "url": "https://harvardartmuseums.org/calendar/spotlight-tour-coloring-the-past-with-jide-anekwe-28-3?utm_source=gazette&utm_medium=listing&utm_campaign=Spotlight_Oct17_AM&utm_id=Spotlight+Tour%3A+Coloring+the+Past%2C+with+Jide+Anekwe+%E2%80%9928",
+   "source_id": "gazette",
+   "source_name": "Harvard Gazette calendar",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-10-17T11:00:00-04:00",
+   "end": "2026-10-17T11:50:00-04:00",
+   "date": "2026-10-17",
+   "all_day": false,
+   "location": "Harvard Art Museums, 32 Quincy St., Cambridge",
+   "online": false,
+   "host": "Harvard Art Museums",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "On this tour, Jide Anekwe ‘28 will look at the significance of color in the ancient Mediterranean world and at modern perceptions of the past. The stops on the tour are: Portrait of a woman, a painting from Roman Imperial Egypt (c. 130–150 CE); Youthful hero or god, a marble sculpture from Imperial Rome (1st–2nd…",
+   "blurb": "On this tour, Jide Anekwe ‘28 will look at the significance of color in the ancient Mediterranean world and at modern perceptions of the past. The stops on the tour are: Portrait of a woman, a painting from Roman Imperial Egypt (c. 130–150 CE); Youthful hero…",
+   "event_page": true,
+   "notes": "Cost: Free admission | Harvard Key required: No",
+   "place_name": "Harvard Art Museums",
+   "lat": 42.374099,
+   "lon": -71.114113,
+   "geo_method": "gazetteer",
+   "walk_min": 7
+  },
+  {
    "id": "567255c86d0c",
    "title": "Harvard Band at Harvard VS. Holy Cross",
    "url": "https://events.college.harvard.edu/ofa/event/harvard-band-at-harvard-vs-holy-cross",
@@ -5956,6 +6273,49 @@
    "lon": -71.115646,
    "geo_method": "gazetteer",
    "walk_min": 5
+  },
+  {
+   "id": "d2ddd5e0e95c",
+   "title": "Spotlight Tour: Thresholds with Jane Lilly ’27",
+   "url": "https://harvardartmuseums.org/calendar/spotlight-tour-thresholds-with-jane-lilly-27-6?utm_source=gazette&utm_medium=listing&utm_campaign=Spotlight_Oct17_PM&utm_id=Spotlight+Tour%3A+Thresholds%2C+with+Jane+Lilly+%E2%80%9927",
+   "source_id": "gazette",
+   "source_name": "Harvard Gazette calendar",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-10-17T14:00:00-04:00",
+   "end": "2026-10-17T14:50:00-04:00",
+   "date": "2026-10-17",
+   "all_day": false,
+   "location": "Harvard Art Museums, 32 Quincy St., Cambridge",
+   "online": false,
+   "host": "Harvard Art Museums",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "On this tour, Jane Lilly ’27 will discuss boundaries and in-betweenness, exploring how we see and move through works of art. The stops on the tour include a lintel (Fez, Morocco, Marinid period, early to mid-14th century); a stained glass window, titled Scene from the Life of Thomas Becket (Canterbury, England, c.…",
+   "blurb": "On this tour, Jane Lilly ’27 will discuss boundaries and in-betweenness, exploring how we see and move through works of art. The stops on the tour include a lintel (Fez, Morocco, Marinid period, early to mid-14th century); a stained glass window, titled Scene…",
+   "event_page": true,
+   "notes": "Cost: Free admission | Harvard Key required: No",
+   "place_name": "Harvard Art Museums",
+   "lat": 42.374099,
+   "lon": -71.114113,
+   "geo_method": "gazetteer",
+   "walk_min": 7
   },
   {
    "id": "5a8e91b3767b",
@@ -6614,6 +6974,49 @@
    "lon": -71.114928,
    "geo_method": "gazetteer",
    "walk_min": 4
+  },
+  {
+   "id": "30b532dc40f7",
+   "title": "Spotlight Tour: Un/Settled with Leandra Bautista ’28",
+   "url": "https://harvardartmuseums.org/calendar/spotlight-tour-un-settled-with-leandra-bautista-28-2?utm_source=gazette&utm_medium=listing&utm_campaign=Spotlight_Oct18_AM&utm_id=Spotlight+Tour%3A+Un%2FSettled%2C+with+Leandra+Bautista+%E2%80%9928",
+   "source_id": "gazette",
+   "source_name": "Harvard Gazette calendar",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-10-18T11:00:00-04:00",
+   "end": "2026-10-18T11:50:00-04:00",
+   "date": "2026-10-18",
+   "all_day": false,
+   "location": "Harvard Art Museums, 32 Quincy St., Cambridge",
+   "online": false,
+   "host": "Harvard Art Museums",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "On this tour, Leandra Bautista ’28 will look closely at three works of art that evoke home as a space of either comfort or discomfort. The stops on the tour are Woman on a Striped Sofa with a Dog (1876) by Mary Cassatt; a 12th-century Italian casket in the shape of a tower; and Robert Smullyan Sloan’s 1945 painting of…",
+   "blurb": "On this tour, Leandra Bautista ’28 will look closely at three works of art that evoke home as a space of either comfort or discomfort. The stops on the tour are Woman on a Striped Sofa with a Dog (1876) by Mary Cassatt; a 12th-century Italian casket in the…",
+   "event_page": true,
+   "notes": "Cost: Free admission | Harvard Key required: No",
+   "place_name": "Harvard Art Museums",
+   "lat": 42.374099,
+   "lon": -71.114113,
+   "geo_method": "gazetteer",
+   "walk_min": 7
   },
   {
    "id": "8cb4b89621aa",
@@ -7623,6 +8026,92 @@
    "walk_min": 5
   },
   {
+   "id": "d8d14089c6bc",
+   "title": "50 Shades of Modern",
+   "url": "https://library.harvard.edu/exhibits/50-shades-modern",
+   "source_id": "gazette",
+   "source_name": "Harvard Gazette calendar",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-10-19T10:00:00-04:00",
+   "end": "2026-10-19T17:00:00-04:00",
+   "date": "2026-10-19",
+   "all_day": false,
+   "location": "Houghton Library, Harvard Yard, Cambridge",
+   "online": false,
+   "host": "Houghton Library",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "Seeking to provoke both “wow, what an amazing object” and “wow, I didn’t know Houghton collected stuff like that,” \"50 Shades of Modern\" showcases just a few of the thousands of acquisitions Houghton’s Modern Books and Manuscripts Department has made over the past 20 years. Dating from 1800 to the present, these items…",
+   "blurb": "Seeking to provoke both “wow, what an amazing object” and “wow, I didn’t know Houghton collected stuff like that,” \"50 Shades of Modern\" showcases just a few of the thousands of acquisitions Houghton’s Modern Books and Manuscripts Department has made over the…",
+   "event_page": true,
+   "notes": "Harvard Key required: No",
+   "place_name": "Houghton Library",
+   "lat": 42.373191,
+   "lon": -71.115923,
+   "geo_method": "gazetteer",
+   "walk_min": 9
+  },
+  {
+   "id": "01ddf9339088",
+   "title": "Adam Smith and the other revolution of 1776",
+   "url": "https://library.harvard.edu/exhibits/adam-smith-and-other-revolution-1776",
+   "source_id": "gazette",
+   "source_name": "Harvard Gazette calendar",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-10-19T10:00:00-04:00",
+   "end": "2026-10-19T17:00:00-04:00",
+   "date": "2026-10-19",
+   "all_day": false,
+   "location": "Houghton Library, Harvard Yard, Cambridge",
+   "online": false,
+   "host": "Houghton Library",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "This exhibition features two items by the Scottish moral philosopher Adam Smith: his monumental two-volume \"Inquiry into the Nature and Causes of the Wealth of Nations\" (1776) and a signed letter to his publisher, William Strahan, from that same year. Smith famously argued that economic prosperity is driven by open…",
+   "blurb": "This exhibition features two items by the Scottish moral philosopher Adam Smith: his monumental two-volume \"Inquiry into the Nature and Causes of the Wealth of Nations\" (1776) and a signed letter to his publisher, William Strahan, from that same year. Smith…",
+   "event_page": true,
+   "notes": "Harvard Key required: No",
+   "place_name": "Houghton Library",
+   "lat": 42.373191,
+   "lon": -71.115923,
+   "geo_method": "gazetteer",
+   "walk_min": 9
+  },
+  {
    "id": "0a60563b2dd2",
    "title": "Bruce Armitage: A Maker’s Journey",
    "url": "https://events.college.harvard.edu/ofa/event/225694-bruce-armitage-a-makers-journey",
@@ -7705,6 +8194,49 @@
    "place_name": "Harvard Yard",
    "lat": 42.37409,
    "lon": -71.116716,
+   "geo_method": "gazetteer",
+   "walk_min": 9
+  },
+  {
+   "id": "8b6436a904b3",
+   "title": "Making a Scene: 125 Years of the Harvard Theatre Collection",
+   "url": "https://library.harvard.edu/exhibits/making-scene-0",
+   "source_id": "gazette",
+   "source_name": "Harvard Gazette calendar",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-10-19T10:00:00-04:00",
+   "end": "2026-10-19T17:00:00-04:00",
+   "date": "2026-10-19",
+   "all_day": false,
+   "location": "Houghton Library, Harvard Yard, Cambridge",
+   "online": false,
+   "host": "Houghton Library",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "Founded in 1901, the Harvard Theatre Collection is one of the world’s largest repositories for rare books, manuscripts, illustrations, and archives relating to the performing arts. Pairing archival objects with a defining moment from the past 125 years, this exhibition celebrates the extraordinary breadth of HTC’s…",
+   "blurb": "Founded in 1901, the Harvard Theatre Collection is one of the world’s largest repositories for rare books, manuscripts, illustrations, and archives relating to the performing arts. Pairing archival objects with a defining moment from the past 125 years, this…",
+   "event_page": true,
+   "notes": "Harvard Key required: No",
+   "place_name": "Houghton Library",
+   "lat": 42.373191,
+   "lon": -71.115923,
    "geo_method": "gazetteer",
    "walk_min": 9
   },
@@ -7965,9 +8497,9 @@
    "walk_min": 18
   },
   {
-   "id": "5c1e5a0c4f96",
+   "id": "7c43565bc979",
    "title": "Recent Developments in Energy and Nuclear Power in Japan",
-   "url": "https://www.hks.harvard.edu/events/recent-developments-energy-and-nuclear-power-japan",
+   "url": "https://www.hks.harvard.edu/index%2ephp/events/recent-developments-energy-and-nuclear-power-japan",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -7978,21 +8510,18 @@
    "end": "2026-10-19T13:15:00-04:00",
    "date": "2026-10-19",
    "all_day": false,
-   "location": "Rubenstein 414ab",
+   "location": "",
    "online": false,
-   "host": "Belfer Center for Science and International Affairs; Mossavar-Rahmani Center for Business and Government",
+   "host": "",
    "food": {
-    "status": "confirmed",
-    "types": [
-     "Lunch"
-    ],
-    "evidence": "Lunch will be served.",
-    "cue": "strong"
+    "status": "none",
+    "types": [],
+    "evidence": ""
    },
    "registration": {
-    "status": "required",
-    "evidence": "Registration: RSVP required.",
-    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001jjLNIAY"
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
    },
    "audience": {
     "level": "unknown",
@@ -8000,15 +8529,15 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "In this Energy Policy Seminar, Hisashi Yoshikawa, Project Professor of the Institute for Future Initiatives at the University of Tokyo, and Nobuo Tanaka, Executive Director Emeritus of the International Energy Agency, will discuss emerging trends in Japan's energy system. Mr. Yoshikawa will set the context with a talk…",
-   "blurb": "In this Energy Policy Seminar, Hisashi Yoshikawa, Project Professor of the Institute for Future Initiatives at the University of Tokyo, and Nobuo Tanaka, Executive Director Emeritus of the International Energy Agency, will discuss emerging trends in Japan's…",
+   "summary": "",
+   "blurb": "",
    "event_page": true,
    "notes": "",
-   "place_name": "Rubenstein Building, Harvard Kennedy School",
-   "lat": 42.371243,
-   "lon": -71.122687,
-   "geo_method": "gazetteer",
-   "walk_min": 18
+   "place_name": "Harvard Kennedy School",
+   "lat": 42.371989,
+   "lon": -71.121761,
+   "geo_method": "host",
+   "walk_min": 16
   },
   {
    "id": "885e3d19d003",
@@ -8632,17 +9161,17 @@
   {
    "id": "1cfb49d545ee",
    "title": "Democracy 250: The Impact of Sports on the History of Civil Rights in America",
-   "url": "https://ash.harvard.edu/events/democracy-250-the-impact-of-sports-on-the-history-of-civil-rights-in-america/",
-   "source_id": "ash",
-   "source_name": "Ash Center (HKS)",
+   "url": "https://www.hks.harvard.edu/index%2ephp/events/democracy-250-impact-sports-history-civil-rights-america",
+   "source_id": "hks",
+   "source_name": "Harvard Kennedy School",
    "also_listed": [
     {
-     "source_name": "Harvard Kennedy School",
-     "url": "https://www.hks.harvard.edu/events/democracy-250-impact-sports-history-civil-rights-america"
+     "source_name": "Ash Center (HKS)",
+     "url": "https://ash.harvard.edu/events/democracy-250-the-impact-of-sports-on-the-history-of-civil-rights-in-america/"
     }
    ],
    "aliases": [
-    "ccf1249ed4f2"
+    "fbab40d14fa0"
    ],
    "suggested": null,
    "forwarded": null,
@@ -8650,9 +9179,9 @@
    "end": "2026-10-19T14:15:00-04:00",
    "date": "2026-10-19",
    "all_day": false,
-   "location": "Zoom Webinar",
-   "online": true,
-   "host": "Ash Center for Democratic Governance",
+   "location": "",
+   "online": false,
+   "host": "",
    "food": {
     "status": "none",
     "types": [],
@@ -8669,15 +9198,15 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "Join the Ash Center for a thought-provoking discussion about the role of sports in advancing civil rights movements in the United States. Throughout U.S. history and into present day, sports have influenced the expansion — and at times contraction — of support for civil rights and equality. Sports can provide an arena…",
-   "blurb": "Throughout U.S. history and into present day, sports have influenced the expansion — and at times contraction — of support for civil rights and equality. Sports can provide an arena for learning about people who are different from us, a platform for raising…",
+   "summary": "",
+   "blurb": "Join the Ash Center for a thought-provoking discussion about the role of sports in advancing civil rights movements in the United States. Throughout U.S. history and into present day, sports have influenced the expansion — and at times contraction — of…",
    "event_page": true,
    "notes": "",
-   "place_name": "",
-   "lat": null,
-   "lon": null,
-   "geo_method": null,
-   "walk_min": null
+   "place_name": "Harvard Kennedy School",
+   "lat": 42.371989,
+   "lon": -71.121761,
+   "geo_method": "host",
+   "walk_min": 16
   },
   {
    "id": "68b471c986d7",
@@ -8938,6 +9467,92 @@
    "lon": null,
    "geo_method": null,
    "walk_min": null
+  },
+  {
+   "id": "78df87e9fd5f",
+   "title": "Study Group with Ambassador Nathalie Rayes: Leading with Conviction",
+   "url": "https://www.hks.harvard.edu/events/study-group-ambassador-nathalie-rayes-leading-conviction",
+   "source_id": "hks",
+   "source_name": "Harvard Kennedy School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-10-19T16:00:00-04:00",
+   "end": "2026-10-19T17:15:00-04:00",
+   "date": "2026-10-19",
+   "all_day": false,
+   "location": "L-166",
+   "online": false,
+   "host": "Institute of Politics (IOP)",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "RSVP link on the event page",
+    "link": "https://iop.harvard.edu/events/study-group-ambassador-nathalie-rayes-leading-conviction-courage-service-and-principled"
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "HKS students",
+    "evidence": "Title: Study Group with Ambassador Nathalie Rayes: Leading with Conviction",
+    "basis": "inferred"
+   },
+   "summary": "What does it take to stand by your principles when the stakes are highest? Join Ambassador Nathalie Rayes for a conversation with Governor David Beasley, former Governor of South Carolina and former Executive Director of the Nobel Peace Prize-winning United Nations World Food Programme. From American politics to…",
+   "blurb": "What does it take to stand by your principles when the stakes are highest? Join Ambassador Nathalie Rayes for a conversation with Governor David Beasley, former Governor of South Carolina and former Executive Director of the Nobel Peace Prize-winning United…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Littauer Building, Harvard Kennedy School",
+   "lat": 42.371045,
+   "lon": -71.12209,
+   "geo_method": "gazetteer",
+   "walk_min": 18
+  },
+  {
+   "id": "34e054b971bf",
+   "title": "Amb. Chris Lu Study Group: Ready on Day One: Planning a Presidential Transition",
+   "url": "https://www.hks.harvard.edu/events/amb-chris-lu-study-group-ready-day-one-planning-presidential-transition",
+   "source_id": "hks",
+   "source_name": "Harvard Kennedy School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-10-19T16:30:00-04:00",
+   "end": "2026-10-19T17:45:00-04:00",
+   "date": "2026-10-19",
+   "all_day": false,
+   "location": "L-163",
+   "online": false,
+   "host": "Institute of Politics (IOP)",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "RSVP link on the event page",
+    "link": "https://iop.harvard.edu/events/study-group-ambassador-chris-lu-ready-day-one-planning-presidential-transition-yohannes"
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "HKS students",
+    "evidence": "Title: Amb. Chris Lu Study Group: Ready on Day One: Planning a Presidential Transition",
+    "basis": "inferred"
+   },
+   "summary": "How does a campaign prepare to govern before knowing whether it will win? We'll explore how presidential transitions build teams under intense time pressure and uncertainty, translate campaign promises into governing priorities, staff an administration, and prepare for unforeseen crises. We'll also discuss what these…",
+   "blurb": "How does a campaign prepare to govern before knowing whether it will win? We'll explore how presidential transitions build teams under intense time pressure and uncertainty, translate campaign promises into governing priorities, staff an administration, and…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Littauer Building, Harvard Kennedy School",
+   "lat": 42.371045,
+   "lon": -71.12209,
+   "geo_method": "gazetteer",
+   "walk_min": 18
   },
   {
    "id": "6aeee47e3109",
@@ -9706,6 +10321,92 @@
    "walk_min": null
   },
   {
+   "id": "b2cb2cb94d1c",
+   "title": "50 Shades of Modern",
+   "url": "https://library.harvard.edu/exhibits/50-shades-modern",
+   "source_id": "gazette",
+   "source_name": "Harvard Gazette calendar",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-10-20T10:00:00-04:00",
+   "end": "2026-10-20T17:00:00-04:00",
+   "date": "2026-10-20",
+   "all_day": false,
+   "location": "Houghton Library, Harvard Yard, Cambridge",
+   "online": false,
+   "host": "Houghton Library",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "Seeking to provoke both “wow, what an amazing object” and “wow, I didn’t know Houghton collected stuff like that,” \"50 Shades of Modern\" showcases just a few of the thousands of acquisitions Houghton’s Modern Books and Manuscripts Department has made over the past 20 years. Dating from 1800 to the present, these items…",
+   "blurb": "Seeking to provoke both “wow, what an amazing object” and “wow, I didn’t know Houghton collected stuff like that,” \"50 Shades of Modern\" showcases just a few of the thousands of acquisitions Houghton’s Modern Books and Manuscripts Department has made over the…",
+   "event_page": true,
+   "notes": "Harvard Key required: No",
+   "place_name": "Houghton Library",
+   "lat": 42.373191,
+   "lon": -71.115923,
+   "geo_method": "gazetteer",
+   "walk_min": 9
+  },
+  {
+   "id": "414c284172b9",
+   "title": "Adam Smith and the other revolution of 1776",
+   "url": "https://library.harvard.edu/exhibits/adam-smith-and-other-revolution-1776",
+   "source_id": "gazette",
+   "source_name": "Harvard Gazette calendar",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-10-20T10:00:00-04:00",
+   "end": "2026-10-20T17:00:00-04:00",
+   "date": "2026-10-20",
+   "all_day": false,
+   "location": "Houghton Library, Harvard Yard, Cambridge",
+   "online": false,
+   "host": "Houghton Library",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "This exhibition features two items by the Scottish moral philosopher Adam Smith: his monumental two-volume \"Inquiry into the Nature and Causes of the Wealth of Nations\" (1776) and a signed letter to his publisher, William Strahan, from that same year. Smith famously argued that economic prosperity is driven by open…",
+   "blurb": "This exhibition features two items by the Scottish moral philosopher Adam Smith: his monumental two-volume \"Inquiry into the Nature and Causes of the Wealth of Nations\" (1776) and a signed letter to his publisher, William Strahan, from that same year. Smith…",
+   "event_page": true,
+   "notes": "Harvard Key required: No",
+   "place_name": "Houghton Library",
+   "lat": 42.373191,
+   "lon": -71.115923,
+   "geo_method": "gazetteer",
+   "walk_min": 9
+  },
+  {
    "id": "d205cd122670",
    "title": "Bruce Armitage: A Maker’s Journey",
    "url": "https://events.college.harvard.edu/ofa/event/225695-bruce-armitage-a-makers-journey",
@@ -9788,6 +10489,49 @@
    "place_name": "Harvard Yard",
    "lat": 42.37409,
    "lon": -71.116716,
+   "geo_method": "gazetteer",
+   "walk_min": 9
+  },
+  {
+   "id": "e739f04e3ec6",
+   "title": "Making a Scene: 125 Years of the Harvard Theatre Collection",
+   "url": "https://library.harvard.edu/exhibits/making-scene-0",
+   "source_id": "gazette",
+   "source_name": "Harvard Gazette calendar",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-10-20T10:00:00-04:00",
+   "end": "2026-10-20T17:00:00-04:00",
+   "date": "2026-10-20",
+   "all_day": false,
+   "location": "Houghton Library, Harvard Yard, Cambridge",
+   "online": false,
+   "host": "Houghton Library",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "Founded in 1901, the Harvard Theatre Collection is one of the world’s largest repositories for rare books, manuscripts, illustrations, and archives relating to the performing arts. Pairing archival objects with a defining moment from the past 125 years, this exhibition celebrates the extraordinary breadth of HTC’s…",
+   "blurb": "Founded in 1901, the Harvard Theatre Collection is one of the world’s largest repositories for rare books, manuscripts, illustrations, and archives relating to the performing arts. Pairing archival objects with a defining moment from the past 125 years, this…",
+   "event_page": true,
+   "notes": "Harvard Key required: No",
+   "place_name": "Houghton Library",
+   "lat": 42.373191,
+   "lon": -71.115923,
    "geo_method": "gazetteer",
    "walk_min": 9
   },
@@ -10009,56 +10753,6 @@
    "walk_min": 13
   },
   {
-   "id": "0c5c8b293c38",
-   "title": "Dance in Public",
-   "url": "https://events.college.harvard.edu/ofa/event/223329-dance-in-public",
-   "source_id": "college",
-   "source_name": "Harvard College events",
-   "also_listed": [
-    {
-     "source_name": "Harvard Kennedy School",
-     "url": "https://www.hks.harvard.edu/events/londons-public-safety-challenge-building-trust-and-belonging"
-    }
-   ],
-   "aliases": [
-    "b600243a86a4"
-   ],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-10-20T12:00:00-04:00",
-   "end": "2026-10-20T13:15:00-04:00",
-   "date": "2026-10-20",
-   "all_day": false,
-   "location": "Richard A. and Susan F. Smith Campus Center",
-   "online": false,
-   "host": "Office for the Arts Dance Program",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "none",
-    "evidence": "Each individual lab session is open to Harvard student drop-in participation.",
-    "link": ""
-   },
-   "audience": {
-    "level": "likely",
-    "group": "Harvard student drop-in participation",
-    "evidence": "Each individual lab session is open to Harvard student drop-in participation.",
-    "basis": "text"
-   },
-   "summary": "Join the Dance in Public Undergraduate Research Fellows who will be investigating and activating sites throughout the academic year, exploring themes in design and architecture, civic engagement, creative research, and public life. Each individual lab session is open to Harvard student drop-in participation. REGISTER…",
-   "blurb": "who will be investigating and activating sites throughout the academic year, exploring themes in design and architecture, civic engagement, creative research, and public life. Each individual lab session is open to Harvard student drop-in participation. Visit…",
-   "event_page": true,
-   "notes": "",
-   "place_name": "Richard A. and Susan F. Smith Campus Center",
-   "lat": 42.372951,
-   "lon": -71.118484,
-   "geo_method": "source",
-   "walk_min": 12
-  },
-  {
    "id": "5986c11168ab",
    "title": "Indigenous Musicians in Labor History Entanglements (Viceroyalty of Perú, 16th-18th centuries)",
    "url": "https://us.list-manage.com/G2x6xkqJnaC?e=47fd1b5679&c2id=e16b879dc543fc1e49d6366bda8a5a69",
@@ -10151,6 +10845,64 @@
    "walk_min": 8
   },
   {
+   "id": "0c5c8b293c38",
+   "title": "London’s Public Safety Challenge: Building Trust and Belonging",
+   "url": "https://www.cities.harvard.edu/events/londons-public-safety-challenge-building-trust-and-belonging/",
+   "source_id": "gazette",
+   "source_name": "Harvard Gazette calendar",
+   "also_listed": [
+    {
+     "source_name": "Harvard College events",
+     "url": "https://events.college.harvard.edu/ofa/event/223329-dance-in-public"
+    },
+    {
+     "source_name": "Harvard Kennedy School",
+     "url": "https://www.hks.harvard.edu/events/londons-public-safety-challenge-building-trust-and-belonging"
+    }
+   ],
+   "aliases": [
+    "794c9fa16a64",
+    "b600243a86a4"
+   ],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-10-20T12:00:00-04:00",
+   "end": "2026-10-20T13:15:00-04:00",
+   "date": "2026-10-20",
+   "all_day": false,
+   "location": "Bloomberg Center for Cities, Taubman Third Floor, Harvard Kennedy School, 79 John F. Kennedy St., Cambridge",
+   "online": false,
+   "host": "Bloomberg Center for Cities at Harvard University",
+   "food": {
+    "status": "confirmed",
+    "types": [
+     "Lunch"
+    ],
+    "evidence": "Lunch will be provided.",
+    "cue": "strong"
+   },
+   "registration": {
+    "status": "none",
+    "evidence": "Each individual lab session is open to Harvard student drop-in participation.",
+    "link": ""
+   },
+   "audience": {
+    "level": "harvard",
+    "group": "",
+    "evidence": "Gazette listing: Harvard Key required",
+    "basis": "listing"
+   },
+   "summary": "How can city leaders improve safety while strengthening trust and belonging in diverse communities? Join Kaya Comer-Schwartz, London’s Deputy Mayor for Policing and Crime, and Kimberlyn Leary of Harvard Kennedy School, Harvard Medical School, and the Harvard T.H. Chan School of Public Health for a conversation about…",
+   "blurb": "How can city leaders improve safety while strengthening trust and belonging in diverse communities? Chan School of Public Health for a conversation about the leadership and collaboration required to advance public safety in one of the world’s largest and most…",
+   "event_page": true,
+   "notes": "Harvard Key required: Yes",
+   "place_name": "Taubman Building, Harvard Kennedy School",
+   "lat": 42.371822,
+   "lon": -71.122151,
+   "geo_method": "gazetteer",
+   "walk_min": 17
+  },
+  {
    "id": "e510adfa35e7",
    "title": "Writing a Book Proposal. A Communications Workshop",
    "url": "https://www.hks.harvard.edu/events/writing-book-proposal-communications-workshop",
@@ -10192,49 +10944,6 @@
    "lon": null,
    "geo_method": null,
    "walk_min": null
-  },
-  {
-   "id": "0080f7af36d7",
-   "title": "Advising Event – Timelines",
-   "url": "https://hls.harvard.edu/events/advising-event-timelines/",
-   "source_id": "hls",
-   "source_name": "Harvard Law School",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-10-20T12:15:00-04:00",
-   "end": "2026-10-20T12:40:00-04:00",
-   "date": "2026-10-20",
-   "all_day": false,
-   "location": "WCC, 1023 Classroom, Harvard Law School",
-   "online": false,
-   "host": "Harvard Law School Democrats",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
-   },
-   "audience": {
-    "level": "restricted",
-    "group": "HLS community",
-    "evidence": "HLS listing audience: HLS only",
-    "basis": "listing"
-   },
-   "summary": "Interested in public interest but not sure what to do when? 1L summer, 2L summer, J-term, spring and fall semester – it’s a LOT to keep track of. Join HLS Dems as part of Public Interest Student Law Association’s How to Get a Job Week to get the low down on all things public interest timelines. Open to all years, but…",
-   "blurb": "Interested in public interest but not sure what to do when? 1L summer, 2L summer, J-term, spring and fall semester – it’s a LOT to keep track of. Join HLS Dems as part of Public Interest Student Law Association’s How to Get a Job Week to get the low down on…",
-   "event_page": true,
-   "notes": "",
-   "place_name": "Wasserstein Hall (WCC), Harvard Law School",
-   "lat": 42.379383,
-   "lon": -71.119421,
-   "geo_method": "gazetteer",
-   "walk_min": 10
   },
   {
    "id": "5df4ff312236",
@@ -10317,6 +11026,49 @@
    },
    "summary": "Add to Calendar October 20, 2026, 12:15 pm - 1:15 pm +Google Calendar +iCal/Outlook",
    "blurb": "",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Wasserstein Hall (WCC), Harvard Law School",
+   "lat": 42.379383,
+   "lon": -71.119421,
+   "geo_method": "gazetteer",
+   "walk_min": 10
+  },
+  {
+   "id": "0080f7af36d7",
+   "title": "HLS Dems Advising | Understanding Public Interest Timelines",
+   "url": "https://hls.harvard.edu/events/advising-event-timelines/",
+   "source_id": "hls",
+   "source_name": "Harvard Law School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-10-20T12:15:00-04:00",
+   "end": "2026-10-20T12:40:00-04:00",
+   "date": "2026-10-20",
+   "all_day": false,
+   "location": "WCC, 1023 Classroom, Harvard Law School",
+   "online": false,
+   "host": "Harvard Law School Democrats",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "HLS community",
+    "evidence": "HLS listing audience: HLS only",
+    "basis": "listing"
+   },
+   "summary": "Interested in public interest but not sure what to do when? 1L summer, 2L summer, J-term, spring and fall semester – it’s a LOT to keep track of. Join HLS Dems as part of Public Interest Student Law Association’s How to Get a Job Week to get the low down on all things public interest timelines. Open to all years, but…",
+   "blurb": "Interested in public interest but not sure what to do when? 1L summer, 2L summer, J-term, spring and fall semester – it’s a LOT to keep track of. Join HLS Dems as part of Public Interest Student Law Association’s How to Get a Job Week to get the low down on…",
    "event_page": true,
    "notes": "",
    "place_name": "Wasserstein Hall (WCC), Harvard Law School",
@@ -10593,6 +11345,92 @@
    "walk_min": 10
   },
   {
+   "id": "9373c90e3475",
+   "title": "Professor Michael J. Broyde: Can Law Change Without Admitting That It Changed? The Case of Jewish Law",
+   "url": "https://hls.harvard.edu/events/professor-michael-j-broyde-can-law-change-without-admitting-that-it-changed-the-case-of-jewish-law/",
+   "source_id": "hls",
+   "source_name": "Harvard Law School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-10-20T12:30:00-04:00",
+   "end": "2026-10-20T13:15:00-04:00",
+   "date": "2026-10-20",
+   "all_day": false,
+   "location": "WCC, B015 Classroom, Harvard Law School",
+   "online": false,
+   "host": "Harvard Jewish Law Students Association",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "harvard",
+    "group": "",
+    "evidence": "HLS listing audience: All Harvard",
+    "basis": "listing"
+   },
+   "summary": "Rabbi Prof. Michael J. Broyde is an esteemed scholar at the intersection of law, religion, and ethics. A prominent figure in Jewish law, he offers unique insights by blending profound religious perspectives with rigorous legal analysis. His diverse research spans family law, bioethics, religious freedom, and expertise…",
+   "blurb": "Broyde is an esteemed scholar at the intersection of law, religion, and ethics. A prominent figure in Jewish law, he offers unique insights by blending profound religious perspectives with rigorous legal analysis. His diverse research spans family law…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Wasserstein Hall (WCC), Harvard Law School",
+   "lat": 42.379383,
+   "lon": -71.119421,
+   "geo_method": "gazetteer",
+   "walk_min": 10
+  },
+  {
+   "id": "0c72e6b45ac0",
+   "title": "Greece and the New World Order",
+   "url": "https://mahindrahumanities.harvard.edu/event/greece-and-new-world-order?occ_id=0",
+   "source_id": "gazette",
+   "source_name": "Harvard Gazette calendar",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-10-20T14:30:00-04:00",
+   "end": "2026-10-20T16:00:00-04:00",
+   "date": "2026-10-20",
+   "all_day": false,
+   "location": "",
+   "online": true,
+   "host": "Modern Greek Seminar Series, Mahindra Humanities Center, Harvard University",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "Registration link on the event page",
+    "link": "https://harvard.zoom.us/meeting/register/aeNktm_9TJ2CB7dsQMNGgg#/registration"
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "",
+   "blurb": "",
+   "event_page": true,
+   "notes": "Harvard Key required: No",
+   "place_name": "",
+   "lat": null,
+   "lon": null,
+   "geo_method": null,
+   "walk_min": null
+  },
+  {
    "id": "35edf66887dd",
    "title": "Jenner & Block 1L Coffee Chat",
    "url": "https://hls.harvard.edu/events/jenner-block-1l-coffee-chat/",
@@ -10814,6 +11652,49 @@
    "walk_min": 18
   },
   {
+   "id": "4b19fdf19733",
+   "title": "Chris Whipple Study Group: The 2028 Presidential Election with Mark McKinnon",
+   "url": "https://www.hks.harvard.edu/events/chris-whipple-study-group-2028-presidential-election-mark-mckinnon",
+   "source_id": "hks",
+   "source_name": "Harvard Kennedy School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-10-20T16:30:00-04:00",
+   "end": "2026-10-20T17:45:00-04:00",
+   "date": "2026-10-20",
+   "all_day": false,
+   "location": "L-163",
+   "online": false,
+   "host": "Institute of Politics (IOP)",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "RSVP link on the event page",
+    "link": "https://iop.harvard.edu/events/study-group-chris-whipple-all-presidents-men-and-women-2028-presidential-election-mark"
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "HKS students",
+    "evidence": "Title: Chris Whipple Study Group: The 2028 Presidential Election with Mark McKinnon",
+    "basis": "inferred"
+   },
+   "summary": "We'll dissect the 2028 presidential race and assess the status of the candidates. Mark McKinnon, the renowned political strategist who helped elect George W. Bush in 2000, will tackle the questions: Who appears to have the inside track on their party’s 2028 nomination? Will an outsider prevail in the Democratic party?…",
+   "blurb": "We'll dissect the 2028 presidential race and assess the status of the candidates. the renowned political strategist who helped elect George W. Bush in 2000, will tackle the questions: Who appears to have the inside track on their party’s 2028 nomination? Will…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Littauer Building, Harvard Kennedy School",
+   "lat": 42.371045,
+   "lon": -71.12209,
+   "geo_method": "gazetteer",
+   "walk_min": 18
+  },
+  {
    "id": "a58aca590743",
    "title": "MCB/CPB Concentration Declaration Event",
    "url": "https://soco.college.harvard.edu/rsvp?id=383057",
@@ -10951,9 +11832,9 @@
    "walk_min": null
   },
   {
-   "id": "cfd346fe1e0f",
+   "id": "4919720ff520",
    "title": "Leading Under Pressure: Anthony Foxx & Jim Gilman on Values in Leadership",
-   "url": "https://www.hks.harvard.edu/index%2ephp/events/leading-under-pressure-decision-making-public-life",
+   "url": "https://www.hks.harvard.edu/events/leading-under-pressure-decision-making-public-life",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -10964,18 +11845,18 @@
    "end": "2026-10-20T19:00:00-04:00",
    "date": "2026-10-20",
    "all_day": false,
-   "location": "",
+   "location": "L-p-9 Malkin Penthouse",
    "online": false,
-   "host": "",
+   "host": "Center for Public Leadership",
    "food": {
     "status": "none",
     "types": [],
     "evidence": ""
    },
    "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
+    "status": "required",
+    "evidence": "RSVP link on the event page",
+    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001kqMPIAY"
    },
    "audience": {
     "level": "unknown",
@@ -10983,15 +11864,15 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "",
-   "blurb": "",
+   "summary": "What does it take to lead with your values, not only in moments of crisis but in the everyday choices that shape a life in public service? How do you prepare for the pressures that come with a role in the public sector? Join us for the first event in the Principled Public Leadership Speaker Series, a fireside chat…",
+   "blurb": "What does it take to lead with your values, not only in moments of crisis but in the everyday choices that shape a life in public service? How do you prepare for the pressures that come with a role in the public sector? Join us for the first event in the…",
    "event_page": true,
    "notes": "",
-   "place_name": "Harvard Kennedy School",
-   "lat": 42.371989,
-   "lon": -71.121761,
-   "geo_method": "host",
-   "walk_min": 16
+   "place_name": "Littauer Building, Harvard Kennedy School",
+   "lat": 42.371045,
+   "lon": -71.12209,
+   "geo_method": "gazetteer",
+   "walk_min": 18
   },
   {
    "id": "85723b8f3025",
@@ -11853,6 +12734,92 @@
    "walk_min": null
   },
   {
+   "id": "c4486e1ea54f",
+   "title": "50 Shades of Modern",
+   "url": "https://library.harvard.edu/exhibits/50-shades-modern",
+   "source_id": "gazette",
+   "source_name": "Harvard Gazette calendar",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-10-21T10:00:00-04:00",
+   "end": "2026-10-21T17:00:00-04:00",
+   "date": "2026-10-21",
+   "all_day": false,
+   "location": "Houghton Library, Harvard Yard, Cambridge",
+   "online": false,
+   "host": "Houghton Library",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "Seeking to provoke both “wow, what an amazing object” and “wow, I didn’t know Houghton collected stuff like that,” \"50 Shades of Modern\" showcases just a few of the thousands of acquisitions Houghton’s Modern Books and Manuscripts Department has made over the past 20 years. Dating from 1800 to the present, these items…",
+   "blurb": "Seeking to provoke both “wow, what an amazing object” and “wow, I didn’t know Houghton collected stuff like that,” \"50 Shades of Modern\" showcases just a few of the thousands of acquisitions Houghton’s Modern Books and Manuscripts Department has made over the…",
+   "event_page": true,
+   "notes": "Harvard Key required: No",
+   "place_name": "Houghton Library",
+   "lat": 42.373191,
+   "lon": -71.115923,
+   "geo_method": "gazetteer",
+   "walk_min": 9
+  },
+  {
+   "id": "92cdbf0939a8",
+   "title": "Adam Smith and the other revolution of 1776",
+   "url": "https://library.harvard.edu/exhibits/adam-smith-and-other-revolution-1776",
+   "source_id": "gazette",
+   "source_name": "Harvard Gazette calendar",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-10-21T10:00:00-04:00",
+   "end": "2026-10-21T17:00:00-04:00",
+   "date": "2026-10-21",
+   "all_day": false,
+   "location": "Houghton Library, Harvard Yard, Cambridge",
+   "online": false,
+   "host": "Houghton Library",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "This exhibition features two items by the Scottish moral philosopher Adam Smith: his monumental two-volume \"Inquiry into the Nature and Causes of the Wealth of Nations\" (1776) and a signed letter to his publisher, William Strahan, from that same year. Smith famously argued that economic prosperity is driven by open…",
+   "blurb": "This exhibition features two items by the Scottish moral philosopher Adam Smith: his monumental two-volume \"Inquiry into the Nature and Causes of the Wealth of Nations\" (1776) and a signed letter to his publisher, William Strahan, from that same year. Smith…",
+   "event_page": true,
+   "notes": "Harvard Key required: No",
+   "place_name": "Houghton Library",
+   "lat": 42.373191,
+   "lon": -71.115923,
+   "geo_method": "gazetteer",
+   "walk_min": 9
+  },
+  {
    "id": "272fcf99c258",
    "title": "Bruce Armitage: A Maker’s Journey",
    "url": "https://events.college.harvard.edu/ofa/event/225696-bruce-armitage-a-makers-journey",
@@ -11935,6 +12902,49 @@
    "place_name": "Harvard Yard",
    "lat": 42.37409,
    "lon": -71.116716,
+   "geo_method": "gazetteer",
+   "walk_min": 9
+  },
+  {
+   "id": "f6e1147ad481",
+   "title": "Making a Scene: 125 Years of the Harvard Theatre Collection",
+   "url": "https://library.harvard.edu/exhibits/making-scene-0",
+   "source_id": "gazette",
+   "source_name": "Harvard Gazette calendar",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-10-21T10:00:00-04:00",
+   "end": "2026-10-21T17:00:00-04:00",
+   "date": "2026-10-21",
+   "all_day": false,
+   "location": "Houghton Library, Harvard Yard, Cambridge",
+   "online": false,
+   "host": "Houghton Library",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "Founded in 1901, the Harvard Theatre Collection is one of the world’s largest repositories for rare books, manuscripts, illustrations, and archives relating to the performing arts. Pairing archival objects with a defining moment from the past 125 years, this exhibition celebrates the extraordinary breadth of HTC’s…",
+   "blurb": "Founded in 1901, the Harvard Theatre Collection is one of the world’s largest repositories for rare books, manuscripts, illustrations, and archives relating to the performing arts. Pairing archival objects with a defining moment from the past 125 years, this…",
+   "event_page": true,
+   "notes": "Harvard Key required: No",
+   "place_name": "Houghton Library",
+   "lat": 42.373191,
+   "lon": -71.115923,
    "geo_method": "gazetteer",
    "walk_min": 9
   },
@@ -12849,15 +13859,15 @@
    "walk_min": 10
   },
   {
-   "id": "25abe4456107",
+   "id": "6c5400e01850",
    "title": "The Everywhere Millionaire: Who the Rich Are & What It Means for Economic Policy",
    "url": "https://www.hks.harvard.edu/events/everywhere-millionaire-who-rich-are-what-it-means-economic-policy",
-   "source_id": "hks",
-   "source_name": "Harvard Kennedy School",
+   "source_id": "gazette",
+   "source_name": "Harvard Gazette calendar",
    "also_listed": [
     {
-     "source_name": "Harvard Gazette calendar",
-     "url": "https://www.hks.harvard.edu/events/everywhere-millionaire-who-rich-are-what-it-means-economic-policy"
+     "source_name": "Harvard Kennedy School",
+     "url": "https://www.hks.harvard.edu/index%2ephp/events/everywhere-millionaire-who-rich-are-what-it-means-economic-policy"
     }
    ],
    "aliases": [
@@ -12869,21 +13879,18 @@
    "end": "2026-10-21T13:30:00-04:00",
    "date": "2026-10-21",
    "all_day": false,
-   "location": "Malkin Penthouse + Zoom",
+   "location": "Malkin Penthouse (Harvard Kennedy School), 79 John F. Kennedy St., Cambridge",
    "online": false,
-   "host": "Mossavar-Rahmani Center for Business and Government",
+   "host": "Mossvar-Rahmani Center for Business & Government at Harvard Kennedy School",
    "food": {
-    "status": "confirmed",
-    "types": [
-     "Lunch"
-    ],
-    "evidence": "Lunch will be served.",
-    "cue": "strong"
+    "status": "none",
+    "types": [],
+    "evidence": ""
    },
    "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001kmaXIAQ"
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
    },
    "audience": {
     "level": "unknown",
@@ -12894,7 +13901,7 @@
    "summary": "Drawing on a decade of research with administrative tax data and their new book, Owen Zidar, Professor of Economics and Public Affairs at Princeton University, and Eric Zwick, Joel F. Gemunder Professor of Economics and Finance at the University of Chicago Booth School of Business, will discuss how private business…",
    "blurb": "Drawing on a decade of research with administrative tax data and their new book, Owen Zidar, Professor of Economics and Public Affairs at Princeton University, and Eric Zwick, Joel F. Gemunder Professor of Economics and Finance at the University of Chicago…",
    "event_page": true,
-   "notes": "",
+   "notes": "Harvard Key required: No",
    "place_name": "Littauer Building, Harvard Kennedy School",
    "lat": 42.371045,
    "lon": -71.12209,
@@ -12988,7 +13995,7 @@
     "evidence": "Title: Fall Study Group: How Should Democracies Govern Scarce, Life-Saving Resources? The Case of Organ Transplantation",
     "basis": "inferred"
    },
-   "summary": "This in-person study group led by Aditya Pawar, Ash Center Democracy Visiting Fellow, and Santiago Creuheras, Ash Center Democracy Visiting Fellow, will take place throughout six sessions. Applications are necessary. Nearly 110,000 people are currently on the U.S. transplant waiting list, and about 12 people die each…",
+   "summary": "This in-person study group led by Aditya Pawar, Ash Center Democracy Visiting Fellow, and Santiago Creuheras, Ash Center Democracy Visiting Fellow, will take place throughout six sessions. Nearly 110,000 people are currently on the U.S. transplant waiting list, and about 12 people die each day while waiting for an…",
    "blurb": "Nearly 110,000 people are currently on the U.S. transplant waiting list, and about 12 people die each day while waiting for an organ. This study group will examine transplantation as a governance and democracy issue, asking how institutions allocate scarce…",
    "event_page": true,
    "notes": "",
@@ -13266,6 +14273,49 @@
    "walk_min": 10
   },
   {
+   "id": "64b99f184690",
+   "title": "Study Group with Governor Doug Ducey: Leading & Governing with Daniel Scarpinato",
+   "url": "https://www.hks.harvard.edu/events/study-group-governor-doug-ducey-leading-governing-daniel-scarpinato",
+   "source_id": "hks",
+   "source_name": "Harvard Kennedy School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-10-21T16:30:00-04:00",
+   "end": "2026-10-21T17:45:00-04:00",
+   "date": "2026-10-21",
+   "all_day": false,
+   "location": "L-163",
+   "online": false,
+   "host": "Institute of Politics (IOP)",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "RSVP link on the event page",
+    "link": "https://iop.harvard.edu/events/study-group-governor-doug-ducey-leading-governing-daniel-scarpinato"
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "HKS students",
+    "evidence": "Title: Study Group with Governor Doug Ducey: Leading & Governing with Daniel Scarpinato",
+    "basis": "inferred"
+   },
+   "summary": "Come hear from former Chief-of-Staff and skilled political operative, Daniel Scarpinato, about the rooms where it happens. IN-PERSON GUEST: Daniel Scarpinato, Former Chief of Staff to Arizona Governor *These off-the-record conversations are open to members of the Harvard community. Please RSVP with a valid Harvard…",
+   "blurb": "Come hear from former Chief-of-Staff and skilled political operative, Daniel Scarpinato, about the rooms where it happens. These off-the-record conversations are open to members of the Harvard community.",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Littauer Building, Harvard Kennedy School",
+   "lat": 42.371045,
+   "lon": -71.12209,
+   "geo_method": "gazetteer",
+   "walk_min": 18
+  },
+  {
    "id": "5d647b732071",
    "title": "Green Ukraine and Siberia: Lost Partners of 1918",
    "url": "https://www.huri.harvard.edu/event/susan-smith-peter-green-ukraine-and-siberia-lost-partners-1918",
@@ -13353,7 +14403,7 @@
   },
   {
    "id": "a01b7ae9d9c0",
-   "title": "State & Local PIC, Rappaport Institute & Taubman Center Student-Alumni Social",
+   "title": "State PIC, Rappaport Institute & Taubman Center Student-Alumni Social - Fall 26",
    "url": "https://www.hks.harvard.edu/events/state-local-pic-rappaport-institute-taubman-center-student-alumni-social-0",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
@@ -14385,6 +15435,92 @@
    "walk_min": 5
   },
   {
+   "id": "174fd933a0be",
+   "title": "50 Shades of Modern",
+   "url": "https://library.harvard.edu/exhibits/50-shades-modern",
+   "source_id": "gazette",
+   "source_name": "Harvard Gazette calendar",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-10-22T10:00:00-04:00",
+   "end": "2026-10-22T17:00:00-04:00",
+   "date": "2026-10-22",
+   "all_day": false,
+   "location": "Houghton Library, Harvard Yard, Cambridge",
+   "online": false,
+   "host": "Houghton Library",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "Seeking to provoke both “wow, what an amazing object” and “wow, I didn’t know Houghton collected stuff like that,” \"50 Shades of Modern\" showcases just a few of the thousands of acquisitions Houghton’s Modern Books and Manuscripts Department has made over the past 20 years. Dating from 1800 to the present, these items…",
+   "blurb": "Seeking to provoke both “wow, what an amazing object” and “wow, I didn’t know Houghton collected stuff like that,” \"50 Shades of Modern\" showcases just a few of the thousands of acquisitions Houghton’s Modern Books and Manuscripts Department has made over the…",
+   "event_page": true,
+   "notes": "Harvard Key required: No",
+   "place_name": "Houghton Library",
+   "lat": 42.373191,
+   "lon": -71.115923,
+   "geo_method": "gazetteer",
+   "walk_min": 9
+  },
+  {
+   "id": "10f755497a64",
+   "title": "Adam Smith and the other revolution of 1776",
+   "url": "https://library.harvard.edu/exhibits/adam-smith-and-other-revolution-1776",
+   "source_id": "gazette",
+   "source_name": "Harvard Gazette calendar",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-10-22T10:00:00-04:00",
+   "end": "2026-10-22T17:00:00-04:00",
+   "date": "2026-10-22",
+   "all_day": false,
+   "location": "Houghton Library, Harvard Yard, Cambridge",
+   "online": false,
+   "host": "Houghton Library",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "This exhibition features two items by the Scottish moral philosopher Adam Smith: his monumental two-volume \"Inquiry into the Nature and Causes of the Wealth of Nations\" (1776) and a signed letter to his publisher, William Strahan, from that same year. Smith famously argued that economic prosperity is driven by open…",
+   "blurb": "This exhibition features two items by the Scottish moral philosopher Adam Smith: his monumental two-volume \"Inquiry into the Nature and Causes of the Wealth of Nations\" (1776) and a signed letter to his publisher, William Strahan, from that same year. Smith…",
+   "event_page": true,
+   "notes": "Harvard Key required: No",
+   "place_name": "Houghton Library",
+   "lat": 42.373191,
+   "lon": -71.115923,
+   "geo_method": "gazetteer",
+   "walk_min": 9
+  },
+  {
    "id": "eac877c74598",
    "title": "Harvard and the American Revolution",
    "url": "https://library.harvard.edu/exhibits/harvard-and-american-revolution",
@@ -14424,6 +15560,49 @@
    "place_name": "Harvard Yard",
    "lat": 42.37409,
    "lon": -71.116716,
+   "geo_method": "gazetteer",
+   "walk_min": 9
+  },
+  {
+   "id": "03d3d21008e7",
+   "title": "Making a Scene: 125 Years of the Harvard Theatre Collection",
+   "url": "https://library.harvard.edu/exhibits/making-scene-0",
+   "source_id": "gazette",
+   "source_name": "Harvard Gazette calendar",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-10-22T10:00:00-04:00",
+   "end": "2026-10-22T17:00:00-04:00",
+   "date": "2026-10-22",
+   "all_day": false,
+   "location": "Houghton Library, Harvard Yard, Cambridge",
+   "online": false,
+   "host": "Houghton Library",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "Founded in 1901, the Harvard Theatre Collection is one of the world’s largest repositories for rare books, manuscripts, illustrations, and archives relating to the performing arts. Pairing archival objects with a defining moment from the past 125 years, this exhibition celebrates the extraordinary breadth of HTC’s…",
+   "blurb": "Founded in 1901, the Harvard Theatre Collection is one of the world’s largest repositories for rare books, manuscripts, illustrations, and archives relating to the performing arts. Pairing archival objects with a defining moment from the past 125 years, this…",
+   "event_page": true,
+   "notes": "Harvard Key required: No",
+   "place_name": "Houghton Library",
+   "lat": 42.373191,
+   "lon": -71.115923,
    "geo_method": "gazetteer",
    "walk_min": 9
   },
@@ -15317,6 +16496,52 @@
    "walk_min": 9
   },
   {
+   "id": "4fe9033c1352",
+   "title": "Gratitude, Resentment, and Busy Lives: A Conversation with Prof. Kathleen McGinn",
+   "url": "https://harvard.zoom.us/meeting/register/seGiPrCKSEq1B1aZACQB1Q#/registration",
+   "source_id": "gazette",
+   "source_name": "Harvard Gazette calendar",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-10-22T13:00:00-04:00",
+   "end": "2026-10-22T14:00:00-04:00",
+   "date": "2026-10-22",
+   "all_day": false,
+   "location": "100 S Campus Drive, Boston",
+   "online": false,
+   "host": "CCW (Committee on the Concerns of Women at Harvard)",
+   "food": {
+    "status": "confirmed",
+    "types": [
+     "Snacks"
+    ],
+    "evidence": "Light refreshments will be provided.",
+    "cue": "strong"
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "Registration link on the event page",
+    "link": "https://harvard.zoom.us/meeting/register/seGiPrCKSEq1B1aZACQB1Q#/registration"
+   },
+   "audience": {
+    "level": "harvard",
+    "group": "",
+    "evidence": "Gazette listing: Harvard Key required",
+    "basis": "listing"
+   },
+   "summary": "Women and men in busy two-career households express both gratitude and resentment for their partners’ contributions at home and at work. Those who are parents further express concerns about the effects of their busy lives on their children. Professor McGinn studies these intra-household dynamics in multiple countries…",
+   "blurb": "Women and men in busy two-career households express both gratitude and resentment for their partners’ contributions at home and at work. Those who are parents further express concerns about the effects of their busy lives on their children. Professor McGinn…",
+   "event_page": true,
+   "notes": "Harvard Key required: Yes",
+   "place_name": "100 S Campus Drive",
+   "lat": 42.36461,
+   "lon": -71.129827,
+   "geo_method": "address",
+   "walk_min": 33
+  },
+  {
    "id": "99b89163e41a",
    "title": "How AI Will Move Markets",
    "url": "https://www.hks.harvard.edu/events/how-ai-will-move-markets",
@@ -15401,6 +16626,49 @@
    "lon": -71.113237,
    "geo_method": "gazetteer",
    "walk_min": 4
+  },
+  {
+   "id": "97189485a5c8",
+   "title": "Amb Kelly Craft: Case for Disagreement: Beyond Identity & Ideological Conformity",
+   "url": "https://www.hks.harvard.edu/events/amb-kelly-craft-case-disagreement-beyond-identity-ideological-conformity",
+   "source_id": "hks",
+   "source_name": "Harvard Kennedy School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-10-22T16:00:00-04:00",
+   "end": "2026-10-22T17:15:00-04:00",
+   "date": "2026-10-22",
+   "all_day": false,
+   "location": "L-166",
+   "online": false,
+   "host": "Institute of Politics (IOP)",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "RSVP link on the event page",
+    "link": "https://iop.harvard.edu/events/study-group-ambassador-kelly-craft-case-disagreement-beyond-identity-and-ideological"
+   },
+   "audience": {
+    "level": "harvard",
+    "group": "",
+    "evidence": "*These off-the-record conversations are open to members of the Harvard community.",
+    "basis": "text"
+   },
+   "summary": "In an age of deepening polarization, we increasingly mistake identity for ideology, dissent for betrayal, and silence for consensus. We will make the case for a more expansive democratic culture—one that embraces complexity, protects minority viewpoints, and allows people to disagree honestly without being reduced to…",
+   "blurb": "In an age of deepening polarization, we increasingly mistake identity for ideology, dissent for betrayal, and silence for consensus. We will make the case for a more expansive democratic culture—one that embraces complexity, protects minority viewpoints, and…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Littauer Building, Harvard Kennedy School",
+   "lat": 42.371045,
+   "lon": -71.12209,
+   "geo_method": "gazetteer",
+   "walk_min": 18
   },
   {
    "id": "27d0ea12df15",
@@ -15548,6 +16816,49 @@
    "walk_min": 16
   },
   {
+   "id": "8dd57b4e42c9",
+   "title": "Director's Seminar with Catherine Russell",
+   "url": "https://www.hks.harvard.edu/events/directors-seminar-catherine-russell",
+   "source_id": "hks",
+   "source_name": "Harvard Kennedy School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-10-22T16:30:00-04:00",
+   "end": "2026-10-22T17:45:00-04:00",
+   "date": "2026-10-22",
+   "all_day": false,
+   "location": "Belfer Center Library (l369)",
+   "online": false,
+   "host": "Belfer Center for Science and International Affairs",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "Space is limited so please only RSVP if you plan to attend.",
+    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001kxKfIAI"
+   },
+   "audience": {
+    "level": "harvard",
+    "group": "",
+    "evidence": "Attendance is in-person and for HUID holders only.",
+    "basis": "text"
+   },
+   "summary": "Please join the Belfer Center for Science and International Affairs for a conversation with Catherine Russell, Executive Director of UNICEF. Ms. Russell will discuss her role supporting women and children around the world through foreign policy and multilateralism. Ms. Russell brings to the role decades of experience…",
+   "blurb": "Please join the Belfer Center for Science and International Affairs for a conversation with Catherine Russell, Executive Director of UNICEF. Russell will discuss her role supporting women and children around the world through foreign policy and…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Harvard Kennedy School",
+   "lat": 42.371989,
+   "lon": -71.121761,
+   "geo_method": "host",
+   "walk_min": 16
+  },
+  {
    "id": "957786e8c432",
    "title": "Raising Korea’s Children: Cold War Liberalism and Decolonization in Postwar South Korea",
    "url": "https://korea.fas.harvard.edu/event/na-sil-heo-raising-koreas-children-cold-war-liberalism-and-decolonization-postwar-south-korea?occ_id=0",
@@ -15677,22 +16988,29 @@
    "walk_min": 9
   },
   {
-   "id": "734cc681009e",
-   "title": "THE SAMUEL L. & ELIZABETH JODIDI LECTURE",
-   "url": "https://us.list-manage.com/90nktxCBRwB?e=d6141e33fc&c2id=e33ec1439bbd2838a85acdc8e0f6ab18",
-   "source_id": "newsletter",
-   "source_name": "Newsletter: Jodidi Lecture / Testimony (1989–2026) with Ron Haviv",
-   "also_listed": [],
-   "aliases": [],
+   "id": "17aa3b6f1434",
+   "title": "The Samuel L. and Elizabeth Jodidi Lecture with Ron Haviv",
+   "url": "https://www.wcfia.harvard.edu/events/jodidi26-haviv",
+   "source_id": "gazette",
+   "source_name": "Harvard Gazette calendar",
+   "also_listed": [
+    {
+     "source_name": "Newsletter: Jodidi Lecture / Testimony (1989–2026) with Ron Haviv",
+     "url": "https://us.list-manage.com/90nktxCBRwB?e=d6141e33fc&c2id=e33ec1439bbd2838a85acdc8e0f6ab18"
+    }
+   ],
+   "aliases": [
+    "734cc681009e"
+   ],
    "suggested": null,
    "forwarded": null,
    "start": "2026-10-22T17:00:00-04:00",
-   "end": null,
+   "end": "2026-10-22T18:30:00-04:00",
    "date": "2026-10-22",
    "all_day": false,
-   "location": "",
+   "location": "Tsai Auditorium (Room S010), CGIS South Building, 1730 Cambridge St., Cambridge",
    "online": false,
-   "host": "",
+   "host": "Weatherhead Center for International Affairs and The VII Foundation",
    "food": {
     "status": "confirmed",
     "types": [
@@ -15712,15 +17030,15 @@
     "evidence": "This event is open to the public and will be recorded.",
     "basis": "text"
    },
-   "summary": "THE SAMUEL L. & ELIZABETH JODIDI LECTURE October 22, 2026 / 05:00PM–06:30PM EDT Testimony (1989–2026) This event is open to the public and will be recorded. Please register to attend. There will be a public viewing of the exhibition and reception before the lecture, 4:00–4:45 p.m. Please plan on being seated at 4:45…",
+   "summary": "Testimony (1989–2026) This event is open to the public and will be recorded. Please register to attend. There will be a public viewing of the exhibition and reception before the lecture, 4:00–4:45 p.m. Please plan on being seated at 4:45 p.m. as the event will start promptly at 5:00 p.m. Content advisory: This…",
    "blurb": "There will be a public viewing of the exhibition and reception before the lecture, 4:00–4:45 p.m. Please plan on being seated at 4:45 p.m. as the event will start promptly at 5:00 p.m. Content advisory: This presentation includes graphic photographs and video…",
-   "event_page": false,
-   "notes": "",
-   "place_name": "",
-   "lat": null,
-   "lon": null,
-   "geo_method": null,
-   "walk_min": null
+   "event_page": true,
+   "notes": "Cost: Free | Harvard Key required: No",
+   "place_name": "CGIS South Building",
+   "lat": 42.375011,
+   "lon": -71.113135,
+   "geo_method": "gazetteer",
+   "walk_min": 5
   },
   {
    "id": "895715505ab8",
@@ -15908,8 +17226,8 @@
     "evidence": "Free and open to the public.",
     "basis": "text"
    },
-   "summary": "This program is happening on October 22, 2026 from 6:00pm–9:00pm. Artist Talk and Opening Reception for Constitutive Outside Join us for a conversation with artists Steffani Jemison and Jibade-Khalil Huffman, moderated by exhibition curator Tarik Garrett. A reception will follow in the AUX: Intermedia Gallery on Level…",
-   "blurb": "Join us for a conversation with artists Steffani Jemison and Jibade-Khalil Huffman, moderated by exhibition curator Tarik Garrett. A reception will follow in the AUX: Intermedia Gallery on Level 1 of the Carpenter Center.",
+   "summary": "This program is happening on October 22, 2026 from 6:00pm–9:00pm. Artist Talk and Opening Reception for Constitutive Outside Join us for a conversation with artists Steffani Jemison and Markele Cullins, moderated by exhibition curator Tarik Garrett. A reception will follow in the AUX: Intermedia Gallery on Level 1 of…",
+   "blurb": "Join us for a conversation with artists Steffani Jemison and Markele Cullins, moderated by exhibition curator Tarik Garrett. A reception will follow in the AUX: Intermedia Gallery on Level 1 of the Carpenter Center.",
    "event_page": true,
    "notes": "",
    "place_name": "Carpenter Center",
@@ -16707,7 +18025,7 @@
   {
    "id": 4,
    "state": "scanned",
-   "label": "Scanned at every update: 30 events found, 2 with food this week",
+   "label": "Scanned at every update: 29 events found, 2 with food this week",
    "n_food": 2
   }
  ],
@@ -16795,6 +18113,13 @@
    "items": 5,
    "sender": null,
    "forwarded_by": "Ellen"
+  },
+  {
+   "subject": "BKC in the News and October Events",
+   "sent": "2026-10-15",
+   "items": 1,
+   "sender": null,
+   "forwarded_by": "Juan"
   },
   {
    "subject": "Jodidi Lecture / Testimony (1989–2026) with Ron Haviv",
