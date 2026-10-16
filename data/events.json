@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T10:55:34-04:00",
+ "generated_at": "2026-10-16T15:37:50-04:00",
  "window": {
   "start": "2026-10-16",
   "end": "2026-10-23"
@@ -22,7 +22,7 @@
    "error": null,
    "n_events": 159,
    "n_food": 7,
-   "seconds": 1.8
+   "seconds": 2.0
   },
   {
    "id": "hks",
@@ -30,9 +30,9 @@
    "homepage": "https://www.hks.harvard.edu/more/events",
    "ok": true,
    "error": null,
-   "n_events": 49,
-   "n_food": 10,
-   "seconds": 5.3
+   "n_events": 51,
+   "n_food": 11,
+   "seconds": 13.8
   },
   {
    "id": "hls",
@@ -42,7 +42,7 @@
    "error": null,
    "n_events": 83,
    "n_food": 47,
-   "seconds": 9.8
+   "seconds": 12.8
   },
   {
    "id": "college",
@@ -50,9 +50,9 @@
    "homepage": "https://events.college.harvard.edu/",
    "ok": true,
    "error": null,
-   "n_events": 93,
+   "n_events": 92,
    "n_food": 10,
-   "seconds": 1.0
+   "seconds": 0.6
   },
   {
    "id": "ash",
@@ -62,7 +62,7 @@
    "error": null,
    "n_events": 3,
    "n_food": 1,
-   "seconds": 2.3
+   "seconds": 1.9
   },
   {
    "id": "shorenstein",
@@ -72,7 +72,7 @@
    "error": null,
    "n_events": 2,
    "n_food": 0,
-   "seconds": 9.1
+   "seconds": 8.4
   },
   {
    "id": "fairbank",
@@ -82,7 +82,7 @@
    "error": null,
    "n_events": 6,
    "n_food": 1,
-   "seconds": 6.3
+   "seconds": 0.2
   },
   {
    "id": "newsletter",
@@ -90,9 +90,9 @@
    "homepage": "",
    "ok": true,
    "error": null,
-   "n_events": 52,
+   "n_events": 53,
    "n_food": 11,
-   "seconds": 86.1
+   "seconds": 187.3
   },
   {
    "id": "suggested",
@@ -100,19 +100,19 @@
    "homepage": "",
    "ok": true,
    "error": null,
-   "n_events": 8,
+   "n_events": 9,
    "n_food": 2,
-   "seconds": 4.9
+   "seconds": 6.5
   }
  ],
  "stats": {
-  "events": 362,
-  "food_confirmed": 55,
+  "events": 364,
+  "food_confirmed": 56,
   "food_likely": 20,
   "forwarded": 22,
   "forwarded_listed": 12,
   "food_restricted": 48,
-  "seconds": 97.1
+  "seconds": 197.5
  },
  "events": [
   {
@@ -959,9 +959,9 @@
     "evidence": ""
    },
    "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001hoSPIAY"
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
    },
    "audience": {
     "level": "public",
@@ -1139,9 +1139,9 @@
     "cue": "strong"
    },
    "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001kRHZIA2"
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
    },
    "audience": {
     "level": "unknown",
@@ -1364,9 +1364,9 @@
     "evidence": ""
    },
    "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001i6KTIAY"
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
    },
    "audience": {
     "level": "restricted",
@@ -5002,7 +5002,7 @@
     "basis": "none"
    },
    "summary": "@ Speaker: Xu Jilin (许纪霖), Professor of History, East China Normal University Co-Chair: Yedong Sh-Chen, Visiting Assistant Teaching Professor in Chinese, Department of East Asian Languages and Cultures, Wellesley College ***This talk will be in Chinese*** Details Date: Time: Venue Add to calendar Google Calendar…",
-   "blurb": "",
+   "blurb": "This event is not a Harvard University event, but may be of interest to our community.",
    "event_page": true,
    "notes": "",
    "place_name": "Harvard-Yenching Institute",
@@ -5062,10 +5062,6 @@
    "source_name": "Harvard Gazette calendar",
    "also_listed": [
     {
-     "source_name": "Harvard Kennedy School",
-     "url": "https://www.hks.harvard.edu/events/inside-money-and-power-washington-josh-dawsey"
-    },
-    {
      "source_name": "Harvard College events",
      "url": "https://events.college.harvard.edu/event/225434-inside-the-money-and-power-of-washington-with-josh"
     },
@@ -5079,7 +5075,6 @@
     }
    ],
    "aliases": [
-    "87b034aaa3fe",
     "bd8ad824c999",
     "c30bea26b9c8",
     "c30bea26b9c8",
@@ -5223,7 +5218,9 @@
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
-   "aliases": [],
+   "aliases": [
+    "2a87112b359c"
+   ],
    "suggested": null,
    "forwarded": null,
    "start": "2026-10-19T12:00:00-04:00",
@@ -6389,49 +6386,6 @@
    },
    "summary": "The Harvard Undergraduate Black Pre-Medical Society will be joined by a Kaplan Representative to discuss what medical school admissions officers are saying about medical school! We’ll be discussing MCAT scores, application mistakes and dealbreakers, expectations on class-growth, and more. — Event Details:…",
    "blurb": "The Harvard Undergraduate Black Pre-Medical Society will be joined by a Kaplan Representative to discuss what medical school admissions officers are saying about medical school! We’ll be discussing MCAT scores, application mistakes and dealbreakers…",
-   "event_page": true,
-   "notes": "",
-   "place_name": "",
-   "lat": null,
-   "lon": null,
-   "geo_method": null,
-   "walk_min": null
-  },
-  {
-   "id": "fb753ce6401e",
-   "title": "Rep. Ro Khanna Speaker Event",
-   "url": "https://soco.college.harvard.edu/rsvp?id=383249",
-   "source_id": "college",
-   "source_name": "Harvard College events",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-10-19T19:00:00-04:00",
-   "end": "2026-10-19T20:00:00-04:00",
-   "date": "2026-10-19",
-   "all_day": false,
-   "location": "SoCo",
-   "online": false,
-   "host": "Dean of Students Office",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "required",
-    "evidence": "Registration link on the event page",
-    "link": "https://soco.college.harvard.edu/rsvp?id=383249"
-   },
-   "audience": {
-    "level": "restricted",
-    "group": "Harvard College students",
-    "evidence": "Harvard College calendar, no sign it is open to others",
-    "basis": "default"
-   },
-   "summary": "The Harvard College Democrats are excited to host United States Representative Ro Khanna to discuss the state of the Democratic Party amidst the 2026 midterms, the Trump Administration, and the future of the progressive movement. — Event Details: https://soco.college.harvard.edu/rsvp?id=383249",
-   "blurb": "The Harvard College Democrats are excited to host United States Representative Ro Khanna to discuss the state of the Democratic Party amidst the 2026 midterms, the Trump Administration, and the future of the progressive movement.",
    "event_page": true,
    "notes": "",
    "place_name": "",
@@ -8247,9 +8201,9 @@
    "walk_min": 10
   },
   {
-   "id": "f2abc89690f1",
+   "id": "8122af40b8b6",
    "title": "Rehearsing the Future: Design and the Art of the Possible",
-   "url": "https://www.hks.harvard.edu/events/rehearsing-future-design-and-art-possible",
+   "url": "https://www.hks.harvard.edu/index%2ephp/events/rehearsing-future-design-and-art-possible",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -8260,9 +8214,9 @@
    "end": "2026-10-20T16:30:00-04:00",
    "date": "2026-10-20",
    "all_day": false,
-   "location": "Littauer L-130 Bolton",
+   "location": "",
    "online": false,
-   "host": "Center for Public Leadership",
+   "host": "",
    "food": {
     "status": "none",
     "types": [],
@@ -8279,15 +8233,15 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "At HKS, we often ask how to govern and manage the public sector. The HKS Culture and Civil Society Initiative asks a prior question: how does culture upstream of politics shape the public sector and influence what we see as possible? During this 1 hour session, Design Studio for Social Intervention (DS4SI) co-founders…",
-   "blurb": "we often ask how to govern and manage the public sector. The HKS Culture and Civil Society Initiative asks a prior question: how does culture upstream of politics shape the public sector and influence what we see as possible? During this 1 hour session…",
+   "summary": "",
+   "blurb": "",
    "event_page": true,
    "notes": "",
-   "place_name": "Littauer Building, Harvard Kennedy School",
-   "lat": 42.371045,
-   "lon": -71.12209,
-   "geo_method": "gazetteer",
-   "walk_min": 18
+   "place_name": "Harvard Kennedy School",
+   "lat": 42.371989,
+   "lon": -71.121761,
+   "geo_method": "host",
+   "walk_min": 16
   },
   {
    "id": "4b19fdf19733",
@@ -9950,6 +9904,52 @@
    "lon": -71.113135,
    "geo_method": "gazetteer",
    "walk_min": 5
+  },
+  {
+   "id": "668b3f7e7793",
+   "title": "The Art of Diplomacy in Uncertain Times with Ambassador Ángeles Moreno Bau",
+   "url": "https://www.hks.harvard.edu/events/art-diplomacy-uncertain-times-ambassador-angeles-moreno-bau",
+   "source_id": "hks",
+   "source_name": "Harvard Kennedy School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-10-21T12:00:00-04:00",
+   "end": "2026-10-21T13:00:00-04:00",
+   "date": "2026-10-21",
+   "all_day": false,
+   "location": "L-166",
+   "online": false,
+   "host": "Institute of Politics (IOP)",
+   "food": {
+    "status": "confirmed",
+    "types": [
+     "Lunch"
+    ],
+    "evidence": "Lunch will be served.",
+    "cue": "strong"
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "RSVP link on the event page",
+    "link": "https://iop.harvard.edu/events/art-diplomacy-uncertain-times-discussion-ambassador-angeles-moreno-bau-ambassador-nathalie"
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "At a time of shifting alliances, rising geopolitical tensions, and growing uncertainty about the international order, what role can diplomacy play in shaping a more secure and cooperative world? Join Ambassador of Spain to the United States, Ángeles Moreno Bau, in conversation with former U.S. Ambassador to Croatia…",
+   "blurb": "At a time of shifting alliances, rising geopolitical tensions, and growing uncertainty about the international order, what role can diplomacy play in shaping a more secure and cooperative world? Ambassador to Croatia and Institute of Politics Resident Fellow…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Littauer Building, Harvard Kennedy School",
+   "lat": 42.371045,
+   "lon": -71.12209,
+   "geo_method": "gazetteer",
+   "walk_min": 18
   },
   {
    "id": "79720a217a25",
@@ -11705,6 +11705,49 @@
    "lon": -71.119421,
    "geo_method": "gazetteer",
    "walk_min": 10
+  },
+  {
+   "id": "7f7213afdd7e",
+   "title": "From Social Movements to Institutions: How Social Change Happens in Chile",
+   "url": "https://www.hks.harvard.edu/events/social-movements-institutions-how-social-change-happens-chile",
+   "source_id": "hks",
+   "source_name": "Harvard Kennedy School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-10-21T19:30:00-04:00",
+   "end": "2026-10-21T20:30:00-04:00",
+   "date": "2026-10-21",
+   "all_day": false,
+   "location": "L-332",
+   "online": false,
+   "host": "Chilean Caucus",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "RSVP link on the event page",
+    "link": "https://forms.gle/19KU6tEfCGEfgyYA7"
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "The Chilean Caucus invites students to an intimate conversation with María José Cumplido, Chilean historian, author, and Executive Director of Fundación Iguales. Drawing on her experience studying Chilean social movements and advocating for LGBTQI+ rights, the discussion will explore how social movements can shape…",
+   "blurb": "The Chilean Caucus invites students to an intimate conversation with María José Cumplido, Chilean historian, author, and Executive Director of Fundación Iguales. Drawing on her experience studying Chilean social movements and advocating for LGBTQI+ rights…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Littauer Building, Harvard Kennedy School",
+   "lat": 42.371045,
+   "lon": -71.12209,
+   "geo_method": "gazetteer",
+   "walk_min": 18
   },
   {
    "id": "3fb1b5700b0a",
@@ -13476,7 +13519,7 @@
    "end": "2026-10-22T17:00:00-04:00",
    "date": "2026-10-22",
    "all_day": false,
-   "location": "Wexner G02",
+   "location": "T-520 Allison Dining Room",
    "online": false,
    "host": "Social Innovation + Change Initiative (SICI)",
    "food": {
@@ -13499,11 +13542,11 @@
    "blurb": "Social changemakers routinely operate in high-stakes, resource-scarce environments where the margin for error is thin. Early-stage leaders often lack capital, staff, time, information, and reserve capacity, yet are still expected to make consequential…",
    "event_page": true,
    "notes": "",
-   "place_name": "Wexner Building, Harvard Kennedy School",
-   "lat": 42.371344,
-   "lon": -71.122357,
+   "place_name": "Taubman Building, Harvard Kennedy School",
+   "lat": 42.371822,
+   "lon": -71.122151,
    "geo_method": "gazetteer",
-   "walk_min": 18
+   "walk_min": 17
   },
   {
    "id": "2b772f7d2f9b",
@@ -15029,9 +15072,9 @@
    "walk_min": 7
   },
   {
-   "id": "8b9aac220dfb",
+   "id": "8f792de00766",
    "title": "Africa in a Post-Aid World: Reimagining the Global Architecture of Prosperity",
-   "url": "https://www.hks.harvard.edu/index%2Ephp/events/youth-leadership-africas-future-ahunna-eziakonwa-undp-africa-director",
+   "url": "https://www.hks.harvard.edu/events/youth-leadership-africas-future-ahunna-eziakonwa-undp-africa-director",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -15042,34 +15085,34 @@
    "end": "2026-10-23T13:00:00-04:00",
    "date": "2026-10-23",
    "all_day": false,
-   "location": "",
+   "location": "Littauer Building L-9-malkin Penthouse",
    "online": false,
-   "host": "",
+   "host": "Harvard Center for International Development",
    "food": {
     "status": "none",
     "types": [],
     "evidence": ""
    },
    "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
+    "status": "required",
+    "evidence": "RSVP link on the event page",
+    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001hoPBIAY"
    },
    "audience": {
-    "level": "unknown",
+    "level": "public",
     "group": "",
-    "evidence": "",
-    "basis": "none"
+    "evidence": "All are welcome.",
+    "basis": "text"
    },
-   "summary": "",
-   "blurb": "",
+   "summary": "Join the Harvard Center for International Development in welcoming Her Excellency Ahunna Eziakonwa, United Nations Under-Secretary-General and Special Adviser on Africa to the United Nations Secretary-General, for a conversation on Africa’s role in a changing global order. At a time when aid and development financing…",
+   "blurb": "Join the Harvard Center for International Development in welcoming Her Excellency Ahunna Eziakonwa, United Nations Under-Secretary-General and Special Adviser on Africa to the United Nations Secretary-General, for a conversation on Africa’s role in a changing…",
    "event_page": true,
    "notes": "",
-   "place_name": "Harvard Kennedy School",
-   "lat": 42.371989,
-   "lon": -71.121761,
-   "geo_method": "host",
-   "walk_min": 16
+   "place_name": "Littauer Building, Harvard Kennedy School",
+   "lat": 42.371045,
+   "lon": -71.12209,
+   "geo_method": "gazetteer",
+   "walk_min": 18
   },
   {
    "id": "79a7ab330195",
@@ -15302,6 +15345,49 @@
    "walk_min": 10
   },
   {
+   "id": "e30c8307b450",
+   "title": "CBDB Annual Conference 2026: Research in Chinese Studies in the Age of AI",
+   "url": "https://fairbank.fas.harvard.edu/events/cbdb-annual-conference-2026-research-in-chinese-studies-in-the-age-of-ai/",
+   "source_id": "suggested",
+   "source_name": "Suggested calendar: Fairbanks center",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-10-23T13:50:00-04:00",
+   "end": "2026-10-23T17:00:00-04:00",
+   "date": "2026-10-23",
+   "all_day": false,
+   "location": "CGIS South S020, Belfer Case Study Room, 1730 Cambridge St., Cambridge, MA, 02138, United States",
+   "online": false,
+   "host": "",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "Program Panel 1 (1:55–2:55 PM): Between Print Culture, Literature, and Politics Mei, Yuting 梅愉婷, Zhejiang UniversityBeyond Famous Names: The Rise of Compiler and Selector Credits in Ming Imprint Records Liu, Zaicheng 劉再騁, Fudan University“The South Wants to Shackle the Officials from the North”: Court Politics,…",
+   "blurb": "Mei, Yuting 梅愉婷, Zhejiang UniversityBeyond Famous Names: The Rise of Compiler and Selector Credits in Ming Imprint Records Liu, Zaicheng 劉再騁, Fudan University“The South Wants to Shackle the Officials from the North”: Court Politics, Commercial Print, and…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "CGIS South Building",
+   "lat": 42.375011,
+   "lon": -71.113135,
+   "geo_method": "gazetteer",
+   "walk_min": 5
+  },
+  {
    "id": "fbf5e615dc8c",
    "title": "Amb. Chris Lu Study Group: Faith and Public Service: Leading Across Differences",
    "url": "https://www.hks.harvard.edu/events/amb-chris-lu-study-group-faith-and-public-service-leading-across-differences",
@@ -15486,8 +15572,15 @@
    "url": "https://asiacenter.harvard.edu/events/manila-wall-street-book-talk-signing-0",
    "source_id": "newsletter",
    "source_name": "Newsletter: Asia Bulletin: October 9–23",
-   "also_listed": [],
-   "aliases": [],
+   "also_listed": [
+    {
+     "source_name": "Newsletter: Asia Bulletin: October 16–30",
+     "url": "https://asiacenter.harvard.edu/events/manila-wall-street-book-talk-signing-0"
+    }
+   ],
+   "aliases": [
+    "b52c673a0fc6"
+   ],
    "suggested": null,
    "forwarded": null,
    "start": "2026-10-23T16:00:00-04:00",
@@ -16433,7 +16526,7 @@
   {
    "id": 4,
    "state": "scanned",
-   "label": "Scanned at every update: 28 events found, 2 with food this week",
+   "label": "Scanned at every update: 29 events found, 2 with food this week",
    "n_food": 2
   }
  ],
@@ -16637,6 +16730,12 @@
    "sent": "2026-10-13",
    "items": 0,
    "sender": "Hutchins Center for African & African American Research, Har"
+  },
+  {
+   "subject": "Asia Bulletin: October 16–30",
+   "sent": "2026-10-16",
+   "items": 1,
+   "sender": "Harvard University Asia Center"
   }
  ]
 }
