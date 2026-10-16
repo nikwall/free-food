@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T15:56:49-04:00",
+ "generated_at": "2026-10-15T20:27:45-04:00",
  "window": {
   "start": "2026-10-15",
   "end": "2026-10-22"
@@ -22,7 +22,7 @@
    "error": null,
    "n_events": 166,
    "n_food": 8,
-   "seconds": 1.4
+   "seconds": 2.5
   },
   {
    "id": "hks",
@@ -30,9 +30,9 @@
    "homepage": "https://www.hks.harvard.edu/more/events",
    "ok": true,
    "error": null,
-   "n_events": 52,
-   "n_food": 8,
-   "seconds": 1.7
+   "n_events": 55,
+   "n_food": 11,
+   "seconds": 3.8
   },
   {
    "id": "hls",
@@ -40,9 +40,9 @@
    "homepage": "https://hls.harvard.edu/calendar/",
    "ok": true,
    "error": null,
-   "n_events": 109,
+   "n_events": 108,
    "n_food": 59,
-   "seconds": 11.0
+   "seconds": 11.2
   },
   {
    "id": "college",
@@ -52,7 +52,7 @@
    "error": null,
    "n_events": 99,
    "n_food": 11,
-   "seconds": 1.0
+   "seconds": 0.6
   },
   {
    "id": "ash",
@@ -62,7 +62,7 @@
    "error": null,
    "n_events": 2,
    "n_food": 0,
-   "seconds": 2.0
+   "seconds": 2.3
   },
   {
    "id": "shorenstein",
@@ -72,7 +72,7 @@
    "error": null,
    "n_events": 2,
    "n_food": 0,
-   "seconds": 8.7
+   "seconds": 9.7
   },
   {
    "id": "fairbank",
@@ -82,7 +82,7 @@
    "error": null,
    "n_events": 8,
    "n_food": 1,
-   "seconds": 0.2
+   "seconds": 0.1
   },
   {
    "id": "newsletter",
@@ -92,7 +92,7 @@
    "error": null,
    "n_events": 52,
    "n_food": 10,
-   "seconds": 96.3
+   "seconds": 74.9
   },
   {
    "id": "suggested",
@@ -100,19 +100,19 @@
    "homepage": "",
    "ok": true,
    "error": null,
-   "n_events": 9,
+   "n_events": 8,
    "n_food": 2,
-   "seconds": 5.2
+   "seconds": 5.5
   }
  ],
  "stats": {
-  "events": 397,
-  "food_confirmed": 65,
+  "events": 399,
+  "food_confirmed": 68,
   "food_likely": 21,
   "forwarded": 24,
   "forwarded_listed": 13,
   "food_restricted": 56,
-  "seconds": 104.3
+  "seconds": 84.5
  },
  "events": [
   {
@@ -2159,9 +2159,9 @@
    "walk_min": 10
   },
   {
-   "id": "f999f0917a4b",
+   "id": "794e72a34ee5",
    "title": "The Agenda for Adolescent Girls: Power, Policy & Philanthropy: Brown Bag Event",
-   "url": "https://www.hks.harvard.edu/events/agenda-adolescent-girls-power-policy-philanthropy-brown-bag-event",
+   "url": "https://www.hks.harvard.edu/index%2ephp/events/agenda-adolescent-girls-power-policy-philanthropy-brown-bag-event",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -2172,13 +2172,13 @@
    "end": "2026-10-15T14:00:00-04:00",
    "date": "2026-10-15",
    "all_day": false,
-   "location": "Hks, Cason Room (taubman 102)",
+   "location": "",
    "online": false,
-   "host": "Center for Public Leadership",
+   "host": "",
    "food": {
-    "status": "byo",
+    "status": "none",
     "types": [],
-    "evidence": "Brown bag lunch — bring your lunch and your questions."
+    "evidence": ""
    },
    "registration": {
     "status": "unknown",
@@ -2191,15 +2191,15 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "The Agenda for Adolescent Girls: Power, Policy & Philanthropy: A Brown Bag Roundtable with UNICEF’s Leaders on the Frontier of Global Gender Policy What would it take to make adolescent girls a true global priority—not only in rhetoric, but in how governments, institutions, and philanthropists allocate power and…",
-   "blurb": "What would it take to make adolescent girls a true global priority—not only in rhetoric, but in how governments, institutions, and philanthropists allocate power and resources? In coordination with the Center for Public Leadership and the Women and Public…",
+   "summary": "",
+   "blurb": "",
    "event_page": true,
    "notes": "",
-   "place_name": "Taubman Building, Harvard Kennedy School",
-   "lat": 42.371822,
-   "lon": -71.122151,
-   "geo_method": "gazetteer",
-   "walk_min": 17
+   "place_name": "Harvard Kennedy School",
+   "lat": 42.371989,
+   "lon": -71.121761,
+   "geo_method": "host",
+   "walk_min": 16
   },
   {
    "id": "b9bbba3a4810",
@@ -2267,9 +2267,9 @@
     "evidence": ""
    },
    "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://hks-harvard-csm.symplicity.com/students/?s=event&ss=is&mode=form&id=fd24c5ea3bc51350adf303217eeb0f9b"
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
    },
    "audience": {
     "level": "unknown",
@@ -2379,14 +2379,14 @@
   },
   {
    "id": "00455edb0d23",
-   "title": "PODCASTING 101 - For the Record: How to capture brilliant audio",
-   "url": "https://www.hks.harvard.edu/events/record-how-capture-brilliant-audio-communications-workshop",
-   "source_id": "hks",
-   "source_name": "Harvard Kennedy School",
+   "title": "Podcasting 101: \"For the Record\" How to capture brilliant audio",
+   "url": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001jzLJIAY",
+   "source_id": "gazette",
+   "source_name": "Harvard Gazette calendar",
    "also_listed": [
     {
-     "source_name": "Harvard Gazette calendar",
-     "url": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001jzLJIAY"
+     "source_name": "Harvard Kennedy School",
+     "url": "https://www.hks.harvard.edu/events/record-how-capture-brilliant-audio-communications-workshop"
     }
    ],
    "aliases": [
@@ -2398,18 +2398,18 @@
    "end": "2026-10-15T16:00:00-04:00",
    "date": "2026-10-15",
    "all_day": false,
-   "location": "Littauer Building, Room 332 (deland)",
+   "location": "Harvard Kennedy School, Littauer Building, Room 332, 79 John F. Kennedy St., Cambridge",
    "online": false,
-   "host": "Communications Program",
+   "host": "HKS Communications Program",
    "food": {
     "status": "none",
     "types": [],
     "evidence": ""
    },
    "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001jzLJIAY"
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
    },
    "audience": {
     "level": "harvard",
@@ -2417,10 +2417,10 @@
     "evidence": "Gazette listing: Harvard Key required",
     "basis": "listing"
    },
-   "summary": "PODCASTING 101 - For the record: How to capture brilliant Audio Learn the basics of what makes exceptional audio – including gear, technique and software needed to build and share content. Learn storytelling instincts and skills that apply to podcasts, digital blogs, digital video platforms like YouTube, documentary…",
+   "summary": "Learn the basics of what makes exceptional audio – including gear, techniques, and software needed to build and share content. Learn storytelling instincts and skills that apply to podcasts, digital blogs, digital video platforms like YouTube, documentary work, and other forms of recorded storytelling that will emerge…",
    "blurb": "Learn the basics of what makes exceptional audio – including gear, technique and software needed to build and share content. Learn storytelling instincts and skills that apply to podcasts, digital blogs, digital video platforms like YouTube, documentary work…",
    "event_page": true,
-   "notes": "",
+   "notes": "Cost: Free | Harvard Key required: Yes",
    "place_name": "Littauer Building, Harvard Kennedy School",
    "lat": 42.371045,
    "lon": -71.12209,
@@ -2600,7 +2600,7 @@
    "walk_min": 16
   },
   {
-   "id": "0794fbd38a10",
+   "id": "17a8da45a507",
    "title": "Study Group with Ambassador Chris Lu: When Politics and Policy Collide ft. Tom Perez",
    "url": "https://iop.harvard.edu/events/study-group-ambassador-chris-lu-when-politics-and-policy-collide-ft-tom-perez",
    "source_id": "gazette",
@@ -2615,12 +2615,12 @@
      "url": "https://iop.harvard.edu/events/study-group-ambassador-chris-lu-when-politics-and-policy-collide-tom-perez"
     },
     {
-     "source_name": "Harvard College events",
-     "url": "https://events.college.harvard.edu/event/225350-study-group-with-ambassador-chris-lu-when-politics"
+     "source_name": "Harvard Kennedy School",
+     "url": "https://www.hks.harvard.edu/events/study-group-amb-chris-lu-when-politics-and-policy-collide-ft-tom-perez"
     },
     {
-     "source_name": "Harvard Kennedy School",
-     "url": "https://www.hks.harvard.edu/index%2ephp/events/study-group-amb-chris-lu-when-politics-and-policy-collide-ft-tom-perez"
+     "source_name": "Harvard College events",
+     "url": "https://events.college.harvard.edu/event/225350-study-group-with-ambassador-chris-lu-when-politics"
     }
    ],
    "aliases": [
@@ -2763,16 +2763,16 @@
    "source_name": "Harvard Gazette calendar",
    "also_listed": [
     {
-     "source_name": "Harvard Kennedy School",
-     "url": "https://www.hks.harvard.edu/events/study-group-chris-whipple-breach-2024-kamala-harris-campaign"
-    },
-    {
      "source_name": "Forwarded: Next Week: New Study Groups & Special Guests!",
      "url": "https://iop.harvard.edu/events/study-group-chris-whipple-breach-2024-kamala-harris-campaign-sheila-nix"
     },
     {
      "source_name": "Forwarded: This Week at the IOP: Youth Vote and the Midterms; Networking Night; Steve Witko",
      "url": "https://iop.harvard.edu/events/study-group-chris-whipple-breach-2024-kamala-harris-campaign-sheila-nix"
+    },
+    {
+     "source_name": "Harvard Kennedy School",
+     "url": "https://www.hks.harvard.edu/events/study-group-chris-whipple-breach-2024-kamala-harris-campaign"
     },
     {
      "source_name": "Harvard College events",
@@ -2827,15 +2827,11 @@
   },
   {
    "id": "4c5fd558f58e",
-   "title": "Study Group with Sec. Alejandro Mayorkas: Homeland Security Issues in Congress",
-   "url": "https://www.hks.harvard.edu/events/study-group-sec-alejandro-mayorkas-homeland-security-issues-congress",
-   "source_id": "hks",
-   "source_name": "Harvard Kennedy School",
+   "title": "Study Group with the Honorable Alejandro Mayorkas: Homeland Security Issues in Congress and What’s Next with Jonathan Davidson",
+   "url": "https://iop.harvard.edu/events/study-group-honorable-alejandro-mayorkas-homeland-security-issues-congress-and-whats-next",
+   "source_id": "newsletter",
+   "source_name": "Forwarded: Next Week: New Study Groups & Special Guests!",
    "also_listed": [
-    {
-     "source_name": "Forwarded: Next Week: New Study Groups & Special Guests!",
-     "url": "https://iop.harvard.edu/events/study-group-honorable-alejandro-mayorkas-homeland-security-issues-congress-and-whats-next"
-    },
     {
      "source_name": "Forwarded: This Week at the IOP: Youth Vote and the Midterms; Networking Night; Steve Witko",
      "url": "https://iop.harvard.edu/events/study-group-honorable-alejandro-mayorkas-homeland-security-issues-congress-and-whats-next"
@@ -2843,6 +2839,10 @@
     {
      "source_name": "Harvard Gazette calendar",
      "url": "https://iop.harvard.edu/events/study-group-honorable-alejandro-mayorkas-homeland-security-issues-congress-and-whats-next-ft"
+    },
+    {
+     "source_name": "Harvard Kennedy School",
+     "url": "https://www.hks.harvard.edu/events/study-group-sec-alejandro-mayorkas-homeland-security-issues-congress"
     },
     {
      "source_name": "Harvard College events",
@@ -2863,12 +2863,12 @@
     "missing": []
    },
    "start": "2026-10-15T16:30:00-04:00",
-   "end": "2026-10-15T17:45:00-04:00",
+   "end": null,
    "date": "2026-10-15",
    "all_day": false,
    "location": "L-163",
    "online": false,
-   "host": "Institute of Politics (IOP)",
+   "host": "",
    "food": {
     "status": "none",
     "types": [],
@@ -2876,16 +2876,16 @@
    },
    "registration": {
     "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://iop.harvard.edu/events/study-group-honorable-alejandro-mayorkas-homeland-security-issues-congress-and-whats-next-ft"
+    "evidence": "Register Here",
+    "link": ""
    },
    "audience": {
     "level": "restricted",
-    "group": "HKS students",
-    "evidence": "Title: Study Group with Sec. Alejandro Mayorkas: Homeland Security Issues in Congress",
+    "group": "students",
+    "evidence": "Title: Study Group with the Honorable Alejandro Mayorkas: Homeland Security Issues in Congress and What’s Next with Jonathan Davidson",
     "basis": "inferred"
    },
-   "summary": "Study Group with the Honorable Alejandro Mayorkas: Homeland Security Issues in Congress and What’s Next ft. Jonathan Davidson Please join us for a Study Group with the Honorable Alejandro Mayorkas and Jonathan Davidson for a deep dive into Homeland Security policy. IN-PERSON GUEST: Jonathan Davidson, Former Chief of…",
+   "summary": "Thursday, October 15, 2026 Time: 4:30pm to 5:45pm EST Where: L-163 Meeting Method: In-Person Add to Calendar 2026-10-15 16:30:00 2026-10-15 17:45:00 Study Group with the Honorable Alejandro Mayorkas: Homeland Security Issues in Congress and What’s Next with Jonathan Davidson Please join us for a Study Group with the…",
    "blurb": "Please join us for a Study Group with the Honorable Alejandro Mayorkas and Jonathan Davidson for a deep dive into Homeland Security policy. These off-the-record conversations are open to members of the Harvard community.",
    "event_page": true,
    "notes": "",
@@ -2918,9 +2918,9 @@
     "evidence": ""
    },
    "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001kUTxIAM"
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
    },
    "audience": {
     "level": "unknown",
@@ -2989,17 +2989,12 @@
    "source_name": "Fairbank Center",
    "also_listed": [
     {
-     "source_name": "Suggested calendar: Fairbanks center",
-     "url": "https://fairbank.fas.harvard.edu/events/mapping-global-china-data-maps-and-stories-of-chinas-global-presence/"
-    },
-    {
      "source_name": "Harvard Gazette calendar",
      "url": "https://news.harvard.edu/gazette/harvard-events/events-calendar/?trumbaEmbed=view%3Devent%26eventid%3D210315279"
     }
    ],
    "aliases": [
-    "5a5a6316c8d6",
-    "8e7e9a4d73f7"
+    "5a5a6316c8d6"
    ],
    "suggested": null,
    "forwarded": null,
@@ -4364,9 +4359,9 @@
    "walk_min": 10
   },
   {
-   "id": "f6fdabe7d6a1",
+   "id": "ae566173370a",
    "title": "Development Policies in a World of Geoeconomic Fragmentation | Adnan Khan",
-   "url": "https://www.hks.harvard.edu/index%2ephp/events/who-shapes-global-economy-power-policy-and-development",
+   "url": "https://www.hks.harvard.edu/events/who-shapes-global-economy-power-policy-and-development",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -4377,34 +4372,34 @@
    "end": "2026-10-16T13:00:00-04:00",
    "date": "2026-10-16",
    "all_day": false,
-   "location": "",
+   "location": "Rubenstein 414-ab Democracy Lab",
    "online": false,
-   "host": "",
+   "host": "Harvard Center for International Development",
    "food": {
     "status": "none",
     "types": [],
     "evidence": ""
    },
    "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
+    "status": "required",
+    "evidence": "RSVP link on the event page",
+    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001hoSPIAY"
    },
    "audience": {
-    "level": "unknown",
+    "level": "public",
     "group": "",
-    "evidence": "",
-    "basis": "none"
+    "evidence": "All are welcome.",
+    "basis": "text"
    },
-   "summary": "",
-   "blurb": "",
+   "summary": "Join the Harvard Center for International Development for a conversation with Professor Adnan Khan, Professor of Public Policy and Co-Director of the Executive MPA/MPP Program at the London School of Economics and Political Science. With more than three decades of experience spanning government, academia, and…",
+   "blurb": "Join the Harvard Center for International Development for a conversation with Professor Adnan Khan, Professor of Public Policy and Co-Director of the Executive MPA/MPP Program at the London School of Economics and Political Science. With more than three…",
    "event_page": true,
    "notes": "",
-   "place_name": "Harvard Kennedy School",
-   "lat": 42.371989,
-   "lon": -71.121761,
-   "geo_method": "host",
-   "walk_min": 16
+   "place_name": "Rubenstein Building, Harvard Kennedy School",
+   "lat": 42.371243,
+   "lon": -71.122687,
+   "geo_method": "gazetteer",
+   "walk_min": 18
   },
   {
    "id": "0e075ec82523",
@@ -8497,9 +8492,9 @@
    "walk_min": 18
   },
   {
-   "id": "7c43565bc979",
+   "id": "5c1e5a0c4f96",
    "title": "Recent Developments in Energy and Nuclear Power in Japan",
-   "url": "https://www.hks.harvard.edu/index%2ephp/events/recent-developments-energy-and-nuclear-power-japan",
+   "url": "https://www.hks.harvard.edu/events/recent-developments-energy-and-nuclear-power-japan",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -8510,18 +8505,21 @@
    "end": "2026-10-19T13:15:00-04:00",
    "date": "2026-10-19",
    "all_day": false,
-   "location": "",
+   "location": "Rubenstein 414ab",
    "online": false,
-   "host": "",
+   "host": "Belfer Center for Science and International Affairs; Mossavar-Rahmani Center for Business and Government",
    "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
+    "status": "confirmed",
+    "types": [
+     "Lunch"
+    ],
+    "evidence": "Lunch will be served.",
+    "cue": "strong"
    },
    "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
+    "status": "required",
+    "evidence": "Registration: RSVP required.",
+    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001jjLNIAY"
    },
    "audience": {
     "level": "unknown",
@@ -8529,15 +8527,15 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "",
-   "blurb": "",
+   "summary": "In this Energy Policy Seminar, Hisashi Yoshikawa, Project Professor of the Institute for Future Initiatives at the University of Tokyo, and Nobuo Tanaka, Executive Director Emeritus of the International Energy Agency, will discuss emerging trends in Japan's energy system. Mr. Yoshikawa will set the context with a talk…",
+   "blurb": "In this Energy Policy Seminar, Hisashi Yoshikawa, Project Professor of the Institute for Future Initiatives at the University of Tokyo, and Nobuo Tanaka, Executive Director Emeritus of the International Energy Agency, will discuss emerging trends in Japan's…",
    "event_page": true,
    "notes": "",
-   "place_name": "Harvard Kennedy School",
-   "lat": 42.371989,
-   "lon": -71.121761,
-   "geo_method": "host",
-   "walk_min": 16
+   "place_name": "Rubenstein Building, Harvard Kennedy School",
+   "lat": 42.371243,
+   "lon": -71.122687,
+   "geo_method": "gazetteer",
+   "walk_min": 18
   },
   {
    "id": "885e3d19d003",
@@ -9161,17 +9159,17 @@
   {
    "id": "1cfb49d545ee",
    "title": "Democracy 250: The Impact of Sports on the History of Civil Rights in America",
-   "url": "https://www.hks.harvard.edu/index%2ephp/events/democracy-250-impact-sports-history-civil-rights-america",
-   "source_id": "hks",
-   "source_name": "Harvard Kennedy School",
+   "url": "https://ash.harvard.edu/events/democracy-250-the-impact-of-sports-on-the-history-of-civil-rights-in-america/",
+   "source_id": "ash",
+   "source_name": "Ash Center (HKS)",
    "also_listed": [
     {
-     "source_name": "Ash Center (HKS)",
-     "url": "https://ash.harvard.edu/events/democracy-250-the-impact-of-sports-on-the-history-of-civil-rights-in-america/"
+     "source_name": "Harvard Kennedy School",
+     "url": "https://www.hks.harvard.edu/events/democracy-250-impact-sports-history-civil-rights-america"
     }
    ],
    "aliases": [
-    "fbab40d14fa0"
+    "ccf1249ed4f2"
    ],
    "suggested": null,
    "forwarded": null,
@@ -9179,9 +9177,9 @@
    "end": "2026-10-19T14:15:00-04:00",
    "date": "2026-10-19",
    "all_day": false,
-   "location": "",
-   "online": false,
-   "host": "",
+   "location": "Zoom Webinar",
+   "online": true,
+   "host": "Ash Center for Democratic Governance",
    "food": {
     "status": "none",
     "types": [],
@@ -9198,15 +9196,15 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "",
-   "blurb": "Join the Ash Center for a thought-provoking discussion about the role of sports in advancing civil rights movements in the United States. Throughout U.S. history and into present day, sports have influenced the expansion — and at times contraction — of…",
+   "summary": "Join the Ash Center for a thought-provoking discussion about the role of sports in advancing civil rights movements in the United States. Throughout U.S. history and into present day, sports have influenced the expansion — and at times contraction — of support for civil rights and equality. Sports can provide an arena…",
+   "blurb": "Throughout U.S. history and into present day, sports have influenced the expansion — and at times contraction — of support for civil rights and equality. Sports can provide an arena for learning about people who are different from us, a platform for raising…",
    "event_page": true,
    "notes": "",
-   "place_name": "Harvard Kennedy School",
-   "lat": 42.371989,
-   "lon": -71.121761,
-   "geo_method": "host",
-   "walk_min": 16
+   "place_name": "",
+   "lat": null,
+   "lon": null,
+   "geo_method": null,
+   "walk_min": null
   },
   {
    "id": "68b471c986d7",
@@ -13682,19 +13680,17 @@
    "walk_min": 10
   },
   {
-   "id": "83e47f9c6d9a",
+   "id": "86b1288070e6",
    "title": "Crossing the Red Line: Biden, His Advisors, and Israel’s War in Gaza",
    "url": "https://hls.harvard.edu/events/crossing-the-red-line-biden-his-advisors-and-israels-war-in-gaza-2/",
    "source_id": "hls",
    "source_name": "Harvard Law School",
    "also_listed": [],
-   "aliases": [
-    "86b1288070e6"
-   ],
+   "aliases": [],
    "suggested": null,
    "forwarded": null,
    "start": "2026-10-21T12:30:00-04:00",
-   "end": "2026-10-21T13:30:00-04:00",
+   "end": "2026-10-21T13:15:00-04:00",
    "date": "2026-10-21",
    "all_day": false,
    "location": "Hauser Hall, 104 Lumbard Classroom, Harvard Law School",
@@ -13711,13 +13707,13 @@
     "link": ""
    },
    "audience": {
-    "level": "harvard",
-    "group": "",
-    "evidence": "HLS listing audience: All Harvard",
-    "basis": "listing"
+    "level": "restricted",
+    "group": "HLS students",
+    "evidence": "Run by an HLS student organization",
+    "basis": "inferred"
    },
    "summary": "Join us to hear from award-winning foreign affairs journalist Akbar Shahid Ahmed on his new book, Crossing the Red Line: Biden, His Advisors, and Israel’s War in Gaza. This book is an urgent reckoning with American complicity and participation in Israel’s unthinkable, horrifying atrocities in Gaza. Akbar will take us…",
-   "blurb": "Join us to hear from award-winning foreign affairs journalist Akbar Shahid Ahmed on his new book, “Crossing the Red Line: Biden, His Advisors, and Israel’s War in Gaza”. This book is an urgent reckoning with American complicity and participation in Israel’s…",
+   "blurb": "Join us to hear from award-winning foreign affairs journalist Akbar Shahid Ahmed on his new book, Crossing the Red Line: Biden, His Advisors, and Israel’s War in Gaza. This book is an urgent reckoning with American complicity and participation in Israel’s…",
    "event_page": true,
    "notes": "",
    "place_name": "Hauser Hall, Harvard Law School",
@@ -13859,15 +13855,15 @@
    "walk_min": 10
   },
   {
-   "id": "6c5400e01850",
+   "id": "25abe4456107",
    "title": "The Everywhere Millionaire: Who the Rich Are & What It Means for Economic Policy",
    "url": "https://www.hks.harvard.edu/events/everywhere-millionaire-who-rich-are-what-it-means-economic-policy",
-   "source_id": "gazette",
-   "source_name": "Harvard Gazette calendar",
+   "source_id": "hks",
+   "source_name": "Harvard Kennedy School",
    "also_listed": [
     {
-     "source_name": "Harvard Kennedy School",
-     "url": "https://www.hks.harvard.edu/index%2ephp/events/everywhere-millionaire-who-rich-are-what-it-means-economic-policy"
+     "source_name": "Harvard Gazette calendar",
+     "url": "https://www.hks.harvard.edu/events/everywhere-millionaire-who-rich-are-what-it-means-economic-policy"
     }
    ],
    "aliases": [
@@ -13879,18 +13875,21 @@
    "end": "2026-10-21T13:30:00-04:00",
    "date": "2026-10-21",
    "all_day": false,
-   "location": "Malkin Penthouse (Harvard Kennedy School), 79 John F. Kennedy St., Cambridge",
+   "location": "Malkin Penthouse + Zoom",
    "online": false,
-   "host": "Mossvar-Rahmani Center for Business & Government at Harvard Kennedy School",
+   "host": "Mossavar-Rahmani Center for Business and Government",
    "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
+    "status": "confirmed",
+    "types": [
+     "Lunch"
+    ],
+    "evidence": "Lunch will be served.",
+    "cue": "strong"
    },
    "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
+    "status": "required",
+    "evidence": "RSVP link on the event page",
+    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001kmaXIAQ"
    },
    "audience": {
     "level": "unknown",
@@ -13901,7 +13900,7 @@
    "summary": "Drawing on a decade of research with administrative tax data and their new book, Owen Zidar, Professor of Economics and Public Affairs at Princeton University, and Eric Zwick, Joel F. Gemunder Professor of Economics and Finance at the University of Chicago Booth School of Business, will discuss how private business…",
    "blurb": "Drawing on a decade of research with administrative tax data and their new book, Owen Zidar, Professor of Economics and Public Affairs at Princeton University, and Eric Zwick, Joel F. Gemunder Professor of Economics and Finance at the University of Chicago…",
    "event_page": true,
-   "notes": "Harvard Key required: No",
+   "notes": "",
    "place_name": "Littauer Building, Harvard Kennedy School",
    "lat": 42.371045,
    "lon": -71.12209,
@@ -13963,47 +13962,57 @@
    "walk_min": 7
   },
   {
-   "id": "f761737e70b9",
-   "title": "Fall Study Group: How Should Democracies Govern Scarce, Life-Saving Resources? The Case of Organ Transplantation",
-   "url": "https://ash.harvard.edu/events/fall-study-group-how-should-democracies-govern-scarce-life-saving-resources-the-case-of-organ-transplantation-october-14/",
-   "source_id": "ash",
-   "source_name": "Ash Center (HKS)",
-   "also_listed": [],
-   "aliases": [],
+   "id": "008eebdd8936",
+   "title": "How Should Democracies Govern Scarce, Life-Saving Resources?",
+   "url": "https://www.hks.harvard.edu/events/how-should-democracies-govern-scarce-life-saving-resources",
+   "source_id": "hks",
+   "source_name": "Harvard Kennedy School",
+   "also_listed": [
+    {
+     "source_name": "Ash Center (HKS)",
+     "url": "https://ash.harvard.edu/events/fall-study-group-how-should-democracies-govern-scarce-life-saving-resources-the-case-of-organ-transplantation-october-14/"
+    }
+   ],
+   "aliases": [
+    "f761737e70b9"
+   ],
    "suggested": null,
    "forwarded": null,
    "start": "2026-10-21T14:00:00-04:00",
    "end": "2026-10-21T15:00:00-04:00",
    "date": "2026-10-21",
    "all_day": false,
-   "location": "Harvard Kennedy School",
+   "location": "Ash Center Seminar Room 225, Suite 200, 124 Mount Auburn Street",
    "online": false,
-   "host": "Ash Center for Democratic Governance",
+   "host": "Ash Center for Democratic Governance and Innovation",
    "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
+    "status": "confirmed",
+    "types": [
+     "Food"
+    ],
+    "evidence": "Light catering will be provided.",
+    "cue": "strong"
    },
    "registration": {
     "status": "required",
-    "evidence": "Please register here.",
+    "evidence": "Register here: https://harvard.az1.qualtrics.com/jfe/form/SV_5cHLizAnkR7Cpts",
     "link": "https://harvard.az1.qualtrics.com/jfe/form/SV_5cHLizAnkR7Cpts"
    },
    "audience": {
-    "level": "restricted",
-    "group": "students",
-    "evidence": "Title: Fall Study Group: How Should Democracies Govern Scarce, Life-Saving Resources? The Case of Organ Transplantation",
-    "basis": "inferred"
+    "level": "harvard",
+    "group": "",
+    "evidence": "This Study Group is open to HUID holders only.",
+    "basis": "text"
    },
-   "summary": "This in-person study group led by Aditya Pawar, Ash Center Democracy Visiting Fellow, and Santiago Creuheras, Ash Center Democracy Visiting Fellow, will take place throughout six sessions. Nearly 110,000 people are currently on the U.S. transplant waiting list, and about 12 people die each day while waiting for an…",
+   "summary": "Fall Study Group: How Should Democracies Govern Scarce, Life-Saving Resources? The Case of Organ Transplantation Nearly 110,000 people are currently on the U.S. transplant waiting list, and about 12 people die each day while waiting for an organ. Although a donated organ can save a life, not everyone who needs a…",
    "blurb": "Nearly 110,000 people are currently on the U.S. transplant waiting list, and about 12 people die each day while waiting for an organ. This study group will examine transplantation as a governance and democracy issue, asking how institutions allocate scarce…",
    "event_page": true,
    "notes": "",
-   "place_name": "Harvard Kennedy School",
-   "lat": 42.371989,
-   "lon": -71.121761,
+   "place_name": "Ash Center (124 Mt Auburn St)",
+   "lat": 42.372952,
+   "lon": -71.123759,
    "geo_method": "gazetteer",
-   "walk_min": 16
+   "walk_min": 17
   },
   {
    "id": "ad6b79dc718b",
@@ -14092,6 +14101,49 @@
    "lon": -71.119421,
    "geo_method": "gazetteer",
    "walk_min": 10
+  },
+  {
+   "id": "ccb932d79eb6",
+   "title": "Ambassador Kelly Craft: War by Design: Mapping Conflict & Strategic Forecasting",
+   "url": "https://www.hks.harvard.edu/events/ambassador-kelly-craft-war-design-mapping-conflict-strategic-forecasting",
+   "source_id": "hks",
+   "source_name": "Harvard Kennedy School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-10-21T16:00:00-04:00",
+   "end": "2026-10-21T17:15:00-04:00",
+   "date": "2026-10-21",
+   "all_day": false,
+   "location": "L-166",
+   "online": false,
+   "host": "Institute of Politics (IOP)",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "RSVP link on the event page",
+    "link": "https://iop.harvard.edu/events/study-group-ambassador-kelly-craft-war-design-mapping-conflict-and-strategic-forecasting"
+   },
+   "audience": {
+    "level": "harvard",
+    "group": "",
+    "evidence": "These off-the-record conversations are open to members of the Harvard community.",
+    "basis": "text"
+   },
+   "summary": "How do we make sense of wars as they unfold—and anticipate how they might end? Kim Kagan, President and Founder of the Institute for the Study of War and Fred Kagan, Director of the Critical Threats Project at the American Enterprise Institute, explore how conflict mapping and war games help military strategists…",
+   "blurb": "How do we make sense of wars as they unfold—and anticipate how they might end? explore how conflict mapping and war games help military strategists visualize the battlefield, test competing scenarios, and understand the decisions that can shape the course of…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Littauer Building, Harvard Kennedy School",
+   "lat": 42.371045,
+   "lon": -71.12209,
+   "geo_method": "gazetteer",
+   "walk_min": 18
   },
   {
    "id": "25c09983650b",
@@ -16902,6 +16954,49 @@
    "walk_min": 5
   },
   {
+   "id": "dd155cb79414",
+   "title": "Study Group with Hon Alejandro Mayorkas: Terrorism & the Evolution of the Threat",
+   "url": "https://www.hks.harvard.edu/events/study-group-hon-alejandro-mayorkas-terrorism-evolution-threat",
+   "source_id": "hks",
+   "source_name": "Harvard Kennedy School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-10-22T16:30:00-04:00",
+   "end": "2026-10-22T17:45:00-04:00",
+   "date": "2026-10-22",
+   "all_day": false,
+   "location": "L-163",
+   "online": false,
+   "host": "Institute of Politics (IOP)",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "RSVP link on the event page",
+    "link": "https://iop.harvard.edu/events/study-group-honorable-alejandro-mayorkas-terrorism-and-evolution-threat-foreign-terrorist"
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "HKS students",
+    "evidence": "Title: Study Group with Hon Alejandro Mayorkas: Terrorism & the Evolution of the Threat",
+    "basis": "inferred"
+   },
+   "summary": "When the Department of Homeland Security was created in 2003, the threat of terrorism was presented predominantly by the foreign individual or group of individuals with allegiance to a terrorist group and who sought to enter the United States to do us grave harm. That threat has persisted, but over the past more than…",
+   "blurb": "When the Department of Homeland Security was created in 2003, the threat of terrorism was presented predominantly by the foreign individual or group of individuals with allegiance to a terrorist group and who sought to enter the United States to do us grave…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Littauer Building, Harvard Kennedy School",
+   "lat": 42.371045,
+   "lon": -71.12209,
+   "geo_method": "gazetteer",
+   "walk_min": 18
+  },
+  {
    "id": "955c9922cc66",
    "title": "Countway Longwood Author Series: \"To Arrive Where We Started\" by Ian Marcus Corbin",
    "url": "https://countway.info/arrive",
@@ -18025,7 +18120,7 @@
   {
    "id": 4,
    "state": "scanned",
-   "label": "Scanned at every update: 29 events found, 2 with food this week",
+   "label": "Scanned at every update: 28 events found, 2 with food this week",
    "n_food": 2
   }
  ],
