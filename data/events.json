@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T15:37:50-04:00",
+ "generated_at": "2026-10-16T20:32:29-04:00",
  "window": {
   "start": "2026-10-16",
   "end": "2026-10-23"
@@ -32,7 +32,7 @@
    "error": null,
    "n_events": 51,
    "n_food": 11,
-   "seconds": 13.8
+   "seconds": 6.6
   },
   {
    "id": "hls",
@@ -40,9 +40,9 @@
    "homepage": "https://hls.harvard.edu/calendar/",
    "ok": true,
    "error": null,
-   "n_events": 83,
-   "n_food": 47,
-   "seconds": 12.8
+   "n_events": 87,
+   "n_food": 48,
+   "seconds": 9.7
   },
   {
    "id": "college",
@@ -50,9 +50,9 @@
    "homepage": "https://events.college.harvard.edu/",
    "ok": true,
    "error": null,
-   "n_events": 92,
-   "n_food": 10,
-   "seconds": 0.6
+   "n_events": 100,
+   "n_food": 11,
+   "seconds": 0.5
   },
   {
    "id": "ash",
@@ -62,7 +62,7 @@
    "error": null,
    "n_events": 3,
    "n_food": 1,
-   "seconds": 1.9
+   "seconds": 2.1
   },
   {
    "id": "shorenstein",
@@ -72,7 +72,7 @@
    "error": null,
    "n_events": 2,
    "n_food": 0,
-   "seconds": 8.4
+   "seconds": 9.8
   },
   {
    "id": "fairbank",
@@ -82,7 +82,7 @@
    "error": null,
    "n_events": 6,
    "n_food": 1,
-   "seconds": 0.2
+   "seconds": 0.1
   },
   {
    "id": "newsletter",
@@ -92,7 +92,7 @@
    "error": null,
    "n_events": 53,
    "n_food": 11,
-   "seconds": 187.3
+   "seconds": 59.3
   },
   {
    "id": "suggested",
@@ -102,17 +102,17 @@
    "error": null,
    "n_events": 9,
    "n_food": 2,
-   "seconds": 6.5
+   "seconds": 5.3
   }
  ],
  "stats": {
-  "events": 364,
+  "events": 367,
   "food_confirmed": 56,
   "food_likely": 20,
   "forwarded": 22,
   "forwarded_listed": 12,
   "food_restricted": 48,
-  "seconds": 197.5
+  "seconds": 68.4
  },
  "events": [
   {
@@ -1495,9 +1495,9 @@
     "evidence": ""
    },
    "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://hks-harvard-csm.symplicity.com/students/?s=event&ss=is&mode=form&id=64ede4688c9161f0f08f5310d9fc3f66"
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
    },
    "audience": {
     "level": "unknown",
@@ -5062,6 +5062,10 @@
    "source_name": "Harvard Gazette calendar",
    "also_listed": [
     {
+     "source_name": "Harvard Kennedy School",
+     "url": "https://www.hks.harvard.edu/events/inside-money-and-power-washington-josh-dawsey"
+    },
+    {
      "source_name": "Harvard College events",
      "url": "https://events.college.harvard.edu/event/225434-inside-the-money-and-power-of-washington-with-josh"
     },
@@ -5075,6 +5079,7 @@
     }
    ],
    "aliases": [
+    "87b034aaa3fe",
     "bd8ad824c999",
     "c30bea26b9c8",
     "c30bea26b9c8",
@@ -5218,9 +5223,7 @@
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
-   "aliases": [
-    "2a87112b359c"
-   ],
+   "aliases": [],
    "suggested": null,
    "forwarded": null,
    "start": "2026-10-19T12:00:00-04:00",
@@ -6100,13 +6103,20 @@
    "walk_min": null
   },
   {
-   "id": "78df87e9fd5f",
+   "id": "32bde9e9f7ad",
    "title": "Study Group with Ambassador Nathalie Rayes: Leading with Conviction",
    "url": "https://www.hks.harvard.edu/events/study-group-ambassador-nathalie-rayes-leading-conviction",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
-   "also_listed": [],
-   "aliases": [],
+   "also_listed": [
+    {
+     "source_name": "Harvard College events",
+     "url": "https://events.college.harvard.edu/event/225757-study-group-with-ambassador-nathalie-rayes-leading"
+    }
+   ],
+   "aliases": [
+    "78df87e9fd5f"
+   ],
    "suggested": null,
    "forwarded": null,
    "start": "2026-10-19T16:00:00-04:00",
@@ -6133,7 +6143,7 @@
     "basis": "inferred"
    },
    "summary": "What does it take to stand by your principles when the stakes are highest? Join Ambassador Nathalie Rayes for a conversation with Governor David Beasley, former Governor of South Carolina and former Executive Director of the Nobel Peace Prize-winning United Nations World Food Programme. From American politics to…",
-   "blurb": "What does it take to stand by your principles when the stakes are highest? Join Ambassador Nathalie Rayes for a conversation with Governor David Beasley, former Governor of South Carolina and former Executive Director of the Nobel Peace Prize-winning United…",
+   "blurb": "Join Ambassador Nathalie Rayes for a conversation with Governor David Beasley, former Governor of South Carolina and former Executive Director of the Nobel Peace Prize-winning United Nations World Food Programme. From American politics to global humanitarian…",
    "event_page": true,
    "notes": "",
    "place_name": "Littauer Building, Harvard Kennedy School",
@@ -6148,8 +6158,15 @@
    "url": "https://www.hks.harvard.edu/events/amb-chris-lu-study-group-ready-day-one-planning-presidential-transition",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
-   "also_listed": [],
-   "aliases": [],
+   "also_listed": [
+    {
+     "source_name": "Harvard College events",
+     "url": "https://events.college.harvard.edu/event/225759-study-group-with-ambassador-chris-lu-ready-on-day"
+    }
+   ],
+   "aliases": [
+    "f0df5cd6bbd9"
+   ],
    "suggested": null,
    "forwarded": null,
    "start": "2026-10-19T16:30:00-04:00",
@@ -8201,9 +8218,9 @@
    "walk_min": 10
   },
   {
-   "id": "8122af40b8b6",
+   "id": "f2abc89690f1",
    "title": "Rehearsing the Future: Design and the Art of the Possible",
-   "url": "https://www.hks.harvard.edu/index%2ephp/events/rehearsing-future-design-and-art-possible",
+   "url": "https://www.hks.harvard.edu/events/rehearsing-future-design-and-art-possible",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -8214,9 +8231,9 @@
    "end": "2026-10-20T16:30:00-04:00",
    "date": "2026-10-20",
    "all_day": false,
-   "location": "",
+   "location": "Littauer L-130 Bolton",
    "online": false,
-   "host": "",
+   "host": "Center for Public Leadership",
    "food": {
     "status": "none",
     "types": [],
@@ -8233,15 +8250,15 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "",
-   "blurb": "",
+   "summary": "At HKS, we often ask how to govern and manage the public sector. The HKS Culture and Civil Society Initiative asks a prior question: how does culture upstream of politics shape the public sector and influence what we see as possible? During this 1 hour session, Design Studio for Social Intervention (DS4SI) co-founders…",
+   "blurb": "we often ask how to govern and manage the public sector. The HKS Culture and Civil Society Initiative asks a prior question: how does culture upstream of politics shape the public sector and influence what we see as possible? During this 1 hour session…",
    "event_page": true,
    "notes": "",
-   "place_name": "Harvard Kennedy School",
-   "lat": 42.371989,
-   "lon": -71.121761,
-   "geo_method": "host",
-   "walk_min": 16
+   "place_name": "Littauer Building, Harvard Kennedy School",
+   "lat": 42.371045,
+   "lon": -71.12209,
+   "geo_method": "gazetteer",
+   "walk_min": 18
   },
   {
    "id": "4b19fdf19733",
@@ -8249,8 +8266,15 @@
    "url": "https://www.hks.harvard.edu/events/chris-whipple-study-group-2028-presidential-election-mark-mckinnon",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
-   "also_listed": [],
-   "aliases": [],
+   "also_listed": [
+    {
+     "source_name": "Harvard College events",
+     "url": "https://events.college.harvard.edu/event/225761-study-group-with-chris-whipple-all-the-presidents"
+    }
+   ],
+   "aliases": [
+    "b40a4e0f1c55"
+   ],
    "suggested": null,
    "forwarded": null,
    "start": "2026-10-20T16:30:00-04:00",
@@ -8285,6 +8309,49 @@
    "lon": -71.12209,
    "geo_method": "gazetteer",
    "walk_min": 18
+  },
+  {
+   "id": "8f18a1647741",
+   "title": "JOLT Fireside Chat: From BigLaw to the FTC – Charting a Career in Privacy Enforcement",
+   "url": "https://hls.harvard.edu/events/jolt-fireside-chat-from-biglaw-to-the-ftc-charting-a-career-in-privacy-enforcement/",
+   "source_id": "hls",
+   "source_name": "Harvard Law School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-10-20T17:00:00-04:00",
+   "end": "2026-10-20T18:00:00-04:00",
+   "date": "2026-10-20",
+   "all_day": false,
+   "location": "WCC, 1019 Classroom, Harvard Law School",
+   "online": false,
+   "host": "Journal of Law & Technology",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "HLS students (recruiting event)",
+    "evidence": "Title: JOLT Fireside Chat: From BigLaw to the FTC – Charting a Career in Privacy Enforcement",
+    "basis": "inferred"
+   },
+   "summary": "Join us at JOLT for a moderated fireside chat and Q&A with Cosmas Robless (HLS’ 23) from the FTC’s Division of Privacy and Identity Protection! We’ll be breaking down: Front-Line Enforcement: Investigating and prosecuting privacy and information security violations under Section 5 of the FTC Act. Online Safety &…",
+   "blurb": "Join us at JOLT for a moderated fireside chat and Q&A with Cosmas Robless (HLS’ 23) from the FTC’s Division of Privacy and Identity Protection! Front-Line Enforcement: Investigating and prosecuting privacy and information security violations under Section 5…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Wasserstein Hall (WCC), Harvard Law School",
+   "lat": 42.379383,
+   "lon": -71.119421,
+   "geo_method": "gazetteer",
+   "walk_min": 10
   },
   {
    "id": "a58aca590743",
@@ -8328,6 +8395,49 @@
    "lon": null,
    "geo_method": null,
    "walk_min": null
+  },
+  {
+   "id": "735d1250f59c",
+   "title": "ILJ Make-up Subcite",
+   "url": "https://hls.harvard.edu/events/ilj-make-up-subcite/",
+   "source_id": "hls",
+   "source_name": "Harvard Law School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-10-20T17:45:00-04:00",
+   "end": "2026-10-20T21:15:00-04:00",
+   "date": "2026-10-20",
+   "all_day": false,
+   "location": "WCC, 2004 Classroom, Harvard Law School",
+   "online": false,
+   "host": "International Law Journal",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "HLS students",
+    "evidence": "HLS listing audience: All HLS students only",
+    "basis": "listing"
+   },
+   "summary": "Come join the make-up subcite for the International Law Journal! Subciting is an easy way to engage with the ILJ community, and is a requirement to join the masthead for Volume 68(1). Add to Calendar October 20, 2026, 5:45 pm - 9:15 pm +Google Calendar +iCal/Outlook",
+   "blurb": "Come join the make-up subcite for the International Law Journal! Subciting is an easy way to engage with the ILJ community, and is a requirement to join the masthead for Volume 68(1).",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Wasserstein Hall (WCC), Harvard Law School",
+   "lat": 42.379383,
+   "lon": -71.119421,
+   "geo_method": "gazetteer",
+   "walk_min": 10
   },
   {
    "id": "a4763ebc2c94",
@@ -9460,6 +9570,49 @@
    "walk_min": 37
   },
   {
+   "id": "15534b4a6496",
+   "title": "Conversation with Justice Mahmud Jamal of the Supreme Court of Canada",
+   "url": "https://hls.harvard.edu/events/conversation-with-justice-mahmud-jamal-of-the-supreme-court-of-canada/",
+   "source_id": "hls",
+   "source_name": "Harvard Law School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-10-21T10:00:00-04:00",
+   "end": "2026-10-21T12:00:00-04:00",
+   "date": "2026-10-21",
+   "all_day": false,
+   "location": "WCC, 2009 Classroom, Harvard Law School",
+   "online": false,
+   "host": "Canadian Law Students Association",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "Seating is limited; please complete the registration form by Sunday, October 18 to express your interest.",
+    "link": "http://www.google.com/calendar/event?action=TEMPLATE&text=Conversation%20with%20Justice%20Mahmud%20Jamal%20of%20the%20Supreme%20Court%20of%20Canada&dates=20261021T140000Z/20261021T160000Z&details=Join%20Justice%20Mahmud%20Jamal%20of%20the%20Supreme%20Court%20of%20Canada%20for%20an%20off-the-record%20conversation%20with%20Tiran%20Rahimian%20Bajgiran%20(S.J.D.)%20and%20Jessica%20Keer%20Li%20(LL.M.),%20followed%20by%20audience%20questions.%20The%20event%20is%20open%20to%20members%20of%20the%20Harvard%20community.%20Seating%20is%20limited;%20please%20complete%20the%20registration%20form%20by%20Sunday,%20October%2018%20to%20express%20your%20interest.%20We%20%5B%E2%80%A6%5D&sprop=Harvard%20Law%20School&location=WCC;%202009%20Classroom,%20,%20,%20,%20,%20"
+   },
+   "audience": {
+    "level": "harvard",
+    "group": "",
+    "evidence": "HLS listing audience: All Harvard",
+    "basis": "listing"
+   },
+   "summary": "Join Justice Mahmud Jamal of the Supreme Court of Canada for an off-the-record conversation with Tiran Rahimian Bajgiran (S.J.D.) and Jessica Keer Li (LL.M.), followed by audience questions. The event is open to members of the Harvard community. Seating is limited; please complete the registration form by Sunday,…",
+   "blurb": "Join Justice Mahmud Jamal of the Supreme Court of Canada for an off-the-record conversation with Tiran Rahimian Bajgiran (S.J.D.) and Jessica Keer Li (LL.M.), followed by audience questions. The event is open to members of the Harvard community. We will…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Wasserstein Hall (WCC), Harvard Law School",
+   "lat": 42.379383,
+   "lon": -71.119421,
+   "geo_method": "gazetteer",
+   "walk_min": 10
+  },
+  {
    "id": "605f704e95c9",
    "title": "Harvard and the American Revolution",
    "url": "https://library.harvard.edu/exhibits/harvard-and-american-revolution",
@@ -9906,13 +10059,20 @@
    "walk_min": 5
   },
   {
-   "id": "668b3f7e7793",
+   "id": "44f4d31d0be8",
    "title": "The Art of Diplomacy in Uncertain Times with Ambassador Ángeles Moreno Bau",
    "url": "https://www.hks.harvard.edu/events/art-diplomacy-uncertain-times-ambassador-angeles-moreno-bau",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
-   "also_listed": [],
-   "aliases": [],
+   "also_listed": [
+    {
+     "source_name": "Harvard College events",
+     "url": "https://events.college.harvard.edu/event/225776-the-art-of-diplomacy-in-uncertain-times-with"
+    }
+   ],
+   "aliases": [
+    "668b3f7e7793"
+   ],
    "suggested": null,
    "forwarded": null,
    "start": "2026-10-21T12:00:00-04:00",
@@ -10561,11 +10721,12 @@
    "also_listed": [
     {
      "source_name": "Harvard Law School",
-     "url": "https://hls.harvard.edu/events/community-lunch/"
+     "url": "https://hls.harvard.edu/events/lunch-with-justice-jamal/"
     }
    ],
    "aliases": [
     "462ea1e368b6",
+    "a81c39e5da16",
     "f97d0ae05d5a"
    ],
    "suggested": null,
@@ -10587,8 +10748,8 @@
    },
    "registration": {
     "status": "required",
-    "evidence": "All are welcome to register for the OFA Dance Program’s Fall 2026 Community Courses which starts September 2!",
-    "link": "https://ofa.fas.harvard.edu/dance-program-community-classes"
+    "evidence": "Seating is limited; please complete the registration form by Sunday, October 18 to express your interest.",
+    "link": "http://www.google.com/calendar/event?action=TEMPLATE&text=Lunch%20with%20Justice%20Jamal&dates=20261021T163000Z/20261021T183000Z&details=Join%20Justice%20Mahmud%20Jamal%20of%20the%20Supreme%20Court%20of%20Canada%20for%20an%20off-the-record%20conversation%20with%20Tiran%20Rahimian%20Bajgiran%20(S.J.D.)%20and%20Jessica%20Keer%20Li%20(LL.M.),%20followed%20by%20audience%20questions.%20The%20event%20is%20open%20to%20members%20of%20the%20Harvard%20community.%20Seating%20is%20limited;%20please%20complete%20the%20registration%20form%20by%20Sunday,%20October%2018%20to%20express%20your%20interest.%20We%20%5B%E2%80%A6%5D&sprop=Harvard%20Law%20School&location=WCC;%205048%20Room,%20,%20,%20,%20,%20"
    },
    "audience": {
     "level": "restricted",
@@ -10748,13 +10909,20 @@
    "walk_min": 10
   },
   {
-   "id": "ccb932d79eb6",
+   "id": "1a089cf1ebcf",
    "title": "Ambassador Kelly Craft: War by Design: Mapping Conflict & Strategic Forecasting",
    "url": "https://www.hks.harvard.edu/events/ambassador-kelly-craft-war-design-mapping-conflict-strategic-forecasting",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
-   "also_listed": [],
-   "aliases": [],
+   "also_listed": [
+    {
+     "source_name": "Harvard College events",
+     "url": "https://events.college.harvard.edu/event/225763-study-group-with-ambassador-kelly-craft-war-by"
+    }
+   ],
+   "aliases": [
+    "ccb932d79eb6"
+   ],
    "suggested": null,
    "forwarded": null,
    "start": "2026-10-21T16:00:00-04:00",
@@ -10970,13 +11138,20 @@
    "walk_min": 10
   },
   {
-   "id": "64b99f184690",
+   "id": "3254cafe4e2f",
    "title": "Study Group with Governor Doug Ducey: Leading & Governing with Daniel Scarpinato",
    "url": "https://www.hks.harvard.edu/events/study-group-governor-doug-ducey-leading-governing-daniel-scarpinato",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
-   "also_listed": [],
-   "aliases": [],
+   "also_listed": [
+    {
+     "source_name": "Harvard College events",
+     "url": "https://events.college.harvard.edu/event/225765-study-group-with-governor-doug-ducey-leading-amp"
+    }
+   ],
+   "aliases": [
+    "64b99f184690"
+   ],
    "suggested": null,
    "forwarded": null,
    "start": "2026-10-21T16:30:00-04:00",
@@ -13463,13 +13638,20 @@
    "walk_min": 4
   },
   {
-   "id": "97189485a5c8",
+   "id": "1007fac84135",
    "title": "Amb Kelly Craft: Case for Disagreement: Beyond Identity & Ideological Conformity",
    "url": "https://www.hks.harvard.edu/events/amb-kelly-craft-case-disagreement-beyond-identity-ideological-conformity",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
-   "also_listed": [],
-   "aliases": [],
+   "also_listed": [
+    {
+     "source_name": "Harvard College events",
+     "url": "https://events.college.harvard.edu/event/225767-study-group-with-ambassador-kelly-craft-the-case"
+    }
+   ],
+   "aliases": [
+    "97189485a5c8"
+   ],
    "suggested": null,
    "forwarded": null,
    "start": "2026-10-22T16:00:00-04:00",
@@ -13737,13 +13919,20 @@
    "walk_min": 5
   },
   {
-   "id": "dd155cb79414",
+   "id": "47f0288a5bed",
    "title": "Study Group with Hon Alejandro Mayorkas: Terrorism & the Evolution of the Threat",
    "url": "https://www.hks.harvard.edu/events/study-group-hon-alejandro-mayorkas-terrorism-evolution-threat",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
-   "also_listed": [],
-   "aliases": [],
+   "also_listed": [
+    {
+     "source_name": "Harvard College events",
+     "url": "https://events.college.harvard.edu/event/225769-study-group-with-the-honorable-alejandro-mayorkas"
+    }
+   ],
+   "aliases": [
+    "dd155cb79414"
+   ],
    "suggested": null,
    "forwarded": null,
    "start": "2026-10-22T16:30:00-04:00",
@@ -15916,7 +16105,7 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "Monday, October 26, 2026 Time: 6:00pm EST Where: JFK Jr. Forum, 79 John F. Kennedy St., Cambridge, MA 02138 Meeting Method: Hybrid Add to Calendar 2026-10-26 18:00:00 2026-10-16 05:49:24 The Diplomat: On Screen and in the World with Keri Russell, Debora Cahn, & Amb. Samantha Power <p><em><strong>Please note this Forum…",
+   "summary": "Monday, October 26, 2026 Time: 6:00pm EST Where: JFK Jr. Forum, 79 John F. Kennedy St., Cambridge, MA 02138 Meeting Method: Hybrid Add to Calendar 2026-10-26 18:00:00 2026-10-16 16:42:30 The Diplomat: On Screen and in the World with Keri Russell, Debora Cahn, & Amb. Samantha Power <p><em><strong>Please note this Forum…",
    "blurb": "",
    "event_page": true,
    "notes": "",
@@ -16065,7 +16254,7 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "Wednesday, October 28, 2026 Time: 6:00pm EST Where: Harvard Law School, Wasserstein Hall, Milstein East | 1585 Massachusetts Avenue, Cambridge, MA Meeting Method: Hybrid Add to Calendar 2026-10-28 18:00:00 2026-10-16 10:55:04 America at 250 and Beyond: Constitutionalism and the Rule of Law Join the Harvard Kennedy…",
+   "summary": "Wednesday, October 28, 2026 Time: 6:00pm EST Where: Harvard Law School, Wasserstein Hall, Milstein East | 1585 Massachusetts Avenue, Cambridge, MA Meeting Method: Hybrid Add to Calendar 2026-10-28 18:00:00 2026-10-16 17:12:55 America at 250 and Beyond: Constitutionalism and the Rule of Law Join the Harvard Kennedy…",
    "blurb": "the fourth and final installment of the IOP's year-long series, The Consent of the Governed: America at 250 and Beyond, observing America’s semiquincentennial. Moderated by Pulitzer Prize-winning historian and professor Jill Lepore, this panel discussion will…",
    "event_page": true,
    "notes": "",
@@ -16076,20 +16265,20 @@
    "walk_min": 10
   },
   {
-   "id": "5b6328ed0613",
-   "title": "Gender Apartheid: Power and Oppression in Afghanistan with Metra Mehran, Sima Samar, & Fatema Z. Sumar",
-   "url": "https://iop.harvard.edu/events/gender-apartheid-power-and-oppression-afghanistan-metra-mehran-sima-samar-fatema-z-sumar",
+   "id": "65821cddbabc",
+   "title": "Gender Apartheid: Power and Oppression in Afghanistan with Metra Mehran, Sima Samar, & Mathias Risse",
+   "url": "https://iop.harvard.edu/events/gender-apartheid-power-and-oppression-afghanistan-metra-mehran-sima-samar-mathias-risse",
    "source_id": "newsletter",
    "source_name": "Forwarded: This Week at the IOP: Youth Vote and the Midterms; Networking Night; Steve Witko",
    "also_listed": [
     {
      "source_name": "Forwarded: JFK Jr. Forum: Jake Sullivan & Michael Anton Debate; Uzo Aduba & Joe Locke on Po",
-     "url": "https://iop.harvard.edu/events/gender-apartheid-power-and-oppression-afghanistan-metra-mehran-sima-samar-fatema-z-sumar"
+     "url": "https://iop.harvard.edu/events/gender-apartheid-power-and-oppression-afghanistan-metra-mehran-sima-samar-mathias-risse"
     }
    ],
    "aliases": [
-    "5b6328ed0613",
-    "5b6328ed0613"
+    "65821cddbabc",
+    "65821cddbabc"
    ],
    "suggested": null,
    "forwarded": {
@@ -16120,7 +16309,7 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "Wednesday, October 28, 2026 Time: 6:00pm EST Where: JFK Jr. Forum, 79 John F. Kennedy St., Cambridge, MA 02138 Meeting Method: Hybrid Add to Calendar 2026-10-28 18:00:00 2026-10-16 06:03:58 Gender Apartheid: Power and Oppression in Afghanistan with Metra Mehran, Sima Samar, & Fatema Z. Sumar Our panel of experts will…",
+   "summary": "Wednesday, October 28, 2026 Time: 6:00pm EST Where: JFK Jr. Forum, 79 John F. Kennedy St., Cambridge, MA 02138 Meeting Method: Hybrid Add to Calendar 2026-10-28 18:00:00 2026-10-16 16:42:08 Gender Apartheid: Power and Oppression in Afghanistan with Metra Mehran, Sima Samar, & Mathias Risse Our panel of experts will…",
    "blurb": "Our panel of experts will unpack the state of women’s and girls’ rights in Afghanistan under Taliban rule, including restrictions on education, employment, freedom of movement, political participation, and public life. In partnership with the Women and Public…",
    "event_page": true,
    "notes": "",
@@ -16318,7 +16507,7 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "Monday, November 2, 2026 Time: 6:00pm EST Where: JFK Jr. Forum, 79 John F. Kennedy St., Cambridge, MA 02138 Meeting Method: Hybrid Add to Calendar 2026-11-02 18:00:00 2026-10-16 07:01:21 Reconciling Credibility and Radicalism in an Age of Populism with Rachel Reeves Rachel Reeves served as Chancellor of the Exchequer…",
+   "summary": "Monday, November 2, 2026 Time: 6:00pm EST Where: JFK Jr. Forum, 79 John F. Kennedy St., Cambridge, MA 02138 Meeting Method: Hybrid Add to Calendar 2026-11-02 18:00:00 2026-10-16 16:42:45 Reconciling Credibility and Radicalism in an Age of Populism with Rachel Reeves Rachel Reeves served as Chancellor of the Exchequer…",
    "blurb": "Rachel Reeves served as Chancellor of the Exchequer from July 2024 to July 2026, making history as the first woman to hold the office in its 800-year existence. In conversation with Gita Gopinath, she will offer insights that draw on her frontline experience…",
    "event_page": true,
    "notes": "",
@@ -16425,7 +16614,7 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "Tuesday, November 3, 2026 Time: 7:00pm EST Where: JFK Jr. Forum, 79 John F. Kennedy St., Cambridge, MA 02138 Meeting Method: Hybrid Add to Calendar 2026-11-03 19:00:00 2026-10-16 10:55:03 Election Night in the Forum The JFK Jr. Forum is the place to be on election night! At 7:00pm, Eugene Scott will lead a…",
+   "summary": "Tuesday, November 3, 2026 Time: 7:00pm EST Where: JFK Jr. Forum, 79 John F. Kennedy St., Cambridge, MA 02138 Meeting Method: Hybrid Add to Calendar 2026-11-03 19:00:00 2026-10-16 16:42:49 Election Night in the Forum The JFK Jr. Forum is the place to be on election night! At 7:00pm, Eugene Scott will lead a…",
    "blurb": "Forum is the place to be on election night! At 7:00pm, Eugene Scott will lead a conversation with a diverse group of guests on what to look for as the night unfolds. Food and beverages will be available throughout the evening.",
    "event_page": true,
    "notes": "",
