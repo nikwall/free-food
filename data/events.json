@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-18T17:33:00-04:00",
+ "generated_at": "2026-10-18T20:14:59-04:00",
  "window": {
   "start": "2026-10-18",
   "end": "2026-10-25"
@@ -22,7 +22,7 @@
    "error": null,
    "n_events": 144,
    "n_food": 6,
-   "seconds": 0.7
+   "seconds": 1.0
   },
   {
    "id": "hks",
@@ -32,7 +32,7 @@
    "error": null,
    "n_events": 45,
    "n_food": 10,
-   "seconds": 1.8
+   "seconds": 4.8
   },
   {
    "id": "hls",
@@ -41,8 +41,8 @@
    "ok": true,
    "error": null,
    "n_events": 77,
-   "n_food": 42,
-   "seconds": 9.3
+   "n_food": 44,
+   "seconds": 9.6
   },
   {
    "id": "college",
@@ -52,7 +52,7 @@
    "error": null,
    "n_events": 108,
    "n_food": 12,
-   "seconds": 0.6
+   "seconds": 1.8
   },
   {
    "id": "ash",
@@ -62,7 +62,7 @@
    "error": null,
    "n_events": 3,
    "n_food": 1,
-   "seconds": 2.3
+   "seconds": 2.0
   },
   {
    "id": "shorenstein",
@@ -82,7 +82,7 @@
    "error": null,
    "n_events": 7,
    "n_food": 1,
-   "seconds": 0.0
+   "seconds": 0.1
   },
   {
    "id": "newsletter",
@@ -92,7 +92,7 @@
    "error": null,
    "n_events": 94,
    "n_food": 15,
-   "seconds": 55.7
+   "seconds": 80.8
   },
   {
    "id": "suggested",
@@ -102,17 +102,17 @@
    "error": null,
    "n_events": 9,
    "n_food": 1,
-   "seconds": 5.6
+   "seconds": 5.0
   }
  ],
  "stats": {
   "events": 380,
-  "food_confirmed": 52,
+  "food_confirmed": 54,
   "food_likely": 19,
   "forwarded": 66,
   "forwarded_listed": 20,
   "food_restricted": 43,
-  "seconds": 64.2
+  "seconds": 90.0
  },
  "events": [
   {
@@ -637,49 +637,6 @@
    "lon": -71.116034,
    "geo_method": "gazetteer",
    "walk_min": 7
-  },
-  {
-   "id": "81898825e06d",
-   "title": "Events Calendar",
-   "url": "https://hls.harvard.edu/calendar/",
-   "source_id": "suggested",
-   "source_name": "Suggested calendar: HLS",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-10-18T12:00:00-04:00",
-   "end": null,
-   "date": "2026-10-18",
-   "all_day": true,
-   "location": "",
-   "online": false,
-   "host": "",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
-   },
-   "audience": {
-    "level": "unknown",
-    "group": "",
-    "evidence": "",
-    "basis": "none"
-   },
-   "summary": "Showing 0 events for the week starting 10/18/2026 Compact View There are no events today.",
-   "blurb": "",
-   "event_page": true,
-   "notes": "",
-   "place_name": "Harvard Law School",
-   "lat": 42.379106,
-   "lon": -71.119679,
-   "geo_method": "host",
-   "walk_min": 10
   },
   {
    "id": "f10ffc1c57fd",
@@ -2044,6 +2001,49 @@
    "walk_min": 12
   },
   {
+   "id": "615e7a88549f",
+   "title": "Events Calendar",
+   "url": "https://hls.harvard.edu/calendar/",
+   "source_id": "suggested",
+   "source_name": "Suggested calendar: HLS",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-10-19T12:00:00-04:00",
+   "end": null,
+   "date": "2026-10-19",
+   "all_day": true,
+   "location": "",
+   "online": false,
+   "host": "",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "Showing 0 events for the week starting 10/19/2026 Compact View There are no events today.",
+   "blurb": "",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Harvard Law School",
+   "lat": 42.379106,
+   "lon": -71.119679,
+   "geo_method": "host",
+   "walk_min": 10
+  },
+  {
    "id": "3328655c7cea",
    "title": "Farewell to Grand Narratives: The Cultural Psychology of China’s Younger Generation (告别宏大叙事：当代中国年轻一代的文化心理)",
    "url": "https://fairbank.fas.harvard.edu/events/farewell-to-grand-narratives-the-cultural-psychology-of-chinas-younger-generation-%e5%91%8a%e5%88%ab%e5%ae%8f%e5%a4%a7%e5%8f%99%e4%ba%8b%ef%bc%9a%e5%bd%93%e4%bb%a3%e4%b8%ad%e5%9b%bd/",
@@ -2717,9 +2717,12 @@
    "online": false,
    "host": "Harvard Law School",
    "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
+    "status": "confirmed",
+    "types": [
+     "Lunch"
+    ],
+    "evidence": "Lunch will be provided.",
+    "cue": "strong"
    },
    "registration": {
     "status": "unknown",
@@ -2732,8 +2735,8 @@
     "evidence": "Harvard Law School calendar, audience not stated",
     "basis": "default"
    },
-   "summary": "Add to Calendar October 19, 2026, 12:30 pm - 1:15 pm +Google Calendar +iCal/Outlook",
-   "blurb": "",
+   "summary": "Global priorities like decarbonization, AI-driven digital infrastructure, and critical infrastructure resilience are driving the need for a new generation of lawyers to structure and implement solutions in a transformative era. Join White & Case for an in-depth discussion on current and expected trends and…",
+   "blurb": "Global priorities like decarbonization, AI-driven digital infrastructure, and critical infrastructure resilience are driving the need for a new generation of lawyers to structure and implement solutions in a transformative era. Join White & Case for an…",
    "event_page": true,
    "notes": "",
    "place_name": "Pound Hall, Harvard Law School",
@@ -3399,10 +3402,6 @@
    "source_name": "Harvard Gazette calendar",
    "also_listed": [
     {
-     "source_name": "Harvard Kennedy School",
-     "url": "https://www.hks.harvard.edu/events/debate-debrief-and-dessert-role-united-states-world"
-    },
-    {
      "source_name": "Harvard College events",
      "url": "https://events.college.harvard.edu/event/225387-debate-debrief-and-dessert-the-role-of-the-united"
     },
@@ -3417,13 +3416,17 @@
     {
      "source_name": "Forwarded: JFK Jr. Forum: Jake Sullivan & Michael Anton Debate; Uzo Aduba & Joe Locke on Po",
      "url": "https://iop.harvard.edu/events/debate-debrief-and-dessert-role-united-states-world-jake-sullivan-and-michael-anton"
+    },
+    {
+     "source_name": "Harvard Kennedy School",
+     "url": "https://www.hks.harvard.edu/index%2ephp/events/debate-debrief-and-dessert-role-united-states-world"
     }
    ],
    "aliases": [
     "6546b6922e0a",
     "6546b6922e0a",
     "6546b6922e0a",
-    "8f2b4e4b406f",
+    "73e7f61ab6df",
     "9efcab75f69a",
     "de631d35c31d"
    ],
@@ -4900,8 +4903,8 @@
     "evidence": "Harvard Law School calendar, audience not stated",
     "basis": "default"
    },
-   "summary": "Add to Calendar October 20, 2026, 12:15 pm - 1:15 pm +Google Calendar +iCal/Outlook",
-   "blurb": "",
+   "summary": "Join HALB for a lunch & learn with attorneys from Weil. Hear from three attorneys about their careers and practice areas. Come with questions for an interactive Q&A! Add to Calendar October 20, 2026, 12:15 pm - 1:15 pm +Google Calendar +iCal/Outlook",
+   "blurb": "Join HALB for a lunch & learn with attorneys from Weil. Hear from three attorneys about their careers and practice areas. Come with questions for an interactive Q&A!",
    "event_page": true,
    "notes": "",
    "place_name": "Wasserstein Hall (WCC), Harvard Law School",
@@ -6943,49 +6946,6 @@
    "walk_min": 37
   },
   {
-   "id": "15534b4a6496",
-   "title": "Conversation with Justice Mahmud Jamal of the Supreme Court of Canada",
-   "url": "https://hls.harvard.edu/events/conversation-with-justice-mahmud-jamal-of-the-supreme-court-of-canada/",
-   "source_id": "hls",
-   "source_name": "Harvard Law School",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-10-21T10:00:00-04:00",
-   "end": "2026-10-21T12:00:00-04:00",
-   "date": "2026-10-21",
-   "all_day": false,
-   "location": "WCC, 2009 Classroom, Harvard Law School",
-   "online": false,
-   "host": "Canadian Law Students Association",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "required",
-    "evidence": "Seating is limited; please complete the registration form by Sunday, October 18 to express your interest.",
-    "link": ""
-   },
-   "audience": {
-    "level": "harvard",
-    "group": "",
-    "evidence": "HLS listing audience: All Harvard",
-    "basis": "listing"
-   },
-   "summary": "A Morning with Justice Mahmud Jamal Wednesday, October 21, 2026 | 10:30 am to 12:00 pm | Harvard Law School Join Justice Mahmud Jamal of the Supreme Court of Canada for an off-the-record conversation with Tiran Rahimian Bajgiran (S.J.D.) and Jessica Keer Li (LL.M.), followed by audience questions. The event is open to…",
-   "blurb": "Join Justice Mahmud Jamal of the Supreme Court of Canada for an off-the-record conversation with Tiran Rahimian Bajgiran (S.J.D.) and Jessica Keer Li (LL.M.), followed by audience questions. The event is open to members of the Harvard community. We will…",
-   "event_page": true,
-   "notes": "",
-   "place_name": "Wasserstein Hall (WCC), Harvard Law School",
-   "lat": 42.379383,
-   "lon": -71.119421,
-   "geo_method": "gazetteer",
-   "walk_min": 10
-  },
-  {
    "id": "605f704e95c9",
    "title": "Harvard and the American Revolution",
    "url": "https://library.harvard.edu/exhibits/harvard-and-american-revolution",
@@ -7113,6 +7073,49 @@
    "lon": -71.114113,
    "geo_method": "gazetteer",
    "walk_min": 7
+  },
+  {
+   "id": "c324dfb9f222",
+   "title": "Conversation with Justice Mahmud Jamal of the Supreme Court of Canada",
+   "url": "https://hls.harvard.edu/events/conversation-with-justice-mahmud-jamal-of-the-supreme-court-of-canada/",
+   "source_id": "hls",
+   "source_name": "Harvard Law School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-10-21T10:30:00-04:00",
+   "end": "2026-10-21T12:00:00-04:00",
+   "date": "2026-10-21",
+   "all_day": false,
+   "location": "WCC, 2009 Classroom, Harvard Law School",
+   "online": false,
+   "host": "Canadian Law Students Association",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "Seating is limited; please complete the registration form by Sunday, October 18 to express your interest.",
+    "link": ""
+   },
+   "audience": {
+    "level": "harvard",
+    "group": "",
+    "evidence": "HLS listing audience: All Harvard",
+    "basis": "listing"
+   },
+   "summary": "A Morning with Justice Mahmud Jamal Wednesday, October 21, 2026 | 10:30 am to 12:00 pm | Harvard Law School Join Justice Mahmud Jamal of the Supreme Court of Canada for an off-the-record conversation with Tiran Rahimian Bajgiran (S.J.D.) and Jessica Keer Li (LL.M.), followed by audience questions. The event is open to…",
+   "blurb": "Join Justice Mahmud Jamal of the Supreme Court of Canada for an off-the-record conversation with Tiran Rahimian Bajgiran (S.J.D.) and Jessica Keer Li (LL.M.), followed by audience questions. The event is open to members of the Harvard community. We will…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Wasserstein Hall (WCC), Harvard Law School",
+   "lat": 42.379383,
+   "lon": -71.119421,
+   "geo_method": "gazetteer",
+   "walk_min": 10
   },
   {
    "id": "dbf598c53ebb",
@@ -7610,8 +7613,8 @@
     "evidence": "Harvard Law School calendar, audience not stated",
     "basis": "default"
    },
-   "summary": "Add to Calendar October 21, 2026, 12:15 pm - 1:15 pm +Google Calendar +iCal/Outlook",
-   "blurb": "",
+   "summary": "Join HALB for a lunch & learn with attorneys from DLA Piper. Hear from three attorneys about their careers and practice areas. Come with questions for an interactive Q&A! Add to Calendar October 21, 2026, 12:15 pm - 1:15 pm +Google Calendar +iCal/Outlook",
+   "blurb": "Join HALB for a lunch & learn with attorneys from DLA Piper. Hear from three attorneys about their careers and practice areas. Come with questions for an interactive Q&A!",
    "event_page": true,
    "notes": "",
    "place_name": "Pound Hall, Harvard Law School",
@@ -10841,9 +10844,12 @@
    "online": false,
    "host": "Harvard Law School",
    "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
+    "status": "confirmed",
+    "types": [
+     "Lunch"
+    ],
+    "evidence": "Lunch will be provided.",
+    "cue": "strong"
    },
    "registration": {
     "status": "unknown",
@@ -10856,8 +10862,8 @@
     "evidence": "Harvard Law School calendar, audience not stated",
     "basis": "default"
    },
-   "summary": "Add to Calendar October 22, 2026, 12:30 pm - 1:15 pm +Google Calendar +iCal/Outlook",
-   "blurb": "",
+   "summary": "Hear from Sidley attorneys across multiple offices as they share insights into their day-to-day work, the types of deals they handle, and their experiences building careers in transactional law. This is a great opportunity to explore different transactional practice areas, gain valuable career advice, and ask…",
+   "blurb": "Hear from Sidley attorneys across multiple offices as they share insights into their day-to-day work, the types of deals they handle, and their experiences building careers in transactional law. This is a great opportunity to explore different transactional…",
    "event_page": true,
    "notes": "",
    "place_name": "Wasserstein Hall (WCC), Harvard Law School",
