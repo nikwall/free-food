@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-20T11:10:03-04:00",
+ "generated_at": "2026-10-20T16:02:47-04:00",
  "window": {
   "start": "2026-10-20",
   "end": "2026-10-27"
@@ -20,8 +20,8 @@
    "homepage": "https://news.harvard.edu/gazette/harvard-events/events-calendar/",
    "ok": true,
    "error": null,
-   "n_events": 156,
-   "n_food": 5,
+   "n_events": 167,
+   "n_food": 7,
    "seconds": 1.9
   },
   {
@@ -30,9 +30,9 @@
    "homepage": "https://www.hks.harvard.edu/more/events",
    "ok": true,
    "error": null,
-   "n_events": 45,
+   "n_events": 44,
    "n_food": 8,
-   "seconds": 14.2
+   "seconds": 18.9
   },
   {
    "id": "hls",
@@ -40,9 +40,9 @@
    "homepage": "https://hls.harvard.edu/calendar/",
    "ok": true,
    "error": null,
-   "n_events": 97,
-   "n_food": 53,
-   "seconds": 13.4
+   "n_events": 98,
+   "n_food": 54,
+   "seconds": 11.1
   },
   {
    "id": "college",
@@ -50,9 +50,9 @@
    "homepage": "https://events.college.harvard.edu/",
    "ok": true,
    "error": null,
-   "n_events": 105,
+   "n_events": 106,
    "n_food": 11,
-   "seconds": 1.7
+   "seconds": 1.3
   },
   {
    "id": "ash",
@@ -62,7 +62,7 @@
    "error": null,
    "n_events": 3,
    "n_food": 1,
-   "seconds": 2.1
+   "seconds": 2.0
   },
   {
    "id": "shorenstein",
@@ -72,7 +72,7 @@
    "error": null,
    "n_events": 2,
    "n_food": 0,
-   "seconds": 10.0
+   "seconds": 11.5
   },
   {
    "id": "fairbank",
@@ -82,7 +82,7 @@
    "error": null,
    "n_events": 8,
    "n_food": 1,
-   "seconds": 6.4
+   "seconds": 0.2
   },
   {
    "id": "newsletter",
@@ -92,7 +92,7 @@
    "error": null,
    "n_events": 85,
    "n_food": 11,
-   "seconds": 89.1
+   "seconds": 87.9
   },
   {
    "id": "suggested",
@@ -100,19 +100,19 @@
    "homepage": "",
    "ok": true,
    "error": null,
-   "n_events": 10,
+   "n_events": 11,
    "n_food": 2,
-   "seconds": 4.9
+   "seconds": 5.1
   }
  ],
  "stats": {
-  "events": 409,
-  "food_confirmed": 62,
+  "events": 413,
+  "food_confirmed": 63,
   "food_likely": 20,
   "forwarded": 63,
   "forwarded_listed": 21,
   "food_restricted": 54,
-  "seconds": 105.5
+  "seconds": 97.7
  },
  "events": [
   {
@@ -1254,9 +1254,9 @@
     "evidence": ""
    },
    "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://harvard.zoom.us/meeting/register/dgd-NwMiS9SwrtRAJsNFOg"
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
    },
    "audience": {
     "level": "unknown",
@@ -1874,7 +1874,7 @@
    "registration": {
     "status": "required",
     "evidence": "Space is limited so please only RSVP if you plan to attend.",
-    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001ktc1IAA"
+    "link": ""
    },
    "audience": {
     "level": "harvard",
@@ -4090,7 +4090,7 @@
    "walk_min": 5
   },
   {
-   "id": "44f4d31d0be8",
+   "id": "06c38b942a66",
    "title": "The Art of Diplomacy in Uncertain Times with Ambassador Ángeles Moreno Bau & Ambassador Nathalie Rayes",
    "url": "https://iop.harvard.edu/events/art-diplomacy-uncertain-times-discussion-ambassador-angeles-moreno-bau-ambassador-nathalie",
    "source_id": "gazette",
@@ -4103,13 +4103,21 @@
     {
      "source_name": "Harvard College events",
      "url": "https://events.college.harvard.edu/event/225776-the-art-of-diplomacy-in-uncertain-times-with"
+    },
+    {
+     "source_name": "Suggested by a fellow",
+     "url": "https://iop.harvard.edu/events/art-diplomacy-uncertain-times-discussion-ambassador-angeles-moreno-bau-ambassador-nathalie"
     }
    ],
    "aliases": [
+    "44f4d31d0be8",
     "668b3f7e7793",
     "bab627e941ee"
    ],
-   "suggested": null,
+   "suggested": {
+    "by": "",
+    "note": ""
+   },
    "forwarded": null,
    "start": "2026-10-21T12:00:00-04:00",
    "end": "2026-10-21T13:00:00-04:00",
@@ -8139,6 +8147,10 @@
    "source_name": "Harvard Kennedy School",
    "also_listed": [
     {
+     "source_name": "Harvard Gazette calendar",
+     "url": "https://iop.harvard.edu/events/study-group-ambassador-kelly-craft-case-disagreement-beyond-identity-and-ideological"
+    },
+    {
      "source_name": "Forwarded: New Study Groups & Special Guests: Leadership, Presidential Election, Global Con",
      "url": "https://iop.harvard.edu/events/study-group-ambassador-kelly-craft-case-disagreement-beyond-identity-and-ideological"
     },
@@ -8149,6 +8161,7 @@
    ],
    "aliases": [
     "1007fac84135",
+    "6f471c66c164",
     "97189485a5c8"
    ],
    "suggested": null,
@@ -8338,9 +8351,9 @@
    "walk_min": 16
   },
   {
-   "id": "5307878bb199",
+   "id": "8dd57b4e42c9",
    "title": "A Conversation with UNICEF Executive Director Catherine Russell",
-   "url": "https://www.hks.harvard.edu/index%2ephp/events/directors-seminar-catherine-russell",
+   "url": "https://www.hks.harvard.edu/events/directors-seminar-catherine-russell",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -8351,27 +8364,27 @@
    "end": "2026-10-22T17:45:00-04:00",
    "date": "2026-10-22",
    "all_day": false,
-   "location": "",
+   "location": "Belfer Center Library (l369)",
    "online": false,
-   "host": "",
+   "host": "Belfer Center for Science and International Affairs",
    "food": {
     "status": "none",
     "types": [],
     "evidence": ""
    },
    "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
+    "status": "required",
+    "evidence": "Space is limited so please only RSVP if you plan to attend.",
+    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001kxKfIAI"
    },
    "audience": {
-    "level": "unknown",
+    "level": "harvard",
     "group": "",
-    "evidence": "",
-    "basis": "none"
+    "evidence": "Attendance is in-person and for HUID holders only.",
+    "basis": "text"
    },
-   "summary": "",
-   "blurb": "",
+   "summary": "Please join the Belfer Center for Science and International Affairs, the Carr-Ryan Center for Human Rights, and the Center for International Development for a conversation with Catherine Russell, Executive Director of UNICEF. Ms. Russell will discuss her role supporting women and children around the world through…",
+   "blurb": "Please join the Belfer Center for Science and International Affairs, the Carr-Ryan Center for Human Rights, and the Center for International Development for a conversation with Catherine Russell, Executive Director of UNICEF. Russell will discuss her role…",
    "event_page": true,
    "notes": "",
    "place_name": "Harvard Kennedy School",
@@ -8424,12 +8437,16 @@
    "walk_min": 5
   },
   {
-   "id": "47f0288a5bed",
-   "title": "Study Group with Hon Alejandro Mayorkas: Terrorism & the Evolution of the Threat",
-   "url": "https://www.hks.harvard.edu/events/study-group-hon-alejandro-mayorkas-terrorism-evolution-threat",
-   "source_id": "hks",
-   "source_name": "Harvard Kennedy School",
+   "id": "1b08116166f2",
+   "title": "Study Group with the Honorable Alejandro Mayorkas: Terrorism and the Evolution of the Threat",
+   "url": "https://iop.harvard.edu/events/study-group-honorable-alejandro-mayorkas-terrorism-and-evolution-threat-foreign-terrorist",
+   "source_id": "gazette",
+   "source_name": "Harvard Gazette calendar",
    "also_listed": [
+    {
+     "source_name": "Harvard Kennedy School",
+     "url": "https://www.hks.harvard.edu/events/study-group-hon-alejandro-mayorkas-terrorism-evolution-threat"
+    },
     {
      "source_name": "Forwarded: New Study Groups & Special Guests: Leadership, Presidential Election, Global Con",
      "url": "https://iop.harvard.edu/events/study-group-honorable-alejandro-mayorkas-terrorism-and-evolution-threat-foreign-terrorist"
@@ -8440,6 +8457,7 @@
     }
    ],
    "aliases": [
+    "47f0288a5bed",
     "7293c22c8b75",
     "dd155cb79414"
    ],
@@ -8453,9 +8471,9 @@
    "end": "2026-10-22T17:45:00-04:00",
    "date": "2026-10-22",
    "all_day": false,
-   "location": "L-163",
+   "location": "Institute of Politics, 79 JFK St., Cambridge",
    "online": false,
-   "host": "Institute of Politics (IOP)",
+   "host": "Institute of Politics at Harvard Kennedy School",
    "food": {
     "status": "none",
     "types": [],
@@ -8463,19 +8481,19 @@
    },
    "registration": {
     "status": "required",
-    "evidence": "RSVP link on the event page",
+    "evidence": "Registration link on the event page",
     "link": "https://iop.harvard.edu/events/study-group-honorable-alejandro-mayorkas-terrorism-and-evolution-threat-foreign-terrorist"
    },
    "audience": {
     "level": "restricted",
-    "group": "HKS students",
-    "evidence": "Title: Study Group with Hon Alejandro Mayorkas: Terrorism & the Evolution of the Threat",
+    "group": "students",
+    "evidence": "Title: Study Group with the Honorable Alejandro Mayorkas: Terrorism and the Evolution of the Threat",
     "basis": "inferred"
    },
    "summary": "When the Department of Homeland Security was created in 2003, the threat of terrorism was presented predominantly by the foreign individual or group of individuals with allegiance to a terrorist group and who sought to enter the United States to do us grave harm. That threat has persisted, but over the past more than…",
    "blurb": "When the Department of Homeland Security was created in 2003, the threat of terrorism was presented predominantly by the foreign individual or group of individuals with allegiance to a terrorist group and who sought to enter the United States to do us grave…",
    "event_page": true,
-   "notes": "",
+   "notes": "Cost: Free | Harvard Key required: No",
    "place_name": "Littauer Building, Harvard Kennedy School",
    "lat": 42.371045,
    "lon": -71.12209,
@@ -8864,13 +8882,20 @@
    "walk_min": 18
   },
   {
-   "id": "f6380b5376d4",
+   "id": "e1583dc00a4c",
    "title": "Artist Talk and Opening Reception for Constitutive Outside",
    "url": "https://carpenter.center/programs/artist-talk-and-opening-reception-for-constitutive-outside",
-   "source_id": "newsletter",
-   "source_name": "Forwarded: Thank You for Joining Us! See What’s Next at the Carpenter Center",
-   "also_listed": [],
-   "aliases": [],
+   "source_id": "gazette",
+   "source_name": "Harvard Gazette calendar",
+   "also_listed": [
+    {
+     "source_name": "Forwarded: Thank You for Joining Us! See What’s Next at the Carpenter Center",
+     "url": "https://carpenter.center/programs/artist-talk-and-opening-reception-for-constitutive-outside"
+    }
+   ],
+   "aliases": [
+    "f6380b5376d4"
+   ],
    "suggested": null,
    "forwarded": {
     "by": "Cecilia",
@@ -8878,12 +8903,12 @@
     "missing": []
    },
    "start": "2026-10-22T18:00:00-04:00",
-   "end": null,
+   "end": "2026-10-22T21:00:00-04:00",
    "date": "2026-10-22",
    "all_day": false,
-   "location": "",
+   "location": "Carpenter Center for the Visual Arts, Level 1, 24 Quincy St., Cambridge",
    "online": false,
-   "host": "",
+   "host": "Carpenter Center for the Visual Arts",
    "food": {
     "status": "confirmed",
     "types": [
@@ -8893,9 +8918,9 @@
     "cue": "strong"
    },
    "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
+    "status": "required",
+    "evidence": "Registration link on the event page",
+    "link": "https://carpenter.center/programs/artist-talk-and-opening-reception-for-constitutive-outside"
    },
    "audience": {
     "level": "public",
@@ -8903,14 +8928,14 @@
     "evidence": "Free and open to the public.",
     "basis": "text"
    },
-   "summary": "This program is happening on October 22, 2026 from 6:00pm–9:00pm. Artist Talk and Opening Reception for Constitutive Outside Join us for a conversation with artists Steffani Jemison and Markele Cullins, moderated by exhibition curator Tarik Garrett. A reception will follow in the AUX: Intermedia Gallery on Level 1 of…",
+   "summary": "Join us for a conversation with artists Steffani Jemison and Markele Cullins, moderated by exhibition curator Tarik Garrett. A reception will follow in the AUX: Intermedia Gallery on Level 1 of the Carpenter Center. 6:00–7:00 pm, Artist Conversation + Q & A, Theater, Lower Level 7:00–9:00 pm, Opening Reception, Level…",
    "blurb": "Join us for a conversation with artists Steffani Jemison and Markele Cullins, moderated by exhibition curator Tarik Garrett. A reception will follow in the AUX: Intermedia Gallery on Level 1 of the Carpenter Center.",
    "event_page": true,
-   "notes": "",
+   "notes": "Cost: Free | Harvard Key required: No",
    "place_name": "Carpenter Center",
    "lat": 42.373704,
    "lon": -71.114276,
-   "geo_method": "text",
+   "geo_method": "gazetteer",
    "walk_min": 7
   },
   {
@@ -9787,18 +9812,23 @@
   },
   {
    "id": "1fbdf11f6622",
-   "title": "Covering Conflict: A Conversation on Gaza, Diplomacy, and Journalism",
-   "url": "https://www.hks.harvard.edu/events/covering-conflict-conversation-gaza-diplomacy-and-journalism",
-   "source_id": "hks",
-   "source_name": "Harvard Kennedy School",
+   "title": "Covering Conflict: A Conversation on Gaza, Diplomacy, and Journalism with Akbar Shahid Ahmed",
+   "url": "https://iop.harvard.edu/events/covering-conflict-conversation-gaza-diplomacy-and-journalism-akbar-shahid-ahmed-washington",
+   "source_id": "gazette",
+   "source_name": "Harvard Gazette calendar",
    "also_listed": [
+    {
+     "source_name": "Harvard Kennedy School",
+     "url": "https://www.hks.harvard.edu/events/covering-conflict-conversation-gaza-diplomacy-and-journalism"
+    },
     {
      "source_name": "Harvard College events",
      "url": "https://events.college.harvard.edu/event/225787-covering-conflict-a-conversation-on-gaza-diplomacy"
     }
    ],
    "aliases": [
-    "3a6cd6566bdb"
+    "3a6cd6566bdb",
+    "5e57371db817"
    ],
    "suggested": null,
    "forwarded": null,
@@ -9806,20 +9836,20 @@
    "end": "2026-10-23T11:00:00-04:00",
    "date": "2026-10-23",
    "all_day": false,
-   "location": "L-166",
+   "location": "Institute of Politics, 79 JFK St., Cambridge",
    "online": false,
-   "host": "Institute of Politics (IOP)",
+   "host": "Institute of Politics at Harvard Kennedy School",
    "food": {
     "status": "confirmed",
     "types": [
      "Breakfast"
     ],
-    "evidence": "Breakfast will be served.",
+    "evidence": "*Breakfast will be served.",
     "cue": "strong"
    },
    "registration": {
     "status": "required",
-    "evidence": "RSVP link on the event page",
+    "evidence": "Registration link on the event page",
     "link": "https://iop.harvard.edu/events/covering-conflict-conversation-gaza-diplomacy-and-journalism-akbar-shahid-ahmed-washington"
    },
    "audience": {
@@ -9831,7 +9861,7 @@
    "summary": "Join the Institute of Politics for a Food for Thought conversation with Akbar Shahid Ahmed, diplomatic correspondent at The Washington Sun and award-winning foreign affairs journalist. Drawing on his recently published book, Crossing the Red Line: Biden, His Advisors, and Israel’s War in Gaza, Ahmed will examine the…",
    "blurb": "Join the Institute of Politics for a Food for Thought conversation with Akbar Shahid Ahmed, diplomatic correspondent at The Washington Sun and award-winning foreign affairs journalist. Drawing on his recently published book, Crossing the Red Line: Biden, His…",
    "event_page": true,
-   "notes": "",
+   "notes": "Cost: Free | Harvard Key required: No",
    "place_name": "Littauer Building, Harvard Kennedy School",
    "lat": 42.371045,
    "lon": -71.12209,
@@ -10562,23 +10592,24 @@
   },
   {
    "id": "64858d50173d",
-   "title": "Amb. Chris Lu Study Group: Faith and Public Service: Leading Across Differences",
-   "url": "https://www.hks.harvard.edu/events/amb-chris-lu-study-group-faith-and-public-service-leading-across-differences",
-   "source_id": "hks",
-   "source_name": "Harvard Kennedy School",
+   "title": "Dance in Public",
+   "url": "https://events.college.harvard.edu/ofa/event/223329-dance-in-public",
+   "source_id": "college",
+   "source_name": "Harvard College events",
    "also_listed": [
     {
-     "source_name": "Forwarded: New Study Groups & Special Guests: Leadership, Presidential Election, Global Con",
+     "source_name": "Harvard Gazette calendar",
      "url": "https://iop.harvard.edu/events/study-group-ambassador-chris-lu-faith-and-public-service-leading-across-differences-melissa"
     },
     {
-     "source_name": "Harvard College events",
-     "url": "https://events.college.harvard.edu/event/225771-study-group-with-ambassador-chris-lu-faith-and"
+     "source_name": "Forwarded: New Study Groups & Special Guests: Leadership, Presidential Election, Global Con",
+     "url": "https://iop.harvard.edu/events/study-group-ambassador-chris-lu-faith-and-public-service-leading-across-differences-melissa"
     }
    ],
    "aliases": [
+    "913859915536",
     "c62676c1c7dd",
-    "fbf5e615dc8c"
+    "e0934fb759d2"
    ],
    "suggested": null,
    "forwarded": {
@@ -10590,34 +10621,34 @@
    "end": "2026-10-23T15:00:00-04:00",
    "date": "2026-10-23",
    "all_day": false,
-   "location": "R-429",
+   "location": "Richard A. and Susan F. Smith Campus Center",
    "online": false,
-   "host": "Institute of Politics (IOP)",
+   "host": "Office for the Arts Dance Program",
    "food": {
     "status": "none",
     "types": [],
     "evidence": ""
    },
    "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://iop.harvard.edu/events/study-group-ambassador-chris-lu-faith-and-public-service-leading-across-differences-melissa"
+    "status": "none",
+    "evidence": "Each individual lab session is open to Harvard student drop-in participation.",
+    "link": ""
    },
    "audience": {
-    "level": "restricted",
-    "group": "HKS students",
-    "evidence": "Title: Amb. Chris Lu Study Group: Faith and Public Service: Leading Across Differences",
-    "basis": "inferred"
+    "level": "likely",
+    "group": "Harvard student drop-in participation",
+    "evidence": "Each individual lab session is open to Harvard student drop-in participation.",
+    "basis": "text"
    },
-   "summary": "How do leaders work across deeply held differences in belief? We’ll explore how public servants build trust with religious communities, navigate tensions between religious freedom and other public responsibilities, and find common ground with people of different faiths. We'll also ask how leaders reconcile their own…",
-   "blurb": "How do leaders work across deeply held differences in belief? We’ll explore how public servants build trust with religious communities, navigate tensions between religious freedom and other public responsibilities, and find common ground with people of…",
+   "summary": "Join the Dance in Public Undergraduate Research Fellows who will be investigating and activating sites throughout the academic year, exploring themes in design and architecture, civic engagement, creative research, and public life. Each individual lab session is open to Harvard student drop-in participation. REGISTER…",
+   "blurb": "who will be investigating and activating sites throughout the academic year, exploring themes in design and architecture, civic engagement, creative research, and public life. Each individual lab session is open to Harvard student drop-in participation. Visit…",
    "event_page": true,
    "notes": "",
-   "place_name": "Rubenstein Building, Harvard Kennedy School",
-   "lat": 42.371243,
-   "lon": -71.122687,
-   "geo_method": "gazetteer",
-   "walk_min": 18
+   "place_name": "Richard A. and Susan F. Smith Campus Center",
+   "lat": 42.372951,
+   "lon": -71.118484,
+   "geo_method": "source",
+   "walk_min": 12
   },
   {
    "id": "b9b24a0c1e48",
@@ -10798,54 +10829,47 @@
    "walk_min": null
   },
   {
-   "id": "913859915536",
-   "title": "Dance in Public",
-   "url": "https://events.college.harvard.edu/ofa/event/223329-dance-in-public",
-   "source_id": "college",
-   "source_name": "Harvard College events",
-   "also_listed": [
-    {
-     "source_name": "Harvard Gazette calendar",
-     "url": "https://harvardalumniforglobalwomensempowerment.cmail20.com/t/i-e-vtildtl-tdeldthhy-p/"
-    }
-   ],
-   "aliases": [
-    "fe1a1e91ff0e"
-   ],
+   "id": "fe1a1e91ff0e",
+   "title": "Domestic Violence: A Public Policy Crisis",
+   "url": "https://harvardalumniforglobalwomensempowerment.cmail20.com/t/i-e-vtildtl-tdeldthhy-p/",
+   "source_id": "gazette",
+   "source_name": "Harvard Gazette calendar",
+   "also_listed": [],
+   "aliases": [],
    "suggested": null,
    "forwarded": null,
    "start": "2026-10-23T16:00:00-04:00",
    "end": "2026-10-23T17:30:00-04:00",
    "date": "2026-10-23",
    "all_day": false,
-   "location": "Richard A. and Susan F. Smith Campus Center",
+   "location": "Phillips Brooks House, Harvard Yard, Cambridge",
    "online": false,
-   "host": "Office for the Arts Dance Program",
+   "host": "Harvard Alumni for Global Women’s Empowerment",
    "food": {
     "status": "none",
     "types": [],
     "evidence": ""
    },
    "registration": {
-    "status": "none",
-    "evidence": "Each individual lab session is open to Harvard student drop-in participation.",
+    "status": "unknown",
+    "evidence": "",
     "link": ""
    },
    "audience": {
-    "level": "likely",
-    "group": "Harvard student drop-in participation",
-    "evidence": "Each individual lab session is open to Harvard student drop-in participation.",
-    "basis": "text"
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
    },
-   "summary": "Join the Dance in Public Undergraduate Research Fellows who will be investigating and activating sites throughout the academic year, exploring themes in design and architecture, civic engagement, creative research, and public life. Each individual lab session is open to Harvard student drop-in participation. REGISTER…",
-   "blurb": "who will be investigating and activating sites throughout the academic year, exploring themes in design and architecture, civic engagement, creative research, and public life. Each individual lab session is open to Harvard student drop-in participation. Visit…",
+   "summary": "",
+   "blurb": "",
    "event_page": true,
-   "notes": "",
-   "place_name": "Richard A. and Susan F. Smith Campus Center",
-   "lat": 42.372951,
-   "lon": -71.118484,
-   "geo_method": "source",
-   "walk_min": 12
+   "notes": "Harvard Key required: No",
+   "place_name": "Phillips Brooks House",
+   "lat": 42.375654,
+   "lon": -71.117933,
+   "geo_method": "gazetteer",
+   "walk_min": 8
   },
   {
    "id": "b52c673a0fc6",
@@ -11375,46 +11399,53 @@
    "walk_min": null
   },
   {
-   "id": "bc39bed77e86",
-   "title": "2026 Harvard Bands Montage Concert",
-   "url": "https://events.college.harvard.edu/ofa/event/2026-harvard-bands-montage-concert",
-   "source_id": "college",
-   "source_name": "Harvard College events",
-   "also_listed": [],
-   "aliases": [],
+   "id": "86c2442c3080",
+   "title": "Harvard Bands present Montage Concert 2026",
+   "url": "https://news.harvard.edu/gazette/harvard-events/events-calendar/?trumbaEmbed=view%3Devent%26eventid%3D211569698",
+   "source_id": "gazette",
+   "source_name": "Harvard Gazette calendar",
+   "also_listed": [
+    {
+     "source_name": "Harvard College events",
+     "url": "https://events.college.harvard.edu/ofa/event/2026-harvard-bands-montage-concert"
+    }
+   ],
+   "aliases": [
+    "bc39bed77e86"
+   ],
    "suggested": null,
    "forwarded": null,
    "start": "2026-10-23T20:00:00-04:00",
-   "end": "2026-10-23T22:00:00-04:00",
+   "end": "2026-10-23T20:00:00-04:00",
    "date": "2026-10-23",
    "all_day": false,
-   "location": "Sanders Theatre",
+   "location": "Sanders Theatre, 45 Quincy St., Cambridge",
    "online": false,
-   "host": "Office for the Arts",
+   "host": "Harvard Bands",
    "food": {
     "status": "none",
     "types": [],
     "evidence": ""
    },
    "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
+    "status": "required",
+    "evidence": "Registration link on the event page",
+    "link": "https://boxoffice.harvard.edu/Online/default.asp?BOparam::WScontent::loadArticle::permalink=harvard-bands"
    },
    "audience": {
-    "level": "restricted",
-    "group": "Harvard College students",
-    "evidence": "Harvard College calendar, no sign it is open to others",
-    "basis": "default"
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
    },
-   "summary": "2026 Montage Concert Featuring The Harvard Band and The Harvard Wind Ensemble. Directed by Mark Olson.",
-   "blurb": "",
+   "summary": "This annual concert features the Harvard Wind Ensemble and the Harvard University Band each performing as a separate ensemble. Directed by Mark Olson.",
+   "blurb": "This annual concert features the Harvard Wind Ensemble and the Harvard University Band each performing as a separate ensemble.",
    "event_page": true,
-   "notes": "",
-   "place_name": "Sanders Theatre",
-   "lat": 42.375911,
-   "lon": -71.114876,
-   "geo_method": "source",
+   "notes": "Cost: FREE and open to the public. Tickets required. Tickets are available in person at Sanders Theatre on 10/23, starting at 6:30pm. Tickets are valid until 7:45pm. Patrons are encouraged to arrive early to guarantee admission. | Harvard Key required: No",
+   "place_name": "Memorial Hall / Sanders Theatre",
+   "lat": 42.376006,
+   "lon": -71.115122,
+   "geo_method": "gazetteer",
    "walk_min": 5
   },
   {
@@ -11939,6 +11970,49 @@
    "walk_min": 7
   },
   {
+   "id": "3384839eed9f",
+   "title": "Game vs Bryant",
+   "url": "https://soco.college.harvard.edu/rsvp?id=383344",
+   "source_id": "college",
+   "source_name": "Harvard College events",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-10-24T11:00:00-04:00",
+   "end": "2026-10-24T13:30:00-04:00",
+   "date": "2026-10-24",
+   "all_day": false,
+   "location": "SoCo",
+   "online": false,
+   "host": "Dean of Students Office",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "Registration link on the event page",
+    "link": "https://soco.college.harvard.edu/rsvp?id=383344"
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "Harvard College students",
+    "evidence": "Harvard College calendar, no sign it is open to others",
+    "basis": "default"
+   },
+   "summary": "Basketball game vs Bryant Club Basketball Team — Event Details: https://soco.college.harvard.edu/rsvp?id=383344",
+   "blurb": "",
+   "event_page": true,
+   "notes": "",
+   "place_name": "",
+   "lat": null,
+   "lon": null,
+   "geo_method": null,
+   "walk_min": null
+  },
+  {
    "id": "fc6cfe4f0f1f",
    "title": "Junior Family Weekend Brunch & House Tours",
    "url": "https://events.college.harvard.edu/dunster-house/event/223963-junior-family-weekend-brunch-house-tours",
@@ -12300,6 +12374,49 @@
    "lon": -71.114276,
    "geo_method": "gazetteer",
    "walk_min": 7
+  },
+  {
+   "id": "beb394dbc9d2",
+   "title": "The Harvard Callbacks present Still On The Line: 40th Anniversary Jam",
+   "url": "https://news.harvard.edu/gazette/harvard-events/events-calendar/?trumbaEmbed=view%3Devent%26eventid%3D211563704",
+   "source_id": "gazette",
+   "source_name": "Harvard Gazette calendar",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-10-24T19:00:00-04:00",
+   "end": "2026-10-24T19:00:00-04:00",
+   "date": "2026-10-24",
+   "all_day": false,
+   "location": "Sanders Theatre, 45 Quincy St., Cambridge",
+   "online": false,
+   "host": "The Harvard Callbacks",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "Registration link on the event page",
+    "link": "https://boxoffice.harvard.edu/Online/default.asp?BOparam::WScontent::loadArticle::permalink=harvard-callbacks"
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "Join the Harvard Callbacks, Harvard's premier all-gender a cappella group, for a special 40th Anniversary Concert celebrating four decades of music, memory, and community.",
+   "blurb": "Join the Harvard Callbacks, Harvard's premier all-gender a cappella group, for a special 40th Anniversary Concert celebrating four decades of music, memory, and community.",
+   "event_page": true,
+   "notes": "Cost: Full Price: $20 Harvard ID: $10 | Harvard Key required: No",
+   "place_name": "Memorial Hall / Sanders Theatre",
+   "lat": 42.376006,
+   "lon": -71.115122,
+   "geo_method": "gazetteer",
+   "walk_min": 5
   },
   {
    "id": "09ffb2b0956c",
@@ -13262,45 +13379,52 @@
   },
   {
    "id": "39569c0246f5",
-   "title": "Bands of the Beanpot Concert",
-   "url": "https://events.college.harvard.edu/ofa/event/bands-of-the-beanpot-concert",
-   "source_id": "college",
-   "source_name": "Harvard College events",
-   "also_listed": [],
-   "aliases": [],
+   "title": "Harvard Wind Ensemble presents Bands of the Beanpot Concert",
+   "url": "https://news.harvard.edu/gazette/harvard-events/events-calendar/?trumbaEmbed=view%3Devent%26eventid%3D211569702",
+   "source_id": "gazette",
+   "source_name": "Harvard Gazette calendar",
+   "also_listed": [
+    {
+     "source_name": "Harvard College events",
+     "url": "https://events.college.harvard.edu/ofa/event/bands-of-the-beanpot-concert"
+    }
+   ],
+   "aliases": [
+    "eab658966174"
+   ],
    "suggested": null,
    "forwarded": null,
    "start": "2026-10-25T15:00:00-04:00",
-   "end": "2026-10-25T17:00:00-04:00",
+   "end": "2026-10-25T15:00:00-04:00",
    "date": "2026-10-25",
    "all_day": false,
-   "location": "Sanders Theatre",
+   "location": "Sanders Theatre, 45 Quincy St., Cambridge",
    "online": false,
-   "host": "Office for the Arts",
+   "host": "Harvard Wind Ensemble",
    "food": {
     "status": "none",
     "types": [],
     "evidence": ""
    },
    "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
+    "status": "required",
+    "evidence": "Registration link on the event page",
+    "link": "https://boxoffice.harvard.edu/Online/default.asp?BOparam::WScontent::loadArticle::permalink=harvard-wind-ensemble"
    },
    "audience": {
-    "level": "restricted",
-    "group": "Harvard College students",
-    "evidence": "Harvard College calendar, no sign it is open to others",
-    "basis": "default"
+    "level": "public",
+    "group": "",
+    "evidence": "The concert is free and open to the public.",
+    "basis": "text"
    },
-   "summary": "2026 Bands of the Beanpot Concert, featuring: Harvard Wind Ensemble, Northeastern Wind Ensemble, Boston University Concert Band, Boston College Wind Ensemble",
-   "blurb": "2026 Bands of the Beanpot Concert, featuring: Harvard Wind Ensemble, Northeastern Wind Ensemble, Boston University Concert Band, Boston College Wind Ensemble",
+   "summary": "This unique afternoon will feature the Boston College Wind Ensemble, The Boston University Concert Band, the Northeastern Wind Ensemble and the Harvard Wind Ensemble. This is the only concert of the season that gives you the opportunity to hear each of these fine ensembles in one showcase. The concert is free and open…",
+   "blurb": "This unique afternoon will feature the Boston College Wind Ensemble, The Boston University Concert Band, the Northeastern Wind Ensemble and the Harvard Wind Ensemble. This is the only concert of the season that gives you the opportunity to hear each of these…",
    "event_page": true,
-   "notes": "",
-   "place_name": "Sanders Theatre",
-   "lat": 42.375911,
-   "lon": -71.114876,
-   "geo_method": "source",
+   "notes": "Cost: Free. Limit of 4 tickets per person. Handling fees apply for online and phone reservations. Tickets are valid until 2:45PM. | Harvard Key required: No",
+   "place_name": "Memorial Hall / Sanders Theatre",
+   "lat": 42.376006,
+   "lon": -71.115122,
+   "geo_method": "gazetteer",
    "walk_min": 5
   },
   {
@@ -14593,6 +14717,52 @@
    "walk_min": 10
   },
   {
+   "id": "3d474c40603d",
+   "title": "Book Talk: “The Fourth Branch: How State Government Can Save Our Union” with Daniel Squadron",
+   "url": "https://hls.harvard.edu/events/book-talk-the-fourth-branch-how-state-government-can-save-our-union-with-daniel-squadron/",
+   "source_id": "hls",
+   "source_name": "Harvard Law School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-10-26T12:15:00-04:00",
+   "end": "2026-10-26T13:15:00-04:00",
+   "date": "2026-10-26",
+   "all_day": false,
+   "location": "WCC, 1015 Classroom, Harvard Law School",
+   "online": false,
+   "host": "Harvard Law School",
+   "food": {
+    "status": "confirmed",
+    "types": [
+     "Lunch"
+    ],
+    "evidence": "Lunch will be served.",
+    "cue": "strong"
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "Please RSVP at tinyurl.com/SquadronBookTalk",
+    "link": ""
+   },
+   "audience": {
+    "level": "harvard",
+    "group": "",
+    "evidence": "HLS listing audience: All Harvard",
+    "basis": "listing"
+   },
+   "summary": "Join the Center for Labor and a Just Economy for a book talk with Daniel Squadron, author of “The Fourth Branch: How State Government Can Save Our Union” and co-founder of The States Project. This book charts the overlooked power of state legislatures and puts forth a compelling framework for how ordinary citizens can…",
+   "blurb": "Join the Center for Labor and a Just Economy for a book talk with Daniel Squadron, author of “The Fourth Branch: How State Government Can Save Our Union” and co-founder of The States Project. This book charts the overlooked power of state legislatures and…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Wasserstein Hall (WCC), Harvard Law School",
+   "lat": 42.379383,
+   "lon": -71.119421,
+   "geo_method": "gazetteer",
+   "walk_min": 10
+  },
+  {
    "id": "d3bff5fb1d3f",
    "title": "First Class x Cravath",
    "url": "https://hls.harvard.edu/events/first-class-x-cravath/",
@@ -15258,13 +15428,20 @@
    "walk_min": 14
   },
   {
-   "id": "f47434c87fe3",
+   "id": "79bb8673502c",
    "title": "The Role of Blockchain-based Stablecoins in Strengthening Dollar Hegemony",
    "url": "https://www.hks.harvard.edu/events/role-blockchain-based-stablecoins-strenthening-dollar-hegemony",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
-   "also_listed": [],
-   "aliases": [],
+   "also_listed": [
+    {
+     "source_name": "Harvard Gazette calendar",
+     "url": "https://hub.hks.harvard.edu/event/a4oPp000001krbpIAA/the-role-of-blockchainbased-stablecoins-in-strengthening-dollar-hegemony"
+    }
+   ],
+   "aliases": [
+    "f47434c87fe3"
+   ],
    "suggested": null,
    "forwarded": null,
    "start": "2026-10-26T16:15:00-04:00",
@@ -15285,10 +15462,10 @@
     "link": ""
    },
    "audience": {
-    "level": "unknown",
+    "level": "harvard",
     "group": "",
-    "evidence": "",
-    "basis": "none"
+    "evidence": "Gazette listing: Harvard Key required",
+    "basis": "listing"
    },
    "summary": "Led by M-RCBG Senior Fellow Ijeoma Okoli, this study group examines how stablecoins may reinforce U.S. dollar dominance and expand American influence, despite often being presented as alternatives to the dollar. Cryptocurrencies are often pitted as competitors to the US dollar. But what if they aren't and instead…",
    "blurb": "this study group examines how stablecoins may reinforce U.S. dollar dominance and expand American influence, despite often being presented as alternatives to the dollar. Cryptocurrencies are often pitted as competitors to the US dollar. But what if they…",
@@ -16994,6 +17171,49 @@
    "walk_min": 10
   },
   {
+   "id": "8cf0cbb08126",
+   "title": "AI, Ethics, and the Future of Civil Society | Human Learning, Machine Intelligence Speaker Series",
+   "url": "https://bit.ly/hgse-ai-13",
+   "source_id": "gazette",
+   "source_name": "Harvard Gazette calendar",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-10-27T13:00:00-04:00",
+   "end": "2026-10-27T14:00:00-04:00",
+   "date": "2026-10-27",
+   "all_day": false,
+   "location": "Askwith Hall, Longfellow Hall, 13 Appian Way, Cambridge",
+   "online": false,
+   "host": "Harvard Graduate School of Education",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "Registration link on the event page",
+    "link": "https://bit.ly/hgse-ai-13"
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "AI is reshaping how we gather information, build knowledge, and make decisions at an unprecedented pace, changing not only individual cognition but the fabric of society. What would it take for civil society to remain resilient? What should we expect from those creating these technologies, and what role should…",
+   "blurb": "AI is reshaping how we gather information, build knowledge, and make decisions at an unprecedented pace, changing not only individual cognition but the fabric of society. What would it take for civil society to remain resilient? What should we expect from…",
+   "event_page": true,
+   "notes": "Harvard Key required: No",
+   "place_name": "Graduate School of Education (Appian Way)",
+   "lat": 42.374893,
+   "lon": -71.12176,
+   "geo_method": "gazetteer",
+   "walk_min": 14
+  },
+  {
    "id": "11ccb2788a6c",
    "title": "HLS Library: Creepy Collections & Haunted Halls Tour",
    "url": "https://hls.harvard.edu/events/hls-library-creepy-collections-haunted-halls-tour/",
@@ -17255,7 +17475,7 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "Oct 27, 2026 @ 4:00 PM What Remains: AI, Death, and Loss All Too Human 2026-27 Speaker Series Our online lives increasingly outlast us, leaving our likeness with loved ones grappling with challenging but eternal questions of legacy, loss, and law. How does this digital… In-Person RSVP Zoom RSVP Event Nov 3, 2026 @…",
+   "summary": "Oct 27, 2026 @ 4:00 PM What Remains: AI, Death, and Loss All Too Human 2026-27 Speaker Series Our online lives increasingly outlast us, leaving our likeness with loved ones grappling with challenging but eternal questions of legacy, loss, and law. How does this digital… In-Person RSVP Zoom RSVP Nov 3, 2026 @ 12:20 PM…",
    "blurb": "Our online lives increasingly outlast us, leaving our likeness with loved ones grappling with challenging but eternal questions of legacy, loss, and law. What can the law teach us about where AI systems should exercise judgment when their instructions leave…",
    "event_page": true,
    "notes": "",
@@ -17487,22 +17707,29 @@
    "walk_min": 10
   },
   {
-   "id": "fb3a5d9a85f0",
-   "title": "Patriotism and Principles",
-   "url": "https://www.hks.harvard.edu/events/patriotism-and-principles",
-   "source_id": "hks",
-   "source_name": "Harvard Kennedy School",
-   "also_listed": [],
-   "aliases": [],
+   "id": "8c41497f6e4a",
+   "title": "Patriotism and Principles with former congresswoman Liz Cheney",
+   "url": "https://iop.harvard.edu/events/patriotism-and-principles-fmr-congresswoman-liz-cheney",
+   "source_id": "gazette",
+   "source_name": "Harvard Gazette calendar",
+   "also_listed": [
+    {
+     "source_name": "Harvard Kennedy School",
+     "url": "https://www.hks.harvard.edu/events/patriotism-and-principles"
+    }
+   ],
+   "aliases": [
+    "fb3a5d9a85f0"
+   ],
    "suggested": null,
    "forwarded": null,
    "start": "2026-10-27T18:00:00-04:00",
    "end": "2026-10-27T19:00:00-04:00",
    "date": "2026-10-27",
    "all_day": false,
-   "location": "John F. Kennedy Jr. Forum",
+   "location": "JFK Jr. Forum, 79 JFK St., Cambridge",
    "online": false,
-   "host": "Institute of Politics (IOP)",
+   "host": "Institute of Politics at Harvard Kennedy School; Center for Public Leadership",
    "food": {
     "status": "none",
     "types": [],
@@ -17510,7 +17737,7 @@
    },
    "registration": {
     "status": "required",
-    "evidence": "RSVP link on the event page",
+    "evidence": "Registration link on the event page",
     "link": "https://iop.harvard.edu/events/patriotism-and-principles-fmr-congresswoman-liz-cheney"
    },
    "audience": {
@@ -17522,11 +17749,11 @@
    "summary": "Join us for a conversation with former Congresswoman Liz Cheney, whose principled leadership and commitment to public service earned national recognition as vice chair of the bipartisan House Select Committee investigating the January 6 attacks on the U.S. Capitol. Since leaving office in 2023, Cheney has continued to…",
    "blurb": "Join us for a conversation with former Congresswoman Liz Cheney, whose principled leadership and commitment to public service earned national recognition as vice chair of the bipartisan House Select Committee investigating the January 6 attacks on the U.S.…",
    "event_page": true,
-   "notes": "",
+   "notes": "Cost: Free | Harvard Key required: No",
    "place_name": "Littauer Building, Harvard Kennedy School",
    "lat": 42.371045,
    "lon": -71.12209,
-   "geo_method": "host",
+   "geo_method": "gazetteer",
    "walk_min": 18
   },
   {
@@ -18584,7 +18811,7 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "Tuesday, November 3, 2026 Time: 7:00pm EST Where: JFK Jr. Forum, 79 John F. Kennedy St., Cambridge, MA 02138 Meeting Method: Hybrid Add to Calendar 2026-11-03 19:00:00 2026-10-20 08:42:52 Election Night in the Forum The JFK Jr. Forum is the place to be on election night! At 7:00pm, Eugene Scott will lead a…",
+   "summary": "Tuesday, November 3, 2026 Time: 7:00pm EST Where: JFK Jr. Forum, 79 John F. Kennedy St., Cambridge, MA 02138 Meeting Method: Hybrid Add to Calendar 2026-11-03 19:00:00 2026-10-20 15:45:10 Election Night in the Forum The JFK Jr. Forum is the place to be on election night! At 7:00pm, Eugene Scott will lead a…",
    "blurb": "Forum is the place to be on election night! At 7:00pm, Eugene Scott will lead a conversation with a diverse group of guests on what to look for as the night unfolds. Food and beverages will be available throughout the evening.",
    "event_page": true,
    "notes": "",
@@ -18798,6 +19025,12 @@
   }
  ],
  "suggestions": [
+  {
+   "id": 11,
+   "state": "on_map",
+   "label": "On the map: Wed Oct 21, 12:00 PM",
+   "event_id": "06c38b942a66"
+  },
   {
    "id": 10,
    "state": "review",
