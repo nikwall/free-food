@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-20T16:02:47-04:00",
+ "generated_at": "2026-10-20T20:40:24-04:00",
  "window": {
   "start": "2026-10-20",
   "end": "2026-10-27"
@@ -22,7 +22,7 @@
    "error": null,
    "n_events": 167,
    "n_food": 7,
-   "seconds": 1.9
+   "seconds": 2.2
   },
   {
    "id": "hks",
@@ -30,9 +30,9 @@
    "homepage": "https://www.hks.harvard.edu/more/events",
    "ok": true,
    "error": null,
-   "n_events": 44,
+   "n_events": 45,
    "n_food": 8,
-   "seconds": 18.9
+   "seconds": 8.4
   },
   {
    "id": "hls",
@@ -50,9 +50,9 @@
    "homepage": "https://events.college.harvard.edu/",
    "ok": true,
    "error": null,
-   "n_events": 106,
+   "n_events": 105,
    "n_food": 11,
-   "seconds": 1.3
+   "seconds": 0.5
   },
   {
    "id": "ash",
@@ -62,7 +62,7 @@
    "error": null,
    "n_events": 3,
    "n_food": 1,
-   "seconds": 2.0
+   "seconds": 1.9
   },
   {
    "id": "shorenstein",
@@ -72,7 +72,7 @@
    "error": null,
    "n_events": 2,
    "n_food": 0,
-   "seconds": 11.5
+   "seconds": 9.1
   },
   {
    "id": "fairbank",
@@ -82,7 +82,7 @@
    "error": null,
    "n_events": 8,
    "n_food": 1,
-   "seconds": 0.2
+   "seconds": 0.1
   },
   {
    "id": "newsletter",
@@ -92,7 +92,7 @@
    "error": null,
    "n_events": 85,
    "n_food": 11,
-   "seconds": 87.9
+   "seconds": 50.4
   },
   {
    "id": "suggested",
@@ -102,7 +102,7 @@
    "error": null,
    "n_events": 11,
    "n_food": 2,
-   "seconds": 5.1
+   "seconds": 4.9
   }
  ],
  "stats": {
@@ -112,7 +112,7 @@
   "forwarded": 63,
   "forwarded_listed": 21,
   "food_restricted": 54,
-  "seconds": 97.7
+  "seconds": 59.0
  },
  "events": [
   {
@@ -2033,12 +2033,12 @@
    "source_name": "Harvard Gazette calendar",
    "also_listed": [
     {
-     "source_name": "Harvard Kennedy School",
-     "url": "https://www.hks.harvard.edu/events/chris-whipple-study-group-2028-presidential-election-mark-mckinnon"
-    },
-    {
      "source_name": "Forwarded: New Study Groups & Special Guests: Leadership, Presidential Election, Global Con",
      "url": "https://iop.harvard.edu/events/study-group-chris-whipple-all-presidents-men-and-women-2028-presidential-election-mark"
+    },
+    {
+     "source_name": "Harvard Kennedy School",
+     "url": "https://www.hks.harvard.edu/events/chris-whipple-study-group-2028-presidential-election-mark-mckinnon"
     },
     {
      "source_name": "Harvard College events",
@@ -2166,9 +2166,9 @@
     "evidence": ""
    },
    "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://docs.google.com/forms/d/e/1FAIpQLSebuqAgHGlzu5V87uePnyi2OlZ3fyfLVvFqvxSJyu4m9u6s7Q/viewform"
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
    },
    "audience": {
     "level": "unknown",
@@ -2556,14 +2556,14 @@
   },
   {
    "id": "19a918f24bea",
-   "title": "Peacekeeping in Africa and Beyond",
-   "url": "https://www.hks.harvard.edu/events/peacekeeping-africa-and-beyond",
-   "source_id": "hks",
-   "source_name": "Harvard Kennedy School",
+   "title": "Peacekeeping in Africa and Beyond ft. President Olusegun Obasanjo",
+   "url": "https://iop.harvard.edu/events/peacekeeping-africa-and-beyond-ft-president-olusegun-obasanjo",
+   "source_id": "gazette",
+   "source_name": "Harvard Gazette calendar",
    "also_listed": [
     {
-     "source_name": "Harvard Gazette calendar",
-     "url": "https://iop.harvard.edu/events/peacekeeping-africa-and-beyond-ft-president-olusegun-obasanjo"
+     "source_name": "Harvard Kennedy School",
+     "url": "https://www.hks.harvard.edu/events/peacekeeping-africa-and-beyond"
     },
     {
      "source_name": "Harvard College events",
@@ -2600,9 +2600,9 @@
    "end": "2026-10-20T19:00:00-04:00",
    "date": "2026-10-20",
    "all_day": false,
-   "location": "John F. Kennedy Jr. Forum",
+   "location": "JFK Jr. Forum, 79 JFK St., Cambridge",
    "online": false,
-   "host": "Institute of Politics (IOP)",
+   "host": "Institute of Politics at Harvard Kennedy School; Center for African Studies at Harvard University",
    "food": {
     "status": "none",
     "types": [],
@@ -2610,7 +2610,7 @@
    },
    "registration": {
     "status": "required",
-    "evidence": "RSVP link on the event page",
+    "evidence": "Registration link on the event page",
     "link": "https://iop.harvard.edu/events/peacekeeping-africa-and-beyond-ft-president-olusegun-obasanjo"
    },
    "audience": {
@@ -2619,14 +2619,14 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "Drawing on a career that spans military service, democratic leadership, and high-level diplomacy under the United Nations and African Union, former President Obasanjo will discuss the complexities of peacekeeping in modern times, both in his native Africa and across the globe. Featuring: Olusegun Obasanjo President of…",
+   "summary": "Drawing on a career that spans military service, democratic leadership, and high-level diplomacy under the United Nations and African Union, former President Olusegun Obasanjo will discuss the complexities of peacekeeping in modern times, both in his native Africa and across the globe. *Please register with a valid…",
    "blurb": "Drawing on a career that spans military service, democratic leadership, and high-level diplomacy under the United Nations and African Union, former President Obasanjo will discuss the complexities of peacekeeping in modern times, both in his native Africa and…",
    "event_page": true,
-   "notes": "",
+   "notes": "Cost: Free | Harvard Key required: No",
    "place_name": "Littauer Building, Harvard Kennedy School",
    "lat": 42.371045,
    "lon": -71.12209,
-   "geo_method": "host",
+   "geo_method": "gazetteer",
    "walk_min": 18
   },
   {
@@ -11970,49 +11970,6 @@
    "walk_min": 7
   },
   {
-   "id": "3384839eed9f",
-   "title": "Game vs Bryant",
-   "url": "https://soco.college.harvard.edu/rsvp?id=383344",
-   "source_id": "college",
-   "source_name": "Harvard College events",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-10-24T11:00:00-04:00",
-   "end": "2026-10-24T13:30:00-04:00",
-   "date": "2026-10-24",
-   "all_day": false,
-   "location": "SoCo",
-   "online": false,
-   "host": "Dean of Students Office",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "required",
-    "evidence": "Registration link on the event page",
-    "link": "https://soco.college.harvard.edu/rsvp?id=383344"
-   },
-   "audience": {
-    "level": "restricted",
-    "group": "Harvard College students",
-    "evidence": "Harvard College calendar, no sign it is open to others",
-    "basis": "default"
-   },
-   "summary": "Basketball game vs Bryant Club Basketball Team — Event Details: https://soco.college.harvard.edu/rsvp?id=383344",
-   "blurb": "",
-   "event_page": true,
-   "notes": "",
-   "place_name": "",
-   "lat": null,
-   "lon": null,
-   "geo_method": null,
-   "walk_min": null
-  },
-  {
    "id": "fc6cfe4f0f1f",
    "title": "Junior Family Weekend Brunch & House Tours",
    "url": "https://events.college.harvard.edu/dunster-house/event/223963-junior-family-weekend-brunch-house-tours",
@@ -17486,6 +17443,49 @@
    "walk_min": null
   },
   {
+   "id": "f96e0c4dba70",
+   "title": "Study Group with Ambassador Kelly Craft: The Midterms and Trump’s Foreign Policy",
+   "url": "https://www.hks.harvard.edu/events/study-group-ambassador-kelly-craft-midterms-and-trumps-foreign-policy",
+   "source_id": "hks",
+   "source_name": "Harvard Kennedy School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-10-27T16:00:00-04:00",
+   "end": "2026-10-27T17:15:00-04:00",
+   "date": "2026-10-27",
+   "all_day": false,
+   "location": "L-166",
+   "online": false,
+   "host": "Institute of Politics (IOP)",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "RSVP link on the event page",
+    "link": "https://iop.harvard.edu/events/study-group-ambassador-kelly-craft-midterms-and-trumps-foreign-policy"
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "HKS students",
+    "evidence": "Title: Study Group with Ambassador Kelly Craft: The Midterms and Trump’s Foreign Policy",
+    "basis": "inferred"
+   },
+   "summary": "The midterm elections are a week away, and it looks like a blue wave is coming. Will it land? Will Republicans avoid electoral disaster? What will be the impact of Trump’s foreign policy? And what is to come for the world in the last two years of the Trump presidency? IN-PERSON GUEST: Marc Thiessen, Distinguished…",
+   "blurb": "The midterm elections are a week away, and it looks like a blue wave is coming. What will be the impact of Trump’s foreign policy? And what is to come for the world in the last two years of the Trump presidency? These off-the-record conversations are open to…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Littauer Building, Harvard Kennedy School",
+   "lat": 42.371045,
+   "lon": -71.12209,
+   "geo_method": "gazetteer",
+   "walk_min": 18
+  },
+  {
    "id": "635c5b4716fd",
    "title": "What Remains: AI, Death, and Loss",
    "url": "https://hls.harvard.edu/events/what-remains-ai-death-and-loss/",
@@ -18250,7 +18250,7 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "Wednesday, October 28, 2026 Time: 6:00pm EST Where: JFK Jr. Forum, 79 John F. Kennedy St., Cambridge, MA 02138 Meeting Method: Hybrid Add to Calendar 2026-10-28 18:00:00 2026-10-20 08:30:08 Gender Apartheid: Power and Oppression in Afghanistan with Metra Mehran, Sima Samar, & Mathias Risse Our panel of experts will…",
+   "summary": "Wednesday, October 28, 2026 Time: 6:00pm EST Where: JFK Jr. Forum, 79 John F. Kennedy St., Cambridge, MA 02138 Meeting Method: Hybrid Add to Calendar 2026-10-28 18:00:00 2026-10-20 17:03:07 Gender Apartheid: Power and Oppression in Afghanistan with Metra Mehran, Sima Samar, & Mathias Risse Our panel of experts will…",
    "blurb": "Our panel of experts will unpack the state of women’s and girls’ rights in Afghanistan under Taliban rule, including restrictions on education, employment, freedom of movement, political participation, and public life. In partnership with the Women and Public…",
    "event_page": true,
    "notes": "",
