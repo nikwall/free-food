@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T16:14:54-04:00",
+ "generated_at": "2026-10-21T20:44:37-04:00",
  "window": {
   "start": "2026-10-21",
   "end": "2026-10-28"
@@ -22,7 +22,7 @@
    "error": null,
    "n_events": 165,
    "n_food": 6,
-   "seconds": 1.9
+   "seconds": 2.1
   },
   {
    "id": "hks",
@@ -30,9 +30,9 @@
    "homepage": "https://www.hks.harvard.edu/more/events",
    "ok": true,
    "error": null,
-   "n_events": 48,
-   "n_food": 12,
-   "seconds": 23.7
+   "n_events": 50,
+   "n_food": 13,
+   "seconds": 5.9
   },
   {
    "id": "hls",
@@ -40,9 +40,9 @@
    "homepage": "https://hls.harvard.edu/calendar/",
    "ok": true,
    "error": null,
-   "n_events": 108,
-   "n_food": 60,
-   "seconds": 34.5
+   "n_events": 110,
+   "n_food": 61,
+   "seconds": 15.1
   },
   {
    "id": "college",
@@ -50,9 +50,9 @@
    "homepage": "https://events.college.harvard.edu/",
    "ok": true,
    "error": null,
-   "n_events": 106,
+   "n_events": 107,
    "n_food": 11,
-   "seconds": 1.2
+   "seconds": 1.3
   },
   {
    "id": "ash",
@@ -62,7 +62,7 @@
    "error": null,
    "n_events": 5,
    "n_food": 2,
-   "seconds": 2.3
+   "seconds": 2.6
   },
   {
    "id": "shorenstein",
@@ -72,7 +72,7 @@
    "error": null,
    "n_events": 2,
    "n_food": 0,
-   "seconds": 10.6
+   "seconds": 10.7
   },
   {
    "id": "fairbank",
@@ -92,7 +92,7 @@
    "error": null,
    "n_events": 75,
    "n_food": 12,
-   "seconds": 104.4
+   "seconds": 130.6
   },
   {
    "id": "suggested",
@@ -100,19 +100,19 @@
    "homepage": "",
    "ok": true,
    "error": null,
-   "n_events": 8,
+   "n_events": 7,
    "n_food": 1,
-   "seconds": 5.2
+   "seconds": 5.9
   }
  ],
  "stats": {
-  "events": 417,
-  "food_confirmed": 67,
+  "events": 420,
+  "food_confirmed": 69,
   "food_likely": 24,
   "forwarded": 56,
   "forwarded_listed": 19,
-  "food_restricted": 54,
-  "seconds": 114.5
+  "food_restricted": 55,
+  "seconds": 141.2
  },
  "events": [
   {
@@ -2557,20 +2557,13 @@
    "walk_min": 8
   },
   {
-   "id": "8df5c1de1408",
+   "id": "aa0bc18329d4",
    "title": "China Economy Lecture featuring Jazmin Sierra — Going Out to Catch Up: China and the Globalization of State-Led Development",
    "url": "https://fairbank.fas.harvard.edu/events/china-economy-lecture-featuring-jazmin-sierra/",
    "source_id": "fairbank",
    "source_name": "Fairbank Center",
-   "also_listed": [
-    {
-     "source_name": "Suggested calendar: Fairbanks center",
-     "url": "https://fairbank.fas.harvard.edu/events/china-economy-lecture-featuring-jazmin-sierra/"
-    }
-   ],
-   "aliases": [
-    "aa0bc18329d4"
-   ],
+   "also_listed": [],
+   "aliases": [],
    "suggested": null,
    "forwarded": null,
    "start": "2026-10-21T16:00:00-04:00",
@@ -2597,7 +2590,7 @@
     "basis": "none"
    },
    "summary": "@ Speaker: Jazmin Sierra, Assistant Professor of Political Science, Kellogg Institute Faculty Fellow, University of Notre Dame China’s rise is often told as a story of opening to foreign capital and becoming the workshop of the world. But opening up also set in motion a less familiar transformation: China began to…",
-   "blurb": "Globalized State-led Development: How States Support Firms at Home and Abroad (Cambridge Studies in Comparative Politics) traces the ideational and institutional foundations of this outward turn. Through experimentation and learning, Chinese policymakers came…",
+   "blurb": "China’s rise is often told as a story of opening to foreign capital and becoming the workshop of the world. But opening up also set in motion a less familiar transformation: China began to globalize state-led development itself. Rather than confining…",
    "event_page": true,
    "notes": "",
    "place_name": "CGIS South Building",
@@ -2775,12 +2768,12 @@
    "source_name": "Forwarded: New Study Groups & Special Guests: Leadership, Presidential Election, Global Con",
    "also_listed": [
     {
-     "source_name": "Harvard Kennedy School",
-     "url": "https://www.hks.harvard.edu/events/study-group-governor-doug-ducey-leading-governing-daniel-scarpinato"
-    },
-    {
      "source_name": "Harvard Gazette calendar",
      "url": "https://iop.harvard.edu/events/study-group-governor-doug-ducey-leading-governing-daniel-scarpinato"
+    },
+    {
+     "source_name": "Harvard Kennedy School",
+     "url": "https://www.hks.harvard.edu/events/study-group-governor-doug-ducey-leading-governing-daniel-scarpinato"
     },
     {
      "source_name": "Harvard College events",
@@ -2940,9 +2933,9 @@
     "evidence": ""
    },
    "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001kNSTIA2"
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
    },
    "audience": {
     "level": "unknown",
@@ -3164,9 +3157,9 @@
     "evidence": ""
    },
    "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://huevents.harvard.edu/profile/176055"
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
    },
    "audience": {
     "level": "unknown",
@@ -3242,16 +3235,16 @@
      "url": "https://www.hks.harvard.edu/events/more-entertainment-art-activism-and-lgbtqi-human-rights"
     },
     {
+     "source_name": "Harvard College events",
+     "url": "https://events.college.harvard.edu/event/225436-more-than-entertainment-art-activism-and-lgbtqi"
+    },
+    {
      "source_name": "Forwarded: This Week at the IOP: Youth Vote and the Midterms; Networking Night; Steve Witko",
      "url": "https://iop.harvard.edu/events/more-entertainment-art-activism-and-lgbtqi-human-rights-uzo-aduba-joe-locke-luis-adrian-ruiz"
     },
     {
      "source_name": "Forwarded: JFK Jr. Forum: Jake Sullivan & Michael Anton Debate; Uzo Aduba & Joe Locke on Po",
      "url": "https://iop.harvard.edu/events/more-entertainment-art-activism-and-lgbtqi-human-rights-uzo-aduba-joe-locke-luis-adrian-ruiz"
-    },
-    {
-     "source_name": "Harvard College events",
-     "url": "https://events.college.harvard.edu/event/225436-more-than-entertainment-art-activism-and-lgbtqi"
     }
    ],
    "aliases": [
@@ -8023,6 +8016,10 @@
      "url": "https://iop.harvard.edu/events/study-group-ambassador-chris-lu-faith-and-public-service-leading-across-differences-melissa"
     },
     {
+     "source_name": "Harvard Kennedy School",
+     "url": "https://www.hks.harvard.edu/events/amb-chris-lu-study-group-faith-and-public-service-leading-across-differences"
+    },
+    {
      "source_name": "Forwarded: New Study Groups & Special Guests: Leadership, Presidential Election, Global Con",
      "url": "https://iop.harvard.edu/events/study-group-ambassador-chris-lu-faith-and-public-service-leading-across-differences-melissa"
     }
@@ -8030,7 +8027,8 @@
    "aliases": [
     "913859915536",
     "c62676c1c7dd",
-    "e0934fb759d2"
+    "e0934fb759d2",
+    "fbf5e615dc8c"
    ],
    "suggested": null,
    "forwarded": {
@@ -10756,6 +10754,49 @@
    "walk_min": 4
   },
   {
+   "id": "9cda7ac5ace9",
+   "title": "WiM x Kaplan Workshop",
+   "url": "https://soco.college.harvard.edu/rsvp?id=383352",
+   "source_id": "college",
+   "source_name": "Harvard College events",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-10-25T14:00:00-04:00",
+   "end": "2026-10-25T15:00:00-04:00",
+   "date": "2026-10-25",
+   "all_day": false,
+   "location": "SoCo",
+   "online": false,
+   "host": "Dean of Students Office",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "Register for the event here!",
+    "link": "https://soco.college.harvard.edu/rsvp?id=383352"
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "Harvard College students",
+    "evidence": "Harvard College calendar, no sign it is open to others",
+    "basis": "default"
+   },
+   "summary": "Join Harvard Women in Medicine, in partnership with Kaplan, for a medical school admissions workshop on Sunday, October 25, from 2–3 PM! You can attend either in person in Harvard Hall 101 or virtually via Zoom. Register for the event here! Registering for the event also enters you into a lottery for the chance to win…",
+   "blurb": "Join Harvard Women in Medicine, in partnership with Kaplan, for a medical school admissions workshop on Sunday, October 25, from 2–3 PM! You can attend either in person in Harvard Hall 101 or virtually via Zoom. the event also enters you into a lottery for…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "",
+   "lat": null,
+   "lon": null,
+   "geo_method": null,
+   "walk_min": null
+  },
+  {
    "id": "3597d61ca42b",
    "title": "FD Open House",
    "url": "https://events.college.harvard.edu/winthrop-house/event/224149-fd-open-house",
@@ -12400,6 +12441,52 @@
    "lon": -71.118138,
    "geo_method": "gazetteer",
    "walk_min": 8
+  },
+  {
+   "id": "0e49130cd38e",
+   "title": "ACS Event: SCOTUS Term Preview with Professor Noah Feldman",
+   "url": "https://hls.harvard.edu/events/acs-event-scotus-term-preview-with-professor-noah-feldman/",
+   "source_id": "hls",
+   "source_name": "Harvard Law School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-10-26T12:30:00-04:00",
+   "end": "2026-10-26T13:15:00-04:00",
+   "date": "2026-10-26",
+   "all_day": false,
+   "location": "WCC, 2012 Classroom, Harvard Law School",
+   "online": false,
+   "host": "American Constitution Society for Law and Policy",
+   "food": {
+    "status": "confirmed",
+    "types": [
+     "Lunch"
+    ],
+    "evidence": "Lunch to be provided.",
+    "cue": "strong"
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "RSVP here: https://forms.gle/us4jZ6Jjrd2jyrDV7",
+    "link": "http://www.google.com/calendar/event?action=TEMPLATE&text=ACS%20Event:%20SCOTUS%20Term%20Preview%20with%20Professor%20Noah%20Feldman&dates=20261026T163000Z/20261026T171500Z&details=Please%20join%20ACS%20for%20a%20SCOTUS%20term%20preview%20with%20Professor%20Noah%20Feldman.%20Lunch%20to%20be%20provided.%20RSVP%20here:%20https://forms.gle/us4jZ6Jjrd2jyrDV7&sprop=Harvard%20Law%20School&location=WCC;%202012%20Classroom,%20,%20,%20,%20,%20"
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "HLS community",
+    "evidence": "HLS listing audience: HLS only",
+    "basis": "listing"
+   },
+   "summary": "Please join ACS for a SCOTUS term preview with Professor Noah Feldman. Lunch to be provided. RSVP here: https://forms.gle/us4jZ6Jjrd2jyrDV7 Add to Calendar October 26, 2026, 12:30 pm - 1:15 pm +Google Calendar +iCal/Outlook",
+   "blurb": "Please join ACS for a SCOTUS term preview with Professor Noah Feldman.",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Wasserstein Hall (WCC), Harvard Law School",
+   "lat": 42.379383,
+   "lon": -71.119421,
+   "geo_method": "gazetteer",
+   "walk_min": 10
   },
   {
    "id": "570367b5427d",
@@ -14210,6 +14297,52 @@
    "walk_min": 13
   },
   {
+   "id": "3b410aca07af",
+   "title": "Intelligence Oversight in the Trump Era with Congressman Jim Himes",
+   "url": "https://www.hks.harvard.edu/events/intelligence-oversight-trump-era-congressman-jim-himes",
+   "source_id": "hks",
+   "source_name": "Harvard Kennedy School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-10-27T12:00:00-04:00",
+   "end": "2026-10-27T13:00:00-04:00",
+   "date": "2026-10-27",
+   "all_day": false,
+   "location": "L-166",
+   "online": false,
+   "host": "Institute of Politics (IOP)",
+   "food": {
+    "status": "confirmed",
+    "types": [
+     "Lunch"
+    ],
+    "evidence": "Lunch will be served.",
+    "cue": "strong"
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "RSVP link on the event page",
+    "link": "https://iop.harvard.edu/events/who-watches-watchmen-intelligence-oversight-trump-era-congressman-jim-himes"
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "What role does Congress play in identifying risks and holding the intelligence community accountable? Join the Institute of Politics for the next installment of our Food for Thought series featuring Congressman Jim Himes (CT-04), ranking Member of the House Permanent Select Committee on Intelligence, and on the House…",
+   "blurb": "What role does Congress play in identifying risks and holding the intelligence community accountable? the next installment of our Food for Thought series featuring Congressman Jim Himes (CT-04), ranking Member of the House Permanent Select Committee on…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Littauer Building, Harvard Kennedy School",
+   "lat": 42.371045,
+   "lon": -71.12209,
+   "geo_method": "gazetteer",
+   "walk_min": 18
+  },
+  {
    "id": "c993ca6f5a7c",
    "title": "La Alianza Presents: A Day in the Life of an Associate",
    "url": "https://hls.harvard.edu/events/la-alianza-presents-a-day-in-the-life-of-an-associate/",
@@ -15124,11 +15257,13 @@
   {
    "id": "635c5b4716fd",
    "title": "What Remains: AI, Death, and Loss",
-   "url": "https://hls.harvard.edu/events/what-remains-ai-death-and-loss/",
+   "url": "https://hls.harvard.edu/events/what-remains-ai-death-and-loss-2/",
    "source_id": "hls",
    "source_name": "Harvard Law School",
    "also_listed": [],
-   "aliases": [],
+   "aliases": [
+    "7bc200b774b7"
+   ],
    "suggested": null,
    "forwarded": null,
    "start": "2026-10-27T16:00:00-04:00",
@@ -19209,7 +19344,7 @@
   {
    "id": 4,
    "state": "scanned",
-   "label": "Scanned at every update: 30 events found, 1 with food this week",
+   "label": "Scanned at every update: 29 events found, 1 with food this week",
    "n_food": 1
   }
  ],
