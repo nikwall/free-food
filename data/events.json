@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T11:21:03-04:00",
+ "generated_at": "2026-10-22T16:13:08-04:00",
  "window": {
   "start": "2026-10-22",
   "end": "2026-10-29"
@@ -22,7 +22,7 @@
    "error": null,
    "n_events": 166,
    "n_food": 6,
-   "seconds": 2.1
+   "seconds": 1.9
   },
   {
    "id": "hks",
@@ -31,8 +31,8 @@
    "ok": true,
    "error": null,
    "n_events": 48,
-   "n_food": 11,
-   "seconds": 23.1
+   "n_food": 12,
+   "seconds": 17.7
   },
   {
    "id": "hls",
@@ -41,8 +41,8 @@
    "ok": true,
    "error": null,
    "n_events": 99,
-   "n_food": 53,
-   "seconds": 7.9
+   "n_food": 56,
+   "seconds": 32.3
   },
   {
    "id": "college",
@@ -50,9 +50,9 @@
    "homepage": "https://events.college.harvard.edu/",
    "ok": true,
    "error": null,
-   "n_events": 98,
+   "n_events": 100,
    "n_food": 9,
-   "seconds": 0.5
+   "seconds": 1.1
   },
   {
    "id": "ash",
@@ -62,7 +62,7 @@
    "error": null,
    "n_events": 4,
    "n_food": 2,
-   "seconds": 2.1
+   "seconds": 2.2
   },
   {
    "id": "shorenstein",
@@ -72,7 +72,7 @@
    "error": null,
    "n_events": 2,
    "n_food": 0,
-   "seconds": 11.5
+   "seconds": 9.0
   },
   {
    "id": "fairbank",
@@ -82,7 +82,7 @@
    "error": null,
    "n_events": 4,
    "n_food": 0,
-   "seconds": 8.4
+   "seconds": 0.1
   },
   {
    "id": "newsletter",
@@ -92,7 +92,7 @@
    "error": null,
    "n_events": 65,
    "n_food": 10,
-   "seconds": 63.6
+   "seconds": 133.6
   },
   {
    "id": "suggested",
@@ -102,17 +102,17 @@
    "error": null,
    "n_events": 5,
    "n_food": 1,
-   "seconds": 10.7
+   "seconds": 5.4
   }
  ],
  "stats": {
-  "events": 399,
-  "food_confirmed": 63,
+  "events": 403,
+  "food_confirmed": 67,
   "food_likely": 20,
   "forwarded": 49,
   "forwarded_listed": 15,
-  "food_restricted": 49,
-  "seconds": 83.0
+  "food_restricted": 50,
+  "seconds": 143.4
  },
  "events": [
   {
@@ -1878,70 +1878,6 @@
    "walk_min": 4
   },
   {
-   "id": "0317c04df73d",
-   "title": "Amb Kelly Craft: Case for Disagreement: Beyond Identity & Ideological Conformity",
-   "url": "https://www.hks.harvard.edu/events/amb-kelly-craft-case-disagreement-beyond-identity-ideological-conformity",
-   "source_id": "hks",
-   "source_name": "Harvard Kennedy School",
-   "also_listed": [
-    {
-     "source_name": "Harvard Gazette calendar",
-     "url": "https://iop.harvard.edu/events/study-group-ambassador-kelly-craft-case-disagreement-beyond-identity-and-ideological"
-    },
-    {
-     "source_name": "Forwarded: New Study Groups & Special Guests: Leadership, Presidential Election, Global Con",
-     "url": "https://iop.harvard.edu/events/study-group-ambassador-kelly-craft-case-disagreement-beyond-identity-and-ideological"
-    },
-    {
-     "source_name": "Harvard College events",
-     "url": "https://events.college.harvard.edu/event/225767-study-group-with-ambassador-kelly-craft-the-case"
-    }
-   ],
-   "aliases": [
-    "1007fac84135",
-    "6f471c66c164",
-    "97189485a5c8"
-   ],
-   "suggested": null,
-   "forwarded": {
-    "by": "Ellen",
-    "subject": "New Study Groups & Special Guests: Leadership, Presidential Election, Global Conflicts, & more",
-    "missing": []
-   },
-   "start": "2026-10-22T16:00:00-04:00",
-   "end": "2026-10-22T17:15:00-04:00",
-   "date": "2026-10-22",
-   "all_day": false,
-   "location": "L-166",
-   "online": false,
-   "host": "Institute of Politics (IOP)",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://iop.harvard.edu/events/study-group-ambassador-kelly-craft-case-disagreement-beyond-identity-and-ideological"
-   },
-   "audience": {
-    "level": "harvard",
-    "group": "",
-    "evidence": "*These off-the-record conversations are open to members of the Harvard community.",
-    "basis": "text"
-   },
-   "summary": "In an age of deepening polarization, we increasingly mistake identity for ideology, dissent for betrayal, and silence for consensus. We will make the case for a more expansive democratic culture—one that embraces complexity, protects minority viewpoints, and allows people to disagree honestly without being reduced to…",
-   "blurb": "In an age of deepening polarization, we increasingly mistake identity for ideology, dissent for betrayal, and silence for consensus. We will make the case for a more expansive democratic culture—one that embraces complexity, protects minority viewpoints, and…",
-   "event_page": true,
-   "notes": "",
-   "place_name": "Littauer Building, Harvard Kennedy School",
-   "lat": 42.371045,
-   "lon": -71.12209,
-   "geo_method": "gazetteer",
-   "walk_min": 18
-  },
-  {
    "id": "27d0ea12df15",
    "title": "Decision-Making Under Duress: A Framework for Founders and Leaders",
    "url": "https://www.hks.harvard.edu/events/decision-making-under-duress-framework-founders-and-leaders",
@@ -2033,6 +1969,70 @@
    "lon": -71.113135,
    "geo_method": "gazetteer",
    "walk_min": 5
+  },
+  {
+   "id": "0317c04df73d",
+   "title": "Study Group with Ambassador Kelly Craft — The Case for Disagreement: Beyond Identity and Ideological Conformity",
+   "url": "https://iop.harvard.edu/events/study-group-ambassador-kelly-craft-case-disagreement-beyond-identity-and-ideological",
+   "source_id": "gazette",
+   "source_name": "Harvard Gazette calendar",
+   "also_listed": [
+    {
+     "source_name": "Forwarded: New Study Groups & Special Guests: Leadership, Presidential Election, Global Con",
+     "url": "https://iop.harvard.edu/events/study-group-ambassador-kelly-craft-case-disagreement-beyond-identity-and-ideological"
+    },
+    {
+     "source_name": "Harvard College events",
+     "url": "https://events.college.harvard.edu/event/225767-study-group-with-ambassador-kelly-craft-the-case"
+    },
+    {
+     "source_name": "Harvard Kennedy School",
+     "url": "https://www.hks.harvard.edu/index%2Ephp/events/amb-kelly-craft-case-disagreement-beyond-identity-ideological-conformity"
+    }
+   ],
+   "aliases": [
+    "1007fac84135",
+    "4bab93556ac7",
+    "6f471c66c164"
+   ],
+   "suggested": null,
+   "forwarded": {
+    "by": "Ellen",
+    "subject": "New Study Groups & Special Guests: Leadership, Presidential Election, Global Conflicts, & more",
+    "missing": []
+   },
+   "start": "2026-10-22T16:00:00-04:00",
+   "end": "2026-10-22T17:15:00-04:00",
+   "date": "2026-10-22",
+   "all_day": false,
+   "location": "Institute of Politics, 79 JFK St., Cambridge",
+   "online": false,
+   "host": "Institute of Politics at Harvard Kennedy School",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "Registration link on the event page",
+    "link": "https://iop.harvard.edu/events/study-group-ambassador-kelly-craft-case-disagreement-beyond-identity-and-ideological"
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "students",
+    "evidence": "Title: Study Group with Ambassador Kelly Craft — The Case for Disagreement: Beyond Identity and Ideological Conformity",
+    "basis": "inferred"
+   },
+   "summary": "In an age of deepening polarization, we increasingly mistake identity for ideology, dissent for betrayal, and silence for consensus. We will make the case for a more expansive democratic culture — one that embraces complexity, protects minority viewpoints, and allows people to disagree honestly without being reduced…",
+   "blurb": "In an age of deepening polarization, we increasingly mistake identity for ideology, dissent for betrayal, and silence for consensus. We will make the case for a more expansive democratic culture—one that embraces complexity, protects minority viewpoints, and…",
+   "event_page": true,
+   "notes": "Cost: Free | Harvard Key required: No",
+   "place_name": "Littauer Building, Harvard Kennedy School",
+   "lat": 42.371045,
+   "lon": -71.12209,
+   "geo_method": "gazetteer",
+   "walk_min": 18
   },
   {
    "id": "880af8c6adb8",
@@ -2182,22 +2182,22 @@
    "source_name": "Harvard Gazette calendar",
    "also_listed": [
     {
-     "source_name": "Harvard Kennedy School",
-     "url": "https://www.hks.harvard.edu/events/study-group-hon-alejandro-mayorkas-terrorism-evolution-threat"
-    },
-    {
      "source_name": "Forwarded: New Study Groups & Special Guests: Leadership, Presidential Election, Global Con",
      "url": "https://iop.harvard.edu/events/study-group-honorable-alejandro-mayorkas-terrorism-and-evolution-threat-foreign-terrorist"
     },
     {
      "source_name": "Harvard College events",
      "url": "https://events.college.harvard.edu/event/225769-study-group-with-the-honorable-alejandro-mayorkas"
+    },
+    {
+     "source_name": "Harvard Kennedy School",
+     "url": "https://www.hks.harvard.edu/index%2Ephp/events/study-group-hon-alejandro-mayorkas-terrorism-evolution-threat"
     }
    ],
    "aliases": [
     "47f0288a5bed",
     "7293c22c8b75",
-    "dd155cb79414"
+    "d1aeea2f8233"
    ],
    "suggested": null,
    "forwarded": {
@@ -2578,16 +2578,16 @@
      "url": "https://www.hks.harvard.edu/events/2026-stone-lecture-economic-inequality"
     },
     {
+     "source_name": "Harvard College events",
+     "url": "https://events.college.harvard.edu/event/225438-2026-stone-lecture-in-economic-inequality-with"
+    },
+    {
      "source_name": "Forwarded: This Week at the IOP: Youth Vote and the Midterms; Networking Night; Steve Witko",
      "url": "https://iop.harvard.edu/events/2026-stone-lecture-economic-inequality-cecilia-rouse"
     },
     {
      "source_name": "Forwarded: JFK Jr. Forum: Jake Sullivan & Michael Anton Debate; Uzo Aduba & Joe Locke on Po",
      "url": "https://iop.harvard.edu/events/2026-stone-lecture-economic-inequality-cecilia-rouse"
-    },
-    {
-     "source_name": "Harvard College events",
-     "url": "https://events.college.harvard.edu/event/225438-2026-stone-lecture-in-economic-inequality-with"
     }
    ],
    "aliases": [
@@ -4204,9 +4204,9 @@
    "walk_min": null
   },
   {
-   "id": "8557c1703d53",
-   "title": "Private Rights, Public Wrongs: Can Private Law Remedy Government Overreach?",
-   "url": "https://hls.harvard.edu/events/private-rights-public-wrongs-can-private-law-remedy-government-overreach/",
+   "id": "38ef4d03aa0a",
+   "title": "Private Rights, Public Wrongs: Can Private Law Remedy Government Overreach? – A Conversation with Professor Diego Zambrano and Professor Mariana Pargendler",
+   "url": "https://hls.harvard.edu/events/private-rights-public-wrongs-can-private-law-remedy-government-overreach-a-conversation-with-professor-diego-zambrano-and-professor-mariana-pargendler/",
    "source_id": "hls",
    "source_name": "Harvard Law School",
    "also_listed": [],
@@ -4214,7 +4214,7 @@
    "suggested": null,
    "forwarded": null,
    "start": "2026-10-23T12:15:00-04:00",
-   "end": "2026-10-23T13:20:00-04:00",
+   "end": "2026-10-23T13:15:00-04:00",
    "date": "2026-10-23",
    "all_day": false,
    "location": "Langdell Hall, 225 Vorenberg Classroom - North, Harvard Law School",
@@ -4223,9 +4223,9 @@
    "food": {
     "status": "confirmed",
     "types": [
-     "Lunch"
+     "Food"
     ],
-    "evidence": "Lunch will be served.",
+    "evidence": "Burritos will be served.",
     "cue": "strong"
    },
    "registration": {
@@ -4239,8 +4239,8 @@
     "evidence": "Run by an HLS student organization",
     "basis": "inferred"
    },
-   "summary": "Join the Federalist Society and the American Constitution Society for a conversation with Professor Zambrano and Professor Wu about the role of private law in vindicating rights, remedying wrongs, and holding powerful actors accountable. From tort liability and damages to injunctions and equitable relief, private law…",
-   "blurb": "Join the Federalist Society and the American Constitution Society for a conversation with Professor Zambrano and Professor Wu about the role of private law in vindicating rights, remedying wrongs, and holding powerful actors accountable. From tort liability…",
+   "summary": "Join the Federalist Society and the American Constitution Society for a conversation with Professor Diego Zambrano (Stanford Law) and Professor Mariana Pargendler (Harvard Law) about the role of private law in vindicating rights, remedying wrongs, and holding powerful actors accountable. From tort liability and…",
+   "blurb": "Join the Federalist Society and the American Constitution Society for a conversation with Professor Diego Zambrano (Stanford Law) and Professor Mariana Pargendler (Harvard Law) about the role of private law in vindicating rights, remedying wrongs, and holding…",
    "event_page": true,
    "notes": "",
    "place_name": "Langdell Hall, Harvard Law School",
@@ -5993,6 +5993,49 @@
    "walk_min": 15
   },
   {
+   "id": "b81a977a004e",
+   "title": "Café Football: Chelsea vs Spurs",
+   "url": "https://events.college.harvard.edu/winthrop-house/event/225863-caf-football-chelsea-vs-spurs",
+   "source_id": "college",
+   "source_name": "Harvard College events",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-10-24T12:30:00-04:00",
+   "end": "2026-10-24T14:30:00-04:00",
+   "date": "2026-10-24",
+   "all_day": false,
+   "location": "Lions Den",
+   "online": false,
+   "host": "Winthrop House",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "Winthrop House residents",
+    "evidence": "Hosted by Winthrop House",
+    "basis": "inferred"
+   },
+   "summary": "Football is back! Welcome to Café Football: We host soccer screenings at Winthrop, bringing the house together around the beautiful game. Whether it’s the Manchester Derby or the El Clásico, come watch it with us. See https://docs.google.com/document/d/1snaszuuCJLFSNB8gNn1k-SO5mdq6wjd69b78mOywMUA/edit?usp=sharing for…",
+   "blurb": "We host soccer screenings at Winthrop, bringing the house together around the beautiful game. Whether it’s the Manchester Derby or the El Clásico, come watch it with us. See…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Winthrop House",
+   "lat": 42.370356,
+   "lon": -71.118646,
+   "geo_method": "host",
+   "walk_min": 15
+  },
+  {
    "id": "0db94ce6883c",
    "title": "Je t’aime, je t’aime",
    "url": "https://harvardfilmarchive.org/calendar/je-taime-je-taime-2026-10",
@@ -6091,8 +6134,7 @@
     "7e378c722372",
     "9e8e277491a9",
     "af5bac8a214d",
-    "e59124a63207",
-    "fbbb96da29bd"
+    "e59124a63207"
    ],
    "suggested": null,
    "forwarded": null,
@@ -7315,6 +7357,49 @@
    "lon": -71.115122,
    "geo_method": "gazetteer",
    "walk_min": 5
+  },
+  {
+   "id": "88922bd15980",
+   "title": "Café Football: El Clásico!: Real Madrid vs Barcelona",
+   "url": "https://events.college.harvard.edu/winthrop-house/event/225865-caf-football-el-clsico-real-madrid-vs-barcelona",
+   "source_id": "college",
+   "source_name": "Harvard College events",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-10-25T16:00:00-04:00",
+   "end": "2026-10-25T18:00:00-04:00",
+   "date": "2026-10-25",
+   "all_day": false,
+   "location": "JCR",
+   "online": false,
+   "host": "Winthrop House",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "Winthrop House residents",
+    "evidence": "Hosted by Winthrop House",
+    "basis": "inferred"
+   },
+   "summary": "Football is back! Welcome to Café Football: We host soccer screenings at Winthrop, bringing the house together around the beautiful game. Whether it’s the Manchester Derby or the El Clásico, come watch it with us. See https://docs.google.com/document/d/1snaszuuCJLFSNB8gNn1k-SO5mdq6wjd69b78mOywMUA/edit?usp=sharing for…",
+   "blurb": "We host soccer screenings at Winthrop, bringing the house together around the beautiful game. Whether it’s the Manchester Derby or the El Clásico, come watch it with us. See…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Winthrop House",
+   "lat": 42.370356,
+   "lon": -71.118646,
+   "geo_method": "host",
+   "walk_min": 15
   },
   {
    "id": "681d195b2e95",
@@ -8712,9 +8797,12 @@
    "online": false,
    "host": "Harvard Law School",
    "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
+    "status": "confirmed",
+    "types": [
+     "Lunch"
+    ],
+    "evidence": "Chick-Fil-A will be served for lunch.",
+    "cue": "strong"
    },
    "registration": {
     "status": "unknown",
@@ -8727,8 +8815,8 @@
     "evidence": "Harvard Law School calendar, audience not stated",
     "basis": "default"
    },
-   "summary": "Add to Calendar October 26, 2026, 12:15 pm - 1:15 pm +Google Calendar +iCal/Outlook",
-   "blurb": "",
+   "summary": "HALB will be hosting a panel featuring attorneys from Kirkland & Ellis. Chick-Fil-A will be served for lunch. Add to Calendar October 26, 2026, 12:15 pm - 1:15 pm +Google Calendar +iCal/Outlook",
+   "blurb": "HALB will be hosting a panel featuring attorneys from Kirkland & Ellis. Chick-Fil-A will be served for lunch.",
    "event_page": true,
    "notes": "",
    "place_name": "Wasserstein Hall (WCC), Harvard Law School",
@@ -11033,8 +11121,54 @@
     "evidence": "Harvard Law School calendar, audience not stated",
     "basis": "default"
    },
-   "summary": "Add to Calendar October 27, 2026, 12:15 pm - 1:15 pm +Google Calendar +iCal/Outlook",
-   "blurb": "",
+   "summary": "Join HALB for a lunch & learn with Cravath, Swaine & Moore LLP. Corporate Partners Alex Greenberg and Cole DuMond will give a presentation on how the firm approaches M&A transactions involving founder-led companies. Come with questions for an interactive Q&A! Dig Inn will be served. Add to Calendar October 27, 2026,…",
+   "blurb": "Join HALB for a lunch & learn with Cravath, Swaine & Moore LLP. Corporate Partners Alex Greenberg and Cole DuMond will give a presentation on how the firm approaches M&A transactions involving founder-led companies. Come with questions for an interactive Q&A!",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Wasserstein Hall (WCC), Harvard Law School",
+   "lat": 42.379383,
+   "lon": -71.119421,
+   "geo_method": "gazetteer",
+   "walk_min": 10
+  },
+  {
+   "id": "34835ca94308",
+   "title": "Journal on Legislation & NALSA: Anti-Commandeering and Indian Affairs Legislation Author Talk",
+   "url": "https://hls.harvard.edu/events/journal-on-legislation-nalsa-anti-commandeering-and-indian-affairs-legislation-author-talk-2/",
+   "source_id": "hls",
+   "source_name": "Harvard Law School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-10-27T12:20:00-04:00",
+   "end": "2026-10-27T13:15:00-04:00",
+   "date": "2026-10-27",
+   "all_day": false,
+   "location": "WCC, 2012 Classroom, Harvard Law School",
+   "online": false,
+   "host": "Harvard Journal on Legislation; Harvard Native American Law Students Association",
+   "food": {
+    "status": "confirmed",
+    "types": [
+     "Lunch"
+    ],
+    "evidence": "Lunch will be provided.",
+    "cue": "strong"
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "Please RSVP here.",
+    "link": "https://docs.google.com/forms/d/e/1FAIpQLSeu0N4wfiJKmDKPRZFJcJfuYnKm7LDuTWE1mpAIHDPI8dVfww/viewform?usp=dialog"
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "HLS students",
+    "evidence": "Run by an HLS student organization",
+    "basis": "inferred"
+   },
+   "summary": "Please join the Harvard Journal on Legislation and Harvard Native American Law Students Association as we host Ann Tweedy, Professor of Law at Ole Miss Law, in conversation with Robert Anderson, Oneida Indian Nation Visiting Professor of Law. The two will discuss Professor Tweedy’s article, Anti-Commandeering & Indian…",
+   "blurb": "Please join the Harvard Journal on Legislation and Harvard Native American Law Students Association as we host Ann Tweedy, Professor of Law at Ole Miss Law, in conversation with Robert Anderson, Oneida Indian Nation Visiting Professor of Law. The two will…",
    "event_page": true,
    "notes": "",
    "place_name": "Wasserstein Hall (WCC), Harvard Law School",
@@ -11725,15 +11859,13 @@
    "walk_min": 18
   },
   {
-   "id": "635c5b4716fd",
+   "id": "7bc200b774b7",
    "title": "What Remains: AI, Death, and Loss",
    "url": "https://hls.harvard.edu/events/what-remains-ai-death-and-loss-2/",
    "source_id": "hls",
    "source_name": "Harvard Law School",
    "also_listed": [],
-   "aliases": [
-    "7bc200b774b7"
-   ],
+   "aliases": [],
    "suggested": null,
    "forwarded": null,
    "start": "2026-10-27T16:00:00-04:00",
@@ -12052,6 +12184,49 @@
    "lon": -71.12209,
    "geo_method": "gazetteer",
    "walk_min": 18
+  },
+  {
+   "id": "c87e223e9151",
+   "title": "Catalan Language Table",
+   "url": "https://events.college.harvard.edu/winthrop-house/event/225862-catalan-language-table",
+   "source_id": "college",
+   "source_name": "Harvard College events",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-10-27T18:30:00-04:00",
+   "end": "2026-10-27T20:00:00-04:00",
+   "date": "2026-10-27",
+   "all_day": false,
+   "location": "Private Dining Room",
+   "online": false,
+   "host": "Winthrop House",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "Winthrop House residents",
+    "evidence": "Hosted by Winthrop House",
+    "basis": "inferred"
+   },
+   "summary": "",
+   "blurb": "",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Winthrop House",
+   "lat": 42.370356,
+   "lon": -71.118646,
+   "geo_method": "host",
+   "walk_min": 15
   },
   {
    "id": "1f6f88b0682a",
@@ -13612,9 +13787,12 @@
    "online": false,
    "host": "Harvard Law School",
    "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
+    "status": "confirmed",
+    "types": [
+     "Lunch"
+    ],
+    "evidence": "Lunch will be provided.",
+    "cue": "strong"
    },
    "registration": {
     "status": "unknown",
@@ -13627,8 +13805,8 @@
     "evidence": "Harvard Law School calendar, audience not stated",
     "basis": "default"
    },
-   "summary": "Add to Calendar October 28, 2026, 12:15 pm - 1:15 pm +Google Calendar +iCal/Outlook",
-   "blurb": "",
+   "summary": "Join Skadden attorneys for a panel discussion on navigating law school, exploring practice areas, and building a career in Big Law. Panelists will share their paths to Skadden, how they chose their practice groups, and what day-to-day life looks like for summer associates, junior associates, and beyond. Designed with…",
+   "blurb": "Join Skadden attorneys for a panel discussion on navigating law school, exploring practice areas, and building a career in Big Law. Panelists will share their paths to Skadden, how they chose their practice groups, and what day-to-day life looks like for…",
    "event_page": true,
    "notes": "",
    "place_name": "Pound Hall, Harvard Law School",
@@ -14326,18 +14504,18 @@
   },
   {
    "id": "871a6c7e4c2d",
-   "title": "Fall Study Group: How Should Democracies Govern Scarce, Life-Saving Resources? The Case of Organ Transplantation",
-   "url": "https://ash.harvard.edu/events/fall-study-group-how-should-democracies-govern-scarce-life-saving-resources-the-case-of-organ-transplantation-3/",
-   "source_id": "ash",
-   "source_name": "Ash Center (HKS)",
+   "title": "How Should Democracies Govern Scarce, Life-Saving Resources?",
+   "url": "https://www.hks.harvard.edu/events/how-should-democracies-govern-scarce-life-saving-resources-0",
+   "source_id": "hks",
+   "source_name": "Harvard Kennedy School",
    "also_listed": [
     {
-     "source_name": "Harvard Kennedy School",
-     "url": "https://www.hks.harvard.edu/index%2ephp/events/how-should-democracies-govern-scarce-life-saving-resources-0"
+     "source_name": "Ash Center (HKS)",
+     "url": "https://ash.harvard.edu/events/fall-study-group-how-should-democracies-govern-scarce-life-saving-resources-the-case-of-organ-transplantation-3/"
     }
    ],
    "aliases": [
-    "fdd96acc125e"
+    "d18067a34998"
    ],
    "suggested": null,
    "forwarded": null,
@@ -14345,34 +14523,37 @@
    "end": "2026-10-28T15:00:00-04:00",
    "date": "2026-10-28",
    "all_day": false,
-   "location": "Harvard Kennedy School",
+   "location": "Ash Center Seminar Room 225, Suite 200, 124 Mount Auburn Street",
    "online": false,
-   "host": "Ash Center for Democratic Governance",
+   "host": "Ash Center for Democratic Governance and Innovation",
    "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
+    "status": "confirmed",
+    "types": [
+     "Food"
+    ],
+    "evidence": "Light catering will be provided.",
+    "cue": "strong"
    },
    "registration": {
     "status": "required",
-    "evidence": "Please register here.",
+    "evidence": "Register here: https://harvard.az1.qualtrics.com/jfe/form/SV_5cHLizAnkR7Cpts",
     "link": "https://harvard.az1.qualtrics.com/jfe/form/SV_5cHLizAnkR7Cpts"
    },
    "audience": {
-    "level": "restricted",
-    "group": "students",
-    "evidence": "Title: Fall Study Group: How Should Democracies Govern Scarce, Life-Saving Resources? The Case of Organ Transplantation",
-    "basis": "inferred"
+    "level": "harvard",
+    "group": "",
+    "evidence": "This Study Group is open to HUID holders only.",
+    "basis": "text"
    },
-   "summary": "This in-person study group led by Aditya Pawar, Ash Center Democracy Visiting Fellow, and Santiago Creuheras, Ash Center Democracy Fellow, will take place throughout six sessions. Nearly 110,000 people are currently on the U.S. transplant waiting list, and about 12 people die each day while waiting for an organ.…",
+   "summary": "Fall Study Group: How Should Democracies Govern Scarce, Life-Saving Resources? The Case of Organ Transplantation Nearly 110,000 people are currently on the U.S. transplant waiting list, and about 12 people die each day while waiting for an organ. Although a donated organ can save a life, not everyone who needs a…",
    "blurb": "Nearly 110,000 people are currently on the U.S. transplant waiting list, and about 12 people die each day while waiting for an organ. This study group will examine transplantation as a governance and democracy issue, asking how institutions allocate scarce…",
    "event_page": true,
    "notes": "",
-   "place_name": "Harvard Kennedy School",
-   "lat": 42.371989,
-   "lon": -71.121761,
+   "place_name": "Ash Center (124 Mt Auburn St)",
+   "lat": 42.372952,
+   "lon": -71.123759,
    "geo_method": "gazetteer",
-   "walk_min": 16
+   "walk_min": 17
   },
   {
    "id": "b438176962d7",
