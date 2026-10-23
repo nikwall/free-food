@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T16:13:08-04:00",
+ "generated_at": "2026-10-22T20:43:30-04:00",
  "window": {
   "start": "2026-10-22",
   "end": "2026-10-29"
@@ -22,7 +22,7 @@
    "error": null,
    "n_events": 166,
    "n_food": 6,
-   "seconds": 1.9
+   "seconds": 1.8
   },
   {
    "id": "hks",
@@ -32,7 +32,7 @@
    "error": null,
    "n_events": 48,
    "n_food": 12,
-   "seconds": 17.7
+   "seconds": 3.6
   },
   {
    "id": "hls",
@@ -42,7 +42,7 @@
    "error": null,
    "n_events": 99,
    "n_food": 56,
-   "seconds": 32.3
+   "seconds": 11.2
   },
   {
    "id": "college",
@@ -51,8 +51,8 @@
    "ok": true,
    "error": null,
    "n_events": 100,
-   "n_food": 9,
-   "seconds": 1.1
+   "n_food": 10,
+   "seconds": 0.6
   },
   {
    "id": "ash",
@@ -62,7 +62,7 @@
    "error": null,
    "n_events": 4,
    "n_food": 2,
-   "seconds": 2.2
+   "seconds": 2.5
   },
   {
    "id": "shorenstein",
@@ -72,7 +72,7 @@
    "error": null,
    "n_events": 2,
    "n_food": 0,
-   "seconds": 9.0
+   "seconds": 9.4
   },
   {
    "id": "fairbank",
@@ -90,9 +90,9 @@
    "homepage": "",
    "ok": true,
    "error": null,
-   "n_events": 65,
-   "n_food": 10,
-   "seconds": 133.6
+   "n_events": 66,
+   "n_food": 11,
+   "seconds": 64.0
   },
   {
    "id": "suggested",
@@ -100,19 +100,19 @@
    "homepage": "",
    "ok": true,
    "error": null,
-   "n_events": 5,
+   "n_events": 4,
    "n_food": 1,
-   "seconds": 5.4
+   "seconds": 5.6
   }
  ],
  "stats": {
-  "events": 403,
-  "food_confirmed": 67,
+  "events": 404,
+  "food_confirmed": 68,
   "food_likely": 20,
-  "forwarded": 49,
-  "forwarded_listed": 15,
+  "forwarded": 50,
+  "forwarded_listed": 16,
   "food_restricted": 50,
-  "seconds": 143.4
+  "seconds": 73.5
  },
  "events": [
   {
@@ -1878,6 +1878,70 @@
    "walk_min": 4
   },
   {
+   "id": "0317c04df73d",
+   "title": "Amb Kelly Craft: Case for Disagreement: Beyond Identity & Ideological Conformity",
+   "url": "https://www.hks.harvard.edu/events/amb-kelly-craft-case-disagreement-beyond-identity-ideological-conformity",
+   "source_id": "hks",
+   "source_name": "Harvard Kennedy School",
+   "also_listed": [
+    {
+     "source_name": "Harvard Gazette calendar",
+     "url": "https://iop.harvard.edu/events/study-group-ambassador-kelly-craft-case-disagreement-beyond-identity-and-ideological"
+    },
+    {
+     "source_name": "Forwarded: New Study Groups & Special Guests: Leadership, Presidential Election, Global Con",
+     "url": "https://iop.harvard.edu/events/study-group-ambassador-kelly-craft-case-disagreement-beyond-identity-and-ideological"
+    },
+    {
+     "source_name": "Harvard College events",
+     "url": "https://events.college.harvard.edu/event/225767-study-group-with-ambassador-kelly-craft-the-case"
+    }
+   ],
+   "aliases": [
+    "1007fac84135",
+    "6f471c66c164",
+    "97189485a5c8"
+   ],
+   "suggested": null,
+   "forwarded": {
+    "by": "Ellen",
+    "subject": "New Study Groups & Special Guests: Leadership, Presidential Election, Global Conflicts, & more",
+    "missing": []
+   },
+   "start": "2026-10-22T16:00:00-04:00",
+   "end": "2026-10-22T17:15:00-04:00",
+   "date": "2026-10-22",
+   "all_day": false,
+   "location": "L-166",
+   "online": false,
+   "host": "Institute of Politics (IOP)",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "RSVP link on the event page",
+    "link": "https://iop.harvard.edu/events/study-group-ambassador-kelly-craft-case-disagreement-beyond-identity-and-ideological"
+   },
+   "audience": {
+    "level": "harvard",
+    "group": "",
+    "evidence": "*These off-the-record conversations are open to members of the Harvard community.",
+    "basis": "text"
+   },
+   "summary": "In an age of deepening polarization, we increasingly mistake identity for ideology, dissent for betrayal, and silence for consensus. We will make the case for a more expansive democratic culture—one that embraces complexity, protects minority viewpoints, and allows people to disagree honestly without being reduced to…",
+   "blurb": "In an age of deepening polarization, we increasingly mistake identity for ideology, dissent for betrayal, and silence for consensus. We will make the case for a more expansive democratic culture—one that embraces complexity, protects minority viewpoints, and…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Littauer Building, Harvard Kennedy School",
+   "lat": 42.371045,
+   "lon": -71.12209,
+   "geo_method": "gazetteer",
+   "walk_min": 18
+  },
+  {
    "id": "27d0ea12df15",
    "title": "Decision-Making Under Duress: A Framework for Founders and Leaders",
    "url": "https://www.hks.harvard.edu/events/decision-making-under-duress-framework-founders-and-leaders",
@@ -1926,15 +1990,8 @@
    "url": "https://fairbank.fas.harvard.edu/events/modern-china-lecture-series-featuring-xu-guoqi/",
    "source_id": "fairbank",
    "source_name": "Fairbank Center",
-   "also_listed": [
-    {
-     "source_name": "Suggested calendar: Fairbanks center",
-     "url": "https://fairbank.fas.harvard.edu/events/modern-china-lecture-series-featuring-xu-guoqi/"
-    }
-   ],
-   "aliases": [
-    "66c3b8a54bda"
-   ],
+   "also_listed": [],
+   "aliases": [],
    "suggested": null,
    "forwarded": null,
    "start": "2026-10-22T16:00:00-04:00",
@@ -1969,70 +2026,6 @@
    "lon": -71.113135,
    "geo_method": "gazetteer",
    "walk_min": 5
-  },
-  {
-   "id": "0317c04df73d",
-   "title": "Study Group with Ambassador Kelly Craft — The Case for Disagreement: Beyond Identity and Ideological Conformity",
-   "url": "https://iop.harvard.edu/events/study-group-ambassador-kelly-craft-case-disagreement-beyond-identity-and-ideological",
-   "source_id": "gazette",
-   "source_name": "Harvard Gazette calendar",
-   "also_listed": [
-    {
-     "source_name": "Forwarded: New Study Groups & Special Guests: Leadership, Presidential Election, Global Con",
-     "url": "https://iop.harvard.edu/events/study-group-ambassador-kelly-craft-case-disagreement-beyond-identity-and-ideological"
-    },
-    {
-     "source_name": "Harvard College events",
-     "url": "https://events.college.harvard.edu/event/225767-study-group-with-ambassador-kelly-craft-the-case"
-    },
-    {
-     "source_name": "Harvard Kennedy School",
-     "url": "https://www.hks.harvard.edu/index%2Ephp/events/amb-kelly-craft-case-disagreement-beyond-identity-ideological-conformity"
-    }
-   ],
-   "aliases": [
-    "1007fac84135",
-    "4bab93556ac7",
-    "6f471c66c164"
-   ],
-   "suggested": null,
-   "forwarded": {
-    "by": "Ellen",
-    "subject": "New Study Groups & Special Guests: Leadership, Presidential Election, Global Conflicts, & more",
-    "missing": []
-   },
-   "start": "2026-10-22T16:00:00-04:00",
-   "end": "2026-10-22T17:15:00-04:00",
-   "date": "2026-10-22",
-   "all_day": false,
-   "location": "Institute of Politics, 79 JFK St., Cambridge",
-   "online": false,
-   "host": "Institute of Politics at Harvard Kennedy School",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "required",
-    "evidence": "Registration link on the event page",
-    "link": "https://iop.harvard.edu/events/study-group-ambassador-kelly-craft-case-disagreement-beyond-identity-and-ideological"
-   },
-   "audience": {
-    "level": "restricted",
-    "group": "students",
-    "evidence": "Title: Study Group with Ambassador Kelly Craft — The Case for Disagreement: Beyond Identity and Ideological Conformity",
-    "basis": "inferred"
-   },
-   "summary": "In an age of deepening polarization, we increasingly mistake identity for ideology, dissent for betrayal, and silence for consensus. We will make the case for a more expansive democratic culture — one that embraces complexity, protects minority viewpoints, and allows people to disagree honestly without being reduced…",
-   "blurb": "In an age of deepening polarization, we increasingly mistake identity for ideology, dissent for betrayal, and silence for consensus. We will make the case for a more expansive democratic culture—one that embraces complexity, protects minority viewpoints, and…",
-   "event_page": true,
-   "notes": "Cost: Free | Harvard Key required: No",
-   "place_name": "Littauer Building, Harvard Kennedy School",
-   "lat": 42.371045,
-   "lon": -71.12209,
-   "geo_method": "gazetteer",
-   "walk_min": 18
   },
   {
    "id": "880af8c6adb8",
@@ -2182,22 +2175,22 @@
    "source_name": "Harvard Gazette calendar",
    "also_listed": [
     {
+     "source_name": "Harvard Kennedy School",
+     "url": "https://www.hks.harvard.edu/events/study-group-hon-alejandro-mayorkas-terrorism-evolution-threat"
+    },
+    {
      "source_name": "Forwarded: New Study Groups & Special Guests: Leadership, Presidential Election, Global Con",
      "url": "https://iop.harvard.edu/events/study-group-honorable-alejandro-mayorkas-terrorism-and-evolution-threat-foreign-terrorist"
     },
     {
      "source_name": "Harvard College events",
      "url": "https://events.college.harvard.edu/event/225769-study-group-with-the-honorable-alejandro-mayorkas"
-    },
-    {
-     "source_name": "Harvard Kennedy School",
-     "url": "https://www.hks.harvard.edu/index%2Ephp/events/study-group-hon-alejandro-mayorkas-terrorism-evolution-threat"
     }
    ],
    "aliases": [
     "47f0288a5bed",
     "7293c22c8b75",
-    "d1aeea2f8233"
+    "dd155cb79414"
    ],
    "suggested": null,
    "forwarded": {
@@ -2637,7 +2630,7 @@
    "walk_min": 18
   },
   {
-   "id": "e1583dc00a4c",
+   "id": "d1771ad1bb18",
    "title": "Artist Talk and Opening Reception for Constitutive Outside",
    "url": "https://carpenter.center/programs/artist-talk-and-opening-reception-for-constitutive-outside",
    "source_id": "gazette",
@@ -2645,11 +2638,11 @@
    "also_listed": [
     {
      "source_name": "Forwarded: Thank You for Joining Us! See What’s Next at the Carpenter Center",
-     "url": "https://carpenter.center/programs/artist-talk-and-opening-reception-for-constitutive-outside"
+     "url": "https://carpenter.center/exhibitions/constitutive-outside"
     }
    ],
    "aliases": [
-    "f6380b5376d4"
+    "e1583dc00a4c"
    ],
    "suggested": null,
    "forwarded": {
@@ -2684,7 +2677,7 @@
     "basis": "text"
    },
    "summary": "Join us for a conversation with artists Steffani Jemison and Markele Cullins, moderated by exhibition curator Tarik Garrett. A reception will follow in the AUX: Intermedia Gallery on Level 1 of the Carpenter Center. 6:00–7:00 pm, Artist Conversation + Q & A, Theater, Lower Level 7:00–9:00 pm, Opening Reception, Level…",
-   "blurb": "Join us for a conversation with artists Steffani Jemison and Markele Cullins, moderated by exhibition curator Tarik Garrett. A reception will follow in the AUX: Intermedia Gallery on Level 1 of the Carpenter Center.",
+   "blurb": "This exhibition is on view from October 22 to December 13, 2026. Constitutive Outside brings together works by Markele Cullins, Jibade-Khalil Huffman, Steffani Jemison, and Rindon Johnson. Across performance, installation, and screen space, the exhibition…",
    "event_page": true,
    "notes": "Cost: Free | Harvard Key required: No",
    "place_name": "Carpenter Center",
@@ -5295,6 +5288,56 @@
    "walk_min": 5
   },
   {
+   "id": "3639e4311189",
+   "title": "Artist Talk and Opening Reception for Constitutive Outside",
+   "url": "https://carpenter.center/programs/artist-talk-and-opening-reception-for-constitutive-outside",
+   "source_id": "newsletter",
+   "source_name": "Forwarded: Thank You for Joining Us! See What’s Next at the Carpenter Center",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": {
+    "by": "Cecilia",
+    "subject": "Thank You for Joining Us! See What’s Next at the Carpenter Center",
+    "missing": []
+   },
+   "start": "2026-10-23T21:00:00-04:00",
+   "end": null,
+   "date": "2026-10-23",
+   "all_day": false,
+   "location": "",
+   "online": false,
+   "host": "",
+   "food": {
+    "status": "confirmed",
+    "types": [
+     "Reception"
+    ],
+    "evidence": "A reception will follow in the AUX: Intermedia Gallery on Level 1 of the Carpenter Center.",
+    "cue": "strong"
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "public",
+    "group": "",
+    "evidence": "Free and open to the public.",
+    "basis": "text"
+   },
+   "summary": "This program is happening now until October 23, 2026 at 9:00pm. Artist Talk and Opening Reception for Constitutive Outside Join us for a conversation with artists Steffani Jemison and Markele Cullins, moderated by exhibition curator Tarik Garrett. A reception will follow in the AUX: Intermedia Gallery on Level 1 of…",
+   "blurb": "This program is happening now until October 23, 2026 at 9:00pm. Join us for a conversation with artists Steffani Jemison and Markele Cullins, moderated by exhibition curator Tarik Garrett. A reception will follow in the AUX: Intermedia Gallery on Level 1 of…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Carpenter Center",
+   "lat": 42.373704,
+   "lon": -71.114276,
+   "geo_method": "text",
+   "walk_min": 7
+  },
+  {
    "id": "68df7f47111e",
    "title": "The Yellow Balloon",
    "url": "https://harvardfilmarchive.org/calendar/the-yellow-balloon-2026-10",
@@ -6132,7 +6175,6 @@
     "4a5154330ec5",
     "65af71a5e847",
     "7e378c722372",
-    "9e8e277491a9",
     "af5bac8a214d",
     "e59124a63207"
    ],
@@ -13476,12 +13518,16 @@
    "walk_min": 5
   },
   {
-   "id": "5b24ef65a7a8",
+   "id": "37ed6acf8e6b",
    "title": "Mega-events and Cities: Opportunities, Risks, and Lasting Impact",
    "url": "https://www.hks.harvard.edu/events/mega-events-and-cities-opportunities-risks-and-lasting-impact",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [
+    {
+     "source_name": "Harvard College events",
+     "url": "https://events.college.harvard.edu/event/225801-mega-events-and-cities-opportunities-risks-and"
+    },
     {
      "source_name": "Forwarded: Reserve your spot: upcoming hybrid events",
      "url": "https://click.comms.hks.harvard.edu/?qs=ABp7ImQiOjUwMjksInQiOjE0MDgsInMiOjExfQALAAAAAAXL9_Ih1Vl63Q8NIIYr7U7mnx-f4dNm9hgLZO9rUFlkGhUuUQNsqjnsD9WD8wa8iBchcE0_ByQmxEJ6OAd_qs31LJZ0gnHBuIBREyMIffU"
@@ -13492,6 +13538,7 @@
     }
    ],
    "aliases": [
+    "5b24ef65a7a8",
     "6810b56ed405",
     "ca2f84edef4b"
    ],
@@ -13528,7 +13575,7 @@
     "basis": "listing"
    },
    "summary": "From the FIFA World Cup and Olympic Games to major climate summits and global convenings, cities increasingly serve as stages for some of the world's most visible and consequential events. These moments can bring economic opportunity, infrastructure investment, and global recognition, but they also test a city’s…",
-   "blurb": "EST | In-person at the Center or virtual (Zoom) From the FIFA World Cup and Olympic Games to major climate summits and global convenings, cities increasingly serve as stages for some of the world’s most visible and consequential events. Join Juliette Kayyem…",
+   "blurb": "Join Mayor Lisa Gillmor of Santa Clara, California, and Mayor Quinton Lucas of Kansas City, Missouri for a conversation with Juliette Kayyem and Todd Rogers of Harvard Kennedy School on their experience planning and hosting major international events and how…",
    "event_page": true,
    "notes": "",
    "place_name": "Taubman Building, Harvard Kennedy School",
@@ -16596,6 +16643,49 @@
    "walk_min": null
   },
   {
+   "id": "da0aba5bbbc1",
+   "title": "Affinity Organization Clerkship Panel",
+   "url": "https://hls.harvard.edu/events/salsa-clerkship-panel-2/",
+   "source_id": "hls",
+   "source_name": "Harvard Law School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-10-29T12:15:00-04:00",
+   "end": "2026-10-29T13:15:00-04:00",
+   "date": "2026-10-29",
+   "all_day": false,
+   "location": "WCC, B010 Singer Classroom, Harvard Law School",
+   "online": false,
+   "host": "Harvard South Asian Law Students Association",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "HLS community",
+    "evidence": "HLS listing audience: HLS only",
+    "basis": "listing"
+   },
+   "summary": "Add to Calendar October 29, 2026, 12:15 pm - 1:15 pm +Google Calendar +iCal/Outlook",
+   "blurb": "",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Wasserstein Hall (WCC), Harvard Law School",
+   "lat": 42.379383,
+   "lon": -71.119421,
+   "geo_method": "gazetteer",
+   "walk_min": 10
+  },
+  {
    "id": "2967990f880a",
    "title": "CLSA General Body Meeting",
    "url": "https://hls.harvard.edu/events/clsa-general-body-meeting/",
@@ -16851,49 +16941,6 @@
    },
    "summary": "Join JLSA for a workshop on recruiting materials, from resumes to cover letters and everything in between. Add to Calendar October 29, 2026, 12:15 pm - 1:15 pm +Google Calendar +iCal/Outlook",
    "blurb": "Join JLSA for a workshop on recruiting materials, from resumes to cover letters and everything in between.",
-   "event_page": true,
-   "notes": "",
-   "place_name": "Wasserstein Hall (WCC), Harvard Law School",
-   "lat": 42.379383,
-   "lon": -71.119421,
-   "geo_method": "gazetteer",
-   "walk_min": 10
-  },
-  {
-   "id": "da0aba5bbbc1",
-   "title": "[SALSA] Clerkship Panel",
-   "url": "https://hls.harvard.edu/events/salsa-clerkship-panel-2/",
-   "source_id": "hls",
-   "source_name": "Harvard Law School",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-10-29T12:15:00-04:00",
-   "end": "2026-10-29T13:15:00-04:00",
-   "date": "2026-10-29",
-   "all_day": false,
-   "location": "WCC, B010 Singer Classroom, Harvard Law School",
-   "online": false,
-   "host": "Harvard South Asian Law Students Association",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
-   },
-   "audience": {
-    "level": "restricted",
-    "group": "HLS community",
-    "evidence": "HLS listing audience: HLS only",
-    "basis": "listing"
-   },
-   "summary": "Add to Calendar October 29, 2026, 12:15 pm - 1:15 pm +Google Calendar +iCal/Outlook",
-   "blurb": "",
    "event_page": true,
    "notes": "",
    "place_name": "Wasserstein Hall (WCC), Harvard Law School",
@@ -18486,7 +18533,7 @@
   {
    "id": 4,
    "state": "scanned",
-   "label": "Scanned at every update: 29 events found, 1 with food this week",
+   "label": "Scanned at every update: 28 events found, 1 with food this week",
    "n_food": 1
   }
  ],
@@ -18536,7 +18583,7 @@
   {
    "subject": "Thank You for Joining Us! See What’s Next at the Carpenter Center",
    "sent": "2026-10-11",
-   "items": 3,
+   "items": 4,
    "sender": null,
    "forwarded_by": "Cecilia"
   },
