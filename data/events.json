@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T15:59:37-04:00",
+ "generated_at": "2026-10-23T20:46:37-04:00",
  "window": {
   "start": "2026-10-23",
   "end": "2026-10-30"
@@ -22,7 +22,7 @@
    "error": null,
    "n_events": 155,
    "n_food": 2,
-   "seconds": 2.6
+   "seconds": 2.5
   },
   {
    "id": "hks",
@@ -32,7 +32,7 @@
    "error": null,
    "n_events": 39,
    "n_food": 11,
-   "seconds": 8.0
+   "seconds": 2.3
   },
   {
    "id": "hls",
@@ -42,7 +42,7 @@
    "error": null,
    "n_events": 87,
    "n_food": 48,
-   "seconds": 8.3
+   "seconds": 15.5
   },
   {
    "id": "college",
@@ -52,7 +52,7 @@
    "error": null,
    "n_events": 100,
    "n_food": 11,
-   "seconds": 0.5
+   "seconds": 3.8
   },
   {
    "id": "ash",
@@ -62,7 +62,7 @@
    "error": null,
    "n_events": 5,
    "n_food": 2,
-   "seconds": 2.7
+   "seconds": 2.0
   },
   {
    "id": "shorenstein",
@@ -72,7 +72,7 @@
    "error": null,
    "n_events": 1,
    "n_food": 0,
-   "seconds": 9.9
+   "seconds": 9.3
   },
   {
    "id": "fairbank",
@@ -82,7 +82,7 @@
    "error": null,
    "n_events": 4,
    "n_food": 0,
-   "seconds": 0.1
+   "seconds": 0.0
   },
   {
    "id": "newsletter",
@@ -92,7 +92,7 @@
    "error": null,
    "n_events": 67,
    "n_food": 9,
-   "seconds": 64.5
+   "seconds": 54.4
   },
   {
    "id": "suggested",
@@ -100,9 +100,9 @@
    "homepage": "",
    "ok": true,
    "error": null,
-   "n_events": 5,
+   "n_events": 4,
    "n_food": 1,
-   "seconds": 7.2
+   "seconds": 6.4
   }
  ],
  "stats": {
@@ -112,7 +112,7 @@
   "forwarded": 48,
   "forwarded_listed": 16,
   "food_restricted": 44,
-  "seconds": 76.1
+  "seconds": 65.7
  },
  "events": [
   {
@@ -1546,15 +1546,8 @@
    "url": "https://fairbank.fas.harvard.edu/events/cbdb-annual-conference-2026-research-in-chinese-studies-in-the-age-of-ai/",
    "source_id": "fairbank",
    "source_name": "Fairbank Center",
-   "also_listed": [
-    {
-     "source_name": "Suggested calendar: Fairbanks center",
-     "url": "https://fairbank.fas.harvard.edu/events/cbdb-annual-conference-2026-research-in-chinese-studies-in-the-age-of-ai/"
-    }
-   ],
-   "aliases": [
-    "e30c8307b450"
-   ],
+   "also_listed": [],
+   "aliases": [],
    "suggested": null,
    "forwarded": null,
    "start": "2026-10-23T13:50:00-04:00",
@@ -1602,19 +1595,19 @@
      "url": "https://iop.harvard.edu/events/study-group-ambassador-chris-lu-faith-and-public-service-leading-across-differences-melissa"
     },
     {
-     "source_name": "Forwarded: New Study Groups & Special Guests: Leadership, Presidential Election, Global Con",
-     "url": "https://iop.harvard.edu/events/study-group-ambassador-chris-lu-faith-and-public-service-leading-across-differences-melissa"
+     "source_name": "Harvard Kennedy School",
+     "url": "https://www.hks.harvard.edu/events/amb-chris-lu-study-group-faith-and-public-service-leading-across-differences"
     },
     {
-     "source_name": "Harvard Kennedy School",
-     "url": "https://www.hks.harvard.edu/index%2ephp/events/amb-chris-lu-study-group-faith-and-public-service-leading-across-differences"
+     "source_name": "Forwarded: New Study Groups & Special Guests: Leadership, Presidential Election, Global Con",
+     "url": "https://iop.harvard.edu/events/study-group-ambassador-chris-lu-faith-and-public-service-leading-across-differences-melissa"
     }
    ],
    "aliases": [
     "913859915536",
-    "a8f456e4b198",
     "c62676c1c7dd",
-    "e0934fb759d2"
+    "e0934fb759d2",
+    "fbf5e615dc8c"
    ],
    "suggested": null,
    "forwarded": {
@@ -1920,49 +1913,6 @@
    "walk_min": 4
   },
   {
-   "id": "3726196dc503",
-   "title": "Harvard University Men’s Ice Hockey vs Northeastern - Exhibition",
-   "url": "https://events.college.harvard.edu/event/224693-harvard-university-mens-ice-hockey-vs-northeastern",
-   "source_id": "college",
-   "source_name": "Harvard College events",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-10-23T16:00:00-04:00",
-   "end": "2026-10-23T19:00:00-04:00",
-   "date": "2026-10-23",
-   "all_day": false,
-   "location": "Cambridge, MA, Bright-Landry Hockey Center",
-   "online": false,
-   "host": "Main Calendar",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
-   },
-   "audience": {
-    "level": "restricted",
-    "group": "Harvard College students",
-    "evidence": "Harvard College calendar, no sign it is open to others",
-    "basis": "default"
-   },
-   "summary": "Harvard University Men’s Ice Hockey vs Northeastern - Exhibition TV: ESPN+ Streaming Video: https://gocrim.info/58bee5 URL:https://gocrimson.com/calendar.aspx?game_id=33380&sport_id=13",
-   "blurb": "",
-   "event_page": true,
-   "notes": "",
-   "place_name": "",
-   "lat": null,
-   "lon": null,
-   "geo_method": null,
-   "walk_min": null
-  },
-  {
    "id": "32dccb63b7c3",
    "title": "Meeting the China Challenge ft. former Prime Minister of Australia Kevin Rudd",
    "url": "https://iop.harvard.edu/events/meeting-china-challenge-ft-kevin-rudd-fmr-prime-minister-australia",
@@ -2041,6 +1991,49 @@
    "lon": -71.12209,
    "geo_method": "gazetteer",
    "walk_min": 18
+  },
+  {
+   "id": "3726196dc503",
+   "title": "[W] Harvard University Men’s Ice Hockey vs Northeastern - Exhibition",
+   "url": "https://events.college.harvard.edu/event/224693-harvard-university-mens-ice-hockey-vs-northeastern",
+   "source_id": "college",
+   "source_name": "Harvard College events",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-10-23T16:00:00-04:00",
+   "end": "2026-10-23T19:00:00-04:00",
+   "date": "2026-10-23",
+   "all_day": false,
+   "location": "Cambridge, MA, Bright-Landry Hockey Center",
+   "online": false,
+   "host": "Main Calendar",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "Harvard College students",
+    "evidence": "Harvard College calendar, no sign it is open to others",
+    "basis": "default"
+   },
+   "summary": "[W] Harvard University Men’s Ice Hockey vs Northeastern - Exhibition W 4-1 TV: ESPN+ Streaming Video: https://gocrim.info/58bee5 URL:https://gocrimson.com/calendar.aspx?game_id=33380&sport_id=13",
+   "blurb": "",
+   "event_page": true,
+   "notes": "",
+   "place_name": "",
+   "lat": null,
+   "lon": null,
+   "geo_method": null,
+   "walk_min": null
   },
   {
    "id": "4e026eb06c0b",
@@ -17273,7 +17266,7 @@
   {
    "id": 4,
    "state": "scanned",
-   "label": "Scanned at every update: 28 events found, 1 with food this week",
+   "label": "Scanned at every update: 27 events found, 1 with food this week",
    "n_food": 1
   }
  ],
