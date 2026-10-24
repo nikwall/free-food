@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-24T10:03:16-04:00",
+ "generated_at": "2026-10-24T14:50:37-04:00",
  "window": {
   "start": "2026-10-24",
   "end": "2026-10-31"
@@ -22,7 +22,7 @@
    "error": null,
    "n_events": 141,
    "n_food": 1,
-   "seconds": 2.0
+   "seconds": 1.6
   },
   {
    "id": "hks",
@@ -32,7 +32,7 @@
    "error": null,
    "n_events": 32,
    "n_food": 8,
-   "seconds": 5.1
+   "seconds": 10.4
   },
   {
    "id": "hls",
@@ -42,7 +42,7 @@
    "error": null,
    "n_events": 82,
    "n_food": 45,
-   "seconds": 12.7
+   "seconds": 10.9
   },
   {
    "id": "college",
@@ -52,7 +52,7 @@
    "error": null,
    "n_events": 97,
    "n_food": 11,
-   "seconds": 2.9
+   "seconds": 0.9
   },
   {
    "id": "ash",
@@ -62,7 +62,7 @@
    "error": null,
    "n_events": 4,
    "n_food": 1,
-   "seconds": 2.0
+   "seconds": 2.5
   },
   {
    "id": "shorenstein",
@@ -72,7 +72,7 @@
    "error": null,
    "n_events": 1,
    "n_food": 0,
-   "seconds": 10.1
+   "seconds": 9.8
   },
   {
    "id": "fairbank",
@@ -82,7 +82,7 @@
    "error": null,
    "n_events": 3,
    "n_food": 0,
-   "seconds": 6.5
+   "seconds": 0.1
   },
   {
    "id": "newsletter",
@@ -92,7 +92,7 @@
    "error": null,
    "n_events": 54,
    "n_food": 9,
-   "seconds": 79.3
+   "seconds": 81.5
   },
   {
    "id": "suggested",
@@ -102,7 +102,7 @@
    "error": null,
    "n_events": 4,
    "n_food": 1,
-   "seconds": 5.1
+   "seconds": 5.2
   }
  ],
  "stats": {
@@ -112,7 +112,7 @@
   "forwarded": 40,
   "forwarded_listed": 12,
   "food_restricted": 42,
-  "seconds": 90.4
+  "seconds": 91.2
  },
  "events": [
   {
@@ -7802,9 +7802,9 @@
    "walk_min": 5
   },
   {
-   "id": "453d60507c15",
+   "id": "0dc6f3c28c8f",
    "title": "Coffee with Mayor Quinton Lucas - Kansas City, Missouri",
-   "url": "https://www.hks.harvard.edu/index%2ephp/events/coffee-mayor-quinton-lucas-kansas-city-missouri",
+   "url": "https://www.hks.harvard.edu/events/coffee-mayor-quinton-lucas-kansas-city-missouri",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -7815,18 +7815,18 @@
    "end": "2026-10-28T10:30:00-04:00",
    "date": "2026-10-28",
    "all_day": false,
-   "location": "",
+   "location": "Nye A, 5th Floor, Taubman Building",
    "online": false,
-   "host": "",
+   "host": "Taubman Center for State and Local Government",
    "food": {
     "status": "none",
     "types": [],
     "evidence": ""
    },
    "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
+    "status": "required",
+    "evidence": "RSVP link on the event page",
+    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001lEmvIAE"
    },
    "audience": {
     "level": "unknown",
@@ -7834,15 +7834,15 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "",
-   "blurb": "",
+   "summary": "Join the Taubman Center for State and Local Government for coffee and conversation with Mayor Quinton Lucas of Kansas City, Missouri. Moderated by Amy Mahler, Director of Government Engagement at the Taubman Center, the discussion will explore Mayor Lucas’s path to public service, his goals for Kansas City, and topics…",
+   "blurb": "Join the Taubman Center for State and Local Government for coffee and conversation with Mayor Quinton Lucas of Kansas City, Missouri. the discussion will explore Mayor Lucas’s path to public service, his goals for Kansas City, and topics shaping the city…",
    "event_page": true,
    "notes": "",
-   "place_name": "Harvard Kennedy School",
-   "lat": 42.371989,
-   "lon": -71.121761,
-   "geo_method": "host",
-   "walk_min": 16
+   "place_name": "Taubman Building, Harvard Kennedy School",
+   "lat": 42.371822,
+   "lon": -71.122151,
+   "geo_method": "gazetteer",
+   "walk_min": 17
   },
   {
    "id": "58645ffb39da",
