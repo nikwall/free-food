@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-25T15:07:16-04:00",
+ "generated_at": "2026-10-25T17:51:36-04:00",
  "window": {
   "start": "2026-10-25",
   "end": "2026-11-01"
@@ -22,7 +22,7 @@
    "error": null,
    "n_events": 139,
    "n_food": 1,
-   "seconds": 1.3
+   "seconds": 0.9
   },
   {
    "id": "hks",
@@ -31,8 +31,8 @@
    "ok": true,
    "error": null,
    "n_events": 32,
-   "n_food": 8,
-   "seconds": 4.8
+   "n_food": 6,
+   "seconds": 4.4
   },
   {
    "id": "hls",
@@ -41,8 +41,8 @@
    "ok": true,
    "error": null,
    "n_events": 81,
-   "n_food": 44,
-   "seconds": 10.7
+   "n_food": 43,
+   "seconds": 9.5
   },
   {
    "id": "college",
@@ -52,7 +52,7 @@
    "error": null,
    "n_events": 91,
    "n_food": 10,
-   "seconds": 0.9
+   "seconds": 0.3
   },
   {
    "id": "ash",
@@ -62,7 +62,7 @@
    "error": null,
    "n_events": 4,
    "n_food": 1,
-   "seconds": 2.4
+   "seconds": 1.9
   },
   {
    "id": "shorenstein",
@@ -72,7 +72,7 @@
    "error": null,
    "n_events": 1,
    "n_food": 0,
-   "seconds": 9.3
+   "seconds": 8.1
   },
   {
    "id": "fairbank",
@@ -90,9 +90,9 @@
    "homepage": "",
    "ok": true,
    "error": null,
-   "n_events": 52,
-   "n_food": 9,
-   "seconds": 106.4
+   "n_events": 53,
+   "n_food": 10,
+   "seconds": 65.7
   },
   {
    "id": "suggested",
@@ -107,12 +107,12 @@
  ],
  "stats": {
   "events": 338,
-  "food_confirmed": 51,
+  "food_confirmed": 49,
   "food_likely": 15,
   "forwarded": 38,
   "forwarded_listed": 11,
   "food_restricted": 39,
-  "seconds": 115.7
+  "seconds": 73.8
  },
  "events": [
   {
@@ -2225,9 +2225,9 @@
    "walk_min": 4
   },
   {
-   "id": "9928ec0bb985",
+   "id": "f4a91188b6ef",
    "title": "Clean, Cheap and Reliable: A Manifesto for the Modern Power System",
-   "url": "https://www.hks.harvard.edu/events/clean-cheap-and-reliable-manifesto-modern-power-system",
+   "url": "https://www.hks.harvard.edu/index%2ephp/events/clean-cheap-and-reliable-manifesto-modern-power-system",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -2238,21 +2238,18 @@
    "end": "2026-10-26T13:15:00-04:00",
    "date": "2026-10-26",
    "all_day": false,
-   "location": "Rubenstein 414ab",
+   "location": "",
    "online": false,
-   "host": "Belfer Center for Science and International Affairs; Mossavar-Rahmani Center for Business and Government",
+   "host": "",
    "food": {
-    "status": "confirmed",
-    "types": [
-     "Lunch"
-    ],
-    "evidence": "Lunch will be served.",
-    "cue": "strong"
+    "status": "none",
+    "types": [],
+    "evidence": ""
    },
    "registration": {
-    "status": "required",
-    "evidence": "Registration: RSVP required.",
-    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001kNYvIAM"
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
    },
    "audience": {
     "level": "unknown",
@@ -2260,15 +2257,15 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "Electricity is foundational to our economy, comfort and way of life. In this Energy Policy Seminar, former Texas and U.S. energy de-regulator Pat Wood will open with some lessons learned in the past quarter century of industry restructuring and then pivot to how his team at the Hunt Energy Network is paving the way…",
-   "blurb": "Electricity is foundational to our economy, comfort and way of life. In this Energy Policy Seminar, former Texas and U.S. energy de-regulator Pat Wood will open with some lessons learned in the past quarter century of industry restructuring and then pivot to…",
+   "summary": "",
+   "blurb": "",
    "event_page": true,
    "notes": "",
-   "place_name": "Rubenstein Building, Harvard Kennedy School",
-   "lat": 42.371243,
-   "lon": -71.122687,
-   "geo_method": "gazetteer",
-   "walk_min": 18
+   "place_name": "Harvard Kennedy School",
+   "lat": 42.371989,
+   "lon": -71.121761,
+   "geo_method": "host",
+   "walk_min": 16
   },
   {
    "id": "6ffe1bb493d9",
@@ -2556,12 +2553,9 @@
    "online": false,
    "host": "Harvard Law School",
    "food": {
-    "status": "confirmed",
-    "types": [
-     "Lunch"
-    ],
-    "evidence": "Chick-Fil-A will be served for lunch.",
-    "cue": "strong"
+    "status": "none",
+    "types": [],
+    "evidence": ""
    },
    "registration": {
     "status": "unknown",
@@ -2574,8 +2568,8 @@
     "evidence": "Harvard Law School calendar, audience not stated",
     "basis": "default"
    },
-   "summary": "HALB will be hosting a panel featuring attorneys from Kirkland & Ellis. Chick-Fil-A will be served for lunch. Add to Calendar October 26, 2026, 12:15 pm - 1:15 pm +Google Calendar +iCal/Outlook",
-   "blurb": "HALB will be hosting a panel featuring attorneys from Kirkland & Ellis. Chick-Fil-A will be served for lunch.",
+   "summary": "What does a career at the highest levels of corporate law actually look like? Join Harvard Law School alumni Graham Robinson and Shaun Mathew for a candid conversation about their career journeys and the practices they have built. Graham will discuss his work in biotech M&A and the unique opportunity to guide…",
+   "blurb": "What does a career at the highest levels of corporate law actually look like? Join Harvard Law School alumni Graham Robinson and Shaun Mathew for a candid conversation about their career journeys and the practices they have built. Graham will discuss his work…",
    "event_page": true,
    "notes": "",
    "place_name": "Wasserstein Hall (WCC), Harvard Law School",
@@ -3210,19 +3204,19 @@
    "walk_min": 14
   },
   {
-   "id": "79bb8673502c",
-   "title": "The Role of Blockchain-based Stablecoins in Strengthening Dollar Hegemony",
-   "url": "https://www.hks.harvard.edu/events/role-blockchain-based-stablecoins-strenthening-dollar-hegemony",
-   "source_id": "hks",
-   "source_name": "Harvard Kennedy School",
+   "id": "363fecf09f6b",
+   "title": "The Role of Blockchain-Based Stablecoins in Strengthening Dollar Hegemony",
+   "url": "https://hub.hks.harvard.edu/event/a4oPp000001krbpIAA/the-role-of-blockchainbased-stablecoins-in-strengthening-dollar-hegemony",
+   "source_id": "gazette",
+   "source_name": "Harvard Gazette calendar",
    "also_listed": [
     {
-     "source_name": "Harvard Gazette calendar",
-     "url": "https://hub.hks.harvard.edu/event/a4oPp000001krbpIAA/the-role-of-blockchainbased-stablecoins-in-strengthening-dollar-hegemony"
+     "source_name": "Harvard Kennedy School",
+     "url": "https://www.hks.harvard.edu/index%2ephp/events/role-blockchain-based-stablecoins-strenthening-dollar-hegemony"
     }
    ],
    "aliases": [
-    "f47434c87fe3"
+    "79bb8673502c"
    ],
    "suggested": null,
    "forwarded": null,
@@ -3230,7 +3224,7 @@
    "end": "2026-10-26T17:30:00-04:00",
    "date": "2026-10-26",
    "all_day": false,
-   "location": "Taubman 401",
+   "location": "Harvard Kennedy School, Taubman 401, 79 John F. Kennedy St., Cambridge",
    "online": false,
    "host": "Mossavar-Rahmani Center for Business and Government",
    "food": {
@@ -3249,10 +3243,10 @@
     "evidence": "Gazette listing: Harvard Key required",
     "basis": "listing"
    },
-   "summary": "Led by M-RCBG Senior Fellow Ijeoma Okoli, this study group examines how stablecoins may reinforce U.S. dollar dominance and expand American influence, despite often being presented as alternatives to the dollar. Cryptocurrencies are often pitted as competitors to the US dollar. But what if they aren't and instead…",
-   "blurb": "this study group examines how stablecoins may reinforce U.S. dollar dominance and expand American influence, despite often being presented as alternatives to the dollar. Cryptocurrencies are often pitted as competitors to the US dollar. But what if they…",
+   "summary": "",
+   "blurb": "",
    "event_page": true,
-   "notes": "",
+   "notes": "Harvard Key required: Yes",
    "place_name": "Taubman Building, Harvard Kennedy School",
    "lat": 42.371822,
    "lon": -71.122151,
@@ -3403,15 +3397,11 @@
   },
   {
    "id": "02d6fd6b81a7",
-   "title": "The Diplomat: On Screen and in the World",
-   "url": "https://www.hks.harvard.edu/events/diplomat-screen-and-world",
-   "source_id": "hks",
-   "source_name": "Harvard Kennedy School",
+   "title": "The Diplomat: On Screen and in the World with Keri Russell, Debora Cahn, & Amb. Samantha Power",
+   "url": "https://shorensteincenter.org/event/the-diplomat-on-screen-and-in-the-world-with-keri-russell-debora-cahn-amb-samantha-power/",
+   "source_id": "shorenstein",
+   "source_name": "Shorenstein Center (HKS)",
    "also_listed": [
-    {
-     "source_name": "Shorenstein Center (HKS)",
-     "url": "https://shorensteincenter.org/event/the-diplomat-on-screen-and-in-the-world-with-keri-russell-debora-cahn-amb-samantha-power/"
-    },
     {
      "source_name": "Ash Center (HKS)",
      "url": "https://ash.harvard.edu/events/the-diplomat-on-screen-and-in-the-world-ft-keri-russell-debora-cahn-amb-samantha-power/"
@@ -3431,10 +3421,14 @@
     {
      "source_name": "Forwarded: JFK Jr. Forum: Netflix's The Diplomat with Keri Russell; 2026 Stone Lecture with",
      "url": "https://iop.harvard.edu/events/diplomat-screen-and-world-keri-russell-debora-cahn-amb-samantha-power"
+    },
+    {
+     "source_name": "Harvard Kennedy School",
+     "url": "https://www.hks.harvard.edu/index%2ephp/events/diplomat-screen-and-world"
     }
    ],
    "aliases": [
-    "2374aba1d919",
+    "074ae13d2299",
     "345482ec6b7e",
     "345482ec6b7e",
     "345482ec6b7e",
@@ -3449,12 +3443,12 @@
     "missing": []
    },
    "start": "2026-10-26T18:00:00-04:00",
-   "end": "2026-10-26T19:00:00-04:00",
+   "end": null,
    "date": "2026-10-26",
    "all_day": false,
-   "location": "John F. Kennedy Jr. Forum",
+   "location": "JFK Jr. Forum, 79 John F. Kennedy St., Cambridge, MA 02138",
    "online": false,
-   "host": "Institute of Politics (IOP)",
+   "host": "Shorenstein Center on Media, Politics and Public Policy",
    "food": {
     "status": "none",
     "types": [],
@@ -3462,8 +3456,8 @@
    },
    "registration": {
     "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://iop.harvard.edu/events/diplomat-screen-and-world-ft-keri-russell-debora-cahn-amb-samantha-power"
+    "evidence": "Registration link on the event page",
+    "link": "https://hksexeced.tfaforms.net/f/iop-forum-register?c=701Pp00002ULNaPIAX"
    },
    "audience": {
     "level": "unknown",
@@ -3471,14 +3465,14 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "Netflix's \"The Diplomat\" has brought the high-stakes world of international diplomacy to millions of viewers. But how closely does the drama on screen resemble the reality behind the scenes? Join creator and showrunner Debora Cahn and Emmy-nominated actress Keri Russell, who portrays U.S. Ambassador Kate Wyler, for a…",
+   "summary": "Explore how \"The Diplomat\" brings the work of diplomacy to life, the people and experiences that shape the series, and what the show can reveal about the practice of diplomacy in a period of profound geopolitical change. Netflix's \"The Diplomat\" has brought the high-stakes world of international diplomacy to millions…",
    "blurb": "Join creator and showrunner Debora Cahn and Emmy-nominated actress Keri Russell, who portrays U.S. Ambassador Kate Wyler, for a conversation with former U.S. Netflix's \"The Diplomat\" has brought the high-stakes world of international diplomacy to millions of…",
    "event_page": true,
    "notes": "",
    "place_name": "Littauer Building, Harvard Kennedy School",
    "lat": 42.371045,
    "lon": -71.12209,
-   "geo_method": "host",
+   "geo_method": "gazetteer",
    "walk_min": 18
   },
   {
@@ -4576,68 +4570,6 @@
    "walk_min": 13
   },
   {
-   "id": "34634a89b818",
-   "title": "Intelligence Oversight in the Trump Era with Congressman Jim Himes",
-   "url": "https://www.hks.harvard.edu/events/intelligence-oversight-trump-era-congressman-jim-himes",
-   "source_id": "hks",
-   "source_name": "Harvard Kennedy School",
-   "also_listed": [
-    {
-     "source_name": "Harvard College events",
-     "url": "https://events.college.harvard.edu/event/225866-who-watches-the-watchmen-intelligence-oversight-in"
-    },
-    {
-     "source_name": "Forwarded: JFK Jr. Forum: Netflix's The Diplomat with Keri Russell; 2026 Stone Lecture with",
-     "url": "https://iop.harvard.edu/events/who-watches-watchmen-intelligence-oversight-trump-era-congressman-jim-himes"
-    }
-   ],
-   "aliases": [
-    "3b410aca07af",
-    "e8af16448cb4"
-   ],
-   "suggested": null,
-   "forwarded": {
-    "by": "Ellen",
-    "subject": "JFK Jr. Forum: Netflix's The Diplomat with Keri Russell; 2026 Stone Lecture with Cecilia Rouse; Congresswoman Liz Cheney",
-    "missing": []
-   },
-   "start": "2026-10-27T12:00:00-04:00",
-   "end": "2026-10-27T13:00:00-04:00",
-   "date": "2026-10-27",
-   "all_day": false,
-   "location": "L-166",
-   "online": false,
-   "host": "Institute of Politics (IOP)",
-   "food": {
-    "status": "confirmed",
-    "types": [
-     "Lunch"
-    ],
-    "evidence": "Lunch will be served.",
-    "cue": "strong"
-   },
-   "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://iop.harvard.edu/events/who-watches-watchmen-intelligence-oversight-trump-era-congressman-jim-himes"
-   },
-   "audience": {
-    "level": "unknown",
-    "group": "",
-    "evidence": "",
-    "basis": "none"
-   },
-   "summary": "What role does Congress play in identifying risks and holding the intelligence community accountable? Join the Institute of Politics for the next installment of our Food for Thought series featuring Congressman Jim Himes (CT-04), ranking Member of the House Permanent Select Committee on Intelligence, and on the House…",
-   "blurb": "What role does Congress play in identifying risks and holding the intelligence community accountable? the next installment of our Food for Thought series featuring Congressman Jim Himes (CT-04), ranking Member of the House Permanent Select Committee on…",
-   "event_page": true,
-   "notes": "",
-   "place_name": "Littauer Building, Harvard Kennedy School",
-   "lat": 42.371045,
-   "lon": -71.12209,
-   "geo_method": "gazetteer",
-   "walk_min": 18
-  },
-  {
    "id": "c993ca6f5a7c",
    "title": "La Alianza Presents: A Day in the Life of an Associate",
    "url": "https://hls.harvard.edu/events/la-alianza-presents-a-day-in-the-life-of-an-associate/",
@@ -4781,6 +4713,68 @@
    "lon": -71.113135,
    "geo_method": "text",
    "walk_min": 5
+  },
+  {
+   "id": "34634a89b818",
+   "title": "Who Watches the Watchmen: Intelligence Oversight in the Trump Era with Congressman Jim Himes",
+   "url": "https://events.college.harvard.edu/event/225866-who-watches-the-watchmen-intelligence-oversight-in",
+   "source_id": "college",
+   "source_name": "Harvard College events",
+   "also_listed": [
+    {
+     "source_name": "Forwarded: JFK Jr. Forum: Netflix's The Diplomat with Keri Russell; 2026 Stone Lecture with",
+     "url": "https://iop.harvard.edu/events/who-watches-watchmen-intelligence-oversight-trump-era-congressman-jim-himes"
+    },
+    {
+     "source_name": "Harvard Kennedy School",
+     "url": "https://www.hks.harvard.edu/index%2ephp/events/intelligence-oversight-trump-era-congressman-jim-himes"
+    }
+   ],
+   "aliases": [
+    "702fd331eef2",
+    "e8af16448cb4"
+   ],
+   "suggested": null,
+   "forwarded": {
+    "by": "Ellen",
+    "subject": "JFK Jr. Forum: Netflix's The Diplomat with Keri Russell; 2026 Stone Lecture with Cecilia Rouse; Congresswoman Liz Cheney",
+    "missing": []
+   },
+   "start": "2026-10-27T12:00:00-04:00",
+   "end": null,
+   "date": "2026-10-27",
+   "all_day": false,
+   "location": "79 JFK St., Cambridge, MA",
+   "online": false,
+   "host": "Institute of Politics at Harvard Kennedy School",
+   "food": {
+    "status": "confirmed",
+    "types": [
+     "Lunch"
+    ],
+    "evidence": "*Lunch will be served.",
+    "cue": "strong"
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "Register Here",
+    "link": ""
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "What role does Congress play in identifying risks and holding the intelligence community accountable? Join the Institute of Politics for the next installment of our Food for Thought series featuring Congressman Jim Himes (CT-04), ranking Member of the House Permanent Select Committee on Intelligence, and on the House…",
+   "blurb": "What role does Congress play in identifying risks and holding the intelligence community accountable? the next installment of our Food for Thought series featuring Congressman Jim Himes (CT-04), ranking Member of the House Permanent Select Committee on…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Harvard Kennedy School",
+   "lat": 42.371989,
+   "lon": -71.121761,
+   "geo_method": "gazetteer",
+   "walk_min": 16
   },
   {
    "id": "eaeb798006db",
@@ -5127,13 +5121,13 @@
     "types": [
      "Lunch"
     ],
-    "evidence": "Lunch will be served.",
+    "evidence": "Lunch will be served!",
     "cue": "strong"
    },
    "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
+    "status": "required",
+    "evidence": "RSVP here: https://forms.cloud.microsoft/pages/responsepage.aspx?id=wbmMV0W0HkqkXXn82_Gl09ogCM5fo2RArmp-iWni3Z5UOFcwQUJTMDdXNTVJNFkyMUlTSktGU1lQMy4u&route=shorturl",
+    "link": "http://www.google.com/calendar/event?action=TEMPLATE&text=JOLT%20x%20Covington%20&%20Burlington&dates=20261027T163000Z/20261027T171500Z&details=Join%20JOLT%20and%20Covington%20attorneys%20Tarek%20Austin,%20Kee%20Young%20Lee,%20Nicole%20S.%20L.%20Pobre,%20and%20Christine%20Smith%20for%20a%20conversation%20about%20practicing%20IP%20litigation%20at%20Covington%20and%20the%20firm%E2%80%99s%20summer%20opportunities,%20including%20its%201L%20Patent%20Litigation%20Summer%20Associate%20Program.%20Lunch%20will%20be%20served!%20RSVP%20here:%20https://forms.cloud.microsoft/pages/responsepage.aspx?id=wbmMV0W0HkqkXXn82_Gl09ogCM5fo2RArmp-iWni3Z5UOFcwQUJTMDdXNTVJNFkyMUlTSktGU1lQMy4u&route=shorturl&sprop=Harvard%20Law%20School&location=WCC;%201019%20Classroom,%20,%20,%20,%20,%20"
    },
    "audience": {
     "level": "restricted",
@@ -5141,8 +5135,8 @@
     "evidence": "HLS listing audience: HLS only",
     "basis": "listing"
    },
-   "summary": "Join JOLT for a lunch talk with law firm Covington & Burlington to learn more about their practice! Lunch will be served. Add to Calendar October 27, 2026, 12:30 pm - 1:15 pm +Google Calendar +iCal/Outlook",
-   "blurb": "",
+   "summary": "Join JOLT and Covington attorneys Tarek Austin, Kee Young Lee, Nicole S. L. Pobre, and Christine Smith for a conversation about practicing IP litigation at Covington and the firm’s summer opportunities, including its 1L Patent Litigation Summer Associate Program. Lunch will be served! RSVP here:…",
+   "blurb": "Join JOLT and Covington attorneys Tarek Austin, Kee Young Lee, Nicole S. Pobre, and Christine Smith for a conversation about practicing IP litigation at Covington and the firm’s summer opportunities, including its 1L Patent Litigation Summer Associate Program.",
    "event_page": true,
    "notes": "",
    "place_name": "Wasserstein Hall (WCC), Harvard Law School",
@@ -5281,9 +5275,9 @@
    "walk_min": 8
   },
   {
-   "id": "03e6fbe94109",
+   "id": "7ad9c8144c99",
    "title": "Believability in the Age of AI: When you speak, do people believe you?",
-   "url": "https://www.hks.harvard.edu/events/believability-age-ai-two-session-study-group-apply-today",
+   "url": "https://www.hks.harvard.edu/index%2ephp/events/believability-age-ai-two-session-study-group-apply-today",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -5294,34 +5288,34 @@
    "end": "2026-10-27T15:30:00-04:00",
    "date": "2026-10-27",
    "all_day": false,
-   "location": "Belfer Conf. Room, Lobby Level, Room 4 (across From Weil Town Hall)",
+   "location": "",
    "online": false,
-   "host": "Communications Program",
+   "host": "",
    "food": {
     "status": "none",
     "types": [],
     "evidence": ""
    },
    "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001l1ZZIAY"
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
    },
    "audience": {
-    "level": "harvard",
+    "level": "unknown",
     "group": "",
-    "evidence": "Open to all Harvard students, faculty, and fellows.",
-    "basis": "text"
+    "evidence": "",
+    "basis": "none"
    },
-   "summary": "Believability in the Age of AI - A two-session HKS Study Group When you speak, do people believe you? Today, words are easier than ever to produce and harder than ever to trust. This study group will address what makes someone believe you and what it costs when they don't. The two sessions will focus on: The…",
-   "blurb": "When you speak, do people believe you? Today, words are easier than ever to produce and harder than ever to trust. This study group will address what makes someone believe you and what it costs when they don't. We will examine the cost of disbelief for…",
+   "summary": "",
+   "blurb": "",
    "event_page": true,
    "notes": "",
-   "place_name": "Belfer Building, Harvard Kennedy School",
-   "lat": 42.37141,
-   "lon": -71.121513,
-   "geo_method": "gazetteer",
-   "walk_min": 17
+   "place_name": "Harvard Kennedy School",
+   "lat": 42.371989,
+   "lon": -71.121761,
+   "geo_method": "host",
+   "walk_min": 16
   },
   {
    "id": "d57fb6b74d9d",
@@ -5542,7 +5536,7 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "Oct 27, 2026 @ 4:00 PM What Remains: AI, Death, and Loss All Too Human 2026-27 Speaker Series Our online lives increasingly outlast us, leaving our likeness with loved ones grappling with challenging but eternal questions of legacy, loss, and law. How does this digital… In-Person RSVP Zoom RSVP Event Nov 3, 2026 @…",
+   "summary": "Oct 27, 2026 @ 4:00 PM What Remains: AI, Death, and Loss All Too Human 2026-27 Speaker Series Our online lives increasingly outlast us, leaving our likeness with loved ones grappling with challenging but eternal questions of legacy, loss, and law. How does this digital… In-Person RSVP Zoom RSVP Nov 3, 2026 @ 12:20 PM…",
    "blurb": "Our online lives increasingly outlast us, leaving our likeness with loved ones grappling with challenging but eternal questions of legacy, loss, and law. What can the law teach us about where AI systems should exercise judgment when their instructions leave…",
    "event_page": true,
    "notes": "",
@@ -5961,16 +5955,12 @@
    "walk_min": 10
   },
   {
-   "id": "7a3697c25f60",
+   "id": "457e0f7ab4b1",
    "title": "Patriotism and Principles with former congresswoman Liz Cheney",
    "url": "https://iop.harvard.edu/events/patriotism-and-principles-fmr-congresswoman-liz-cheney",
    "source_id": "gazette",
    "source_name": "Harvard Gazette calendar",
    "also_listed": [
-    {
-     "source_name": "Harvard Kennedy School",
-     "url": "https://www.hks.harvard.edu/events/patriotism-and-principles"
-    },
     {
      "source_name": "Harvard College events",
      "url": "https://events.college.harvard.edu/event/225773-patriotism-and-principles-with-fmr-congresswoman"
@@ -5978,12 +5968,16 @@
     {
      "source_name": "Forwarded: JFK Jr. Forum: Netflix's The Diplomat with Keri Russell; 2026 Stone Lecture with",
      "url": "https://iop.harvard.edu/events/patriotism-and-principles-fmr-congresswoman-liz-cheney"
+    },
+    {
+     "source_name": "Harvard Kennedy School",
+     "url": "https://www.hks.harvard.edu/index%2ephp/events/patriotism-and-principles"
     }
    ],
    "aliases": [
+    "7a3697c25f60",
     "8c41497f6e4a",
-    "e892a6eb550e",
-    "fb3a5d9a85f0"
+    "e892a6eb550e"
    ],
    "suggested": null,
    "forwarded": {
@@ -7255,18 +7249,23 @@
    "walk_min": 77
   },
   {
-   "id": "32d93d411473",
+   "id": "25bd51fbc848",
    "title": "Indigenous Musicians in Labor History Entanglements (Viceroyalty of Perú, 16th-18th centuries)",
    "url": "https://us.list-manage.com/hHvY2wNnEPY?e=47fd1b5679&c2id=e16b879dc543fc1e49d6366bda8a5a69",
    "source_id": "newsletter",
    "source_name": "Newsletter: DRCLAS Weekly: Brazil, Water Futures, and Venezuela",
    "also_listed": [
     {
+     "source_name": "Newsletter: Abortion Politics, Indigenous Musicians & More | DRCLAS Weekly",
+     "url": "https://us.list-manage.com/y8rRU2CyfKo?e=47fd1b5679&c2id=e16b879dc543fc1e49d6366bda8a5a69"
+    },
+    {
      "source_name": "Forwarded: DRCLAS Weekly: Brazil, Water Futures, and Venezuela",
      "url": "https://us.list-manage.com/ZUz_eQMHloB?e=b548e82a29&c2id=7b17039730bbe6a56c6098c1c0815e9a"
     }
    ],
    "aliases": [
+    "32d93d411473",
     "5ef0e7a61429"
    ],
    "suggested": null,
@@ -10234,7 +10233,7 @@
    "walk_min": 11
   },
   {
-   "id": "1ae786e75787",
+   "id": "5ecad42ee714",
    "title": "How to Win A Trade War",
    "url": "https://www.hks.harvard.edu/events/how-win-trade-war",
    "source_id": "gazette",
@@ -10242,7 +10241,7 @@
    "also_listed": [
     {
      "source_name": "Harvard Kennedy School",
-     "url": "https://www.hks.harvard.edu/events/how-win-trade-war"
+     "url": "https://www.hks.harvard.edu/index%2ephp/events/how-win-trade-war"
     }
    ],
    "aliases": [
@@ -11051,7 +11050,7 @@
   },
   {
    "id": "849b3ace66eb",
-   "title": "JOLT x Mayer Brown",
+   "title": "JOLT x Mayer Brown — “Day in the Life” Panel",
    "url": "https://hls.harvard.edu/events/jolt-x-mayer-brown/",
    "source_id": "hls",
    "source_name": "Harvard Law School",
@@ -11071,13 +11070,13 @@
     "types": [
      "Lunch"
     ],
-    "evidence": "Lunch will be served.",
+    "evidence": "Lunch will be served!",
     "cue": "strong"
    },
    "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
+    "status": "required",
+    "evidence": "RSVP here: https://florecruit.com/v2/app/mayerbrown/registration/events/110392/register",
+    "link": "http://www.google.com/calendar/event?action=TEMPLATE&text=JOLT%20x%20Mayer%20Brown%20%E2%80%94%20%E2%80%9CDay%20in%20the%20Life%E2%80%9D%20Panel&dates=20261029T163000Z/20261029T171500Z&details=Join%20JOLT%20and%20Mayer%20Brown%20attorneys%20Allison%20Aviki,%20Clayton%20McCraw,%20and%20Seowoo%20Kim%20for%20a%20candid%20%E2%80%9CDay%20in%20the%20Life%E2%80%9D%20conversation%20about%20the%20firm,%20their%20practices,%20and%20the%20summer%20associate%20experience.%20Lunch%20will%20be%20served!%20RSVP%20here:%20https://florecruit.com/v2/app/mayerbrown/registration/events/110392/register&sprop=Harvard%20Law%20School&location=WCC;%201023%20Classroom,%20,%20,%20,%20,%20"
    },
    "audience": {
     "level": "restricted",
@@ -11085,8 +11084,8 @@
     "evidence": "HLS listing audience: HLS only",
     "basis": "listing"
    },
-   "summary": "Join JOLT for a lunch talk with law firm Mayer Brown to learn more about their practice! Lunch will be served. Add to Calendar October 29, 2026, 12:30 pm - 1:15 pm +Google Calendar +iCal/Outlook",
-   "blurb": "",
+   "summary": "Join JOLT and Mayer Brown attorneys Allison Aviki, Clayton McCraw, and Seowoo Kim for a candid “Day in the Life” conversation about the firm, their practices, and the summer associate experience. Lunch will be served! RSVP here: https://florecruit.com/v2/app/mayerbrown/registration/events/110392/register Add to…",
+   "blurb": "Join JOLT and Mayer Brown attorneys Allison Aviki, Clayton McCraw, and Seowoo Kim for a candid “Day in the Life” conversation about the firm, their practices, and the summer associate experience.",
    "event_page": true,
    "notes": "",
    "place_name": "Wasserstein Hall (WCC), Harvard Law School",
@@ -15784,6 +15783,12 @@
    "sent": "2026-10-24",
    "items": 0,
    "sender": "Weatherhead Center for International Affairs"
+  },
+  {
+   "subject": "Abortion Politics, Indigenous Musicians & More | DRCLAS Weekly",
+   "sent": "2026-10-25",
+   "items": 1,
+   "sender": "David Rockefeller Center for Latin American Studies"
   }
  ]
 }
