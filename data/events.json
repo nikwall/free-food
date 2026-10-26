@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-26T12:50:50-04:00",
+ "generated_at": "2026-10-26T19:11:26-04:00",
  "window": {
   "start": "2026-10-26",
   "end": "2026-11-02"
@@ -22,7 +22,7 @@
    "error": null,
    "n_events": 144,
    "n_food": 2,
-   "seconds": 1.7
+   "seconds": 2.2
   },
   {
    "id": "hks",
@@ -30,9 +30,9 @@
    "homepage": "https://www.hks.harvard.edu/more/events",
    "ok": true,
    "error": null,
-   "n_events": 41,
-   "n_food": 9,
-   "seconds": 9.6
+   "n_events": 49,
+   "n_food": 13,
+   "seconds": 3.1
   },
   {
    "id": "hls",
@@ -42,7 +42,7 @@
    "error": null,
    "n_events": 98,
    "n_food": 55,
-   "seconds": 11.6
+   "seconds": 11.7
   },
   {
    "id": "college",
@@ -50,7 +50,7 @@
    "homepage": "https://events.college.harvard.edu/",
    "ok": true,
    "error": null,
-   "n_events": 83,
+   "n_events": 84,
    "n_food": 9,
    "seconds": 0.9
   },
@@ -62,7 +62,7 @@
    "error": null,
    "n_events": 4,
    "n_food": 1,
-   "seconds": 2.3
+   "seconds": 2.6
   },
   {
    "id": "shorenstein",
@@ -72,7 +72,7 @@
    "error": null,
    "n_events": 1,
    "n_food": 0,
-   "seconds": 8.3
+   "seconds": 9.4
   },
   {
    "id": "fairbank",
@@ -92,7 +92,7 @@
    "error": null,
    "n_events": 51,
    "n_food": 10,
-   "seconds": 99.0
+   "seconds": 85.1
   },
   {
    "id": "suggested",
@@ -100,19 +100,19 @@
    "homepage": "",
    "ok": true,
    "error": null,
-   "n_events": 5,
+   "n_events": 4,
    "n_food": 1,
-   "seconds": 7.5
+   "seconds": 6.2
   }
  ],
  "stats": {
-  "events": 354,
-  "food_confirmed": 58,
+  "events": 360,
+  "food_confirmed": 61,
   "food_likely": 18,
   "forwarded": 36,
   "forwarded_listed": 12,
-  "food_restricted": 48,
-  "seconds": 117.1
+  "food_restricted": 47,
+  "seconds": 95.9
  },
  "events": [
   {
@@ -925,7 +925,7 @@
    "registration": {
     "status": "required",
     "evidence": "Registration: RSVP required.",
-    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001kNYvIAM"
+    "link": ""
    },
    "audience": {
     "level": "unknown",
@@ -1853,15 +1853,8 @@
    "url": "https://fairbank.fas.harvard.edu/events/china-humanities-seminar-featuring-huan-jin-modularity-and-vernacular-knowledge-the-career-of-tao-%e5%a5%97-11th-17th-centuries/",
    "source_id": "fairbank",
    "source_name": "Fairbank Center",
-   "also_listed": [
-    {
-     "source_name": "Suggested calendar: Fairbanks center",
-     "url": "https://fairbank.fas.harvard.edu/events/china-humanities-seminar-featuring-huan-jin-modularity-and-vernacular-knowledge-the-career-of-tao-%e5%a5%97-11th-17th-centuries/"
-    }
-   ],
-   "aliases": [
-    "f8dda76382dd"
-   ],
+   "also_listed": [],
+   "aliases": [],
    "suggested": null,
    "forwarded": null,
    "start": "2026-10-26T16:00:00-04:00",
@@ -2041,6 +2034,86 @@
    "walk_min": 18
   },
   {
+   "id": "02d6fd6b81a7",
+   "title": "EVENT AT CAPACITY: The Diplomat: On Screen and in the World",
+   "url": "https://www.hks.harvard.edu/events/diplomat-screen-and-world",
+   "source_id": "hks",
+   "source_name": "Harvard Kennedy School",
+   "also_listed": [
+    {
+     "source_name": "Shorenstein Center (HKS)",
+     "url": "https://shorensteincenter.org/event/the-diplomat-on-screen-and-in-the-world-with-keri-russell-debora-cahn-amb-samantha-power/"
+    },
+    {
+     "source_name": "Ash Center (HKS)",
+     "url": "https://ash.harvard.edu/events/the-diplomat-on-screen-and-in-the-world-ft-keri-russell-debora-cahn-amb-samantha-power/"
+    },
+    {
+     "source_name": "Forwarded: JFK Jr. Forum: Senator Andy Kim, Ban Ki-moon, & More on Forces Shaping Our Futur",
+     "url": "https://iop.harvard.edu/events/diplomat-screen-and-world-keri-russell-debora-cahn-amb-samantha-power"
+    },
+    {
+     "source_name": "Forwarded: This Week at the IOP: Youth Vote and the Midterms; Networking Night; Steve Witko",
+     "url": "https://iop.harvard.edu/events/diplomat-screen-and-world-keri-russell-debora-cahn-amb-samantha-power"
+    },
+    {
+     "source_name": "Forwarded: JFK Jr. Forum: Jake Sullivan & Michael Anton Debate; Uzo Aduba & Joe Locke on Po",
+     "url": "https://iop.harvard.edu/events/diplomat-screen-and-world-keri-russell-debora-cahn-amb-samantha-power"
+    },
+    {
+     "source_name": "Forwarded: JFK Jr. Forum: Netflix's The Diplomat with Keri Russell; 2026 Stone Lecture with",
+     "url": "https://iop.harvard.edu/events/diplomat-screen-and-world-keri-russell-debora-cahn-amb-samantha-power"
+    }
+   ],
+   "aliases": [
+    "2374aba1d919",
+    "345482ec6b7e",
+    "345482ec6b7e",
+    "345482ec6b7e",
+    "345482ec6b7e",
+    "345482ec6b7e",
+    "8c513ceadcd1"
+   ],
+   "suggested": null,
+   "forwarded": {
+    "by": "Ellen",
+    "subject": "JFK Jr. Forum: Senator Andy Kim, Ban Ki-moon, & More on Forces Shaping Our Future",
+    "missing": []
+   },
+   "start": "2026-10-26T18:00:00-04:00",
+   "end": "2026-10-26T19:00:00-04:00",
+   "date": "2026-10-26",
+   "all_day": false,
+   "location": "John F. Kennedy Jr. Forum",
+   "online": false,
+   "host": "Institute of Politics (IOP)",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "RSVP link on the event page",
+    "link": "https://iop.harvard.edu/events/diplomat-screen-and-world-ft-keri-russell-debora-cahn-amb-samantha-power"
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "Netflix's \"The Diplomat\" has brought the high-stakes world of international diplomacy to millions of viewers. But how closely does the drama on screen resemble the reality behind the scenes? Join creator and showrunner Debora Cahn and Emmy-nominated actress Keri Russell, who portrays U.S. Ambassador Kate Wyler, for a…",
+   "blurb": "Join creator and showrunner Debora Cahn and Emmy-nominated actress Keri Russell, who portrays U.S. Ambassador Kate Wyler, for a conversation with former U.S. Netflix's \"The Diplomat\" has brought the high-stakes world of international diplomacy to millions of…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Littauer Building, Harvard Kennedy School",
+   "lat": 42.371045,
+   "lon": -71.12209,
+   "geo_method": "host",
+   "walk_min": 18
+  },
+  {
    "id": "eeaa9eb1ef59",
    "title": "Film Screening: 'Mr. Nobody Against Putin'",
    "url": "https://daviscenter.fas.harvard.edu/events/film-screening-mr-nobody-against-putin",
@@ -2131,86 +2204,6 @@
    "lon": -71.122151,
    "geo_method": "text",
    "walk_min": 17
-  },
-  {
-   "id": "02d6fd6b81a7",
-   "title": "The Diplomat: On Screen and in the World",
-   "url": "https://www.hks.harvard.edu/events/diplomat-screen-and-world",
-   "source_id": "hks",
-   "source_name": "Harvard Kennedy School",
-   "also_listed": [
-    {
-     "source_name": "Shorenstein Center (HKS)",
-     "url": "https://shorensteincenter.org/event/the-diplomat-on-screen-and-in-the-world-with-keri-russell-debora-cahn-amb-samantha-power/"
-    },
-    {
-     "source_name": "Ash Center (HKS)",
-     "url": "https://ash.harvard.edu/events/the-diplomat-on-screen-and-in-the-world-ft-keri-russell-debora-cahn-amb-samantha-power/"
-    },
-    {
-     "source_name": "Forwarded: JFK Jr. Forum: Senator Andy Kim, Ban Ki-moon, & More on Forces Shaping Our Futur",
-     "url": "https://iop.harvard.edu/events/diplomat-screen-and-world-keri-russell-debora-cahn-amb-samantha-power"
-    },
-    {
-     "source_name": "Forwarded: This Week at the IOP: Youth Vote and the Midterms; Networking Night; Steve Witko",
-     "url": "https://iop.harvard.edu/events/diplomat-screen-and-world-keri-russell-debora-cahn-amb-samantha-power"
-    },
-    {
-     "source_name": "Forwarded: JFK Jr. Forum: Jake Sullivan & Michael Anton Debate; Uzo Aduba & Joe Locke on Po",
-     "url": "https://iop.harvard.edu/events/diplomat-screen-and-world-keri-russell-debora-cahn-amb-samantha-power"
-    },
-    {
-     "source_name": "Forwarded: JFK Jr. Forum: Netflix's The Diplomat with Keri Russell; 2026 Stone Lecture with",
-     "url": "https://iop.harvard.edu/events/diplomat-screen-and-world-keri-russell-debora-cahn-amb-samantha-power"
-    }
-   ],
-   "aliases": [
-    "2374aba1d919",
-    "345482ec6b7e",
-    "345482ec6b7e",
-    "345482ec6b7e",
-    "345482ec6b7e",
-    "345482ec6b7e",
-    "8c513ceadcd1"
-   ],
-   "suggested": null,
-   "forwarded": {
-    "by": "Ellen",
-    "subject": "JFK Jr. Forum: Senator Andy Kim, Ban Ki-moon, & More on Forces Shaping Our Future",
-    "missing": []
-   },
-   "start": "2026-10-26T18:00:00-04:00",
-   "end": "2026-10-26T19:00:00-04:00",
-   "date": "2026-10-26",
-   "all_day": false,
-   "location": "John F. Kennedy Jr. Forum",
-   "online": false,
-   "host": "Institute of Politics (IOP)",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://iop.harvard.edu/events/diplomat-screen-and-world-ft-keri-russell-debora-cahn-amb-samantha-power"
-   },
-   "audience": {
-    "level": "unknown",
-    "group": "",
-    "evidence": "",
-    "basis": "none"
-   },
-   "summary": "Netflix's \"The Diplomat\" has brought the high-stakes world of international diplomacy to millions of viewers. But how closely does the drama on screen resemble the reality behind the scenes? Join creator and showrunner Debora Cahn and Emmy-nominated actress Keri Russell, who portrays U.S. Ambassador Kate Wyler, for a…",
-   "blurb": "Join creator and showrunner Debora Cahn and Emmy-nominated actress Keri Russell, who portrays U.S. Ambassador Kate Wyler, for a conversation with former U.S. Netflix's \"The Diplomat\" has brought the high-stakes world of international diplomacy to millions of…",
-   "event_page": true,
-   "notes": "",
-   "place_name": "Littauer Building, Harvard Kennedy School",
-   "lat": 42.371045,
-   "lon": -71.12209,
-   "geo_method": "host",
-   "walk_min": 18
   },
   {
    "id": "a0b916278ae1",
@@ -4284,6 +4277,56 @@
    "walk_min": 12
   },
   {
+   "id": "4cc7dc519e8f",
+   "title": "Amb. Nathalie Rayes Study Group: From Immigrant to Congress: Breaking Barriers",
+   "url": "https://www.hks.harvard.edu/events/amb-nathalie-rayes-study-group-immigrant-congress-breaking-barriers",
+   "source_id": "hks",
+   "source_name": "Harvard Kennedy School",
+   "also_listed": [
+    {
+     "source_name": "Harvard College events",
+     "url": "https://events.college.harvard.edu/event/225889-study-group-with-ambassador-nathalie-rayes-from"
+    }
+   ],
+   "aliases": [
+    "a10b1fabd826"
+   ],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-10-27T16:00:00-04:00",
+   "end": "2026-10-27T17:15:00-04:00",
+   "date": "2026-10-27",
+   "all_day": false,
+   "location": "L-150",
+   "online": false,
+   "host": "Institute of Politics (IOP)",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "RSVP link on the event page",
+    "link": "https://iop.harvard.edu/events/study-group-ambassador-nathalie-rayes-immigrant-congress-breaking-barriers-shaping-america"
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "HKS students",
+    "evidence": "Title: Amb. Nathalie Rayes Study Group: From Immigrant to Congress: Breaking Barriers",
+    "basis": "inferred"
+   },
+   "summary": "What does it take to break barriers, find your political voice, and help shape the future of America? Join Ambassador Nathalie Rayes for a conversation with Congressman Adriano Espaillat, the first Dominican American elected to the U.S. Congress. From his immigrant roots to Capitol Hill, we’ll explore his…",
+   "blurb": "What does it take to break barriers, find your political voice, and help shape the future of America? Join Ambassador Nathalie Rayes for a conversation with Congressman Adriano Espaillat, the first Dominican American elected to the U.S. From his immigrant…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Littauer Building, Harvard Kennedy School",
+   "lat": 42.371045,
+   "lon": -71.12209,
+   "geo_method": "gazetteer",
+   "walk_min": 18
+  },
+  {
    "id": "fabad72195fd",
    "title": "Events",
    "url": "https://cyber.harvard.edu/events",
@@ -4322,7 +4365,7 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "Oct 27, 2026 @ 4:00 PM What Remains: AI, Death, and Loss All Too Human 2026-27 Speaker Series Our online lives increasingly outlast us, leaving our likeness with loved ones grappling with challenging but eternal questions of legacy, loss, and law. How does this digital… In-Person RSVP Zoom RSVP Nov 3, 2026 @ 12:20 PM…",
+   "summary": "Oct 27, 2026 @ 4:00 PM What Remains: AI, Death, and Loss All Too Human 2026-27 Speaker Series Our online lives increasingly outlast us, leaving our likeness with loved ones grappling with challenging but eternal questions of legacy, loss, and law. How does this digital… In-Person RSVP Zoom RSVP Event Nov 3, 2026 @…",
    "blurb": "Our online lives increasingly outlast us, leaving our likeness with loved ones grappling with challenging but eternal questions of legacy, loss, and law. Update:The start time of this event has been changed to 5:00 pm.What can the law teach us about where AI…",
    "event_page": true,
    "notes": "",
@@ -4376,49 +4419,6 @@
    "walk_min": 18
   },
   {
-   "id": "4cc7dc519e8f",
-   "title": "Study Group with Ambassador Nathalie Rayes: From Immigrant to Congress: Breaking Barriers, Shaping America",
-   "url": "https://events.college.harvard.edu/event/225889-study-group-with-ambassador-nathalie-rayes-from",
-   "source_id": "college",
-   "source_name": "Harvard College events",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-10-27T16:00:00-04:00",
-   "end": null,
-   "date": "2026-10-27",
-   "all_day": false,
-   "location": "79 JFK St., Cambridge, MA",
-   "online": false,
-   "host": "Institute of Politics at Harvard Kennedy School",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
-   },
-   "audience": {
-    "level": "restricted",
-    "group": "undergraduates",
-    "evidence": "Title: Study Group with Ambassador Nathalie Rayes: From Immigrant to Congress: Breaking Barriers, Shaping America",
-    "basis": "inferred"
-   },
-   "summary": "What does it take to break barriers, find your political voice, and help shape the future of America? Join Ambassador Nathalie Rayes for a conversation with Congressman Adriano Espaillat, the first Dominican American elected to the U.S. Congress. From his immigrant roots to Capitol Hill, we’ll explore his…",
-   "blurb": "What does it take to break barriers, find your political voice, and help shape the future of America? Join Ambassador Nathalie Rayes for a conversation with Congressman Adriano Espaillat, the first Dominican American elected to the U.S. From his immigrant…",
-   "event_page": true,
-   "notes": "",
-   "place_name": "Harvard Kennedy School",
-   "lat": 42.371989,
-   "lon": -71.121761,
-   "geo_method": "gazetteer",
-   "walk_min": 16
-  },
-  {
    "id": "7bc200b774b7",
    "title": "What Remains: AI, Death, and Loss",
    "url": "https://hls.harvard.edu/events/what-remains-ai-death-and-loss-2/",
@@ -4463,46 +4463,53 @@
   },
   {
    "id": "0242a56beacb",
-   "title": "Study Group with Chris Whipple: Preview of the 2026 Midterm Elections with John Podesta",
-   "url": "https://events.college.harvard.edu/event/225891-study-group-with-chris-whipple-preview-of-the-2026",
-   "source_id": "college",
-   "source_name": "Harvard College events",
-   "also_listed": [],
-   "aliases": [],
+   "title": "Study Group with Chris Whipple: 2026 Midterm Elections Preview with John Podesta",
+   "url": "https://www.hks.harvard.edu/events/study-group-chris-whipple-2026-midterm-elections-preview-john-podesta",
+   "source_id": "hks",
+   "source_name": "Harvard Kennedy School",
+   "also_listed": [
+    {
+     "source_name": "Harvard College events",
+     "url": "https://events.college.harvard.edu/event/225891-study-group-with-chris-whipple-preview-of-the-2026"
+    }
+   ],
+   "aliases": [
+    "b5dac9e962a7"
+   ],
    "suggested": null,
    "forwarded": null,
    "start": "2026-10-27T16:30:00-04:00",
-   "end": null,
+   "end": "2026-10-27T17:45:00-04:00",
    "date": "2026-10-27",
    "all_day": false,
-   "location": "79 JFK St., Cambridge, MA",
+   "location": "L-163",
    "online": false,
-   "host": "Institute of Politics at Harvard Kennedy School",
+   "host": "Institute of Politics (IOP)",
    "food": {
     "status": "none",
     "types": [],
     "evidence": ""
    },
    "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
+    "status": "required",
+    "evidence": "RSVP link on the event page",
+    "link": "https://iop.harvard.edu/events/study-group-chris-whipple-preview-2026-midterm-elections-john-podesta"
    },
    "audience": {
     "level": "restricted",
-    "group": "undergraduates",
-    "evidence": "Title: Study Group with Chris Whipple: Preview of the 2026 Midterm Elections with John Podesta",
+    "group": "HKS students",
+    "evidence": "Title: Study Group with Chris Whipple: 2026 Midterm Elections Preview with John Podesta",
     "basis": "inferred"
    },
    "summary": "In this session, just one week before the pivotal 2026 midterm elections, we’ll look at what history tells us to expect—with John Podesta, chair of Hillary Clinton’s 2016 campaign and former chief of staff to Bill Clinton. While the incumbent president’s party usually suffers a “shellacking,” as Barack Obama put it,…",
    "blurb": "In this session, just one week before the pivotal 2026 midterm elections, we’ll look at what history tells us to expect—with John Podesta, chair of Hillary Clinton’s 2016 campaign and former chief of staff to Bill Clinton. While the incumbent president’s…",
    "event_page": true,
    "notes": "",
-   "place_name": "Harvard Kennedy School",
-   "lat": 42.371989,
-   "lon": -71.121761,
+   "place_name": "Littauer Building, Harvard Kennedy School",
+   "lat": 42.371045,
+   "lon": -71.12209,
    "geo_method": "gazetteer",
-   "walk_min": 16
+   "walk_min": 18
   },
   {
    "id": "384a6f177ea8",
@@ -4589,6 +4596,52 @@
    "lon": -71.113088,
    "geo_method": "gazetteer",
    "walk_min": 2
+  },
+  {
+   "id": "23cab3b89382",
+   "title": "HKS Fall 2026 Reception",
+   "url": "https://www.hks.harvard.edu/events/hks-fall-2026-reception",
+   "source_id": "hks",
+   "source_name": "Harvard Kennedy School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-10-27T17:30:00-04:00",
+   "end": "2026-10-27T19:30:00-04:00",
+   "date": "2026-10-27",
+   "all_day": false,
+   "location": "Hotel Zena",
+   "online": false,
+   "host": "Alumni Relations & Resource Development (ARRD)",
+   "food": {
+    "status": "confirmed",
+    "types": [
+     "Reception"
+    ],
+    "evidence": "Enjoy a selection of light hors d'oeuvres and beverages while mingling with fellow alumni in a relaxed and welcoming atmosphere.",
+    "cue": "weak"
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "RSVP link on the event page",
+    "link": "https://www.hksdc.org/events/hks-fall-2026-reception"
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "Enjoy a selection of light hors d'oeuvres and beverages while mingling with fellow alumni in a relaxed and welcoming atmosphere. Whether reconnecting with old friends or making new professional contacts, this is the perfect setting to engage, network, and share stories from your time at HKS.",
+   "blurb": "Enjoy a selection of light hors d'oeuvres and beverages while mingling with fellow alumni in a relaxed and welcoming atmosphere. Whether reconnecting with old friends or making new professional contacts, this is the perfect setting to engage, network, and…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Harvard Kennedy School",
+   "lat": 42.371989,
+   "lon": -71.121761,
+   "geo_method": "host",
+   "walk_min": 16
   },
   {
    "id": "8cc621760a28",
@@ -7070,7 +7123,7 @@
     "evidence": "This event is open to Harvard ID holders and RSVP is required.",
     "basis": "text"
    },
-   "summary": "Join the Intelligence Project for an in-person seminar with Jonathan Czin, former senior CIA analyst on China and former NSC director for China, for a discussion of China's likely foreign policy beyond 2027 as Xi Jinping enters his fourth term. The talk will build off Czin's recent articles The Four Seasons of Xi’s…",
+   "summary": "**REGISTRATION IS AT CAPACITY FOR THIS EVENT** Join the Intelligence Project for an in-person seminar with Jonathan Czin, former senior CIA analyst on China and former NSC director for China, for a discussion of China's likely foreign policy beyond 2027 as Xi Jinping enters his fourth term. The talk will build off…",
    "blurb": "Join the Intelligence Project for an in-person seminar with Jonathan Czin, former senior CIA analyst on China and former NSC director for China, for a discussion of China's likely foreign policy beyond 2027 as Xi Jinping enters his fourth term. The talk will…",
    "event_page": true,
    "notes": "",
@@ -7312,6 +7365,49 @@
    "lon": -71.119679,
    "geo_method": "host",
    "walk_min": 10
+  },
+  {
+   "id": "24fe60182f93",
+   "title": "The Final Stretch: Countdown to the Midterms",
+   "url": "https://www.hks.harvard.edu/events/final-stretch-countdown-midterms",
+   "source_id": "hks",
+   "source_name": "Harvard Kennedy School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-10-28T15:00:00-04:00",
+   "end": "2026-10-28T16:00:00-04:00",
+   "date": "2026-10-28",
+   "all_day": false,
+   "location": "T-401",
+   "online": false,
+   "host": "Democratic Caucus",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "With Election Day just around the corner, Democrats and Republicans are battling for control of Congress in the 2026 midterms. Which races will determine the balance of power in Washington? What issues are driving voters, and where could the biggest surprises come from? Join Democratic strategists Doug Sosnik (former…",
+   "blurb": "With Election Day just around the corner, Democrats and Republicans are battling for control of Congress in the 2026 midterms. Which races will determine the balance of power in Washington? What issues are driving voters, and where could the biggest surprises…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Taubman Building, Harvard Kennedy School",
+   "lat": 42.371822,
+   "lon": -71.122151,
+   "geo_method": "gazetteer",
+   "walk_min": 17
   },
   {
    "id": "293e0f29e500",
@@ -7833,6 +7929,49 @@
    "lon": -71.119421,
    "geo_method": "gazetteer",
    "walk_min": 10
+  },
+  {
+   "id": "7a99c7edd6e3",
+   "title": "HKS NY Alumni Network Fundraiser: Sip for a Cause",
+   "url": "https://www.hks.harvard.edu/events/hks-ny-alumni-network-fundraiser-sip-cause",
+   "source_id": "hks",
+   "source_name": "Harvard Kennedy School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-10-28T18:30:00-04:00",
+   "end": "2026-10-28T21:00:00-04:00",
+   "date": "2026-10-28",
+   "all_day": false,
+   "location": "Zuppa Italian Restaurant, 59 Main Street, Yonkers, Ny",
+   "online": false,
+   "host": "Alumni Relations & Resource Development (ARRD)",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "Space is limited, so please secure your ticket early.",
+    "link": ""
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "The HKS New York Alumni Network is having their Inaugural Fundraiser on Wednesday, October 28, 2026! The Board President and Yonkers Police Commissioner Chris Sapienza is hosting this special evening to bring together alumni, HKS supporters, and distinguished guests from across the region to celebrate and invest in…",
+   "blurb": "The HKS New York Alumni Network is having their Inaugural Fundraiser on Wednesday, October 28, 2026! The Board President and Yonkers Police Commissioner Chris Sapienza is hosting this special evening to bring together alumni, HKS supporters, and distinguished…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "59 Main Street",
+   "lat": 42.36206,
+   "lon": -71.080459,
+   "geo_method": "address",
+   "walk_min": 51
   },
   {
    "id": "2923f41cd51c",
@@ -8733,6 +8872,49 @@
    "walk_min": 7
   },
   {
+   "id": "f8d473288bec",
+   "title": "A Conversation with Taubman Fellow Fagan Harris",
+   "url": "https://www.hks.harvard.edu/events/conversation-taubman-fellow-fagan-harris",
+   "source_id": "hks",
+   "source_name": "Harvard Kennedy School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-10-29T12:00:00-04:00",
+   "end": "2026-10-29T13:00:00-04:00",
+   "date": "2026-10-29",
+   "all_day": false,
+   "location": "Wexner Building - W-g02 Seminar Room",
+   "online": false,
+   "host": "Taubman Center for State and Local Government",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "RSVP link on the event page",
+    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001lInJIAU"
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "Join the Taubman Center for a conversation with Fagan Harris, President and CEO of the Abell Foundation. Drawing on his experience in state government and social innovation, Harris will share perspectives from his work in public service and community leadership. The conversation will offer an opportunity to reflect on…",
+   "blurb": "Join the Taubman Center for a conversation with Fagan Harris, President and CEO of the Abell Foundation. Drawing on his experience in state government and social innovation, Harris will share perspectives from his work in public service and community…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Wexner Building, Harvard Kennedy School",
+   "lat": 42.371344,
+   "lon": -71.122357,
+   "geo_method": "gazetteer",
+   "walk_min": 18
+  },
+  {
    "id": "7d5ad2f26594",
    "title": "AI, National Security, & Future of Public Service with Katrina Mulligan, OpenAI",
    "url": "https://www.hks.harvard.edu/events/ai-national-security-future-public-service-katrina-mulligan-openai",
@@ -9209,49 +9391,6 @@
    "lon": null,
    "geo_method": null,
    "walk_min": null
-  },
-  {
-   "id": "bc3f5a7702ee",
-   "title": "The Kosovo Specialist Chambers: A Wrong Turn for Transitional Justice?",
-   "url": "https://www.hks.harvard.edu/events/kosovo-specialist-chambers-wrong-turn-transitional-justice",
-   "source_id": "hks",
-   "source_name": "Harvard Kennedy School",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-10-29T12:00:00-04:00",
-   "end": "2026-10-29T13:00:00-04:00",
-   "date": "2026-10-29",
-   "all_day": false,
-   "location": "L-324 Fainsod Room",
-   "online": false,
-   "host": "Carr-Ryan Center for Human Rights",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001krqLIAQ"
-   },
-   "audience": {
-    "level": "harvard",
-    "group": "",
-    "evidence": "In person attendance restricted to HUID holders.",
-    "basis": "text"
-   },
-   "summary": "Last month, the Kosovo Specialist Chambers convicted former Kosovo President Hashim Thaçi of war crimes committed during the country’s war for independence from Serbia. For some, the verdict is a long-awaited reckoning. For many in Kosovo, it landed as something closer to an injury: tens of thousands had gathered in…",
-   "blurb": "Last month, the Kosovo Specialist Chambers convicted former Kosovo President Hashim Thaçi of war crimes committed during the country’s war for independence from Serbia. For some, the verdict is a long-awaited reckoning. For many in Kosovo, it landed as…",
-   "event_page": true,
-   "notes": "",
-   "place_name": "Littauer Building, Harvard Kennedy School",
-   "lat": 42.371045,
-   "lon": -71.12209,
-   "geo_method": "gazetteer",
-   "walk_min": 18
   },
   {
    "id": "1fd3e4c19583",
@@ -10138,6 +10277,49 @@
    "lon": -71.12209,
    "geo_method": "gazetteer",
    "walk_min": 18
+  },
+  {
+   "id": "2677d927ddc6",
+   "title": "HKS State & Local PIC: 2027 Urban & Rural Leadership Trip Information Session",
+   "url": "https://www.hks.harvard.edu/events/hks-state-local-pic-2027-urban-rural-leadership-trip-information-session",
+   "source_id": "hks",
+   "source_name": "Harvard Kennedy School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-10-29T16:30:00-04:00",
+   "end": "2026-10-29T17:30:00-04:00",
+   "date": "2026-10-29",
+   "all_day": false,
+   "location": "Online",
+   "online": true,
+   "host": "Taubman Center for State and Local Government",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "Please register here.",
+    "link": "https://harvard.zoom.us/meeting/register/s-SDemnYS8umECHOFg5L1Q"
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "HKS students",
+    "evidence": "Title: HKS State & Local PIC: 2027 Urban & Rural Leadership Trip Information Session",
+    "basis": "inferred"
+   },
+   "summary": "Join the State and Local PIC to learn more about the 2027 Urban & Rural Leadership Trip to the Upper Midwest. Please register here. 2027 Urban & Rural Leadership Trip Applications are now open! Spend spring break exploring food systems, land and water policy, community and economic development, and state and local…",
+   "blurb": "Spend spring break exploring food systems, land and water policy, community and economic development, and state and local leadership across Wisconsin and Minnesota. Visit Milwaukee, Madison, the Driftless region, and Minneapolis, and learn about urban…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "",
+   "lat": null,
+   "lon": null,
+   "geo_method": null,
+   "walk_min": null
   },
   {
    "id": "34db5cbcf363",
@@ -11202,52 +11384,6 @@
    "walk_min": 37
   },
   {
-   "id": "34788c26a39e",
-   "title": "From California to Washington: Leadership, Representation, and the Future of American Democracy with Senator Alex Padilla",
-   "url": "https://events.college.harvard.edu/event/225896-from-california-to-washington-leadership",
-   "source_id": "college",
-   "source_name": "Harvard College events",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-10-30T10:00:00-04:00",
-   "end": null,
-   "date": "2026-10-30",
-   "all_day": false,
-   "location": "79 JFK St., Cambridge, MA",
-   "online": false,
-   "host": "Institute of Politics at Harvard Kennedy School",
-   "food": {
-    "status": "confirmed",
-    "types": [
-     "Breakfast"
-    ],
-    "evidence": "Breakfast will be served.",
-    "cue": "strong"
-   },
-   "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
-   },
-   "audience": {
-    "level": "restricted",
-    "group": "Harvard College students",
-    "evidence": "Harvard College calendar, no sign it is open to others",
-    "basis": "default"
-   },
-   "summary": "Join Ambassador Nathalie Rayes for a candid conversation with U.S. Senator Alex Padilla, California’s first Latino U.S. Senator, on leadership, public service, and the future of American democracy. From his early beginnings as the son of Mexican immigrants to the halls of the U.S. Senate, Senator Padilla’s journey…",
-   "blurb": "Join Ambassador Nathalie Rayes for a candid conversation with U.S. Senator Alex Padilla, California’s first Latino U.S. Senator, on leadership, public service, and the future of American democracy. From his early beginnings as the son of Mexican immigrants to…",
-   "event_page": true,
-   "notes": "",
-   "place_name": "Harvard Kennedy School",
-   "lat": 42.371989,
-   "lon": -71.121761,
-   "geo_method": "gazetteer",
-   "walk_min": 16
-  },
-  {
    "id": "5d6d083f5596",
    "title": "Harvard and the American Revolution",
    "url": "https://library.harvard.edu/exhibits/harvard-and-american-revolution",
@@ -11289,6 +11425,59 @@
    "lon": -71.116716,
    "geo_method": "gazetteer",
    "walk_min": 9
+  },
+  {
+   "id": "34788c26a39e",
+   "title": "Leadership, Representation, & Future of American Democracy ft. Sen. Alex Padilla",
+   "url": "https://www.hks.harvard.edu/events/leadership-representation-future-american-democracy-ft-sen-alex-padilla",
+   "source_id": "hks",
+   "source_name": "Harvard Kennedy School",
+   "also_listed": [
+    {
+     "source_name": "Harvard College events",
+     "url": "https://events.college.harvard.edu/event/225896-from-california-to-washington-leadership"
+    }
+   ],
+   "aliases": [
+    "eab108c3a7a6"
+   ],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-10-30T10:00:00-04:00",
+   "end": "2026-10-30T11:00:00-04:00",
+   "date": "2026-10-30",
+   "all_day": false,
+   "location": "L-166",
+   "online": false,
+   "host": "Institute of Politics (IOP)",
+   "food": {
+    "status": "confirmed",
+    "types": [
+     "Breakfast"
+    ],
+    "evidence": "Breakfast will be served.",
+    "cue": "strong"
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "RSVP link on the event page",
+    "link": "https://iop.harvard.edu/events/california-washington-leadership-representation-and-future-american-democracy-senator-alex"
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "From California to Washington: Leadership, Representation, and the Future of American Democracy with Senator Alex Padilla & Ambassador Nathalie Rayes Join Ambassador Nathalie Rayes for a candid conversation with U.S. Senator Alex Padilla, California’s first Latino U.S. Senator, on leadership, public service, and the…",
+   "blurb": "Join Ambassador Nathalie Rayes for a candid conversation with U.S. Senator Alex Padilla, California’s first Latino U.S. Senator, on leadership, public service, and the future of American democracy. From his early beginnings as the son of Mexican immigrants to…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Littauer Building, Harvard Kennedy School",
+   "lat": 42.371045,
+   "lon": -71.12209,
+   "geo_method": "gazetteer",
+   "walk_min": 18
   },
   {
    "id": "c5bf95d839e5",
@@ -12278,6 +12467,49 @@
    "lon": null,
    "geo_method": null,
    "walk_min": null
+  },
+  {
+   "id": "0ddd5bbe6b2a",
+   "title": "House Office Open House",
+   "url": "https://events.college.harvard.edu/dunster-house/event/225909-house-office-open-house",
+   "source_id": "college",
+   "source_name": "Harvard College events",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-10-30T16:30:00-04:00",
+   "end": "2026-10-30T17:30:00-04:00",
+   "date": "2026-10-30",
+   "all_day": false,
+   "location": "Resident Dean Office",
+   "online": false,
+   "host": "Dunster House",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "Dunster House residents",
+    "evidence": "Hosted by Dunster House",
+    "basis": "inferred"
+   },
+   "summary": "",
+   "blurb": "",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Dunster House",
+   "lat": 42.3686,
+   "lon": -71.115896,
+   "geo_method": "host",
+   "walk_min": 17
   },
   {
    "id": "26d70b023299",
@@ -14765,6 +14997,52 @@
    "walk_min": 7
   },
   {
+   "id": "9a8704ef832a",
+   "title": "A Conversation between Journalist Dai Qing and Professor Rana Mitter",
+   "url": "https://www.hks.harvard.edu/events/conversation-between-journalist-dai-qing-and-professor-rana-mitter",
+   "source_id": "hks",
+   "source_name": "Harvard Kennedy School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-02T12:00:00-05:00",
+   "end": "2026-11-02T13:15:00-05:00",
+   "date": "2026-11-02",
+   "all_day": false,
+   "location": "Ash Center Seminar Room 225, Suite 200, 124 Mount Auburn Street",
+   "online": false,
+   "host": "Ash Center for Democratic Governance and Innovation",
+   "food": {
+    "status": "confirmed",
+    "types": [
+     "Lunch"
+    ],
+    "evidence": "A catered lunch will be available starting at 11:45am.",
+    "cue": "strong"
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "This event is open to Harvard ID holders only and registration is required.",
+    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001lMUQIA2"
+   },
+   "audience": {
+    "level": "harvard",
+    "group": "",
+    "evidence": "This event is open to Harvard ID holders only and registration is required.",
+    "basis": "text"
+   },
+   "summary": "Join Dai Qing, Visiting Fellow at the Rajawali Foundation Institute for Asia at Harvard Kennedy School, and Rana Mitter, the ST Lee Chair in U.S.-Asia Relations at Harvard Kennedy School, for a conversation about the role of civil society in China and whether it can survive. Drawing on her experiences during China’s…",
+   "blurb": "Join Dai Qing, Visiting Fellow at the Rajawali Foundation Institute for Asia at Harvard Kennedy School, and Rana Mitter, the ST Lee Chair in U.S.-Asia Relations at Harvard Kennedy School, for a conversation about the role of civil society in China and whether…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Ash Center (124 Mt Auburn St)",
+   "lat": 42.372952,
+   "lon": -71.123759,
+   "geo_method": "gazetteer",
+   "walk_min": 17
+  },
+  {
    "id": "09a619f56af4",
    "title": "Becoming a Thought Leader Without Being Famous or Having a Huge Following",
    "url": "https://www.hks.harvard.edu/events/becoming-thought-leader-without-being-famous-or-having-huge-following",
@@ -15608,9 +15886,12 @@
    "online": false,
    "host": "Harvard Center for International Development",
    "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
+    "status": "confirmed",
+    "types": [
+     "Snacks"
+    ],
+    "evidence": "Local snacks will be served.",
+    "cue": "strong"
    },
    "registration": {
     "status": "required",
@@ -16246,7 +16527,7 @@
   {
    "id": 4,
    "state": "scanned",
-   "label": "Scanned at every update: 27 events found, 1 with food this week",
+   "label": "Scanned at every update: 26 events found, 1 with food this week",
    "n_food": 1
   }
  ],
