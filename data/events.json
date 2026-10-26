@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-25T17:51:36-04:00",
+ "generated_at": "2026-10-25T20:26:12-04:00",
  "window": {
   "start": "2026-10-25",
   "end": "2026-11-01"
@@ -22,7 +22,7 @@
    "error": null,
    "n_events": 139,
    "n_food": 1,
-   "seconds": 0.9
+   "seconds": 0.6
   },
   {
    "id": "hks",
@@ -31,8 +31,8 @@
    "ok": true,
    "error": null,
    "n_events": 32,
-   "n_food": 6,
-   "seconds": 4.4
+   "n_food": 7,
+   "seconds": 1.2
   },
   {
    "id": "hls",
@@ -42,7 +42,7 @@
    "error": null,
    "n_events": 81,
    "n_food": 43,
-   "seconds": 9.5
+   "seconds": 7.3
   },
   {
    "id": "college",
@@ -52,7 +52,7 @@
    "error": null,
    "n_events": 91,
    "n_food": 10,
-   "seconds": 0.3
+   "seconds": 0.4
   },
   {
    "id": "ash",
@@ -62,7 +62,7 @@
    "error": null,
    "n_events": 4,
    "n_food": 1,
-   "seconds": 1.9
+   "seconds": 1.8
   },
   {
    "id": "shorenstein",
@@ -72,7 +72,7 @@
    "error": null,
    "n_events": 1,
    "n_food": 0,
-   "seconds": 8.1
+   "seconds": 8.5
   },
   {
    "id": "fairbank",
@@ -92,7 +92,7 @@
    "error": null,
    "n_events": 53,
    "n_food": 10,
-   "seconds": 65.7
+   "seconds": 52.0
   },
   {
    "id": "suggested",
@@ -102,17 +102,17 @@
    "error": null,
    "n_events": 4,
    "n_food": 0,
-   "seconds": 4.9
+   "seconds": 4.3
   }
  ],
  "stats": {
-  "events": 338,
-  "food_confirmed": 49,
+  "events": 337,
+  "food_confirmed": 50,
   "food_likely": 15,
   "forwarded": 38,
   "forwarded_listed": 11,
   "food_restricted": 39,
-  "seconds": 73.8
+  "seconds": 58.5
  },
  "events": [
   {
@@ -675,49 +675,6 @@
    "lon": -71.116034,
    "geo_method": "gazetteer",
    "walk_min": 7
-  },
-  {
-   "id": "ed2aab483fe2",
-   "title": "Events Calendar",
-   "url": "https://hls.harvard.edu/calendar/",
-   "source_id": "suggested",
-   "source_name": "Suggested calendar: HLS",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-10-25T12:00:00-04:00",
-   "end": null,
-   "date": "2026-10-25",
-   "all_day": true,
-   "location": "",
-   "online": false,
-   "host": "",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
-   },
-   "audience": {
-    "level": "unknown",
-    "group": "",
-    "evidence": "",
-    "basis": "none"
-   },
-   "summary": "Showing 0 events for the week starting 10/25/2026 Compact View There are no events today.",
-   "blurb": "",
-   "event_page": true,
-   "notes": "",
-   "place_name": "Harvard Law School",
-   "lat": 42.379106,
-   "lon": -71.119679,
-   "geo_method": "host",
-   "walk_min": 10
   },
   {
    "id": "7ab6f88945d7",
@@ -1528,58 +1485,6 @@
    "walk_min": 10
   },
   {
-   "id": "32c0c79cd13f",
-   "title": "Fall Offsite Events",
-   "url": "",
-   "source_id": "newsletter",
-   "source_name": "Forwarded: 12 Literary Events Next Week: From Neal Stephenson to Bonnie Garmus",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": {
-    "by": "Ellen",
-    "subject": "12 Literary Events Next Week: From Neal Stephenson to Bonnie Garmus",
-    "missing": [
-     "time",
-     "place",
-     "event page",
-     "description"
-    ]
-   },
-   "start": "2026-10-26T00:00:00-04:00",
-   "end": null,
-   "date": "2026-10-26",
-   "all_day": true,
-   "location": "",
-   "online": false,
-   "host": "",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
-   },
-   "audience": {
-    "level": "unknown",
-    "group": "",
-    "evidence": "",
-    "basis": "none"
-   },
-   "summary": "Fall Offsite Events » 10/26",
-   "blurb": "",
-   "event_page": false,
-   "notes": "",
-   "place_name": "",
-   "lat": null,
-   "lon": null,
-   "geo_method": null,
-   "walk_min": null
-  },
-  {
    "id": "8dc10a1e3647",
    "title": "Register for OFA Dance Community Courses",
    "url": "https://events.college.harvard.edu/ofa/event/223713-register-for-ofa-dance-community-courses",
@@ -2225,9 +2130,9 @@
    "walk_min": 4
   },
   {
-   "id": "f4a91188b6ef",
+   "id": "9928ec0bb985",
    "title": "Clean, Cheap and Reliable: A Manifesto for the Modern Power System",
-   "url": "https://www.hks.harvard.edu/index%2ephp/events/clean-cheap-and-reliable-manifesto-modern-power-system",
+   "url": "https://www.hks.harvard.edu/events/clean-cheap-and-reliable-manifesto-modern-power-system",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -2238,6 +2143,67 @@
    "end": "2026-10-26T13:15:00-04:00",
    "date": "2026-10-26",
    "all_day": false,
+   "location": "Rubenstein 414ab",
+   "online": false,
+   "host": "Belfer Center for Science and International Affairs; Mossavar-Rahmani Center for Business and Government",
+   "food": {
+    "status": "confirmed",
+    "types": [
+     "Lunch"
+    ],
+    "evidence": "Lunch will be served.",
+    "cue": "strong"
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "Registration: RSVP required.",
+    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001kNYvIAM"
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "Electricity is foundational to our economy, comfort and way of life. In this Energy Policy Seminar, former Texas and U.S. energy de-regulator Pat Wood will open with some lessons learned in the past quarter century of industry restructuring and then pivot to how his team at the Hunt Energy Network is paving the way…",
+   "blurb": "Electricity is foundational to our economy, comfort and way of life. In this Energy Policy Seminar, former Texas and U.S. energy de-regulator Pat Wood will open with some lessons learned in the past quarter century of industry restructuring and then pivot to…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Rubenstein Building, Harvard Kennedy School",
+   "lat": 42.371243,
+   "lon": -71.122687,
+   "geo_method": "gazetteer",
+   "walk_min": 18
+  },
+  {
+   "id": "2e2681e79951",
+   "title": "Events Calendar",
+   "url": "https://hls.harvard.edu/calendar/",
+   "source_id": "suggested",
+   "source_name": "Suggested calendar: HLS",
+   "also_listed": [
+    {
+     "source_name": "Forwarded: 12 Literary Events Next Week: From Neal Stephenson to Bonnie Garmus",
+     "url": ""
+    }
+   ],
+   "aliases": [
+    "32c0c79cd13f"
+   ],
+   "suggested": null,
+   "forwarded": {
+    "by": "Ellen",
+    "subject": "12 Literary Events Next Week: From Neal Stephenson to Bonnie Garmus",
+    "missing": [
+     "time",
+     "place",
+     "description"
+    ]
+   },
+   "start": "2026-10-26T12:00:00-04:00",
+   "end": null,
+   "date": "2026-10-26",
+   "all_day": true,
    "location": "",
    "online": false,
    "host": "",
@@ -2257,15 +2223,15 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "",
+   "summary": "Showing 0 events for the week starting 10/26/2026 Compact View There are no events today.",
    "blurb": "",
    "event_page": true,
    "notes": "",
-   "place_name": "Harvard Kennedy School",
-   "lat": 42.371989,
-   "lon": -71.121761,
+   "place_name": "Harvard Law School",
+   "lat": 42.379106,
+   "lon": -71.119679,
    "geo_method": "host",
-   "walk_min": 16
+   "walk_min": 10
   },
   {
    "id": "6ffe1bb493d9",
@@ -3204,19 +3170,19 @@
    "walk_min": 14
   },
   {
-   "id": "363fecf09f6b",
-   "title": "The Role of Blockchain-Based Stablecoins in Strengthening Dollar Hegemony",
-   "url": "https://hub.hks.harvard.edu/event/a4oPp000001krbpIAA/the-role-of-blockchainbased-stablecoins-in-strengthening-dollar-hegemony",
-   "source_id": "gazette",
-   "source_name": "Harvard Gazette calendar",
+   "id": "79bb8673502c",
+   "title": "The Role of Blockchain-based Stablecoins in Strengthening Dollar Hegemony",
+   "url": "https://www.hks.harvard.edu/events/role-blockchain-based-stablecoins-strenthening-dollar-hegemony",
+   "source_id": "hks",
+   "source_name": "Harvard Kennedy School",
    "also_listed": [
     {
-     "source_name": "Harvard Kennedy School",
-     "url": "https://www.hks.harvard.edu/index%2ephp/events/role-blockchain-based-stablecoins-strenthening-dollar-hegemony"
+     "source_name": "Harvard Gazette calendar",
+     "url": "https://hub.hks.harvard.edu/event/a4oPp000001krbpIAA/the-role-of-blockchainbased-stablecoins-in-strengthening-dollar-hegemony"
     }
    ],
    "aliases": [
-    "79bb8673502c"
+    "f47434c87fe3"
    ],
    "suggested": null,
    "forwarded": null,
@@ -3224,7 +3190,7 @@
    "end": "2026-10-26T17:30:00-04:00",
    "date": "2026-10-26",
    "all_day": false,
-   "location": "Harvard Kennedy School, Taubman 401, 79 John F. Kennedy St., Cambridge",
+   "location": "Taubman 401",
    "online": false,
    "host": "Mossavar-Rahmani Center for Business and Government",
    "food": {
@@ -3243,10 +3209,10 @@
     "evidence": "Gazette listing: Harvard Key required",
     "basis": "listing"
    },
-   "summary": "",
-   "blurb": "",
+   "summary": "Led by M-RCBG Senior Fellow Ijeoma Okoli, this study group examines how stablecoins may reinforce U.S. dollar dominance and expand American influence, despite often being presented as alternatives to the dollar. Cryptocurrencies are often pitted as competitors to the US dollar. But what if they aren't and instead…",
+   "blurb": "this study group examines how stablecoins may reinforce U.S. dollar dominance and expand American influence, despite often being presented as alternatives to the dollar. Cryptocurrencies are often pitted as competitors to the US dollar. But what if they…",
    "event_page": true,
-   "notes": "Harvard Key required: Yes",
+   "notes": "",
    "place_name": "Taubman Building, Harvard Kennedy School",
    "lat": 42.371822,
    "lon": -71.122151,
@@ -3424,17 +3390,17 @@
     },
     {
      "source_name": "Harvard Kennedy School",
-     "url": "https://www.hks.harvard.edu/index%2ephp/events/diplomat-screen-and-world"
+     "url": "https://www.hks.harvard.edu/index%2Ephp/events/diplomat-screen-and-world"
     }
    ],
    "aliases": [
-    "074ae13d2299",
     "345482ec6b7e",
     "345482ec6b7e",
     "345482ec6b7e",
     "345482ec6b7e",
     "345482ec6b7e",
-    "8c513ceadcd1"
+    "8c513ceadcd1",
+    "a7c9d557ce91"
    ],
    "suggested": null,
    "forwarded": {
@@ -4727,11 +4693,11 @@
     },
     {
      "source_name": "Harvard Kennedy School",
-     "url": "https://www.hks.harvard.edu/index%2ephp/events/intelligence-oversight-trump-era-congressman-jim-himes"
+     "url": "https://www.hks.harvard.edu/index%2Ephp/events/intelligence-oversight-trump-era-congressman-jim-himes"
     }
    ],
    "aliases": [
-    "702fd331eef2",
+    "4c994e0a1cd4",
     "e8af16448cb4"
    ],
    "suggested": null,
@@ -5275,9 +5241,9 @@
    "walk_min": 8
   },
   {
-   "id": "7ad9c8144c99",
+   "id": "9fd85194d20f",
    "title": "Believability in the Age of AI: When you speak, do people believe you?",
-   "url": "https://www.hks.harvard.edu/index%2ephp/events/believability-age-ai-two-session-study-group-apply-today",
+   "url": "https://www.hks.harvard.edu/index%2Ephp/events/believability-age-ai-two-session-study-group-apply-today",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -5955,7 +5921,7 @@
    "walk_min": 10
   },
   {
-   "id": "457e0f7ab4b1",
+   "id": "7a3697c25f60",
    "title": "Patriotism and Principles with former congresswoman Liz Cheney",
    "url": "https://iop.harvard.edu/events/patriotism-and-principles-fmr-congresswoman-liz-cheney",
    "source_id": "gazette",
@@ -5971,12 +5937,12 @@
     },
     {
      "source_name": "Harvard Kennedy School",
-     "url": "https://www.hks.harvard.edu/index%2ephp/events/patriotism-and-principles"
+     "url": "https://www.hks.harvard.edu/index%2Ephp/events/patriotism-and-principles"
     }
    ],
    "aliases": [
-    "7a3697c25f60",
     "8c41497f6e4a",
+    "c1c36a3101e6",
     "e892a6eb550e"
    ],
    "suggested": null,
@@ -15151,7 +15117,7 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "Tuesday, November 3, 2026 Time: 7:00pm EST Where: JFK Jr. Forum, 79 John F. Kennedy St., Cambridge, MA 02138 Meeting Method: Hybrid Add to Calendar 2026-11-03 19:00:00 2026-10-25 08:16:18 Election Night in the Forum The JFK Jr. Forum is the place to be on election night! At 7:00pm, Eugene Scott will lead a…",
+   "summary": "Tuesday, November 3, 2026 Time: 7:00pm EST Where: JFK Jr. Forum, 79 John F. Kennedy St., Cambridge, MA 02138 Meeting Method: Hybrid Add to Calendar 2026-11-03 19:00:00 2026-10-25 20:25:47 Election Night in the Forum The JFK Jr. Forum is the place to be on election night! At 7:00pm, Eugene Scott will lead a…",
    "blurb": "Forum is the place to be on election night! At 7:00pm, Eugene Scott will lead a conversation with a diverse group of guests on what to look for as the night unfolds. Pizza and drinks will be available throughout the evening.",
    "event_page": true,
    "notes": "",
