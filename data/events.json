@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27T11:55:18-04:00",
+ "generated_at": "2026-10-27T16:45:39-04:00",
  "window": {
   "start": "2026-10-27",
   "end": "2026-11-03"
@@ -22,7 +22,7 @@
    "error": null,
    "n_events": 142,
    "n_food": 3,
-   "seconds": 1.9
+   "seconds": 2.3
   },
   {
    "id": "hks",
@@ -31,8 +31,8 @@
    "ok": true,
    "error": null,
    "n_events": 49,
-   "n_food": 13,
-   "seconds": 23.2
+   "n_food": 12,
+   "seconds": 6.6
   },
   {
    "id": "hls",
@@ -40,9 +40,9 @@
    "homepage": "https://hls.harvard.edu/calendar/",
    "ok": true,
    "error": null,
-   "n_events": 99,
-   "n_food": 59,
-   "seconds": 8.3
+   "n_events": 100,
+   "n_food": 61,
+   "seconds": 8.7
   },
   {
    "id": "college",
@@ -52,7 +52,7 @@
    "error": null,
    "n_events": 84,
    "n_food": 10,
-   "seconds": 0.4
+   "seconds": 2.2
   },
   {
    "id": "ash",
@@ -62,7 +62,7 @@
    "error": null,
    "n_events": 3,
    "n_food": 1,
-   "seconds": 2.7
+   "seconds": 2.3
   },
   {
    "id": "shorenstein",
@@ -72,7 +72,7 @@
    "error": null,
    "n_events": 0,
    "n_food": 0,
-   "seconds": 10.4
+   "seconds": 10.7
   },
   {
    "id": "fairbank",
@@ -82,7 +82,7 @@
    "error": null,
    "n_events": 6,
    "n_food": 2,
-   "seconds": 6.0
+   "seconds": 0.0
   },
   {
    "id": "newsletter",
@@ -92,7 +92,7 @@
    "error": null,
    "n_events": 44,
    "n_food": 11,
-   "seconds": 55.9
+   "seconds": 54.8
   },
   {
    "id": "suggested",
@@ -102,17 +102,17 @@
    "error": null,
    "n_events": 7,
    "n_food": 3,
-   "seconds": 5.4
+   "seconds": 6.5
   }
  ],
  "stats": {
-  "events": 354,
-  "food_confirmed": 62,
+  "events": 355,
+  "food_confirmed": 64,
   "food_likely": 20,
   "forwarded": 32,
   "forwarded_listed": 11,
-  "food_restricted": 52,
-  "seconds": 70.7
+  "food_restricted": 54,
+  "seconds": 66.9
  },
  "events": [
   {
@@ -985,68 +985,6 @@
    "walk_min": 13
   },
   {
-   "id": "34634a89b818",
-   "title": "Intelligence Oversight in the Trump Era with Congressman Jim Himes",
-   "url": "https://www.hks.harvard.edu/events/intelligence-oversight-trump-era-congressman-jim-himes",
-   "source_id": "hks",
-   "source_name": "Harvard Kennedy School",
-   "also_listed": [
-    {
-     "source_name": "Harvard College events",
-     "url": "https://events.college.harvard.edu/event/225866-who-watches-the-watchmen-intelligence-oversight-in"
-    },
-    {
-     "source_name": "Forwarded: JFK Jr. Forum: Netflix's The Diplomat with Keri Russell; 2026 Stone Lecture with",
-     "url": "https://iop.harvard.edu/events/who-watches-watchmen-intelligence-oversight-trump-era-congressman-jim-himes"
-    }
-   ],
-   "aliases": [
-    "3b410aca07af",
-    "e8af16448cb4"
-   ],
-   "suggested": null,
-   "forwarded": {
-    "by": "Ellen",
-    "subject": "JFK Jr. Forum: Netflix's The Diplomat with Keri Russell; 2026 Stone Lecture with Cecilia Rouse; Congresswoman Liz Cheney",
-    "missing": []
-   },
-   "start": "2026-10-27T12:00:00-04:00",
-   "end": "2026-10-27T13:00:00-04:00",
-   "date": "2026-10-27",
-   "all_day": false,
-   "location": "L-166",
-   "online": false,
-   "host": "Institute of Politics (IOP)",
-   "food": {
-    "status": "confirmed",
-    "types": [
-     "Lunch"
-    ],
-    "evidence": "Lunch will be served.",
-    "cue": "strong"
-   },
-   "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://iop.harvard.edu/events/who-watches-watchmen-intelligence-oversight-trump-era-congressman-jim-himes"
-   },
-   "audience": {
-    "level": "unknown",
-    "group": "",
-    "evidence": "",
-    "basis": "none"
-   },
-   "summary": "What role does Congress play in identifying risks and holding the intelligence community accountable? Join the Institute of Politics for the next installment of our Food for Thought series featuring Congressman Jim Himes (CT-04), ranking Member of the House Permanent Select Committee on Intelligence, and on the House…",
-   "blurb": "What role does Congress play in identifying risks and holding the intelligence community accountable? the next installment of our Food for Thought series featuring Congressman Jim Himes (CT-04), ranking Member of the House Permanent Select Committee on…",
-   "event_page": true,
-   "notes": "",
-   "place_name": "Littauer Building, Harvard Kennedy School",
-   "lat": 42.371045,
-   "lon": -71.12209,
-   "geo_method": "gazetteer",
-   "walk_min": 18
-  },
-  {
    "id": "c993ca6f5a7c",
    "title": "La Alianza Presents: A Day in the Life of an Associate",
    "url": "https://hls.harvard.edu/events/la-alianza-presents-a-day-in-the-life-of-an-associate/",
@@ -1190,6 +1128,68 @@
    "lon": -71.113135,
    "geo_method": "text",
    "walk_min": 5
+  },
+  {
+   "id": "34634a89b818",
+   "title": "Who Watches the Watchmen: Intelligence Oversight in the Trump Era with Congressman Jim Himes",
+   "url": "https://events.college.harvard.edu/event/225866-who-watches-the-watchmen-intelligence-oversight-in",
+   "source_id": "college",
+   "source_name": "Harvard College events",
+   "also_listed": [
+    {
+     "source_name": "Forwarded: JFK Jr. Forum: Netflix's The Diplomat with Keri Russell; 2026 Stone Lecture with",
+     "url": "https://iop.harvard.edu/events/who-watches-watchmen-intelligence-oversight-trump-era-congressman-jim-himes"
+    },
+    {
+     "source_name": "Harvard Kennedy School",
+     "url": "https://www.hks.harvard.edu/index%2ephp/events/intelligence-oversight-trump-era-congressman-jim-himes"
+    }
+   ],
+   "aliases": [
+    "702fd331eef2",
+    "e8af16448cb4"
+   ],
+   "suggested": null,
+   "forwarded": {
+    "by": "Ellen",
+    "subject": "JFK Jr. Forum: Netflix's The Diplomat with Keri Russell; 2026 Stone Lecture with Cecilia Rouse; Congresswoman Liz Cheney",
+    "missing": []
+   },
+   "start": "2026-10-27T12:00:00-04:00",
+   "end": null,
+   "date": "2026-10-27",
+   "all_day": false,
+   "location": "79 JFK St., Cambridge, MA",
+   "online": false,
+   "host": "Institute of Politics at Harvard Kennedy School",
+   "food": {
+    "status": "confirmed",
+    "types": [
+     "Lunch"
+    ],
+    "evidence": "*Lunch will be served.",
+    "cue": "strong"
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "Register Here",
+    "link": ""
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "What role does Congress play in identifying risks and holding the intelligence community accountable? Join the Institute of Politics for the next installment of our Food for Thought series featuring Congressman Jim Himes (CT-04), ranking Member of the House Permanent Select Committee on Intelligence, and on the House…",
+   "blurb": "What role does Congress play in identifying risks and holding the intelligence community accountable? the next installment of our Food for Thought series featuring Congressman Jim Himes (CT-04), ranking Member of the House Permanent Select Committee on…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Harvard Kennedy School",
+   "lat": 42.371989,
+   "lon": -71.121761,
+   "geo_method": "gazetteer",
+   "walk_min": 16
   },
   {
    "id": "eaeb798006db",
@@ -1562,7 +1562,7 @@
   },
   {
    "id": "e9b59046f016",
-   "title": "JOLT x Covington & Burlington",
+   "title": "JOLT x Covington",
    "url": "https://hls.harvard.edu/events/jolt-x-covington-burlington/",
    "source_id": "hls",
    "source_name": "Harvard Law School",
@@ -1588,7 +1588,7 @@
    "registration": {
     "status": "required",
     "evidence": "RSVP here: https://forms.cloud.microsoft/pages/responsepage.aspx?id=wbmMV0W0HkqkXXn82_Gl09ogCM5fo2RArmp-iWni3Z5UOFcwQUJTMDdXNTVJNFkyMUlTSktGU1lQMy4u&route=shorturl",
-    "link": "http://www.google.com/calendar/event?action=TEMPLATE&text=JOLT%20x%20Covington%20&%20Burlington&dates=20261027T163000Z/20261027T171500Z&details=Join%20JOLT%20and%20Covington%20attorneys%20Tarek%20Austin,%20Kee%20Young%20Lee,%20Nicole%20S.%20L.%20Pobre,%20and%20Christine%20Smith%20for%20a%20conversation%20about%20practicing%20IP%20litigation%20at%20Covington%20and%20the%20firm%E2%80%99s%20summer%20opportunities,%20including%20its%201L%20Patent%20Litigation%20Summer%20Associate%20Program.%20Lunch%20will%20be%20served!%20RSVP%20here:%20https://forms.cloud.microsoft/pages/responsepage.aspx?id=wbmMV0W0HkqkXXn82_Gl09ogCM5fo2RArmp-iWni3Z5UOFcwQUJTMDdXNTVJNFkyMUlTSktGU1lQMy4u&route=shorturl&sprop=Harvard%20Law%20School&location=WCC;%201019%20Classroom,%20,%20,%20,%20,%20"
+    "link": "http://www.google.com/calendar/event?action=TEMPLATE&text=JOLT%20x%20Covington&dates=20261027T163000Z/20261027T171500Z&details=Join%20JOLT%20and%20Covington%20attorneys%20Tarek%20Austin,%20Kee%20Young%20Lee,%20Nicole%20S.%20L.%20Pobre,%20and%20Christine%20Smith%20for%20a%20conversation%20about%20practicing%20IP%20litigation%20at%20Covington%20and%20the%20firm%E2%80%99s%20summer%20opportunities,%20including%20its%201L%20Patent%20Litigation%20Summer%20Associate%20Program.%20Lunch%20will%20be%20served!%20RSVP%20here:%20https://forms.cloud.microsoft/pages/responsepage.aspx?id=wbmMV0W0HkqkXXn82_Gl09ogCM5fo2RArmp-iWni3Z5UOFcwQUJTMDdXNTVJNFkyMUlTSktGU1lQMy4u&route=shorturl&sprop=Harvard%20Law%20School&location=WCC;%201019%20Classroom,%20,%20,%20,%20,%20"
    },
    "audience": {
     "level": "restricted",
@@ -1739,9 +1739,9 @@
    "walk_min": 8
   },
   {
-   "id": "03e6fbe94109",
+   "id": "7ad9c8144c99",
    "title": "Believability in the Age of AI: When you speak, do people believe you?",
-   "url": "https://www.hks.harvard.edu/events/believability-age-ai-two-session-study-group-apply-today",
+   "url": "https://www.hks.harvard.edu/index%2ephp/events/believability-age-ai-two-session-study-group-apply-today",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -1752,34 +1752,34 @@
    "end": "2026-10-27T15:30:00-04:00",
    "date": "2026-10-27",
    "all_day": false,
-   "location": "Belfer Conf. Room, Lobby Level, Room 4 (across From Weil Town Hall)",
+   "location": "",
    "online": false,
-   "host": "Communications Program",
+   "host": "",
    "food": {
     "status": "none",
     "types": [],
     "evidence": ""
    },
    "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001l1ZZIAY"
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
    },
    "audience": {
-    "level": "harvard",
+    "level": "unknown",
     "group": "",
-    "evidence": "Open to all Harvard students, faculty, and fellows.",
-    "basis": "text"
+    "evidence": "",
+    "basis": "none"
    },
-   "summary": "Believability in the Age of AI - A two-session HKS Study Group When you speak, do people believe you? Today, words are easier than ever to produce and harder than ever to trust. This study group will address what makes someone believe you and what it costs when they don't. The two sessions will focus on: The…",
-   "blurb": "When you speak, do people believe you? Today, words are easier than ever to produce and harder than ever to trust. This study group will address what makes someone believe you and what it costs when they don't. We will examine the cost of disbelief for…",
+   "summary": "",
+   "blurb": "",
    "event_page": true,
    "notes": "",
-   "place_name": "Belfer Building, Harvard Kennedy School",
-   "lat": 42.37141,
-   "lon": -71.121513,
-   "geo_method": "gazetteer",
-   "walk_min": 17
+   "place_name": "Harvard Kennedy School",
+   "lat": 42.371989,
+   "lon": -71.121761,
+   "geo_method": "host",
+   "walk_min": 16
   },
   {
    "id": "d57fb6b74d9d",
@@ -1962,56 +1962,6 @@
    "walk_min": 12
   },
   {
-   "id": "4cc7dc519e8f",
-   "title": "Amb. Nathalie Rayes Study Group: From Immigrant to Congress: Breaking Barriers",
-   "url": "https://www.hks.harvard.edu/events/amb-nathalie-rayes-study-group-immigrant-congress-breaking-barriers",
-   "source_id": "hks",
-   "source_name": "Harvard Kennedy School",
-   "also_listed": [
-    {
-     "source_name": "Harvard College events",
-     "url": "https://events.college.harvard.edu/event/225889-study-group-with-ambassador-nathalie-rayes-from"
-    }
-   ],
-   "aliases": [
-    "a10b1fabd826"
-   ],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-10-27T16:00:00-04:00",
-   "end": "2026-10-27T17:15:00-04:00",
-   "date": "2026-10-27",
-   "all_day": false,
-   "location": "L-150",
-   "online": false,
-   "host": "Institute of Politics (IOP)",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://iop.harvard.edu/events/study-group-ambassador-nathalie-rayes-immigrant-congress-breaking-barriers-shaping-america"
-   },
-   "audience": {
-    "level": "restricted",
-    "group": "HKS students",
-    "evidence": "Title: Amb. Nathalie Rayes Study Group: From Immigrant to Congress: Breaking Barriers",
-    "basis": "inferred"
-   },
-   "summary": "What does it take to break barriers, find your political voice, and help shape the future of America? Join Ambassador Nathalie Rayes for a conversation with Congressman Adriano Espaillat, the first Dominican American elected to the U.S. Congress. From his immigrant roots to Capitol Hill, we’ll explore his…",
-   "blurb": "What does it take to break barriers, find your political voice, and help shape the future of America? Join Ambassador Nathalie Rayes for a conversation with Congressman Adriano Espaillat, the first Dominican American elected to the U.S. From his immigrant…",
-   "event_page": true,
-   "notes": "",
-   "place_name": "Littauer Building, Harvard Kennedy School",
-   "lat": 42.371045,
-   "lon": -71.12209,
-   "geo_method": "gazetteer",
-   "walk_min": 18
-  },
-  {
    "id": "20d7dcd03c7c",
    "title": "Events Calendar",
    "url": "https://hls.harvard.edu/calendar/",
@@ -2071,6 +2021,56 @@
    "walk_min": 10
   },
   {
+   "id": "4b3bf68540ac",
+   "title": "Study Group with Ambassador Nathalie Rayes: From Immigrant to Congress: Breaking Barriers, Shaping America",
+   "url": "https://events.college.harvard.edu/event/225889-study-group-with-ambassador-nathalie-rayes-from",
+   "source_id": "college",
+   "source_name": "Harvard College events",
+   "also_listed": [
+    {
+     "source_name": "Harvard Kennedy School",
+     "url": "https://www.hks.harvard.edu/index%2ephp/events/amb-nathalie-rayes-study-group-immigrant-congress-breaking-barriers"
+    }
+   ],
+   "aliases": [
+    "4cc7dc519e8f"
+   ],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-10-27T16:00:00-04:00",
+   "end": null,
+   "date": "2026-10-27",
+   "all_day": false,
+   "location": "79 JFK St., Cambridge, MA",
+   "online": false,
+   "host": "Institute of Politics at Harvard Kennedy School",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "undergraduates",
+    "evidence": "Title: Study Group with Ambassador Nathalie Rayes: From Immigrant to Congress: Breaking Barriers, Shaping America",
+    "basis": "inferred"
+   },
+   "summary": "What does it take to break barriers, find your political voice, and help shape the future of America? Join Ambassador Nathalie Rayes for a conversation with Congressman Adriano Espaillat, the first Dominican American elected to the U.S. Congress. From his immigrant roots to Capitol Hill, we’ll explore his…",
+   "blurb": "What does it take to break barriers, find your political voice, and help shape the future of America? Join Ambassador Nathalie Rayes for a conversation with Congressman Adriano Espaillat, the first Dominican American elected to the U.S. From his immigrant…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Harvard Kennedy School",
+   "lat": 42.371989,
+   "lon": -71.121761,
+   "geo_method": "gazetteer",
+   "walk_min": 16
+  },
+  {
    "id": "7bc200b774b7",
    "title": "What Remains: AI, Death, and Loss",
    "url": "https://hls.harvard.edu/events/what-remains-ai-death-and-loss-2/",
@@ -2114,9 +2114,9 @@
    "walk_min": 10
   },
   {
-   "id": "f96e0c4dba70",
+   "id": "d227416e088c",
    "title": "[CANCELED] Amb. Kelly Craft: The Midterms and Trump’s Foreign Policy",
-   "url": "https://www.hks.harvard.edu/events/study-group-ambassador-kelly-craft-midterms-and-trumps-foreign-policy",
+   "url": "https://www.hks.harvard.edu/index%2ephp/events/study-group-ambassador-kelly-craft-midterms-and-trumps-foreign-policy",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -2127,9 +2127,9 @@
    "end": "2026-10-27T17:15:00-04:00",
    "date": "2026-10-27",
    "all_day": false,
-   "location": "L-166",
+   "location": "",
    "online": false,
-   "host": "Institute of Politics (IOP)",
+   "host": "",
    "food": {
     "status": "none",
     "types": [],
@@ -2141,20 +2141,20 @@
     "link": ""
    },
    "audience": {
-    "level": "harvard",
+    "level": "unknown",
     "group": "",
-    "evidence": "*These off-the-record conversations are open to members of the Harvard community.",
-    "basis": "text"
+    "evidence": "",
+    "basis": "none"
    },
-   "summary": "PLEASE NOTE: This event is canceled. The midterm elections are a week away, and it looks like a blue wave is coming. Will it land? Will Republicans avoid electoral disaster? What will be the impact of Trump’s foreign policy? And what is to come for the world in the last two years of the Trump presidency? IN-PERSON…",
-   "blurb": "The midterm elections are a week away, and it looks like a blue wave is coming. What will be the impact of Trump’s foreign policy? And what is to come for the world in the last two years of the Trump presidency? These off-the-record conversations are open to…",
+   "summary": "",
+   "blurb": "",
    "event_page": true,
    "notes": "",
-   "place_name": "Littauer Building, Harvard Kennedy School",
-   "lat": 42.371045,
-   "lon": -71.12209,
-   "geo_method": "gazetteer",
-   "walk_min": 18
+   "place_name": "Harvard Kennedy School",
+   "lat": 42.371989,
+   "lon": -71.121761,
+   "geo_method": "host",
+   "walk_min": 16
   },
   {
    "id": "0242a56beacb",
@@ -3225,7 +3225,7 @@
    "all_day": false,
    "location": "Nye A, 5th Floor, Taubman Building",
    "online": false,
-   "host": "Taubman Center for State and Local Government",
+   "host": "Taubman Center for State and Local Government; Bloomberg Center for Cities",
    "food": {
     "status": "none",
     "types": [],
@@ -3511,9 +3511,9 @@
    "walk_min": 7
   },
   {
-   "id": "e236cb2e66ee",
+   "id": "1e906956b453",
    "title": "Book Talk with David Holloway - Nuclear Weapons: An International History",
-   "url": "https://www.hks.harvard.edu/events/book-talk-david-holloway-nuclear-weapons-international-history",
+   "url": "https://www.hks.harvard.edu/index%2ephp/events/book-talk-david-holloway-nuclear-weapons-international-history",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -3524,9 +3524,9 @@
    "end": "2026-10-28T12:30:00-04:00",
    "date": "2026-10-28",
    "all_day": false,
-   "location": "Fainsod (l324)",
+   "location": "",
    "online": false,
-   "host": "Managing the Atom Project",
+   "host": "",
    "food": {
     "status": "none",
     "types": [],
@@ -3543,15 +3543,15 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "This book explores the history of nuclear weapons from the discovery of nuclear fission at the end of 1938 to Mikhail Gorbachev’s speech to the United Nations in December 1988. I attempted an international history, for two reasons. First, a great deal has been written about U.S. policy, much less about the other…",
-   "blurb": "This book explores the history of nuclear weapons from the discovery of nuclear fission at the end of 1938 to Mikhail Gorbachev’s speech to the United Nations in December 1988. I attempted an international history, for two reasons. First, a great deal has…",
+   "summary": "",
+   "blurb": "",
    "event_page": true,
    "notes": "",
-   "place_name": "Littauer Building, Harvard Kennedy School",
-   "lat": 42.371045,
-   "lon": -71.12209,
-   "geo_method": "gazetteer",
-   "walk_min": 18
+   "place_name": "Harvard Kennedy School",
+   "lat": 42.371989,
+   "lon": -71.121761,
+   "geo_method": "host",
+   "walk_min": 16
   },
   {
    "id": "23948875d8f3",
@@ -5036,9 +5036,9 @@
     "evidence": ""
    },
    "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
+    "status": "required",
+    "evidence": "RSVP link on the event page",
+    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001lK9BIAU"
    },
    "audience": {
     "level": "unknown",
@@ -5530,6 +5530,52 @@
    "lon": -71.12209,
    "geo_method": "gazetteer",
    "walk_min": 18
+  },
+  {
+   "id": "b52316f19691",
+   "title": "HLS Dems | Reading Group",
+   "url": "https://hls.harvard.edu/events/hls-dems-reading-group-3/",
+   "source_id": "hls",
+   "source_name": "Harvard Law School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-10-28T18:00:00-04:00",
+   "end": "2026-10-28T19:00:00-04:00",
+   "date": "2026-10-28",
+   "all_day": false,
+   "location": "",
+   "online": false,
+   "host": "Harvard Law School Democrats",
+   "food": {
+    "status": "confirmed",
+    "types": [
+     "Dinner"
+    ],
+    "evidence": "Dinner will be provided.",
+    "cue": "strong"
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "RSVP here",
+    "link": "https://partiful.com/e/FqTT9LEI6hPYak6rUO3u"
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "HLS students",
+    "evidence": "Run by an HLS student organization",
+    "basis": "inferred"
+   },
+   "summary": "For our second meeting, we’ll be discussing the Democratic Party’s navigation of McCarthyism and the New Right in the 1950s and 1960s, the role of public investment in scientific breakthroughs, and the Kennedys. Dinner will be provided. RSVP here Add to Calendar October 28, 2026, 6:00 pm - 7:00 pm +Google Calendar…",
+   "blurb": "For our second meeting, we’ll be discussing the Democratic Party’s navigation of McCarthyism and the New Right in the 1950s and 1960s, the role of public investment in scientific breakthroughs, and the Kennedys.",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Harvard Law School",
+   "lat": 42.379106,
+   "lon": -71.119679,
+   "geo_method": "host",
+   "walk_min": 10
   },
   {
    "id": "fe0752a9f854",
@@ -8240,6 +8286,49 @@
    "walk_min": 7
   },
   {
+   "id": "f107d9355fe4",
+   "title": "Horror Movie Nite @HLSPub",
+   "url": "https://hls.harvard.edu/events/horror-movie-nite-hlspub/",
+   "source_id": "hls",
+   "source_name": "Harvard Law School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-10-29T17:00:00-04:00",
+   "end": "2026-10-29T21:00:00-04:00",
+   "date": "2026-10-29",
+   "all_day": false,
+   "location": "HLS Pub, Harvard Law School",
+   "online": false,
+   "host": "Harvard Law School",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "likely",
+    "group": "HLS community",
+    "evidence": "Harvard Law School calendar, audience not stated",
+    "basis": "default"
+   },
+   "summary": "On Thursday October 29th we will show classic horror films all evening at the HLS Pub. Complementary candy and popcorn will be available! Add to Calendar October 29, 2026, 5:00 pm - 9:00 pm +Google Calendar +iCal/Outlook",
+   "blurb": "we will show classic horror films all evening at the HLS Pub. Complementary candy and popcorn will be available!",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Harvard Law School",
+   "lat": 42.379106,
+   "lon": -71.119679,
+   "geo_method": "gazetteer",
+   "walk_min": 10
+  },
+  {
    "id": "21864a1eaf95",
    "title": "Multi-Site Exhibition Tour. Join curators Ally Cirelli",
    "url": "https://us.list-manage.com/zBER8za_cAm?e=c030c5a855&c2id=6ca0113ad60f41de3d6253915ce62a42",
@@ -8450,7 +8539,7 @@
     "evidence": "Harvard College calendar, no sign it is open to others",
     "basis": "default"
    },
-   "summary": "Harvard University Men’s Ice Hockey vs Massachusetts TV: ESPN+ Streaming Video: https://www.espn.com/watch/?redirected=true Tickets: https://gocrimson.evenue.net/event/MH26/MH01 URL:https://gocrimson.com/calendar.aspx?game_id=33381&sport_id=13",
+   "summary": "Harvard University Men’s Ice Hockey vs Massachusetts TV: ESPN+ Streaming Video: https://gocrim.info/ca0b79 Tickets: https://gocrimson.evenue.net/event/MH26/MH01 URL:https://gocrimson.com/calendar.aspx?game_id=33381&sport_id=13",
    "blurb": "",
    "event_page": true,
    "notes": "",
@@ -9623,9 +9712,9 @@
    "walk_min": 8
   },
   {
-   "id": "fa0eda1ce7cf",
-   "title": "HLS Christian Fellowship Faith & Politics Panel",
-   "url": "https://hls.harvard.edu/events/hls-christian-fellowship-faith-politics-panel/",
+   "id": "e2898ee70e62",
+   "title": "How to Use Westlaw to Fine Tune Your Networking Conversations",
+   "url": "https://hls.harvard.edu/events/legal-research-lunch-and-learn-with-westlaw/",
    "source_id": "hls",
    "source_name": "Harvard Law School",
    "also_listed": [],
@@ -9633,37 +9722,40 @@
    "suggested": null,
    "forwarded": null,
    "start": "2026-10-30T12:30:00-04:00",
-   "end": "2026-10-30T13:30:00-04:00",
+   "end": "2026-10-30T13:15:00-04:00",
    "date": "2026-10-30",
    "all_day": false,
-   "location": "Hauser Hall, 104 Lumbard Classroom, Harvard Law School",
+   "location": "WCC, 3018 Classroom, Harvard Law School",
    "online": false,
-   "host": "Harvard Law School Christian Fellowship",
+   "host": "Harvard Law School",
    "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
+    "status": "confirmed",
+    "types": [
+     "Pizza"
+    ],
+    "evidence": "Pizza & candy will be provided!",
+    "cue": "strong"
    },
    "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
+    "status": "required",
+    "evidence": "Please RSVP through this link.",
+    "link": "https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=ZLjMYhpqXUuOHDl97BqCWGss0-wQlBdNm9jxKOCjJb5URFZFUDFUSkdBQzNYVzZZUU4yR1Y2MlRVMy4u"
    },
    "audience": {
     "level": "restricted",
-    "group": "HLS community",
-    "evidence": "HLS listing audience: HLS only",
+    "group": "admitted HLS students",
+    "evidence": "HLS listing audience: All admitted HLS students only",
     "basis": "listing"
    },
-   "summary": "Join HLS Christian Fellowship for a panel discussion of Christian perspectives on political engagement. Add to Calendar October 30, 2026, 12:30 pm - 1:30 pm +Google Calendar +iCal/Outlook",
-   "blurb": "Join HLS Christian Fellowship for a panel discussion of Christian perspectives on political engagement.",
+   "summary": "This 20-minute training will cover how to use Westlaw’s Litigation Analytics to research law firms, attorneys, judges, and practice areas before networking events, interviews, and informational meetings. Uncover information that will lead to better questions, stronger conversation starters, and insights to help you…",
+   "blurb": "This 20-minute training will cover how to use Westlaw’s Litigation Analytics to research law firms, attorneys, judges, and practice areas before networking events, interviews, and informational meetings. Uncover information that will lead to better questions…",
    "event_page": true,
    "notes": "",
-   "place_name": "Hauser Hall, Harvard Law School",
-   "lat": 42.37864,
-   "lon": -71.118138,
+   "place_name": "Wasserstein Hall (WCC), Harvard Law School",
+   "lat": 42.379383,
+   "lon": -71.119421,
    "geo_method": "gazetteer",
-   "walk_min": 8
+   "walk_min": 10
   },
   {
    "id": "a4ad2a2fa212",
@@ -9700,53 +9792,6 @@
    },
    "summary": "See Joe’s ads on Instagram at @joerezlaw. Add to Calendar October 30, 2026, 12:30 pm - 1:20 pm +Google Calendar +iCal/Outlook",
    "blurb": "",
-   "event_page": true,
-   "notes": "",
-   "place_name": "Wasserstein Hall (WCC), Harvard Law School",
-   "lat": 42.379383,
-   "lon": -71.119421,
-   "geo_method": "gazetteer",
-   "walk_min": 10
-  },
-  {
-   "id": "e2898ee70e62",
-   "title": "Legal Research Lunch and Learn with Westlaw",
-   "url": "https://hls.harvard.edu/events/legal-research-lunch-and-learn-with-westlaw/",
-   "source_id": "hls",
-   "source_name": "Harvard Law School",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-10-30T12:30:00-04:00",
-   "end": "2026-10-30T13:15:00-04:00",
-   "date": "2026-10-30",
-   "all_day": false,
-   "location": "WCC, 3018 Classroom, Harvard Law School",
-   "online": false,
-   "host": "Harvard Law School",
-   "food": {
-    "status": "confirmed",
-    "types": [
-     "Lunch",
-     "Pizza"
-    ],
-    "evidence": "Pizza lunch will be provided.",
-    "cue": "strong"
-   },
-   "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
-   },
-   "audience": {
-    "level": "restricted",
-    "group": "admitted HLS students",
-    "evidence": "HLS listing audience: All admitted HLS students only",
-    "basis": "listing"
-   },
-   "summary": "Westlaw is hosting an introductory lunch session for 1Ls and LLMs. This lunch will serve as a ‘tour of the tools’ you will have available to you, as well as a few tips for getting started and class prep. Pizza lunch will be provided. Add to Calendar October 30, 2026, 12:30 pm - 1:15 pm +Google Calendar +iCal/Outlook",
-   "blurb": "Westlaw is hosting an introductory lunch session for 1Ls and LLMs. This lunch will serve as a ‘tour of the tools’ you will have available to you, as well as a few tips for getting started and class prep.",
    "event_page": true,
    "notes": "",
    "place_name": "Wasserstein Hall (WCC), Harvard Law School",
@@ -10194,7 +10239,7 @@
     "evidence": "Harvard College calendar, no sign it is open to others",
     "basis": "default"
    },
-   "summary": "Harvard University Women’s Ice Hockey vs Clarkson Tickets: https://gocrimson.evenue.net/event/WH26/WH04 URL:https://gocrimson.com/calendar.aspx?game_id=33463&sport_id=30",
+   "summary": "Harvard University Women’s Ice Hockey vs Clarkson TV: ESPN+ Streaming Video: https://gocrim.info/81a777 Tickets: https://gocrimson.evenue.net/event/WH26/WH04 URL:https://gocrimson.com/calendar.aspx?game_id=33463&sport_id=30",
    "blurb": "",
    "event_page": true,
    "notes": "",
@@ -11119,7 +11164,7 @@
     "evidence": "Harvard College calendar, no sign it is open to others",
     "basis": "default"
    },
-   "summary": "Harvard University Women’s Ice Hockey vs St. Lawrence Tickets: https://gocrimson.evenue.net/event/WH26/WH05 URL:https://gocrimson.com/calendar.aspx?game_id=33464&sport_id=30",
+   "summary": "Harvard University Women’s Ice Hockey vs St. Lawrence TV: ESPN+ Streaming Video: https://gocrim.info/3139b8 Tickets: https://gocrimson.evenue.net/event/WH26/WH05 URL:https://gocrimson.com/calendar.aspx?game_id=33464&sport_id=30",
    "blurb": "",
    "event_page": true,
    "notes": "",
@@ -11817,7 +11862,7 @@
     "evidence": "Harvard College calendar, no sign it is open to others",
     "basis": "default"
    },
-   "summary": "Harvard University Men’s Water Polo vs MIT TV: ESPN+ URL:https://gocrimson.com/calendar.aspx?game_id=33278&sport_id=23",
+   "summary": "Harvard University Men’s Water Polo vs MIT TV: ESPN+ Streaming Video: https://gocrim.info/7e9162 URL:https://gocrimson.com/calendar.aspx?game_id=33278&sport_id=23",
    "blurb": "",
    "event_page": true,
    "notes": "",
@@ -12927,9 +12972,9 @@
    "walk_min": 12
   },
   {
-   "id": "7233cc63b2a7",
+   "id": "ff52a1dccffb",
    "title": "Leadership at the Vortex of Revolution, Reform, and Reciprocal Tariffs",
-   "url": "https://www.hks.harvard.edu/index%2ephp/events/leadership-vortex-revolution-reform-and-reciprocal-tariffs",
+   "url": "https://www.hks.harvard.edu/events/leadership-vortex-revolution-reform-and-reciprocal-tariffs",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -12940,34 +12985,34 @@
    "end": "2026-11-02T13:00:00-05:00",
    "date": "2026-11-02",
    "all_day": false,
-   "location": "",
+   "location": "Wexner 434 A.b. Conference Room",
    "online": false,
-   "host": "",
+   "host": "Harvard Center for International Development",
    "food": {
-    "status": "none",
+    "status": "byo",
     "types": [],
-    "evidence": ""
+    "evidence": "Lunch will not be provided."
    },
    "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
+    "status": "required",
+    "evidence": "RSVP link on the event page",
+    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001lFavIAE"
    },
    "audience": {
-    "level": "unknown",
+    "level": "harvard",
     "group": "",
-    "evidence": "",
-    "basis": "none"
+    "evidence": "It is open to Harvard ID holders and will not be live-streamed.",
+    "basis": "text"
    },
-   "summary": "",
-   "blurb": "",
+   "summary": "Drawing on his unusual vantage point across global finance, academia and government, Lutfey Siddiqi will explore the political economy of upheaval, the challenges of reform, and the changing practice of economic diplomacy in an age of profound structural change. Siddiqi is a Visiting Professor-in-Practice at the…",
+   "blurb": "Drawing on his unusual vantage point across global finance, academia and government, Lutfey Siddiqi will explore the political economy of upheaval, the challenges of reform, and the changing practice of economic diplomacy in an age of profound structural…",
    "event_page": true,
    "notes": "",
-   "place_name": "Harvard Kennedy School",
-   "lat": 42.371989,
-   "lon": -71.121761,
-   "geo_method": "host",
-   "walk_min": 16
+   "place_name": "Wexner Building, Harvard Kennedy School",
+   "lat": 42.371344,
+   "lon": -71.122357,
+   "geo_method": "gazetteer",
+   "walk_min": 18
   },
   {
    "id": "6beb994ab416",
@@ -15770,9 +15815,12 @@
    "online": false,
    "host": "Harvard Law School Mock Trial Association",
    "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
+    "status": "confirmed",
+    "types": [
+     "Dinner"
+    ],
+    "evidence": "Dinner will be provided.",
+    "cue": "strong"
    },
    "registration": {
     "status": "unknown",
@@ -15785,7 +15833,7 @@
     "evidence": "HLS listing audience: HLS only",
     "basis": "listing"
    },
-   "summary": "HLS Mock Trial invites all students interested in learning more about litigation job opportunities to join the club’s sponsors – including big law, plaintiff’s side, and boutique firms – for small group conversations! Add to Calendar November 3, 2026, 6:00 pm - 9:00 pm +Google Calendar +iCal/Outlook",
+   "summary": "HLS Mock Trial invites all students interested in learning more about litigation job opportunities to join the club’s sponsors – including big law, plaintiff’s side, and boutique firms – for small group conversations! Dinner will be provided. Add to Calendar November 3, 2026, 6:00 pm - 9:00 pm +Google Calendar…",
    "blurb": "HLS Mock Trial invites all students interested in learning more about litigation job opportunities to join the club’s sponsors – including big law, plaintiff’s side, and boutique firms – for small group conversations!",
    "event_page": true,
    "notes": "",
@@ -16551,6 +16599,18 @@
    "sent": "2026-10-26",
    "items": 0,
    "sender": null
+  },
+  {
+   "subject": null,
+   "sent": "2026-10-27",
+   "items": 0,
+   "sender": null
+  },
+  {
+   "subject": "Photography Exhibition / Open to the Public / Imagine: Reflections on Peace",
+   "sent": "2026-10-27",
+   "items": 0,
+   "sender": "Weatherhead Center for International Affairs"
   }
  ]
 }
