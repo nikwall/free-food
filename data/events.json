@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T12:43:32-04:00",
+ "generated_at": "2026-10-28T19:18:17-04:00",
  "window": {
   "start": "2026-10-28",
   "end": "2026-11-04"
@@ -22,7 +22,7 @@
    "error": null,
    "n_events": 145,
    "n_food": 5,
-   "seconds": 1.5
+   "seconds": 1.9
   },
   {
    "id": "hks",
@@ -30,9 +30,9 @@
    "homepage": "https://www.hks.harvard.edu/more/events",
    "ok": true,
    "error": null,
-   "n_events": 49,
+   "n_events": 52,
    "n_food": 15,
-   "seconds": 24.0
+   "seconds": 8.9
   },
   {
    "id": "hls",
@@ -40,9 +40,9 @@
    "homepage": "https://hls.harvard.edu/calendar/",
    "ok": true,
    "error": null,
-   "n_events": 101,
-   "n_food": 59,
-   "seconds": 12.0
+   "n_events": 102,
+   "n_food": 61,
+   "seconds": 10.5
   },
   {
    "id": "college",
@@ -50,9 +50,9 @@
    "homepage": "https://events.college.harvard.edu/",
    "ok": true,
    "error": null,
-   "n_events": 76,
-   "n_food": 10,
-   "seconds": 1.0
+   "n_events": 77,
+   "n_food": 11,
+   "seconds": 0.5
   },
   {
    "id": "ash",
@@ -60,9 +60,9 @@
    "homepage": "https://ash.harvard.edu/events/",
    "ok": true,
    "error": null,
-   "n_events": 5,
-   "n_food": 2,
-   "seconds": 3.0
+   "n_events": 6,
+   "n_food": 3,
+   "seconds": 2.2
   },
   {
    "id": "shorenstein",
@@ -72,7 +72,7 @@
    "error": null,
    "n_events": 0,
    "n_food": 0,
-   "seconds": 15.6
+   "seconds": 9.4
   },
   {
    "id": "fairbank",
@@ -82,7 +82,7 @@
    "error": null,
    "n_events": 8,
    "n_food": 2,
-   "seconds": 6.6
+   "seconds": 0.1
   },
   {
    "id": "newsletter",
@@ -92,7 +92,7 @@
    "error": null,
    "n_events": 39,
    "n_food": 12,
-   "seconds": 111.9
+   "seconds": 169.9
   },
   {
    "id": "suggested",
@@ -102,17 +102,17 @@
    "error": null,
    "n_events": 8,
    "n_food": 2,
-   "seconds": 6.5
+   "seconds": 7.9
   }
  ],
  "stats": {
-  "events": 355,
-  "food_confirmed": 62,
+  "events": 361,
+  "food_confirmed": 66,
   "food_likely": 24,
   "forwarded": 26,
   "forwarded_listed": 8,
-  "food_restricted": 50,
-  "seconds": 130.0
+  "food_restricted": 52,
+  "seconds": 181.1
  },
  "events": [
   {
@@ -573,9 +573,9 @@
     "evidence": ""
    },
    "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001lEmvIAE"
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
    },
    "audience": {
     "level": "unknown",
@@ -1182,7 +1182,7 @@
    "registration": {
     "status": "required",
     "evidence": "Registration is required as space is limited",
-    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001hEK5IAM"
+    "link": ""
    },
    "audience": {
     "level": "harvard",
@@ -1322,9 +1322,9 @@
     "cue": "strong"
    },
    "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://harvard.zoom.us/webinar/register/WN_-h2QgO73TfGck7j2waRABw#/registration"
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
    },
    "audience": {
     "level": "unknown",
@@ -2189,7 +2189,7 @@
    "registration": {
     "status": "required",
     "evidence": "This event is open to Harvard ID holders and RSVP is required.",
-    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001l05dIAA"
+    "link": ""
    },
    "audience": {
     "level": "harvard",
@@ -2464,9 +2464,9 @@
     "evidence": ""
    },
    "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001lK9BIAU"
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
    },
    "audience": {
     "level": "unknown",
@@ -2944,6 +2944,10 @@
      "url": "https://www.hks.harvard.edu/events/gender-apartheid-power-and-oppression-afghanistan"
     },
     {
+     "source_name": "Harvard College events",
+     "url": "https://events.college.harvard.edu/event/225389-gender-apartheid-power-and-oppression-in"
+    },
+    {
      "source_name": "Forwarded: This Week at the IOP: Youth Vote and the Midterms; Networking Night; Steve Witko",
      "url": "https://iop.harvard.edu/events/gender-apartheid-power-and-oppression-afghanistan-metra-mehran-sima-samar-mathias-risse"
     },
@@ -2954,10 +2958,6 @@
     {
      "source_name": "Forwarded: JFK Jr. Forum: Netflix's The Diplomat with Keri Russell; 2026 Stone Lecture with",
      "url": "https://iop.harvard.edu/events/gender-apartheid-power-and-oppression-afghanistan-metra-mehran-sima-samar-mathias-risse"
-    },
-    {
-     "source_name": "Harvard College events",
-     "url": "https://events.college.harvard.edu/event/225389-gender-apartheid-power-and-oppression-in"
     }
    ],
    "aliases": [
@@ -3100,9 +3100,9 @@
    "walk_min": 10
   },
   {
-   "id": "d2196005144c",
+   "id": "7a99c7edd6e3",
    "title": "HKS NY Alumni Network Fundraiser: Sip for a Cause",
-   "url": "https://www.hks.harvard.edu/index%2Ephp/events/hks-ny-alumni-network-fundraiser-sip-cause",
+   "url": "https://www.hks.harvard.edu/events/hks-ny-alumni-network-fundraiser-sip-cause",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -3113,17 +3113,17 @@
    "end": "2026-10-28T21:00:00-04:00",
    "date": "2026-10-28",
    "all_day": false,
-   "location": "",
+   "location": "Zuppa Italian Restaurant, 59 Main Street, Yonkers, Ny",
    "online": false,
-   "host": "",
+   "host": "Alumni Relations & Resource Development (ARRD)",
    "food": {
     "status": "none",
     "types": [],
     "evidence": ""
    },
    "registration": {
-    "status": "unknown",
-    "evidence": "",
+    "status": "required",
+    "evidence": "Space is limited, so please secure your ticket early.",
     "link": ""
    },
    "audience": {
@@ -3132,15 +3132,15 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "",
-   "blurb": "",
+   "summary": "The HKS New York Alumni Network is having their Inaugural Fundraiser on Wednesday, October 28, 2026! The Board President and Yonkers Police Commissioner Chris Sapienza is hosting this special evening to bring together alumni, HKS supporters, and distinguished guests from across the region to celebrate and invest in…",
+   "blurb": "The HKS New York Alumni Network is having their Inaugural Fundraiser on Wednesday, October 28, 2026! The Board President and Yonkers Police Commissioner Chris Sapienza is hosting this special evening to bring together alumni, HKS supporters, and distinguished…",
    "event_page": true,
    "notes": "",
-   "place_name": "Harvard Kennedy School",
-   "lat": 42.371989,
-   "lon": -71.121761,
-   "geo_method": "host",
-   "walk_min": 16
+   "place_name": "59 Main Street",
+   "lat": 42.36206,
+   "lon": -71.080459,
+   "geo_method": "address",
+   "walk_min": 51
   },
   {
    "id": "2923f41cd51c",
@@ -4319,7 +4319,7 @@
    "walk_min": 11
   },
   {
-   "id": "1ae786e75787",
+   "id": "5ecad42ee714",
    "title": "How to Win A Trade War",
    "url": "https://www.hks.harvard.edu/events/how-win-trade-war",
    "source_id": "gazette",
@@ -4327,7 +4327,7 @@
    "also_listed": [
     {
      "source_name": "Harvard Kennedy School",
-     "url": "https://www.hks.harvard.edu/events/how-win-trade-war"
+     "url": "https://www.hks.harvard.edu/index%2ephp/events/how-win-trade-war"
     }
    ],
    "aliases": [
@@ -4957,49 +4957,6 @@
    "walk_min": 10
   },
   {
-   "id": "6313d670bf2e",
-   "title": "Discussion with Professor Vermeule and Father Nathaniel Sanders",
-   "url": "https://hls.harvard.edu/events/discussion-with-professor-vermeule-and-father-nathaniel-sanders/",
-   "source_id": "hls",
-   "source_name": "Harvard Law School",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-10-29T12:30:00-04:00",
-   "end": "2026-10-29T13:15:00-04:00",
-   "date": "2026-10-29",
-   "all_day": false,
-   "location": "Pound Hall, 100 Cahill Classroom, Harvard Law School",
-   "online": false,
-   "host": "Catholic Law Students Association",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
-   },
-   "audience": {
-    "level": "harvard",
-    "group": "",
-    "evidence": "HLS listing audience: All Harvard",
-    "basis": "listing"
-   },
-   "summary": "Join CLSA for a discussion with Professor Adrian Vermeule and Father Nathaniel Sanders on Justice. Add to Calendar October 29, 2026, 12:30 pm - 1:15 pm +Google Calendar +iCal/Outlook",
-   "blurb": "Join CLSA for a discussion with Professor Adrian Vermeule and Father Nathaniel Sanders on Justice.",
-   "event_page": true,
-   "notes": "",
-   "place_name": "Pound Hall, Harvard Law School",
-   "lat": 42.378601,
-   "lon": -71.119747,
-   "geo_method": "gazetteer",
-   "walk_min": 10
-  },
-  {
    "id": "1f40aa99e64e",
    "title": "HALB x Latham & Watkins",
    "url": "https://hls.harvard.edu/events/halb-x-latham-3/",
@@ -5223,6 +5180,52 @@
    "place_name": "Wasserstein Hall (WCC), Harvard Law School",
    "lat": 42.379383,
    "lon": -71.119421,
+   "geo_method": "gazetteer",
+   "walk_min": 10
+  },
+  {
+   "id": "6313d670bf2e",
+   "title": "Lunch Talk with Professor Vermeule and Father Nathaniel Sanders",
+   "url": "https://hls.harvard.edu/events/discussion-with-professor-vermeule-and-father-nathaniel-sanders/",
+   "source_id": "hls",
+   "source_name": "Harvard Law School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-10-29T12:30:00-04:00",
+   "end": "2026-10-29T13:15:00-04:00",
+   "date": "2026-10-29",
+   "all_day": false,
+   "location": "Pound Hall, 100 Cahill Classroom, Harvard Law School",
+   "online": false,
+   "host": "Catholic Law Students Association",
+   "food": {
+    "status": "confirmed",
+    "types": [
+     "Lunch"
+    ],
+    "evidence": "Lunch will be served!",
+    "cue": "strong"
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "harvard",
+    "group": "",
+    "evidence": "HLS listing audience: All Harvard",
+    "basis": "listing"
+   },
+   "summary": "Join CLSA for a talk from Professor Vermeule and Father Nathaniel Sanders entitled “Of Laws, Morals, and Political Authority.” Professor Vermeule will speak on “Montesquieu on the Nature and Sources of Law.” Father Sanders will speak on “The Moral Foundations of Political Authority.” Lunch will be served! Add to…",
+   "blurb": "Join CLSA for a talk from Professor Vermeule and Father Nathaniel Sanders entitled “Of Laws, Morals, and Political Authority.” Professor Vermeule will speak on “Montesquieu on the Nature and Sources of Law.” Father Sanders will speak on “The Moral Foundations…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Pound Hall, Harvard Law School",
+   "lat": 42.378601,
+   "lon": -71.119747,
    "geo_method": "gazetteer",
    "walk_min": 10
   },
@@ -7548,6 +7551,49 @@
    "walk_min": null
   },
   {
+   "id": "4ebd1d2f184a",
+   "title": "Inside the World Court: A Conversation with ICJ Judge Leonardo Brant",
+   "url": "https://hls.harvard.edu/events/inside-the-world-court-a-conversation-with-icj-judge-leonardo-brant/",
+   "source_id": "hls",
+   "source_name": "Harvard Law School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-10-30T14:30:00-04:00",
+   "end": "2026-10-30T15:30:00-04:00",
+   "date": "2026-10-30",
+   "all_day": false,
+   "location": "Hauser Hall, 104 Lumbard Classroom, Harvard Law School",
+   "online": false,
+   "host": "Harvard Law School Brazilian Studies Association",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "HLS community",
+    "evidence": "HLS listing audience: HLS only",
+    "basis": "listing"
+   },
+   "summary": "An informal conversation with Judge Leonardo Nemer Caldeira Brant of the International Court of Justice. Open to the HLS community Add to Calendar October 30, 2026, 2:30 pm - 3:30 pm +Google Calendar +iCal/Outlook",
+   "blurb": "An informal conversation with Judge Leonardo Nemer Caldeira Brant of the International Court of Justice.",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Hauser Hall, Harvard Law School",
+   "lat": 42.37864,
+   "lon": -71.118138,
+   "geo_method": "gazetteer",
+   "walk_min": 8
+  },
+  {
    "id": "f51d1bccf745",
    "title": "Miller & Chevalier 1L Coffee Chat",
    "url": "https://hls.harvard.edu/events/miller-chevalier-1l-coffee-chat/",
@@ -8726,8 +8772,8 @@
     "evidence": "Harvard College calendar, no sign it is open to others",
     "basis": "default"
    },
-   "summary": "Trick-or-treat with the Deans at University Hall and pick up a full-sized candy bar! Come in costume and stop by University Hall on Saturday, October 31, between 6:00 PM and 8:00 PM to grab yourself a full-sized candy bar from the Deans of Harvard College!",
-   "blurb": "Trick-or-treat with the Deans at University Hall and pick up a full-sized candy bar! Come in costume and stop by University Hall on Saturday, October 31, between 6:00 PM and 8:00 PM to grab yourself a full-sized candy bar from the Deans of Harvard College!",
+   "summary": "Trick-or-treat with the Deans at University Hall and pick up a full-sized candy bar! 🍫🎃 Come in costume and stop by University Hall on Saturday, October 31, between 6:00 PM and 8:00 PM to grab yourself a full-sized candy bar from the Deans of Harvard College! Say “howl-o” to Dean Deming, Dean Dunne, Dean Claybaugh,…",
+   "blurb": "Trick-or-treat with the Deans at University Hall and pick up a full-sized candy bar! 🍫🎃 Come in costume and stop by University Hall on Saturday, October 31, between 6:00 PM and 8:00 PM to grab yourself a full-sized candy bar from the Deans of Harvard College!",
    "event_page": true,
    "notes": "",
    "place_name": "University Hall",
@@ -9865,49 +9911,6 @@
    "lon": -71.114928,
    "geo_method": "gazetteer",
    "walk_min": 4
-  },
-  {
-   "id": "31b6647c2d2a",
-   "title": "HALB x Lazard",
-   "url": "https://hls.harvard.edu/events/halb-x-lazard-3/",
-   "source_id": "hls",
-   "source_name": "Harvard Law School",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-11-02T09:00:00-05:00",
-   "end": "2026-11-02T18:00:00-05:00",
-   "date": "2026-11-02",
-   "all_day": false,
-   "location": "WCC, 5056 Room, Harvard Law School",
-   "online": false,
-   "host": "Harvard Law School",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
-   },
-   "audience": {
-    "level": "likely",
-    "group": "HLS community",
-    "evidence": "Harvard Law School calendar, audience not stated",
-    "basis": "default"
-   },
-   "summary": "Add to Calendar November 2, 2026, 9:00 am - 6:00 pm +Google Calendar +iCal/Outlook",
-   "blurb": "",
-   "event_page": true,
-   "notes": "",
-   "place_name": "Wasserstein Hall (WCC), Harvard Law School",
-   "lat": 42.379383,
-   "lon": -71.119421,
-   "geo_method": "gazetteer",
-   "walk_min": 10
   },
   {
    "id": "e888b782f6dc",
@@ -13358,6 +13361,49 @@
    "walk_min": 12
   },
   {
+   "id": "a487638eb088",
+   "title": "Study Group with Chris Whipple: Decoding the 2026 Midterm Elections",
+   "url": "https://www.hks.harvard.edu/events/study-group-chris-whipple-decoding-2026-midterm-elections",
+   "source_id": "hks",
+   "source_name": "Harvard Kennedy School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-03T16:30:00-05:00",
+   "end": "2026-11-03T17:45:00-05:00",
+   "date": "2026-11-03",
+   "all_day": false,
+   "location": "L-163",
+   "online": false,
+   "host": "Institute of Politics (IOP)",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "RSVP link on the event page",
+    "link": "https://iop.harvard.edu/events/study-group-chris-whipple-decoding-2026-midterm-elections-stuart-stevens"
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "HKS students",
+    "evidence": "Title: Study Group with Chris Whipple: Decoding the 2026 Midterm Elections",
+    "basis": "inferred"
+   },
+   "summary": "On election day, we’ll analyze the midterm results as they come in and the implications for the country. Stuart Stevens, veteran political strategist, who ran Mitt Romney’s 2012 presidential campaign, will be our guide. Do the Democrats seem poised to win the House or the Senate — or both? What will the results of the…",
+   "blurb": "On election day, we’ll analyze the midterm results as they come in and the implications for the country. Stuart Stevens, veteran political strategist, who ran Mitt Romney’s 2012 presidential campaign, will be our guide. Do the Democrats seem poised to win the…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Littauer Building, Harvard Kennedy School",
+   "lat": 42.371045,
+   "lon": -71.12209,
+   "geo_method": "gazetteer",
+   "walk_min": 18
+  },
+  {
    "id": "4e2117550533",
    "title": "Emergent Visons Film Screening & Discussion — Self-Portrait: 47 KM 2020 (自画像：47 KM 2020)",
    "url": "https://fairbank.fas.harvard.edu/events/emergent-visons-film-screening-self-portrait-47-km/",
@@ -13446,7 +13492,7 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "Nov 3, 2026 @ 5:00 PM How to Tell an AI What to Do: Rules, Cases, and Interpretation Update:The start time of this event has been changed to 5:00 pm.What can the law teach us about where AI systems should exercise judgment when their instructions leave room for… In-Person RSVP Event Nov 19, 2026 @ 5:00 PM Crutch or…",
+   "summary": "Nov 3, 2026 @ 5:00 PM How to Tell an AI What to Do: Rules, Cases, and Interpretation Update:The start time of this event has been changed to 5:00 pm.What can the law teach us about where AI systems should exercise judgment when their instructions leave room for… In-Person RSVP Zoom RSVP Event Nov 19, 2026 @ 5:00 PM…",
    "blurb": "Update:The start time of this event has been changed to 5:00 pm.What can the law teach us about where AI systems should exercise judgment when their instructions leave room for… As AI becomes increasingly embedded in our lives, it has taken on roles as a…",
    "event_page": true,
    "notes": "",
@@ -13630,6 +13676,52 @@
    "lon": null,
    "geo_method": null,
    "walk_min": null
+  },
+  {
+   "id": "b5173f5ec517",
+   "title": "A Conversation with EdRedesign’s By All Means Senior Fellows: National Leaders at the Forefront of Expanding Opportunity for Youth and Families",
+   "url": "https://events.college.harvard.edu/winthrop-house/event/225953-a-conversation-with-edredesigns-by-all-means",
+   "source_id": "college",
+   "source_name": "Harvard College events",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-03T18:45:00-05:00",
+   "end": "2026-11-03T20:15:00-05:00",
+   "date": "2026-11-03",
+   "all_day": false,
+   "location": "Junior Common Room",
+   "online": false,
+   "host": "Winthrop House",
+   "food": {
+    "status": "confirmed",
+    "types": [
+     "Dinner"
+    ],
+    "evidence": "Join us for dinner with experts in the field!",
+    "cue": "weak"
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "Winthrop House residents",
+    "evidence": "Hosted by Winthrop House",
+    "basis": "inferred"
+   },
+   "summary": "Students of Throp, Are you interested in learning more about good work that is combating poverty and creating pathways to socioeconomic mobility for young people and families? Curious about collaborating across sectors–education, law, health, nonprofit, business, etc. to uplift communities? Join us for dinner with…",
+   "blurb": "Are you interested in learning more about good work that is combating poverty and creating pathways to socioeconomic mobility for young people and families? Curious about collaborating across sectors–education, law, health, nonprofit, business, etc. to uplift…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Winthrop House",
+   "lat": 42.370356,
+   "lon": -71.118646,
+   "geo_method": "host",
+   "walk_min": 15
   },
   {
    "id": "2ec2c2b531a4",
@@ -14631,6 +14723,49 @@
    "walk_min": 5
   },
   {
+   "id": "59de218acb3d",
+   "title": "Current Dynamics and Future Paths in Iran, Israel, and the Middle East",
+   "url": "https://www.hks.harvard.edu/events/current-dynamics-and-future-paths-iran-israel-and-middle-east",
+   "source_id": "hks",
+   "source_name": "Harvard Kennedy School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-04T12:00:00-05:00",
+   "end": "2026-11-04T13:15:00-05:00",
+   "date": "2026-11-04",
+   "all_day": false,
+   "location": "Belfer Center Library (l369)",
+   "online": false,
+   "host": "Belfer Center for Science and International Affairs",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "Space is limited so please only RSVP if you plan to attend.",
+    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001lUzlIAE"
+   },
+   "audience": {
+    "level": "harvard",
+    "group": "",
+    "evidence": "Attendance is in-person and for HUID holders only.",
+    "basis": "text"
+   },
+   "summary": "Please join the Belfer Center for Science and International Affairs for a conversation with Danny Citrinowicz, Senior Researcher in the Iran and the Shi'ite Axis Program at the Institute for National Security Studies in Tel Aviv. In the aftermath of the Israeli elections, Citrinowicz will discuss the key challenges,…",
+   "blurb": "Please join the Belfer Center for Science and International Affairs for a conversation with Danny Citrinowicz, Senior Researcher in the Iran and the Shi'ite Axis Program at the Institute for National Security Studies in Tel Aviv. In the aftermath of the…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Harvard Kennedy School",
+   "lat": 42.371989,
+   "lon": -71.121761,
+   "geo_method": "host",
+   "walk_min": 16
+  },
+  {
    "id": "a7336d7c1e1d",
    "title": "Athletes’ Rights, Regulatory Drafting, and Dispute Resolution in International Sports",
    "url": "https://hls.harvard.edu/events/athletes-rights-regulatory-drafting-and-dispute-resolution-in-international-sports/",
@@ -14937,6 +15072,52 @@
    },
    "summary": "A focused presentation by Covington & Burling practitioners covering regulatory compliance, public policy, and corporate strategy. Add to Calendar November 4, 2026, 12:30 pm - 1:15 pm +Google Calendar +iCal/Outlook",
    "blurb": "A focused presentation by Covington & Burling practitioners covering regulatory compliance, public policy, and corporate strategy.",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Wasserstein Hall (WCC), Harvard Law School",
+   "lat": 42.379383,
+   "lon": -71.119421,
+   "geo_method": "gazetteer",
+   "walk_min": 10
+  },
+  {
+   "id": "a25d125f0f56",
+   "title": "Embracing New Changes with Mindfulness",
+   "url": "https://hls.harvard.edu/events/embracing-new-changes-with-mindfulness/",
+   "source_id": "hls",
+   "source_name": "Harvard Law School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-04T12:30:00-05:00",
+   "end": "2026-11-04T13:15:00-05:00",
+   "date": "2026-11-04",
+   "all_day": false,
+   "location": "WCC 3016, Harvard Law School",
+   "online": false,
+   "host": "DOS-CEEB; The Well",
+   "food": {
+    "status": "confirmed",
+    "types": [
+     "Lunch"
+    ],
+    "evidence": "Lunches will be served first-come, first-served.",
+    "cue": "strong"
+   },
+   "registration": {
+    "status": "none",
+    "evidence": "Lunches will be served first-come, first-served.",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "HLS Community Members",
+    "evidence": "HLS listing audience: HLS Community Members",
+    "basis": "listing"
+   },
+   "summary": "Join The Well and Buddhist Monk Gen Khedrub to learn mindfulness techniques on how to approach moments of change and transition. Lunches will be served first-come, first-served. No previous meditation experience required. Please RSVP. Open to all members of the HLS community. Add to Calendar November 4, 2026, 12:30 pm…",
+   "blurb": "learn mindfulness techniques on how to approach moments of change and transition. Lunches will be served first-come, first-served. Open to all members of the HLS community.",
    "event_page": true,
    "notes": "",
    "place_name": "Wasserstein Hall (WCC), Harvard Law School",
@@ -15452,6 +15633,49 @@
    "walk_min": 10
   },
   {
+   "id": "3c39998c5f0a",
+   "title": "Study Group with Amb. Nathalie Rayes: Leadership, Diplomacy, and the White House",
+   "url": "https://www.hks.harvard.edu/events/study-group-amb-nathalie-rayes-leadership-diplomacy-and-white-house",
+   "source_id": "hks",
+   "source_name": "Harvard Kennedy School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-04T16:00:00-05:00",
+   "end": "2026-11-04T17:15:00-05:00",
+   "date": "2026-11-04",
+   "all_day": false,
+   "location": "L-166",
+   "online": false,
+   "host": "Institute of Politics (IOP)",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "RSVP link on the event page",
+    "link": "https://iop.harvard.edu/events/study-group-ambassador-nathalie-rayes-behind-scenes-power-leadership-diplomacy-and-white"
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "HKS students",
+    "evidence": "Title: Study Group with Amb. Nathalie Rayes: Leadership, Diplomacy, and the White House",
+    "basis": "inferred"
+   },
+   "summary": "What does it take to lead behind the scenes at the highest levels of American government? Join Ambassador Nathalie Rayes for a conversation with Ambassador Capricia Marshall and Opal Vadhan, two women whose careers have taken them into the inner circles of American political leadership. From the White House to the…",
+   "blurb": "What does it take to lead behind the scenes at the highest levels of American government? Join Ambassador Nathalie Rayes for a conversation with Ambassador Capricia Marshall and Opal Vadhan, two women whose careers have taken them into the inner circles of…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Littauer Building, Harvard Kennedy School",
+   "lat": 42.371045,
+   "lon": -71.12209,
+   "geo_method": "gazetteer",
+   "walk_min": 18
+  },
+  {
    "id": "53388f68c7f2",
    "title": "The Dharma Among Us: The Past, Present, and Future of Hindu Spiritual Care at HDS",
    "url": "https://news.harvard.edu/gazette/harvard-events/events-calendar/?trumbaEmbed=view%3Devent%26eventid%3D210767077",
@@ -15496,6 +15720,53 @@
    "lon": -71.112151,
    "geo_method": "gazetteer",
    "walk_min": 5
+  },
+  {
+   "id": "0ab8975bd6a6",
+   "title": "What Just Happened? A post-election conversation",
+   "url": "https://ash.harvard.edu/events/what-just-happened-a-post-election-conversation/",
+   "source_id": "ash",
+   "source_name": "Ash Center (HKS)",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-04T16:00:00-05:00",
+   "end": "2026-11-04T17:15:00-05:00",
+   "date": "2026-11-04",
+   "all_day": false,
+   "location": "K262, CGIS Knafel Building, 1737 Cambridge Street, Cambridge, MA 02138",
+   "online": false,
+   "host": "Ash Center for Democratic Governance",
+   "food": {
+    "status": "confirmed",
+    "types": [
+     "Reception",
+     "Snacks"
+    ],
+    "evidence": "A reception with light refreshments will immediately follow the event.",
+    "cue": "weak"
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "harvard",
+    "group": "",
+    "evidence": "This event is open to Harvard ID holders only.",
+    "basis": "text"
+   },
+   "summary": "Join CAPS for a lively post-midterm election conversation with lightning talk presentations by our panelists Archon Fung, Justin deBenedictis-Kessner, and Marcel Roman, moderated by Jennifer Hochschild. A reception with light refreshments will immediately follow the event. Join CAPS for a lively post-midterm election…",
+   "blurb": "Join CAPS for a lively post-midterm election conversation with lightning talk presentations by our panelists Archon Fung, Justin deBenedictis-Kessner, and Marcel Roman, moderated by Jennifer Hochschild. A reception with light refreshments will immediately…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "CGIS Knafel Building",
+   "lat": 42.375641,
+   "lon": -71.113237,
+   "geo_method": "gazetteer",
+   "walk_min": 4
   },
   {
    "id": "3b5ec1dd9044",
