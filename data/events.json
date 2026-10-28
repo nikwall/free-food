@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27T16:45:39-04:00",
+ "generated_at": "2026-10-27T21:27:04-04:00",
  "window": {
   "start": "2026-10-27",
   "end": "2026-11-03"
@@ -20,9 +20,9 @@
    "homepage": "https://news.harvard.edu/gazette/harvard-events/events-calendar/",
    "ok": true,
    "error": null,
-   "n_events": 142,
+   "n_events": 145,
    "n_food": 3,
-   "seconds": 2.3
+   "seconds": 1.9
   },
   {
    "id": "hks",
@@ -30,9 +30,9 @@
    "homepage": "https://www.hks.harvard.edu/more/events",
    "ok": true,
    "error": null,
-   "n_events": 49,
-   "n_food": 12,
-   "seconds": 6.6
+   "n_events": 50,
+   "n_food": 11,
+   "seconds": 7.4
   },
   {
    "id": "hls",
@@ -42,7 +42,7 @@
    "error": null,
    "n_events": 100,
    "n_food": 61,
-   "seconds": 8.7
+   "seconds": 12.4
   },
   {
    "id": "college",
@@ -52,7 +52,7 @@
    "error": null,
    "n_events": 84,
    "n_food": 10,
-   "seconds": 2.2
+   "seconds": 0.5
   },
   {
    "id": "ash",
@@ -62,7 +62,7 @@
    "error": null,
    "n_events": 3,
    "n_food": 1,
-   "seconds": 2.3
+   "seconds": 2.5
   },
   {
    "id": "shorenstein",
@@ -72,7 +72,7 @@
    "error": null,
    "n_events": 0,
    "n_food": 0,
-   "seconds": 10.7
+   "seconds": 10.2
   },
   {
    "id": "fairbank",
@@ -82,7 +82,7 @@
    "error": null,
    "n_events": 6,
    "n_food": 2,
-   "seconds": 0.0
+   "seconds": 0.1
   },
   {
    "id": "newsletter",
@@ -92,7 +92,7 @@
    "error": null,
    "n_events": 44,
    "n_food": 11,
-   "seconds": 54.8
+   "seconds": 68.1
   },
   {
    "id": "suggested",
@@ -102,17 +102,17 @@
    "error": null,
    "n_events": 7,
    "n_food": 3,
-   "seconds": 6.5
+   "seconds": 5.5
   }
  ],
  "stats": {
-  "events": 355,
-  "food_confirmed": 64,
+  "events": 359,
+  "food_confirmed": 63,
   "food_likely": 20,
   "forwarded": 32,
   "forwarded_listed": 11,
   "food_restricted": 54,
-  "seconds": 66.9
+  "seconds": 77.8
  },
  "events": [
   {
@@ -985,6 +985,114 @@
    "walk_min": 13
   },
   {
+   "id": "20d7dcd03c7c",
+   "title": "Events Calendar",
+   "url": "https://hls.harvard.edu/calendar/",
+   "source_id": "suggested",
+   "source_name": "Suggested calendar: HLS",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-10-27T12:00:00-04:00",
+   "end": null,
+   "date": "2026-10-27",
+   "all_day": true,
+   "location": "",
+   "online": false,
+   "host": "",
+   "food": {
+    "status": "confirmed",
+    "types": [
+     "Lunch"
+    ],
+    "evidence": "Lunch will be provided.",
+    "cue": "strong"
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "Please RSVP at https://forms.gle/ayExLx7yGuEEdEJY6.",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "HLS community",
+    "evidence": "Open only to the HLS community.",
+    "basis": "text"
+   },
+   "summary": "October 27 Tuesday • 19 events O’Melveny 1L Coffee Chat 11:30 am - 1:30 pm See CSM/Symplicity for full event details. PON Live! Negotiating from a Distance: The Impact of Communication Media and Negotiator Characteristics 12:00 pm - 1:00 pm How does the communication medium shape negotiation outcomes? As negotiations…",
+   "blurb": "See CSM/Symplicity for full event details. Negotiating from a Distance: The Impact of Communication Media and Negotiator How does the communication medium shape negotiation outcomes? As negotiations increasingly take place by video, audio, or text, the choice…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Harvard Law School",
+   "lat": 42.379106,
+   "lon": -71.119679,
+   "geo_method": "host",
+   "walk_min": 10
+  },
+  {
+   "id": "34634a89b818",
+   "title": "Intelligence Oversight in the Trump Era with Congressman Jim Himes",
+   "url": "https://www.hks.harvard.edu/events/intelligence-oversight-trump-era-congressman-jim-himes",
+   "source_id": "hks",
+   "source_name": "Harvard Kennedy School",
+   "also_listed": [
+    {
+     "source_name": "Harvard College events",
+     "url": "https://events.college.harvard.edu/event/225866-who-watches-the-watchmen-intelligence-oversight-in"
+    },
+    {
+     "source_name": "Forwarded: JFK Jr. Forum: Netflix's The Diplomat with Keri Russell; 2026 Stone Lecture with",
+     "url": "https://iop.harvard.edu/events/who-watches-watchmen-intelligence-oversight-trump-era-congressman-jim-himes"
+    }
+   ],
+   "aliases": [
+    "3b410aca07af",
+    "e8af16448cb4"
+   ],
+   "suggested": null,
+   "forwarded": {
+    "by": "Ellen",
+    "subject": "JFK Jr. Forum: Netflix's The Diplomat with Keri Russell; 2026 Stone Lecture with Cecilia Rouse; Congresswoman Liz Cheney",
+    "missing": []
+   },
+   "start": "2026-10-27T12:00:00-04:00",
+   "end": "2026-10-27T13:00:00-04:00",
+   "date": "2026-10-27",
+   "all_day": false,
+   "location": "L-166",
+   "online": false,
+   "host": "Institute of Politics (IOP)",
+   "food": {
+    "status": "confirmed",
+    "types": [
+     "Lunch"
+    ],
+    "evidence": "Lunch will be served.",
+    "cue": "strong"
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "Register Here",
+    "link": ""
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "What role does Congress play in identifying risks and holding the intelligence community accountable? Join the Institute of Politics for the next installment of our Food for Thought series featuring Congressman Jim Himes (CT-04), ranking Member of the House Permanent Select Committee on Intelligence, and on the House…",
+   "blurb": "What role does Congress play in identifying risks and holding the intelligence community accountable? the next installment of our Food for Thought series featuring Congressman Jim Himes (CT-04), ranking Member of the House Permanent Select Committee on…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Littauer Building, Harvard Kennedy School",
+   "lat": 42.371045,
+   "lon": -71.12209,
+   "geo_method": "gazetteer",
+   "walk_min": 18
+  },
+  {
    "id": "c993ca6f5a7c",
    "title": "La Alianza Presents: A Day in the Life of an Associate",
    "url": "https://hls.harvard.edu/events/la-alianza-presents-a-day-in-the-life-of-an-associate/",
@@ -1128,68 +1236,6 @@
    "lon": -71.113135,
    "geo_method": "text",
    "walk_min": 5
-  },
-  {
-   "id": "34634a89b818",
-   "title": "Who Watches the Watchmen: Intelligence Oversight in the Trump Era with Congressman Jim Himes",
-   "url": "https://events.college.harvard.edu/event/225866-who-watches-the-watchmen-intelligence-oversight-in",
-   "source_id": "college",
-   "source_name": "Harvard College events",
-   "also_listed": [
-    {
-     "source_name": "Forwarded: JFK Jr. Forum: Netflix's The Diplomat with Keri Russell; 2026 Stone Lecture with",
-     "url": "https://iop.harvard.edu/events/who-watches-watchmen-intelligence-oversight-trump-era-congressman-jim-himes"
-    },
-    {
-     "source_name": "Harvard Kennedy School",
-     "url": "https://www.hks.harvard.edu/index%2ephp/events/intelligence-oversight-trump-era-congressman-jim-himes"
-    }
-   ],
-   "aliases": [
-    "702fd331eef2",
-    "e8af16448cb4"
-   ],
-   "suggested": null,
-   "forwarded": {
-    "by": "Ellen",
-    "subject": "JFK Jr. Forum: Netflix's The Diplomat with Keri Russell; 2026 Stone Lecture with Cecilia Rouse; Congresswoman Liz Cheney",
-    "missing": []
-   },
-   "start": "2026-10-27T12:00:00-04:00",
-   "end": null,
-   "date": "2026-10-27",
-   "all_day": false,
-   "location": "79 JFK St., Cambridge, MA",
-   "online": false,
-   "host": "Institute of Politics at Harvard Kennedy School",
-   "food": {
-    "status": "confirmed",
-    "types": [
-     "Lunch"
-    ],
-    "evidence": "*Lunch will be served.",
-    "cue": "strong"
-   },
-   "registration": {
-    "status": "required",
-    "evidence": "Register Here",
-    "link": ""
-   },
-   "audience": {
-    "level": "unknown",
-    "group": "",
-    "evidence": "",
-    "basis": "none"
-   },
-   "summary": "What role does Congress play in identifying risks and holding the intelligence community accountable? Join the Institute of Politics for the next installment of our Food for Thought series featuring Congressman Jim Himes (CT-04), ranking Member of the House Permanent Select Committee on Intelligence, and on the House…",
-   "blurb": "What role does Congress play in identifying risks and holding the intelligence community accountable? the next installment of our Food for Thought series featuring Congressman Jim Himes (CT-04), ranking Member of the House Permanent Select Committee on…",
-   "event_page": true,
-   "notes": "",
-   "place_name": "Harvard Kennedy School",
-   "lat": 42.371989,
-   "lon": -71.121761,
-   "geo_method": "gazetteer",
-   "walk_min": 16
   },
   {
    "id": "eaeb798006db",
@@ -1739,9 +1785,9 @@
    "walk_min": 8
   },
   {
-   "id": "7ad9c8144c99",
+   "id": "03e6fbe94109",
    "title": "Believability in the Age of AI: When you speak, do people believe you?",
-   "url": "https://www.hks.harvard.edu/index%2ephp/events/believability-age-ai-two-session-study-group-apply-today",
+   "url": "https://www.hks.harvard.edu/events/believability-age-ai-two-session-study-group-apply-today",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -1752,9 +1798,9 @@
    "end": "2026-10-27T15:30:00-04:00",
    "date": "2026-10-27",
    "all_day": false,
-   "location": "",
+   "location": "Belfer Conf. Room, Lobby Level, Room 4 (across From Weil Town Hall)",
    "online": false,
-   "host": "",
+   "host": "Communications Program",
    "food": {
     "status": "none",
     "types": [],
@@ -1766,20 +1812,20 @@
     "link": ""
    },
    "audience": {
-    "level": "unknown",
+    "level": "harvard",
     "group": "",
-    "evidence": "",
-    "basis": "none"
+    "evidence": "Open to all Harvard students, faculty, and fellows.",
+    "basis": "text"
    },
-   "summary": "",
-   "blurb": "",
+   "summary": "Believability in the Age of AI - A two-session HKS Study Group When you speak, do people believe you? Today, words are easier than ever to produce and harder than ever to trust. This study group will address what makes someone believe you and what it costs when they don't. The two sessions will focus on: The…",
+   "blurb": "When you speak, do people believe you? Today, words are easier than ever to produce and harder than ever to trust. This study group will address what makes someone believe you and what it costs when they don't. We will examine the cost of disbelief for…",
    "event_page": true,
    "notes": "",
-   "place_name": "Harvard Kennedy School",
-   "lat": 42.371989,
-   "lon": -71.121761,
-   "geo_method": "host",
-   "walk_min": 16
+   "place_name": "Belfer Building, Harvard Kennedy School",
+   "lat": 42.37141,
+   "lon": -71.121513,
+   "geo_method": "gazetteer",
+   "walk_min": 17
   },
   {
    "id": "d57fb6b74d9d",
@@ -1962,113 +2008,54 @@
    "walk_min": 12
   },
   {
-   "id": "20d7dcd03c7c",
-   "title": "Events Calendar",
-   "url": "https://hls.harvard.edu/calendar/",
-   "source_id": "suggested",
-   "source_name": "Suggested calendar: HLS",
+   "id": "4cc7dc519e8f",
+   "title": "Amb. Nathalie Rayes Study Group: From Immigrant to Congress: Breaking Barriers",
+   "url": "https://www.hks.harvard.edu/events/amb-nathalie-rayes-study-group-immigrant-congress-breaking-barriers",
+   "source_id": "hks",
+   "source_name": "Harvard Kennedy School",
    "also_listed": [
     {
-     "source_name": "Forwarded: BKC in the News and October Events",
-     "url": "https://cyber.harvard.edu/events"
+     "source_name": "Harvard College events",
+     "url": "https://events.college.harvard.edu/event/225889-study-group-with-ambassador-nathalie-rayes-from"
     }
    ],
    "aliases": [
-    "fabad72195fd"
-   ],
-   "suggested": null,
-   "forwarded": {
-    "by": "Juan",
-    "subject": "BKC in the News and October Events",
-    "missing": [
-     "place"
-    ]
-   },
-   "start": "2026-10-27T16:00:00-04:00",
-   "end": null,
-   "date": "2026-10-27",
-   "all_day": false,
-   "location": "",
-   "online": false,
-   "host": "",
-   "food": {
-    "status": "confirmed",
-    "types": [
-     "Lunch"
-    ],
-    "evidence": "Lunch will be provided.",
-    "cue": "strong"
-   },
-   "registration": {
-    "status": "required",
-    "evidence": "Please RSVP at https://forms.gle/ayExLx7yGuEEdEJY6.",
-    "link": ""
-   },
-   "audience": {
-    "level": "restricted",
-    "group": "HLS community",
-    "evidence": "Open only to the HLS community.",
-    "basis": "text"
-   },
-   "summary": "October 27 Tuesday • 19 events O’Melveny 1L Coffee Chat 11:30 am - 1:30 pm See CSM/Symplicity for full event details. PON Live! Negotiating from a Distance: The Impact of Communication Media and Negotiator Characteristics 12:00 pm - 1:00 pm How does the communication medium shape negotiation outcomes? As negotiations…",
-   "blurb": "See CSM/Symplicity for full event details. Negotiating from a Distance: The Impact of Communication Media and Negotiator How does the communication medium shape negotiation outcomes? As negotiations increasingly take place by video, audio, or text, the choice…",
-   "event_page": true,
-   "notes": "",
-   "place_name": "Harvard Law School",
-   "lat": 42.379106,
-   "lon": -71.119679,
-   "geo_method": "host",
-   "walk_min": 10
-  },
-  {
-   "id": "4b3bf68540ac",
-   "title": "Study Group with Ambassador Nathalie Rayes: From Immigrant to Congress: Breaking Barriers, Shaping America",
-   "url": "https://events.college.harvard.edu/event/225889-study-group-with-ambassador-nathalie-rayes-from",
-   "source_id": "college",
-   "source_name": "Harvard College events",
-   "also_listed": [
-    {
-     "source_name": "Harvard Kennedy School",
-     "url": "https://www.hks.harvard.edu/index%2ephp/events/amb-nathalie-rayes-study-group-immigrant-congress-breaking-barriers"
-    }
-   ],
-   "aliases": [
-    "4cc7dc519e8f"
+    "a10b1fabd826"
    ],
    "suggested": null,
    "forwarded": null,
    "start": "2026-10-27T16:00:00-04:00",
-   "end": null,
+   "end": "2026-10-27T17:15:00-04:00",
    "date": "2026-10-27",
    "all_day": false,
-   "location": "79 JFK St., Cambridge, MA",
+   "location": "L-150",
    "online": false,
-   "host": "Institute of Politics at Harvard Kennedy School",
+   "host": "Institute of Politics (IOP)",
    "food": {
     "status": "none",
     "types": [],
     "evidence": ""
    },
    "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
+    "status": "required",
+    "evidence": "RSVP link on the event page",
+    "link": "https://iop.harvard.edu/events/study-group-ambassador-nathalie-rayes-immigrant-congress-breaking-barriers-shaping-america"
    },
    "audience": {
     "level": "restricted",
-    "group": "undergraduates",
-    "evidence": "Title: Study Group with Ambassador Nathalie Rayes: From Immigrant to Congress: Breaking Barriers, Shaping America",
+    "group": "HKS students",
+    "evidence": "Title: Amb. Nathalie Rayes Study Group: From Immigrant to Congress: Breaking Barriers",
     "basis": "inferred"
    },
    "summary": "What does it take to break barriers, find your political voice, and help shape the future of America? Join Ambassador Nathalie Rayes for a conversation with Congressman Adriano Espaillat, the first Dominican American elected to the U.S. Congress. From his immigrant roots to Capitol Hill, we’ll explore his…",
    "blurb": "What does it take to break barriers, find your political voice, and help shape the future of America? Join Ambassador Nathalie Rayes for a conversation with Congressman Adriano Espaillat, the first Dominican American elected to the U.S. From his immigrant…",
    "event_page": true,
    "notes": "",
-   "place_name": "Harvard Kennedy School",
-   "lat": 42.371989,
-   "lon": -71.121761,
+   "place_name": "Littauer Building, Harvard Kennedy School",
+   "lat": 42.371045,
+   "lon": -71.12209,
    "geo_method": "gazetteer",
-   "walk_min": 16
+   "walk_min": 18
   },
   {
    "id": "7bc200b774b7",
@@ -2114,9 +2101,9 @@
    "walk_min": 10
   },
   {
-   "id": "d227416e088c",
+   "id": "f96e0c4dba70",
    "title": "[CANCELED] Amb. Kelly Craft: The Midterms and Trump’s Foreign Policy",
-   "url": "https://www.hks.harvard.edu/index%2ephp/events/study-group-ambassador-kelly-craft-midterms-and-trumps-foreign-policy",
+   "url": "https://www.hks.harvard.edu/events/study-group-ambassador-kelly-craft-midterms-and-trumps-foreign-policy",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -2127,9 +2114,9 @@
    "end": "2026-10-27T17:15:00-04:00",
    "date": "2026-10-27",
    "all_day": false,
-   "location": "",
+   "location": "L-166",
    "online": false,
-   "host": "",
+   "host": "Institute of Politics (IOP)",
    "food": {
     "status": "none",
     "types": [],
@@ -2141,20 +2128,20 @@
     "link": ""
    },
    "audience": {
-    "level": "unknown",
+    "level": "harvard",
     "group": "",
-    "evidence": "",
-    "basis": "none"
+    "evidence": "*These off-the-record conversations are open to members of the Harvard community.",
+    "basis": "text"
    },
-   "summary": "",
-   "blurb": "",
+   "summary": "PLEASE NOTE: This event is canceled. The midterm elections are a week away, and it looks like a blue wave is coming. Will it land? Will Republicans avoid electoral disaster? What will be the impact of Trump’s foreign policy? And what is to come for the world in the last two years of the Trump presidency? IN-PERSON…",
+   "blurb": "The midterm elections are a week away, and it looks like a blue wave is coming. What will be the impact of Trump’s foreign policy? And what is to come for the world in the last two years of the Trump presidency? These off-the-record conversations are open to…",
    "event_page": true,
    "notes": "",
-   "place_name": "Harvard Kennedy School",
-   "lat": 42.371989,
-   "lon": -71.121761,
-   "geo_method": "host",
-   "walk_min": 16
+   "place_name": "Littauer Building, Harvard Kennedy School",
+   "lat": 42.371045,
+   "lon": -71.12209,
+   "geo_method": "gazetteer",
+   "walk_min": 18
   },
   {
    "id": "0242a56beacb",
@@ -3243,7 +3230,7 @@
     "basis": "none"
    },
    "summary": "Join the Taubman Center for State and Local Government for coffee and conversation with Mayor Quinton Lucas of Kansas City, Missouri. Moderated by Amy Mahler, Director of Government Engagement at the Taubman Center, the discussion will explore Mayor Lucas’s path to public service, his goals for Kansas City, and topics…",
-   "blurb": "Join the Taubman Center for State and Local Government for coffee and conversation with Mayor Quinton Lucas of Kansas City, Missouri. the discussion will explore Mayor Lucas’s path to public service, his goals for Kansas City, and topics shaping the city…",
+   "blurb": "Join the Taubman Center for State and Local Government for coffee and conversation with Mayor Quinton Lucas of Kansas City, Missouri. the discussion will explore Mayor Lucas’s path to public service, his goals for Kansas City, and topics shaping the city.…",
    "event_page": true,
    "notes": "",
    "place_name": "Taubman Building, Harvard Kennedy School",
@@ -3511,9 +3498,9 @@
    "walk_min": 7
   },
   {
-   "id": "1e906956b453",
+   "id": "e236cb2e66ee",
    "title": "Book Talk with David Holloway - Nuclear Weapons: An International History",
-   "url": "https://www.hks.harvard.edu/index%2ephp/events/book-talk-david-holloway-nuclear-weapons-international-history",
+   "url": "https://www.hks.harvard.edu/events/book-talk-david-holloway-nuclear-weapons-international-history",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -3524,9 +3511,9 @@
    "end": "2026-10-28T12:30:00-04:00",
    "date": "2026-10-28",
    "all_day": false,
-   "location": "",
+   "location": "Fainsod (l324)",
    "online": false,
-   "host": "",
+   "host": "Managing the Atom Project",
    "food": {
     "status": "none",
     "types": [],
@@ -3543,15 +3530,15 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "",
-   "blurb": "",
+   "summary": "This book explores the history of nuclear weapons from the discovery of nuclear fission at the end of 1938 to Mikhail Gorbachev’s speech to the United Nations in December 1988. I attempted an international history, for two reasons. First, a great deal has been written about U.S. policy, much less about the other…",
+   "blurb": "This book explores the history of nuclear weapons from the discovery of nuclear fission at the end of 1938 to Mikhail Gorbachev’s speech to the United Nations in December 1988. I attempted an international history, for two reasons. First, a great deal has…",
    "event_page": true,
    "notes": "",
-   "place_name": "Harvard Kennedy School",
-   "lat": 42.371989,
-   "lon": -71.121761,
-   "geo_method": "host",
-   "walk_min": 16
+   "place_name": "Littauer Building, Harvard Kennedy School",
+   "lat": 42.371045,
+   "lon": -71.12209,
+   "geo_method": "gazetteer",
+   "walk_min": 18
   },
   {
    "id": "23948875d8f3",
@@ -3858,6 +3845,49 @@
    "lon": -71.122151,
    "geo_method": "gazetteer",
    "walk_min": 17
+  },
+  {
+   "id": "7a32efeda18d",
+   "title": "Multi-Site Exhibition Tour: Alfonso Ossorio — Line and Lineage and Knowledge Is Myth: Chimeric Continuities",
+   "url": "https://harvardartmuseums.org/calendar/multi-site-exhibition-tour-alfonso-ossorio-line-and-lineage-and-knowledge-is-myth-chimeric-continuities-3?utm_source=gazette&utm_medium=listing&utm_campaign=Tour_Ossario_Oct28&utm_id=Multi-Site+Exhibition+Tour%3A+Al",
+   "source_id": "gazette",
+   "source_name": "Harvard Gazette calendar",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-10-28T12:00:00-04:00",
+   "end": "2026-10-28T13:00:00-04:00",
+   "date": "2026-10-28",
+   "all_day": false,
+   "location": "Harvard Art Museums, 32 Quincy St., Cambridge",
+   "online": false,
+   "host": "Harvard Art MuseumsCarpenter Center for the Visual Arts",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "Join Ally Cirelli, curator of Alfonso Ossorio: Line and Lineage (October 23, 2026–April 11, 2027) at the Harvard Art Museums, and Danni Shen, curator of Knowledge Is Myth: Chimeric Continuities (October 1–December 13, 2026) at the Carpenter Center for the Visual Arts, for a multi-site tour of the two interconnected…",
+   "blurb": "Join Ally Cirelli, curator of Alfonso Ossorio: Line and Lineage (October 23, 2026–April 11, 2027) at the Harvard Art Museums, and Danni Shen, curator of Knowledge Is Myth: Chimeric Continuities (October 1–December 13, 2026) at the Carpenter Center for the…",
+   "event_page": true,
+   "notes": "Cost: Free admission | Harvard Key required: No",
+   "place_name": "Harvard Art Museums",
+   "lat": 42.374099,
+   "lon": -71.114113,
+   "geo_method": "gazetteer",
+   "walk_min": 7
   },
   {
    "id": "52f30e589e35",
@@ -4782,18 +4812,18 @@
   },
   {
    "id": "871a6c7e4c2d",
-   "title": "How Should Democracies Govern Scarce, Life-Saving Resources?",
-   "url": "https://www.hks.harvard.edu/events/how-should-democracies-govern-scarce-life-saving-resources-0",
-   "source_id": "hks",
-   "source_name": "Harvard Kennedy School",
+   "title": "Fall Study Group: How Should Democracies Govern Scarce, Life-Saving Resources? The Case of Organ Transplantation",
+   "url": "https://ash.harvard.edu/events/fall-study-group-how-should-democracies-govern-scarce-life-saving-resources-the-case-of-organ-transplantation-3/",
+   "source_id": "ash",
+   "source_name": "Ash Center (HKS)",
    "also_listed": [
     {
-     "source_name": "Ash Center (HKS)",
-     "url": "https://ash.harvard.edu/events/fall-study-group-how-should-democracies-govern-scarce-life-saving-resources-the-case-of-organ-transplantation-3/"
+     "source_name": "Harvard Kennedy School",
+     "url": "https://www.hks.harvard.edu/index%2ephp/events/how-should-democracies-govern-scarce-life-saving-resources-0"
     }
    ],
    "aliases": [
-    "d18067a34998"
+    "fdd96acc125e"
    ],
    "suggested": null,
    "forwarded": null,
@@ -4801,42 +4831,39 @@
    "end": "2026-10-28T15:00:00-04:00",
    "date": "2026-10-28",
    "all_day": false,
-   "location": "Ash Center Seminar Room 225, Suite 200, 124 Mount Auburn Street",
+   "location": "Harvard Kennedy School",
    "online": false,
-   "host": "Ash Center for Democratic Governance and Innovation",
+   "host": "Ash Center for Democratic Governance",
    "food": {
-    "status": "confirmed",
-    "types": [
-     "Food"
-    ],
-    "evidence": "Light catering will be provided.",
-    "cue": "strong"
+    "status": "none",
+    "types": [],
+    "evidence": ""
    },
    "registration": {
     "status": "required",
-    "evidence": "Register here: https://harvard.az1.qualtrics.com/jfe/form/SV_5cHLizAnkR7Cpts",
+    "evidence": "Please register here.",
     "link": "https://harvard.az1.qualtrics.com/jfe/form/SV_5cHLizAnkR7Cpts"
    },
    "audience": {
-    "level": "harvard",
-    "group": "",
-    "evidence": "This Study Group is open to HUID holders only.",
-    "basis": "text"
+    "level": "restricted",
+    "group": "students",
+    "evidence": "Title: Fall Study Group: How Should Democracies Govern Scarce, Life-Saving Resources? The Case of Organ Transplantation",
+    "basis": "inferred"
    },
-   "summary": "Fall Study Group: How Should Democracies Govern Scarce, Life-Saving Resources? The Case of Organ Transplantation Nearly 110,000 people are currently on the U.S. transplant waiting list, and about 12 people die each day while waiting for an organ. Although a donated organ can save a life, not everyone who needs a…",
+   "summary": "This in-person study group led by Aditya Pawar, Ash Center Democracy Visiting Fellow, and Santiago Creuheras, Ash Center Democracy Fellow, will take place throughout six sessions. Nearly 110,000 people are currently on the U.S. transplant waiting list, and about 12 people die each day while waiting for an organ.…",
    "blurb": "Nearly 110,000 people are currently on the U.S. transplant waiting list, and about 12 people die each day while waiting for an organ. This study group will examine transplantation as a governance and democracy issue, asking how institutions allocate scarce…",
    "event_page": true,
    "notes": "",
-   "place_name": "Ash Center (124 Mt Auburn St)",
-   "lat": 42.372952,
-   "lon": -71.123759,
+   "place_name": "Harvard Kennedy School",
+   "lat": 42.371989,
+   "lon": -71.121761,
    "geo_method": "gazetteer",
-   "walk_min": 17
+   "walk_min": 16
   },
   {
-   "id": "b438176962d7",
-   "title": "Studies, Harvard University",
-   "url": "https://jvrwfo5ab.cc.rs6.net/tn.jsp?f=001WGYBkMgnArr2mjqTLy4TyVOL7pkjLV1IcGlSa8Ty3F0k2yDIESSKGU4o3X9Tggn9gXQZ2-rZ06Q6tePxwz_D8ZhPdL_X-LA9XmPse1hsLtEuXAiKM3iCZYWE1z435H495525mfIpEaJg7ST2GjnWrWEhq-zeu-RAQm9oTlIEwP_t00VhubLsNWLNCfdRuUYKizpp13Mha_zBcUJe5RuWtFpOhk6d-GPEABfTfzml07lQfurLyCZvBewIlD20w3bByTSRjF1rHQxg4o7sDOg6GXjGLAe082WCA2G-COV7WK8=&c=6TQ3SZQ4sOvHfAHRaEx1wNaVA4M2ES7XTUdVGGxzbsnP5DXKHzMWwg==&ch=IllKvRofujKfIOYkUgWgMJnRkEiQhExFK-xyiQK0icMirOt1zekrMg==",
+   "id": "c25e3c8faedd",
+   "title": "From Vineyard to Ballot: Agriculture, Inheritance, and the Puzzle of Rural Socialism",
+   "url": "https://ces.fas.harvard.edu/events/2026/10/from-vineyard-to-ballot-agriculture-inheritance-and-the-puzzle-of-rural-socialism",
    "source_id": "newsletter",
    "source_name": "Forwarded: Events | October 18-31, 2026",
    "also_listed": [],
@@ -4846,7 +4873,8 @@
     "by": "Juan",
     "subject": "Events | October 18-31, 2026",
     "missing": [
-     "event page"
+     "place",
+     "description"
     ]
    },
    "start": "2026-10-28T14:00:00-04:00",
@@ -4872,15 +4900,15 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "Studies, Harvard University Wednesday, October 28, 2026 2:00pm - 3:15pm From Vineyard to Ballot: Agriculture, Inheritance, and the Puzzle of Rural Socialism Antoine Boucher – Postdoctoral Researcher, Aix-Marseille School of Economics; Visiting Scholar 2026-2027, Minda de Gunzburg Center for European Studies, Harvard…",
-   "blurb": "Boucher – Postdoctoral Researcher, Aix-Marseille School of Economics; Visiting Scholar 2026-2027, Minda de Gunzburg Center for European Studies, Harvard University Nathan Perl-Rosenthal – Senior Research Fellow, Minda de Gunzburg Center for European Studies…",
-   "event_page": false,
+   "summary": "October 28, 2026 2:00pm - 3:15pm",
+   "blurb": "",
+   "event_page": true,
    "notes": "",
-   "place_name": "Adolphus Busch Hall (Center for European Studies)",
-   "lat": 42.376948,
-   "lon": -71.114178,
-   "geo_method": "text",
-   "walk_min": 3
+   "place_name": "",
+   "lat": null,
+   "lon": null,
+   "geo_method": null,
+   "walk_min": null
   },
   {
    "id": "012fcf9eccd8",
@@ -5238,11 +5266,16 @@
    "source_name": "Harvard Kennedy School",
    "also_listed": [
     {
+     "source_name": "Harvard Gazette calendar",
+     "url": "https://iop.harvard.edu/events/study-group-governor-doug-ducey-leading-governing-2"
+    },
+    {
      "source_name": "Harvard College events",
      "url": "https://events.college.harvard.edu/event/225872-study-group-with-governor-doug-ducey-leading-amp"
     }
    ],
    "aliases": [
+    "58f4e59bd0c8",
     "ab6607f4e0b0"
    ],
    "suggested": null,
@@ -5332,6 +5365,49 @@
    "lon": -71.12176,
    "geo_method": "gazetteer",
    "walk_min": 14
+  },
+  {
+   "id": "843615e0f0bd",
+   "title": "Central Asia and the Middle Corridor: From Transit Route to Economic Opportunity",
+   "url": "https://daviscenter.fas.harvard.edu/events/central-asia-and-middle-corridor-transit-route-economic-opportunity",
+   "source_id": "gazette",
+   "source_name": "Harvard Gazette calendar",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-10-28T17:00:00-04:00",
+   "end": "2026-10-28T18:30:00-04:00",
+   "date": "2026-10-28",
+   "all_day": false,
+   "location": "S354, CGIS South, 1730 Cambridge St., Cambridge",
+   "online": false,
+   "host": "Davis Center for Russian and Eurasian Studies",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "Registration link on the event page",
+    "link": "https://www.eventbrite.com/e/2003743237964?aff=oddtdtcreator"
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "The Trans-Caspian Transport Corridor (Middle Corridor) is attracting attention. But what does its development mean for Central Asia? Drawing on the World Bank Group’s new flagship report, the talk will examine how improved infrastructure, logistics, and trade facilitation could help Central Asian economies capture…",
+   "blurb": "The Trans-Caspian Transport Corridor (Middle Corridor) is attracting attention. But what does its development mean for Central Asia? Drawing on the World Bank Group’s new flagship report, the talk will examine how improved infrastructure, logistics, and trade…",
+   "event_page": true,
+   "notes": "Cost: Free | Harvard Key required: No",
+   "place_name": "CGIS South Building",
+   "lat": 42.375011,
+   "lon": -71.113135,
+   "geo_method": "gazetteer",
+   "walk_min": 5
   },
   {
    "id": "c2885260b9d2",
@@ -5457,16 +5533,12 @@
    "walk_min": 10
   },
   {
-   "id": "62c576eff6f6",
+   "id": "06aab3d60470",
    "title": "Gender Apartheid: Power and Oppression in Afghanistan",
    "url": "https://iop.harvard.edu/events/gender-apartheid-power-and-oppression-afghanistan-metra-mehran-sima-samar-fatema-z-sumar",
    "source_id": "gazette",
    "source_name": "Harvard Gazette calendar",
    "also_listed": [
-    {
-     "source_name": "Harvard Kennedy School",
-     "url": "https://www.hks.harvard.edu/events/gender-apartheid-power-and-oppression-afghanistan"
-    },
     {
      "source_name": "Forwarded: This Week at the IOP: Youth Vote and the Midterms; Networking Night; Steve Witko",
      "url": "https://iop.harvard.edu/events/gender-apartheid-power-and-oppression-afghanistan-metra-mehran-sima-samar-mathias-risse"
@@ -5482,15 +5554,19 @@
     {
      "source_name": "Harvard College events",
      "url": "https://events.college.harvard.edu/event/225389-gender-apartheid-power-and-oppression-in"
+    },
+    {
+     "source_name": "Harvard Kennedy School",
+     "url": "https://www.hks.harvard.edu/index%2ephp/events/gender-apartheid-power-and-oppression-afghanistan"
     }
    ],
    "aliases": [
+    "62c576eff6f6",
     "65821cddbabc",
     "65821cddbabc",
     "65821cddbabc",
     "65821cddbabc",
-    "679fa9c04ff9",
-    "cd29875806a8"
+    "679fa9c04ff9"
    ],
    "suggested": null,
    "forwarded": {
@@ -5624,9 +5700,9 @@
    "walk_min": 10
   },
   {
-   "id": "7a99c7edd6e3",
+   "id": "8f080275b0c2",
    "title": "HKS NY Alumni Network Fundraiser: Sip for a Cause",
-   "url": "https://www.hks.harvard.edu/events/hks-ny-alumni-network-fundraiser-sip-cause",
+   "url": "https://www.hks.harvard.edu/index%2ephp/events/hks-ny-alumni-network-fundraiser-sip-cause",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -5637,17 +5713,17 @@
    "end": "2026-10-28T21:00:00-04:00",
    "date": "2026-10-28",
    "all_day": false,
-   "location": "Zuppa Italian Restaurant, 59 Main Street, Yonkers, Ny",
+   "location": "",
    "online": false,
-   "host": "Alumni Relations & Resource Development (ARRD)",
+   "host": "",
    "food": {
     "status": "none",
     "types": [],
     "evidence": ""
    },
    "registration": {
-    "status": "required",
-    "evidence": "Space is limited, so please secure your ticket early.",
+    "status": "unknown",
+    "evidence": "",
     "link": ""
    },
    "audience": {
@@ -5656,15 +5732,15 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "The HKS New York Alumni Network is having their Inaugural Fundraiser on Wednesday, October 28, 2026! The Board President and Yonkers Police Commissioner Chris Sapienza is hosting this special evening to bring together alumni, HKS supporters, and distinguished guests from across the region to celebrate and invest in…",
-   "blurb": "The HKS New York Alumni Network is having their Inaugural Fundraiser on Wednesday, October 28, 2026! The Board President and Yonkers Police Commissioner Chris Sapienza is hosting this special evening to bring together alumni, HKS supporters, and distinguished…",
+   "summary": "",
+   "blurb": "",
    "event_page": true,
    "notes": "",
-   "place_name": "59 Main Street",
-   "lat": 42.36206,
-   "lon": -71.080459,
-   "geo_method": "address",
-   "walk_min": 51
+   "place_name": "Harvard Kennedy School",
+   "lat": 42.371989,
+   "lon": -71.121761,
+   "geo_method": "host",
+   "walk_min": 16
   },
   {
    "id": "2923f41cd51c",
@@ -6565,9 +6641,9 @@
    "walk_min": 7
   },
   {
-   "id": "f8d473288bec",
+   "id": "d59a02b73ed1",
    "title": "A Conversation with Taubman Fellow Fagan Harris",
-   "url": "https://www.hks.harvard.edu/events/conversation-taubman-fellow-fagan-harris",
+   "url": "https://www.hks.harvard.edu/index%2ephp/events/conversation-taubman-fellow-fagan-harris",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -6578,18 +6654,18 @@
    "end": "2026-10-29T13:00:00-04:00",
    "date": "2026-10-29",
    "all_day": false,
-   "location": "Wexner Building - W-g02 Seminar Room",
+   "location": "",
    "online": false,
-   "host": "Taubman Center for State and Local Government",
+   "host": "",
    "food": {
     "status": "none",
     "types": [],
     "evidence": ""
    },
    "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001lInJIAU"
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
    },
    "audience": {
     "level": "unknown",
@@ -6597,30 +6673,30 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "Join the Taubman Center for a conversation with Fagan Harris, President and CEO of the Abell Foundation. Drawing on his experience in state government and social innovation, Harris will share perspectives from his work in public service and community leadership. The conversation will offer an opportunity to reflect on…",
-   "blurb": "Join the Taubman Center for a conversation with Fagan Harris, President and CEO of the Abell Foundation. Drawing on his experience in state government and social innovation, Harris will share perspectives from his work in public service and community…",
+   "summary": "",
+   "blurb": "",
    "event_page": true,
    "notes": "",
-   "place_name": "Wexner Building, Harvard Kennedy School",
-   "lat": 42.371344,
-   "lon": -71.122357,
-   "geo_method": "gazetteer",
-   "walk_min": 18
+   "place_name": "Harvard Kennedy School",
+   "lat": 42.371989,
+   "lon": -71.121761,
+   "geo_method": "host",
+   "walk_min": 16
   },
   {
-   "id": "7d5ad2f26594",
-   "title": "AI, National Security, & Future of Public Service with Katrina Mulligan, OpenAI",
-   "url": "https://www.hks.harvard.edu/events/ai-national-security-future-public-service-katrina-mulligan-openai",
-   "source_id": "hks",
-   "source_name": "Harvard Kennedy School",
+   "id": "27c3e453a00a",
+   "title": "AI, National Security, and the Future of Public Service with Katrina Mulligan, OpenAI",
+   "url": "https://events.college.harvard.edu/event/225868-ai-national-security-and-the-future-of-public",
+   "source_id": "college",
+   "source_name": "Harvard College events",
    "also_listed": [
-    {
-     "source_name": "Harvard College events",
-     "url": "https://events.college.harvard.edu/event/225868-ai-national-security-and-the-future-of-public"
-    },
     {
      "source_name": "Forwarded: JFK Jr. Forum: Netflix's The Diplomat with Keri Russell; 2026 Stone Lecture with",
      "url": "https://iop.harvard.edu/events/ai-national-security-and-future-public-service-katrina-mulligan-openai"
+    },
+    {
+     "source_name": "Harvard Kennedy School",
+     "url": "https://www.hks.harvard.edu/index%2ephp/events/ai-national-security-future-public-service-katrina-mulligan-openai"
     }
    ],
    "aliases": [
@@ -6635,24 +6711,24 @@
     "missing": []
    },
    "start": "2026-10-29T12:00:00-04:00",
-   "end": "2026-10-29T13:00:00-04:00",
+   "end": null,
    "date": "2026-10-29",
    "all_day": false,
-   "location": "T-520 Nye A",
+   "location": "79 JFK St., Cambridge, MA",
    "online": false,
-   "host": "Institute of Politics (IOP)",
+   "host": "Institute of Politics at Harvard Kennedy School",
    "food": {
     "status": "confirmed",
     "types": [
      "Lunch"
     ],
-    "evidence": "Lunch will be served.",
+    "evidence": "*Lunch will be served.",
     "cue": "strong"
    },
    "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://iop.harvard.edu/events/ai-national-security-and-future-public-service-katrina-mulligan-openai"
+    "status": "none",
+    "evidence": "Each individual lab session is open to Harvard student drop-in participation.",
+    "link": ""
    },
    "audience": {
     "level": "likely",
@@ -6664,16 +6740,16 @@
    "blurb": "who will be investigating and activating sites throughout the academic year, exploring themes in design and architecture, civic engagement, creative research, and public life. Each individual lab session is open to Harvard student drop-in participation. Visit…",
    "event_page": true,
    "notes": "",
-   "place_name": "Taubman Building, Harvard Kennedy School",
-   "lat": 42.371822,
-   "lon": -71.122151,
+   "place_name": "Harvard Kennedy School",
+   "lat": 42.371989,
+   "lon": -71.121761,
    "geo_method": "gazetteer",
-   "walk_min": 17
+   "walk_min": 16
   },
   {
-   "id": "0219dbb88738",
+   "id": "a8340723657d",
    "title": "Beyond the Dashboard: From Visualization to Realization of Data",
-   "url": "https://www.hks.harvard.edu/events/beyond-dashboard-visualization-realization-data",
+   "url": "https://www.hks.harvard.edu/index%2ephp/events/beyond-dashboard-visualization-realization-data",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -6684,18 +6760,18 @@
    "end": "2026-10-29T13:00:00-04:00",
    "date": "2026-10-29",
    "all_day": false,
-   "location": "Online",
-   "online": true,
-   "host": "Communications Program",
+   "location": "",
+   "online": false,
+   "host": "",
    "food": {
     "status": "none",
     "types": [],
     "evidence": ""
    },
    "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://harvard.zoom.us/meeting/register/EjzRK20PQOGWl1Qn0MNoFA"
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
    },
    "audience": {
     "level": "unknown",
@@ -6703,15 +6779,15 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "Beyond the Dashboard: From Visualization to Realization of Data This hands-on, skills-based session changes the perspective of graduate students from simply visualizing data to achieving its full realization. Moving beyond standard charts and reports, participants will learn how to transform complex policy and civic…",
-   "blurb": "This hands-on, skills-based session changes the perspective of graduate students from simply visualizing data to achieving its full realization. Moving beyond standard charts and reports, participants will learn how to transform complex policy and civic…",
+   "summary": "",
+   "blurb": "",
    "event_page": true,
    "notes": "",
-   "place_name": "",
-   "lat": null,
-   "lon": null,
-   "geo_method": null,
-   "walk_min": null
+   "place_name": "Harvard Kennedy School",
+   "lat": 42.371989,
+   "lon": -71.121761,
+   "geo_method": "host",
+   "walk_min": 16
   },
   {
    "id": "888973474dec",
@@ -6843,7 +6919,7 @@
    "walk_min": 11
   },
   {
-   "id": "1ae786e75787",
+   "id": "5ecad42ee714",
    "title": "How to Win A Trade War",
    "url": "https://www.hks.harvard.edu/events/how-win-trade-war",
    "source_id": "gazette",
@@ -6851,7 +6927,7 @@
    "also_listed": [
     {
      "source_name": "Harvard Kennedy School",
-     "url": "https://www.hks.harvard.edu/events/how-win-trade-war"
+     "url": "https://www.hks.harvard.edu/index%2ephp/events/how-win-trade-war"
     }
    ],
    "aliases": [
@@ -6893,9 +6969,9 @@
    "walk_min": 18
   },
   {
-   "id": "dbf058fbbab3",
+   "id": "5a6658e7a16f",
    "title": "Likely Impact of Midterms on Education Policy: A “Pre-Mortem”",
-   "url": "https://www.hks.harvard.edu/events/likely-impact-midterms-education-policy-pre-mortem",
+   "url": "https://www.hks.harvard.edu/index%2ephp/events/likely-impact-midterms-education-policy-pre-mortem",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -6906,18 +6982,18 @@
    "end": "2026-10-29T13:15:00-04:00",
    "date": "2026-10-29",
    "all_day": false,
-   "location": "T-135 Cpl Darman Seminar Room",
+   "location": "",
    "online": false,
-   "host": "Taubman Center for State and Local Government",
+   "host": "",
    "food": {
     "status": "none",
     "types": [],
     "evidence": ""
    },
    "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001kHbZIAU"
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
    },
    "audience": {
     "level": "unknown",
@@ -6925,15 +7001,15 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "The Program on Education Policy and Governance Colloquium Series was initiated in the spring of 2004 to foster an interest in education research within the Harvard community by inviting top scholars from across the country to present their recent research findings in an open discussion with colloquium attendees. PEPG…",
-   "blurb": "The Program on Education Policy and Governance Colloquium Series was initiated in the spring of 2004 to foster an interest in education research within the Harvard community by inviting top scholars from across the country to present their recent research…",
+   "summary": "",
+   "blurb": "",
    "event_page": true,
    "notes": "",
-   "place_name": "Taubman Building, Harvard Kennedy School",
-   "lat": 42.371822,
-   "lon": -71.122151,
-   "geo_method": "gazetteer",
-   "walk_min": 17
+   "place_name": "Harvard Kennedy School",
+   "lat": 42.371989,
+   "lon": -71.121761,
+   "geo_method": "host",
+   "walk_min": 16
   },
   {
    "id": "23613e10fb7b",
@@ -7260,9 +7336,9 @@
    "walk_min": 9
   },
   {
-   "id": "cb1efc4c831e",
+   "id": "6ace778dcee4",
    "title": "How China and Poland took on the Soviet Union, 1956-1960",
-   "url": "https://www.hks.harvard.edu/events/how-china-and-poland-took-soviet-union-1956-1960",
+   "url": "https://www.hks.harvard.edu/index%2ephp/events/how-china-and-poland-took-soviet-union-1956-1960",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -7273,9 +7349,9 @@
    "end": "2026-10-29T13:45:00-04:00",
    "date": "2026-10-29",
    "all_day": false,
-   "location": "One Brattle 350",
+   "location": "",
    "online": false,
-   "host": "International Security Program",
+   "host": "",
    "food": {
     "status": "none",
     "types": [],
@@ -7292,8 +7368,8 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "Stalin expanded communist power across Eurasia, from Berlin to Pyongyang, linking disparate territories into a single geopolitical organism under his dictatorial control. Three years after his death, in 1956, a backlash of pent up political and economic anger overthrew Stalinism and shook the foundations of the…",
-   "blurb": "Stalin expanded communist power across Eurasia, from Berlin to Pyongyang, linking disparate territories into a single geopolitical organism under his dictatorial control. Three years after his death, in 1956, a backlash of pent up political and economic anger…",
+   "summary": "",
+   "blurb": "",
    "event_page": true,
    "notes": "",
    "place_name": "Harvard Kennedy School",
@@ -14736,6 +14812,49 @@
    "walk_min": 10
   },
   {
+   "id": "4defd371f912",
+   "title": "Governing AI through Constitutions: A discussion with Prof. Nicholas Caputo",
+   "url": "https://www.hks.harvard.edu/events/governing-ai-through-constitutions-discussion-prof-nicholas-caputo",
+   "source_id": "hks",
+   "source_name": "Harvard Kennedy School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-03T11:00:00-05:00",
+   "end": "2026-11-03T12:00:00-05:00",
+   "date": "2026-11-03",
+   "all_day": false,
+   "location": "B-500 Bell Hall",
+   "online": false,
+   "host": "Program on Emerging Technology, Scientific Advancement & Global Policy",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "RSVP link on the event page",
+    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001lSY9IAM"
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "Frontier AI systems like Claude and ChatGPT are governed by constitutions: documents that set out a model’s intended values, priorities, and character, and that are used in model training. As AI capability and autonomy increase and as people increasingly rely on these systems, the content of AI constitutions will…",
+   "blurb": "Frontier AI systems like Claude and ChatGPT are governed by constitutions: documents that set out a model’s intended values, priorities, and character, and that are used in model training. As AI capability and autonomy increase and as people increasingly rely…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Belfer Building, Harvard Kennedy School",
+   "lat": 42.37141,
+   "lon": -71.121513,
+   "geo_method": "gazetteer",
+   "walk_min": 17
+  },
+  {
    "id": "29603a945859",
    "title": "Measurement on the Color Line: Scientific Instruments and the Making of Human Categories",
    "url": "https://chsi.harvard.edu/measurement-color-line-scientific-instruments-and-making-human-categories",
@@ -15753,6 +15872,55 @@
    "lon": -71.114276,
    "geo_method": "gazetteer",
    "walk_min": 7
+  },
+  {
+   "id": "485fdc78a10e",
+   "title": "Events",
+   "url": "https://cyber.harvard.edu/events",
+   "source_id": "newsletter",
+   "source_name": "Forwarded: BKC in the News and October Events",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": {
+    "by": "Juan",
+    "subject": "BKC in the News and October Events",
+    "missing": [
+     "place"
+    ]
+   },
+   "start": "2026-11-03T17:00:00-05:00",
+   "end": null,
+   "date": "2026-11-03",
+   "all_day": false,
+   "location": "",
+   "online": false,
+   "host": "",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "Nov 3, 2026 @ 5:00 PM How to Tell an AI What to Do: Rules, Cases, and Interpretation Update:The start time of this event has been changed to 5:00 pm.What can the law teach us about where AI systems should exercise judgment when their instructions leave room for… In-Person RSVP Event Nov 19, 2026 @ 5:00 PM Crutch or…",
+   "blurb": "Update:The start time of this event has been changed to 5:00 pm.What can the law teach us about where AI systems should exercise judgment when their instructions leave room for… As AI becomes increasingly embedded in our lives, it has taken on roles as a…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "",
+   "lat": null,
+   "lon": null,
+   "geo_method": null,
+   "walk_min": null
   },
   {
    "id": "ce80296a28d7",
