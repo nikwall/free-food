@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-29T12:58:18-04:00",
+ "generated_at": "2026-10-29T19:20:27-04:00",
  "window": {
   "start": "2026-10-29",
   "end": "2026-11-05"
@@ -20,9 +20,9 @@
    "homepage": "https://news.harvard.edu/gazette/harvard-events/events-calendar/",
    "ok": true,
    "error": null,
-   "n_events": 140,
-   "n_food": 5,
-   "seconds": 2.3
+   "n_events": 141,
+   "n_food": 6,
+   "seconds": 2.8
   },
   {
    "id": "hks",
@@ -30,9 +30,9 @@
    "homepage": "https://www.hks.harvard.edu/more/events",
    "ok": true,
    "error": null,
-   "n_events": 47,
+   "n_events": 50,
    "n_food": 11,
-   "seconds": 3.7
+   "seconds": 6.6
   },
   {
    "id": "hls",
@@ -40,9 +40,9 @@
    "homepage": "https://hls.harvard.edu/calendar/",
    "ok": true,
    "error": null,
-   "n_events": 91,
-   "n_food": 52,
-   "seconds": 11.9
+   "n_events": 92,
+   "n_food": 51,
+   "seconds": 10.0
   },
   {
    "id": "college",
@@ -50,9 +50,9 @@
    "homepage": "https://events.college.harvard.edu/",
    "ok": true,
    "error": null,
-   "n_events": 79,
+   "n_events": 81,
    "n_food": 10,
-   "seconds": 0.5
+   "seconds": 0.3
   },
   {
    "id": "ash",
@@ -62,7 +62,7 @@
    "error": null,
    "n_events": 4,
    "n_food": 2,
-   "seconds": 3.1
+   "seconds": 1.9
   },
   {
    "id": "shorenstein",
@@ -72,7 +72,7 @@
    "error": null,
    "n_events": 0,
    "n_food": 0,
-   "seconds": 10.2
+   "seconds": 9.3
   },
   {
    "id": "fairbank",
@@ -82,7 +82,7 @@
    "error": null,
    "n_events": 9,
    "n_food": 2,
-   "seconds": 7.3
+   "seconds": 0.1
   },
   {
    "id": "newsletter",
@@ -92,7 +92,7 @@
    "error": null,
    "n_events": 25,
    "n_food": 7,
-   "seconds": 75.1
+   "seconds": 46.0
   },
   {
    "id": "suggested",
@@ -102,17 +102,17 @@
    "error": null,
    "n_events": 9,
    "n_food": 2,
-   "seconds": 6.0
+   "seconds": 4.1
   }
  ],
  "stats": {
-  "events": 346,
-  "food_confirmed": 55,
+  "events": 349,
+  "food_confirmed": 53,
   "food_likely": 21,
   "forwarded": 18,
   "forwarded_listed": 5,
-  "food_restricted": 49,
-  "seconds": 85.3
+  "food_restricted": 48,
+  "seconds": 53.9
  },
  "events": [
   {
@@ -892,9 +892,9 @@
     "evidence": ""
    },
    "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001lInJIAU"
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
    },
    "audience": {
     "level": "unknown",
@@ -913,19 +913,19 @@
    "walk_min": 18
   },
   {
-   "id": "27c3e453a00a",
-   "title": "AI, National Security, and the Future of Public Service with Katrina Mulligan, OpenAI",
-   "url": "https://events.college.harvard.edu/event/225868-ai-national-security-and-the-future-of-public",
-   "source_id": "college",
-   "source_name": "Harvard College events",
+   "id": "7d5ad2f26594",
+   "title": "AI, National Security, & Future of Public Service with Katrina Mulligan, OpenAI",
+   "url": "https://www.hks.harvard.edu/events/ai-national-security-future-public-service-katrina-mulligan-openai",
+   "source_id": "hks",
+   "source_name": "Harvard Kennedy School",
    "also_listed": [
+    {
+     "source_name": "Harvard College events",
+     "url": "https://events.college.harvard.edu/event/225868-ai-national-security-and-the-future-of-public"
+    },
     {
      "source_name": "Forwarded: JFK Jr. Forum: Netflix's The Diplomat with Keri Russell; 2026 Stone Lecture with",
      "url": "https://iop.harvard.edu/events/ai-national-security-and-future-public-service-katrina-mulligan-openai"
-    },
-    {
-     "source_name": "Harvard Kennedy School",
-     "url": "https://www.hks.harvard.edu/index%2ephp/events/ai-national-security-future-public-service-katrina-mulligan-openai"
     }
    ],
    "aliases": [
@@ -940,18 +940,18 @@
     "missing": []
    },
    "start": "2026-10-29T12:00:00-04:00",
-   "end": null,
+   "end": "2026-10-29T13:00:00-04:00",
    "date": "2026-10-29",
    "all_day": false,
-   "location": "79 JFK St., Cambridge, MA",
+   "location": "T-520 Nye A",
    "online": false,
-   "host": "Institute of Politics at Harvard Kennedy School",
+   "host": "Institute of Politics (IOP)",
    "food": {
     "status": "confirmed",
     "types": [
      "Lunch"
     ],
-    "evidence": "*Lunch will be served.",
+    "evidence": "Lunch will be served.",
     "cue": "strong"
    },
    "registration": {
@@ -969,11 +969,11 @@
    "blurb": "who will be investigating and activating sites throughout the academic year, exploring themes in design and architecture, civic engagement, creative research, and public life. Each individual lab session is open to Harvard student drop-in participation. Visit…",
    "event_page": true,
    "notes": "",
-   "place_name": "Harvard Kennedy School",
-   "lat": 42.371989,
-   "lon": -71.121761,
+   "place_name": "Taubman Building, Harvard Kennedy School",
+   "lat": 42.371822,
+   "lon": -71.122151,
    "geo_method": "gazetteer",
-   "walk_min": 16
+   "walk_min": 17
   },
   {
    "id": "0219dbb88738",
@@ -998,9 +998,9 @@
     "evidence": ""
    },
    "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://harvard.zoom.us/meeting/register/EjzRK20PQOGWl1Qn0MNoFA"
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
    },
    "audience": {
     "level": "unknown",
@@ -1148,7 +1148,7 @@
    "walk_min": 11
   },
   {
-   "id": "1ae786e75787",
+   "id": "5ecad42ee714",
    "title": "How to Win A Trade War",
    "url": "https://www.hks.harvard.edu/events/how-win-trade-war",
    "source_id": "gazette",
@@ -1156,7 +1156,7 @@
    "also_listed": [
     {
      "source_name": "Harvard Kennedy School",
-     "url": "https://www.hks.harvard.edu/events/how-win-trade-war"
+     "url": "https://www.hks.harvard.edu/index%2ephp/events/how-win-trade-war"
     }
    ],
    "aliases": [
@@ -1220,9 +1220,9 @@
     "evidence": ""
    },
    "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001kHbZIAU"
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
    },
    "audience": {
     "level": "unknown",
@@ -1282,9 +1282,9 @@
     "cue": "strong"
    },
    "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001hGKMIA2"
+    "status": "recommended",
+    "evidence": "Registration is requested as space is limited.",
+    "link": ""
    },
    "audience": {
     "level": "harvard",
@@ -1413,9 +1413,9 @@
     "evidence": ""
    },
    "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001krqLIAQ"
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
    },
    "audience": {
     "level": "harvard",
@@ -1520,6 +1520,49 @@
    "lon": -71.119421,
    "geo_method": "gazetteer",
    "walk_min": 10
+  },
+  {
+   "id": "2967990f880a",
+   "title": "CLSA General Body Meeting",
+   "url": "https://hls.harvard.edu/events/clsa-general-body-meeting/",
+   "source_id": "hls",
+   "source_name": "Harvard Law School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-10-29T12:15:00-04:00",
+   "end": "2026-10-29T13:15:00-04:00",
+   "date": "2026-10-29",
+   "all_day": false,
+   "location": "Griswold Hall, 110 Classroom, Harvard Law School",
+   "online": false,
+   "host": "Harvard Law School",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "members of the organizing group",
+    "evidence": "Title: CLSA General Body Meeting",
+    "basis": "inferred"
+   },
+   "summary": "Add to Calendar October 29, 2026, 12:15 pm - 1:15 pm +Google Calendar +iCal/Outlook",
+   "blurb": "",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Griswold Hall, Harvard Law School",
+   "lat": 42.377587,
+   "lon": -71.119023,
+   "geo_method": "gazetteer",
+   "walk_min": 9
   },
   {
    "id": "cb1efc4c831e",
@@ -1679,9 +1722,9 @@
     "evidence": ""
    },
    "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001lFPdIAM"
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
    },
    "audience": {
     "level": "unknown",
@@ -3610,11 +3653,16 @@
    "source_name": "Harvard Kennedy School",
    "also_listed": [
     {
+     "source_name": "Harvard Gazette calendar",
+     "url": "https://iop.harvard.edu/events/california-washington-leadership-representation-and-future-american-democracy-senator-alex"
+    },
+    {
      "source_name": "Harvard College events",
      "url": "https://events.college.harvard.edu/event/225896-from-california-to-washington-leadership"
     }
    ],
    "aliases": [
+    "caaccaed9130",
     "eab108c3a7a6"
    ],
    "suggested": null,
@@ -4687,52 +4735,6 @@
    "walk_min": 17
   },
   {
-   "id": "26d70b023299",
-   "title": "HLS Christian Fellowship Friday Night",
-   "url": "https://hls.harvard.edu/events/hls-christian-fellowship-friday-night-6/",
-   "source_id": "hls",
-   "source_name": "Harvard Law School",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-10-30T18:00:00-04:00",
-   "end": "2026-10-30T19:00:00-04:00",
-   "date": "2026-10-30",
-   "all_day": false,
-   "location": "WCC, 3018 Classroom, Harvard Law School",
-   "online": false,
-   "host": "Harvard Law School Christian Fellowship",
-   "food": {
-    "status": "confirmed",
-    "types": [
-     "Dinner"
-    ],
-    "evidence": "We will have dinner at 5:45 pm and then hear from a speaker, pray together, or engage in a fun activity.",
-    "cue": "weak"
-   },
-   "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
-   },
-   "audience": {
-    "level": "restricted",
-    "group": "HLS community",
-    "evidence": "HLS listing audience: HLS only",
-    "basis": "listing"
-   },
-   "summary": "Come join us for the weekly gathering of the HLS Christian Fellowship! We will have dinner at 5:45 pm and then hear from a speaker, pray together, or engage in a fun activity. Add to Calendar October 30, 2026, 6:00 pm - 7:00 pm +Google Calendar +iCal/Outlook",
-   "blurb": "Come join us for the weekly gathering of the HLS Christian Fellowship! We will have dinner at 5:45 pm and then hear from a speaker, pray together, or engage in a fun activity.",
-   "event_page": true,
-   "notes": "",
-   "place_name": "Wasserstein Hall (WCC), Harvard Law School",
-   "lat": 42.379383,
-   "lon": -71.119421,
-   "geo_method": "gazetteer",
-   "walk_min": 10
-  },
-  {
    "id": "5c07e0178129",
    "title": "Harvard University Women’s Volleyball vs Brown University",
    "url": "https://events.college.harvard.edu/event/224669-harvard-university-womens-volleyball-vs-brown",
@@ -5401,7 +5403,9 @@
    "source_id": "college",
    "source_name": "Harvard College events",
    "also_listed": [],
-   "aliases": [],
+   "aliases": [
+    "da23c23943e7"
+   ],
    "suggested": null,
    "forwarded": null,
    "start": "2026-10-31T11:00:00-04:00",
@@ -6230,7 +6234,9 @@
    "source_id": "college",
    "source_name": "Harvard College events",
    "also_listed": [],
-   "aliases": [],
+   "aliases": [
+    "98abd4f124e1"
+   ],
    "suggested": null,
    "forwarded": null,
    "start": "2026-11-01T12:00:00-05:00",
@@ -11776,6 +11782,49 @@
    "walk_min": 10
   },
   {
+   "id": "cf8344acc387",
+   "title": "CLSA General Body Meeting",
+   "url": "https://hls.harvard.edu/events/clsa-general-body-meeting-2/",
+   "source_id": "hls",
+   "source_name": "Harvard Law School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-04T12:15:00-05:00",
+   "end": "2026-11-04T13:30:00-05:00",
+   "date": "2026-11-04",
+   "all_day": false,
+   "location": "WCC, 5048 Room, Harvard Law School",
+   "online": false,
+   "host": "Harvard Law School",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "members of the organizing group",
+    "evidence": "Title: CLSA General Body Meeting",
+    "basis": "inferred"
+   },
+   "summary": "Add to Calendar November 4, 2026, 12:15 pm - 1:30 pm +Google Calendar +iCal/Outlook",
+   "blurb": "",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Wasserstein Hall (WCC), Harvard Law School",
+   "lat": 42.379383,
+   "lon": -71.119421,
+   "geo_method": "gazetteer",
+   "walk_min": 10
+  },
+  {
    "id": "f78fc7dd0f51",
    "title": "Justice or Vengeance? Israel’s New Death Penalty Regime for October 7 Suspects",
    "url": "https://hls.harvard.edu/events/justice-or-vengeance-israels-new-death-penalty-regime-for-october-7-suspects/",
@@ -12877,6 +12926,49 @@
    "walk_min": 17
   },
   {
+   "id": "1d69e06c00ca",
+   "title": "Politics in an Age of Discontent: Civil Discourse and the Future of Democracy",
+   "url": "https://www.hks.harvard.edu/events/politics-age-discontent-civil-discourse-and-future-democracy",
+   "source_id": "hks",
+   "source_name": "Harvard Kennedy School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-04T16:30:00-05:00",
+   "end": "2026-11-04T17:45:00-05:00",
+   "date": "2026-11-04",
+   "all_day": false,
+   "location": "B-440 (land Hall)",
+   "online": false,
+   "host": "Institute of Politics (IOP)",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "RSVP link on the event page",
+    "link": "https://iop.harvard.edu/events/study-group-ambassador-kelly-craft-governor-doug-ducey-and-honorable-alejandro-mayorkas"
+   },
+   "audience": {
+    "level": "harvard",
+    "group": "",
+    "evidence": "*These off-the-record conversations are open to members of the Harvard community.",
+    "basis": "text"
+   },
+   "summary": "In a time of political transitions and social unrest, many Western societies now face a set of common questions. What happens when we are no longer able to view each other as legitimate opponents mutually deserving of persuasion and compromise? Is civil discourse even possible within a technologically fragmented…",
+   "blurb": "In a time of political transitions and social unrest, many Western societies now face a set of common questions. What happens when we are no longer able to view each other as legitimate opponents mutually deserving of persuasion and compromise? Is civil…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Belfer Building, Harvard Kennedy School",
+   "lat": 42.37141,
+   "lon": -71.121513,
+   "geo_method": "gazetteer",
+   "walk_min": 17
+  },
+  {
    "id": "990557665568",
    "title": "That You May Have Life: Theology, Technology, and the Human Mystery, Prof. Simon Oliver",
    "url": "https://hls.harvard.edu/events/that-you-may-have-life-theology-technology-and-the-human-mystery-prof-simon-oliver/",
@@ -12920,9 +13012,9 @@
    "walk_min": 8
   },
   {
-   "id": "7663df3b868d",
+   "id": "e701fbf49a1f",
    "title": "U.S. Election & Foreign Policy: Implications of the Midterms",
-   "url": "https://www.hks.harvard.edu/events/us-election-and-foreign-policy-implications-midterms-study-group",
+   "url": "https://www.hks.harvard.edu/index%2ephp/events/us-election-and-foreign-policy-implications-midterms-study-group",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -12933,37 +13025,34 @@
    "end": "2026-11-04T17:30:00-05:00",
    "date": "2026-11-04",
    "all_day": false,
-   "location": "Bell Hall, Belfer Bldg 500",
+   "location": "",
    "online": false,
-   "host": "Center for Public Leadership",
+   "host": "",
    "food": {
-    "status": "confirmed",
-    "types": [
-     "Snacks"
-    ],
-    "evidence": "Refreshments will be served.",
-    "cue": "strong"
+    "status": "none",
+    "types": [],
+    "evidence": ""
    },
    "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://forms.cloud.microsoft/r/KDjNQ7iWUQ"
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
    },
    "audience": {
-    "level": "harvard",
+    "level": "unknown",
     "group": "",
-    "evidence": "This study group is open to Harvard ID holders.",
-    "basis": "text"
+    "evidence": "",
+    "basis": "none"
    },
-   "summary": "Former Deputy Secretary of State, Ambassador Wendy Sherman will lead this CPL Leadership Intensive study group focused on the key national security and foreign policy implications of the U.S. midterm elections. Topics covered will include trade wars between the U.S. and numerous world powers, the future of diplomacy…",
-   "blurb": "Former Deputy Secretary of State, Ambassador Wendy Sherman will lead this CPL Leadership Intensive study group focused on the key national security and foreign policy implications of the U.S. midterm elections. Topics covered will include trade wars between…",
+   "summary": "",
+   "blurb": "",
    "event_page": true,
    "notes": "",
-   "place_name": "Belfer Building, Harvard Kennedy School",
-   "lat": 42.37141,
-   "lon": -71.121513,
-   "geo_method": "gazetteer",
-   "walk_min": 17
+   "place_name": "Harvard Kennedy School",
+   "lat": 42.371989,
+   "lon": -71.121761,
+   "geo_method": "host",
+   "walk_min": 16
   },
   {
    "id": "34fa9a3cf528",
@@ -15032,13 +15121,58 @@
    "walk_min": 18
   },
   {
+   "id": "1d9a2ad8ca27",
+   "title": "Critical Minerals and Data Centers: Energy Security, Environment, and Policy",
+   "url": "https://www.hks.harvard.edu/events/critical-minerals-and-data-centers-energy-security-environment-and-policy",
+   "source_id": "hks",
+   "source_name": "Harvard Kennedy School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-05T16:15:00-05:00",
+   "end": "2026-11-05T17:30:00-05:00",
+   "date": "2026-11-05",
+   "all_day": false,
+   "location": "Ofer 401",
+   "online": false,
+   "host": "Mossavar-Rahmani Center for Business and Government",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "Critical Minerals and Data Centers: Energy Security, Environmental Impacts, and Policy Priorities This study group, led by M-RCBG Senior Fellow Vini Floris, explores how the growth of data centers and artificial intelligence connects energy security, critical minerals, environmental impacts, and public policy.…",
+   "blurb": "This study group, led by M-RCBG Senior Fellow Vini Floris, explores how the growth of data centers and artificial intelligence connects energy security, critical minerals, environmental impacts, and public policy. Participants will examine rising electricity…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Harvard Kennedy School",
+   "lat": 42.371989,
+   "lon": -71.121761,
+   "geo_method": "host",
+   "walk_min": 16
+  },
+  {
    "id": "dd304e028d13",
    "title": "Alejandro Mayorkas Study Group: Policymaking & Governance in Homeland Security",
    "url": "https://www.hks.harvard.edu/events/alejandro-mayorkas-study-group-policymaking-governance-homeland-security",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
-   "aliases": [],
+   "aliases": [
+    "dd304e028d13"
+   ],
    "suggested": null,
    "forwarded": null,
    "start": "2026-11-05T16:30:00-05:00",
