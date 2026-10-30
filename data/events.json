@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T12:44:00-04:00",
+ "generated_at": "2026-10-30T19:01:47-04:00",
  "window": {
   "start": "2026-10-30",
   "end": "2026-11-06"
@@ -22,7 +22,7 @@
    "error": null,
    "n_events": 133,
    "n_food": 5,
-   "seconds": 2.1
+   "seconds": 1.8
   },
   {
    "id": "hks",
@@ -31,8 +31,8 @@
    "ok": true,
    "error": null,
    "n_events": 41,
-   "n_food": 10,
-   "seconds": 8.9
+   "n_food": 11,
+   "seconds": 12.5
   },
   {
    "id": "hls",
@@ -40,9 +40,9 @@
    "homepage": "https://hls.harvard.edu/calendar/",
    "ok": true,
    "error": null,
-   "n_events": 80,
-   "n_food": 50,
-   "seconds": 10.3
+   "n_events": 84,
+   "n_food": 53,
+   "seconds": 12.1
   },
   {
    "id": "college",
@@ -52,7 +52,7 @@
    "error": null,
    "n_events": 88,
    "n_food": 8,
-   "seconds": 0.4
+   "seconds": 0.7
   },
   {
    "id": "ash",
@@ -72,7 +72,7 @@
    "error": null,
    "n_events": 0,
    "n_food": 0,
-   "seconds": 9.8
+   "seconds": 9.1
   },
   {
    "id": "fairbank",
@@ -82,7 +82,7 @@
    "error": null,
    "n_events": 9,
    "n_food": 2,
-   "seconds": 7.5
+   "seconds": 0.1
   },
   {
    "id": "newsletter",
@@ -90,9 +90,9 @@
    "homepage": "",
    "ok": true,
    "error": null,
-   "n_events": 21,
+   "n_events": 26,
    "n_food": 6,
-   "seconds": 51.0
+   "seconds": 84.1
   },
   {
    "id": "suggested",
@@ -100,19 +100,19 @@
    "homepage": "",
    "ok": true,
    "error": null,
-   "n_events": 11,
+   "n_events": 10,
    "n_food": 3,
-   "seconds": 8.5
+   "seconds": 5.4
   }
  ],
  "stats": {
-  "events": 331,
-  "food_confirmed": 48,
+  "events": 335,
+  "food_confirmed": 52,
   "food_likely": 23,
-  "forwarded": 14,
-  "forwarded_listed": 3,
-  "food_restricted": 49,
-  "seconds": 69.0
+  "forwarded": 19,
+  "forwarded_listed": 8,
+  "food_restricted": 51,
+  "seconds": 93.5
  },
  "events": [
   {
@@ -682,6 +682,64 @@
    "walk_min": 37
   },
   {
+   "id": "34788c26a39e",
+   "title": "From California to Washington: Leadership, Representation, and the Future of American Democracy with Senator Alex Padilla",
+   "url": "https://iop.harvard.edu/events/california-washington-leadership-representation-and-future-american-democracy-senator-alex",
+   "source_id": "gazette",
+   "source_name": "Harvard Gazette calendar",
+   "also_listed": [
+    {
+     "source_name": "Harvard Kennedy School",
+     "url": "https://www.hks.harvard.edu/events/leadership-representation-future-american-democracy-ft-sen-alex-padilla"
+    },
+    {
+     "source_name": "Harvard College events",
+     "url": "https://events.college.harvard.edu/event/225896-from-california-to-washington-leadership"
+    }
+   ],
+   "aliases": [
+    "caaccaed9130",
+    "eab108c3a7a6"
+   ],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-10-30T10:00:00-04:00",
+   "end": "2026-10-30T11:00:00-04:00",
+   "date": "2026-10-30",
+   "all_day": false,
+   "location": "Institute of Politics, 79 JFK St., Cambridge",
+   "online": false,
+   "host": "Institute of Politics at Harvard Kennedy School",
+   "food": {
+    "status": "confirmed",
+    "types": [
+     "Breakfast"
+    ],
+    "evidence": "*Breakfast will be served.",
+    "cue": "strong"
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "Registration link on the event page",
+    "link": "https://iop.harvard.edu/events/california-washington-leadership-representation-and-future-american-democracy-senator-alex"
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "Join Ambassador Nathalie Rayes for a candid conversation with U.S. Senator Alex Padilla, California’s first Latino U.S. Senator, on leadership, public service, and the future of American democracy. From his early beginnings as the son of Mexican immigrants to the halls of the U.S. Senate, Senator Padilla’s journey…",
+   "blurb": "Join Ambassador Nathalie Rayes for a candid conversation with U.S. Senator Alex Padilla, California’s first Latino U.S. Senator, on leadership, public service, and the future of American democracy. From his early beginnings as the son of Mexican immigrants to…",
+   "event_page": true,
+   "notes": "Cost: Free | Harvard Key required: No",
+   "place_name": "Littauer Building, Harvard Kennedy School",
+   "lat": 42.371045,
+   "lon": -71.12209,
+   "geo_method": "gazetteer",
+   "walk_min": 18
+  },
+  {
    "id": "5d6d083f5596",
    "title": "Harvard and the American Revolution",
    "url": "https://library.harvard.edu/exhibits/harvard-and-american-revolution",
@@ -723,64 +781,6 @@
    "lon": -71.116716,
    "geo_method": "gazetteer",
    "walk_min": 9
-  },
-  {
-   "id": "34788c26a39e",
-   "title": "Leadership, Representation, & Future of American Democracy ft. Sen. Alex Padilla",
-   "url": "https://www.hks.harvard.edu/events/leadership-representation-future-american-democracy-ft-sen-alex-padilla",
-   "source_id": "hks",
-   "source_name": "Harvard Kennedy School",
-   "also_listed": [
-    {
-     "source_name": "Harvard Gazette calendar",
-     "url": "https://iop.harvard.edu/events/california-washington-leadership-representation-and-future-american-democracy-senator-alex"
-    },
-    {
-     "source_name": "Harvard College events",
-     "url": "https://events.college.harvard.edu/event/225896-from-california-to-washington-leadership"
-    }
-   ],
-   "aliases": [
-    "caaccaed9130",
-    "eab108c3a7a6"
-   ],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-10-30T10:00:00-04:00",
-   "end": "2026-10-30T11:00:00-04:00",
-   "date": "2026-10-30",
-   "all_day": false,
-   "location": "L-166",
-   "online": false,
-   "host": "Institute of Politics (IOP)",
-   "food": {
-    "status": "confirmed",
-    "types": [
-     "Breakfast"
-    ],
-    "evidence": "Breakfast will be served.",
-    "cue": "strong"
-   },
-   "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://iop.harvard.edu/events/california-washington-leadership-representation-and-future-american-democracy-senator-alex"
-   },
-   "audience": {
-    "level": "unknown",
-    "group": "",
-    "evidence": "",
-    "basis": "none"
-   },
-   "summary": "From California to Washington: Leadership, Representation, and the Future of American Democracy with Senator Alex Padilla & Ambassador Nathalie Rayes Join Ambassador Nathalie Rayes for a candid conversation with U.S. Senator Alex Padilla, California’s first Latino U.S. Senator, on leadership, public service, and the…",
-   "blurb": "Join Ambassador Nathalie Rayes for a candid conversation with U.S. Senator Alex Padilla, California’s first Latino U.S. Senator, on leadership, public service, and the future of American democracy. From his early beginnings as the son of Mexican immigrants to…",
-   "event_page": true,
-   "notes": "",
-   "place_name": "Littauer Building, Harvard Kennedy School",
-   "lat": 42.371045,
-   "lon": -71.12209,
-   "geo_method": "gazetteer",
-   "walk_min": 18
   },
   {
    "id": "c5bf95d839e5",
@@ -912,20 +912,13 @@
    "walk_min": 7
   },
   {
-   "id": "b1ad04eeac46",
+   "id": "b69c8f62824b",
    "title": "Between Cinema and Experience: War-Related Dreams and the Intergenerational Transmission of Memory in China",
    "url": "https://fairbank.fas.harvard.edu/events/trans-generational-transmission-of-war-memories-in-china/",
    "source_id": "fairbank",
    "source_name": "Fairbank Center",
-   "also_listed": [
-    {
-     "source_name": "Suggested calendar: Fairbanks center",
-     "url": "https://fairbank.fas.harvard.edu/events/trans-generational-transmission-of-war-memories-in-china/"
-    }
-   ],
-   "aliases": [
-    "b69c8f62824b"
-   ],
+   "also_listed": [],
+   "aliases": [],
    "suggested": null,
    "forwarded": null,
    "start": "2026-10-30T11:30:00-04:00",
@@ -1482,9 +1475,9 @@
     "evidence": ""
    },
    "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001i6SXIAY"
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
    },
    "audience": {
     "level": "restricted",
@@ -4545,9 +4538,9 @@
    "walk_min": 18
   },
   {
-   "id": "6beb994ab416",
+   "id": "9039d9b9c2d2",
    "title": "Stone Inequality & Social Policy Seminar: Seth Zimmerman",
-   "url": "https://www.hks.harvard.edu/events/stone-inequality-social-policy-seminar-seth-zimmerman",
+   "url": "https://www.hks.harvard.edu/index%2Ephp/events/stone-inequality-social-policy-seminar-seth-zimmerman",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -4558,9 +4551,9 @@
    "end": "2026-11-02T13:15:00-05:00",
    "date": "2026-11-02",
    "all_day": false,
-   "location": "Malkin Penthouse",
+   "location": "",
    "online": false,
-   "host": "Stone Program in Wealth Distribution, Inequality, and Social Policy",
+   "host": "",
    "food": {
     "status": "none",
     "types": [],
@@ -4577,15 +4570,15 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "The Stone Program in Wealth Distribution, Inequality, and Social Policy welcomes Professor Seth Zimmerman (Yale School of Management) to speak in the Stone Inequality & Social Policy Seminar. For more information about this seminar, click here.",
-   "blurb": "The Stone Program in Wealth Distribution, Inequality, and Social Policy welcomes Professor Seth Zimmerman (Yale School of Management) to speak in the Stone Inequality & Social Policy Seminar.",
+   "summary": "",
+   "blurb": "",
    "event_page": true,
    "notes": "",
-   "place_name": "Littauer Building, Harvard Kennedy School",
-   "lat": 42.371045,
-   "lon": -71.12209,
-   "geo_method": "gazetteer",
-   "walk_min": 18
+   "place_name": "Harvard Kennedy School",
+   "lat": 42.371989,
+   "lon": -71.121761,
+   "geo_method": "host",
+   "walk_min": 16
   },
   {
    "id": "0d023402288c",
@@ -4708,6 +4701,52 @@
    },
    "summary": "Please join CR-CL for an information session about running for Editors-in-Chief of the next issue. Add to Calendar November 2, 2026, 12:15 pm - 1:15 pm +Google Calendar +iCal/Outlook",
    "blurb": "Please join CR-CL for an information session about running for Editors-in-Chief of the next issue.",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Wasserstein Hall (WCC), Harvard Law School",
+   "lat": 42.379383,
+   "lon": -71.119421,
+   "geo_method": "gazetteer",
+   "walk_min": 10
+  },
+  {
+   "id": "5d5484879736",
+   "title": "Can Women Have It All? The Promises and Pitfalls of Modern Feminism — May Mailman and Tobi Young",
+   "url": "https://hls.harvard.edu/events/can-women-have-it-all-the-promises-and-pitfalls-of-modern-feminism-may-mailman-and-tobi-young/",
+   "source_id": "hls",
+   "source_name": "Harvard Law School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-02T12:15:00-05:00",
+   "end": "2026-11-02T13:20:00-05:00",
+   "date": "2026-11-02",
+   "all_day": false,
+   "location": "WCC 2012, Harvard Law School",
+   "online": false,
+   "host": "Harvard Federalist Society",
+   "food": {
+    "status": "confirmed",
+    "types": [
+     "Lunch"
+    ],
+    "evidence": "Lunch will be served.",
+    "cue": "strong"
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "HLS students",
+    "evidence": "Run by an HLS student organization",
+    "basis": "inferred"
+   },
+   "summary": "Has modern feminism delivered on its promise that women can have it all? And what are the consequences for marriage, family, and the relationship between men and women? Join the Federalist Society for a conversation with May Mailman and Tobi Young about careers, ambition, marriage, motherhood, and the promises and…",
+   "blurb": "Has modern feminism delivered on its promise that women can have it all? And what are the consequences for marriage, family, and the relationship between men and women? Join the Federalist Society for a conversation with May Mailman and Tobi Young about…",
    "event_page": true,
    "notes": "",
    "place_name": "Wasserstein Hall (WCC), Harvard Law School",
@@ -4891,8 +4930,8 @@
     "evidence": "Harvard Law School calendar, audience not stated",
     "basis": "default"
    },
-   "summary": "Add to Calendar November 2, 2026, 12:15 pm - 1:15 pm +Google Calendar +iCal/Outlook",
-   "blurb": "",
+   "summary": "Join the Harvard Association for Law & Business (HALB) and Lazard for an information session and Q&A focused on restructuring investment banking and summer associate recruiting opportunities. Representatives from Lazard’s New York Restructuring & Liability Management team will discuss their work, the recruiting…",
+   "blurb": "Join the Harvard Association for Law & Business (HALB) and Lazard for an information session and Q&A focused on restructuring investment banking and summer associate recruiting opportunities. Representatives from Lazard’s New York Restructuring & Liability…",
    "event_page": true,
    "notes": "",
    "place_name": "Wasserstein Hall (WCC), Harvard Law School",
@@ -5286,9 +5325,9 @@
    "walk_min": 17
   },
   {
-   "id": "bf3100276242",
+   "id": "45f93f640532",
    "title": "Cultural Heritage Impacts Economic Development: Case of Georgia",
-   "url": "https://www.hks.harvard.edu/index%2ephp/events/cultural-heritage-impacts-economic-development-case-georgia",
+   "url": "https://www.hks.harvard.edu/events/cultural-heritage-impacts-economic-development-case-georgia",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -5299,34 +5338,37 @@
    "end": "2026-11-02T17:45:00-05:00",
    "date": "2026-11-02",
    "all_day": false,
-   "location": "",
+   "location": "Rubenstein Building - R-414-ab David Ellwood Democracy Lab",
    "online": false,
-   "host": "",
+   "host": "Harvard Center for International Development",
    "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
+    "status": "confirmed",
+    "types": [
+     "Snacks"
+    ],
+    "evidence": "Local snacks will be served.",
+    "cue": "strong"
    },
    "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
+    "status": "required",
+    "evidence": "RSVP link on the event page",
+    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001ktddIAA"
    },
    "audience": {
-    "level": "unknown",
+    "level": "public",
     "group": "",
-    "evidence": "",
-    "basis": "none"
+    "evidence": "All are welcome.",
+    "basis": "text"
    },
-   "summary": "",
-   "blurb": "",
+   "summary": "Georgia restored its millennia-old statehood following the collapse of the Soviet Union in 1991. A critical component of rebuilding an independent and sovereign nation was the development of a viable economic foundation. Unlike its resource-rich neighbors around the Caspian Sea, Georgia possesses limited oil and gas…",
+   "blurb": "Georgia restored its millennia-old statehood following the collapse of the Soviet Union in 1991. A critical component of rebuilding an independent and sovereign nation was the development of a viable economic foundation. Unlike its resource-rich neighbors…",
    "event_page": true,
    "notes": "",
-   "place_name": "Harvard Kennedy School",
-   "lat": 42.371989,
-   "lon": -71.121761,
-   "geo_method": "host",
-   "walk_min": 16
+   "place_name": "Rubenstein Building, Harvard Kennedy School",
+   "lat": 42.371243,
+   "lon": -71.122687,
+   "geo_method": "gazetteer",
+   "walk_min": 18
   },
   {
    "id": "82206b5cbea8",
@@ -5417,49 +5459,6 @@
    "walk_min": null
   },
   {
-   "id": "eb0401fd49a0",
-   "title": "RING THE BELL",
-   "url": "https://hls.harvard.edu/events/ring-the-bell/",
-   "source_id": "hls",
-   "source_name": "Harvard Law School",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-11-02T18:00:00-05:00",
-   "end": "2026-11-02T20:00:00-05:00",
-   "date": "2026-11-02",
-   "all_day": false,
-   "location": "WCC, 3019 Classroom, Harvard Law School",
-   "online": false,
-   "host": "The Bell Collective for Critical Race Theory",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
-   },
-   "audience": {
-    "level": "restricted",
-    "group": "HLS students",
-    "evidence": "Run by an HLS student organization",
-    "basis": "inferred"
-   },
-   "summary": "Add to Calendar November 2, 2026, 6:00 pm - 8:00 pm +Google Calendar +iCal/Outlook",
-   "blurb": "",
-   "event_page": true,
-   "notes": "",
-   "place_name": "Wasserstein Hall (WCC), Harvard Law School",
-   "lat": 42.379383,
-   "lon": -71.119421,
-   "geo_method": "gazetteer",
-   "walk_min": 10
-  },
-  {
    "id": "19e3d6f11065",
    "title": "Reconciling Credibility and Radicalism in an Age of Populism with Rachel Reeves",
    "url": "https://iop.harvard.edu/events/reconciling-credibility-and-radicalism-age-populism-rachel-reeves",
@@ -5527,6 +5526,49 @@
    "lon": -71.12209,
    "geo_method": "gazetteer",
    "walk_min": 18
+  },
+  {
+   "id": "eb0401fd49a0",
+   "title": "Ring the Bell",
+   "url": "https://hls.harvard.edu/events/ring-the-bell/",
+   "source_id": "hls",
+   "source_name": "Harvard Law School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-02T18:00:00-05:00",
+   "end": "2026-11-02T20:00:00-05:00",
+   "date": "2026-11-02",
+   "all_day": false,
+   "location": "WCC, 3019 Classroom, Harvard Law School",
+   "online": false,
+   "host": "The Bell Collective for Critical Race Theory",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "HLS students",
+    "evidence": "Run by an HLS student organization",
+    "basis": "inferred"
+   },
+   "summary": "Add to Calendar November 2, 2026, 6:00 pm - 8:00 pm +Google Calendar +iCal/Outlook",
+   "blurb": "",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Wasserstein Hall (WCC), Harvard Law School",
+   "lat": 42.379383,
+   "lon": -71.119421,
+   "geo_method": "gazetteer",
+   "walk_min": 10
   },
   {
    "id": "f81770198f15",
@@ -6830,13 +6872,56 @@
     "evidence": "Harvard Law School calendar, audience not stated",
     "basis": "default"
    },
-   "summary": "Add to Calendar November 3, 2026, 12:15 pm - 1:15 pm +Google Calendar +iCal/Outlook",
-   "blurb": "",
+   "summary": "Join HALB and Simpson Thatcher & Bartlett to learn about how to forge your career at STB! Partners and Associates will share their own experiences and highlight how to succeed at STB. Add to Calendar November 3, 2026, 12:15 pm - 1:15 pm +Google Calendar +iCal/Outlook",
+   "blurb": "learn about how to forge your career at STB! Partners and Associates will share their own experiences and highlight how to succeed at STB.",
    "event_page": true,
    "notes": "",
    "place_name": "Wasserstein Hall (WCC), Harvard Law School",
    "lat": 42.379383,
    "lon": -71.119421,
+   "geo_method": "gazetteer",
+   "walk_min": 10
+  },
+  {
+   "id": "4be6e29b5788",
+   "title": "Legal Conservatism and the Rule of Law — Judge Raymond Kethledge and Professor Jack Goldsmith",
+   "url": "https://hls.harvard.edu/events/legal-conservatism-and-the-rule-of-law-judge-raymond-kethledge-and-professor-jack-goldsmith/",
+   "source_id": "hls",
+   "source_name": "Harvard Law School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-03T12:15:00-05:00",
+   "end": "2026-11-03T13:20:00-05:00",
+   "date": "2026-11-03",
+   "all_day": false,
+   "location": "Pound Hall, 100 Cahill Classroom, Harvard Law School",
+   "online": false,
+   "host": "Harvard Federalist Society",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "HLS students",
+    "evidence": "Run by an HLS student organization",
+    "basis": "inferred"
+   },
+   "summary": "What does it mean to be a legal conservative, and how should conservative legal principles shape the work of judges? Join the Federalist Society for a conversation between Judge Raymond Kethledge of the U.S. Court of Appeals for the Sixth Circuit and Professor Jack Goldsmith about legal conservatism, judicial…",
+   "blurb": "What does it mean to be a legal conservative, and how should conservative legal principles shape the work of judges? Join the Federalist Society for a conversation between Judge Raymond Kethledge of the U.S. Court of Appeals for the Sixth Circuit and…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Pound Hall, Harvard Law School",
+   "lat": 42.378601,
+   "lon": -71.119747,
    "geo_method": "gazetteer",
    "walk_min": 10
   },
@@ -7454,15 +7539,24 @@
    "source_name": "Harvard Kennedy School",
    "also_listed": [
     {
+     "source_name": "Forwarded: New Study Groups & Special Guests: Elections, Civil Discourse, Communication, & ",
+     "url": "https://iop.harvard.edu/events/study-group-chris-whipple-decoding-2026-midterm-elections-stuart-stevens"
+    },
+    {
      "source_name": "Harvard College events",
      "url": "https://events.college.harvard.edu/event/225943-study-group-with-chris-whipple-decoding-the-2026"
     }
    ],
    "aliases": [
-    "a487638eb088"
+    "a487638eb088",
+    "ecb931a71eb5"
    ],
    "suggested": null,
-   "forwarded": null,
+   "forwarded": {
+    "by": "Ellen",
+    "subject": "New Study Groups & Special Guests: Elections, Civil Discourse, Communication, & Security",
+    "missing": []
+   },
    "start": "2026-11-03T16:30:00-05:00",
    "end": "2026-11-03T17:45:00-05:00",
    "date": "2026-11-03",
@@ -9213,6 +9307,52 @@
    "walk_min": 10
   },
   {
+   "id": "3773dec46964",
+   "title": "The History and Future of Corporate Law — Judge Matthew Schwartz (2d Cir.)",
+   "url": "https://hls.harvard.edu/events/the-history-and-future-of-corporate-law-judge-matthew-schwartz-2d-cir/",
+   "source_id": "hls",
+   "source_name": "Harvard Law School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-04T12:15:00-05:00",
+   "end": "2026-11-04T13:20:00-05:00",
+   "date": "2026-11-04",
+   "all_day": false,
+   "location": "Pound Hall, 102 Classroom, Harvard Law School",
+   "online": false,
+   "host": "Harvard Federalist Society",
+   "food": {
+    "status": "confirmed",
+    "types": [
+     "Lunch"
+    ],
+    "evidence": "Lunch will be served.",
+    "cue": "strong"
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "HLS students",
+    "evidence": "Run by an HLS student organization",
+    "basis": "inferred"
+   },
+   "summary": "Join the Federalist Society for a conversation with Judge Matthew Schwartz, newly appointed to the U.S. Court of Appeals for the Second Circuit, about the history, evolution, and future of American corporate law. Before joining the bench in July 2026, Judge Schwartz was a partner at Sullivan & Cromwell, where he…",
+   "blurb": "Join the Federalist Society for a conversation with Judge Matthew Schwartz, newly appointed to the U.S. Court of Appeals for the Second Circuit, about the history, evolution, and future of American corporate law. Before joining the bench in July 2026, Judge…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Pound Hall, Harvard Law School",
+   "lat": 42.378601,
+   "lon": -71.119747,
+   "geo_method": "gazetteer",
+   "walk_min": 10
+  },
+  {
    "id": "da0f5de7db26",
    "title": "Rappaport Forum – When Frontier Models Escape: How to Regulate Increasingly Powerful AI",
    "url": "https://hls.harvard.edu/events/rappaport-forum-when-frontier-models-escape-how-to-regulate-increasingly-powerful-ai/",
@@ -9367,9 +9507,12 @@
    "online": false,
    "host": "Harvard Law School",
    "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
+    "status": "confirmed",
+    "types": [
+     "Lunch"
+    ],
+    "evidence": "Join us for a lunch talk with attorneys from Vinson & Elkins (V&E), who will provide an overview of the firm, its key practice areas, and opportunities for law students.",
+    "cue": "weak"
    },
    "registration": {
     "status": "unknown",
@@ -9382,8 +9525,8 @@
     "evidence": "Harvard Law School calendar, audience not stated",
     "basis": "default"
    },
-   "summary": "Add to Calendar November 4, 2026, 12:30 pm - 1:15 pm +Google Calendar +iCal/Outlook",
-   "blurb": "",
+   "summary": "Join us for a lunch talk with attorneys from Vinson & Elkins (V&E), who will provide an overview of the firm, its key practice areas, and opportunities for law students. Attendees will have the chance to learn more about the firm’s culture and ask questions. Add to Calendar November 4, 2026, 12:30 pm - 1:15 pm +Google…",
+   "blurb": "Join us for a lunch talk with attorneys from Vinson & Elkins (V&E), who will provide an overview of the firm, its key practice areas, and opportunities for law students.",
    "event_page": true,
    "notes": "",
    "place_name": "Wasserstein Hall (WCC), Harvard Law School",
@@ -9948,29 +10091,38 @@
    "walk_min": 13
   },
   {
-   "id": "3c39998c5f0a",
-   "title": "Study Group with Amb. Nathalie Rayes: Leadership, Diplomacy, and the White House",
-   "url": "https://www.hks.harvard.edu/events/study-group-amb-nathalie-rayes-leadership-diplomacy-and-white-house",
-   "source_id": "hks",
-   "source_name": "Harvard Kennedy School",
+   "id": "39454408da53",
+   "title": "Study Group with Ambassador Nathalie Rayes: Behind the Scenes of Power: Leadership, Diplomacy, and the White House with Amb. Capricia Marshall & Opal Vadhan",
+   "url": "https://iop.harvard.edu/events/study-group-ambassador-nathalie-rayes-behind-scenes-power-leadership-diplomacy-and-white",
+   "source_id": "newsletter",
+   "source_name": "Forwarded: New Study Groups & Special Guests: Elections, Civil Discourse, Communication, & ",
    "also_listed": [
+    {
+     "source_name": "Harvard Kennedy School",
+     "url": "https://www.hks.harvard.edu/events/study-group-amb-nathalie-rayes-leadership-diplomacy-and-white-house"
+    },
     {
      "source_name": "Harvard College events",
      "url": "https://events.college.harvard.edu/event/225945-study-group-with-ambassador-nathalie-rayes-behind"
     }
    ],
    "aliases": [
+    "3c39998c5f0a",
     "ef06dbd28e83"
    ],
    "suggested": null,
-   "forwarded": null,
+   "forwarded": {
+    "by": "Ellen",
+    "subject": "New Study Groups & Special Guests: Elections, Civil Discourse, Communication, & Security",
+    "missing": []
+   },
    "start": "2026-11-04T16:00:00-05:00",
-   "end": "2026-11-04T17:15:00-05:00",
+   "end": null,
    "date": "2026-11-04",
    "all_day": false,
    "location": "L-166",
    "online": false,
-   "host": "Institute of Politics (IOP)",
+   "host": "",
    "food": {
     "status": "none",
     "types": [],
@@ -9978,16 +10130,16 @@
    },
    "registration": {
     "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://iop.harvard.edu/events/study-group-ambassador-nathalie-rayes-behind-scenes-power-leadership-diplomacy-and-white"
+    "evidence": "Register Here",
+    "link": ""
    },
    "audience": {
     "level": "restricted",
-    "group": "HKS students",
-    "evidence": "Title: Study Group with Amb. Nathalie Rayes: Leadership, Diplomacy, and the White House",
+    "group": "students",
+    "evidence": "Title: Study Group with Ambassador Nathalie Rayes: Behind the Scenes of Power: Leadership, Diplomacy, and the White House with Amb. Capricia Marshall & Opal Vadhan",
     "basis": "inferred"
    },
-   "summary": "What does it take to lead behind the scenes at the highest levels of American government? Join Ambassador Nathalie Rayes for a conversation with Ambassador Capricia Marshall and Opal Vadhan, two women whose careers have taken them into the inner circles of American political leadership. From the White House to the…",
+   "summary": "Wednesday, November 4, 2026 Time: 4:00pm to 5:15pm EST Where: L-166 Meeting Method: In-Person Add to Calendar 2026-11-04 16:00:00 2026-11-04 17:15:00 Study Group with Ambassador Nathalie Rayes: Behind the Scenes of Power: Leadership, Diplomacy, and the White House with Amb. Capricia Marshall & Opal Vadhan <p>What does…",
    "blurb": "What does it take to lead behind the scenes at the highest levels of American government? Join Ambassador Nathalie Rayes for a conversation with Ambassador Capricia Marshall and Opal Vadhan, two women whose careers have taken them into the inner circles of…",
    "event_page": true,
    "notes": "",
@@ -10135,21 +10287,32 @@
   },
   {
    "id": "1d69e06c00ca",
-   "title": "Politics in an Age of Discontent: Civil Discourse and the Future of Democracy",
-   "url": "https://www.hks.harvard.edu/events/politics-age-discontent-civil-discourse-and-future-democracy",
-   "source_id": "hks",
-   "source_name": "Harvard Kennedy School",
-   "also_listed": [],
-   "aliases": [],
+   "title": "Study Group with Ambassador Kelly Craft, Governor Doug Ducey, and the Honorable Alejandro Mayorkas: Politics in an Age of Discontent: Civil Discourse and the Future of Democracy",
+   "url": "https://iop.harvard.edu/events/study-group-ambassador-kelly-craft-governor-doug-ducey-and-honorable-alejandro-mayorkas",
+   "source_id": "newsletter",
+   "source_name": "Forwarded: New Study Groups & Special Guests: Elections, Civil Discourse, Communication, & ",
+   "also_listed": [
+    {
+     "source_name": "Harvard Kennedy School",
+     "url": "https://www.hks.harvard.edu/events/politics-age-discontent-civil-discourse-and-future-democracy"
+    }
+   ],
+   "aliases": [
+    "4647138d865c"
+   ],
    "suggested": null,
-   "forwarded": null,
+   "forwarded": {
+    "by": "Ellen",
+    "subject": "New Study Groups & Special Guests: Elections, Civil Discourse, Communication, & Security",
+    "missing": []
+   },
    "start": "2026-11-04T16:30:00-05:00",
-   "end": "2026-11-04T17:45:00-05:00",
+   "end": null,
    "date": "2026-11-04",
    "all_day": false,
-   "location": "B-440 (land Hall)",
+   "location": "B-400 (Land Hall)",
    "online": false,
-   "host": "Institute of Politics (IOP)",
+   "host": "",
    "food": {
     "status": "none",
     "types": [],
@@ -10157,8 +10320,8 @@
    },
    "registration": {
     "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://iop.harvard.edu/events/study-group-ambassador-kelly-craft-governor-doug-ducey-and-honorable-alejandro-mayorkas"
+    "evidence": "Register Here",
+    "link": ""
    },
    "audience": {
     "level": "harvard",
@@ -10166,7 +10329,7 @@
     "evidence": "*These off-the-record conversations are open to members of the Harvard community.",
     "basis": "text"
    },
-   "summary": "In a time of political transitions and social unrest, many Western societies now face a set of common questions. What happens when we are no longer able to view each other as legitimate opponents mutually deserving of persuasion and compromise? Is civil discourse even possible within a technologically fragmented…",
+   "summary": "Wednesday, November 4, 2026 Time: 4:30pm to 5:45pm EST Where: B-400 (Land Hall) Meeting Method: In-Person Add to Calendar 2026-11-04 16:30:00 2026-11-04 17:45:00 Study Group with Ambassador Kelly Craft, Governor Doug Ducey, and the Honorable Alejandro Mayorkas: Politics in an Age of Discontent: Civil Discourse and the…",
    "blurb": "In a time of political transitions and social unrest, many Western societies now face a set of common questions. What happens when we are no longer able to view each other as legitimate opponents mutually deserving of persuasion and compromise? Is civil…",
    "event_page": true,
    "notes": "",
@@ -11683,6 +11846,49 @@
    "walk_min": 10
   },
   {
+   "id": "806c95426180",
+   "title": "Jarkesy and the Right to a Jury Trial — Chief Judge Jennifer Walker Elrod (5th Cir.)",
+   "url": "https://hls.harvard.edu/events/jarkesy-and-the-right-to-a-jury-trial-chief-judge-jennifer-walker-elrod-5th-cir/",
+   "source_id": "hls",
+   "source_name": "Harvard Law School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-05T12:15:00-05:00",
+   "end": "2026-11-05T13:20:00-05:00",
+   "date": "2026-11-05",
+   "all_day": false,
+   "location": "WCC 1019, Harvard Law School",
+   "online": false,
+   "host": "Harvard Federalist Society; Texas Club",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "HLS students",
+    "evidence": "Run by an HLS student organization",
+    "basis": "inferred"
+   },
+   "summary": "Does the Constitution guarantee a right to a jury trial when the government seeks civil penalties through administrative enforcement proceedings? Join the Federalist Society and the Texas Club for a conversation with Chief Judge Jennifer Walker Elrod of the U.S. Court of Appeals for the Fifth Circuit about the Supreme…",
+   "blurb": "Does the Constitution guarantee a right to a jury trial when the government seeks civil penalties through administrative enforcement proceedings? Join the Federalist Society and the Texas Club for a conversation with Chief Judge Jennifer Walker Elrod of the…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Wasserstein Hall (WCC), Harvard Law School",
+   "lat": 42.379383,
+   "lon": -71.119421,
+   "geo_method": "gazetteer",
+   "walk_min": 10
+  },
+  {
    "id": "f0afc44326bb",
    "title": "Lunch Talk with Professor Andrea J. Martin: The Lawyer’s Role in Recognizing and Resisting Antisemitism",
    "url": "https://hls.harvard.edu/events/andrea-j-martin-the-lawyers-role-in-recognizing-and-resisting-antisemitism/",
@@ -11977,7 +12183,7 @@
     "evidence": "Harvard Law School calendar, audience not stated",
     "basis": "default"
    },
-   "summary": "Add to Calendar November 5, 2026, 12:30 pm - 1:30 pm +Google Calendar +iCal/Outlook",
+   "summary": "https://docs.google.com/forms/d/e/1FAIpQLSeGaNfDAjmJ17YDI53I_2qzE0v-z8lFAA7QEFv6HHX7A-lICA/viewform Add to Calendar November 5, 2026, 12:30 pm - 1:30 pm +Google Calendar +iCal/Outlook",
    "blurb": "",
    "event_page": true,
    "notes": "",
@@ -12386,29 +12592,38 @@
    "walk_min": null
   },
   {
-   "id": "c6b585137229",
-   "title": "Study Group with Amb. Chris Lu: Finding Your Voice: How Leaders Communicate",
-   "url": "https://www.hks.harvard.edu/events/study-group-amb-chris-lu-finding-your-voice-how-leaders-communicate",
-   "source_id": "hks",
-   "source_name": "Harvard Kennedy School",
+   "id": "47233f826ee6",
+   "title": "Study Group with Ambassador Chris Lu: Finding Your Voice: How Leaders Communicate with Sarah Hurwitz",
+   "url": "https://iop.harvard.edu/events/study-group-ambassador-chris-lu-finding-your-voice-how-leaders-communicate-sarah-hurwitz",
+   "source_id": "newsletter",
+   "source_name": "Forwarded: New Study Groups & Special Guests: Elections, Civil Discourse, Communication, & ",
    "also_listed": [
+    {
+     "source_name": "Harvard Kennedy School",
+     "url": "https://www.hks.harvard.edu/events/study-group-amb-chris-lu-finding-your-voice-how-leaders-communicate"
+    },
     {
      "source_name": "Harvard College events",
      "url": "https://events.college.harvard.edu/event/225947-study-group-with-ambassador-chris-lu-finding-your"
     }
    ],
    "aliases": [
+    "c6b585137229",
     "df0f2fae2d8d"
    ],
    "suggested": null,
-   "forwarded": null,
+   "forwarded": {
+    "by": "Ellen",
+    "subject": "New Study Groups & Special Guests: Elections, Civil Discourse, Communication, & Security",
+    "missing": []
+   },
    "start": "2026-11-05T16:00:00-05:00",
-   "end": "2026-11-05T17:15:00-05:00",
+   "end": null,
    "date": "2026-11-05",
    "all_day": false,
    "location": "L-166",
    "online": false,
-   "host": "Institute of Politics (IOP)",
+   "host": "",
    "food": {
     "status": "none",
     "types": [],
@@ -12416,16 +12631,16 @@
    },
    "registration": {
     "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://iop.harvard.edu/events/study-group-ambassador-chris-lu-finding-your-voice-how-leaders-communicate-sarah-hurwitz"
+    "evidence": "Register Here",
+    "link": ""
    },
    "audience": {
     "level": "restricted",
-    "group": "HKS students",
-    "evidence": "Title: Study Group with Amb. Chris Lu: Finding Your Voice: How Leaders Communicate",
+    "group": "students",
+    "evidence": "Title: Study Group with Ambassador Chris Lu: Finding Your Voice: How Leaders Communicate with Sarah Hurwitz",
     "basis": "inferred"
    },
-   "summary": "Leadership isn't just about making difficult decisions. It's also about explaining the decisions, building trust, and persuading others to follow. How do leaders communicate tough choices, balance authenticity with political realities, and use words to inspire action? Drawing on her experience in the Obama White…",
+   "summary": "Thursday, November 5, 2026 Time: 4:00pm to 5:15pm EST Where: L-166 Meeting Method: In-Person Add to Calendar 2026-11-05 16:00:00 2026-11-05 17:15:00 Study Group with Ambassador Chris Lu: Finding Your Voice: How Leaders Communicate with Sarah Hurwitz Leadership isn't just about making difficult decisions. It's also…",
    "blurb": "Leadership isn't just about making difficult decisions. It's also about explaining the decisions, building trust, and persuading others to follow. How do leaders communicate tough choices, balance authenticity with political realities, and use words to…",
    "event_page": true,
    "notes": "",
@@ -12486,15 +12701,24 @@
    "source_name": "Harvard Kennedy School",
    "also_listed": [
     {
+     "source_name": "Forwarded: New Study Groups & Special Guests: Elections, Civil Discourse, Communication, & ",
+     "url": "https://iop.harvard.edu/events/study-group-honorable-alejandro-mayorkas-policymaking-and-governance-homeland-security"
+    },
+    {
      "source_name": "Harvard College events",
      "url": "https://events.college.harvard.edu/event/225949-study-group-with-the-honorable-alejandro-mayorkas"
     }
    ],
    "aliases": [
+    "9943cba3ca5d",
     "dd304e028d13"
    ],
    "suggested": null,
-   "forwarded": null,
+   "forwarded": {
+    "by": "Ellen",
+    "subject": "New Study Groups & Special Guests: Elections, Civil Discourse, Communication, & Security",
+    "missing": []
+   },
    "start": "2026-11-05T16:30:00-05:00",
    "end": "2026-11-05T17:45:00-05:00",
    "date": "2026-11-05",
@@ -14507,9 +14731,9 @@
    "walk_min": 10
   },
   {
-   "id": "0cee2dd9d7fc",
+   "id": "176bb405f7cd",
    "title": "Wartime Diplomacy: Ukraine, Russia and the United States",
-   "url": "https://www.hks.harvard.edu/events/wartime-diplomacy-ukraine-russia-and-united-states",
+   "url": "https://www.hks.harvard.edu/index%2ephp/events/wartime-diplomacy-ukraine-russia-and-united-states",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -14520,18 +14744,18 @@
    "end": "2026-11-06T16:00:00-05:00",
    "date": "2026-11-06",
    "all_day": false,
-   "location": "Bell Hall (belfer 500)",
+   "location": "",
    "online": false,
-   "host": "Ukraine Caucus",
+   "host": "",
    "food": {
     "status": "none",
     "types": [],
     "evidence": ""
    },
    "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001lZbFIAU"
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
    },
    "audience": {
     "level": "unknown",
@@ -14539,15 +14763,15 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "Washington is sending mixed signals on Russia. Tough new sanctions and tariffs are taking effect. At the same time, the administration is extending waivers for Russian oil companies and making energy deals directly with the Kremlin. US-brokered talks between Kyiv and Moscow may resume, while Russia escalates its…",
-   "blurb": "Washington is sending mixed signals on Russia. Tough new sanctions and tariffs are taking effect. At the same time, the administration is extending waivers for Russian oil companies and making energy deals directly with the Kremlin. US-brokered talks between…",
+   "summary": "",
+   "blurb": "",
    "event_page": true,
    "notes": "",
-   "place_name": "Belfer Building, Harvard Kennedy School",
-   "lat": 42.37141,
-   "lon": -71.121513,
-   "geo_method": "gazetteer",
-   "walk_min": 17
+   "place_name": "Harvard Kennedy School",
+   "lat": 42.371989,
+   "lon": -71.121761,
+   "geo_method": "host",
+   "walk_min": 16
   },
   {
    "id": "d54108b818b2",
@@ -14972,7 +15196,7 @@
   {
    "id": 4,
    "state": "scanned",
-   "label": "Scanned at every update: 27 events found, 3 with food this week",
+   "label": "Scanned at every update: 25 events found, 3 with food this week",
    "n_food": 3
   }
  ],
@@ -15135,6 +15359,13 @@
    "subject": "JFK Jr. Forum: Netflix's The Diplomat with Keri Russell; 2026 Stone Lecture with Cecilia Rouse; Cong",
    "sent": "2026-10-22",
    "items": 2,
+   "sender": null,
+   "forwarded_by": "Ellen"
+  },
+  {
+   "subject": "New Study Groups & Special Guests: Elections, Civil Discourse, Communication, & Security",
+   "sent": "2026-10-30",
+   "items": 5,
    "sender": null,
    "forwarded_by": "Ellen"
   },
