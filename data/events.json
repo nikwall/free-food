@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-31T11:47:05-04:00",
+ "generated_at": "2026-10-31T16:01:45-04:00",
  "window": {
   "start": "2026-10-31",
   "end": "2026-11-07"
@@ -22,7 +22,7 @@
    "error": null,
    "n_events": 123,
    "n_food": 4,
-   "seconds": 2.0
+   "seconds": 1.8
   },
   {
    "id": "hks",
@@ -31,8 +31,8 @@
    "ok": true,
    "error": null,
    "n_events": 38,
-   "n_food": 9,
-   "seconds": 2.4
+   "n_food": 10,
+   "seconds": 2.8
   },
   {
    "id": "hls",
@@ -42,7 +42,7 @@
    "error": null,
    "n_events": 79,
    "n_food": 50,
-   "seconds": 10.6
+   "seconds": 8.8
   },
   {
    "id": "college",
@@ -50,9 +50,9 @@
    "homepage": "https://events.college.harvard.edu/",
    "ok": true,
    "error": null,
-   "n_events": 98,
-   "n_food": 8,
-   "seconds": 0.5
+   "n_events": 99,
+   "n_food": 9,
+   "seconds": 0.8
   },
   {
    "id": "ash",
@@ -62,7 +62,7 @@
    "error": null,
    "n_events": 3,
    "n_food": 2,
-   "seconds": 2.4
+   "seconds": 2.2
   },
   {
    "id": "shorenstein",
@@ -72,7 +72,7 @@
    "error": null,
    "n_events": 0,
    "n_food": 0,
-   "seconds": 10.9
+   "seconds": 9.4
   },
   {
    "id": "fairbank",
@@ -82,7 +82,7 @@
    "error": null,
    "n_events": 8,
    "n_food": 2,
-   "seconds": 5.7
+   "seconds": 0.1
   },
   {
    "id": "newsletter",
@@ -92,7 +92,7 @@
    "error": null,
    "n_events": 23,
    "n_food": 6,
-   "seconds": 71.8
+   "seconds": 67.7
   },
   {
    "id": "suggested",
@@ -102,17 +102,17 @@
    "error": null,
    "n_events": 10,
    "n_food": 2,
-   "seconds": 5.4
+   "seconds": 8.7
   }
  ],
  "stats": {
-  "events": 321,
-  "food_confirmed": 48,
+  "events": 323,
+  "food_confirmed": 49,
   "food_likely": 23,
   "forwarded": 16,
   "forwarded_listed": 8,
-  "food_restricted": 48,
-  "seconds": 82.5
+  "food_restricted": 49,
+  "seconds": 80.2
  },
  "events": [
   {
@@ -159,6 +159,49 @@
    "lon": -71.118484,
    "geo_method": "source",
    "walk_min": 12
+  },
+  {
+   "id": "8c3317420e6c",
+   "title": "Harvard University Cross Country vs Ivy League Heptagonal Cross Country Championships",
+   "url": "https://events.college.harvard.edu/event/224662-harvard-university-cross-country-vs-ivy-league",
+   "source_id": "college",
+   "source_name": "Harvard College events",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-10-31T00:00:00-04:00",
+   "end": null,
+   "date": "2026-10-31",
+   "all_day": true,
+   "location": "Attleboro, Mass.",
+   "online": false,
+   "host": "Main Calendar",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "Harvard College students",
+    "evidence": "Harvard College calendar, no sign it is open to others",
+    "basis": "default"
+   },
+   "summary": "Harvard University Cross Country vs Ivy League Heptagonal Cross Country Championships URL:https://gocrimson.com/calendar.aspx?game_id=33358&sport_id=2",
+   "blurb": "",
+   "event_page": true,
+   "notes": "",
+   "place_name": "",
+   "lat": null,
+   "lon": null,
+   "geo_method": null,
+   "walk_min": null
   },
   {
    "id": "445a8fa8127f",
@@ -550,15 +593,13 @@
    "walk_min": 10
   },
   {
-   "id": "8c3317420e6c",
-   "title": "Harvard University Field Hockey vs Yale",
+   "id": "de46af643d2c",
+   "title": "[W] Harvard University Field Hockey vs Yale",
    "url": "https://events.college.harvard.edu/event/224660-harvard-university-field-hockey-vs-yale",
    "source_id": "college",
    "source_name": "Harvard College events",
    "also_listed": [],
-   "aliases": [
-    "de46af643d2c"
-   ],
+   "aliases": [],
    "suggested": null,
    "forwarded": null,
    "start": "2026-10-31T13:00:00-04:00",
@@ -584,7 +625,7 @@
     "evidence": "Harvard College calendar, no sign it is open to others",
     "basis": "default"
    },
-   "summary": "Harvard University Field Hockey vs Yale TV: ESPN+ Streaming Video: https://www.espn.com/watch/player/_/id/a3d6c540-ca45-4bfe-ad22-cd165f56e031 URL:https://gocrimson.com/calendar.aspx?game_id=33312&sport_id=4",
+   "summary": "[W] Harvard University Field Hockey vs Yale W 2-1 (OT) TV: ESPN+ Streaming Video: https://www.espn.com/watch/player/_/id/a3d6c540-ca45-4bfe-ad22-cd165f56e031 URL:https://gocrimson.com/calendar.aspx?game_id=33312&sport_id=4",
    "blurb": "",
    "event_page": true,
    "notes": "",
@@ -1510,6 +1551,52 @@
    "walk_min": 4
   },
   {
+   "id": "a0ac6c6f0028",
+   "title": "Winthrop Cafe: Happy Day Of The Dead",
+   "url": "https://events.college.harvard.edu/winthrop-house/event/225987-winthrop-cafe-happy-day-of-the-dead",
+   "source_id": "college",
+   "source_name": "Harvard College events",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-01T14:00:00-05:00",
+   "end": "2026-11-01T16:00:00-05:00",
+   "date": "2026-11-01",
+   "all_day": false,
+   "location": "Winthrop Grille",
+   "online": false,
+   "host": "Winthrop House",
+   "food": {
+    "status": "confirmed",
+    "types": [
+     "Sweets"
+    ],
+    "evidence": "We will have Mexican chocolate calientemade by Winthrop Senior Common Room member Carola Barcena Menendez.",
+    "cue": "weak"
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "Winthrop House residents",
+    "evidence": "Hosted by Winthrop House",
+    "basis": "inferred"
+   },
+   "summary": "Hey Everyone, Tomorrow, Sunday 2-4 we will be celebrating Day of the Dead at the Winthrop Cafe. We will have Mexican chocolate calientemade by Winthrop Senior Common Room member Carola Barcena Menendez. Everyone is welcome to bring photos of family, friends, pets who are no longer with us to share on a special display…",
+   "blurb": "we will be celebrating Day of the Dead at the Winthrop Cafe. We will have Mexican chocolate calientemade by Winthrop Senior Common Room member Carola Barcena Menendez. Everyone is welcome to bring photos of family, friends, pets who are no longer with us to…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Winthrop House",
+   "lat": 42.370356,
+   "lon": -71.118646,
+   "geo_method": "host",
+   "walk_min": 15
+  },
+  {
    "id": "9535e1b48872",
    "title": "They Made Me a Fugitive",
    "url": "https://harvardfilmarchive.org/calendar/they-made-me-a-fugitive-2026-11",
@@ -2392,9 +2479,9 @@
    "walk_min": 17
   },
   {
-   "id": "ffb2fd03f64c",
+   "id": "09a619f56af4",
    "title": "Becoming a Thought Leader Without Being Famous or Having a Huge Following",
-   "url": "https://www.hks.harvard.edu/index%2ephp/events/becoming-thought-leader-without-being-famous-or-having-huge-following",
+   "url": "https://www.hks.harvard.edu/events/becoming-thought-leader-without-being-famous-or-having-huge-following",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -2405,18 +2492,18 @@
    "end": "2026-11-02T13:00:00-05:00",
    "date": "2026-11-02",
    "all_day": false,
-   "location": "",
+   "location": "Littauer Building, Room 382 (kahn)",
    "online": false,
-   "host": "",
+   "host": "Communications Program",
    "food": {
     "status": "none",
     "types": [],
     "evidence": ""
    },
    "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
+    "status": "required",
+    "evidence": "RSVP link on the event page",
+    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001l8pZIAQ"
    },
    "audience": {
     "level": "unknown",
@@ -2424,15 +2511,15 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "",
-   "blurb": "",
+   "summary": "Becoming a Thought Leader Without Being Famous or Having a Huge Following You don’t need a million followers to get people talking about your ideas. You need a point of view, a good story, and a smart way to get it out into the world. In this hands-on workshop, you’ll learn how to turn what you know into content…",
+   "blurb": "You don’t need a million followers to get people talking about your ideas. You need a point of view, a good story, and a smart way to get it out into the world. In this hands-on workshop, you’ll learn how to turn what you know into content people want to…",
    "event_page": true,
    "notes": "",
-   "place_name": "Harvard Kennedy School",
-   "lat": 42.371989,
-   "lon": -71.121761,
-   "geo_method": "host",
-   "walk_min": 16
+   "place_name": "Littauer Building, Harvard Kennedy School",
+   "lat": 42.371045,
+   "lon": -71.12209,
+   "geo_method": "gazetteer",
+   "walk_min": 18
   },
   {
    "id": "2bb1e4a68535",
@@ -3248,7 +3335,7 @@
    "walk_min": null
   },
   {
-   "id": "5e625107ad3a",
+   "id": "4b5b7052975e",
    "title": "Calling Gilgamesh: A Reading and Conversation on Humanity, Cities and the Future",
    "url": "https://www.cities.harvard.edu/events/calling-gilgamesh-a-reading-and-conversation-on-humanity-cities-and-the-future/",
    "source_id": "newsletter",
@@ -3259,16 +3346,16 @@
      "url": "https://www.cities.harvard.edu/events/calling-gilgamesh-a-reading-and-conversation-on-humanity-cities-and-the-future/"
     },
     {
-     "source_name": "Harvard College events",
-     "url": "https://events.college.harvard.edu/event/225803-calling-gilgamesh-a-reading-and-conversation-on"
+     "source_name": "Harvard Kennedy School",
+     "url": "https://www.hks.harvard.edu/events/calling-gilgamesh-reading-and-conversation-humanity-cities-and-future"
     },
     {
-     "source_name": "Harvard Kennedy School",
-     "url": "https://www.hks.harvard.edu/index%2ephp/events/calling-gilgamesh-reading-and-conversation-humanity-cities-and-future"
+     "source_name": "Harvard College events",
+     "url": "https://events.college.harvard.edu/event/225803-calling-gilgamesh-a-reading-and-conversation-on"
     }
    ],
    "aliases": [
-    "6ef965c4a082",
+    "5e625107ad3a",
     "9f2b38a0adf7",
     "a57596ebb9af"
    ],
@@ -3449,12 +3536,16 @@
    "walk_min": null
   },
   {
-   "id": "201142a223f3",
+   "id": "19e3d6f11065",
    "title": "Reconciling Credibility and Radicalism in an Age of Populism with Rachel Reeves",
    "url": "https://iop.harvard.edu/events/reconciling-credibility-and-radicalism-age-populism-rachel-reeves",
    "source_id": "gazette",
    "source_name": "Harvard Gazette calendar",
    "also_listed": [
+    {
+     "source_name": "Harvard Kennedy School",
+     "url": "https://www.hks.harvard.edu/events/reconciling-credibility-and-radicalism-age-populism"
+    },
     {
      "source_name": "Harvard College events",
      "url": "https://events.college.harvard.edu/event/225741-reconciling-credibility-and-radicalism-in-an-age"
@@ -3466,15 +3557,11 @@
     {
      "source_name": "Forwarded: JFK Jr. Forum: Netflix's The Diplomat with Keri Russell; 2026 Stone Lecture with",
      "url": "https://iop.harvard.edu/events/reconciling-credibility-and-radicalism-age-populism-rachel-reeves"
-    },
-    {
-     "source_name": "Harvard Kennedy School",
-     "url": "https://www.hks.harvard.edu/index%2Ephp/events/reconciling-credibility-and-radicalism-age-populism"
     }
    ],
    "aliases": [
+    "201142a223f3",
     "d6fb37531090",
-    "d99cb96b4e1a",
     "ee85fd2a8af5",
     "ee85fd2a8af5"
    ],
@@ -14852,6 +14939,12 @@
   {
    "subject": "Asia Bulletin: October 30–November 13",
    "sent": "2026-10-30",
+   "items": 0,
+   "sender": "Harvard University Asia Center"
+  },
+  {
+   "subject": "Upcoming Events",
+   "sent": "2026-10-31",
    "items": 0,
    "sender": "Harvard University Asia Center"
   }
