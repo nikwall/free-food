@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-31T16:01:45-04:00",
+ "generated_at": "2026-10-31T21:16:16-04:00",
  "window": {
   "start": "2026-10-31",
   "end": "2026-11-07"
@@ -22,7 +22,7 @@
    "error": null,
    "n_events": 123,
    "n_food": 4,
-   "seconds": 1.8
+   "seconds": 0.6
   },
   {
    "id": "hks",
@@ -32,7 +32,7 @@
    "error": null,
    "n_events": 38,
    "n_food": 10,
-   "seconds": 2.8
+   "seconds": 3.1
   },
   {
    "id": "hls",
@@ -42,7 +42,7 @@
    "error": null,
    "n_events": 79,
    "n_food": 50,
-   "seconds": 8.8
+   "seconds": 9.4
   },
   {
    "id": "college",
@@ -52,7 +52,7 @@
    "error": null,
    "n_events": 99,
    "n_food": 9,
-   "seconds": 0.8
+   "seconds": 0.5
   },
   {
    "id": "ash",
@@ -62,7 +62,7 @@
    "error": null,
    "n_events": 3,
    "n_food": 2,
-   "seconds": 2.2
+   "seconds": 2.1
   },
   {
    "id": "shorenstein",
@@ -72,7 +72,7 @@
    "error": null,
    "n_events": 0,
    "n_food": 0,
-   "seconds": 9.4
+   "seconds": 9.2
   },
   {
    "id": "fairbank",
@@ -92,7 +92,7 @@
    "error": null,
    "n_events": 23,
    "n_food": 6,
-   "seconds": 67.7
+   "seconds": 47.2
   },
   {
    "id": "suggested",
@@ -102,7 +102,7 @@
    "error": null,
    "n_events": 10,
    "n_food": 2,
-   "seconds": 8.7
+   "seconds": 4.3
   }
  ],
  "stats": {
@@ -112,7 +112,7 @@
   "forwarded": 16,
   "forwarded_listed": 8,
   "food_restricted": 49,
-  "seconds": 80.2
+  "seconds": 55.0
  },
  "events": [
   {
@@ -161,49 +161,6 @@
    "walk_min": 12
   },
   {
-   "id": "8c3317420e6c",
-   "title": "Harvard University Cross Country vs Ivy League Heptagonal Cross Country Championships",
-   "url": "https://events.college.harvard.edu/event/224662-harvard-university-cross-country-vs-ivy-league",
-   "source_id": "college",
-   "source_name": "Harvard College events",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-10-31T00:00:00-04:00",
-   "end": null,
-   "date": "2026-10-31",
-   "all_day": true,
-   "location": "Attleboro, Mass.",
-   "online": false,
-   "host": "Main Calendar",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
-   },
-   "audience": {
-    "level": "restricted",
-    "group": "Harvard College students",
-    "evidence": "Harvard College calendar, no sign it is open to others",
-    "basis": "default"
-   },
-   "summary": "Harvard University Cross Country vs Ivy League Heptagonal Cross Country Championships URL:https://gocrimson.com/calendar.aspx?game_id=33358&sport_id=2",
-   "blurb": "",
-   "event_page": true,
-   "notes": "",
-   "place_name": "",
-   "lat": null,
-   "lon": null,
-   "geo_method": null,
-   "walk_min": null
-  },
-  {
    "id": "445a8fa8127f",
    "title": "Heaven & Hell",
    "url": "https://soco.college.harvard.edu/rsvp?id=383169",
@@ -237,6 +194,49 @@
     "basis": "default"
    },
    "summary": "Currier House’s annual Halloween Party — Event Details: https://soco.college.harvard.edu/rsvp?id=383169",
+   "blurb": "",
+   "event_page": true,
+   "notes": "",
+   "place_name": "",
+   "lat": null,
+   "lon": null,
+   "geo_method": null,
+   "walk_min": null
+  },
+  {
+   "id": "8c3317420e6c",
+   "title": "[N] Harvard University Cross Country vs Ivy League Heptagonal Cross Country Championships",
+   "url": "https://events.college.harvard.edu/event/224662-harvard-university-cross-country-vs-ivy-league",
+   "source_id": "college",
+   "source_name": "Harvard College events",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-10-31T00:00:00-04:00",
+   "end": null,
+   "date": "2026-10-31",
+   "all_day": true,
+   "location": "Attleboro, Mass.",
+   "online": false,
+   "host": "Main Calendar",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "Harvard College students",
+    "evidence": "Harvard College calendar, no sign it is open to others",
+    "basis": "default"
+   },
+   "summary": "[N] Harvard University Cross Country vs Ivy League Heptagonal Cross Country ChampionshipsW - 3rd, M - 1st URL:https://gocrimson.com/calendar.aspx?game_id=33358&sport_id=2",
    "blurb": "",
    "event_page": true,
    "notes": "",
@@ -550,49 +550,6 @@
    "walk_min": null
   },
   {
-   "id": "6504021c0a3d",
-   "title": "Events Calendar",
-   "url": "https://hls.harvard.edu/calendar/",
-   "source_id": "suggested",
-   "source_name": "Suggested calendar: HLS",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-10-31T12:00:00-04:00",
-   "end": null,
-   "date": "2026-10-31",
-   "all_day": true,
-   "location": "",
-   "online": false,
-   "host": "",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
-   },
-   "audience": {
-    "level": "unknown",
-    "group": "",
-    "evidence": "",
-    "basis": "none"
-   },
-   "summary": "Showing 0 events for the week starting 10/31/2026 Compact View There are no events today.",
-   "blurb": "",
-   "event_page": true,
-   "notes": "",
-   "place_name": "Harvard Law School",
-   "lat": 42.379106,
-   "lon": -71.119679,
-   "geo_method": "host",
-   "walk_min": 10
-  },
-  {
    "id": "de46af643d2c",
    "title": "[W] Harvard University Field Hockey vs Yale",
    "url": "https://events.college.harvard.edu/event/224660-harvard-university-field-hockey-vs-yale",
@@ -680,7 +637,7 @@
   },
   {
    "id": "ccb5b99ff7a9",
-   "title": "Harvard University Women’s Ice Hockey vs St. Lawrence",
+   "title": "[L] Harvard University Women’s Ice Hockey vs St. Lawrence",
    "url": "https://events.college.harvard.edu/event/224659-harvard-university-womens-ice-hockey-vs-st",
    "source_id": "college",
    "source_name": "Harvard College events",
@@ -711,7 +668,7 @@
     "evidence": "Harvard College calendar, no sign it is open to others",
     "basis": "default"
    },
-   "summary": "Harvard University Women’s Ice Hockey vs St. Lawrence TV: ESPN+ Streaming Video: https://gocrim.info/3139b8 Tickets: https://gocrimson.evenue.net/event/WH26/WH05 URL:https://gocrimson.com/calendar.aspx?game_id=33464&sport_id=30",
+   "summary": "[L] Harvard University Women’s Ice Hockey vs St. Lawrence L 0-4 TV: ESPN+ Streaming Video: https://gocrim.info/3139b8 Tickets: https://gocrimson.evenue.net/event/WH26/WH05 URL:https://gocrimson.com/calendar.aspx?game_id=33464&sport_id=30",
    "blurb": "",
    "event_page": true,
    "notes": "",
@@ -723,7 +680,7 @@
   },
   {
    "id": "b24aa05bf5fc",
-   "title": "Harvard University Women’s Volleyball vs Yale University",
+   "title": "[W] Harvard University Women’s Volleyball vs Yale University",
    "url": "https://events.college.harvard.edu/event/224657-harvard-university-womens-volleyball-vs-yale",
    "source_id": "college",
    "source_name": "Harvard College events",
@@ -754,7 +711,7 @@
     "evidence": "Harvard College calendar, no sign it is open to others",
     "basis": "default"
    },
-   "summary": "Harvard University Women’s Volleyball vs Yale University TV: ESPN+ Streaming Video: https://www.espn.com/watch/catalog/28907f94-4745-4e26-b0ac-6fd8ffac0aa6/ivy-league#bucketId=29784&sourceCollection=Browse_By_Top_Conferences URL:https://gocrimson.com/calendar.aspx?game_id=33198&sport_id=40",
+   "summary": "[W] Harvard University Women’s Volleyball vs Yale University W 3-2 TV: ESPN+ Streaming Video: https://www.espn.com/watch/catalog/28907f94-4745-4e26-b0ac-6fd8ffac0aa6/ivy-league#bucketId=29784&sourceCollection=Browse_By_Top_Conferences URL:https://gocrimson.com/calendar.aspx?game_id=33198&sport_id=40",
    "blurb": "",
    "event_page": true,
    "notes": "",
@@ -1375,6 +1332,49 @@
    "lon": -71.118646,
    "geo_method": "host",
    "walk_min": 15
+  },
+  {
+   "id": "6980a86ae3e0",
+   "title": "Events Calendar",
+   "url": "https://hls.harvard.edu/calendar/",
+   "source_id": "suggested",
+   "source_name": "Suggested calendar: HLS",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-01T12:00:00-05:00",
+   "end": null,
+   "date": "2026-11-01",
+   "all_day": true,
+   "location": "",
+   "online": false,
+   "host": "",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "Showing 0 events for the week starting 11/01/2026 Compact View There are no events today.",
+   "blurb": "",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Harvard Law School",
+   "lat": 42.379106,
+   "lon": -71.119679,
+   "geo_method": "host",
+   "walk_min": 10
   },
   {
    "id": "254062db7736",
@@ -10497,9 +10497,9 @@
    "walk_min": null
   },
   {
-   "id": "07e66627849f",
+   "id": "3ec350e1046d",
    "title": "Inside the Peace Process: Building a Career in Mediation with Neha Sanghrajka",
-   "url": "https://www.hks.harvard.edu/events/inside-peace-process-building-career-mediation-neha-sanghrajka",
+   "url": "https://www.hks.harvard.edu/index%2ephp/events/inside-peace-process-building-career-mediation-neha-sanghrajka",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -10510,18 +10510,18 @@
    "end": "2026-11-05T16:00:00-05:00",
    "date": "2026-11-05",
    "all_day": false,
-   "location": "Cid Perkins Conference Room (r429)",
+   "location": "",
    "online": false,
-   "host": "Harvard Center for International Development",
+   "host": "",
    "food": {
     "status": "none",
     "types": [],
     "evidence": ""
    },
    "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001lEjhIAE"
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
    },
    "audience": {
     "level": "unknown",
@@ -10529,8 +10529,8 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "Please join us for a conversation with Neha Sanghrajka, Fellow at Harvard University’s Center for International Development, moderated by CID Student Ambassador Haben Tekle Abrha. Interested in exploring how to build a career in peacebuilding and mediation, and where to contribute your skills along the way? Neha is a…",
-   "blurb": "Please join us for a conversation with Neha Sanghrajka, Fellow at Harvard University’s Center for International Development, moderated by CID Student Ambassador Haben Tekle Abrha. Interested in exploring how to build a career in peacebuilding and mediation…",
+   "summary": "",
+   "blurb": "",
    "event_page": true,
    "notes": "",
    "place_name": "Harvard Kennedy School",
@@ -14947,6 +14947,12 @@
    "sent": "2026-10-31",
    "items": 0,
    "sender": "Harvard University Asia Center"
+  },
+  {
+   "subject": "Weatherhead Events / Week of November 1, 2026",
+   "sent": "2026-10-31",
+   "items": 0,
+   "sender": "Weatherhead Center for International Affairs"
   }
  ]
 }
