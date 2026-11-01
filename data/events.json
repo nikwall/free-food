@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01T11:50:57-05:00",
+ "generated_at": "2026-11-01T17:53:10-05:00",
  "window": {
   "start": "2026-11-01",
   "end": "2026-11-08"
@@ -22,7 +22,7 @@
    "error": null,
    "n_events": 126,
    "n_food": 4,
-   "seconds": 2.1
+   "seconds": 0.6
   },
   {
    "id": "hks",
@@ -32,7 +32,7 @@
    "error": null,
    "n_events": 38,
    "n_food": 10,
-   "seconds": 6.3
+   "seconds": 1.9
   },
   {
    "id": "hls",
@@ -42,7 +42,7 @@
    "error": null,
    "n_events": 84,
    "n_food": 51,
-   "seconds": 11.7
+   "seconds": 8.4
   },
   {
    "id": "college",
@@ -52,7 +52,7 @@
    "error": null,
    "n_events": 115,
    "n_food": 11,
-   "seconds": 1.7
+   "seconds": 0.8
   },
   {
    "id": "ash",
@@ -62,7 +62,7 @@
    "error": null,
    "n_events": 3,
    "n_food": 2,
-   "seconds": 2.4
+   "seconds": 2.1
   },
   {
    "id": "shorenstein",
@@ -72,7 +72,7 @@
    "error": null,
    "n_events": 0,
    "n_food": 0,
-   "seconds": 9.4
+   "seconds": 8.3
   },
   {
    "id": "fairbank",
@@ -82,7 +82,7 @@
    "error": null,
    "n_events": 8,
    "n_food": 2,
-   "seconds": 6.4
+   "seconds": 0.1
   },
   {
    "id": "newsletter",
@@ -90,9 +90,9 @@
    "homepage": "",
    "ok": true,
    "error": null,
-   "n_events": 24,
-   "n_food": 6,
-   "seconds": 83.0
+   "n_events": 26,
+   "n_food": 8,
+   "seconds": 68.6
   },
   {
    "id": "suggested",
@@ -102,17 +102,17 @@
    "error": null,
    "n_events": 10,
    "n_food": 2,
-   "seconds": 5.3
+   "seconds": 5.2
   }
  ],
  "stats": {
-  "events": 332,
-  "food_confirmed": 52,
-  "food_likely": 23,
+  "events": 335,
+  "food_confirmed": 53,
+  "food_likely": 24,
   "forwarded": 16,
   "forwarded_listed": 8,
   "food_restricted": 52,
-  "seconds": 95.4
+  "seconds": 76.3
  },
  "events": [
   {
@@ -160,6 +160,49 @@
    "lon": -71.118484,
    "geo_method": "source",
    "walk_min": 12
+  },
+  {
+   "id": "98abd4f124e1",
+   "title": "Harvard University Men’s Tennis at Ralston/Neufeld Coaches Challenge Day Three",
+   "url": "https://events.college.harvard.edu/event/225972-harvard-university-mens-tennis-at-ralstonneufeld",
+   "source_id": "college",
+   "source_name": "Harvard College events",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-01T00:00:00-04:00",
+   "end": null,
+   "date": "2026-11-01",
+   "all_day": true,
+   "location": "Dallas, Texas",
+   "online": false,
+   "host": "Main Calendar",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "Harvard College students",
+    "evidence": "Harvard College calendar, no sign it is open to others",
+    "basis": "default"
+   },
+   "summary": "Harvard University Men’s Tennis at Ralston/Neufeld Coaches Challenge Day Three Streaming Video: https://web.playsight.com/facility/southern-methodist-university/home URL:https://gocrimson.com/calendar.aspx?game_id=33749&sport_id=20",
+   "blurb": "",
+   "event_page": true,
+   "notes": "",
+   "place_name": "",
+   "lat": null,
+   "lon": null,
+   "geo_method": null,
+   "walk_min": null
   },
   {
    "id": "bb9f9743ea7b",
@@ -593,21 +636,19 @@
   },
   {
    "id": "254062db7736",
-   "title": "Harvard University Men’s Tennis at Ralston/Neufeld Coaches Challenge Day Three",
-   "url": "https://events.college.harvard.edu/event/225972-harvard-university-mens-tennis-at-ralstonneufeld",
+   "title": "[W] Harvard University Men’s Water Polo vs MIT",
+   "url": "https://events.college.harvard.edu/event/224654-harvard-university-mens-water-polo-vs-mit",
    "source_id": "college",
    "source_name": "Harvard College events",
    "also_listed": [],
-   "aliases": [
-    "98abd4f124e1"
-   ],
+   "aliases": [],
    "suggested": null,
    "forwarded": null,
    "start": "2026-11-01T12:00:00-05:00",
    "end": "2026-11-01T13:30:00-05:00",
    "date": "2026-11-01",
    "all_day": false,
-   "location": "Dallas, Texas",
+   "location": "Cambridge, MA, Blodgett Pool",
    "online": false,
    "host": "Main Calendar",
    "food": {
@@ -626,7 +667,7 @@
     "evidence": "Harvard College calendar, no sign it is open to others",
     "basis": "default"
    },
-   "summary": "Harvard University Men’s Tennis at Ralston/Neufeld Coaches Challenge Day Three Streaming Video: https://web.playsight.com/facility/southern-methodist-university/home URL:https://gocrimson.com/calendar.aspx?game_id=33749&sport_id=20",
+   "summary": "[W] Harvard University Men’s Water Polo vs MIT W 21-11 TV: ESPN+ Streaming Video: https://gocrim.info/7e9162 URL:https://gocrimson.com/calendar.aspx?game_id=33278&sport_id=23",
    "blurb": "",
    "event_page": true,
    "notes": "",
@@ -2706,6 +2747,51 @@
    "lon": -71.118646,
    "geo_method": "host",
    "walk_min": 15
+  },
+  {
+   "id": "458dc42232fb",
+   "title": "Opening Reception: Hanal Pixán",
+   "url": "https://us.list-manage.com/dPdSFDEuPUs?e=47fd1b5679&c2id=e16b879dc543fc1e49d6366bda8a5a69",
+   "source_id": "newsletter",
+   "source_name": "Newsletter: Brazil's Presidential Election, Human Rights & Faculty Funding | DRCLAS Weekly",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-02T17:00:00-05:00",
+   "end": null,
+   "date": "2026-11-02",
+   "all_day": false,
+   "location": "",
+   "online": false,
+   "host": "",
+   "food": {
+    "status": "likely",
+    "types": [
+     "Reception"
+    ],
+    "evidence": "Opening Reception: Hanal Pixán"
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "RSVP required.",
+    "link": ""
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "Opening Reception: Hanal Pixán Monday, November 2 @ 5 PM Harvard Peabody Museum, 11 Divinity Avenue For Harvard affiliates. RSVP required. Now on view: Hanal Pixán / Food for the Souls, an altar installation by Luis Arturo Gómez Escobedo, MLA student at the Harvard Graduate School of Design and recent Master of…",
+   "blurb": "Now on view: Hanal Pixán / Food for the Souls, an altar installation by Luis Arturo Gómez Escobedo, MLA student at the Harvard Graduate School of Design and recent Master of Architecture graduate.",
+   "event_page": false,
+   "notes": "",
+   "place_name": "CGIS South Building",
+   "lat": 42.375011,
+   "lon": -71.113135,
+   "geo_method": "host",
+   "walk_min": 5
   },
   {
    "id": "ebde511d5663",
@@ -6828,52 +6914,6 @@
    "walk_min": 10
   },
   {
-   "id": "caa1814588b0",
-   "title": "HLS Dems | Day After the Election",
-   "url": "https://hls.harvard.edu/events/hls-dems-day-after-the-election/",
-   "source_id": "hls",
-   "source_name": "Harvard Law School",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-11-04T12:30:00-05:00",
-   "end": "2026-11-04T13:15:00-05:00",
-   "date": "2026-11-04",
-   "all_day": false,
-   "location": "Pound Hall, 101 Ballantine Classroom, Harvard Law School",
-   "online": false,
-   "host": "Harvard Law School Democrats",
-   "food": {
-    "status": "confirmed",
-    "types": [
-     "Lunch"
-    ],
-    "evidence": "Lunch will be provided.",
-    "cue": "strong"
-   },
-   "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
-   },
-   "audience": {
-    "level": "restricted",
-    "group": "HLS community",
-    "evidence": "HLS listing audience: HLS only",
-    "basis": "listing"
-   },
-   "summary": "Please join HLS Dems for an event reflecting on yesterday’s Midterm elections! Lunch will be provided. Add to Calendar November 4, 2026, 12:30 pm - 1:15 pm +Google Calendar +iCal/Outlook",
-   "blurb": "Please join HLS Dems for an event reflecting on yesterday’s Midterm elections!",
-   "event_page": true,
-   "notes": "",
-   "place_name": "Pound Hall, Harvard Law School",
-   "lat": 42.378601,
-   "lon": -71.119747,
-   "geo_method": "gazetteer",
-   "walk_min": 10
-  },
-  {
    "id": "c527b41730b7",
    "title": "Illinois Bar Exam Information Session",
    "url": "https://hls.harvard.edu/events/illinois-bar-exam-information-session/",
@@ -9667,6 +9707,52 @@
    "walk_min": 10
   },
   {
+   "id": "f3fb7ffffdff",
+   "title": "Development-induced displacement and women’s health: Qualitative evidence from the Brazilian Amazon",
+   "url": "https://us.list-manage.com/1AibAaj77ZE?e=47fd1b5679&c2id=e16b879dc543fc1e49d6366bda8a5a69",
+   "source_id": "newsletter",
+   "source_name": "Newsletter: Brazil's Presidential Election, Human Rights & Faculty Funding | DRCLAS Weekly",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-05T13:00:00-05:00",
+   "end": null,
+   "date": "2026-11-05",
+   "all_day": false,
+   "location": "",
+   "online": false,
+   "host": "",
+   "food": {
+    "status": "confirmed",
+    "types": [
+     "Lunch"
+    ],
+    "evidence": "Lunch will be served.",
+    "cue": "strong"
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "Development-induced displacement and women’s health: Qualitative evidence from the Brazilian Amazon Thursday, November 5 @ 1 PM In person Join the Department of Global Health and Population and the Harvard Center for Population and Development Studies for this Brown Bag/Social Demography Seminar featuring Heather…",
+   "blurb": "Join the Department of Global Health and Population and the Harvard Center for Population and Development Studies for this Brown Bag/Social Demography Seminar featuring Heather Randell, associate professor at Humphrey School of Public Affairs, University of…",
+   "event_page": false,
+   "notes": "",
+   "place_name": "CGIS South Building",
+   "lat": 42.375011,
+   "lon": -71.113135,
+   "geo_method": "host",
+   "walk_min": 5
+  },
+  {
    "id": "165534188880",
    "title": "Afternoon Tea at the Study of Religion",
    "url": "https://events.college.harvard.edu/event/224894-afternoon-tea-at-the-study-of-religion",
@@ -11924,6 +12010,52 @@
    },
    "summary": "How does a state decide who belongs — and what does it do to those it casts out? In the world’s largest democracy, that question is being fought in real time: in the detention regimes of India’s CAA and NRC, and in the youth-led protests now sweeping the country against the mass deletion of 130 million voters from…",
    "blurb": "How does a state decide who belongs — and what does it do to those it casts out? In the world’s largest democracy, that question is being fought in real time: in the detention regimes of India’s CAA and NRC, and in the youth-led protests now sweeping the…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Wasserstein Hall (WCC), Harvard Law School",
+   "lat": 42.379383,
+   "lon": -71.119421,
+   "geo_method": "gazetteer",
+   "walk_min": 10
+  },
+  {
+   "id": "11821a5e57e9",
+   "title": "HHLS x Ropes & Gray – Panel Discussion",
+   "url": "https://hls.harvard.edu/events/hhls-x-ropes-gray-panel-discussion/",
+   "source_id": "hls",
+   "source_name": "Harvard Law School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-06T12:30:00-05:00",
+   "end": "2026-11-06T13:30:00-05:00",
+   "date": "2026-11-06",
+   "all_day": false,
+   "location": "WCC, 3007 Room, Harvard Law School",
+   "online": false,
+   "host": "Harvard Health Law Society",
+   "food": {
+    "status": "confirmed",
+    "types": [
+     "Lunch"
+    ],
+    "evidence": "Lunch will be served.",
+    "cue": "strong"
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "HLS community",
+    "evidence": "HLS listing audience: HLS only",
+    "basis": "listing"
+   },
+   "summary": "Join the Harvard Health Law Society and Ropes & Gray for a panel discussion featuring attorneys from the Health Care Practice Group. Lunch will be served. Add to Calendar November 6, 2026, 12:30 pm - 1:30 pm +Google Calendar +iCal/Outlook",
+   "blurb": "Join the Harvard Health Law Society and Ropes & Gray for a panel discussion featuring attorneys from the Health Care Practice Group.",
    "event_page": true,
    "notes": "",
    "place_name": "Wasserstein Hall (WCC), Harvard Law School",
@@ -15359,6 +15491,12 @@
    "sent": "2026-10-31",
    "items": 0,
    "sender": "Weatherhead Center for International Affairs"
+  },
+  {
+   "subject": "Brazil's Presidential Election, Human Rights & Faculty Funding | DRCLAS Weekly",
+   "sent": "2026-11-01",
+   "items": 2,
+   "sender": "David Rockefeller Center for Latin American Studies"
   }
  ]
 }
