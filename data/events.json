@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-03T12:54:21-05:00",
+ "generated_at": "2026-11-03T19:01:12-05:00",
  "window": {
   "start": "2026-11-03",
   "end": "2026-11-10"
@@ -20,9 +20,9 @@
    "homepage": "https://news.harvard.edu/gazette/harvard-events/events-calendar/",
    "ok": true,
    "error": null,
-   "n_events": 139,
+   "n_events": 148,
    "n_food": 3,
-   "seconds": 1.6
+   "seconds": 2.1
   },
   {
    "id": "hks",
@@ -30,9 +30,9 @@
    "homepage": "https://www.hks.harvard.edu/more/events",
    "ok": true,
    "error": null,
-   "n_events": 46,
+   "n_events": 51,
    "n_food": 9,
-   "seconds": 5.0
+   "seconds": 1.8
   },
   {
    "id": "hls",
@@ -50,9 +50,9 @@
    "homepage": "https://events.college.harvard.edu/",
    "ok": true,
    "error": null,
-   "n_events": 118,
+   "n_events": 117,
    "n_food": 11,
-   "seconds": 1.0
+   "seconds": 0.7
   },
   {
    "id": "ash",
@@ -62,7 +62,7 @@
    "error": null,
    "n_events": 3,
    "n_food": 2,
-   "seconds": 2.1
+   "seconds": 2.0
   },
   {
    "id": "shorenstein",
@@ -82,7 +82,7 @@
    "error": null,
    "n_events": 11,
    "n_food": 1,
-   "seconds": 6.7
+   "seconds": 0.1
   },
   {
    "id": "newsletter",
@@ -91,8 +91,8 @@
    "ok": true,
    "error": null,
    "n_events": 53,
-   "n_food": 8,
-   "seconds": 100.6
+   "n_food": 5,
+   "seconds": 71.1
   },
   {
    "id": "suggested",
@@ -100,19 +100,19 @@
    "homepage": "",
    "ok": true,
    "error": null,
-   "n_events": 13,
-   "n_food": 2,
-   "seconds": 5.9
+   "n_events": 12,
+   "n_food": 1,
+   "seconds": 5.3
   }
  ],
  "stats": {
-  "events": 406,
+  "events": 411,
   "food_confirmed": 67,
   "food_likely": 26,
-  "forwarded": 42,
-  "forwarded_listed": 12,
+  "forwarded": 41,
+  "forwarded_listed": 13,
   "food_restricted": 64,
-  "seconds": 112.8
+  "seconds": 79.5
  },
  "events": [
   {
@@ -738,22 +738,22 @@
    "walk_min": 10
   },
   {
-   "id": "995e99d315cb",
-   "title": "Bruce Armitage: A Maker’s Journey",
-   "url": "https://events.college.harvard.edu/ofa/event/225705-bruce-armitage-a-makers-journey",
-   "source_id": "college",
-   "source_name": "Harvard College events",
+   "id": "910be52b022b",
+   "title": "Governing AI through Constitutions: A discussion with Prof. Nicholas Caputo",
+   "url": "https://www.hks.harvard.edu/index%2ephp/events/governing-ai-through-constitutions-discussion-prof-nicholas-caputo",
+   "source_id": "hks",
+   "source_name": "Harvard Kennedy School",
    "also_listed": [],
    "aliases": [],
    "suggested": null,
    "forwarded": null,
    "start": "2026-11-03T11:00:00-05:00",
-   "end": "2026-11-03T17:00:00-05:00",
+   "end": "2026-11-03T12:00:00-05:00",
    "date": "2026-11-03",
    "all_day": false,
-   "location": "Ceramics Studio",
+   "location": "",
    "online": false,
-   "host": "Ceramics Program, Office for the Arts at Harvard",
+   "host": "",
    "food": {
     "status": "none",
     "types": [],
@@ -765,63 +765,20 @@
     "link": ""
    },
    "audience": {
-    "level": "restricted",
-    "group": "Harvard College students",
-    "evidence": "Harvard College calendar, no sign it is open to others",
-    "basis": "default"
-   },
-   "summary": "This exhibition celebrates the evolving work of Boston-based sculptor and ceramic artist Bruce Armitage, a long-time Resident Artist, Teaching Assistant, and Studio Lab Technician at the Ceramics Program, Office for the Arts at Harvard. He focuses on figurative sculpture influenced by classical traditions. Bruce is a…",
-   "blurb": "This exhibition celebrates the evolving work of Boston-based sculptor and ceramic artist Bruce Armitage, a long-time Resident Artist, Teaching Assistant, and Studio Lab Technician at the Ceramics Program, Office for the Arts at Harvard. He focuses on…",
-   "event_page": true,
-   "notes": "",
-   "place_name": "Ceramics Studio",
-   "lat": 42.362599,
-   "lon": -71.131201,
-   "geo_method": "source",
-   "walk_min": 37
-  },
-  {
-   "id": "4defd371f912",
-   "title": "Governing AI through Constitutions: A discussion with Prof. Nicholas Caputo",
-   "url": "https://www.hks.harvard.edu/events/governing-ai-through-constitutions-discussion-prof-nicholas-caputo",
-   "source_id": "hks",
-   "source_name": "Harvard Kennedy School",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-11-03T11:00:00-05:00",
-   "end": "2026-11-03T12:00:00-05:00",
-   "date": "2026-11-03",
-   "all_day": false,
-   "location": "B-500 Bell Hall",
-   "online": false,
-   "host": "Program on Emerging Technology, Scientific Advancement & Global Policy",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001lSY9IAM"
-   },
-   "audience": {
     "level": "unknown",
     "group": "",
     "evidence": "",
     "basis": "none"
    },
-   "summary": "Frontier AI systems like Claude and ChatGPT are governed by constitutions: documents that set out a model’s intended values, priorities, and character, and that are used in model training. As AI capability and autonomy increase and as people increasingly rely on these systems, the content of AI constitutions will…",
-   "blurb": "Frontier AI systems like Claude and ChatGPT are governed by constitutions: documents that set out a model’s intended values, priorities, and character, and that are used in model training. As AI capability and autonomy increase and as people increasingly rely…",
+   "summary": "",
+   "blurb": "",
    "event_page": true,
    "notes": "",
-   "place_name": "Belfer Building, Harvard Kennedy School",
-   "lat": 42.37141,
-   "lon": -71.121513,
-   "geo_method": "gazetteer",
-   "walk_min": 17
+   "place_name": "Harvard Kennedy School",
+   "lat": 42.371989,
+   "lon": -71.121761,
+   "geo_method": "host",
+   "walk_min": 16
   },
   {
    "id": "29603a945859",
@@ -977,9 +934,9 @@
     "evidence": ""
    },
    "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://harvard.zoom.us/meeting/register/pXwxMXShSEaWWqX1Z6zlRQ"
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
    },
    "audience": {
     "level": "unknown",
@@ -996,6 +953,52 @@
    "lon": null,
    "geo_method": null,
    "walk_min": null
+  },
+  {
+   "id": "9aa5d6d0dbb9",
+   "title": "Events Calendar",
+   "url": "https://hls.harvard.edu/calendar/",
+   "source_id": "suggested",
+   "source_name": "Suggested calendar: HLS",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-03T12:00:00-05:00",
+   "end": null,
+   "date": "2026-11-03",
+   "all_day": true,
+   "location": "",
+   "online": false,
+   "host": "",
+   "food": {
+    "status": "confirmed",
+    "types": [
+     "Lunch"
+    ],
+    "evidence": "Food will be provided.",
+    "cue": "strong"
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "RSVP here: https://forms.gle/FwKpm4LdFX7u6F4w6…",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "HLS community",
+    "evidence": "Open to the HLS community.",
+    "basis": "text"
+   },
+   "summary": "November 3 Tuesday • 17 events APALSA-HLEP Firm Fair 10:30 am - 2:30 pm Join APALSA and HLEP for their combined firm fair! Food will be provided. Norton Rose Fulbright 1L Coffee Chat 11:30 am - 1:30 pm See CSM/Symplicity for full event details. Need over Merit: Tracing the History of Israel’s Anti-Discrimination…",
+   "blurb": "Join APALSA and HLEP for their combined firm fair! See CSM/Symplicity for full event details. Need over Merit: Tracing the History of Israel’s Anti-Discrimination Legislation in the Early Welfare State with Anat This talk uncovers a forgotten chapter in…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Harvard Law School",
+   "lat": 42.379106,
+   "lon": -71.119679,
+   "geo_method": "host",
+   "walk_min": 10
   },
   {
    "id": "b1620a7f80c7",
@@ -1041,9 +1044,9 @@
    "walk_min": null
   },
   {
-   "id": "f43b2f4c8fee",
+   "id": "fa1f24944d9a",
    "title": "Stone Inequality Book Talk: The Everywhere Millionaire",
-   "url": "https://www.hks.harvard.edu/events/stone-inequality-book-talk-everywhere-millionaire",
+   "url": "https://www.hks.harvard.edu/index%2ephp/events/stone-inequality-book-talk-everywhere-millionaire",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -1054,9 +1057,9 @@
    "end": "2026-11-03T13:15:00-05:00",
    "date": "2026-11-03",
    "all_day": false,
-   "location": "Malkin Penthouse",
+   "location": "",
    "online": false,
-   "host": "Stone Program in Wealth Distribution, Inequality, and Social Policy",
+   "host": "",
    "food": {
     "status": "none",
     "types": [],
@@ -1073,15 +1076,15 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "In this Stone Inequality Book Talk, economist Owen Zidar (Princeton University) will discuss his new book, The Everywhere Millionaire: Who Is Really Rich in America and How They Got There, co-authored with economist Eric Zwick (University of Chicago Booth School of Business). For more information, click here.",
-   "blurb": "In this Stone Inequality Book Talk, economist Owen Zidar (Princeton University) will discuss his new book, The Everywhere Millionaire: Who Is Really Rich in America and How They Got There, co-authored with economist Eric Zwick (University of Chicago Booth…",
+   "summary": "",
+   "blurb": "",
    "event_page": true,
    "notes": "",
-   "place_name": "Littauer Building, Harvard Kennedy School",
-   "lat": 42.371045,
-   "lon": -71.12209,
-   "geo_method": "gazetteer",
-   "walk_min": 18
+   "place_name": "Harvard Kennedy School",
+   "lat": 42.371989,
+   "lon": -71.121761,
+   "geo_method": "host",
+   "walk_min": 16
   },
   {
    "id": "25832cb696eb",
@@ -1313,10 +1316,6 @@
      "url": "https://hls.harvard.edu/events/networked-state-capital-in-chinas-ai-ecosystem/"
     },
     {
-     "source_name": "Suggested calendar: Fairbanks center",
-     "url": "https://fairbank.fas.harvard.edu/events/networked-state-capital-in-chinas-ai-ecosystem/"
-    },
-    {
      "source_name": "Newsletter: Upcoming Events at the Fairbank Center",
      "url": "https://us.list-manage.com/OuJftkA3y2v?e=90d45c5f42&c2id=060c6b0883ca8c5bccce2ff96b5f45a4"
     }
@@ -1324,8 +1323,7 @@
    "aliases": [
     "6448a0450985",
     "8361637144b6",
-    "c0e1405557d7",
-    "eb9398a4d810"
+    "c0e1405557d7"
    ],
    "suggested": null,
    "forwarded": null,
@@ -1441,9 +1439,9 @@
     "evidence": "Whether your interests lie in philanthropy, impact investing, nonprofit leadership, or what it will take to finance social change, bring your lunch, and come ready for a candid and thought-provoking dialogue."
    },
    "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://docs.google.com/forms/d/e/1FAIpQLScLlgRGdDlZe7Mmw6m99HcwEXJEEP4Iw8brCSh8g0fZlIKlfA/viewform"
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
    },
    "audience": {
     "level": "unknown",
@@ -1915,10 +1913,6 @@
    "source_name": "Harvard Gazette calendar",
    "also_listed": [
     {
-     "source_name": "Harvard Kennedy School",
-     "url": "https://www.hks.harvard.edu/events/study-group-chris-whipple-decoding-2026-midterm-elections"
-    },
-    {
      "source_name": "Forwarded: New Study Groups & Special Guests: Elections, Civil Discourse, Communication, & ",
      "url": "https://iop.harvard.edu/events/study-group-chris-whipple-decoding-2026-midterm-elections-stuart-stevens"
     },
@@ -1927,13 +1921,17 @@
      "url": "https://events.college.harvard.edu/event/225943-study-group-with-chris-whipple-decoding-the-2026"
     },
     {
+     "source_name": "Harvard Kennedy School",
+     "url": "https://www.hks.harvard.edu/index%2ephp/events/study-group-chris-whipple-decoding-2026-midterm-elections"
+    },
+    {
      "source_name": "Forwarded: Election Week at the IOP!",
      "url": "https://click.comms.hks.harvard.edu/?qs=ABp7ImQiOjUwNDgsInQiOjE0MDgsInMiOjExfQALAAAAAAZs1p6ok9F2qQVu9DqTKjtLcZjlMMhEqTrwdTS2XPKBDmbn7snrzPB_IjrScIzCcRPxLZ-8HQbqdJ6Ce230kArj9Iwx6h9EzlhE6WuifA"
     }
    ],
    "aliases": [
     "5453cce9f6b4",
-    "a487638eb088",
+    "7d4aabdf2aec",
     "d4ef8300bb25",
     "ecb931a71eb5"
    ],
@@ -2025,65 +2023,6 @@
    "lon": -71.114276,
    "geo_method": "gazetteer",
    "walk_min": 7
-  },
-  {
-   "id": "485fdc78a10e",
-   "title": "Events Calendar",
-   "url": "https://hls.harvard.edu/calendar/",
-   "source_id": "suggested",
-   "source_name": "Suggested calendar: HLS",
-   "also_listed": [
-    {
-     "source_name": "Forwarded: BKC in the News and October Events",
-     "url": "https://cyber.harvard.edu/events"
-    }
-   ],
-   "aliases": [
-    "9aa5d6d0dbb9"
-   ],
-   "suggested": null,
-   "forwarded": {
-    "by": "Juan",
-    "subject": "BKC in the News and October Events",
-    "missing": [
-     "place"
-    ]
-   },
-   "start": "2026-11-03T17:00:00-05:00",
-   "end": null,
-   "date": "2026-11-03",
-   "all_day": false,
-   "location": "",
-   "online": false,
-   "host": "",
-   "food": {
-    "status": "confirmed",
-    "types": [
-     "Lunch"
-    ],
-    "evidence": "Food will be provided.",
-    "cue": "strong"
-   },
-   "registration": {
-    "status": "required",
-    "evidence": "RSVP here: https://forms.gle/FwKpm4LdFX7u6F4w6…",
-    "link": ""
-   },
-   "audience": {
-    "level": "restricted",
-    "group": "HLS community",
-    "evidence": "Open to the HLS community.",
-    "basis": "text"
-   },
-   "summary": "November 3 Tuesday • 17 events APALSA-HLEP Firm Fair 10:30 am - 2:30 pm Join APALSA and HLEP for their combined firm fair! Food will be provided. Norton Rose Fulbright 1L Coffee Chat 11:30 am - 1:30 pm See CSM/Symplicity for full event details. Need over Merit: Tracing the History of Israel’s Anti-Discrimination…",
-   "blurb": "Update:The start time of this event has been changed to 5:00 pm.What can the law teach us about where AI systems should exercise judgment when their instructions leave room for… As AI becomes increasingly embedded in our lives, it has taken on roles as a…",
-   "event_page": true,
-   "notes": "",
-   "place_name": "Harvard Law School",
-   "lat": 42.379106,
-   "lon": -71.119679,
-   "geo_method": "host",
-   "walk_min": 10
   },
   {
    "id": "ce80296a28d7",
@@ -2352,13 +2291,13 @@
   {
    "id": "2ec2c2b531a4",
    "title": "Election Night in the Forum",
-   "url": "https://www.hks.harvard.edu/events/election-night-forum",
-   "source_id": "hks",
-   "source_name": "Harvard Kennedy School",
+   "url": "https://iop.harvard.edu/events/election-night-forum",
+   "source_id": "gazette",
+   "source_name": "Harvard Gazette calendar",
    "also_listed": [
     {
-     "source_name": "Harvard Gazette calendar",
-     "url": "https://iop.harvard.edu/events/election-night-forum"
+     "source_name": "Harvard College events",
+     "url": "https://events.college.harvard.edu/event/225743-election-night-in-the-forum"
     },
     {
      "source_name": "Forwarded: JFK Jr. Forum: Jake Sullivan & Michael Anton Debate; Uzo Aduba & Joe Locke on Po",
@@ -2373,16 +2312,16 @@
      "url": "https://iop.harvard.edu/events/election-night-forum"
     },
     {
-     "source_name": "Harvard College events",
-     "url": "https://events.college.harvard.edu/event/225743-election-night-in-the-forum"
+     "source_name": "Harvard Kennedy School",
+     "url": "https://www.hks.harvard.edu/index%2ephp/events/election-night-forum"
     }
    ],
    "aliases": [
     "67dbe4d76ee4",
     "67dbe4d76ee4",
     "67dbe4d76ee4",
-    "8cc53050e7e7",
-    "a94d94176e3d"
+    "a94d94176e3d",
+    "cccbe1ce57f3"
    ],
    "suggested": null,
    "forwarded": {
@@ -2394,20 +2333,20 @@
    "end": "2026-11-03T23:00:00-05:00",
    "date": "2026-11-03",
    "all_day": false,
-   "location": "John F. Kennedy Jr. Forum",
+   "location": "JFK Jr. Forum, 79 John F. Kennedy St., Cambridge",
    "online": false,
-   "host": "Institute of Politics (IOP)",
+   "host": "Institute of Politics at Harvard Kennedy School; Harvard College Dean of Students Office",
    "food": {
     "status": "confirmed",
     "types": [
      "Food"
     ],
-    "evidence": "Food and beverages will be available throughout.",
+    "evidence": "*Food and beverages will be available throughout the evening.",
     "cue": "strong"
    },
    "registration": {
     "status": "required",
-    "evidence": "RSVP link on the event page",
+    "evidence": "Registration link on the event page",
     "link": "https://iop.harvard.edu/events/election-night-forum"
    },
    "audience": {
@@ -2416,14 +2355,14 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "The JFK Jr. Forum is the place to be on election night! At 7:00 pm, Eugene Scott will lead a conversation with a diverse group of guests on what to look for as the night unfolds. From 8:00-11:00 pm, watch the returns live with us on the big screen! Food and beverages will be available throughout. Featuring: Eugene…",
-   "blurb": "Our Forum event (held from 7pm-8pm) is at capacity. Please join us any time between 8pm-11pm for our Election Watch Party in the Forum (plus an overflow area in the Wexner Commons). Forum is the place to be on election night! At 7:00pm, Eugene Scott will lead…",
+   "summary": "The JFK Jr. Forum is the place to be on election night! At 7:00pm, Eugene Scott will lead a conversation with a diverse group of guests on what to look for as the night unfolds. And from 8:00pm–11:00pm, watch the returns live with us on the big screen! *Food and beverages will be available throughout the evening.",
+   "blurb": "Forum is the place to be on election night! At 7:00pm, Eugene Scott will lead a conversation with a diverse group of guests on what to look for as the night unfolds. Food and beverages will be available throughout the evening.",
    "event_page": true,
-   "notes": "",
+   "notes": "Cost: Free | Harvard Key required: No",
    "place_name": "Littauer Building, Harvard Kennedy School",
    "lat": 42.371045,
    "lon": -71.12209,
-   "geo_method": "host",
+   "geo_method": "gazetteer",
    "walk_min": 18
   },
   {
@@ -3124,49 +3063,6 @@
    "walk_min": 7
   },
   {
-   "id": "f68cd7d66421",
-   "title": "Bruce Armitage: A Maker’s Journey",
-   "url": "https://events.college.harvard.edu/ofa/event/225706-bruce-armitage-a-makers-journey",
-   "source_id": "college",
-   "source_name": "Harvard College events",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-11-04T11:00:00-05:00",
-   "end": "2026-11-04T17:00:00-05:00",
-   "date": "2026-11-04",
-   "all_day": false,
-   "location": "Ceramics Studio",
-   "online": false,
-   "host": "Ceramics Program, Office for the Arts at Harvard",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
-   },
-   "audience": {
-    "level": "restricted",
-    "group": "Harvard College students",
-    "evidence": "Harvard College calendar, no sign it is open to others",
-    "basis": "default"
-   },
-   "summary": "This exhibition celebrates the evolving work of Boston-based sculptor and ceramic artist Bruce Armitage, a long-time Resident Artist, Teaching Assistant, and Studio Lab Technician at the Ceramics Program, Office for the Arts at Harvard. He focuses on figurative sculpture influenced by classical traditions. Bruce is a…",
-   "blurb": "This exhibition celebrates the evolving work of Boston-based sculptor and ceramic artist Bruce Armitage, a long-time Resident Artist, Teaching Assistant, and Studio Lab Technician at the Ceramics Program, Office for the Arts at Harvard. He focuses on…",
-   "event_page": true,
-   "notes": "",
-   "place_name": "Ceramics Studio",
-   "lat": 42.362599,
-   "lon": -71.131201,
-   "geo_method": "source",
-   "walk_min": 37
-  },
-  {
    "id": "dc9fbe23b6dc",
    "title": "Measurement on the Color Line: Scientific Instruments and the Making of Human Categories",
    "url": "https://chsi.harvard.edu/measurement-color-line-scientific-instruments-and-making-human-categories",
@@ -3210,9 +3106,9 @@
    "walk_min": 7
   },
   {
-   "id": "e261108119df",
+   "id": "86d99bd2bfb7",
    "title": "Russian Strategic Nuclear Modernization in the 21st Century",
-   "url": "https://www.hks.harvard.edu/events/russian-strategic-nuclear-modernization-21st-century-0",
+   "url": "https://www.hks.harvard.edu/index%2ephp/events/russian-strategic-nuclear-modernization-21st-century-0",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -3223,9 +3119,9 @@
    "end": "2026-11-04T12:30:00-05:00",
    "date": "2026-11-04",
    "all_day": false,
-   "location": "Fainsod (l324)",
+   "location": "",
    "online": false,
-   "host": "Managing the Atom Project",
+   "host": "",
    "food": {
     "status": "none",
     "types": [],
@@ -3242,15 +3138,15 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "Russia is modernizing its nuclear arsenal. I argue that Russian nuclear modernization is driven by security concerns and status ambitions. Specifically, nuclear modernization hedges against the future development of American ballistic missile defense and conventional counterforce capabilities that could erode Russia’s…",
-   "blurb": "Russia is modernizing its nuclear arsenal. I argue that Russian nuclear modernization is driven by security concerns and status ambitions. Specifically, nuclear modernization hedges against the future development of American ballistic missile defense and…",
+   "summary": "",
+   "blurb": "",
    "event_page": true,
    "notes": "",
-   "place_name": "Littauer Building, Harvard Kennedy School",
-   "lat": 42.371045,
-   "lon": -71.12209,
-   "geo_method": "gazetteer",
-   "walk_min": 18
+   "place_name": "Harvard Kennedy School",
+   "lat": 42.371989,
+   "lon": -71.121761,
+   "geo_method": "host",
+   "walk_min": 16
   },
   {
    "id": "15c87a622a75",
@@ -3980,6 +3876,49 @@
    "walk_min": 10
   },
   {
+   "id": "42a594e87a5d",
+   "title": "Gallery Talk: Picturing Taste, Style, and Space in 1950s American Suburbia",
+   "url": "https://harvardartmuseums.org/calendar/gallery-talk-picturing-taste-style-and-space-in-1950s-american-suburbia?utm_source=gazette&utm_medium=listing&utm_campaign=Gallerytalk_APPC_Nov4&utm_id=Gallery+Talk%3A+Picturing+Taste%2C+Style%2C+and+Space+in+1950s+",
+   "source_id": "gazette",
+   "source_name": "Harvard Gazette calendar",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-04T12:30:00-05:00",
+   "end": "2026-11-04T13:00:00-05:00",
+   "date": "2026-11-04",
+   "all_day": false,
+   "location": "Harvard Art Museums, 32 Quincy St., Cambridge",
+   "online": false,
+   "host": "Harvard Art Museums",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "Join Destiny Crowley, curatorial graduate student intern in photography, to explore photographs in the exhibition The Way We Never Were: The American Professional Photographers Collection. Topics will include the dynamic revolutions in self-fashioning and labor in the 1950s, the pursuit of modern domestic comfort and…",
+   "blurb": "Join Destiny Crowley, curatorial graduate student intern in photography, to explore photographs in the exhibition The Way We Never Were: The American Professional Photographers Collection. Topics will include the dynamic revolutions in self-fashioning and…",
+   "event_page": true,
+   "notes": "Cost: Free admission | Harvard Key required: No",
+   "place_name": "Harvard Art Museums",
+   "lat": 42.374099,
+   "lon": -71.114113,
+   "geo_method": "gazetteer",
+   "walk_min": 7
+  },
+  {
    "id": "f533b8b43036",
    "title": "HALB x V&E",
    "url": "https://hls.harvard.edu/events/halb-x-ve/",
@@ -4348,39 +4287,42 @@
    "walk_min": 17
   },
   {
-   "id": "de4086e8d167",
+   "id": "9734d37fd1bc",
    "title": "Arte Povera and Relational Greekness: Memory, the 'Measure of Man,' and Mobility in The Work of Jannis Kounellis",
-   "url": "https://ol599rkab.cc.rs6.net/tn.jsp?f=001al_03K9I24Pm0cP5TCgMDkwOpeg8kviGL39kmGdWv90zuiaQj3noVBNytoDw8llXjil_eKUQfMW0bfmUv2-Obb9CCRSij8bFeG5UY_PWnJkxaHSVpoP3XHbPXgl2d8v33iCgiQIIEdYTShntbakjGibK2bygJ0ZI29PJ4PEmLEqoX2vBnEPb0wty3D7lhJTmDoBth9pGTRptU2HNgc_62BlHZNDpKMgjhf3VKyK34Mk-S1WWSgAcIA==&c=PuJ5Ed1A3LzUyEqGzePBzo3zuobwi5iLTDEpZRtzx8kSC7J1QYPiOQ==&ch=avpKrp43okUV5vXXMPFOYIs5rqRHOAxBSNBiEeWmWdweKzHpDcCwBg==",
-   "source_id": "newsletter",
-   "source_name": "Forwarded: Upcoming Events & Seminars at MHC",
-   "also_listed": [],
-   "aliases": [],
+   "url": "https://news.harvard.edu/gazette/harvard-events/events-calendar/?trumbaEmbed=view%3Devent%26eventid%3D212452925",
+   "source_id": "gazette",
+   "source_name": "Harvard Gazette calendar",
+   "also_listed": [
+    {
+     "source_name": "Forwarded: Upcoming Events & Seminars at MHC",
+     "url": "https://ol599rkab.cc.rs6.net/tn.jsp?f=001al_03K9I24Pm0cP5TCgMDkwOpeg8kviGL39kmGdWv90zuiaQj3noVBNytoDw8llXjil_eKUQfMW0bfmUv2-Obb9CCRSij8bFeG5UY_PWnJkxaHSVpoP3XHbPXgl2d8v33iCgiQIIEdYTShntbakjGibK2bygJ0ZI29PJ4PEmLEqoX2vBnEPb0wty3D7lhJTmDoBth9pGTRptU2HNgc_62BlHZNDpKMgjhf3VKyK34Mk-S1WWSgAcIA==&c=PuJ5Ed1A3LzUyEqGzePBzo3zuobwi5iLTDEpZRtzx8kSC7J1QYPiOQ==&ch=avpKrp43okUV5vXXMPFOYIs5rqRHOAxBSNBiEeWmWdweKzHpDcCwBg=="
+    }
+   ],
+   "aliases": [
+    "de4086e8d167"
+   ],
    "suggested": null,
    "forwarded": {
     "by": "Cecilia",
     "subject": "Upcoming Events & Seminars at MHC",
-    "missing": [
-     "place",
-     "event page",
-     "description"
-    ]
+    "missing": []
    },
    "start": "2026-11-04T14:00:00-05:00",
-   "end": null,
+   "end": "2026-11-04T15:30:00-05:00",
    "date": "2026-11-04",
    "all_day": false,
-   "location": "Online via Zoom",
-   "online": false,
-   "host": "",
+   "location": "On Zoom (for access, please register with the following weblink first)",
+   "online": true,
+   "host": "Modern Greek Studies Seminar Series, Mahindra Humanities Center, Harvard University",
    "food": {
     "status": "none",
     "types": [],
     "evidence": ""
    },
    "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
+    "status": "required",
+    "evidence": "Registration link on the event page",
+    "link": "https://harvard.zoom.us/meeting/register/AzrDbE2ZQN-xp7Q1x-nCZA"
    },
    "audience": {
     "level": "unknown",
@@ -4388,10 +4330,10 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "Arte Povera and Relational Greekness: Memory, the 'Measure of Man,' and Mobility in The Work of Jannis Kounellis Wednesday, November 4 at 2:00pm | Online via Zoom France and the World Lucas Hollister, Dartmouth College",
-   "blurb": "",
-   "event_page": false,
-   "notes": "",
+   "summary": "The lecture proposes a reading of Jannis Kounellis’s cultural identity, his Greekness, through memory, the measure of man and mobility. Drawing on Marios Fournaris’s research on Arte Povera and New Humanism, it examines how the “lived experience” of Kounellis’s birthplace, Piraeus, references to Greek antiquity, and…",
+   "blurb": "The lecture proposes a reading of Jannis Kounellis’s cultural identity, his Greekness, through memory, the measure of man and mobility. Drawing on Marios Fournaris’s research on Arte Povera and New Humanism, it examines how the “lived experience” of…",
+   "event_page": true,
+   "notes": "Harvard Key required: No",
    "place_name": "",
    "lat": null,
    "lon": null,
@@ -4543,57 +4485,6 @@
    "walk_min": 10
   },
   {
-   "id": "65bcc2a8a088",
-   "title": "Ambassador Nathalie Rayes | Guests: Ambassador Capricia Marshall",
-   "url": "https://click.comms.hks.harvard.edu/?qs=ABp7ImQiOjUwNDgsInQiOjE0MDgsInMiOjExfQALAAAAAAZs1p6olFF537obZyJRA0Q1iQytIf1cyULglTrsOun17vz3-aFnrVyv7E-X3mIc8DhMfiIx1a5jRMfHuEB0ac9OWFfS-X3yrvbh384aRw",
-   "source_id": "newsletter",
-   "source_name": "Forwarded: Election Week at the IOP!",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": {
-    "by": "Ellen",
-    "subject": "Election Week at the IOP!",
-    "missing": [
-     "place",
-     "event page",
-     "description"
-    ]
-   },
-   "start": "2026-11-04T16:00:00-05:00",
-   "end": null,
-   "date": "2026-11-04",
-   "all_day": false,
-   "location": "",
-   "online": false,
-   "host": "",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
-   },
-   "audience": {
-    "level": "unknown",
-    "group": "",
-    "evidence": "",
-    "basis": "none"
-   },
-   "summary": "Ambassador Nathalie Rayes | Guests: Ambassador Capricia Marshall and Opal Vadhan | Behind the Scenes of Power: Leadership, Diplomacy, and the White House | Weds., November 4, 4:00pm Ambassador Kelly Craft, Governor Doug Ducey, & Secretary Alejandro Mayorkas | Guest: Thomas Chatterton Williams",
-   "blurb": "",
-   "event_page": false,
-   "notes": "",
-   "place_name": "",
-   "lat": null,
-   "lon": null,
-   "geo_method": null,
-   "walk_min": null
-  },
-  {
    "id": "41aa1aae4371",
    "title": "Introduction to Mindfulness - Wednesday Series",
    "url": "https://events.college.harvard.edu/event/225850-introduction-to-mindfulness-wednesday-series",
@@ -4648,13 +4539,23 @@
      "url": "https://www.hks.harvard.edu/events/study-group-amb-nathalie-rayes-leadership-diplomacy-and-white-house"
     },
     {
+     "source_name": "Harvard Gazette calendar",
+     "url": "https://iop.harvard.edu/events/study-group-ambassador-nathalie-rayes-behind-scenes-power-leadership-diplomacy-and-white"
+    },
+    {
      "source_name": "Harvard College events",
      "url": "https://events.college.harvard.edu/event/225945-study-group-with-ambassador-nathalie-rayes-behind"
+    },
+    {
+     "source_name": "Forwarded: Election Week at the IOP!",
+     "url": "https://click.comms.hks.harvard.edu/?qs=ABp7ImQiOjUwNDgsInQiOjE0MDgsInMiOjExfQALAAAAAAZs1p6olFF537obZyJRA0Q1iQytIf1cyULglTrsOun17vz3-aFnrVyv7E-X3mIc8DhMfiIx1a5jRMfHuEB0ac9OWFfS-X3yrvbh384aRw"
     }
    ],
    "aliases": [
     "3c39998c5f0a",
-    "ef06dbd28e83"
+    "65bcc2a8a088",
+    "ef06dbd28e83",
+    "f53d30d138df"
    ],
    "suggested": null,
    "forwarded": {
@@ -4686,7 +4587,7 @@
     "basis": "inferred"
    },
    "summary": "Wednesday, November 4, 2026 Time: 4:00pm to 5:15pm EST Where: L-166 Meeting Method: In-Person Add to Calendar 2026-11-04 16:00:00 2026-11-04 17:15:00 Study Group with Ambassador Nathalie Rayes: Behind the Scenes of Power: Leadership, Diplomacy, and the White House with Amb. Capricia Marshall & Opal Vadhan <p>What does…",
-   "blurb": "What does it take to lead behind the scenes at the highest levels of American government? Join Ambassador Nathalie Rayes for a conversation with Ambassador Capricia Marshall and Opal Vadhan, two women whose careers have taken them into the inner circles of…",
+   "blurb": "Join Ambassador Nathalie Rayes for a conversation with Ambassador Capricia Marshall and Opal Vadhan, two women whose careers have taken them into the inner circles of American political leadership. From the White House to the State Department, they will share…",
    "event_page": true,
    "notes": "",
    "place_name": "Littauer Building, Harvard Kennedy School",
@@ -4889,6 +4790,10 @@
    "source_name": "Forwarded: New Study Groups & Special Guests: Elections, Civil Discourse, Communication, & ",
    "also_listed": [
     {
+     "source_name": "Harvard Gazette calendar",
+     "url": "https://iop.harvard.edu/events/study-group-ambassador-kelly-craft-governor-doug-ducey-and-honorable-alejandro-mayorkas"
+    },
+    {
      "source_name": "Harvard Kennedy School",
      "url": "https://www.hks.harvard.edu/events/politics-age-discontent-civil-discourse-and-future-democracy"
     },
@@ -4904,6 +4809,7 @@
    "aliases": [
     "1f2c60b71764",
     "4647138d865c",
+    "843a48ff2a00",
     "dab728abb69f"
    ],
    "suggested": null,
@@ -5080,10 +4986,14 @@
   {
    "id": "4593c747f38b",
    "title": "A Debrief on the Midterms: What Happened, and What Happens Next?",
-   "url": "https://www.hks.harvard.edu/events/debrief-midterms-what-happened-and-what-happens-next",
-   "source_id": "hks",
-   "source_name": "Harvard Kennedy School",
+   "url": "https://iop.harvard.edu/events/debrief-midterms-what-happened-and-what-happens-next",
+   "source_id": "gazette",
+   "source_name": "Harvard Gazette calendar",
    "also_listed": [
+    {
+     "source_name": "Harvard Kennedy School",
+     "url": "https://www.hks.harvard.edu/events/debrief-midterms-what-happened-and-what-happens-next"
+    },
     {
      "source_name": "Harvard College events",
      "url": "https://events.college.harvard.edu/event/225964-a-debrief-on-the-midterms-what-happened-and-what"
@@ -5094,6 +5004,7 @@
     }
    ],
    "aliases": [
+    "86fc85bf9268",
     "a95cbee31028",
     "fd5c9630f03a"
    ],
@@ -5107,9 +5018,9 @@
    "end": "2026-11-04T19:00:00-05:00",
    "date": "2026-11-04",
    "all_day": false,
-   "location": "John F. Kennedy Jr. Forum",
+   "location": "JFK Jr. Forum, 79 JFK St., Cambridge",
    "online": false,
-   "host": "Institute of Politics (IOP)",
+   "host": "Institute of Politics at Harvard Kennedy School",
    "food": {
     "status": "none",
     "types": [],
@@ -5117,7 +5028,7 @@
    },
    "registration": {
     "status": "required",
-    "evidence": "RSVP link on the event page",
+    "evidence": "Registration link on the event page",
     "link": "https://iop.harvard.edu/events/debrief-midterms-what-happened-and-what-happens-next"
    },
    "audience": {
@@ -5126,15 +5037,103 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "On the heels of the midterm elections, join us for a discussion that will include President Obama's 2008 Campaign Manager, David Plouffe, and Senior Politico Reporter Jonathan Martin to unpack the results and look ahead to what comes next for both parties. A special post-election Forum with guests including: David…",
+   "summary": "On the heels of the midterm elections, join us for a discussion that will include President Obama's 2008 Campaign Manager David Plouffe and Senior Politico Reporter Jonathan Martin to unpack the results, and look ahead to what comes next for both parties. *Please register with a valid Harvard email address to attend…",
    "blurb": "Where were the midterms won and lost? Two top strategists from opposite sides of the aisle go inside the races that mattered most to examine what brought voters out, which campaign bets paid off, and where each party gained or lost ground. They’ll also look…",
    "event_page": true,
-   "notes": "",
+   "notes": "Cost: Free | Harvard Key required: No",
    "place_name": "Littauer Building, Harvard Kennedy School",
    "lat": 42.371045,
    "lon": -71.12209,
-   "geo_method": "host",
+   "geo_method": "gazetteer",
    "walk_min": 18
+  },
+  {
+   "id": "02560dd6f956",
+   "title": "Artist Talk: Enzo Camacho and Ami Lien",
+   "url": "https://harvardartmuseums.org/calendar/artist-talk-enzo-camacho-and-ami-lien?utm_source=gazette&utm_medium=listing&utm_campaign=Lecture_Ossario_Nov4&utm_id=Artist+Talk%3A+Enzo+Camacho+and+Ami+Lien",
+   "source_id": "gazette",
+   "source_name": "Harvard Gazette calendar",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-04T18:00:00-05:00",
+   "end": "2026-11-04T20:00:00-05:00",
+   "date": "2026-11-04",
+   "all_day": false,
+   "location": "Harvard Art Museums, 32 Quincy St., Cambridge",
+   "online": false,
+   "host": "Harvard Art Museums",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "Registration link on the event page",
+    "link": "https://secure.touchnet.net/C20832_ustores/web/store_cat.jsp?STOREID=99&CATID=276&SINGLESTORE=true"
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "Join visual artists and Harvard alumni Enzo Camacho (A.B. ’07) and Ami Lien (A.B. ’09) as they share insights and developments into their practice as artistic collaborators. Working between New York, Berlin, and Manila, Camacho and Lien develop research-based, site-specific, and documentary projects to examine…",
+   "blurb": "Join visual artists and Harvard alumni Enzo Camacho (A.B. ’07) and Ami Lien (A.B. ’09) as they share insights and developments into their practice as artistic collaborators. Working between New York, Berlin, and Manila, Camacho and Lien develop…",
+   "event_page": true,
+   "notes": "Cost: Free admission | Harvard Key required: No",
+   "place_name": "Harvard Art Museums",
+   "lat": 42.374099,
+   "lon": -71.114113,
+   "geo_method": "gazetteer",
+   "walk_min": 7
+  },
+  {
+   "id": "a41868e27777",
+   "title": "Free Hybrid Panel Discussion — Race in the Machine: The Making of Algorithmic Bias",
+   "url": "https://hmsc.harvard.edu/calendar_event/race-in-the-machine-the-making-of-algorithmic-bias/",
+   "source_id": "gazette",
+   "source_name": "Harvard Gazette calendar",
+   "also_listed": [],
+   "aliases": [
+    "a41868e27777"
+   ],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-04T18:00:00-05:00",
+   "end": "2026-11-04T19:15:00-05:00",
+   "date": "2026-11-04",
+   "all_day": false,
+   "location": "Zimmer Hall (formerly Science Center), Lecture Hall A, 1 Oxford St., Cambridge",
+   "online": false,
+   "host": "Presented by the Collection of Historical Scientific Instruments and the Harvard Museums of Science & Culture, in collaboration with the Hutchins Center for African & African American Research.",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "Registration link on the event page",
+    "link": "https://forms.cloud.microsoft/pages/responsepage.aspx?id=9CL6b2hFBUGtQy461HJpVwaEfAvKIKRHjDqup5ZqIVNUNlBJT0FLV0U0QklMQUZEVkJSU0YzUERGNy4u&route=shorturl"
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "Though many of us may think of race as a social construct, exactly how race has been (and continues to be) constructed is often unclear, with deadly consequences. This panel discussion brings together scholars who investigate how racial categories are hidden in numerous technologies central to modern life—clinical…",
+   "blurb": "Though many of us may think of race as a social construct, exactly how race has been (and continues to be) constructed is often unclear, with deadly consequences. This panel discussion brings together scholars who investigate how racial categories are hidden…",
+   "event_page": true,
+   "notes": "Cost: Free | Harvard Key required: No",
+   "place_name": "Science Center",
+   "lat": 42.376491,
+   "lon": -71.117051,
+   "geo_method": "gazetteer",
+   "walk_min": 7
   },
   {
    "id": "941c20878ebe",
@@ -5271,45 +5270,52 @@
   },
   {
    "id": "df3cace3dda6",
-   "title": "Emerging Ideas on Art and Society: Nato Thompson",
-   "url": "https://events.college.harvard.edu/event/225904-emerging-ideas-on-art-and-society-nato-thompson",
-   "source_id": "college",
-   "source_name": "Harvard College events",
-   "also_listed": [],
-   "aliases": [],
+   "title": "Emerging Ideas on Art & Society: Nato Thompson",
+   "url": "https://tdm.fas.harvard.edu/event/emerging-ideas-art-and-society-nato-thompson?occ_id=0",
+   "source_id": "gazette",
+   "source_name": "Harvard Gazette calendar",
+   "also_listed": [
+    {
+     "source_name": "Harvard College events",
+     "url": "https://events.college.harvard.edu/event/225904-emerging-ideas-on-art-and-society-nato-thompson"
+    }
+   ],
+   "aliases": [
+    "f01aa31e0af3"
+   ],
    "suggested": null,
    "forwarded": null,
    "start": "2026-11-04T18:30:00-05:00",
    "end": "2026-11-04T20:00:00-05:00",
    "date": "2026-11-04",
    "all_day": false,
-   "location": "12 Holyoke St., Room 203",
+   "location": "Room 203, 12 Holyoke St., Cambridge",
    "online": false,
-   "host": "Main Calendar",
+   "host": "Theater, Dance & Media (TDM) and the Harvard University Committee on the Arts (HUCA)",
    "food": {
     "status": "none",
     "types": [],
     "evidence": ""
    },
    "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
+    "status": "required",
+    "evidence": "Registration link on the event page",
+    "link": "https://docs.google.com/forms/d/e/1FAIpQLSddKHYjJwlgDoICYFSvDd8qfLZkiEKHSyS5kyVKmEVDQWcRJg/viewform"
    },
    "audience": {
-    "level": "restricted",
-    "group": "Harvard College students",
-    "evidence": "Harvard College calendar, no sign it is open to others",
-    "basis": "default"
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
    },
    "summary": "On Wednesday, November 4 at 6:30pm, Harvard University Committee on the Arts (HUCA) and Theater, Dance & Media (TDM) welcome author, curator and entrepreneur, Nato Thompson for the final Emerging Ideas on Art & Society event, or “HUCA Salon,” of the semester! Nato Thompson believes deeply in the power of art to…",
    "blurb": "On Wednesday, November 4 at 6:30pm, Harvard University Committee on the Arts (HUCA) and Theater, Dance & Media (TDM) welcome author, curator and entrepreneur, Nato Thompson for the final Emerging Ideas on Art & Society event, or “HUCA Salon,” of the semester!",
    "event_page": true,
-   "notes": "",
-   "place_name": "12 Holyoke St.",
-   "lat": 42.3725,
-   "lon": -71.117956,
-   "geo_method": "source",
+   "notes": "Cost: Free! | Harvard Key required: No",
+   "place_name": "Farkas Hall",
+   "lat": 42.372507,
+   "lon": -71.117948,
+   "geo_method": "gazetteer",
    "walk_min": 12
   },
   {
@@ -6059,49 +6065,6 @@
    "lon": -71.121761,
    "geo_method": "gazetteer",
    "walk_min": 16
-  },
-  {
-   "id": "dbcfb15f09c8",
-   "title": "Bruce Armitage: A Maker’s Journey",
-   "url": "https://events.college.harvard.edu/ofa/event/225707-bruce-armitage-a-makers-journey",
-   "source_id": "college",
-   "source_name": "Harvard College events",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-11-05T11:00:00-05:00",
-   "end": "2026-11-05T17:00:00-05:00",
-   "date": "2026-11-05",
-   "all_day": false,
-   "location": "Ceramics Studio",
-   "online": false,
-   "host": "Ceramics Program, Office for the Arts at Harvard",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
-   },
-   "audience": {
-    "level": "restricted",
-    "group": "Harvard College students",
-    "evidence": "Harvard College calendar, no sign it is open to others",
-    "basis": "default"
-   },
-   "summary": "This exhibition celebrates the evolving work of Boston-based sculptor and ceramic artist Bruce Armitage, a long-time Resident Artist, Teaching Assistant, and Studio Lab Technician at the Ceramics Program, Office for the Arts at Harvard. He focuses on figurative sculpture influenced by classical traditions. Bruce is a…",
-   "blurb": "This exhibition celebrates the evolving work of Boston-based sculptor and ceramic artist Bruce Armitage, a long-time Resident Artist, Teaching Assistant, and Studio Lab Technician at the Ceramics Program, Office for the Arts at Harvard. He focuses on…",
-   "event_page": true,
-   "notes": "",
-   "place_name": "Ceramics Studio",
-   "lat": 42.362599,
-   "lon": -71.131201,
-   "geo_method": "source",
-   "walk_min": 37
   },
   {
    "id": "6f7f5115898b",
@@ -6990,6 +6953,49 @@
    "walk_min": null
   },
   {
+   "id": "eb8c6b4fa9cf",
+   "title": "Disability Access Office (DAO) Virtual Office Hours",
+   "url": "https://events.college.harvard.edu/dao/event/226007-disability-access-office-dao-virtual-office-hours",
+   "source_id": "college",
+   "source_name": "Harvard College events",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-05T14:00:00-05:00",
+   "end": "2026-11-05T15:00:00-05:00",
+   "date": "2026-11-05",
+   "all_day": false,
+   "location": "",
+   "online": true,
+   "host": "Disability Access Office (DAO)",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "none",
+    "evidence": "Students, staff, and faculty are welcome to join our virtual drop-in hours on Zoom Monday and Thursday from 2:00–3:00 PM ET, and Tuesday and Friday from 11:00 AM–12:00 PM ET.",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "undergraduates (First-Year, Junior, Senior, Sophomore)",
+    "evidence": "College calendar audience: First-Year, Junior, Senior, Sophomore",
+    "basis": "listing"
+   },
+   "summary": "Do you have a question about the Disability Access Office (DAO) or want to learn how to get connected with DAO? Students, staff, and faculty are welcome to join our virtual drop-in hours on Zoom Monday and Thursday from 2:00–3:00 PM ET, and Tuesday and Friday from 11:00 AM–12:00 PM ET.",
+   "blurb": "Do you have a question about the Disability Access Office (DAO) or want to learn how to get connected with DAO? Students, staff, and faculty are welcome to join our virtual drop-in hours on Zoom Monday and Thursday from 2:00–3:00 PM ET, and Tuesday and Friday…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "",
+   "lat": null,
+   "lon": null,
+   "geo_method": null,
+   "walk_min": null
+  },
+  {
    "id": "27400730a564",
    "title": "Study Group with Amb. Nathalie Rayes: NATO, Ukraine, and the Future of the West",
    "url": "https://www.hks.harvard.edu/events/study-group-amb-nathalie-rayes-nato-ukraine-and-future-west",
@@ -7421,6 +7427,60 @@
    "walk_min": 16
   },
   {
+   "id": "9943cba3ca5d",
+   "title": "Alejandro Mayorkas Study Group: Policymaking and Governance in Homeland Security",
+   "url": "https://www.hks.harvard.edu/events/alejandro-mayorkas-study-group-policymaking-governance-homeland-security",
+   "source_id": "hks",
+   "source_name": "Harvard Kennedy School",
+   "also_listed": [
+    {
+     "source_name": "Forwarded: New Study Groups & Special Guests: Elections, Civil Discourse, Communication, & ",
+     "url": "https://iop.harvard.edu/events/study-group-honorable-alejandro-mayorkas-policymaking-and-governance-homeland-security"
+    }
+   ],
+   "aliases": [
+    "dd304e028d13"
+   ],
+   "suggested": null,
+   "forwarded": {
+    "by": "Ellen",
+    "subject": "New Study Groups & Special Guests: Elections, Civil Discourse, Communication, & Security",
+    "missing": []
+   },
+   "start": "2026-11-05T16:30:00-05:00",
+   "end": "2026-11-05T17:45:00-05:00",
+   "date": "2026-11-05",
+   "all_day": false,
+   "location": "L-163",
+   "online": false,
+   "host": "Institute of Politics (IOP)",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "RSVP link on the event page",
+    "link": "https://iop.harvard.edu/events/study-group-honorable-alejandro-mayorkas-policymaking-and-governance-homeland-security"
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "HKS students",
+    "evidence": "Title: Alejandro Mayorkas Study Group: Policymaking and Governance in Homeland Security",
+    "basis": "inferred"
+   },
+   "summary": "Issues of homeland security impact our daily lives in many ways. The policies we develop and implement, and how we govern the homeland security enterprise, involve profound, substantive policy decisions, political considerations, operational realities, and a multitude of other factors. We will discuss policymaking and…",
+   "blurb": "Issues of homeland security impact our daily lives in many ways. The policies we develop and implement, and how we govern the homeland security enterprise, involve profound, substantive policy decisions, political considerations, operational realities, and a…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Littauer Building, Harvard Kennedy School",
+   "lat": 42.371045,
+   "lon": -71.12209,
+   "geo_method": "gazetteer",
+   "walk_min": 18
+  },
+  {
    "id": "859df7b47756",
    "title": "French Crime Fiction’s Extractive Narratives",
    "url": "https://ol599rkab.cc.rs6.net/tn.jsp?f=001al_03K9I24Pm0cP5TCgMDkwOpeg8kviGL39kmGdWv90zuiaQj3noVBNytoDw8llXD-tuPTR4TX1vlF-OcwLNAysQP90pa_pXzbTsWmoxRQM-NrOC-isGmcs02po9q5fdrKowgSszn-AGjCDCGZTbrgiNsr60qbGXFySyC_2v6dX_9IcRfsqztp7D_otpubJNqQj1aIOPmFcQlbZTA8ygmcUBOvXzYWFw3KtBFDFdiUPe1zJm5F1KBkzgIA0hqDpB&c=PuJ5Ed1A3LzUyEqGzePBzo3zuobwi5iLTDEpZRtzx8kSC7J1QYPiOQ==&ch=avpKrp43okUV5vXXMPFOYIs5rqRHOAxBSNBiEeWmWdweKzHpDcCwBg==",
@@ -7605,60 +7665,6 @@
    "lon": -71.113135,
    "geo_method": "gazetteer",
    "walk_min": 5
-  },
-  {
-   "id": "9943cba3ca5d",
-   "title": "[Canceled] Alejandro Mayorkas Study Group",
-   "url": "https://www.hks.harvard.edu/events/alejandro-mayorkas-study-group-policymaking-governance-homeland-security",
-   "source_id": "hks",
-   "source_name": "Harvard Kennedy School",
-   "also_listed": [
-    {
-     "source_name": "Forwarded: New Study Groups & Special Guests: Elections, Civil Discourse, Communication, & ",
-     "url": "https://iop.harvard.edu/events/study-group-honorable-alejandro-mayorkas-policymaking-and-governance-homeland-security"
-    }
-   ],
-   "aliases": [
-    "dd304e028d13"
-   ],
-   "suggested": null,
-   "forwarded": {
-    "by": "Ellen",
-    "subject": "New Study Groups & Special Guests: Elections, Civil Discourse, Communication, & Security",
-    "missing": []
-   },
-   "start": "2026-11-05T16:30:00-05:00",
-   "end": "2026-11-05T17:45:00-05:00",
-   "date": "2026-11-05",
-   "all_day": false,
-   "location": "L-163",
-   "online": false,
-   "host": "Institute of Politics (IOP)",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://iop.harvard.edu/events/study-group-honorable-alejandro-mayorkas-policymaking-and-governance-homeland-security"
-   },
-   "audience": {
-    "level": "restricted",
-    "group": "HKS students",
-    "evidence": "Title: [Canceled] Alejandro Mayorkas Study Group",
-    "basis": "inferred"
-   },
-   "summary": "Issues of homeland security impact our daily lives in many ways. The policies we develop and implement, and how we govern the homeland security enterprise, involve profound, substantive policy decisions, political considerations, operational realities, and a multitude of other factors. We will discuss policymaking and…",
-   "blurb": "Issues of homeland security impact our daily lives in many ways. The policies we develop and implement, and how we govern the homeland security enterprise, involve profound, substantive policy decisions, political considerations, operational realities, and a…",
-   "event_page": true,
-   "notes": "",
-   "place_name": "Littauer Building, Harvard Kennedy School",
-   "lat": 42.371045,
-   "lon": -71.12209,
-   "geo_method": "gazetteer",
-   "walk_min": 18
   },
   {
    "id": "c453de8e2d7b",
@@ -9323,9 +9329,9 @@
    "walk_min": 18
   },
   {
-   "id": "98ce1c7f9be0",
-   "title": "Bruce Armitage: A Maker’s Journey",
-   "url": "https://events.college.harvard.edu/ofa/event/225708-bruce-armitage-a-makers-journey",
+   "id": "23af41dff59b",
+   "title": "Disability Access Office (DAO) Virtual Office Hours",
+   "url": "https://events.college.harvard.edu/dao/event/226067-disability-access-office-dao-virtual-office-hours",
    "source_id": "college",
    "source_name": "Harvard College events",
    "also_listed": [],
@@ -9333,37 +9339,37 @@
    "suggested": null,
    "forwarded": null,
    "start": "2026-11-06T11:00:00-05:00",
-   "end": "2026-11-06T17:00:00-05:00",
+   "end": "2026-11-06T12:00:00-05:00",
    "date": "2026-11-06",
    "all_day": false,
-   "location": "Ceramics Studio",
-   "online": false,
-   "host": "Ceramics Program, Office for the Arts at Harvard",
+   "location": "",
+   "online": true,
+   "host": "Disability Access Office (DAO)",
    "food": {
     "status": "none",
     "types": [],
     "evidence": ""
    },
    "registration": {
-    "status": "unknown",
-    "evidence": "",
+    "status": "none",
+    "evidence": "Students, staff, and faculty are welcome to join our virtual drop-in hours on Zoom Monday and Thursday from 2:00–3:00 PM ET, and Tuesday and Friday from 11:00 AM–12:00 PM ET.",
     "link": ""
    },
    "audience": {
     "level": "restricted",
-    "group": "Harvard College students",
-    "evidence": "Harvard College calendar, no sign it is open to others",
-    "basis": "default"
+    "group": "undergraduates (First-Year, Junior, Senior, Sophomore)",
+    "evidence": "College calendar audience: First-Year, Junior, Senior, Sophomore",
+    "basis": "listing"
    },
-   "summary": "This exhibition celebrates the evolving work of Boston-based sculptor and ceramic artist Bruce Armitage, a long-time Resident Artist, Teaching Assistant, and Studio Lab Technician at the Ceramics Program, Office for the Arts at Harvard. He focuses on figurative sculpture influenced by classical traditions. Bruce is a…",
-   "blurb": "This exhibition celebrates the evolving work of Boston-based sculptor and ceramic artist Bruce Armitage, a long-time Resident Artist, Teaching Assistant, and Studio Lab Technician at the Ceramics Program, Office for the Arts at Harvard. He focuses on…",
+   "summary": "Do you have a question about the Disability Access Office (DAO) or want to learn how to get connected with DAO? Students, staff, and faculty are welcome to join our virtual drop-in hours on Zoom Monday and Thursday from 2:00–3:00 PM ET, and Tuesday and Friday from 11:00 AM–12:00 PM ET.",
+   "blurb": "Do you have a question about the Disability Access Office (DAO) or want to learn how to get connected with DAO? Students, staff, and faculty are welcome to join our virtual drop-in hours on Zoom Monday and Thursday from 2:00–3:00 PM ET, and Tuesday and Friday…",
    "event_page": true,
    "notes": "",
-   "place_name": "Ceramics Studio",
-   "lat": 42.362599,
-   "lon": -71.131201,
-   "geo_method": "source",
-   "walk_min": 37
+   "place_name": "",
+   "lat": null,
+   "lon": null,
+   "geo_method": null,
+   "walk_min": null
   },
   {
    "id": "d20e03cb8fd2",
@@ -11228,7 +11234,7 @@
    "end": "2026-11-07T16:00:00-05:00",
    "date": "2026-11-07",
    "all_day": false,
-   "location": "Pound Hall, 100 Cahill Classroom, Harvard Law School",
+   "location": "WCC, 1023 Classroom, Harvard Law School",
    "online": false,
    "host": "Journal of Law & Public Policy",
    "food": {
@@ -11251,9 +11257,9 @@
    "blurb": "",
    "event_page": true,
    "notes": "",
-   "place_name": "Pound Hall, Harvard Law School",
-   "lat": 42.378601,
-   "lon": -71.119747,
+   "place_name": "Wasserstein Hall (WCC), Harvard Law School",
+   "lat": 42.379383,
+   "lon": -71.119421,
    "geo_method": "gazetteer",
    "walk_min": 10
   },
@@ -14158,8 +14164,8 @@
     "evidence": "HLS listing audience: HLS only",
     "basis": "listing"
    },
-   "summary": "What does investigating insider trading on a prediction market actually look like? Join the Harvard Law School Blockchain and Fintech Initiative for a conversation with Ian McGinley, partner at Sidley Austin and former CFTC Director of Enforcement, and Spyridon (Spiro) Antonopoulos, Vice President, Client Solutions at…",
-   "blurb": "What does investigating insider trading on a prediction market actually look like? Join the Harvard Law School Blockchain and Fintech Initiative for a conversation with Ian McGinley, partner at Sidley Austin and former CFTC Director of Enforcement, and…",
+   "summary": "What does investigating insider trading on a prediction market actually look like? Join the Harvard Law School Blockchain and Fintech Initiative for a conversation with Spyridon (Spiro) Antonopoulos, Vice President, Client Solutions at Solidus Labs. We’ll explore how suspicious trading is identified, what it takes to…",
+   "blurb": "What does investigating insider trading on a prediction market actually look like? Join the Harvard Law School Blockchain and Fintech Initiative for a conversation with Spyridon (Spiro) Antonopoulos, Vice President, Client Solutions at Solidus Labs. We’ll…",
    "event_page": true,
    "notes": "",
    "place_name": "Wasserstein Hall (WCC), Harvard Law School",
@@ -14571,6 +14577,49 @@
    "walk_min": 18
   },
   {
+   "id": "93e47aae2999",
+   "title": "Disability Access Office (DAO) Virtual Office Hours",
+   "url": "https://events.college.harvard.edu/dao/event/226008-disability-access-office-dao-virtual-office-hours",
+   "source_id": "college",
+   "source_name": "Harvard College events",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-09T14:00:00-05:00",
+   "end": "2026-11-09T15:00:00-05:00",
+   "date": "2026-11-09",
+   "all_day": false,
+   "location": "",
+   "online": true,
+   "host": "Disability Access Office (DAO)",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "none",
+    "evidence": "Students, staff, and faculty are welcome to join our virtual drop-in hours on Zoom Monday and Thursday from 2:00–3:00 PM ET, and Tuesday and Friday from 11:00 AM–12:00 PM ET.",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "undergraduates (First-Year, Junior, Senior, Sophomore)",
+    "evidence": "College calendar audience: First-Year, Junior, Senior, Sophomore",
+    "basis": "listing"
+   },
+   "summary": "Do you have a question about the Disability Access Office (DAO) or want to learn how to get connected with DAO? Students, staff, and faculty are welcome to join our virtual drop-in hours on Zoom Monday and Thursday from 2:00–3:00 PM ET, and Tuesday and Friday from 11:00 AM–12:00 PM ET.",
+   "blurb": "Do you have a question about the Disability Access Office (DAO) or want to learn how to get connected with DAO? Students, staff, and faculty are welcome to join our virtual drop-in hours on Zoom Monday and Thursday from 2:00–3:00 PM ET, and Tuesday and Friday…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "",
+   "lat": null,
+   "lon": null,
+   "geo_method": null,
+   "walk_min": null
+  },
+  {
    "id": "d19acd902b9d",
    "title": "Cravath 1L Coffee Chat",
    "url": "https://hls.harvard.edu/events/cravath-1l-coffee-chat-2/",
@@ -14898,7 +14947,9 @@
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
-   "aliases": [],
+   "aliases": [
+    "902e7b6c661b"
+   ],
    "suggested": null,
    "forwarded": null,
    "start": "2026-11-09T17:00:00-05:00",
@@ -14947,6 +14998,7 @@
     }
    ],
    "aliases": [
+    "9c8de264a467",
     "9c8de264a467"
    ],
    "suggested": null,
@@ -17011,9 +17063,9 @@
    "walk_min": 3
   },
   {
-   "id": "a0e9c77f42cd",
+   "id": "60d9afa104b1",
    "title": "Case Studies from the White House Speechwriting Shop: A Communications Workshop",
-   "url": "https://www.hks.harvard.edu/events/case-studies-white-house-speechwriting-shop-communications-workshop-0",
+   "url": "https://www.hks.harvard.edu/index%2ephp/events/case-studies-white-house-speechwriting-shop-communications-workshop-0",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -17024,18 +17076,18 @@
    "end": "2026-11-10T15:00:00-05:00",
    "date": "2026-11-10",
    "all_day": false,
-   "location": "Online",
-   "online": true,
-   "host": "Communications Program",
+   "location": "",
+   "online": false,
+   "host": "",
    "food": {
     "status": "none",
     "types": [],
     "evidence": ""
    },
    "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://harvard.zoom.us/meeting/register/8DIS1mSKRaSPjGj0aCQ8PA"
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
    },
    "audience": {
     "level": "unknown",
@@ -17043,15 +17095,15 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "Case Studies from the White House Speechwriting Shop: A window into the life cycle and strategies behind two speeches written with President Obama.",
-   "blurb": "A window into the life cycle and strategies behind two speeches written with",
+   "summary": "",
+   "blurb": "",
    "event_page": true,
    "notes": "",
-   "place_name": "",
-   "lat": null,
-   "lon": null,
-   "geo_method": null,
-   "walk_min": null
+   "place_name": "Harvard Kennedy School",
+   "lat": 42.371989,
+   "lon": -71.121761,
+   "geo_method": "host",
+   "walk_min": 16
   },
   {
    "id": "6f3ddc611a2b",
@@ -17281,6 +17333,92 @@
    "walk_min": null
   },
   {
+   "id": "5c9d8e057edd",
+   "title": "Study Group with Amb. Kelly Craft: Trump's Foreign Policy – The Final Two Years",
+   "url": "https://www.hks.harvard.edu/events/study-group-amb-kelly-craft-trumps-foreign-policy-final-two-years",
+   "source_id": "hks",
+   "source_name": "Harvard Kennedy School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-10T16:00:00-05:00",
+   "end": "2026-11-10T17:15:00-05:00",
+   "date": "2026-11-10",
+   "all_day": false,
+   "location": "L-166",
+   "online": false,
+   "host": "Institute of Politics (IOP)",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "RSVP link on the event page",
+    "link": "https://iop.harvard.edu/events/study-group-ambassador-kelly-craft-trumps-foreign-policy-final-two-years-marc-thiessen"
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "HKS students",
+    "evidence": "Title: Study Group with Amb. Kelly Craft: Trump's Foreign Policy – The Final Two Years",
+    "basis": "inferred"
+   },
+   "summary": "In the first two years of his second term, Donald Trump took military action in Yemen, Iran, Nigeria, and Venezuela. What will the last two years of the Trump presidency mean for the world? IN-PERSON GUEST: Marc Thiessen, Former White House Chief Speechwriter; Senior Fellow American Enterprise Institute; Columnist for…",
+   "blurb": "In the first two years of his second term, Donald Trump took military action in Yemen, Iran, Nigeria, and Venezuela. What will the last two years of the Trump presidency mean for the world? These off-the-record conversations are open to members of the Harvard…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Littauer Building, Harvard Kennedy School",
+   "lat": 42.371045,
+   "lon": -71.12209,
+   "geo_method": "gazetteer",
+   "walk_min": 18
+  },
+  {
+   "id": "24e55a834628",
+   "title": "Study Group: Leadership, Democracy, & Future of Transatlantic Alliance",
+   "url": "https://www.hks.harvard.edu/events/study-group-leadership-democracy-future-transatlantic-alliance",
+   "source_id": "hks",
+   "source_name": "Harvard Kennedy School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-10T16:00:00-05:00",
+   "end": "2026-11-10T17:15:00-05:00",
+   "date": "2026-11-10",
+   "all_day": false,
+   "location": "L-130",
+   "online": false,
+   "host": "Institute of Politics (IOP)",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "RSVP link on the event page",
+    "link": "https://iop.harvard.edu/events/study-group-ambassador-nathalie-rayes-diplomacy-front-lines-leadership-democracy-and-future"
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "HKS students",
+    "evidence": "Title: Study Group: Leadership, Democracy, & Future of Transatlantic Alliance",
+    "basis": "inferred"
+   },
+   "summary": "What does it take to lead American diplomacy during a defining moment in European history? Join Ambassador Rayes and former U.S. Ambassador to Poland Mark Brzezinski for a conversation about leadership during Russia’s war against Ukraine, the importance of NATO, defending democracy, and the future of American…",
+   "blurb": "What does it take to lead American diplomacy during a defining moment in European history? Join Ambassador Rayes and former U.S. Ambassador to Poland Mark Brzezinski for a conversation about leadership during Russia’s war against Ukraine, the importance of…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Littauer Building, Harvard Kennedy School",
+   "lat": 42.371045,
+   "lon": -71.12209,
+   "geo_method": "gazetteer",
+   "walk_min": 18
+  },
+  {
    "id": "353b4f9e3753",
    "title": "\"Can Evolution Be Understood Quantitatively?\" 2026 Morris Loeb Lectures in Physics",
    "url": "https://news.harvard.edu/gazette/harvard-events/events-calendar/?trumbaEmbed=view%3Devent%26eventid%3D211314258",
@@ -17408,6 +17546,49 @@
    "lon": -71.122151,
    "geo_method": "gazetteer",
    "walk_min": 17
+  },
+  {
+   "id": "ea5d727098ef",
+   "title": "Study Group with Chris Whipple: Conclusion: All the President's Men and Women",
+   "url": "https://www.hks.harvard.edu/events/study-group-chris-whipple-conclusion-all-presidents-men-and-women",
+   "source_id": "hks",
+   "source_name": "Harvard Kennedy School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-10T16:30:00-05:00",
+   "end": "2026-11-10T17:45:00-05:00",
+   "date": "2026-11-10",
+   "all_day": false,
+   "location": "L-163",
+   "online": false,
+   "host": "Institute of Politics (IOP)",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "RSVP link on the event page",
+    "link": "https://iop.harvard.edu/events/study-group-chris-whipple-conclusion-all-presidents-men-and-women"
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "HKS students",
+    "evidence": "Title: Study Group with Chris Whipple: Conclusion: All the President's Men and Women",
+    "basis": "inferred"
+   },
+   "summary": "In the final Study Group Session, we’ll wrap up our themes. How important are the roles of the White House chiefs, CIA directors, and campaign managers? What makes them effective or not? How important is their relationship with the president--and how essential is it for them to tell presidents hard truths? Finally,…",
+   "blurb": "In the final Study Group Session, we’ll wrap up our themes. How important are the roles of the White House chiefs, CIA directors, and campaign managers? What makes them effective or not? How important is their relationship with the president--and how…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Littauer Building, Harvard Kennedy School",
+   "lat": 42.371045,
+   "lon": -71.12209,
+   "geo_method": "gazetteer",
+   "walk_min": 18
   },
   {
    "id": "e8111ccc9fd6",
@@ -18068,7 +18249,7 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "Thursday, November 12, 2026 Time: 6:00pm EST Where: JFK Jr. Forum, 79 John F. Kennedy St., Cambridge, MA 02138 Meeting Method: Hybrid Add to Calendar 2026-11-12 18:00:00 2026-11-03 08:50:35 From Military Service to City Hall with Mayors Patrick Farrell, Beach Pace, & Sly James <p>This Forum event will be held in honor…",
+   "summary": "Thursday, November 12, 2026 Time: 6:00pm EST Where: JFK Jr. Forum, 79 John F. Kennedy St., Cambridge, MA 02138 Meeting Method: Hybrid Add to Calendar 2026-11-12 18:00:00 2026-11-03 13:45:42 From Military Service to City Hall with Mayors Patrick Farrell, Beach Pace, & Sly James <p>This Forum event will be held in honor…",
    "blurb": "This Forum event will be held in honor of former Director of the Institute of Politics, Setti D.",
    "event_page": true,
    "notes": "",
@@ -18316,7 +18497,7 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "Monday, November 16, 2026 Time: 6:00pm EST Where: JFK Jr. Forum, 79 John F. Kennedy St., Cambridge, MA 02138 Meeting Method: Hybrid Add to Calendar 2026-11-16 18:00:00 2026-11-03 08:50:43 Making the Vision: Venture Capital, Creativity, and the Power of Story with David Fialkow, Oscar-Winning Filmmaker David Fialkow…",
+   "summary": "Monday, November 16, 2026 Time: 6:00pm EST Where: JFK Jr. Forum, 79 John F. Kennedy St., Cambridge, MA 02138 Meeting Method: Hybrid Add to Calendar 2026-11-16 18:00:00 2026-11-03 15:59:03 Making the Vision: Venture Capital, Creativity, and the Power of Story with David Fialkow, Oscar-Winning Filmmaker David Fialkow…",
    "blurb": "David Fialkow joins us for a conversation that will explore the intersection of entrepreneurship, investing, and storytelling, drawing on his experience as a successful venture capitalist and award-winning filmmaker. Together, we’ll examine the power of…",
    "event_page": true,
    "notes": "",
@@ -18477,6 +18658,55 @@
    "lon": null,
    "geo_method": null,
    "walk_min": null
+  },
+  {
+   "id": "bbb80f484aed",
+   "title": "Events",
+   "url": "https://cyber.harvard.edu/events",
+   "source_id": "newsletter",
+   "source_name": "Forwarded: BKC in the News and October Events",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": {
+    "by": "Juan",
+    "subject": "BKC in the News and October Events",
+    "missing": [
+     "place"
+    ]
+   },
+   "start": "2026-11-19T17:00:00-05:00",
+   "end": null,
+   "date": "2026-11-19",
+   "all_day": false,
+   "location": "",
+   "online": false,
+   "host": "",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "Nov 19, 2026 @ 5:00 PM Crutch or Catalyst? How AI Is Changing the Ways We Relate All Too Human 2026-27 Speaker Series As AI becomes increasingly embedded in our lives, it has taken on roles as a therapist, a friend, even a lover. When we allow AI systems into our communities and our closest… In-Person RSVP Zoom RSVP…",
+   "blurb": "As AI becomes increasingly embedded in our lives, it has taken on roles as a therapist, a friend, even a lover. When we allow AI systems into our communities and our closest… Update:The start time of this event has been changed to 5:00 pm.What can the law…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "",
+   "lat": null,
+   "lon": null,
+   "geo_method": null,
+   "walk_min": null
   }
  ],
  "suggestions": [
@@ -18523,8 +18753,8 @@
   {
    "id": 4,
    "state": "scanned",
-   "label": "Scanned at every update: 25 events found, 3 with food this week",
-   "n_food": 3
+   "label": "Scanned at every update: 24 events found, 2 with food this week",
+   "n_food": 2
   }
  ],
  "newsletters": [
