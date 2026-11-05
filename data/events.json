@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-04T13:03:06-05:00",
+ "generated_at": "2026-11-04T19:25:13-05:00",
  "window": {
   "start": "2026-11-04",
   "end": "2026-11-11"
@@ -22,7 +22,7 @@
    "error": null,
    "n_events": 165,
    "n_food": 4,
-   "seconds": 2.2
+   "seconds": 1.8
   },
   {
    "id": "hks",
@@ -30,9 +30,9 @@
    "homepage": "https://www.hks.harvard.edu/more/events",
    "ok": true,
    "error": null,
-   "n_events": 45,
-   "n_food": 9,
-   "seconds": 2.5
+   "n_events": 46,
+   "n_food": 10,
+   "seconds": 9.4
   },
   {
    "id": "hls",
@@ -40,9 +40,9 @@
    "homepage": "https://hls.harvard.edu/calendar/",
    "ok": true,
    "error": null,
-   "n_events": 95,
-   "n_food": 56,
-   "seconds": 10.7
+   "n_events": 96,
+   "n_food": 55,
+   "seconds": 12.9
   },
   {
    "id": "college",
@@ -50,9 +50,9 @@
    "homepage": "https://events.college.harvard.edu/",
    "ok": true,
    "error": null,
-   "n_events": 130,
+   "n_events": 135,
    "n_food": 12,
-   "seconds": 0.6
+   "seconds": 1.6
   },
   {
    "id": "ash",
@@ -62,7 +62,7 @@
    "error": null,
    "n_events": 3,
    "n_food": 2,
-   "seconds": 2.5
+   "seconds": 2.3
   },
   {
    "id": "shorenstein",
@@ -72,7 +72,7 @@
    "error": null,
    "n_events": 3,
    "n_food": 1,
-   "seconds": 9.6
+   "seconds": 9.0
   },
   {
    "id": "fairbank",
@@ -82,7 +82,7 @@
    "error": null,
    "n_events": 9,
    "n_food": 0,
-   "seconds": 6.6
+   "seconds": 0.0
   },
   {
    "id": "newsletter",
@@ -92,7 +92,7 @@
    "error": null,
    "n_events": 47,
    "n_food": 3,
-   "seconds": 69.1
+   "seconds": 46.6
   },
   {
    "id": "suggested",
@@ -100,19 +100,19 @@
    "homepage": "",
    "ok": true,
    "error": null,
-   "n_events": 11,
+   "n_events": 8,
    "n_food": 1,
-   "seconds": 16.1
+   "seconds": 5.1
   }
  ],
  "stats": {
-  "events": 417,
-  "food_confirmed": 61,
-  "food_likely": 24,
+  "events": 420,
+  "food_confirmed": 60,
+  "food_likely": 25,
   "forwarded": 40,
   "forwarded_listed": 9,
   "food_restricted": 57,
-  "seconds": 89.9
+  "seconds": 56.8
  },
  "events": [
   {
@@ -856,9 +856,9 @@
    "walk_min": 7
   },
   {
-   "id": "e261108119df",
+   "id": "1fe714940563",
    "title": "Russian Strategic Nuclear Modernization in the 21st Century",
-   "url": "https://www.hks.harvard.edu/events/russian-strategic-nuclear-modernization-21st-century-0",
+   "url": "https://www.hks.harvard.edu/index%2Ephp/events/russian-strategic-nuclear-modernization-21st-century-0",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -869,9 +869,9 @@
    "end": "2026-11-04T12:30:00-05:00",
    "date": "2026-11-04",
    "all_day": false,
-   "location": "Fainsod (l324)",
+   "location": "",
    "online": false,
-   "host": "Managing the Atom Project",
+   "host": "",
    "food": {
     "status": "none",
     "types": [],
@@ -888,15 +888,15 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "Russia is modernizing its nuclear arsenal. I argue that Russian nuclear modernization is driven by security concerns and status ambitions. Specifically, nuclear modernization hedges against the future development of American ballistic missile defense and conventional counterforce capabilities that could erode Russia’s…",
-   "blurb": "Russia is modernizing its nuclear arsenal. I argue that Russian nuclear modernization is driven by security concerns and status ambitions. Specifically, nuclear modernization hedges against the future development of American ballistic missile defense and…",
+   "summary": "",
+   "blurb": "",
    "event_page": true,
    "notes": "",
-   "place_name": "Littauer Building, Harvard Kennedy School",
-   "lat": 42.371045,
-   "lon": -71.12209,
-   "geo_method": "gazetteer",
-   "walk_min": 18
+   "place_name": "Harvard Kennedy School",
+   "lat": 42.371989,
+   "lon": -71.121761,
+   "geo_method": "host",
+   "walk_min": 16
   },
   {
    "id": "15c87a622a75",
@@ -1043,15 +1043,8 @@
    "url": "https://fairbank.fas.harvard.edu/events/critical-issues-confronting-china-series-featuring-jean-oi-2/",
    "source_id": "fairbank",
    "source_name": "Fairbank Center",
-   "also_listed": [
-    {
-     "source_name": "Suggested calendar: Fairbanks center",
-     "url": "https://fairbank.fas.harvard.edu/events/critical-issues-confronting-china-series-featuring-jean-oi-2/"
-    }
-   ],
-   "aliases": [
-    "b4c0f8ba375c"
-   ],
+   "also_listed": [],
+   "aliases": [],
    "suggested": null,
    "forwarded": null,
    "start": "2026-11-04T12:00:00-05:00",
@@ -1078,7 +1071,7 @@
     "basis": "none"
    },
    "summary": "@ Speaker: Jean Oi, William Haas Professor of Chinese Politics, Department of Political Science; Senior Fellow, The Freeman Spogli Institute for International Studies, Stanford University In the wake of COVID-19 and the property-market collapse, China’s local government financing vehicles (LGFVs)—entities created to…",
-   "blurb": "Yet recent research, including fieldwork in China, points to a surprising development: in some places, LGFVs are taking on a new role as venture capital investors. Where is this transformation occurring, and how have heavily indebted LGFVs become vehicles for…",
+   "blurb": "In the wake of COVID-19 and the property-market collapse, China’s local government financing vehicles (LGFVs)—entities created to borrow and invest on behalf of local governments—had accumulated more than $8 trillion in debt by 2022. This enormous burden has…",
    "event_page": true,
    "notes": "",
    "place_name": "CGIS South Building",
@@ -1112,7 +1105,7 @@
    "registration": {
     "status": "required",
     "evidence": "Space is limited so please only RSVP if you plan to attend.",
-    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001lUzlIAE"
+    "link": ""
    },
    "audience": {
     "level": "harvard",
@@ -1985,20 +1978,15 @@
    "id": "08c8256cc238",
    "title": "Structuring Chinese History: Diwang Tu 帝王圖, Nianbiao 年表, “Chinese Dynasties” Charts, and Paradigmatic Crisis in Chinese Historiography",
    "url": "https://fairbank.fas.harvard.edu/events/structuring-chinese-history-diwang-tu-%e5%b8%9d%e7%8e%8b%e5%9c%96-nianbiao-%e5%b9%b4%e8%a1%a8-chinese-dynasties-charts-and-paradigmatic-crisis-in-chinese-historiography/",
-   "source_id": "suggested",
-   "source_name": "Suggested calendar: Fairbanks center",
+   "source_id": "fairbank",
+   "source_name": "Fairbank Center",
    "also_listed": [
-    {
-     "source_name": "Fairbank Center",
-     "url": "https://fairbank.fas.harvard.edu/events/structuring-chinese-history-diwang-tu-%e5%b8%9d%e7%8e%8b%e5%9c%96-nianbiao-%e5%b9%b4%e8%a1%a8-chinese-dynasties-charts-and-paradigmatic-crisis-in-chinese-historiography/"
-    },
     {
      "source_name": "Harvard Gazette calendar",
      "url": "https://iaas.fas.harvard.edu/2026-27-inner-asian-and-altaic-studies-lecture-series"
     }
    ],
    "aliases": [
-    "23b45ca76589",
     "8817afb86623"
    ],
    "suggested": null,
@@ -2007,9 +1995,9 @@
    "end": "2026-11-04T14:30:00-05:00",
    "date": "2026-11-04",
    "all_day": false,
-   "location": "CGIS South, Room S050, 1730 Cambridge St, Cambridge, Massachusetts, 02138, United States",
+   "location": "CGIS South, Room S050, 1730 Cambridge St, Cambridge",
    "online": false,
-   "host": "",
+   "host": "Inner Asian and Altaic Studies",
    "food": {
     "status": "none",
     "types": [],
@@ -2026,8 +2014,8 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "Speaker: James Millward, Georgetown UniversityPeriodization by “Chinese dynasties” is a structural foundation of the historiography of continental eastern Eurasia, but even those passingly familiar with the field know the idea is beset with problems: The Chinese dynasties aren’t all “Chinese.” They weren’t all in the…",
-   "blurb": "Despite these issues, the modern list of “dynasties” is central to the notion of a unified, linear, and continuous “China” that is said to be the “oldest civilization in the form of a state in the world.” This lecture examines charts and tables of monarchs…",
+   "summary": "@ Speaker: James Millward, Georgetown University Periodization by “Chinese dynasties” is a structural foundation of the historiography of continental eastern Eurasia, but even those passingly familiar with the field know the idea is beset with problems: The Chinese dynasties aren’t all “Chinese.” They weren’t all in…",
+   "blurb": "Periodization by \"Chinese dynasties\" is a structural foundation of the historiography of continental eastern Eurasia, but the idea is beset with problems: The Chinese dynasties aren't all \"Chinese.\" They were scattered around geographical China and Inner…",
    "event_page": true,
    "notes": "",
    "place_name": "CGIS South Building",
@@ -2064,7 +2052,7 @@
    "registration": {
     "status": "required",
     "evidence": "Registration is required.",
-    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001lSQ5IAM"
+    "link": ""
    },
    "audience": {
     "level": "harvard",
@@ -2331,10 +2319,6 @@
    "source_name": "Forwarded: New Study Groups & Special Guests: Elections, Civil Discourse, Communication, & ",
    "also_listed": [
     {
-     "source_name": "Harvard Kennedy School",
-     "url": "https://www.hks.harvard.edu/events/study-group-amb-nathalie-rayes-leadership-diplomacy-and-white-house"
-    },
-    {
      "source_name": "Harvard Gazette calendar",
      "url": "https://iop.harvard.edu/events/study-group-ambassador-nathalie-rayes-behind-scenes-power-leadership-diplomacy-and-white"
     },
@@ -2343,13 +2327,17 @@
      "url": "https://events.college.harvard.edu/event/225945-study-group-with-ambassador-nathalie-rayes-behind"
     },
     {
+     "source_name": "Harvard Kennedy School",
+     "url": "https://www.hks.harvard.edu/index%2Ephp/events/study-group-amb-nathalie-rayes-leadership-diplomacy-and-white-house"
+    },
+    {
      "source_name": "Forwarded: Election Week at the IOP!",
      "url": "https://click.comms.hks.harvard.edu/?qs=ABp7ImQiOjUwNDgsInQiOjE0MDgsInMiOjExfQALAAAAAAZs1p6olFF537obZyJRA0Q1iQytIf1cyULglTrsOun17vz3-aFnrVyv7E-X3mIc8DhMfiIx1a5jRMfHuEB0ac9OWFfS-X3yrvbh384aRw"
     }
    ],
    "aliases": [
-    "3c39998c5f0a",
     "65bcc2a8a088",
+    "e5db98371a3c",
     "ef06dbd28e83",
     "f53d30d138df"
    ],
@@ -2529,29 +2517,22 @@
    "walk_min": 17
   },
   {
-   "id": "c7d68df2ce64",
+   "id": "fb319e3cc41a",
    "title": "Emergent Visons Film Screening — Zhuang Wei’s Witness: Return of the Survivor (庄炜的见证：幸存者归来)",
    "url": "https://fairbank.fas.harvard.edu/events/emergent-visons-film-screening-zhuang-weis-witness/",
-   "source_id": "suggested",
-   "source_name": "Suggested calendar: Fairbanks center",
-   "also_listed": [
-    {
-     "source_name": "Fairbank Center",
-     "url": "https://fairbank.fas.harvard.edu/events/emergent-visons-film-screening-zhuang-weis-witness/"
-    }
-   ],
-   "aliases": [
-    "fb319e3cc41a"
-   ],
+   "source_id": "fairbank",
+   "source_name": "Fairbank Center",
+   "also_listed": [],
+   "aliases": [],
    "suggested": null,
    "forwarded": null,
    "start": "2026-11-04T16:30:00-05:00",
    "end": "2026-11-04T18:30:00-05:00",
    "date": "2026-11-04",
    "all_day": false,
-   "location": "CGIS South S020, Belfer Case Study Room, 1730 Cambridge St., Cambridge, MA, 02138, United States",
+   "location": "CGIS South S020, Belfer Case Study Room, 1730 Cambridge St., Cambridge",
    "online": false,
-   "host": "",
+   "host": "Fairbank Center for Chinese Studies",
    "food": {
     "status": "none",
     "types": [],
@@ -2568,7 +2549,7 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "Followed by a Q+A with filmmaker ZHUANG Wei. This film is part of a three-part series presenting documentaries from China’s Caochangdi Workstation, a collective of documentary filmmakers and performance artists whose work explores memory, history, and everyday life through long-term, participatory projects. Director’s…",
+   "summary": "@ Followed by a Q+A with filmmaker ZHUANG Wei. This film is part of a three-part series presenting documentaries from China’s Caochangdi Workstation, a collective of documentary filmmakers and performance artists whose work explores memory, history, and everyday life through long-term, participatory projects.…",
    "blurb": "Followed by a Q+A with filmmaker ZHUANG Wei. This film is part of a three-part series presenting documentaries from China’s Caochangdi Workstation, a collective of documentary filmmakers and performance artists whose work explores memory, history, and…",
    "event_page": true,
    "notes": "",
@@ -2785,70 +2766,6 @@
    "lon": -71.113237,
    "geo_method": "gazetteer",
    "walk_min": 4
-  },
-  {
-   "id": "32c1782bfdb2",
-   "title": "A Debrief on the Midterms: What Happened, and What Happens Next?",
-   "url": "https://iop.harvard.edu/events/debrief-midterms-what-happened-and-what-happens-next",
-   "source_id": "gazette",
-   "source_name": "Harvard Gazette calendar",
-   "also_listed": [
-    {
-     "source_name": "Harvard College events",
-     "url": "https://events.college.harvard.edu/event/225964-a-debrief-on-the-midterms-what-happened-and-what"
-    },
-    {
-     "source_name": "Forwarded: Election Week at the IOP!",
-     "url": "https://iop.harvard.edu/events/new-political-landscape-what-happened-last-night-and-what-comes-next"
-    },
-    {
-     "source_name": "Harvard Kennedy School",
-     "url": "https://www.hks.harvard.edu/index%2ephp/events/debrief-midterms-what-happened-and-what-happens-next"
-    }
-   ],
-   "aliases": [
-    "4593c747f38b",
-    "6bc832842365",
-    "86fc85bf9268"
-   ],
-   "suggested": null,
-   "forwarded": {
-    "by": "Ellen",
-    "subject": "Election Week at the IOP!",
-    "missing": []
-   },
-   "start": "2026-11-04T18:00:00-05:00",
-   "end": "2026-11-04T19:00:00-05:00",
-   "date": "2026-11-04",
-   "all_day": false,
-   "location": "JFK Jr. Forum, 79 JFK St., Cambridge",
-   "online": false,
-   "host": "Institute of Politics at Harvard Kennedy School",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "required",
-    "evidence": "Registration link on the event page",
-    "link": "https://iop.harvard.edu/events/debrief-midterms-what-happened-and-what-happens-next"
-   },
-   "audience": {
-    "level": "unknown",
-    "group": "",
-    "evidence": "",
-    "basis": "none"
-   },
-   "summary": "On the heels of the midterm elections, join us for a discussion that will include President Obama's 2008 Campaign Manager David Plouffe and Senior Politico Reporter Jonathan Martin to unpack the results, and look ahead to what comes next for both parties. *Please register with a valid Harvard email address to attend…",
-   "blurb": "With Democrats winning big in traditionally red states like Texas, Kansas and South Carolina, what does the new Democratic majority mean for the country's political landscape going forward? Where were the midterms won and lost? Top Democratic strategist David…",
-   "event_page": true,
-   "notes": "Cost: Free | Harvard Key required: No",
-   "place_name": "Littauer Building, Harvard Kennedy School",
-   "lat": 42.371045,
-   "lon": -71.12209,
-   "geo_method": "gazetteer",
-   "walk_min": 18
   },
   {
    "id": "51d230dbc257",
@@ -3165,6 +3082,70 @@
    "lon": null,
    "geo_method": null,
    "walk_min": null
+  },
+  {
+   "id": "32c1782bfdb2",
+   "title": "The New Political Landscape: What Happened Last Night and What Comes Next",
+   "url": "https://www.hks.harvard.edu/events/debrief-midterms-what-happened-and-what-happens-next",
+   "source_id": "hks",
+   "source_name": "Harvard Kennedy School",
+   "also_listed": [
+    {
+     "source_name": "Harvard Gazette calendar",
+     "url": "https://iop.harvard.edu/events/debrief-midterms-what-happened-and-what-happens-next"
+    },
+    {
+     "source_name": "Harvard College events",
+     "url": "https://events.college.harvard.edu/event/225964-a-debrief-on-the-midterms-what-happened-and-what"
+    },
+    {
+     "source_name": "Forwarded: Election Week at the IOP!",
+     "url": "https://iop.harvard.edu/events/new-political-landscape-what-happened-last-night-and-what-comes-next"
+    }
+   ],
+   "aliases": [
+    "4593c747f38b",
+    "86fc85bf9268",
+    "fd5c9630f03a"
+   ],
+   "suggested": null,
+   "forwarded": {
+    "by": "Ellen",
+    "subject": "Election Week at the IOP!",
+    "missing": []
+   },
+   "start": "2026-11-04T18:00:00-05:00",
+   "end": "2026-11-04T19:00:00-05:00",
+   "date": "2026-11-04",
+   "all_day": false,
+   "location": "John F. Kennedy Jr. Forum",
+   "online": false,
+   "host": "Institute of Politics (IOP)",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "RSVP link on the event page",
+    "link": "https://iop.harvard.edu/events/debrief-midterms-what-happened-and-what-happens-next"
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "With Democrats winning big in traditionally red states like Texas, Kansas and South Carolina, what does the new Democratic majority mean for the country's political landscape going forward? Where were the midterms won and lost? Top Democratic strategist David Plouffe joins us to examine what brought voters out, which…",
+   "blurb": "With Democrats winning big in traditionally red states like Texas, Kansas and South Carolina, what does the new Democratic majority mean for the country's political landscape going forward? Where were the midterms won and lost? Top Democratic strategist David…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Littauer Building, Harvard Kennedy School",
+   "lat": 42.371045,
+   "lon": -71.12209,
+   "geo_method": "host",
+   "walk_min": 18
   },
   {
    "id": "df3cace3dda6",
@@ -4487,6 +4468,49 @@
    "walk_min": 9
   },
   {
+   "id": "900b63e19cd6",
+   "title": "Regulating Digital Platforms for Young People: The Brazilian ECA Digital and the Meta Settlement, a conversation with Pedro Hartung and Leah Plunkett",
+   "url": "https://hls.harvard.edu/events/regulating-digital-platforms-for-young-people-the-brazilian-eca-digital-and-the-meta-settlement-a-conversation-with-pedro-hartung-and-leah-plunkett/",
+   "source_id": "hls",
+   "source_name": "Harvard Law School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-05T12:15:00-05:00",
+   "end": "2026-11-05T13:15:00-05:00",
+   "date": "2026-11-05",
+   "all_day": false,
+   "location": "Hauser Hall, 105 Jackson Meeting Room, Harvard Law School",
+   "online": false,
+   "host": "Harvard Law School Brazilian Studies Association",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "RSVP required",
+    "link": "https://docs.google.com/forms/d/e/1FAIpQLSeAsXZ2VZSWiHA2klnnFlawBr0OnhGsamrdeaSJ_H3uSo5LZg/viewform?usp=dialog"
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "HLS students",
+    "evidence": "Run by an HLS student organization",
+    "basis": "inferred"
+   },
+   "summary": "Regulating digital platforms for minors is a hot-button issue. On Thursday, November 05, Harvard Law School Brazilian Studies Association will welcome Pedro Hartung, co-CEO of Alana Institute, an organization that played a major role in shaping Brazil’s Digital Statute for Children and Adolescents. In light of Meta’s…",
+   "blurb": "Regulating digital platforms for minors is a hot-button issue. On Thursday, November 05, Harvard Law School Brazilian Studies Association will welcome Pedro Hartung, co-CEO of Alana Institute, an organization that played a major role in shaping Brazil’s…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Hauser Hall, Harvard Law School",
+   "lat": 42.37864,
+   "lon": -71.118138,
+   "geo_method": "gazetteer",
+   "walk_min": 8
+  },
+  {
    "id": "5597645792d3",
    "title": "Self fulfilling prophecies? How Ideas of Changing Warfare Shape Policymaking",
    "url": "https://www.hks.harvard.edu/events/self-fulfilling-prophecies-how-ideas-changing-warfare-shape-policymaking",
@@ -4722,12 +4746,11 @@
    "online": false,
    "host": "Journal of Law & Technology",
    "food": {
-    "status": "confirmed",
+    "status": "likely",
     "types": [
      "Lunch"
     ],
-    "evidence": "Lunch will be served.",
-    "cue": "strong"
+    "evidence": "Join JOLT for a lunch talk with Kirkland attorneys Shellie Freedman (Technology & IP Transactions Partner), Joe Loy (IP Litigation Partner), and Allie Cunningham (IP Litigation Associate) for a conversation about their practices, career…"
    },
    "registration": {
     "status": "unknown",
@@ -4740,8 +4763,8 @@
     "evidence": "HLS listing audience: HLS only",
     "basis": "listing"
    },
-   "summary": "Join JOLT for a lunch talk with law firm Kirkland to learn more about their practice! Lunch will be served. Add to Calendar November 5, 2026, 12:30 pm - 1:15 pm +Google Calendar +iCal/Outlook",
-   "blurb": "",
+   "summary": "Join JOLT for a lunch talk with Kirkland attorneys Shellie Freedman (Technology & IP Transactions Partner), Joe Loy (IP Litigation Partner), and Allie Cunningham (IP Litigation Associate) for a conversation about their practices, career paths, and work across technology transactions and IP litigation. Saloniki Greek…",
+   "blurb": "Join JOLT for a lunch talk with Kirkland attorneys Shellie Freedman (Technology & IP Transactions Partner), Joe Loy (IP Litigation Partner), and Allie Cunningham (IP Litigation Associate) for a conversation about their practices, career paths, and work across…",
    "event_page": true,
    "notes": "",
    "place_name": "Wasserstein Hall (WCC), Harvard Law School",
@@ -6494,8 +6517,8 @@
   },
   {
    "id": "3bebc3b6708b",
-   "title": "Harvard University Women’s Tennis vs ITA Sectional Championships",
-   "url": "https://events.college.harvard.edu/event/224651-harvard-university-womens-tennis-vs-ita-sectional",
+   "title": "Harvard University Women’s Basketball vs Boston College",
+   "url": "https://events.college.harvard.edu/event/224649-harvard-university-womens-basketball-vs-boston",
    "source_id": "college",
    "source_name": "Harvard College events",
    "also_listed": [],
@@ -6508,7 +6531,7 @@
    "end": "2026-11-05T21:00:00-05:00",
    "date": "2026-11-05",
    "all_day": false,
-   "location": "TBA",
+   "location": "Cambridge, Mass.",
    "online": false,
    "host": "Main Calendar",
    "food": {
@@ -6527,7 +6550,7 @@
     "evidence": "Harvard College calendar, no sign it is open to others",
     "basis": "default"
    },
-   "summary": "Harvard University Women’s Tennis vs ITA Sectional Championships URL:https://gocrimson.com/calendar.aspx?game_id=33573&sport_id=38",
+   "summary": "Harvard University Women’s Basketball vs Boston College Streaming Video: https://www.espn.com/watch/player/_/id/d0aaa1d6-4028-49e6-a2ea-4dd17dc394af Tickets: https://gocrimson.evenue.net/events/womens-basketball URL:https://gocrimson.com/calendar.aspx?game_id=33421&sport_id=25",
    "blurb": "",
    "event_page": true,
    "notes": "",
@@ -8596,6 +8619,49 @@
    "walk_min": 4
   },
   {
+   "id": "361f026ab879",
+   "title": "Harvard University Men’s Swimming and Diving at Cornell University",
+   "url": "https://events.college.harvard.edu/event/226163-harvard-university-mens-swimming-and-diving-at",
+   "source_id": "college",
+   "source_name": "Harvard College events",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-06T17:00:00-05:00",
+   "end": "2026-11-06T20:00:00-05:00",
+   "date": "2026-11-06",
+   "all_day": false,
+   "location": "Ithaca, NY",
+   "online": false,
+   "host": "Main Calendar",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "Harvard College students",
+    "evidence": "Harvard College calendar, no sign it is open to others",
+    "basis": "default"
+   },
+   "summary": "Harvard University Men’s Swimming and Diving at Cornell University URL:https://gocrimson.com/calendar.aspx?game_id=33750&sport_id=19",
+   "blurb": "",
+   "event_page": true,
+   "notes": "",
+   "place_name": "",
+   "lat": null,
+   "lon": null,
+   "geo_method": null,
+   "walk_min": null
+  },
+  {
    "id": "c35ab19a91a2",
    "title": "Growth Talk: Sergio Imparato and Michael Puett",
    "url": "https://soco.college.harvard.edu/rsvp?id=383372",
@@ -8949,7 +9015,7 @@
    "walk_min": null
   },
   {
-   "id": "3afc956df736",
+   "id": "04740fbdab22",
    "title": "Harvard University Asia Center",
    "url": "https://asiacenter.harvard.edu/",
    "source_id": "suggested",
@@ -8961,6 +9027,7 @@
     }
    ],
    "aliases": [
+    "3afc956df736",
     "9f040d05c5a8",
     "b801dd45c134",
     "e3fe6ee354e2",
@@ -13155,6 +13222,49 @@
    "walk_min": 10
   },
   {
+   "id": "834493b8608a",
+   "title": "Life On the Other Side of the “V”",
+   "url": "https://hls.harvard.edu/events/life-on-the-other-side-of-the-v/",
+   "source_id": "hls",
+   "source_name": "Harvard Law School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-09T12:30:00-05:00",
+   "end": "2026-11-09T13:15:00-05:00",
+   "date": "2026-11-09",
+   "all_day": false,
+   "location": "WCC, 2009 Classroom, Harvard Law School",
+   "online": false,
+   "host": "Harvard Plaintiffs' Law Association",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "HLS students",
+    "evidence": "Run by an HLS student organization",
+    "basis": "inferred"
+   },
+   "summary": "Corporate America is represented by armies of lawyers from Big Law. But who are they up against? Scott+Scott Attorneys will be presenting on the unique opportunities afforded to plaintiff’s lawyers in complex cases. Prevailing against well-funded and incredibly sophisticated adversaries requires creativity and smarts,…",
+   "blurb": "Corporate America is represented by armies of lawyers from Big Law. But who are they up against? Scott+Scott Attorneys will be presenting on the unique opportunities afforded to plaintiff’s lawyers in complex cases. Prevailing against well-funded and…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Wasserstein Hall (WCC), Harvard Law School",
+   "lat": 42.379383,
+   "lon": -71.119421,
+   "geo_method": "gazetteer",
+   "walk_min": 10
+  },
+  {
    "id": "d479889cc551",
    "title": "Working in State and Local Government – The Rappaport Fellowship in Law and Public Policy",
    "url": "https://hls.harvard.edu/events/rappaport-fellows-program-information-session/",
@@ -13565,13 +13675,20 @@
    "walk_min": 5
   },
   {
-   "id": "ce7118d6732f",
+   "id": "1baa6d9e4306",
    "title": "Amb. Nathalie Rayes Study Group: Education, Philanthropy, & the American Dream",
    "url": "https://www.hks.harvard.edu/events/amb-nathalie-rayes-study-group-education-philanthropy-american-dream",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
-   "also_listed": [],
-   "aliases": [],
+   "also_listed": [
+    {
+     "source_name": "Harvard College events",
+     "url": "https://events.college.harvard.edu/event/226149-study-group-with-ambassador-nathalie-rayes-the"
+    }
+   ],
+   "aliases": [
+    "ce7118d6732f"
+   ],
    "suggested": null,
    "forwarded": null,
    "start": "2026-11-09T16:15:00-05:00",
@@ -13651,13 +13768,20 @@
    "walk_min": 7
   },
   {
-   "id": "edd32af8d61c",
+   "id": "53ff307ac58f",
    "title": "Study Group with Chris Whipple: Diplomacy and Spycraft with William J. Burns",
    "url": "https://www.hks.harvard.edu/events/study-group-chris-whipple-diplomacy-and-spycraft-william-j-burns",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
-   "also_listed": [],
-   "aliases": [],
+   "also_listed": [
+    {
+     "source_name": "Harvard College events",
+     "url": "https://events.college.harvard.edu/event/226151-study-group-with-chris-whipple-diplomacy-and"
+    }
+   ],
+   "aliases": [
+    "edd32af8d61c"
+   ],
    "suggested": null,
    "forwarded": null,
    "start": "2026-11-09T16:30:00-05:00",
@@ -15169,13 +15293,20 @@
    "walk_min": 13
   },
   {
-   "id": "da929ae0e01f",
+   "id": "67d594e89463",
    "title": "From Advocacy to Public Service: Building Coalitions and Driving Change",
    "url": "https://www.hks.harvard.edu/events/advocacy-public-service-building-coalitions-and-driving-change",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
-   "also_listed": [],
-   "aliases": [],
+   "also_listed": [
+    {
+     "source_name": "Harvard College events",
+     "url": "https://events.college.harvard.edu/event/226141-from-advocacy-to-public-service-building"
+    }
+   ],
+   "aliases": [
+    "da929ae0e01f"
+   ],
    "suggested": null,
    "forwarded": null,
    "start": "2026-11-10T12:00:00-05:00",
@@ -15256,6 +15387,52 @@
    "lon": -71.122357,
    "geo_method": "gazetteer",
    "walk_min": 18
+  },
+  {
+   "id": "dc354d96fce4",
+   "title": "Investigating First Nations Education Funding Gaps in Canada: A Novel Approach",
+   "url": "https://www.hks.harvard.edu/events/investigating-first-nations-education-funding-gaps-canada-novel-approach",
+   "source_id": "hks",
+   "source_name": "Harvard Kennedy School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-10T12:00:00-05:00",
+   "end": "2026-11-10T13:00:00-05:00",
+   "date": "2026-11-10",
+   "all_day": false,
+   "location": "Ash Center Seminar Room 225, Suite 200, 124 Mount Auburn Street",
+   "online": false,
+   "host": "Project on Indigenous Governance and Development",
+   "food": {
+    "status": "confirmed",
+    "types": [
+     "Food"
+    ],
+    "evidence": "Catering will be provided.",
+    "cue": "strong"
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "RSVP link on the event page",
+    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001lqNZIAY"
+   },
+   "audience": {
+    "level": "harvard",
+    "group": "",
+    "evidence": "This event is open to Harvard ID holders only.",
+    "basis": "text"
+   },
+   "summary": "The Harvard Kennedy School's Project on Indigenous Governance and Development (PIGD), in collaboration with the Harvard University Native American Program (HUNAP), welcomes visiting scholar Dr. Mirzaei for a lunchtime talk on his research into funding gaps in First Nations education. Dr. Mirzaei is an associate…",
+   "blurb": "in collaboration with the Harvard University Native American Program (HUNAP), welcomes visiting scholar Dr. Mirzaei for a lunchtime talk on his research into funding gaps in First Nations education. Mirzaei is an associate professor in the Department of…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Ash Center (124 Mt Auburn St)",
+   "lat": 42.372952,
+   "lon": -71.123759,
+   "geo_method": "gazetteer",
+   "walk_min": 17
   },
   {
    "id": "40794b652a89",
@@ -15939,8 +16116,8 @@
     "evidence": "HLS listing audience: All HLS students only",
     "basis": "listing"
    },
-   "summary": "Add to Calendar November 10, 2026, 12:30 pm - 1:15 pm +Google Calendar +iCal/Outlook",
-   "blurb": "",
+   "summary": "Join NLG for a conversation with Jeff Feuer and Lee Goldstein. Jeff and Lee have decades of experience defending social movements and activists engaged in civil disobedience and direct action. Come learn about what it can look like to practice law in solidarity with activists on the front lines. Add to Calendar…",
+   "blurb": "Join NLG for a conversation with Jeff Feuer and Lee Goldstein. Jeff and Lee have decades of experience defending social movements and activists engaged in civil disobedience and direct action. Come learn about what it can look like to practice law in…",
    "event_page": true,
    "notes": "",
    "place_name": "Wasserstein Hall (WCC), Harvard Law School",
@@ -18148,52 +18325,6 @@
    "walk_min": 9
   },
   {
-   "id": "09e58c50390b",
-   "title": "Crime and Punishment in America – Screening of Ken Burns documentary about the criminal legal system",
-   "url": "https://hls.harvard.edu/events/crime-and-punishment-in-america-screening-of-ken-burns-documentary-about-the-criminal-legal-system/",
-   "source_id": "hls",
-   "source_name": "Harvard Law School",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-11-11T18:00:00-05:00",
-   "end": "2026-11-11T19:00:00-05:00",
-   "date": "2026-11-11",
-   "all_day": false,
-   "location": "WCC 1023, Harvard Law School",
-   "online": false,
-   "host": "Harvard Defenders; Race and Law Clinic",
-   "food": {
-    "status": "confirmed",
-    "types": [
-     "Dinner"
-    ],
-    "evidence": "The four-part series “tells the story of criminal justice in America from the colonial era to today, and explores how for more than 250 years, Americans have wrestled with the problem of crime, the purpose of punishment and the meaning of…",
-    "cue": "strong"
-   },
-   "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
-   },
-   "audience": {
-    "level": "likely",
-    "group": "HLS community",
-    "evidence": "Harvard Law School calendar, audience not stated",
-    "basis": "default"
-   },
-   "summary": "Come view 45 minutes of clips from Ken Burns’ new documentary series, Crime and Punishment in America. The four-part series “tells the story of criminal justice in America from the colonial era to today, and explores how for more than 250 years, Americans have wrestled with the problem of crime, the purpose of…",
-   "blurb": "Come view 45 minutes of clips from Ken Burns’ new documentary series, Crime and Punishment in America. The four-part series “tells the story of criminal justice in America from the colonial era to today, and explores how for more than 250 years, Americans…",
-   "event_page": true,
-   "notes": "",
-   "place_name": "Wasserstein Hall (WCC), Harvard Law School",
-   "lat": 42.379383,
-   "lon": -71.119421,
-   "geo_method": "gazetteer",
-   "walk_min": 10
-  },
-  {
    "id": "5e14175d4adf",
    "title": "Reclaiming “Delinquency”: Biopolitical Enclosure, Mana Wahine, and Insurgent Indigenous Literacies in Territorial Hawaiʻi",
    "url": "https://ol599rkab.cc.rs6.net/tn.jsp?f=001al_03K9I24Pm0cP5TCgMDkwOpeg8kviGL39kmGdWv90zuiaQj3noVBNytoDw8llXLSFm92WlB0IhTDpw2DlgRQUaAgYgFBlzgURL9ewwNzkhgAZSM_XcenKyhYeGA3bvjJh7-yp9aqC_yoiDF_bsUo_vBzoo64jKJ_cTVpki2M7Hp6yd8FtmoB39cgfi37HBVQPCbj_Thdtj3aeklAFQDTwQky42FqIelDexckMus8_e2oqGkKpsZw==&c=PuJ5Ed1A3LzUyEqGzePBzo3zuobwi5iLTDEpZRtzx8kSC7J1QYPiOQ==&ch=avpKrp43okUV5vXXMPFOYIs5rqRHOAxBSNBiEeWmWdweKzHpDcCwBg==",
@@ -18826,7 +18957,7 @@
     "basis": "none"
    },
    "summary": "Nov 19, 2026 @ 5:00 PM Crutch or Catalyst? How AI Is Changing the Ways We Relate All Too Human 2026-27 Speaker Series As AI becomes increasingly embedded in our lives, it has taken on roles as a therapist, a friend, even a lover. When we allow AI systems into our communities and our closest… In-Person RSVP Zoom RSVP…",
-   "blurb": "As AI becomes increasingly embedded in our lives, it has taken on roles as a therapist, a friend, even a lover. When we allow AI systems into our communities and our closest… Update:The start time of this event has been changed to 5:00 pm.What can the law…",
+   "blurb": "As AI becomes increasingly embedded in our lives, it has taken on roles as a therapist, a friend, even a lover. When we allow AI systems into our communities and our closest… The present moment is defined by both the emergence of powerful artificial…",
    "event_page": true,
    "notes": "",
    "place_name": "",
@@ -18982,7 +19113,7 @@
   {
    "id": 4,
    "state": "scanned",
-   "label": "Scanned at every update: 23 events found, 2 with food this week",
+   "label": "Scanned at every update: 20 events found, 2 with food this week",
    "n_food": 2
   }
  ],
