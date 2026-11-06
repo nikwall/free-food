@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-06T12:34:16-05:00",
+ "generated_at": "2026-11-06T18:45:49-05:00",
  "window": {
   "start": "2026-11-06",
   "end": "2026-11-13"
@@ -22,7 +22,7 @@
    "error": null,
    "n_events": 175,
    "n_food": 5,
-   "seconds": 2.2
+   "seconds": 1.6
   },
   {
    "id": "hks",
@@ -30,9 +30,9 @@
    "homepage": "https://www.hks.harvard.edu/more/events",
    "ok": true,
    "error": null,
-   "n_events": 43,
-   "n_food": 10,
-   "seconds": 4.4
+   "n_events": 44,
+   "n_food": 11,
+   "seconds": 8.7
   },
   {
    "id": "hls",
@@ -40,9 +40,9 @@
    "homepage": "https://hls.harvard.edu/calendar/",
    "ok": true,
    "error": null,
-   "n_events": 80,
-   "n_food": 49,
-   "seconds": 10.5
+   "n_events": 79,
+   "n_food": 48,
+   "seconds": 11.3
   },
   {
    "id": "college",
@@ -50,9 +50,9 @@
    "homepage": "https://events.college.harvard.edu/",
    "ok": true,
    "error": null,
-   "n_events": 149,
-   "n_food": 17,
-   "seconds": 1.1
+   "n_events": 155,
+   "n_food": 18,
+   "seconds": 1.3
   },
   {
    "id": "ash",
@@ -62,7 +62,7 @@
    "error": null,
    "n_events": 2,
    "n_food": 2,
-   "seconds": 2.7
+   "seconds": 2.2
   },
   {
    "id": "shorenstein",
@@ -72,7 +72,7 @@
    "error": null,
    "n_events": 4,
    "n_food": 2,
-   "seconds": 8.6
+   "seconds": 10.1
   },
   {
    "id": "fairbank",
@@ -82,7 +82,7 @@
    "error": null,
    "n_events": 7,
    "n_food": 0,
-   "seconds": 6.6
+   "seconds": 0.1
   },
   {
    "id": "newsletter",
@@ -92,7 +92,7 @@
    "error": null,
    "n_events": 25,
    "n_food": 2,
-   "seconds": 135.5
+   "seconds": 91.8
   },
   {
    "id": "suggested",
@@ -102,17 +102,17 @@
    "error": null,
    "n_events": 9,
    "n_food": 1,
-   "seconds": 6.6
+   "seconds": 6.5
   }
  ],
  "stats": {
-  "events": 393,
-  "food_confirmed": 67,
+  "events": 399,
+  "food_confirmed": 69,
   "food_likely": 14,
   "forwarded": 22,
   "forwarded_listed": 7,
-  "food_restricted": 53,
-  "seconds": 147.6
+  "food_restricted": 54,
+  "seconds": 102.7
  },
  "events": [
   {
@@ -832,7 +832,7 @@
    "registration": {
     "status": "required",
     "evidence": "Harvard affiliates are invited to register to attend in person, while members of the public are invited to attend online.",
-    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001jinVIAQ"
+    "link": ""
    },
    "audience": {
     "level": "unknown",
@@ -935,6 +935,49 @@
    "lon": -71.117051,
    "geo_method": "gazetteer",
    "walk_min": 7
+  },
+  {
+   "id": "e3fe6ee354e2",
+   "title": "[L] Harvard University Field Hockey vs Yale",
+   "url": "https://events.college.harvard.edu/event/224645-harvard-university-field-hockey-vs-ivy-league",
+   "source_id": "college",
+   "source_name": "Harvard College events",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-06T11:30:00-05:00",
+   "end": "2026-11-06T14:30:00-05:00",
+   "date": "2026-11-06",
+   "all_day": false,
+   "location": "Cambridge, Mass.",
+   "online": false,
+   "host": "Main Calendar",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "Harvard College students",
+    "evidence": "Harvard College calendar, no sign it is open to others",
+    "basis": "default"
+   },
+   "summary": "[L] Harvard University Field Hockey vs Yale L 1-2 TV: ESPN+ Streaming Video: https://www.espn.com/watch/player/_/id/c6b30c92-87b5-4c12-a9a8-4608adf22440 URL:https://gocrimson.com/calendar.aspx?game_id=33313&sport_id=4",
+   "blurb": "",
+   "event_page": true,
+   "notes": "",
+   "place_name": "",
+   "lat": null,
+   "lon": null,
+   "geo_method": null,
+   "walk_min": null
   },
   {
    "id": "b3f863cac339",
@@ -1559,9 +1602,9 @@
    "walk_min": 7
   },
   {
-   "id": "0ab580245540",
+   "id": "559b0b209182",
    "title": "Indonesian Language Class - November 6",
-   "url": "https://www.hks.harvard.edu/index%2Ephp/events/indonesian-language-class-november-6",
+   "url": "https://www.hks.harvard.edu/events/indonesian-language-class-november-6",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -1572,9 +1615,9 @@
    "end": "2026-11-06T16:00:00-05:00",
    "date": "2026-11-06",
    "all_day": false,
-   "location": "",
+   "location": "Ash Center Seminar Room 202, Suite 200, 124 Mount Auburn Street",
    "online": false,
-   "host": "",
+   "host": "Rajawali Foundation Institute for Asia",
    "food": {
     "status": "none",
     "types": [],
@@ -1591,15 +1634,15 @@
     "evidence": "Title: Indonesian Language Class - November 6",
     "basis": "inferred"
    },
-   "summary": "",
-   "blurb": "",
+   "summary": "The Rajawali Foundation Institute for Asia invites you to join a not-for-credit Bahasa Indonesia and culture course. This class is open to a wide audience including Harvard students, faculty, fellows, staff members, as well as students and scholars from the greater Boston area. Your instructor, Ricardus Williams Djee…",
+   "blurb": "The Rajawali Foundation Institute for Asia invites you to join a not-for-credit Bahasa Indonesia and culture course. This class is open to a wide audience including Harvard students, faculty, fellows, staff members, as well as students and scholars from the…",
    "event_page": true,
    "notes": "",
-   "place_name": "Harvard Kennedy School",
-   "lat": 42.371989,
-   "lon": -71.121761,
-   "geo_method": "host",
-   "walk_min": 16
+   "place_name": "Ash Center (124 Mt Auburn St)",
+   "lat": 42.372952,
+   "lon": -71.123759,
+   "geo_method": "gazetteer",
+   "walk_min": 17
   },
   {
    "id": "4615450617fd",
@@ -1819,9 +1862,9 @@
    "walk_min": null
   },
   {
-   "id": "176bb405f7cd",
+   "id": "0cee2dd9d7fc",
    "title": "Wartime Diplomacy: Ukraine, Russia and the United States",
-   "url": "https://www.hks.harvard.edu/index%2ephp/events/wartime-diplomacy-ukraine-russia-and-united-states",
+   "url": "https://www.hks.harvard.edu/events/wartime-diplomacy-ukraine-russia-and-united-states",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -1832,9 +1875,9 @@
    "end": "2026-11-06T16:00:00-05:00",
    "date": "2026-11-06",
    "all_day": false,
-   "location": "",
+   "location": "Bell Hall (belfer 500)",
    "online": false,
-   "host": "",
+   "host": "Ukraine Caucus",
    "food": {
     "status": "none",
     "types": [],
@@ -1851,15 +1894,15 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "",
-   "blurb": "",
+   "summary": "Washington is sending mixed signals on Russia. Tough new sanctions and tariffs are taking effect. At the same time, the administration is extending waivers for Russian oil companies and making energy deals directly with the Kremlin. US-brokered talks between Kyiv and Moscow may resume, while Russia escalates its…",
+   "blurb": "Washington is sending mixed signals on Russia. Tough new sanctions and tariffs are taking effect. At the same time, the administration is extending waivers for Russian oil companies and making energy deals directly with the Kremlin. US-brokered talks between…",
    "event_page": true,
    "notes": "",
-   "place_name": "Harvard Kennedy School",
-   "lat": 42.371989,
-   "lon": -71.121761,
-   "geo_method": "host",
-   "walk_min": 16
+   "place_name": "Belfer Building, Harvard Kennedy School",
+   "lat": 42.37141,
+   "lon": -71.121513,
+   "geo_method": "gazetteer",
+   "walk_min": 17
   },
   {
    "id": "3cc4a558c8a7",
@@ -2391,22 +2434,15 @@
   },
   {
    "id": "04740fbdab22",
-   "title": "Harvard University Asia Center",
-   "url": "https://asiacenter.harvard.edu/",
-   "source_id": "suggested",
-   "source_name": "Suggested calendar: Asia Center",
-   "also_listed": [
-    {
-     "source_name": "Harvard College events",
-     "url": "https://events.college.harvard.edu/event/224640-harvard-university-mens-ice-hockey-vs-brown"
-    }
-   ],
+   "title": "Harvard University Men’s Ice Hockey vs Brown",
+   "url": "https://events.college.harvard.edu/event/224640-harvard-university-mens-ice-hockey-vs-brown",
+   "source_id": "college",
+   "source_name": "Harvard College events",
+   "also_listed": [],
    "aliases": [
     "3afc956df736",
     "9f040d05c5a8",
-    "b801dd45c134",
-    "e3fe6ee354e2",
-    "e97011569998"
+    "b801dd45c134"
    ],
    "suggested": null,
    "forwarded": null,
@@ -2414,9 +2450,9 @@
    "end": "2026-11-06T22:00:00-05:00",
    "date": "2026-11-06",
    "all_day": false,
-   "location": "",
+   "location": "Cambridge, MA, Bright-Landry Hockey Center",
    "online": false,
-   "host": "",
+   "host": "Main Calendar",
    "food": {
     "status": "none",
     "types": [],
@@ -2428,20 +2464,20 @@
     "link": ""
    },
    "audience": {
-    "level": "unknown",
-    "group": "",
-    "evidence": "",
-    "basis": "none"
+    "level": "restricted",
+    "group": "Harvard College students",
+    "evidence": "Harvard College calendar, no sign it is open to others",
+    "basis": "default"
    },
-   "summary": "November 6 | Fighting for a Different Heart and Mind November 5 | Book Talk on Painting into Being: Underground Art during China’s Cultural Revolution November 10 | Paper Culture at the Imperial Court of China",
-   "blurb": "November 5 | Book Talk on Painting into Being: Underground Art during China’s Cultural Revolution",
+   "summary": "Harvard University Men’s Ice Hockey vs Brown TV: ESPN+ Streaming Video: https://gocrim.info/siu Tickets: https://gocrimson.evenue.net/event/MH26/MH02?utm_source=website&utm_medium=schedule_page&utm_campaign=mih_brown URL:https://gocrimson.com/calendar.aspx?game_id=33384&sport_id=13",
+   "blurb": "",
    "event_page": true,
    "notes": "",
-   "place_name": "CGIS South Building",
-   "lat": 42.375011,
-   "lon": -71.113135,
-   "geo_method": "host",
-   "walk_min": 5
+   "place_name": "",
+   "lat": null,
+   "lon": null,
+   "geo_method": null,
+   "walk_min": null
   },
   {
    "id": "380ec79c24eb",
@@ -3401,63 +3437,6 @@
    "walk_min": 7
   },
   {
-   "id": "0262bb0ed515",
-   "title": "Harvard Band at Harvard VS. Columbia",
-   "url": "https://events.college.harvard.edu/ofa/event/harvard-band-at-harvard-vs-columbia",
-   "source_id": "college",
-   "source_name": "Harvard College events",
-   "also_listed": [],
-   "aliases": [
-    "0a2835b4ad55",
-    "13beb1da3ef7",
-    "442576628892",
-    "5e6aa461fc34",
-    "6cbfa774af09",
-    "7cf4ac7cb23e",
-    "a03878826d35",
-    "a6069dd534a0",
-    "b9722626025b",
-    "cb1d69addc6e",
-    "f548478ffe1b",
-    "f798ad004b80",
-    "ff557a24768d"
-   ],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-11-07T13:00:00-05:00",
-   "end": "2026-11-07T16:00:00-05:00",
-   "date": "2026-11-07",
-   "all_day": false,
-   "location": "Harvard Stadium",
-   "online": false,
-   "host": "Office for the Arts",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
-   },
-   "audience": {
-    "level": "restricted",
-    "group": "Harvard College students",
-    "evidence": "Harvard College calendar, no sign it is open to others",
-    "basis": "default"
-   },
-   "summary": "Come see the Harvard Band perform at the Harvard Vs. Columbia Football game at the Harvard Stadium!",
-   "blurb": "Come see the Harvard Band perform at the Harvard Vs. Columbia Football game at the Harvard Stadium!",
-   "event_page": true,
-   "notes": "",
-   "place_name": "Harvard Stadium",
-   "lat": 42.36673,
-   "lon": -71.127491,
-   "geo_method": "source",
-   "walk_min": 28
-  },
-  {
    "id": "4a7bdadc4182",
    "title": "Harvard University Women’s Swimming and Diving at Cornell University",
    "url": "https://events.college.harvard.edu/event/224631-harvard-university-womens-swimming-and-diving-at",
@@ -3760,6 +3739,63 @@
    "lon": null,
    "geo_method": null,
    "walk_min": null
+  },
+  {
+   "id": "0262bb0ed515",
+   "title": "Harvard Band at Harvard VS. Columbia",
+   "url": "https://events.college.harvard.edu/ofa/event/harvard-band-at-harvard-vs-columbia",
+   "source_id": "college",
+   "source_name": "Harvard College events",
+   "also_listed": [],
+   "aliases": [
+    "0a2835b4ad55",
+    "13beb1da3ef7",
+    "5e6aa461fc34",
+    "693dcd6e0fcc",
+    "6cbfa774af09",
+    "7cf4ac7cb23e",
+    "805578ae2cf7",
+    "a03878826d35",
+    "b9722626025b",
+    "cb1d69addc6e",
+    "f548478ffe1b",
+    "f798ad004b80",
+    "ff557a24768d"
+   ],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-07T19:00:00-05:00",
+   "end": "2026-11-07T22:00:00-05:00",
+   "date": "2026-11-07",
+   "all_day": false,
+   "location": "Harvard Stadium",
+   "online": false,
+   "host": "Office for the Arts",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "Harvard College students",
+    "evidence": "Harvard College calendar, no sign it is open to others",
+    "basis": "default"
+   },
+   "summary": "Come see the Harvard Band perform at the Harvard Vs. Columbia Football game at the Harvard Stadium!",
+   "blurb": "Come see the Harvard Band perform at the Harvard Vs. Columbia Football game at the Harvard Stadium!",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Harvard Stadium",
+   "lat": 42.36673,
+   "lon": -71.127491,
+   "geo_method": "source",
+   "walk_min": 28
   },
   {
    "id": "bb8d86c4f76b",
@@ -4609,13 +4645,15 @@
    "walk_min": 10
   },
   {
-   "id": "07f27ad37318",
+   "id": "008c506e45e6",
    "title": "Harvard University Men’s Water Polo vs Iona",
    "url": "https://events.college.harvard.edu/event/224625-harvard-university-mens-water-polo-vs-iona",
    "source_id": "college",
    "source_name": "Harvard College events",
    "also_listed": [],
    "aliases": [
+    "07f27ad37318",
+    "60c3a11e7ada",
     "f11d6ffd59f8"
    ],
    "suggested": null,
@@ -6136,7 +6174,7 @@
   },
   {
    "id": "27ecb5da991f",
-   "title": "After the IRA: What Modern Climate Politics Needs to Build",
+   "title": "CANCELED - After the IRA: What Modern Climate Politics Needs to Build",
    "url": "https://www.hks.harvard.edu/events/after-ira-what-modern-climate-politics-needs-build",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
@@ -6160,9 +6198,9 @@
     "cue": "strong"
    },
    "registration": {
-    "status": "required",
-    "evidence": "Registration: RSVP required.",
-    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001lQsvIAE"
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
    },
    "audience": {
     "level": "unknown",
@@ -6170,7 +6208,7 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "In this Energy Policy Seminar, Jane Flegal, Senior Fellow at the Searchlight Institute and The States Forum and a Distinguished Fellow at the Institute for Climate and Sustainable Growth at the University of Chicago, will give a talk entitled, \"After the IRA: What Modern Climate Politics Needs to Build.\" Professor Joe…",
+   "summary": "This event has been canceled. In this Energy Policy Seminar, Jane Flegal, Senior Fellow at the Searchlight Institute and The States Forum and a Distinguished Fellow at the Institute for Climate and Sustainable Growth at the University of Chicago, will give a talk entitled, \"After the IRA: What Modern Climate Politics…",
    "blurb": "In this Energy Policy Seminar, Jane Flegal, Senior Fellow at the Searchlight Institute and The States Forum and a Distinguished Fellow at the Institute for Climate and Sustainable Growth at the University of Chicago, will give a talk entitled, \"After the IRA…",
    "event_page": true,
    "notes": "",
@@ -6231,9 +6269,52 @@
    "walk_min": 12
   },
   {
+   "id": "74d425f3190e",
+   "title": "Harvard University Asia Center",
+   "url": "https://asiacenter.harvard.edu/",
+   "source_id": "suggested",
+   "source_name": "Suggested calendar: Asia Center",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-09T12:00:00-05:00",
+   "end": null,
+   "date": "2026-11-09",
+   "all_day": true,
+   "location": "",
+   "online": false,
+   "host": "",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "November 9 | Everyday Occupation: American Soldiers and Chinese Civilians after World War II November 17 | Curating and Collaborating with Cambodia at the National Museum of Asian Art, Smithsonian November 10 | Paper Culture at the Imperial Court of China",
+   "blurb": "November 9 | Everyday Occupation: American Soldiers and Chinese Civilians after World War II",
+   "event_page": true,
+   "notes": "",
+   "place_name": "CGIS South Building",
+   "lat": 42.375011,
+   "lon": -71.113135,
+   "geo_method": "host",
+   "walk_min": 5
+  },
+  {
    "id": "20f2a41e9030",
    "title": "How falling immigration affects the U.S. economy",
-   "url": "https://www.hks.harvard.edu/events/how-falling-immigration-affects-us-economy",
+   "url": "https://www.hks.harvard.edu/index%2Ephp/events/how-falling-immigration-affects-us-economy",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [
@@ -6243,7 +6324,7 @@
     }
    ],
    "aliases": [
-    "9afa6bbf32e2"
+    "cfffb8d3db32"
    ],
    "suggested": null,
    "forwarded": null,
@@ -6251,9 +6332,9 @@
    "end": "2026-11-09T13:00:00-05:00",
    "date": "2026-11-09",
    "all_day": false,
-   "location": "Online",
-   "online": true,
-   "host": "Shorenstein Center on Media, Politics and Public Policy",
+   "location": "",
+   "online": false,
+   "host": "",
    "food": {
     "status": "none",
     "types": [],
@@ -6261,8 +6342,8 @@
    },
    "registration": {
     "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://shorensteincenter.org/event/how-falling-immigration-affects-the-u-s-economy/"
+    "evidence": "Registration link on the event page",
+    "link": "https://harvard.zoom.us/webinar/register/WN_tGjaGlEMTXe_PyoQyW_zCQ#/registration"
    },
    "audience": {
     "level": "unknown",
@@ -6270,15 +6351,15 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "Immigration has fallen steeply since the second inauguration of President Donald Trump. Net international migration is projected to fall by 2.4 million people from 2024 to 2026, according to the U.S. Census Bureau. International migration peaked at 2.7 million people in 2024 before falling to 1.3 million in 2025. For…",
-   "blurb": "Immigration has fallen steeply since the second inauguration of President Donald Trump. Net international migration is projected to fall by 2.4 million people from 2024 to 2026, according to the U.S. International migration peaked at 2.7 million people in…",
+   "summary": "",
+   "blurb": "U.S. migration is projected to plummet by 2.4 million people between 2024 and 2026. Join The Journalist’s Resource, Econofact, and It Turns Out for a live expert panel exploring the consequences for the economy, industries, and families. Immigration has…",
    "event_page": true,
    "notes": "",
-   "place_name": "",
-   "lat": null,
-   "lon": null,
-   "geo_method": null,
-   "walk_min": null
+   "place_name": "Harvard Kennedy School",
+   "lat": 42.371989,
+   "lon": -71.121761,
+   "geo_method": "host",
+   "walk_min": 16
   },
   {
    "id": "25945a2b92e3",
@@ -7199,9 +7280,9 @@
    "walk_min": 5
   },
   {
-   "id": "ab4fd2a7d995",
+   "id": "cd34a2a6bf63",
    "title": "Still Serving: LGBTQI Service Members Through Decades of Policy Change",
-   "url": "https://www.hks.harvard.edu/index%2ephp/events/still-serving-lgbtqi-service-members-through-decades-policy-change",
+   "url": "https://www.hks.harvard.edu/events/still-serving-lgbtqi-service-members-through-decades-policy-change",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -7212,34 +7293,34 @@
    "end": "2026-11-09T17:00:00-05:00",
    "date": "2026-11-09",
    "all_day": false,
-   "location": "",
+   "location": "Malkin Penthouse (l-p-9)",
    "online": false,
-   "host": "",
+   "host": "Office of Belonging, Community, and Connection (OBCC); Carr-Ryan Center for Human Rights",
    "food": {
     "status": "none",
     "types": [],
     "evidence": ""
    },
    "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
+    "status": "required",
+    "evidence": "RSVP link on the event page",
+    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001lfrxIAA"
    },
    "audience": {
-    "level": "unknown",
+    "level": "public",
     "group": "",
-    "evidence": "",
-    "basis": "none"
+    "evidence": "All are welcome.",
+    "basis": "text"
    },
-   "summary": "",
-   "blurb": "",
+   "summary": "U.S. military policy on LGBTQ+ service members has changed many times in recent history, from earlier prohibitions on service to Don’t Ask, Don’t Tell, its 2011 repeal, to several revisions of policy on transgender service. This session places the current policy restricting transgender military service within that…",
+   "blurb": "U.S. military policy on LGBTQ+ service members has changed many times in recent history, from earlier prohibitions on service to Don’t Ask, Don’t Tell, its 2011 repeal, to several revisions of policy on transgender service. This session places the current…",
    "event_page": true,
    "notes": "",
-   "place_name": "Harvard Kennedy School",
-   "lat": 42.371989,
-   "lon": -71.121761,
-   "geo_method": "host",
-   "walk_min": 16
+   "place_name": "Littauer Building, Harvard Kennedy School",
+   "lat": 42.371045,
+   "lon": -71.12209,
+   "geo_method": "gazetteer",
+   "walk_min": 18
   },
   {
    "id": "4ab4ef5d0685",
@@ -7884,15 +7965,13 @@
    "walk_min": 8
   },
   {
-   "id": "b6b3709beb03",
+   "id": "f8b9d550bcfc",
    "title": "Dolores Huerta Movie Screening",
    "url": "https://hls.harvard.edu/events/dolores-huerta-movie-screening/",
    "source_id": "hls",
    "source_name": "Harvard Law School",
    "also_listed": [],
-   "aliases": [
-    "f8b9d550bcfc"
-   ],
+   "aliases": [],
    "suggested": null,
    "forwarded": null,
    "start": "2026-11-09T19:00:00-05:00",
@@ -7918,8 +7997,8 @@
    "audience": {
     "level": "restricted",
     "group": "HLS students",
-    "evidence": "HLS listing audience: All HLS students only",
-    "basis": "listing"
+    "evidence": "Run by an HLS student organization",
+    "basis": "inferred"
    },
    "summary": "Come celebrate the life and legacy of organizer and activist Dolores Huerta with a screening of the documentary Dolores. The film traces her decades of work fighting for farmworkers’ rights, labor justice, and community power, and reminds us what it means to organize for change. Join us Monday, 11/9 in WCC 1019, from…",
    "blurb": "Come celebrate the life and legacy of organizer and activist Dolores Huerta with a screening of the documentary Dolores. The film traces her decades of work fighting for farmworkers’ rights, labor justice, and community power, and reminds us what it means to…",
@@ -11060,6 +11139,49 @@
    "walk_min": 10
   },
   {
+   "id": "ff37464f7a61",
+   "title": "HSBSE x SHPE x SWE x HUES Crusoe Info Session",
+   "url": "https://soco.college.harvard.edu/rsvp?id=383435",
+   "source_id": "college",
+   "source_name": "Harvard College events",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-10T18:00:00-05:00",
+   "end": "2026-11-10T19:00:00-05:00",
+   "date": "2026-11-10",
+   "all_day": false,
+   "location": "SoCo",
+   "online": false,
+   "host": "Dean of Students Office",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "Registration link on the event page",
+    "link": "https://soco.college.harvard.edu/rsvp?id=383435"
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "undergraduates",
+    "evidence": "Title: HSBSE x SHPE x SWE x HUES Crusoe Info Session",
+    "basis": "inferred"
+   },
+   "summary": "Crusoe Info Session — Event Details: https://soco.college.harvard.edu/rsvp?id=383435",
+   "blurb": "",
+   "event_page": true,
+   "notes": "",
+   "place_name": "",
+   "lat": null,
+   "lon": null,
+   "geo_method": null,
+   "walk_min": null
+  },
+  {
    "id": "553075da0e70",
    "title": "Paul Kelleher, Emory University",
    "url": "https://ol599rkab.cc.rs6.net/tn.jsp?f=001al_03K9I24Pm0cP5TCgMDkwOpeg8kviGL39kmGdWv90zuiaQj3noVBNytoDw8llXVeWnTM_y51-py9oiAGgbNmwTkKcPSdMiB_jp21zmTktk0j1KkJl4K5XfNNWARN5Lwpj4aXBAjm39x5MkzVbyLbBrGwg9KjcroZTgpMmeXdJHkrYo-L3tbTguppbg9e1PQNmMFSOSkJ4Hzva8wVUJU6MdqLUl9j948bZlVIHSr_bsJv5i423V3KdOfqAJhRXz&c=PuJ5Ed1A3LzUyEqGzePBzo3zuobwi5iLTDEpZRtzx8kSC7J1QYPiOQ==&ch=avpKrp43okUV5vXXMPFOYIs5rqRHOAxBSNBiEeWmWdweKzHpDcCwBg==",
@@ -12798,7 +12920,7 @@
     "evidence": "Harvard College calendar, no sign it is open to others",
     "basis": "default"
    },
-   "summary": "Harvard University Women’s Basketball vs University of Massachusetts Streaming Video: https://www.espn.com/watch/player/_/id/2d02229a-b865-4c1c-83af-7cb401c04939 Tickets: https://gocrimson.evenue.net/events/womens-basketball URL:https://gocrimson.com/calendar.aspx?game_id=33423&sport_id=25",
+   "summary": "Harvard University Women’s Basketball vs University of Massachusetts Streaming Video: https://www.espn.com/watch/player/_/id/2d02229a-b865-4c1c-83af-7cb401c04939 Tickets: https://gocrimson.evenue.net/event/WB26/WB02?utm_source=website&utm_medium=schedule_page&utm_campaign=wbb_umass…",
    "blurb": "",
    "event_page": true,
    "notes": "",
@@ -13552,6 +13674,52 @@
    "walk_min": 13
   },
   {
+   "id": "8395c887f746",
+   "title": "Democracy in Action: Managing a Citizen-led Ballot Campaign",
+   "url": "https://www.hks.harvard.edu/events/democracy-action-managing-citizen-led-ballot-campaign",
+   "source_id": "hks",
+   "source_name": "Harvard Kennedy School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-12T12:00:00-05:00",
+   "end": "2026-11-12T13:30:00-05:00",
+   "date": "2026-11-12",
+   "all_day": false,
+   "location": "Cpl Darman Seminar Room (taubman 135)",
+   "online": false,
+   "host": "Center for Public Leadership",
+   "food": {
+    "status": "confirmed",
+    "types": [
+     "Lunch"
+    ],
+    "evidence": "Lunch will be available beginning at 11:45am.",
+    "cue": "strong"
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "Registration is required.",
+    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001lxKDIAY"
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "When elected officials refuse to act, how do you turn a policy idea into a ballot measure? This workshop will serve as a hot-debrief on four measures that were on the ballot in Massachusetts on November 3, 2026. Join us for lunch and a workshop with Rand Wentworth, Adjunct Lecturer, Harvard Kennedy School; President…",
+   "blurb": "When elected officials refuse to act, how do you turn a policy idea into a ballot measure? This workshop will serve as a hot-debrief on four measures that were on the ballot in Massachusetts on November 3, 2026. Join us for lunch and a workshop with Rand…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Taubman Building, Harvard Kennedy School",
+   "lat": 42.371822,
+   "lon": -71.122151,
+   "geo_method": "gazetteer",
+   "walk_min": 17
+  },
+  {
    "id": "81ed3f81f06d",
    "title": "Disability, Neurodiversity, and the Future of Work",
    "url": "https://www.hks.harvard.edu/index%2ephp/events/disability-neurodiversity-and-future-work",
@@ -13999,15 +14167,59 @@
    "walk_min": 10
   },
   {
+   "id": "21ee517aa99e",
+   "title": "Lunch Talk with James Pollack, JD’20, Partner at Marten Law",
+   "url": "https://hls.harvard.edu/events/lunch-talk-with-james-pollack-jd20-partner-at-marten-law/",
+   "source_id": "hls",
+   "source_name": "Harvard Law School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-12T12:20:00-05:00",
+   "end": "2026-11-12T13:20:00-05:00",
+   "date": "2026-11-12",
+   "all_day": false,
+   "location": "WCC 3008, Harvard Law School",
+   "online": false,
+   "host": "Environmental Law Review; Harvard Law School Environmental Law Society; Environmental Law and Policy Clinic; Emmett Environmental Law Center; Environmental and Energy Law Program",
+   "food": {
+    "status": "confirmed",
+    "types": [
+     "Lunch"
+    ],
+    "evidence": "Please join us for a lunch conversation with James Pollack, JD’20, Partner at Marten Law.",
+    "cue": "weak"
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "HLS students",
+    "evidence": "Run by an HLS student organization",
+    "basis": "inferred"
+   },
+   "summary": "Please join us for a lunch conversation with James Pollack, JD’20, Partner at Marten Law. James will reflect on his career trajectory after graduating from HLS and will discuss his work at Marten Law, where he leads the firm’s regulatory practice where he helps trusted national brands bring more sustainable products…",
+   "blurb": "Please join us for a lunch conversation with James Pollack, JD’20, Partner at Marten Law. James will reflect on his career trajectory after graduating from HLS and will discuss his work at Marten Law, where he leads the firm’s regulatory practice where he…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Wasserstein Hall (WCC), Harvard Law School",
+   "lat": 42.379383,
+   "lon": -71.119421,
+   "geo_method": "gazetteer",
+   "walk_min": 10
+  },
+  {
    "id": "70db8d17510c",
    "title": "What Do Big Law Firms Really Do?",
    "url": "https://hls.harvard.edu/events/what-do-big-law-firms-really-do/",
    "source_id": "hls",
    "source_name": "Harvard Law School",
    "also_listed": [],
-   "aliases": [
-    "d934795789f5"
-   ],
+   "aliases": [],
    "suggested": null,
    "forwarded": null,
    "start": "2026-11-12T12:20:00-05:00",
@@ -14032,9 +14244,9 @@
    },
    "audience": {
     "level": "restricted",
-    "group": "HLS students",
-    "evidence": "HLS listing audience: All HLS students only",
-    "basis": "listing"
+    "group": "HLS students (recruiting event)",
+    "evidence": "Title: What Do Big Law Firms Really Do?",
+    "basis": "inferred"
    },
    "summary": "Learn about what it’s like to work in Big Law, the types of cases Big Law firms work on, and your career options! Lunch will be served. Add to Calendar November 12, 2026, 12:20 pm - 1:20 pm +Google Calendar +iCal/Outlook",
    "blurb": "Learn about what it’s like to work in Big Law, the types of cases Big Law firms work on, and your career options!",
@@ -14675,13 +14887,20 @@
    "walk_min": 7
   },
   {
-   "id": "5b168c637a50",
+   "id": "408db5480562",
    "title": "Study Group with Sec. Alejandro Mayorkas: Building a Career through Uncertainty",
    "url": "https://www.hks.harvard.edu/events/study-group-sec-alejandro-mayorkas-building-career-through-uncertainty",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
-   "also_listed": [],
-   "aliases": [],
+   "also_listed": [
+    {
+     "source_name": "Harvard College events",
+     "url": "https://events.college.harvard.edu/event/226180-study-group-with-alejandro-mayorkas-building-a"
+    }
+   ],
+   "aliases": [
+    "5b168c637a50"
+   ],
    "suggested": null,
    "forwarded": null,
    "start": "2026-11-12T16:30:00-05:00",
@@ -14867,10 +15086,11 @@
    "also_listed": [
     {
      "source_name": "Harvard College events",
-     "url": "https://events.college.harvard.edu/event/225880-we-are-our-languages-digital-stories-by-indigenous"
+     "url": "https://events.college.harvard.edu/event/226126-we-are-our-languages-digital-stories-by-indigenous"
     }
    ],
    "aliases": [
+    "c1dac7ae179f",
     "ff9444053218"
    ],
    "suggested": null,
@@ -15139,6 +15359,49 @@
    "lon": -71.119421,
    "geo_method": "gazetteer",
    "walk_min": 10
+  },
+  {
+   "id": "411e063c248f",
+   "title": "DEAF GAIN AS CIVIC GLUE: What Deaf America offers a polarized nation",
+   "url": "https://events.college.harvard.edu/event/226003-deaf-gain-as-civic-glue-what-deaf-america-offers-a",
+   "source_id": "college",
+   "source_name": "Harvard College events",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-12T18:00:00-05:00",
+   "end": null,
+   "date": "2026-11-12",
+   "all_day": false,
+   "location": "Tsai Auditorium, CGIS South, 1730 Cambridge Street",
+   "online": false,
+   "host": "Department of Linguistics",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "Harvard College students",
+    "evidence": "Harvard College calendar, no sign it is open to others",
+    "basis": "default"
+   },
+   "summary": "American civil society is fraying. Trust has eroded, divisions have deepened, and the proposed fixes haven’t held. What if a working model for repair is... Deaf America? Join American Sign Language at Harvard for Deaf Gain as Civic Glue, a talk with Dr. Brendan Stern, Executive Director of the Center for Democracy in…",
+   "blurb": "Trust has eroded, divisions have deepened, and the proposed fixes haven’t held. What if a working model for repair is... Join American Sign Language at Harvard for Deaf Gain as Civic Glue, a talk with Dr. Come ready to question, to participate, and to…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "CGIS South Building",
+   "lat": 42.375011,
+   "lon": -71.113135,
+   "geo_method": "gazetteer",
+   "walk_min": 5
   },
   {
    "id": "0a9bfdb4f3de",
