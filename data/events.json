@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-05T13:06:57-05:00",
+ "generated_at": "2026-11-05T19:21:37-05:00",
  "window": {
   "start": "2026-11-05",
   "end": "2026-11-12"
@@ -20,9 +20,9 @@
    "homepage": "https://news.harvard.edu/gazette/harvard-events/events-calendar/",
    "ok": true,
    "error": null,
-   "n_events": 181,
+   "n_events": 183,
    "n_food": 6,
-   "seconds": 2.5
+   "seconds": 1.8
   },
   {
    "id": "hks",
@@ -30,9 +30,9 @@
    "homepage": "https://www.hks.harvard.edu/more/events",
    "ok": true,
    "error": null,
-   "n_events": 46,
-   "n_food": 10,
-   "seconds": 1.8
+   "n_events": 47,
+   "n_food": 7,
+   "seconds": 3.4
   },
   {
    "id": "hls",
@@ -40,9 +40,9 @@
    "homepage": "https://hls.harvard.edu/calendar/",
    "ok": true,
    "error": null,
-   "n_events": 88,
-   "n_food": 51,
-   "seconds": 14.0
+   "n_events": 89,
+   "n_food": 52,
+   "seconds": 7.9
   },
   {
    "id": "college",
@@ -52,7 +52,7 @@
    "error": null,
    "n_events": 140,
    "n_food": 14,
-   "seconds": 1.5
+   "seconds": 0.7
   },
   {
    "id": "ash",
@@ -62,7 +62,7 @@
    "error": null,
    "n_events": 1,
    "n_food": 1,
-   "seconds": 3.0
+   "seconds": 2.0
   },
   {
    "id": "shorenstein",
@@ -72,7 +72,7 @@
    "error": null,
    "n_events": 4,
    "n_food": 2,
-   "seconds": 11.9
+   "seconds": 8.5
   },
   {
    "id": "fairbank",
@@ -82,7 +82,7 @@
    "error": null,
    "n_events": 6,
    "n_food": 0,
-   "seconds": 7.8
+   "seconds": 0.1
   },
   {
    "id": "newsletter",
@@ -92,7 +92,7 @@
    "error": null,
    "n_events": 39,
    "n_food": 3,
-   "seconds": 95.4
+   "seconds": 50.2
   },
   {
    "id": "suggested",
@@ -100,19 +100,19 @@
    "homepage": "",
    "ok": true,
    "error": null,
-   "n_events": 8,
+   "n_events": 10,
    "n_food": 1,
-   "seconds": 6.4
+   "seconds": 5.2
   }
  ],
  "stats": {
-  "events": 412,
-  "food_confirmed": 64,
+  "events": 416,
+  "food_confirmed": 63,
   "food_likely": 18,
   "forwarded": 34,
-  "forwarded_listed": 9,
+  "forwarded_listed": 10,
   "food_restricted": 54,
-  "seconds": 108.7
+  "seconds": 59.3
  },
  "events": [
   {
@@ -1020,9 +1020,9 @@
     "evidence": ""
    },
    "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://harvard.zoom.us/webinar/register/WN_NfLReO1vSf-oXptQK-A8SQ"
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
    },
    "audience": {
     "level": "unknown",
@@ -1106,9 +1106,9 @@
     "evidence": ""
    },
    "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001kHenIAE"
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
    },
    "audience": {
     "level": "restricted",
@@ -2062,9 +2062,9 @@
     "evidence": ""
    },
    "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001lEjhIAE"
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
    },
    "audience": {
     "level": "unknown",
@@ -5716,7 +5716,7 @@
     "evidence": "HLS listing audience: HLS only",
     "basis": "listing"
    },
-   "summary": "Join HLS Christian Fellowship for a panel discussion on perspectives on being a Christian in BigLaw. Panelists include Prof. Amy Kao (HLS), Prof. Elizabeth King (BU Law), and Larry Wee (Milbank). Add to Calendar November 6, 2026, 6:00 pm - 7:00 pm +Google Calendar +iCal/Outlook",
+   "summary": "*Meeting in Boylston Hall on the Harvard College campus Join HLS Christian Fellowship for a panel discussion on perspectives on being a Christian in BigLaw. Panelists include Prof. Amy Kao (HLS), Prof. Elizabeth King (BU Law), and Larry Wee (Milbank). Add to Calendar November 6, 2026, 6:00 pm - 7:00 pm +Google…",
    "blurb": "Join HLS Christian Fellowship for a panel discussion on perspectives on being a Christian in BigLaw.",
    "event_page": true,
    "notes": "",
@@ -9747,13 +9747,20 @@
    "walk_min": 18
   },
   {
-   "id": "99a420d196be",
+   "id": "46f8d567d0f2",
    "title": "One Country, Two Systems at a Crossroads: Hong Kong’s Opportunities and Challenges",
    "url": "https://ash.harvard.edu/events/one-country-two-systems-at-a-crossroads-hong-kongs-opportunities-and-challenges/",
    "source_id": "ash",
    "source_name": "Ash Center (HKS)",
-   "also_listed": [],
-   "aliases": [],
+   "also_listed": [
+    {
+     "source_name": "Suggested calendar: Fairbanks center",
+     "url": "https://fairbank.fas.harvard.edu/events/one-country-two-systems-at-a-crossroads-hong-kongs-opportunities-and-challenges/"
+    }
+   ],
+   "aliases": [
+    "99a420d196be"
+   ],
    "suggested": null,
    "forwarded": null,
    "start": "2026-11-09T12:00:00-05:00",
@@ -9783,7 +9790,7 @@
     "basis": "text"
    },
    "summary": "Join the Rajawali Foundation Institute for Asia for a discussion with Wang Xiangwei, Senior Visiting Scholar at the Harvard Kennedy School, and Thomas Ng, fellow at Harvard Kennedy School, to discuss Hong Kong’s opportunities and challenges in a changing political and economic context. Join the Rajawali Foundation…",
-   "blurb": "Join the Rajawali Foundation Institute for Asia for a discussion with Wang Xiangwei, Senior Visiting Scholar at the Harvard Kennedy School, and Thomas Ng, fellow at Harvard Kennedy School, to discuss Hong Kong’s opportunities and challenges in a changing…",
+   "blurb": "Since its handover to China in 1997, Hong Kong has been governed under the principle of “one Country, two systems,” which promised the city a high degree of autonomy and the preservation of its way of life. Since the imposition of the National Security Law in…",
    "event_page": true,
    "notes": "",
    "place_name": "Ash Center (124 Mt Auburn St)",
@@ -10478,7 +10485,7 @@
    "all_day": false,
    "location": "Bell Hall (belfer 500)",
    "online": false,
-   "host": "Program on Diplomacy and Statecraft",
+   "host": "Program on Diplomacy and Statecraft; Rajawali Foundation Institute for Asia",
    "food": {
     "status": "none",
     "types": [],
@@ -10495,8 +10502,8 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "Join us for a fireside chat between former Deputy National Security Advisor Matt Pottinger and Ambassador Nicholas Burns as they discuss China’s trajectory and the future of U.S.-China relations. Matt Pottinger is a Distinguished Visiting Fellow at the Hoover Institution, Chairman of the China Program at the…",
-   "blurb": "Join us for a fireside chat between former Deputy National Security Advisor Matt Pottinger and Ambassador Nicholas Burns as they discuss China’s trajectory and the future of U.S.-China relations. Matt Pottinger is a Distinguished Visiting Fellow at the Hoover…",
+   "summary": "Join us for a fireside chat between former Deputy National Security Advisor Matt Pottinger and Ambassador Nicholas Burns as they discuss China’s trajectory and the future of U.S.-China relations. This event is hosted by the Program on Diplomacy and Statecraft and is co-sponsored by the Rajawali Foundation Institute…",
+   "blurb": "Join us for a fireside chat between former Deputy National Security Advisor Matt Pottinger and Ambassador Nicholas Burns as they discuss China’s trajectory and the future of U.S.-China relations. This event is hosted by the Program on Diplomacy and Statecraft…",
    "event_page": true,
    "notes": "",
    "place_name": "Belfer Building, Harvard Kennedy School",
@@ -10894,32 +10901,32 @@
    "walk_min": 18
   },
   {
-   "id": "5fd6d6f6cf36",
+   "id": "22f551d167ec",
    "title": "Framing Power: A Feminist Debrief of the 2026 Midterms",
-   "url": "https://www.hks.harvard.edu/events/framing-power-feminist-debrief-2026-midterms",
-   "source_id": "hks",
-   "source_name": "Harvard Kennedy School",
+   "url": "https://shorensteincenter.org/event/framing-power-a-feminist-debrief-of-the-2026-midterms/",
+   "source_id": "shorenstein",
+   "source_name": "Shorenstein Center (HKS)",
    "also_listed": [
-    {
-     "source_name": "Shorenstein Center (HKS)",
-     "url": "https://shorensteincenter.org/event/framing-power-a-feminist-debrief-of-the-2026-midterms/"
-    },
     {
      "source_name": "Harvard Gazette calendar",
      "url": "https://shorensteincenter.org/event/framing-power-a-feminist-debrief-of-the-2026-midterms/"
+    },
+    {
+     "source_name": "Harvard Kennedy School",
+     "url": "https://www.hks.harvard.edu/index%2Ephp/events/framing-power-feminist-debrief-2026-midterms"
     }
    ],
    "aliases": [
-    "9c8de264a467",
+    "5fd6d6f6cf36",
     "fe193532df0c"
    ],
    "suggested": null,
    "forwarded": null,
    "start": "2026-11-09T17:30:00-05:00",
-   "end": "2026-11-09T18:30:00-05:00",
+   "end": null,
    "date": "2026-11-09",
    "all_day": false,
-   "location": "Hks Campus, 15 Eliot St., Taubman Building, Room T-520 Nye",
+   "location": "HKS Campus, 15 Eliot St., Taubman Building, Room T-520 NYE",
    "online": false,
    "host": "Shorenstein Center on Media, Politics and Public Policy",
    "food": {
@@ -10932,7 +10939,7 @@
    },
    "registration": {
     "status": "required",
-    "evidence": "RSVP link on the event page",
+    "evidence": "Registration link on the event page",
     "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001lOBBIA2"
    },
    "audience": {
@@ -10941,7 +10948,7 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "Join Shorenstein Fellow, former videographer to VP Kamala Harris and Rep Jasmine Crockett, and writer Azza Cohen in conversation with journalist Ali Vitali, author of Electable: Why America Hasn't Put A Woman In The White House...Yet and the host of MSNow's news show \"Way Too Early\", for a feminist debrief of the 2026…",
+   "summary": "Ali Vitali, broadcaster and journalist, author of “Electable,” and Azza Cohen, videographer to Kamala Harris and Jasmine Crockett, break down gender biases in political image-making, interrogate media narratives and advocate for equitable representation. Join Shorenstein Fellow, former videographer to VP Kamala Harris…",
    "blurb": "Ali Vitali, broadcaster and journalist, author of “Electable,” and Azza Cohen, videographer to Kamala Harris and Jasmine Crockett, break down gender biases in political image-making, interrogate media narratives and advocate for equitable representation. Join…",
    "event_page": true,
    "notes": "",
@@ -12253,6 +12260,49 @@
    "lon": -71.117051,
    "geo_method": "gazetteer",
    "walk_min": 7
+  },
+  {
+   "id": "209f6c31e957",
+   "title": "¿SUSTAINABLE? ENOUGH — CARE (Landscapes and Ways of Living)",
+   "url": "https://mlml.io/p/sustainable-1/",
+   "source_id": "gazette",
+   "source_name": "Harvard Gazette calendar",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-10T11:00:00-05:00",
+   "end": "2026-11-10T12:20:00-05:00",
+   "date": "2026-11-10",
+   "all_day": false,
+   "location": "",
+   "online": true,
+   "host": "Metalab (at) Harvard",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "CARE _Landscapes and Ways of Living_ is the second of the three symposia that make up the ¿SUSTAINABLE? ENOUGH series curated by Raffaella Colombo and hosted by metaLAB (at) Harvard . The series explores the meanings, contradictions, and contested claims that surround the topic of sustainability. CARE raises the…",
+   "blurb": "CARE _Landscapes and Ways of Living_ is the second of the three symposia that make up the ¿SUSTAINABLE? ENOUGH series curated by Raffaella Colombo and hosted by metaLAB (at) Harvard . The series explores the meanings, contradictions, and contested claims that…",
+   "event_page": true,
+   "notes": "Cost: Free | Harvard Key required: No",
+   "place_name": "",
+   "lat": null,
+   "lon": null,
+   "geo_method": null,
+   "walk_min": null
   },
   {
    "id": "0a6c3803a0a6",
@@ -14002,6 +14052,49 @@
    "walk_min": 17
   },
   {
+   "id": "f3a06c927046",
+   "title": "Politics of Legitimacy: State-Society Relations in Post-Mao China",
+   "url": "https://fairbank.fas.harvard.edu/events/politics-of-legitimacy-state-society-relations-in-post-mao-china/",
+   "source_id": "suggested",
+   "source_name": "Suggested calendar: Fairbanks center",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-10T16:30:00-05:00",
+   "end": "2026-11-10T17:30:00-05:00",
+   "date": "2026-11-10",
+   "all_day": false,
+   "location": "124 Mount Auburn Street Suite 200N, Ash Center Seminar Room 225, 124 Mt. Auburn St., Cambridge, Massachusetts, 02138, United States",
+   "online": false,
+   "host": "",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "Speaker: Dingxin Zhao, Chinese Sociologist, Max Palevsky Professor Emeritus of Sociology, University of Chicago. Venue",
+   "blurb": "",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Ash Center (124 Mt Auburn St)",
+   "lat": 42.372952,
+   "lon": -71.123759,
+   "geo_method": "gazetteer",
+   "walk_min": 17
+  },
+  {
    "id": "68dfd0b9ef0f",
    "title": "Study Group with Chris Whipple: Conclusion: All the President's Men and Women",
    "url": "https://iop.harvard.edu/events/study-group-chris-whipple-conclusion-all-presidents-men-and-women",
@@ -15619,38 +15712,42 @@
    "walk_min": 13
   },
   {
-   "id": "da548a9af19e",
-   "title": "TOO FUNNY, TOO REAL: Inside the Creative World of Noa Yedlin",
-   "url": "https://ol599rkab.cc.rs6.net/tn.jsp?f=001al_03K9I24Pm0cP5TCgMDkwOpeg8kviGL39kmGdWv90zuiaQj3noVBNytoDw8llXBnoKWFRZGSiZkImUhf2Af1tJk89AtYFjJRNKrnqefde_YQG-WM9GVR1lNmKLPHBTrLTxg6SGaDv6QoiZDVMF_kNKarv2CLCRBRTpvuPjOWDwbZDlI3dSIy5b0blr3dp9VHwsa2rTTLGKQ82L8yrX-5qz9jgwwpIfzaRZbVx7EvO_h_iCORemAD12DRT9E0szX9YO7Z4js-CXICFrLMdrTjyZs2uT56u8JAI0huwOQcQ=&c=PuJ5Ed1A3LzUyEqGzePBzo3zuobwi5iLTDEpZRtzx8kSC7J1QYPiOQ==&ch=avpKrp43okUV5vXXMPFOYIs5rqRHOAxBSNBiEeWmWdweKzHpDcCwBg==",
-   "source_id": "newsletter",
-   "source_name": "Forwarded: Upcoming Events & Seminars at MHC",
-   "also_listed": [],
-   "aliases": [],
+   "id": "bb142d878d23",
+   "title": "Too Funny, Too Real: Inside the Creative World of Noa Yedlin",
+   "url": "https://cjs.fas.harvard.edu/",
+   "source_id": "gazette",
+   "source_name": "Harvard Gazette calendar",
+   "also_listed": [
+    {
+     "source_name": "Forwarded: Upcoming Events & Seminars at MHC",
+     "url": "https://ol599rkab.cc.rs6.net/tn.jsp?f=001al_03K9I24Pm0cP5TCgMDkwOpeg8kviGL39kmGdWv90zuiaQj3noVBNytoDw8llXBnoKWFRZGSiZkImUhf2Af1tJk89AtYFjJRNKrnqefde_YQG-WM9GVR1lNmKLPHBTrLTxg6SGaDv6QoiZDVMF_kNKarv2CLCRBRTpvuPjOWDwbZDlI3dSIy5b0blr3dp9VHwsa2rTTLGKQ82L8yrX-5qz9jgwwpIfzaRZbVx7EvO_h_iCORemAD12DRT9E0szX9YO7Z4js-CXICFrLMdrTjyZs2uT56u8JAI0huwOQcQ=&c=PuJ5Ed1A3LzUyEqGzePBzo3zuobwi5iLTDEpZRtzx8kSC7J1QYPiOQ==&ch=avpKrp43okUV5vXXMPFOYIs5rqRHOAxBSNBiEeWmWdweKzHpDcCwBg=="
+    }
+   ],
+   "aliases": [
+    "da548a9af19e"
+   ],
    "suggested": null,
    "forwarded": {
     "by": "Cecilia",
     "subject": "Upcoming Events & Seminars at MHC",
-    "missing": [
-     "event page",
-     "description"
-    ]
+    "missing": []
    },
    "start": "2026-11-11T16:00:00-05:00",
-   "end": null,
+   "end": "2026-11-11T17:30:00-05:00",
    "date": "2026-11-11",
    "all_day": false,
-   "location": "Barker Center, Room 110",
+   "location": "Thompson Room, Barker Center, 12 Quincy St., Cambridge",
    "online": false,
-   "host": "",
+   "host": "Center for Jewish Studies at Harvard University",
    "food": {
     "status": "none",
     "types": [],
     "evidence": ""
    },
    "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
+    "status": "required",
+    "evidence": "Registration link on the event page",
+    "link": "https://cjs.fas.harvard.edu/news-events/events/"
    },
    "audience": {
     "level": "unknown",
@@ -15658,10 +15755,10 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "TOO FUNNY, TOO REAL: Inside the Creative World of Noa Yedlin Wednesday, November 11 at 4:00pm | Barker Center, Room 110 Buddhist Studies Forum Or Porath, Tel Aviv University",
-   "blurb": "",
-   "event_page": false,
-   "notes": "",
+   "summary": "Award–winning Israeli author and screenwriter Noa Yedlin (Stockholm, People Like Us and the recently published House Arrest) will share her creative world, where humor meets complex family relationships and white-collar crime meets everyday life. In this lively, story–filled lecture, Yedlin reveals how wild ideas take…",
+   "blurb": "Award–winning Israeli author and screenwriter Noa Yedlin (Stockholm, People Like Us and the recently published House Arrest) will share her creative world, where humor meets complex family relationships and white-collar crime meets everyday life. In this…",
+   "event_page": true,
+   "notes": "Cost: Free | Harvard Key required: No",
    "place_name": "Barker Center",
    "lat": 42.37261,
    "lon": -71.114576,
@@ -16729,9 +16826,9 @@
    "walk_min": 13
   },
   {
-   "id": "16237d5a9365",
+   "id": "81ed3f81f06d",
    "title": "Disability, Neurodiversity, and the Future of Work",
-   "url": "https://www.hks.harvard.edu/events/disability-neurodiversity-and-future-work",
+   "url": "https://www.hks.harvard.edu/index%2ephp/events/disability-neurodiversity-and-future-work",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -16742,21 +16839,18 @@
    "end": "2026-11-12T13:00:00-05:00",
    "date": "2026-11-12",
    "all_day": false,
-   "location": "Wexner G-02",
+   "location": "",
    "online": false,
-   "host": "Carr-Ryan Center for Human Rights",
+   "host": "",
    "food": {
-    "status": "confirmed",
-    "types": [
-     "Lunch"
-    ],
-    "evidence": "Lunch will be provided.",
-    "cue": "strong"
+    "status": "none",
+    "types": [],
+    "evidence": ""
    },
    "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001lYwvIAE"
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
    },
    "audience": {
     "level": "unknown",
@@ -16764,15 +16858,15 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "As the American workforce transforms, disability, accessibility, and neurodiversity are reshaping how businesses hire, retain, and compete. Join Carr-Ryan Fellow Reid Jewett Smith for a lunch conversation on the latest research from Disability:IN, the largest global nonprofit dedicated to disability inclusion in…",
-   "blurb": "Join Carr-Ryan Fellow Reid Jewett Smith for a lunch conversation on the latest research from Disability:IN, the largest global nonprofit dedicated to disability inclusion in business. The discussion will cover the purchasing power of disabled consumers…",
+   "summary": "",
+   "blurb": "",
    "event_page": true,
    "notes": "",
-   "place_name": "Wexner Building, Harvard Kennedy School",
-   "lat": 42.371344,
-   "lon": -71.122357,
-   "geo_method": "gazetteer",
-   "walk_min": 18
+   "place_name": "Harvard Kennedy School",
+   "lat": 42.371989,
+   "lon": -71.121761,
+   "geo_method": "host",
+   "walk_min": 16
   },
   {
    "id": "708ed3452198",
@@ -16909,9 +17003,9 @@
    "walk_min": 18
   },
   {
-   "id": "090daec56071",
+   "id": "f4f92be09b94",
    "title": "The Future of Money: Inside the Fed's Innovation Center",
-   "url": "https://www.hks.harvard.edu/events/future-money-inside-feds-innovation-center",
+   "url": "https://www.hks.harvard.edu/index%2Ephp/events/future-money-inside-feds-innovation-center",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -16922,21 +17016,18 @@
    "end": "2026-11-12T13:30:00-05:00",
    "date": "2026-11-12",
    "all_day": false,
-   "location": "Rubenstein 414 A/b",
+   "location": "",
    "online": false,
-   "host": "Digital Assets Policy Project",
+   "host": "",
    "food": {
-    "status": "confirmed",
-    "types": [
-     "Lunch"
-    ],
-    "evidence": "Lunch will be served.",
-    "cue": "strong"
+    "status": "none",
+    "types": [],
+    "evidence": ""
    },
    "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001lXHhIAM"
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
    },
    "audience": {
     "level": "unknown",
@@ -16944,15 +17035,15 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "With the rise of stablecoins, tokenized bank deposits and tokenized stocks and bonds, how is the U.S. central bank thinking about innovation in payments and money? Per von Zelowitz, Director of the New York Innovation Center (NYIC) at the Federal Reserve Bank of New York, will discuss the NYIC’s work in exploring…",
-   "blurb": "With the rise of stablecoins, tokenized bank deposits and tokenized stocks and bonds, how is the U.S. central bank thinking about innovation in payments and money? Per von Zelowitz, Director of the New York Innovation Center (NYIC) at the Federal Reserve Bank…",
+   "summary": "",
+   "blurb": "",
    "event_page": true,
    "notes": "",
-   "place_name": "Rubenstein Building, Harvard Kennedy School",
-   "lat": 42.371243,
-   "lon": -71.122687,
-   "geo_method": "gazetteer",
-   "walk_min": 18
+   "place_name": "Harvard Kennedy School",
+   "lat": 42.371989,
+   "lon": -71.121761,
+   "geo_method": "host",
+   "walk_min": 16
   },
   {
    "id": "34a8a957d39a",
@@ -17311,6 +17402,49 @@
    "walk_min": 10
   },
   {
+   "id": "d5fc30e70eaa",
+   "title": "Who Governs Frontier AI? New Roles for Auditors, Insurers, and Industry",
+   "url": "https://hls.harvard.edu/events/who-governs-frontier-ai-new-roles-for-auditors-insurers-and-industry/",
+   "source_id": "hls",
+   "source_name": "Harvard Law School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-12T12:30:00-05:00",
+   "end": "2026-11-12T13:15:00-05:00",
+   "date": "2026-11-12",
+   "all_day": false,
+   "location": "WCC, 1023 Classroom, Harvard Law School",
+   "online": false,
+   "host": "Harvard Law School Artificial Intelligence Association",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "harvard",
+    "group": "",
+    "evidence": "HLS listing audience: All Harvard",
+    "basis": "listing"
+   },
+   "summary": "State and federal lawmakers are busy discussing whether—and how—to regulate frontier AI labs. But the tools available to them go far beyond traditional top-down regulation. This panel explores three potential components of a frontier regulatory regime: industry self-regulatory organizations, independent verification…",
+   "blurb": "State and federal lawmakers are busy discussing whether—and how—to regulate frontier AI labs. But the tools available to them go far beyond traditional top-down regulation. This panel explores three potential components of a frontier regulatory regime…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Wasserstein Hall (WCC), Harvard Law School",
+   "lat": 42.379383,
+   "lon": -71.119421,
+   "geo_method": "gazetteer",
+   "walk_min": 10
+  },
+  {
    "id": "290a5334ccbc",
    "title": "Being Heumann Advance Screening Watch Party",
    "url": "https://hls.harvard.edu/events/being-heumann-advance-screening-watch-party/",
@@ -17625,6 +17759,49 @@
    "walk_min": 7
   },
   {
+   "id": "5b168c637a50",
+   "title": "Study Group with Sec. Alejandro Mayorkas: Building a Career through Uncertainty",
+   "url": "https://www.hks.harvard.edu/events/study-group-sec-alejandro-mayorkas-building-career-through-uncertainty",
+   "source_id": "hks",
+   "source_name": "Harvard Kennedy School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-12T16:30:00-05:00",
+   "end": "2026-11-12T17:45:00-05:00",
+   "date": "2026-11-12",
+   "all_day": false,
+   "location": "L-163",
+   "online": false,
+   "host": "Institute of Politics (IOP)",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "RSVP link on the event page",
+    "link": "https://iop.harvard.edu/events/study-group-honorable-alejandro-mayorkas-building-career-through-uncertainty-and-winding"
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "HKS students",
+    "evidence": "Title: Study Group with Sec. Alejandro Mayorkas: Building a Career through Uncertainty",
+    "basis": "inferred"
+   },
+   "summary": "Please join the Honorable Alejandro and Tanya Mayorkas for a study group session focused on building a career and all paths that a career can take. *These off-the-record conversations are open to members of the Harvard community. Please RSVP with a valid Harvard email address.",
+   "blurb": "Please join the Honorable Alejandro and Tanya Mayorkas for a study group session focused on building a career and all paths that a career can take. These off-the-record conversations are open to members of the Harvard community.",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Littauer Building, Harvard Kennedy School",
+   "lat": 42.371045,
+   "lon": -71.12209,
+   "geo_method": "gazetteer",
+   "walk_min": 18
+  },
+  {
    "id": "417e922a7c42",
    "title": "ArtsThursdays: Conversation with the Artist Carmen Winant",
    "url": "https://www.radcliffe.harvard.edu/event/2026-artsthursdays-carmen-winant-conversation",
@@ -17921,9 +18098,12 @@
    "online": false,
    "host": "Harvard Law School",
    "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
+    "status": "confirmed",
+    "types": [
+     "Dinner"
+    ],
+    "evidence": "Dinner will be served.",
+    "cue": "strong"
    },
    "registration": {
     "status": "unknown",
@@ -17936,8 +18116,8 @@
     "evidence": "HLS listing audience: All Harvard",
     "basis": "listing"
    },
-   "summary": "Add to Calendar November 12, 2026, 6:00 pm - 8:00 pm +Google Calendar +iCal/Outlook",
-   "blurb": "",
+   "summary": "Come and watch 45 minutes of clips from Crime and Punishment in America, Ken Burns’ new four-part documentary series about the criminal legal system. “A sweeping look at the American criminal justice system, from the origins of prisons and policing to our continued fascination with crime, the film traces the contours…",
+   "blurb": "Come and watch 45 minutes of clips from Crime and Punishment in America, Ken Burns’ new four-part documentary series about the criminal legal system. “A sweeping look at the American criminal justice system, from the origins of prisons and policing to our…",
    "event_page": true,
    "notes": "",
    "place_name": "Wasserstein Hall (WCC), Harvard Law School",
@@ -18391,7 +18571,7 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "Monday, November 16, 2026 Time: 6:00pm EST Where: JFK Jr. Forum, 79 John F. Kennedy St., Cambridge, MA 02138 Meeting Method: Hybrid Add to Calendar 2026-11-16 18:00:00 2026-11-05 02:17:35 Making the Vision: Venture Capital, Creativity, and the Power of Story with David Fialkow, Oscar-Winning Filmmaker David Fialkow…",
+   "summary": "Monday, November 16, 2026 Time: 6:00pm EST Where: JFK Jr. Forum, 79 John F. Kennedy St., Cambridge, MA 02138 Meeting Method: Hybrid Add to Calendar 2026-11-16 18:00:00 2026-11-05 16:46:09 Making the Vision: Venture Capital, Creativity, and the Power of Story with David Fialkow, Oscar-Winning Filmmaker David Fialkow…",
    "blurb": "David Fialkow joins us for a conversation that will explore the intersection of entrepreneurship, investing, and storytelling, drawing on his experience as a successful venture capitalist and award-winning filmmaker. Together, we’ll examine the power of…",
    "event_page": true,
    "notes": "",
@@ -18540,7 +18720,7 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "Nov 18, 2026 @ 5:30 PM AI, Advice, and the Self Harvard Community Workshop Who do we become when we take advice from machines? Drawing on insights from BKC Fellow Amelia Miller's research at the Berkman Klein Center and her human-AI relationship coaching… RSVP Nov 19, 2026 @ 12:20 PM AI & Political Freedom Anthropic's…",
+   "summary": "Nov 18, 2026 @ 5:30 PM Is Your Relationship With AI Healthy? A Workshop on AI, Advice, and the Self Who do we become when we take advice from machines? Drawing on insights from BKC Fellow Amelia Miller's research at the Berkman Klein Center and her human-AI relationship coaching… RSVP Nov 19, 2026 @ 12:20 PM AI &…",
    "blurb": "Who do we become when we take advice from machines? Drawing on insights from BKC Fellow Amelia Miller's research at the Berkman Klein Center and her human-AI relationship coaching… The present moment is defined by both the emergence of powerful artificial…",
    "event_page": true,
    "notes": "",
@@ -18587,7 +18767,7 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "Wednesday, November 18, 2026 Time: 6:00pm EST Where: JFK Jr. Forum, 79 John F. Kennedy St., Cambridge, MA 02138 Meeting Method: Hybrid Add to Calendar 2026-11-18 18:00:00 2026-11-05 05:19:51 A Workforce in Transition: The AI Economy and What it Means for Our Future with Secretary Gina Raimondo & Governor Eric Holcomb…",
+   "summary": "Wednesday, November 18, 2026 Time: 6:00pm EST Where: JFK Jr. Forum, 79 John F. Kennedy St., Cambridge, MA 02138 Meeting Method: Hybrid Add to Calendar 2026-11-18 18:00:00 2026-11-05 16:46:48 A Workforce in Transition: The AI Economy and What it Means for Our Future with Secretary Gina Raimondo & Governor Eric Holcomb…",
    "blurb": "With AI playing an increasing role in our economy and society, how does the workforce train and transition? The Co-Chairs of Raise US, a non-partisan organization that partners with stakeholders to help prepare for this transition, will help us unpack this…",
    "event_page": true,
    "notes": "",
@@ -18744,8 +18924,8 @@
   {
    "id": 4,
    "state": "scanned",
-   "label": "Scanned at every update: 21 events found, 2 with food this week",
-   "n_food": 2
+   "label": "Scanned at every update: 23 events found, 3 with food this week",
+   "n_food": 3
   }
  ],
  "newsletters": [
