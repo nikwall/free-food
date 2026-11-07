@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-07T11:30:51-05:00",
+ "generated_at": "2026-11-07T17:48:34-05:00",
  "window": {
   "start": "2026-11-07",
   "end": "2026-11-14"
@@ -22,7 +22,7 @@
    "error": null,
    "n_events": 164,
    "n_food": 5,
-   "seconds": 1.9
+   "seconds": 2.0
   },
   {
    "id": "hks",
@@ -31,8 +31,8 @@
    "ok": true,
    "error": null,
    "n_events": 42,
-   "n_food": 8,
-   "seconds": 6.1
+   "n_food": 11,
+   "seconds": 5.1
   },
   {
    "id": "hls",
@@ -42,7 +42,7 @@
    "error": null,
    "n_events": 70,
    "n_food": 41,
-   "seconds": 9.4
+   "seconds": 9.6
   },
   {
    "id": "college",
@@ -52,7 +52,7 @@
    "error": null,
    "n_events": 150,
    "n_food": 19,
-   "seconds": 0.9
+   "seconds": 0.7
   },
   {
    "id": "ash",
@@ -62,7 +62,7 @@
    "error": null,
    "n_events": 2,
    "n_food": 2,
-   "seconds": 2.4
+   "seconds": 2.0
   },
   {
    "id": "shorenstein",
@@ -72,7 +72,7 @@
    "error": null,
    "n_events": 4,
    "n_food": 2,
-   "seconds": 8.7
+   "seconds": 8.1
   },
   {
    "id": "fairbank",
@@ -82,7 +82,7 @@
    "error": null,
    "n_events": 7,
    "n_food": 0,
-   "seconds": 6.3
+   "seconds": 0.0
   },
   {
    "id": "newsletter",
@@ -92,7 +92,7 @@
    "error": null,
    "n_events": 25,
    "n_food": 2,
-   "seconds": 90.1
+   "seconds": 60.7
   },
   {
    "id": "suggested",
@@ -102,17 +102,17 @@
    "error": null,
    "n_events": 9,
    "n_food": 1,
-   "seconds": 4.8
+   "seconds": 4.9
   }
  ],
  "stats": {
   "events": 372,
-  "food_confirmed": 66,
+  "food_confirmed": 68,
   "food_likely": 10,
   "forwarded": 22,
   "forwarded_listed": 7,
   "food_restricted": 50,
-  "seconds": 102.1
+  "seconds": 69.4
  },
  "events": [
   {
@@ -2108,6 +2108,53 @@
    "walk_min": null
   },
   {
+   "id": "008c506e45e6",
+   "title": "Harvard University Women’s Tennis vs Harvard Invitational Day Two",
+   "url": "https://events.college.harvard.edu/event/226187-harvard-university-womens-tennis-vs-harvard",
+   "source_id": "college",
+   "source_name": "Harvard College events",
+   "also_listed": [],
+   "aliases": [
+    "07f27ad37318",
+    "60c3a11e7ada",
+    "f11d6ffd59f8"
+   ],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-08T09:30:00-05:00",
+   "end": "2026-11-08T12:30:00-05:00",
+   "date": "2026-11-08",
+   "all_day": false,
+   "location": "Cambridge, Mass.",
+   "online": false,
+   "host": "Main Calendar",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "Harvard College students",
+    "evidence": "Harvard College calendar, no sign it is open to others",
+    "basis": "default"
+   },
+   "summary": "Harvard University Women’s Tennis vs Harvard Invitational Day Two Streaming Video: https://ivyleague.tv/?school=harvard URL:https://gocrimson.com/calendar.aspx?game_id=33752&sport_id=38",
+   "blurb": "",
+   "event_page": true,
+   "notes": "",
+   "place_name": "",
+   "lat": null,
+   "lon": null,
+   "geo_method": null,
+   "walk_min": null
+  },
+  {
    "id": "378fd901628d",
    "title": "Harvard Latin American Law Review Subcite",
    "url": "https://hls.harvard.edu/events/harvard-latin-american-law-review-subcite/",
@@ -2154,53 +2201,6 @@
    "lon": -71.119421,
    "geo_method": "gazetteer",
    "walk_min": 10
-  },
-  {
-   "id": "008c506e45e6",
-   "title": "Harvard University Men’s Water Polo vs Iona",
-   "url": "https://events.college.harvard.edu/event/224625-harvard-university-mens-water-polo-vs-iona",
-   "source_id": "college",
-   "source_name": "Harvard College events",
-   "also_listed": [],
-   "aliases": [
-    "07f27ad37318",
-    "60c3a11e7ada",
-    "f11d6ffd59f8"
-   ],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-11-08T10:00:00-05:00",
-   "end": "2026-11-08T11:30:00-05:00",
-   "date": "2026-11-08",
-   "all_day": false,
-   "location": "Cambridge, MA, Blodgett Pool",
-   "online": false,
-   "host": "Main Calendar",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
-   },
-   "audience": {
-    "level": "restricted",
-    "group": "Harvard College students",
-    "evidence": "Harvard College calendar, no sign it is open to others",
-    "basis": "default"
-   },
-   "summary": "Harvard University Men’s Water Polo vs Iona TV: NESN Streaming Video: https://gocrim.info/gc2 URL:https://gocrimson.com/calendar.aspx?game_id=33281&sport_id=23",
-   "blurb": "",
-   "event_page": true,
-   "notes": "",
-   "place_name": "",
-   "lat": null,
-   "lon": null,
-   "geo_method": null,
-   "walk_min": null
   },
   {
    "id": "9f167468de18",
@@ -4513,9 +4513,9 @@
    "walk_min": 10
   },
   {
-   "id": "0b2eea791fa8",
+   "id": "52300a337926",
    "title": "From the Picket Line to Policy: Building Global Worker Power",
-   "url": "https://www.hks.harvard.edu/events/picket-line-policy-building-global-worker-power",
+   "url": "https://www.hks.harvard.edu/index%2ephp/events/picket-line-policy-building-global-worker-power",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -4526,18 +4526,18 @@
    "end": "2026-11-09T14:30:00-05:00",
    "date": "2026-11-09",
    "all_day": false,
-   "location": "Wexner 102, Heng Conference Room",
+   "location": "",
    "online": false,
-   "host": "Carr-Ryan Center for Human Rights",
+   "host": "",
    "food": {
     "status": "none",
     "types": [],
     "evidence": ""
    },
    "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001lj4LIAQ"
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
    },
    "audience": {
     "level": "unknown",
@@ -4545,15 +4545,15 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "Come hear from two U.S. labor union advocates who became senior Biden-Harris government officials leading labor diplomacy for workers at home and overseas. What should a future pro-worker foreign policy entail? Thea Lee was the Deputy Chief of Staff to AFL-CIO President Richard Trumka and led trade negotiations on the…",
-   "blurb": "Come hear from two U.S. labor union advocates who became senior Biden-Harris government officials leading labor diplomacy for workers at home and overseas. What should a future pro-worker foreign policy entail? Thea Lee was the Deputy Chief of Staff to…",
+   "summary": "",
+   "blurb": "",
    "event_page": true,
    "notes": "",
-   "place_name": "Wexner Building, Harvard Kennedy School",
-   "lat": 42.371344,
-   "lon": -71.122357,
-   "geo_method": "gazetteer",
-   "walk_min": 18
+   "place_name": "Harvard Kennedy School",
+   "lat": 42.371989,
+   "lon": -71.121761,
+   "geo_method": "host",
+   "walk_min": 16
   },
   {
    "id": "93e47aae2999",
@@ -4791,9 +4791,9 @@
    "walk_min": 5
   },
   {
-   "id": "cd34a2a6bf63",
+   "id": "ab4fd2a7d995",
    "title": "Still Serving: LGBTQI Service Members Through Decades of Policy Change",
-   "url": "https://www.hks.harvard.edu/events/still-serving-lgbtqi-service-members-through-decades-policy-change",
+   "url": "https://www.hks.harvard.edu/index%2ephp/events/still-serving-lgbtqi-service-members-through-decades-policy-change",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -4804,34 +4804,34 @@
    "end": "2026-11-09T17:00:00-05:00",
    "date": "2026-11-09",
    "all_day": false,
-   "location": "Malkin Penthouse (l-p-9)",
+   "location": "",
    "online": false,
-   "host": "Office of Belonging, Community, and Connection (OBCC); Carr-Ryan Center for Human Rights",
+   "host": "",
    "food": {
     "status": "none",
     "types": [],
     "evidence": ""
    },
    "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001lfrxIAA"
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
    },
    "audience": {
-    "level": "public",
+    "level": "unknown",
     "group": "",
-    "evidence": "All are welcome.",
-    "basis": "text"
+    "evidence": "",
+    "basis": "none"
    },
-   "summary": "U.S. military policy on LGBTQ+ service members has changed many times in recent history, from earlier prohibitions on service to Don’t Ask, Don’t Tell, its 2011 repeal, to several revisions of policy on transgender service. This session places the current policy restricting transgender military service within that…",
-   "blurb": "U.S. military policy on LGBTQ+ service members has changed many times in recent history, from earlier prohibitions on service to Don’t Ask, Don’t Tell, its 2011 repeal, to several revisions of policy on transgender service. This session places the current…",
+   "summary": "",
+   "blurb": "",
    "event_page": true,
    "notes": "",
-   "place_name": "Littauer Building, Harvard Kennedy School",
-   "lat": 42.371045,
-   "lon": -71.12209,
-   "geo_method": "gazetteer",
-   "walk_min": 18
+   "place_name": "Harvard Kennedy School",
+   "lat": 42.371989,
+   "lon": -71.121761,
+   "geo_method": "host",
+   "walk_min": 16
   },
   {
    "id": "4ab4ef5d0685",
@@ -6565,56 +6565,6 @@
    "walk_min": null
   },
   {
-   "id": "076cc7f8f803",
-   "title": "Canada Seminar",
-   "url": "https://canada.wcfia.harvard.edu/event/canada-seminar-83",
-   "source_id": "gazette",
-   "source_name": "Harvard Gazette calendar",
-   "also_listed": [
-    {
-     "source_name": "Harvard Kennedy School",
-     "url": "https://www.hks.harvard.edu/index%2ephp/events/investigating-first-nations-education-funding-gaps-canada-novel-approach"
-    }
-   ],
-   "aliases": [
-    "2a678adaeb98"
-   ],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-11-10T12:00:00-05:00",
-   "end": "2026-11-10T13:30:00-05:00",
-   "date": "2026-11-10",
-   "all_day": false,
-   "location": "Bowie Vernon Room (K262), CGIS Knafel, 1737 Cambridge St., Cambridge",
-   "online": false,
-   "host": "Weatherhead Canada Program",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "required",
-    "evidence": "Registration link on the event page",
-    "link": "https://docs.google.com/forms/d/1QdEF8hnHYz8mpc03O7PqcxEamKvFt8ccNe6iSMXLtmw/edit"
-   },
-   "audience": {
-    "level": "unknown",
-    "group": "",
-    "evidence": "",
-    "basis": "none"
-   },
-   "summary": "The Haudenosaunee and The American Revolution",
-   "blurb": "",
-   "event_page": true,
-   "notes": "Cost: Free with registration | Harvard Key required: No",
-   "place_name": "CGIS Knafel Building",
-   "lat": 42.375641,
-   "lon": -71.113237,
-   "geo_method": "gazetteer",
-   "walk_min": 4
-  },
-  {
    "id": "39a591d2b384",
    "title": "Carmen Winant: Double Jeopardy Exhibition",
    "url": "https://www.radcliffe.harvard.edu/event/2026-carmen-winant-double-jeopardy-exhibition",
@@ -6665,18 +6615,18 @@
    "source_name": "Harvard Gazette calendar",
    "also_listed": [
     {
-     "source_name": "Harvard College events",
-     "url": "https://events.college.harvard.edu/ofa/event/223329-dance-in-public"
+     "source_name": "Harvard Kennedy School",
+     "url": "https://www.hks.harvard.edu/events/advocacy-public-service-building-coalitions-and-driving-change"
     },
     {
-     "source_name": "Harvard Kennedy School",
-     "url": "https://www.hks.harvard.edu/index%2ephp/events/advocacy-public-service-building-coalitions-and-driving-change"
+     "source_name": "Harvard College events",
+     "url": "https://events.college.harvard.edu/ofa/event/223329-dance-in-public"
     }
    ],
    "aliases": [
     "801883d4e971",
     "865d4ff1c24c",
-    "c07d181f4f43"
+    "da929ae0e01f"
    ],
    "suggested": null,
    "forwarded": null,
@@ -6801,6 +6751,59 @@
    "lon": -71.122357,
    "geo_method": "gazetteer",
    "walk_min": 18
+  },
+  {
+   "id": "2a678adaeb98",
+   "title": "Investigating First Nations Education Funding Gaps in Canada: A Novel Approach",
+   "url": "https://www.hks.harvard.edu/events/investigating-first-nations-education-funding-gaps-canada-novel-approach",
+   "source_id": "hks",
+   "source_name": "Harvard Kennedy School",
+   "also_listed": [
+    {
+     "source_name": "Harvard Gazette calendar",
+     "url": "https://canada.wcfia.harvard.edu/event/canada-seminar-83"
+    }
+   ],
+   "aliases": [
+    "dc354d96fce4"
+   ],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-10T12:00:00-05:00",
+   "end": "2026-11-10T13:00:00-05:00",
+   "date": "2026-11-10",
+   "all_day": false,
+   "location": "Ash Center Seminar Room 225, Suite 200, 124 Mount Auburn Street",
+   "online": false,
+   "host": "Project on Indigenous Governance and Development",
+   "food": {
+    "status": "confirmed",
+    "types": [
+     "Food"
+    ],
+    "evidence": "Catering will be provided.﻿",
+    "cue": "strong"
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "RSVP link on the event page",
+    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001lqNZIAY"
+   },
+   "audience": {
+    "level": "harvard",
+    "group": "",
+    "evidence": "This event is open to Harvard ID holders only.",
+    "basis": "text"
+   },
+   "summary": "The Harvard Kennedy School's Project on Indigenous Governance and Development (PIGD), in collaboration with the Harvard University Native American Program (HUNAP), welcomes visiting scholar Dr. Mirzaei for a lunchtime talk on his research into funding gaps in First Nations education. Dr. Mirzaei is an associate…",
+   "blurb": "in collaboration with the Harvard University Native American Program (HUNAP), welcomes visiting scholar Dr. Mirzaei for a lunchtime talk on his research into funding gaps in First Nations education. Mirzaei is an associate professor in the Department of…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Ash Center (124 Mt Auburn St)",
+   "lat": 42.372952,
+   "lon": -71.123759,
+   "geo_method": "gazetteer",
+   "walk_min": 17
   },
   {
    "id": "40794b652a89",
@@ -12261,16 +12264,16 @@
    "source_name": "Harvard Gazette calendar",
    "also_listed": [
     {
-     "source_name": "Harvard College events",
-     "url": "https://events.college.harvard.edu/event/226159-study-group-with-ambassador-chris-lu-leadership"
+     "source_name": "Harvard Kennedy School",
+     "url": "https://www.hks.harvard.edu/events/study-group-ambassador-chris-lu-leadership-statehouse-world-stage"
     },
     {
-     "source_name": "Harvard Kennedy School",
-     "url": "https://www.hks.harvard.edu/index%2ephp/events/study-group-ambassador-chris-lu-leadership-statehouse-world-stage"
+     "source_name": "Harvard College events",
+     "url": "https://events.college.harvard.edu/event/226159-study-group-with-ambassador-chris-lu-leadership"
     }
    ],
    "aliases": [
-    "964375e9a46e",
+    "6dfc09d6948d",
     "f3bea69f25c2"
    ],
    "suggested": null,
@@ -12399,53 +12402,53 @@
   },
   {
    "id": "408db5480562",
-   "title": "Study Group with Alejandro Mayorkas: Building a Career through Uncertainty and the Winding Path of Life",
-   "url": "https://events.college.harvard.edu/event/226180-study-group-with-alejandro-mayorkas-building-a",
-   "source_id": "college",
-   "source_name": "Harvard College events",
+   "title": "Study Group with Sec. Alejandro Mayorkas: Building a Career through Uncertainty",
+   "url": "https://www.hks.harvard.edu/events/study-group-sec-alejandro-mayorkas-building-career-through-uncertainty",
+   "source_id": "hks",
+   "source_name": "Harvard Kennedy School",
    "also_listed": [
     {
-     "source_name": "Harvard Kennedy School",
-     "url": "https://www.hks.harvard.edu/index%2ephp/events/study-group-sec-alejandro-mayorkas-building-career-through-uncertainty"
+     "source_name": "Harvard College events",
+     "url": "https://events.college.harvard.edu/event/226180-study-group-with-alejandro-mayorkas-building-a"
     }
    ],
    "aliases": [
-    "75b3d24214df"
+    "5b168c637a50"
    ],
    "suggested": null,
    "forwarded": null,
    "start": "2026-11-12T16:30:00-05:00",
-   "end": null,
+   "end": "2026-11-12T17:45:00-05:00",
    "date": "2026-11-12",
    "all_day": false,
-   "location": "79 JFK St., Cambridge, MA",
+   "location": "L-163",
    "online": false,
-   "host": "Institute of Politics at Harvard Kennedy School",
+   "host": "Institute of Politics (IOP)",
    "food": {
     "status": "none",
     "types": [],
     "evidence": ""
    },
    "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
+    "status": "required",
+    "evidence": "RSVP link on the event page",
+    "link": "https://iop.harvard.edu/events/study-group-honorable-alejandro-mayorkas-building-career-through-uncertainty-and-winding"
    },
    "audience": {
     "level": "restricted",
-    "group": "undergraduates",
-    "evidence": "Title: Study Group with Alejandro Mayorkas: Building a Career through Uncertainty and the Winding Path of Life",
+    "group": "HKS students",
+    "evidence": "Title: Study Group with Sec. Alejandro Mayorkas: Building a Career through Uncertainty",
     "basis": "inferred"
    },
-   "summary": "Please join the Honorable Alejandro and Tanya Mayorkas for a study group session focused on building a career and all paths that a career can take. IN-PERSON GUEST: Tanya Mayorkas Public Interest Lawyer *These off-the-record conversations are open to members of the Harvard community. Please RSVP with a valid Harvard…",
+   "summary": "Please join the Honorable Alejandro and Tanya Mayorkas for a study group session focused on building a career and all paths that a career can take. *These off-the-record conversations are open to members of the Harvard community. Please RSVP with a valid Harvard email address.",
    "blurb": "Please join the Honorable Alejandro and Tanya Mayorkas for a study group session focused on building a career and all paths that a career can take. These off-the-record conversations are open to members of the Harvard community.",
    "event_page": true,
    "notes": "",
-   "place_name": "Harvard Kennedy School",
-   "lat": 42.371989,
-   "lon": -71.121761,
+   "place_name": "Littauer Building, Harvard Kennedy School",
+   "lat": 42.371045,
+   "lon": -71.12209,
    "geo_method": "gazetteer",
-   "walk_min": 16
+   "walk_min": 18
   },
   {
    "id": "417e922a7c42",
@@ -12534,23 +12537,23 @@
    "walk_min": 37
   },
   {
-   "id": "1eeb0b3c5c3d",
+   "id": "2bec78a6d2fd",
    "title": "Study Group with Ambassador Nathalie Rayes — Leadership Under Pressure: Lessons from Los Angeles City Hall with Jim Hahn",
    "url": "https://iop.harvard.edu/events/study-group-ambassador-nathalie-rayes-leadership-under-pressure-lessons-los-angeles-city",
    "source_id": "gazette",
    "source_name": "Harvard Gazette calendar",
    "also_listed": [
     {
-     "source_name": "Harvard College events",
-     "url": "https://events.college.harvard.edu/event/226161-study-group-with-ambassador-nathalie-rayes"
+     "source_name": "Harvard Kennedy School",
+     "url": "https://www.hks.harvard.edu/events/amb-nathalie-rayes-study-group-lessons-los-angeles-city-hall-ft-jim-hahn"
     },
     {
-     "source_name": "Harvard Kennedy School",
-     "url": "https://www.hks.harvard.edu/index%2ephp/events/amb-nathalie-rayes-study-group-lessons-los-angeles-city-hall-ft-jim-hahn"
+     "source_name": "Harvard College events",
+     "url": "https://events.college.harvard.edu/event/226161-study-group-with-ambassador-nathalie-rayes"
     }
    ],
    "aliases": [
-    "2bec78a6d2fd",
+    "939ada20fddb",
     "a8ef0ab97982"
    ],
    "suggested": null,
@@ -12643,9 +12646,9 @@
    "walk_min": 10
   },
   {
-   "id": "e39b982feda9",
+   "id": "f5c8fce565a5",
    "title": "HKS on the Road: Chicago",
-   "url": "https://www.hks.harvard.edu/events/hks-road-chicago",
+   "url": "https://www.hks.harvard.edu/index%2ephp/events/hks-road-chicago",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -12656,18 +12659,18 @@
    "end": "2026-11-12T20:00:00-05:00",
    "date": "2026-11-12",
    "all_day": false,
-   "location": "Chicago",
+   "location": "",
    "online": false,
-   "host": "Alumni Relations & Resource Development (ARRD)",
+   "host": "",
    "food": {
     "status": "none",
     "types": [],
     "evidence": ""
    },
    "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://huevents.harvard.edu/profile/175846"
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
    },
    "audience": {
     "level": "unknown",
@@ -12675,8 +12678,8 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "Connect with fellow alumni, expand your network, and engage in meaningful conversations about the Kennedy School’s mission, values, and priorities in today’s world. This is a wonderful opportunity to hear directly from Dean Weinstein, strengthen your ties to the HKS community, and be part of shaping our shared future.…",
-   "blurb": "Connect with fellow alumni, expand your network, and engage in meaningful conversations about the Kennedy School’s mission, values, and priorities in today’s world. This is a wonderful opportunity to hear directly from Dean Weinstein, strengthen your ties to…",
+   "summary": "",
+   "blurb": "",
    "event_page": true,
    "notes": "",
    "place_name": "Harvard Kennedy School",
@@ -13882,9 +13885,9 @@
    "walk_min": 15
   },
   {
-   "id": "a56ec1917bcd",
+   "id": "0507e1d1ad39",
    "title": "From Data to Decisions: The Development Finance Hackathon",
-   "url": "https://www.hks.harvard.edu/index%2ephp/events/data-decisions-development-finance-hackathon",
+   "url": "https://www.hks.harvard.edu/events/data-decisions-development-finance-hackathon",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -13895,27 +13898,30 @@
    "end": "2026-11-13T17:00:00-05:00",
    "date": "2026-11-13",
    "all_day": false,
-   "location": "",
+   "location": "Perkins Conference Room (r429)",
    "online": false,
-   "host": "",
+   "host": "Harvard Center for International Development",
    "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
+    "status": "confirmed",
+    "types": [
+     "Food"
+    ],
+    "evidence": "Food provided.",
+    "cue": "strong"
    },
    "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
+    "status": "required",
+    "evidence": "Sign up solo or with a team; we’ll help form mixed Harvard–MIT teams on the day.",
+    "link": "https://harvard.az1.qualtrics.com/jfe/form/SV_1N5ndVkpaKOHpSC"
    },
    "audience": {
-    "level": "unknown",
-    "group": "",
-    "evidence": "",
-    "basis": "none"
+    "level": "likely",
+    "group": "Harvard and MIT Sloan graduate students",
+    "evidence": "This is open to Harvard and MIT Sloan graduate students only.",
+    "basis": "text"
    },
-   "summary": "",
-   "blurb": "",
+   "summary": "Developing countries are facing cuts to aid, heavy debt burdens, rising food and energy prices, and disruption from AI. As needs grow and resources shrink, good data on development finance matters more than ever. But that data has long been scattered across sources and hard to use. ONE Data built the Development…",
+   "blurb": "Developing countries are facing cuts to aid, heavy debt burdens, rising food and energy prices, and disruption from AI. As needs grow and resources shrink, good data on development finance matters more than ever. But that data has long been scattered across…",
    "event_page": true,
    "notes": "",
    "place_name": "Harvard Kennedy School",
@@ -16571,7 +16577,7 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "Monday, November 16, 2026 Time: 6:00pm EST Where: JFK Jr. Forum, 79 John F. Kennedy St., Cambridge, MA 02138 Meeting Method: Hybrid Add to Calendar 2026-11-16 18:00:00 2026-11-06 21:41:06 Making the Vision: Venture Capital, Creativity, and the Power of Story with David Fialkow, Oscar-Winning Filmmaker David Fialkow…",
+   "summary": "Monday, November 16, 2026 Time: 6:00pm EST Where: JFK Jr. Forum, 79 John F. Kennedy St., Cambridge, MA 02138 Meeting Method: Hybrid Add to Calendar 2026-11-16 18:00:00 2026-11-07 09:42:32 Making the Vision: Venture Capital, Creativity, and the Power of Story with David Fialkow, Oscar-Winning Filmmaker David Fialkow…",
    "blurb": "David Fialkow joins us for a conversation that will explore the intersection of entrepreneurship, investing, and storytelling, drawing on his experience as a successful venture capitalist and award-winning filmmaker. Together, we’ll examine the power of…",
    "event_page": true,
    "notes": "",
@@ -16767,7 +16773,7 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "Wednesday, November 18, 2026 Time: 6:00pm EST Where: JFK Jr. Forum, 79 John F. Kennedy St., Cambridge, MA 02138 Meeting Method: Hybrid Add to Calendar 2026-11-18 18:00:00 2026-11-06 19:40:36 A Workforce in Transition: The AI Economy and What it Means for Our Future with Secretary Gina Raimondo & Governor Eric Holcomb…",
+   "summary": "Wednesday, November 18, 2026 Time: 6:00pm EST Where: JFK Jr. Forum, 79 John F. Kennedy St., Cambridge, MA 02138 Meeting Method: Hybrid Add to Calendar 2026-11-18 18:00:00 2026-11-07 17:38:20 A Workforce in Transition: The AI Economy and What it Means for Our Future with Secretary Gina Raimondo & Governor Eric Holcomb…",
    "blurb": "With AI playing an increasing role in our economy and society, how does the workforce train and transition? The Co-Chairs of Raise US, a non-partisan organization that partners with stakeholders to help prepare for this transition, will help us unpack this…",
    "event_page": true,
    "notes": "",
@@ -17282,6 +17288,12 @@
    "sent": "2026-11-06",
    "items": 0,
    "sender": "Harvard University Asia Center"
+  },
+  {
+   "subject": "Weatherhead Events / Week of November 8, 2026",
+   "sent": "2026-11-07",
+   "items": 0,
+   "sender": "Weatherhead Center for International Affairs"
   }
  ]
 }
