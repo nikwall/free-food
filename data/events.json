@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-08T11:43:07-05:00",
+ "generated_at": "2026-11-08T17:57:26-05:00",
  "window": {
   "start": "2026-11-08",
   "end": "2026-11-15"
@@ -22,7 +22,7 @@
    "error": null,
    "n_events": 159,
    "n_food": 5,
-   "seconds": 2.3
+   "seconds": 1.7
   },
   {
    "id": "hks",
@@ -31,8 +31,8 @@
    "ok": true,
    "error": null,
    "n_events": 42,
-   "n_food": 9,
-   "seconds": 1.2
+   "n_food": 11,
+   "seconds": 5.0
   },
   {
    "id": "hls",
@@ -40,9 +40,9 @@
    "homepage": "https://hls.harvard.edu/calendar/",
    "ok": true,
    "error": null,
-   "n_events": 67,
-   "n_food": 40,
-   "seconds": 10.3
+   "n_events": 68,
+   "n_food": 41,
+   "seconds": 10.0
   },
   {
    "id": "college",
@@ -52,7 +52,7 @@
    "error": null,
    "n_events": 136,
    "n_food": 17,
-   "seconds": 0.7
+   "seconds": 1.4
   },
   {
    "id": "ash",
@@ -62,7 +62,7 @@
    "error": null,
    "n_events": 2,
    "n_food": 2,
-   "seconds": 2.3
+   "seconds": 2.1
   },
   {
    "id": "shorenstein",
@@ -72,7 +72,7 @@
    "error": null,
    "n_events": 4,
    "n_food": 2,
-   "seconds": 8.8
+   "seconds": 8.9
   },
   {
    "id": "fairbank",
@@ -82,7 +82,7 @@
    "error": null,
    "n_events": 7,
    "n_food": 0,
-   "seconds": 6.7
+   "seconds": 0.1
   },
   {
    "id": "newsletter",
@@ -92,7 +92,7 @@
    "error": null,
    "n_events": 25,
    "n_food": 2,
-   "seconds": 49.8
+   "seconds": 107.4
   },
   {
    "id": "suggested",
@@ -102,17 +102,17 @@
    "error": null,
    "n_events": 9,
    "n_food": 1,
-   "seconds": 7.1
+   "seconds": 5.4
   }
  ],
  "stats": {
-  "events": 363,
-  "food_confirmed": 63,
-  "food_likely": 10,
+  "events": 364,
+  "food_confirmed": 65,
+  "food_likely": 11,
   "forwarded": 22,
   "forwarded_listed": 7,
-  "food_restricted": 47,
-  "seconds": 60.6
+  "food_restricted": 48,
+  "seconds": 117.0
  },
  "events": [
   {
@@ -2133,9 +2133,9 @@
    "walk_min": 7
   },
   {
-   "id": "4ea3d31b5c7d",
+   "id": "832f2747f1d1",
    "title": "A Conversation with Bill Burns",
-   "url": "https://www.hks.harvard.edu/events/conversation-bill-burns",
+   "url": "https://www.hks.harvard.edu/index%2ephp/events/conversation-bill-burns",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -2146,27 +2146,27 @@
    "end": "2026-11-09T12:15:00-05:00",
    "date": "2026-11-09",
    "all_day": false,
-   "location": "Belfer Center Library (l369)",
+   "location": "",
    "online": false,
-   "host": "Belfer Center for Science and International Affairs",
+   "host": "",
    "food": {
     "status": "none",
     "types": [],
     "evidence": ""
    },
    "registration": {
-    "status": "required",
-    "evidence": "Space is limited so please only RSVP if you plan to attend.",
-    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001lXXpIAM"
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
    },
    "audience": {
-    "level": "harvard",
+    "level": "unknown",
     "group": "",
-    "evidence": "Attendance is in-person and for HUID holders only.",
-    "basis": "text"
+    "evidence": "",
+    "basis": "none"
    },
-   "summary": "Note: This event is at capacity. Please join the Belfer Center for Science and International Affairs for a conversation with Bill Burns, former Director of the Central Intelligence Agency (CIA). Drawing on his long career in intelligence and diplomacy, he will discuss the top national security challenges facing the…",
-   "blurb": "Note: This event is at capacity. Please join the Belfer Center for Science and International Affairs for a conversation with Bill Burns, former Director of the Central Intelligence Agency (CIA). Drawing on his long career in intelligence and diplomacy, he…",
+   "summary": "",
+   "blurb": "",
    "event_page": true,
    "notes": "",
    "place_name": "Harvard Kennedy School",
@@ -2828,7 +2828,7 @@
   },
   {
    "id": "9e66f149795c",
-   "title": "HALB Presents Copyright, AI, & Music: A Fireside Chat with Sy Damle (Latham & Watkins) and Mikey Schulman (Suno)",
+   "title": "HALB Presents Copyright, AI, & Music: A Fireside Chat with Sy Damle (Latham & Watkins) and Mikey Shulman (Suno)",
    "url": "https://hls.harvard.edu/events/halb-x-latham-speaker-series/",
    "source_id": "hls",
    "source_name": "Harvard Law School",
@@ -3569,9 +3569,9 @@
    "walk_min": 18
   },
   {
-   "id": "85e7da134b96",
+   "id": "902e7b6c661b",
    "title": "Healthcare in Gaza: Medicine, Human Rights, and Access to Care",
-   "url": "https://www.hks.harvard.edu/index%2ephp/events/healthcare-gaza-medicine-human-rights-and-access-care",
+   "url": "https://www.hks.harvard.edu/events/healthcare-gaza-medicine-human-rights-and-access-care",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -3582,34 +3582,34 @@
    "end": "2026-11-09T18:00:00-05:00",
    "date": "2026-11-09",
    "all_day": false,
-   "location": "",
+   "location": "Wexner 434 Ab",
    "online": false,
-   "host": "",
+   "host": "Carr-Ryan Center for Human Rights",
    "food": {
     "status": "none",
     "types": [],
     "evidence": ""
    },
    "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
+    "status": "required",
+    "evidence": "RSVP link on the event page",
+    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001kfKXIAY"
    },
    "audience": {
-    "level": "unknown",
+    "level": "harvard",
     "group": "",
-    "evidence": "",
-    "basis": "none"
+    "evidence": "In-person events are open to Harvard ID holders only",
+    "basis": "text"
    },
-   "summary": "",
-   "blurb": "",
+   "summary": "This conversation brings together three physicians, Dr. Thaer Ahmad, Dr. Rasha Khoury, and Dr. Feroze Sidhwa, to examine healthcare in Gaza at the intersection of medicine, human rights, and access to care. Drawing on experience that ranges from emergency rooms and trauma bays inside Gaza to pediatric critical care,…",
+   "blurb": "This conversation brings together three physicians, Dr. Feroze Sidhwa, to examine healthcare in Gaza at the intersection of medicine, human rights, and access to care. Drawing on experience that ranges from emergency rooms and trauma bays inside Gaza to…",
    "event_page": true,
    "notes": "",
-   "place_name": "Harvard Kennedy School",
-   "lat": 42.371989,
-   "lon": -71.121761,
-   "geo_method": "host",
-   "walk_min": 16
+   "place_name": "Wexner Building, Harvard Kennedy School",
+   "lat": 42.371344,
+   "lon": -71.122357,
+   "geo_method": "gazetteer",
+   "walk_min": 18
   },
   {
    "id": "5fd6d6f6cf36",
@@ -5856,6 +5856,51 @@
    "place_name": "Wasserstein Hall (WCC), Harvard Law School",
    "lat": 42.379383,
    "lon": -71.119421,
+   "geo_method": "gazetteer",
+   "walk_min": 10
+  },
+  {
+   "id": "c777efe07aee",
+   "title": "ACS Lunch Talk with Judge Pamela Harris of the Fourth Circuit",
+   "url": "https://hls.harvard.edu/events/acs-lunch-talk-with-judge-pamela-harris-of-the-fourth-circuit/",
+   "source_id": "hls",
+   "source_name": "Harvard Law School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-10T12:30:00-05:00",
+   "end": "2026-11-10T13:15:00-05:00",
+   "date": "2026-11-10",
+   "all_day": false,
+   "location": "Pound Hall, 101 Ballantine Classroom, Harvard Law School",
+   "online": false,
+   "host": "American Constitution Society for Law and Policy",
+   "food": {
+    "status": "likely",
+    "types": [
+     "Lunch"
+    ],
+    "evidence": "ACS Lunch Talk with Judge Pamela Harris of the Fourth Circuit"
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "RSVP here: https://forms.gle/Pgy6k3XshqBFnQqP7",
+    "link": "http://www.google.com/calendar/event?action=TEMPLATE&text=ACS%20Lunch%20Talk%20with%20Judge%20Pamela%20Harris%20of%20the%20Fourth%20Circuit&dates=20261110T173000Z/20261110T181500Z&details=Please%20join%20ACS%20in%20a%20conversation%20with%20Judge%20Pamela%20Harris%20of%20the%20United%20States%20Court%20of%20Appeals%20for%20the%20Fourth%20Circuit.%20RSVP%20here:%20https://forms.gle/Pgy6k3XshqBFnQqP7&sprop=Harvard%20Law%20School&location=Pound%20Hall;%20101%20Ballantine%20Classroom,%20,%20,%20,%20,%20"
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "HLS community",
+    "evidence": "HLS listing audience: HLS only",
+    "basis": "listing"
+   },
+   "summary": "Please join ACS in a conversation with Judge Pamela Harris of the United States Court of Appeals for the Fourth Circuit. RSVP here: https://forms.gle/Pgy6k3XshqBFnQqP7 Add to Calendar November 10, 2026, 12:30 pm - 1:15 pm +Google Calendar +iCal/Outlook",
+   "blurb": "Please join ACS in a conversation with Judge Pamela Harris of the United States Court of Appeals for the Fourth Circuit.",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Pound Hall, Harvard Law School",
+   "lat": 42.378601,
+   "lon": -71.119747,
    "geo_method": "gazetteer",
    "walk_min": 10
   },
@@ -9859,9 +9904,9 @@
    "walk_min": 10
   },
   {
-   "id": "19c8532f1bfa",
+   "id": "ad61e545b3e3",
    "title": "Tech & AI Seminar: Empirical Studies, Tech Platforms, and Policy Design",
-   "url": "https://www.hks.harvard.edu/index%2Ephp/events/tech-ai-seminar-empirical-studies-tech-platforms-and-policy-design",
+   "url": "https://www.hks.harvard.edu/events/tech-ai-seminar-empirical-studies-tech-platforms-and-policy-design",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -9872,18 +9917,21 @@
    "end": "2026-11-12T13:00:00-05:00",
    "date": "2026-11-12",
    "all_day": false,
-   "location": "",
+   "location": "Wexner 434 + Zoom",
    "online": false,
-   "host": "",
+   "host": "Mossavar-Rahmani Center for Business and Government",
    "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
+    "status": "confirmed",
+    "types": [
+     "Lunch"
+    ],
+    "evidence": "Lunch will be served.",
+    "cue": "strong"
    },
    "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
+    "status": "required",
+    "evidence": "RSVP link on the event page",
+    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001lPqPIAU"
    },
    "audience": {
     "level": "unknown",
@@ -9891,20 +9939,20 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "",
-   "blurb": "",
+   "summary": "Professor Chiara Farronato will discuss new empirical research that uses web-based tools to examine how digital platforms shape consumer choices. Her recent work explores Amazon’s product rankings and the potential for self-preferencing; how cookie-consent design influences decisions about online privacy; and how…",
+   "blurb": "Professor Chiara Farronato will discuss new empirical research that uses web-based tools to examine how digital platforms shape consumer choices. Her recent work explores Amazon’s product rankings and the potential for self-preferencing; how cookie-consent…",
    "event_page": true,
    "notes": "",
-   "place_name": "Harvard Kennedy School",
-   "lat": 42.371989,
-   "lon": -71.121761,
-   "geo_method": "host",
-   "walk_min": 16
+   "place_name": "Wexner Building, Harvard Kennedy School",
+   "lat": 42.371344,
+   "lon": -71.122357,
+   "geo_method": "gazetteer",
+   "walk_min": 18
   },
   {
-   "id": "f4f92be09b94",
+   "id": "090daec56071",
    "title": "The Future of Money: Inside the Fed's Innovation Center",
-   "url": "https://www.hks.harvard.edu/index%2Ephp/events/future-money-inside-feds-innovation-center",
+   "url": "https://www.hks.harvard.edu/events/future-money-inside-feds-innovation-center",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -9915,18 +9963,21 @@
    "end": "2026-11-12T13:30:00-05:00",
    "date": "2026-11-12",
    "all_day": false,
-   "location": "",
+   "location": "Rubenstein 414 A/b",
    "online": false,
-   "host": "",
+   "host": "Digital Assets Policy Project",
    "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
+    "status": "confirmed",
+    "types": [
+     "Lunch"
+    ],
+    "evidence": "Lunch will be served.",
+    "cue": "strong"
    },
    "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
+    "status": "required",
+    "evidence": "RSVP link on the event page",
+    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001lXHhIAM"
    },
    "audience": {
     "level": "unknown",
@@ -9934,15 +9985,15 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "",
-   "blurb": "",
+   "summary": "With the rise of stablecoins, tokenized bank deposits and tokenized stocks and bonds, how is the U.S. central bank thinking about innovation in payments and money? Per von Zelowitz, Director of the New York Innovation Center (NYIC) at the Federal Reserve Bank of New York, will discuss the NYIC’s work in exploring…",
+   "blurb": "With the rise of stablecoins, tokenized bank deposits and tokenized stocks and bonds, how is the U.S. central bank thinking about innovation in payments and money? Per von Zelowitz, Director of the New York Innovation Center (NYIC) at the Federal Reserve Bank…",
    "event_page": true,
    "notes": "",
-   "place_name": "Harvard Kennedy School",
-   "lat": 42.371989,
-   "lon": -71.121761,
-   "geo_method": "host",
-   "walk_min": 16
+   "place_name": "Rubenstein Building, Harvard Kennedy School",
+   "lat": 42.371243,
+   "lon": -71.122687,
+   "geo_method": "gazetteer",
+   "walk_min": 18
   },
   {
    "id": "34a8a957d39a",
@@ -13300,9 +13351,9 @@
    "walk_min": 10
   },
   {
-   "id": "58a346005219",
+   "id": "0b27fdd23c69",
    "title": "Indonesian Language Class - November 13",
-   "url": "https://www.hks.harvard.edu/events/indonesian-language-class-november-13",
+   "url": "https://www.hks.harvard.edu/index%2ephp/events/indonesian-language-class-november-13",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -13313,18 +13364,18 @@
    "end": "2026-11-13T16:00:00-05:00",
    "date": "2026-11-13",
    "all_day": false,
-   "location": "Ash Center Seminar Room 202, Suite 200, 124 Mount Auburn Street",
+   "location": "",
    "online": false,
-   "host": "Rajawali Foundation Institute for Asia",
+   "host": "",
    "food": {
     "status": "none",
     "types": [],
     "evidence": ""
    },
    "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001i6vZIAQ"
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
    },
    "audience": {
     "level": "restricted",
@@ -13332,15 +13383,15 @@
     "evidence": "Title: Indonesian Language Class - November 13",
     "basis": "inferred"
    },
-   "summary": "The Rajawali Foundation Institute for Asia invites you to join a not-for-credit Bahasa Indonesia and culture course. This class is open to a wide audience including Harvard students, faculty, fellows, staff members, as well as students and scholars from the greater Boston area. Your instructor, Ricardus Williams Djee…",
-   "blurb": "The Rajawali Foundation Institute for Asia invites you to join a not-for-credit Bahasa Indonesia and culture course. This class is open to a wide audience including Harvard students, faculty, fellows, staff members, as well as students and scholars from the…",
+   "summary": "",
+   "blurb": "",
    "event_page": true,
    "notes": "",
-   "place_name": "Ash Center (124 Mt Auburn St)",
-   "lat": 42.372952,
-   "lon": -71.123759,
-   "geo_method": "gazetteer",
-   "walk_min": 17
+   "place_name": "Harvard Kennedy School",
+   "lat": 42.371989,
+   "lon": -71.121761,
+   "geo_method": "host",
+   "walk_min": 16
   },
   {
    "id": "8ed8d1f08648",
@@ -14466,9 +14517,9 @@
    "walk_min": null
   },
   {
-   "id": "d7cb130986e2",
+   "id": "c8fd31badf50",
    "title": "50th Anniversary Symposium: Leadership for a New Era",
-   "url": "https://www.hks.harvard.edu/events/50th-anniversary-symposium-leadership-new-era",
+   "url": "https://www.hks.harvard.edu/index%2ephp/events/50th-anniversary-symposium-leadership-new-era",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -14479,34 +14530,34 @@
    "end": "2026-11-14T18:00:00-05:00",
    "date": "2026-11-14",
    "all_day": false,
-   "location": "Littauer Building - L-145 John F. Kennedy Jr. Forum",
+   "location": "",
    "online": false,
-   "host": "Executive Education",
+   "host": "",
    "food": {
     "status": "none",
     "types": [],
     "evidence": ""
    },
    "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://www.hks.harvard.edu/executive-education-alumni/50th-anniversary-symposium-leadership-new-era#"
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
    },
    "audience": {
-    "level": "public",
+    "level": "unknown",
     "group": "",
-    "evidence": "This event is open to the public.",
-    "basis": "text"
+    "evidence": "",
+    "basis": "none"
    },
-   "summary": "Enjoy a full day of forward-looking, cutting-edge research and presentations from HKS faculty. Network with fellow HKS Executive Education alums and leaders and join us to celebrate 50 years of empowering leaders. This event is open to the public. Each person should register separately.",
-   "blurb": "Enjoy a full day of forward-looking, cutting-edge research and presentations from HKS faculty. Network with fellow HKS Executive Education alums and leaders and join us to celebrate 50 years of empowering leaders.",
+   "summary": "",
+   "blurb": "",
    "event_page": true,
    "notes": "",
-   "place_name": "Littauer Building, Harvard Kennedy School",
-   "lat": 42.371045,
-   "lon": -71.12209,
-   "geo_method": "gazetteer",
-   "walk_min": 18
+   "place_name": "Harvard Kennedy School",
+   "lat": 42.371989,
+   "lon": -71.121761,
+   "geo_method": "host",
+   "walk_min": 16
   },
   {
    "id": "ba8760262403",
@@ -16147,7 +16198,7 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "Monday, November 16, 2026 Time: 6:00pm EST Where: JFK Jr. Forum, 79 John F. Kennedy St., Cambridge, MA 02138 Meeting Method: Hybrid Add to Calendar 2026-11-16 18:00:00 2026-11-07 09:42:32 Making the Vision: Venture Capital, Creativity, and the Power of Story with David Fialkow, Oscar-Winning Filmmaker David Fialkow…",
+   "summary": "Monday, November 16, 2026 Time: 6:00pm EST Where: JFK Jr. Forum, 79 John F. Kennedy St., Cambridge, MA 02138 Meeting Method: Hybrid Add to Calendar 2026-11-16 18:00:00 2026-11-08 17:57:16 Making the Vision: Venture Capital, Creativity, and the Power of Story with David Fialkow, Oscar-Winning Filmmaker David Fialkow…",
    "blurb": "David Fialkow joins us for a conversation that will explore the intersection of entrepreneurship, investing, and storytelling, drawing on his experience as a successful venture capitalist and award-winning filmmaker. Together, we’ll examine the power of…",
    "event_page": true,
    "notes": "",
@@ -16343,7 +16394,7 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "Wednesday, November 18, 2026 Time: 6:00pm EST Where: JFK Jr. Forum, 79 John F. Kennedy St., Cambridge, MA 02138 Meeting Method: Hybrid Add to Calendar 2026-11-18 18:00:00 2026-11-07 17:38:20 A Workforce in Transition: The AI Economy and What it Means for Our Future with Secretary Gina Raimondo & Governor Eric Holcomb…",
+   "summary": "Wednesday, November 18, 2026 Time: 6:00pm EST Where: JFK Jr. Forum, 79 John F. Kennedy St., Cambridge, MA 02138 Meeting Method: Hybrid Add to Calendar 2026-11-18 18:00:00 2026-11-08 14:13:23 A Workforce in Transition: The AI Economy and What it Means for Our Future with Secretary Gina Raimondo & Governor Eric Holcomb…",
    "blurb": "With AI playing an increasing role in our economy and society, how does the workforce train and transition? The Co-Chairs of Raise US, a non-partisan organization that partners with stakeholders to help prepare for this transition, will help us unpack this…",
    "event_page": true,
    "notes": "",
@@ -16852,6 +16903,12 @@
    "sent": "2026-11-07",
    "items": 0,
    "sender": "Weatherhead Center for International Affairs"
+  },
+  {
+   "subject": "Right-Wing Populism, Indigenous Musicians, and More | DRCLAS Weekly",
+   "sent": "2026-11-08",
+   "items": 0,
+   "sender": "David Rockefeller Center for Latin American Studies"
   }
  ]
 }
