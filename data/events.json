@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T12:55:49-05:00",
+ "generated_at": "2026-11-10T19:05:46-05:00",
  "window": {
   "start": "2026-11-10",
   "end": "2026-11-17"
@@ -22,7 +22,7 @@
    "error": null,
    "n_events": 179,
    "n_food": 10,
-   "seconds": 2.1
+   "seconds": 2.4
   },
   {
    "id": "hks",
@@ -30,9 +30,9 @@
    "homepage": "https://www.hks.harvard.edu/more/events",
    "ok": true,
    "error": null,
-   "n_events": 41,
-   "n_food": 10,
-   "seconds": 7.5
+   "n_events": 43,
+   "n_food": 13,
+   "seconds": 4.3
   },
   {
    "id": "hls",
@@ -40,9 +40,9 @@
    "homepage": "https://hls.harvard.edu/calendar/",
    "ok": true,
    "error": null,
-   "n_events": 85,
+   "n_events": 87,
    "n_food": 53,
-   "seconds": 11.7
+   "seconds": 11.1
   },
   {
    "id": "college",
@@ -50,9 +50,9 @@
    "homepage": "https://events.college.harvard.edu/",
    "ok": true,
    "error": null,
-   "n_events": 129,
+   "n_events": 143,
    "n_food": 16,
-   "seconds": 1.2
+   "seconds": 0.8
   },
   {
    "id": "ash",
@@ -62,7 +62,7 @@
    "error": null,
    "n_events": 2,
    "n_food": 1,
-   "seconds": 2.8
+   "seconds": 2.1
   },
   {
    "id": "shorenstein",
@@ -71,8 +71,8 @@
    "ok": true,
    "error": null,
    "n_events": 3,
-   "n_food": 1,
-   "seconds": 9.0
+   "n_food": 2,
+   "seconds": 10.7
   },
   {
    "id": "fairbank",
@@ -82,7 +82,7 @@
    "error": null,
    "n_events": 7,
    "n_food": 0,
-   "seconds": 7.4
+   "seconds": 0.1
   },
   {
    "id": "newsletter",
@@ -90,9 +90,9 @@
    "homepage": "",
    "ok": true,
    "error": null,
-   "n_events": 25,
+   "n_events": 22,
    "n_food": 2,
-   "seconds": 87.8
+   "seconds": 73.2
   },
   {
    "id": "suggested",
@@ -100,19 +100,19 @@
    "homepage": "",
    "ok": true,
    "error": null,
-   "n_events": 9,
+   "n_events": 6,
    "n_food": 1,
-   "seconds": 5.4
+   "seconds": 5.3
   }
  ],
  "stats": {
-  "events": 404,
-  "food_confirmed": 73,
-  "food_likely": 16,
-  "forwarded": 23,
+  "events": 408,
+  "food_confirmed": 75,
+  "food_likely": 17,
+  "forwarded": 20,
   "forwarded_listed": 8,
   "food_restricted": 53,
-  "seconds": 101.6
+  "seconds": 83.3
  },
  "events": [
   {
@@ -1205,9 +1205,9 @@
     "evidence": ""
    },
    "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001jxrNIAQ"
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
    },
    "audience": {
     "level": "unknown",
@@ -1259,8 +1259,8 @@
    },
    "registration": {
     "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001lqNZIAY"
+    "evidence": "Registration link on the event page",
+    "link": "https://docs.google.com/forms/d/1QdEF8hnHYz8mpc03O7PqcxEamKvFt8ccNe6iSMXLtmw/edit"
    },
    "audience": {
     "level": "harvard",
@@ -1284,15 +1284,8 @@
    "url": "https://fairbank.fas.harvard.edu/events/paper-culture-at-the-imperial-court-of-china/",
    "source_id": "fairbank",
    "source_name": "Fairbank Center",
-   "also_listed": [
-    {
-     "source_name": "Suggested calendar: Fairbanks center",
-     "url": "https://fairbank.fas.harvard.edu/events/paper-culture-at-the-imperial-court-of-china/"
-    }
-   ],
-   "aliases": [
-    "6cf3276348f6"
-   ],
+   "also_listed": [],
+   "aliases": [],
    "suggested": null,
    "forwarded": null,
    "start": "2026-11-10T12:00:00-05:00",
@@ -1711,9 +1704,9 @@
     "evidence": ""
    },
    "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://forms.gle/qao69Kkt1icTx7yp6"
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
    },
    "audience": {
     "level": "unknown",
@@ -1778,23 +1771,18 @@
    "walk_min": 8
   },
   {
-   "id": "4640745f9921",
+   "id": "66617d59ff98",
    "title": "The Platform State: How China Governs Innovation to Achieve Tech Supremacy",
    "url": "https://hls.harvard.edu/events/the-platform-state-how-china-governs-innovation-to-achieve-tech-supremacy/",
    "source_id": "hls",
    "source_name": "Harvard Law School",
    "also_listed": [
     {
-     "source_name": "Suggested calendar: Fairbanks center",
-     "url": "https://fairbank.fas.harvard.edu/events/the-platform-state-how-china-innovates-to-achieve-tech-supremacy/"
-    },
-    {
      "source_name": "Fairbank Center",
      "url": "https://fairbank.fas.harvard.edu/events/the-platform-state-how-china-innovates-to-achieve-tech-supremacy/"
     }
    ],
    "aliases": [
-    "66617d59ff98",
     "ed82df2fe6fe"
    ],
    "suggested": null,
@@ -2255,9 +2243,9 @@
     "evidence": ""
    },
    "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://harvard.zoom.us/meeting/register/8DIS1mSKRaSPjGj0aCQ8PA"
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
    },
    "audience": {
     "level": "unknown",
@@ -2785,9 +2773,9 @@
    "walk_min": 18
   },
   {
-   "id": "b86531ed738c",
+   "id": "a5ae2d33f1b9",
    "title": "Giving Like an Investor: Strategy and Impact in Refugee Philanthropy",
-   "url": "https://www.hks.harvard.edu/index%2ephp/events/giving-investor-strategy-and-impact-refugee-philanthropy",
+   "url": "https://www.hks.harvard.edu/events/giving-investor-strategy-and-impact-refugee-philanthropy",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -2798,18 +2786,18 @@
    "end": "2026-11-10T17:30:00-05:00",
    "date": "2026-11-10",
    "all_day": false,
-   "location": "",
+   "location": "T-135 Darman Seminar Room",
    "online": false,
-   "host": "",
+   "host": "Social Innovation + Change Initiative (SICI)",
    "food": {
     "status": "none",
     "types": [],
     "evidence": ""
    },
    "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
+    "status": "required",
+    "evidence": "RSVP link on the event page",
+    "link": "https://forms.gle/AeVxPPkcKiGgR6CD9"
    },
    "audience": {
     "level": "unknown",
@@ -2817,15 +2805,15 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "",
-   "blurb": "",
+   "summary": "After nearly three decades in investment management, Ed Shapiro left PAR Capital Management in 2016 to focus on The Shapiro Foundation, which he and his wife Barbara founded in 2000. The foundation is now a leading supporter of refugee relief, resettlement and community sponsorship. Join the Social Innovation and…",
+   "blurb": "After nearly three decades in investment management, Ed Shapiro left PAR Capital Management in 2016 to focus on The Shapiro Foundation, which he and his wife Barbara founded in 2000. The foundation is now a leading supporter of refugee relief, resettlement…",
    "event_page": true,
    "notes": "",
-   "place_name": "Harvard Kennedy School",
-   "lat": 42.371989,
-   "lon": -71.121761,
-   "geo_method": "host",
-   "walk_min": 16
+   "place_name": "Taubman Building, Harvard Kennedy School",
+   "lat": 42.371822,
+   "lon": -71.122151,
+   "geo_method": "gazetteer",
+   "walk_min": 17
   },
   {
    "id": "d63425f941f8",
@@ -2871,20 +2859,13 @@
    "walk_min": 17
   },
   {
-   "id": "f3a06c927046",
+   "id": "fe580c9023cf",
    "title": "Politics of Legitimacy: State-Society Relations in Post-Mao China",
    "url": "https://fairbank.fas.harvard.edu/events/politics-of-legitimacy-state-society-relations-in-post-mao-china/",
    "source_id": "fairbank",
    "source_name": "Fairbank Center",
-   "also_listed": [
-    {
-     "source_name": "Suggested calendar: Fairbanks center",
-     "url": "https://fairbank.fas.harvard.edu/events/politics-of-legitimacy-state-society-relations-in-post-mao-china/"
-    }
-   ],
-   "aliases": [
-    "fe580c9023cf"
-   ],
+   "also_listed": [],
+   "aliases": [],
    "suggested": null,
    "forwarded": null,
    "start": "2026-11-10T16:30:00-05:00",
@@ -6738,6 +6719,49 @@
    "walk_min": 8
   },
   {
+   "id": "f82866a17bee",
+   "title": "Legal Careers in Fashion with LVMH",
+   "url": "https://hls.harvard.edu/events/legal-careers-in-fashion-with-lvmh/",
+   "source_id": "hls",
+   "source_name": "Harvard Law School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-12T12:30:00-05:00",
+   "end": "2026-11-12T13:30:00-05:00",
+   "date": "2026-11-12",
+   "all_day": false,
+   "location": "Zoom, Harvard Law School",
+   "online": false,
+   "host": "Harvard Fashion Law Association",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "RSVP via Microsoft Forms",
+    "link": "https://forms.cloud.microsoft/pages/responsepage.aspx?id=aLyce0rjkU-MQJZaipdaTkGUvwc5ffJCvzM6dgtvs0lUNkNaNkJHMUxPVlc1VzBOTTI3UUo3UzBXUy4u&route=shorturl"
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "HLS students",
+    "evidence": "Run by an HLS student organization",
+    "basis": "inferred"
+   },
+   "summary": "This will be a great opportunity for JD candidates interested in careers at the intersection of law and luxury to hear from LVMH teams about available opportunities, timelines, and application best practices for securing a legal role at LVMH. Discover a world of possibilities during Inside LVMH This virtual program…",
+   "blurb": "This will be a great opportunity for JD candidates interested in careers at the intersection of law and luxury to hear from LVMH teams about available opportunities, timelines, and application best practices for securing a legal role at LVMH. This virtual…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Harvard Law School",
+   "lat": 42.379106,
+   "lon": -71.119679,
+   "geo_method": "host",
+   "walk_min": 10
+  },
+  {
    "id": "44241409f485",
    "title": "Rural America: Shocks, Stressors, and Successes",
    "url": "https://hls.harvard.edu/events/rural-america-shocks-stressors-and-successes/",
@@ -8257,6 +8281,49 @@
    "lon": -71.113865,
    "geo_method": "gazetteer",
    "walk_min": 4
+  },
+  {
+   "id": "afaf8e167f13",
+   "title": "Mission Brain Speaker Event",
+   "url": "https://soco.college.harvard.edu/rsvp?id=383441",
+   "source_id": "college",
+   "source_name": "Harvard College events",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-12T18:30:00-05:00",
+   "end": "2026-11-12T20:30:00-05:00",
+   "date": "2026-11-12",
+   "all_day": false,
+   "location": "SoCo",
+   "online": false,
+   "host": "Dean of Students Office",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "Registration link on the event page",
+    "link": "https://soco.college.harvard.edu/rsvp?id=383441"
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "Harvard College students",
+    "evidence": "Harvard College calendar, no sign it is open to others",
+    "basis": "default"
+   },
+   "summary": "Mission:BRAIN’s CEO, April Sabangan, will speak at our meeting on Thursday, Nov 12, and two HMS M4s applying to neurosurgery will join for a short panel. We’re planning for 7–8:30 PM. April will be joining us via Zoom. We are expecting members of harvard’s mission brain chapter to attend, so hopefully no more than…",
+   "blurb": "Mission:BRAIN’s CEO, April Sabangan, will speak at our meeting on Thursday, Nov 12, and two HMS M4s applying to neurosurgery will join for a short panel. April will be joining us via Zoom. We are expecting members of harvard’s mission brain chapter to attend…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "",
+   "lat": null,
+   "lon": null,
+   "geo_method": null,
+   "walk_min": null
   },
   {
    "id": "0477242cd714",
@@ -9909,6 +9976,51 @@
    "walk_min": null
   },
   {
+   "id": "0544df0bf0fe",
+   "title": "Inside the Story: Trump's Inner Circle & Stephen Miller's Path to Power",
+   "url": "https://www.hks.harvard.edu/events/inside-story-trumps-inner-circle-stephen-millers-path-power",
+   "source_id": "hks",
+   "source_name": "Harvard Kennedy School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-13T12:00:00-05:00",
+   "end": "2026-11-13T13:00:00-05:00",
+   "date": "2026-11-13",
+   "all_day": false,
+   "location": "Littauer 166",
+   "online": false,
+   "host": "Institute of Politics (IOP)",
+   "food": {
+    "status": "likely",
+    "types": [
+     "Lunch"
+    ],
+    "evidence": "Join the Institute of Politics for a special Food for Thought lunch conversation with Vanity Fair Contributing Writer and IOP Fall 2026 Fellow Chris Whipple, whose latest profile examines Stephen Miller, President Trump’s longtime adviser…"
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "RSVP link on the event page",
+    "link": "https://iop.harvard.edu/events/inside-story-trumps-inner-circle-stephen-millers-path-power-chris-whipple-iop-fall-2026"
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "How is the balance of power inside the Trump White House shifting, and what does Stephen Miller’s rise to Chief of Staff signal about the administration’s next chapter? Join the Institute of Politics for a special Food for Thought lunch conversation with Vanity Fair Contributing Writer and IOP Fall 2026 Fellow Chris…",
+   "blurb": "How is the balance of power inside the Trump White House shifting, and what does Stephen Miller’s rise to Chief of Staff signal about the administration’s next chapter? Join the Institute of Politics for a special Food for Thought lunch conversation with…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Littauer Building, Harvard Kennedy School",
+   "lat": 42.371045,
+   "lon": -71.12209,
+   "geo_method": "gazetteer",
+   "walk_min": 18
+  },
+  {
    "id": "7c2c70097880",
    "title": "J.D. Academic Advising Drop-Ins",
    "url": "https://hls.harvard.edu/events/j-d-academic-advising-drop-ins/?occurrence=12099",
@@ -10167,6 +10279,52 @@
    },
    "summary": "Thank you to everyone who subcited with JOLT this fall! Join us for an appreciation lunch and come say hi. Add to Calendar November 13, 2026, 12:30 pm - 1:30 pm +Google Calendar +iCal/Outlook",
    "blurb": "Thank you to everyone who subcited with JOLT this fall! Join us for an appreciation lunch and come say hi.",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Wasserstein Hall (WCC), Harvard Law School",
+   "lat": 42.379383,
+   "lon": -71.119421,
+   "geo_method": "gazetteer",
+   "walk_min": 10
+  },
+  {
+   "id": "29759ce2c2ec",
+   "title": "Spring Break Pro Bono Trips Information Session",
+   "url": "https://hls.harvard.edu/events/spring-break-pro-bono-trips-information-session-2/",
+   "source_id": "hls",
+   "source_name": "Harvard Law School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-13T12:30:00-05:00",
+   "end": "2026-11-13T13:00:00-05:00",
+   "date": "2026-11-13",
+   "all_day": false,
+   "location": "WCC 3018, Harvard Law School",
+   "online": false,
+   "host": "Clinical and Pro Bono Programs",
+   "food": {
+    "status": "confirmed",
+    "types": [
+     "Lunch"
+    ],
+    "evidence": "Information Session: Friday, November 13, 2026 at 12:30 pm, WCC 3018 (lunch provided)",
+    "cue": "strong"
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "HLS students",
+    "evidence": "HLS listing audience: All HLS students",
+    "basis": "listing"
+   },
+   "summary": "The Office of Clinical and Pro Bono Programs (OCP) offers HLS students the opportunity to conduct pro bono work during spring break through organized group trips and projects with legal organizations in the Boston area and across the United States. This spring March 2027 projects include an immigration services trip…",
+   "blurb": "The Office of Clinical and Pro Bono Programs (OCP) offers HLS students the opportunity to conduct pro bono work during spring break through organized group trips and projects with legal organizations in the Boston area and across the United States. This…",
    "event_page": true,
    "notes": "",
    "place_name": "Wasserstein Hall (WCC), Harvard Law School",
@@ -10909,8 +11067,15 @@
    "url": "https://tdm.fas.harvard.edu/current-productions#midfall",
    "source_id": "gazette",
    "source_name": "Harvard Gazette calendar",
-   "also_listed": [],
-   "aliases": [],
+   "also_listed": [
+    {
+     "source_name": "Harvard College events",
+     "url": "https://events.college.harvard.edu/event/226188-tdm-fall-production-mid-fall"
+    }
+   ],
+   "aliases": [
+    "815d431137c3"
+   ],
    "suggested": null,
    "forwarded": null,
    "start": "2026-11-13T19:30:00-05:00",
@@ -10940,7 +11105,7 @@
     "basis": "text"
    },
    "summary": "You're invited to TDM's Fall 2026 Production: mid fall, an original contact improv dance production that embraces an aimless leveraging of time and other unraveling curiosities! Directed by renowned choreographer Steph Turner and featuring Harvard students Joe Baker '28, Alice Liang '27, and Jason Lin '27, mid fall…",
-   "blurb": "You're invited to TDM's Fall 2026 Production: mid fall, an original contact improv dance production that embraces an aimless leveraging of time and other unraveling curiosities! Directed by renowned choreographer Steph Turner and featuring Harvard students…",
+   "blurb": "mid fall is an original contact improv production that embraces an aimless leveraging of time and other unraveling curiosities. Directed by renowned choreographer Steph Turner, mid fall invites audiences to celebrate what students have learned through their…",
    "event_page": true,
    "notes": "Cost: Free! | Harvard Key required: No",
    "place_name": "66 Garden St.",
@@ -11298,49 +11463,6 @@
    "lon": null,
    "geo_method": null,
    "walk_min": null
-  },
-  {
-   "id": "d7cb130986e2",
-   "title": "50th Anniversary Symposium: Leadership for a New Era",
-   "url": "https://www.hks.harvard.edu/events/50th-anniversary-symposium-leadership-new-era",
-   "source_id": "hks",
-   "source_name": "Harvard Kennedy School",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-11-14T08:00:00-05:00",
-   "end": "2026-11-14T18:00:00-05:00",
-   "date": "2026-11-14",
-   "all_day": false,
-   "location": "Littauer Building - L-145 John F. Kennedy Jr. Forum",
-   "online": false,
-   "host": "Executive Education",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://www.hks.harvard.edu/executive-education-alumni/50th-anniversary-symposium-leadership-new-era#"
-   },
-   "audience": {
-    "level": "public",
-    "group": "",
-    "evidence": "This event is open to the public.",
-    "basis": "text"
-   },
-   "summary": "Enjoy a full day of forward-looking, cutting-edge research and presentations from HKS faculty. Network with fellow HKS Executive Education alums and leaders and join us to celebrate 50 years of empowering leaders. This event is open to the public. Each person should register separately.",
-   "blurb": "Enjoy a full day of forward-looking, cutting-edge research and presentations from HKS faculty. Network with fellow HKS Executive Education alums and leaders and join us to celebrate 50 years of empowering leaders.",
-   "event_page": true,
-   "notes": "",
-   "place_name": "Littauer Building, Harvard Kennedy School",
-   "lat": 42.371045,
-   "lon": -71.12209,
-   "geo_method": "gazetteer",
-   "walk_min": 18
   },
   {
    "id": "ba8760262403",
@@ -11947,6 +12069,49 @@
    "walk_min": null
   },
   {
+   "id": "f83a1c841374",
+   "title": "Harvard University Women’s Rugby vs (4) American International College - Semifinals",
+   "url": "https://events.college.harvard.edu/event/224610-harvard-university-womens-rugby-vs-nira-semifinals",
+   "source_id": "college",
+   "source_name": "Harvard College events",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-14T13:00:00-05:00",
+   "end": "2026-11-14T16:00:00-05:00",
+   "date": "2026-11-14",
+   "all_day": false,
+   "location": "Cambridge, MA",
+   "online": false,
+   "host": "Main Calendar",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "Harvard College students",
+    "evidence": "Harvard College calendar, no sign it is open to others",
+    "basis": "default"
+   },
+   "summary": "Harvard University Women’s Rugby vs (4) American International College - Semifinals TV: ESPN+ Streaming Video: https://www.espn.com/watch/ URL:https://gocrimson.com/calendar.aspx?game_id=33290&sport_id=32",
+   "blurb": "",
+   "event_page": true,
+   "notes": "",
+   "place_name": "",
+   "lat": null,
+   "lon": null,
+   "geo_method": null,
+   "walk_min": null
+  },
+  {
    "id": "64cde4fda8e2",
    "title": "Making Paleolithic Cave Art: Teen Saturdays Workshop",
    "url": "https://hmsc.harvard.edu/calendar_event/making-paleolithic-cave-art-teen-saturdays-workshop/",
@@ -12170,8 +12335,15 @@
    "url": "https://tdm.fas.harvard.edu/current-productions#midfall",
    "source_id": "gazette",
    "source_name": "Harvard Gazette calendar",
-   "also_listed": [],
-   "aliases": [],
+   "also_listed": [
+    {
+     "source_name": "Harvard College events",
+     "url": "https://events.college.harvard.edu/event/226190-tdm-fall-production-mid-fall"
+    }
+   ],
+   "aliases": [
+    "e03f5b60d89a"
+   ],
    "suggested": null,
    "forwarded": null,
    "start": "2026-11-14T14:00:00-05:00",
@@ -12201,7 +12373,7 @@
     "basis": "none"
    },
    "summary": "You're invited to TDM's Fall 2026 Production: mid fall, an original contact improv dance production that embraces an aimless leveraging of time and other unraveling curiosities! Directed by renowned choreographer Steph Turner and featuring Harvard students Joe Baker '28, Alice Liang '27, and Jason Lin '27, mid fall…",
-   "blurb": "You're invited to TDM's Fall 2026 Production: mid fall, an original contact improv dance production that embraces an aimless leveraging of time and other unraveling curiosities! Directed by renowned choreographer Steph Turner and featuring Harvard students…",
+   "blurb": "mid fall is an original contact improv production that embraces an aimless leveraging of time and other unraveling curiosities. Directed by renowned choreographer Steph Turner, mid fall invites audiences to celebrate what students have learned through their…",
    "event_page": true,
    "notes": "Cost: Free! | Harvard Key required: No",
    "place_name": "66 Garden St.",
@@ -12254,18 +12426,111 @@
    "walk_min": 15
   },
   {
-   "id": "0eaf36122e1f",
+   "id": "962a16c848dc",
+   "title": "Harvard University Men’s Fencing vs Ohio State - at Penn",
+   "url": "https://events.college.harvard.edu/event/226229-harvard-university-mens-fencing-vs-ohio-state-at",
+   "source_id": "college",
+   "source_name": "Harvard College events",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-14T14:15:00-05:00",
+   "end": "2026-11-14T17:15:00-05:00",
+   "date": "2026-11-14",
+   "all_day": false,
+   "location": "The Ott Center | Philadelphia, Pa.",
+   "online": false,
+   "host": "Main Calendar",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "Harvard College students",
+    "evidence": "Harvard College calendar, no sign it is open to others",
+    "basis": "default"
+   },
+   "summary": "Harvard University Men’s Fencing vs Ohio State - at Penn URL:https://gocrimson.com/calendar.aspx?game_id=33768&sport_id=11",
+   "blurb": "",
+   "event_page": true,
+   "notes": "",
+   "place_name": "",
+   "lat": null,
+   "lon": null,
+   "geo_method": null,
+   "walk_min": null
+  },
+  {
+   "id": "fc59f4eb2b53",
+   "title": "Harvard University Men’s Fencing vs North Carolina - at Penn",
+   "url": "https://events.college.harvard.edu/event/226227-harvard-university-mens-fencing-vs-north-carolina",
+   "source_id": "college",
+   "source_name": "Harvard College events",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-14T15:30:00-05:00",
+   "end": "2026-11-14T18:30:00-05:00",
+   "date": "2026-11-14",
+   "all_day": false,
+   "location": "The Ott Center | Philadelphia, Pa.",
+   "online": false,
+   "host": "Main Calendar",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "Harvard College students",
+    "evidence": "Harvard College calendar, no sign it is open to others",
+    "basis": "default"
+   },
+   "summary": "Harvard University Men’s Fencing vs North Carolina - at Penn URL:https://gocrimson.com/calendar.aspx?game_id=33769&sport_id=11",
+   "blurb": "",
+   "event_page": true,
+   "notes": "",
+   "place_name": "",
+   "lat": null,
+   "lon": null,
+   "geo_method": null,
+   "walk_min": null
+  },
+  {
+   "id": "0d792d199fa9",
    "title": "Harvard University Women’s Volleyball vs Columbia University",
    "url": "https://events.college.harvard.edu/event/224602-harvard-university-womens-volleyball-vs-columbia",
    "source_id": "college",
    "source_name": "Harvard College events",
    "also_listed": [],
    "aliases": [
+    "0eaf36122e1f",
+    "221dea1f3d68",
+    "5b3016937ba8",
     "66b916c7888a",
     "8e768e217f49",
+    "9033f37386f7",
+    "99df123cdb32",
+    "ab9d12f5c71e",
+    "d424d10332e0",
+    "d90e1b553237",
     "dbf82db9c6c5",
-    "f16306f69e6d",
-    "f83a1c841374"
+    "f16306f69e6d"
    ],
    "suggested": null,
    "forwarded": null,
@@ -12439,13 +12704,20 @@
    "walk_min": 7
   },
   {
-   "id": "935637d8daef",
+   "id": "2b3814522763",
    "title": "TDM Fall Production: mid fall",
    "url": "https://tdm.fas.harvard.edu/current-productions#midfall",
    "source_id": "gazette",
    "source_name": "Harvard Gazette calendar",
-   "also_listed": [],
-   "aliases": [],
+   "also_listed": [
+    {
+     "source_name": "Harvard College events",
+     "url": "https://events.college.harvard.edu/event/226192-tdm-fall-production-mid-fall"
+    }
+   ],
+   "aliases": [
+    "935637d8daef"
+   ],
    "suggested": null,
    "forwarded": null,
    "start": "2026-11-14T19:30:00-05:00",
@@ -12475,7 +12747,7 @@
     "basis": "text"
    },
    "summary": "You're invited to TDM's Fall 2026 Production: mid fall, an original contact improv dance production that embraces an aimless leveraging of time and other unraveling curiosities! Directed by renowned choreographer Steph Turner and featuring Harvard students Joe Baker '28, Alice Liang '27, and Jason Lin '27, mid fall…",
-   "blurb": "You're invited to TDM's Fall 2026 Production: mid fall, an original contact improv dance production that embraces an aimless leveraging of time and other unraveling curiosities! Directed by renowned choreographer Steph Turner and featuring Harvard students…",
+   "blurb": "mid fall is an original contact improv production that embraces an aimless leveraging of time and other unraveling curiosities. Directed by renowned choreographer Steph Turner, mid fall invites audiences to celebrate what students have learned through their…",
    "event_page": true,
    "notes": "Cost: Free! | Harvard Key required: No",
    "place_name": "66 Garden St.",
@@ -15752,16 +16024,12 @@
    "walk_min": 10
   },
   {
-   "id": "11d585b275d5",
+   "id": "00436e45c0e5",
    "title": "Making the Vision: Venture Capital, Creativity, and the Power of Story with Filmmaker David Fialkow",
    "url": "https://iop.harvard.edu/events/making-vision-venture-capital-creativity-and-power-story-david-fialkow-oscar-winning",
    "source_id": "gazette",
    "source_name": "Harvard Gazette calendar",
    "also_listed": [
-    {
-     "source_name": "Harvard Kennedy School",
-     "url": "https://www.hks.harvard.edu/events/making-vision-venture-capital-creativity-and-power-story"
-    },
     {
      "source_name": "Harvard College events",
      "url": "https://events.college.harvard.edu/event/225992-making-the-vision-venture-capital-creativity-and"
@@ -15769,10 +16037,14 @@
     {
      "source_name": "Forwarded: Election Week at the IOP!",
      "url": "https://iop.harvard.edu/events/making-vision-venture-capital-creativity-and-power-story-david-fialkow-oscar-winning"
+    },
+    {
+     "source_name": "Harvard Kennedy School",
+     "url": "https://www.hks.harvard.edu/index%2ephp/events/making-vision-venture-capital-creativity-and-power-story"
     }
    ],
    "aliases": [
-    "26bf44397f2c",
+    "11d585b275d5",
     "def67110b4d9",
     "e7aea9ef928a"
    ],
@@ -16765,6 +17037,56 @@
    "walk_min": 7
   },
   {
+   "id": "d19364e8fd55",
+   "title": "Dance in Public",
+   "url": "https://events.college.harvard.edu/ofa/event/223329-dance-in-public",
+   "source_id": "college",
+   "source_name": "Harvard College events",
+   "also_listed": [
+    {
+     "source_name": "Harvard Kennedy School",
+     "url": "https://www.hks.harvard.edu/index%2ephp/events/speaking-under-pressure-public-speaking-workshop"
+    }
+   ],
+   "aliases": [
+    "ffa60f48b8c5"
+   ],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-17T11:00:00-05:00",
+   "end": "2026-11-17T12:00:00-05:00",
+   "date": "2026-11-17",
+   "all_day": false,
+   "location": "Richard A. and Susan F. Smith Campus Center",
+   "online": false,
+   "host": "Office for the Arts Dance Program",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "none",
+    "evidence": "Each individual lab session is open to Harvard student drop-in participation.",
+    "link": ""
+   },
+   "audience": {
+    "level": "likely",
+    "group": "Harvard student drop-in participation",
+    "evidence": "Each individual lab session is open to Harvard student drop-in participation.",
+    "basis": "text"
+   },
+   "summary": "Join the Dance in Public Undergraduate Research Fellows who will be investigating and activating sites throughout the academic year, exploring themes in design and architecture, civic engagement, creative research, and public life. Each individual lab session is open to Harvard student drop-in participation. REGISTER…",
+   "blurb": "who will be investigating and activating sites throughout the academic year, exploring themes in design and architecture, civic engagement, creative research, and public life. Each individual lab session is open to Harvard student drop-in participation. Visit…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Richard A. and Susan F. Smith Campus Center",
+   "lat": 42.372951,
+   "lon": -71.118484,
+   "geo_method": "source",
+   "walk_min": 12
+  },
+  {
    "id": "53e9e70e8432",
    "title": "Measurement on the Color Line: Scientific Instruments and the Making of Human Categories",
    "url": "https://chsi.harvard.edu/measurement-color-line-scientific-instruments-and-making-human-categories",
@@ -16806,56 +17128,6 @@
    "lon": -71.117051,
    "geo_method": "gazetteer",
    "walk_min": 7
-  },
-  {
-   "id": "608fe38f30ad",
-   "title": "Speaking Under Pressure: A Public Speaking Workshop",
-   "url": "https://www.hks.harvard.edu/events/speaking-under-pressure-public-speaking-workshop",
-   "source_id": "hks",
-   "source_name": "Harvard Kennedy School",
-   "also_listed": [
-    {
-     "source_name": "Harvard College events",
-     "url": "https://events.college.harvard.edu/ofa/event/223329-dance-in-public"
-    }
-   ],
-   "aliases": [
-    "d19364e8fd55"
-   ],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-11-17T11:00:00-05:00",
-   "end": "2026-11-17T12:00:00-05:00",
-   "date": "2026-11-17",
-   "all_day": false,
-   "location": "Rubenstein 229",
-   "online": false,
-   "host": "Communications Program",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001kVY5IAM"
-   },
-   "audience": {
-    "level": "likely",
-    "group": "Harvard student drop-in participation",
-    "evidence": "Each individual lab session is open to Harvard student drop-in participation.",
-    "basis": "text"
-   },
-   "summary": "Speaking Under Pressure Public speaking can be nerve-racking enough, but speaking when being criticized, asked hostile questions, or otherwise uncomfortably challenged is particularly difficult. With both discussion and live practice, this session will explore techniques for responding effectively so that you protect…",
-   "blurb": "who will be investigating and activating sites throughout the academic year, exploring themes in design and architecture, civic engagement, creative research, and public life. Each individual lab session is open to Harvard student drop-in participation. Visit…",
-   "event_page": true,
-   "notes": "",
-   "place_name": "Rubenstein Building, Harvard Kennedy School",
-   "lat": 42.371243,
-   "lon": -71.122687,
-   "geo_method": "gazetteer",
-   "walk_min": 18
   },
   {
    "id": "c0517f4b82f3",
@@ -16989,9 +17261,9 @@
    "walk_min": null
   },
   {
-   "id": "11d0bbc2de0f",
+   "id": "9c450e5b75af",
    "title": "Rethinking Capital: Creative Strategies for Funding and Impact",
-   "url": "https://www.hks.harvard.edu/index%2ephp/events/rethinking-capital-creative-strategies-funding-and-impact-0",
+   "url": "https://www.hks.harvard.edu/events/rethinking-capital-creative-strategies-funding-and-impact-0",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -17002,18 +17274,18 @@
    "end": "2026-11-17T13:00:00-05:00",
    "date": "2026-11-17",
    "all_day": false,
-   "location": "",
+   "location": "W-434 A.b, Wexner Building, Hks Main Campus",
    "online": false,
-   "host": "",
+   "host": "Social Innovation + Change Initiative (SICI)",
    "food": {
     "status": "none",
     "types": [],
     "evidence": ""
    },
    "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
+    "status": "required",
+    "evidence": "RSVP link on the event page",
+    "link": "https://forms.gle/D7XfKHbQmrDC3gLZ6"
    },
    "audience": {
     "level": "unknown",
@@ -17021,15 +17293,63 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "",
-   "blurb": "",
+   "summary": "The Social Innovation and Change Initiative (SICI) is delighted to bring back Dr. Mohamed Aburawi (‘20 MC/MPA, SICI Visiting Social Innovator), Founder and Managing Partner at Atarona Ventures, and Co-founder of Speetar and Academia, for an interactive session on how to broaden your definition of capital and position…",
+   "blurb": "The Social Innovation and Change Initiative (SICI) is delighted to bring back Dr. Mohamed Aburawi (‘20 MC/MPA, SICI Visiting Social Innovator), Founder and Managing Partner at Atarona Ventures, and Co-founder of Speetar and Academia, for an interactive…",
    "event_page": true,
    "notes": "",
-   "place_name": "Harvard Kennedy School",
-   "lat": 42.371989,
-   "lon": -71.121761,
-   "geo_method": "host",
-   "walk_min": 16
+   "place_name": "Wexner Building, Harvard Kennedy School",
+   "lat": 42.371344,
+   "lon": -71.122357,
+   "geo_method": "gazetteer",
+   "walk_min": 18
+  },
+  {
+   "id": "5cfd8c11a8a1",
+   "title": "The 2026 Midterms: What Voters Told Us with Adam Geller",
+   "url": "https://www.hks.harvard.edu/events/2026-midterms-what-voters-told-us-adam-geller",
+   "source_id": "hks",
+   "source_name": "Harvard Kennedy School",
+   "also_listed": [],
+   "aliases": [
+    "5cfd8c11a8a1"
+   ],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-17T12:00:00-05:00",
+   "end": "2026-11-17T13:30:00-05:00",
+   "date": "2026-11-17",
+   "all_day": false,
+   "location": "Boylston Hall, Ticknor Lounge",
+   "online": false,
+   "host": "Institute of Politics (IOP)",
+   "food": {
+    "status": "confirmed",
+    "types": [
+     "Lunch"
+    ],
+    "evidence": "Lunch will be served.",
+    "cue": "strong"
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "RSVP link on the event page",
+    "link": "https://iop.harvard.edu/events/2026-midterms-what-voters-told-us-adam-geller"
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "What did the 2026 midterm elections reveal about the American electorate—and what do the results mean for the future of both parties? Join the Institute of Politics for a timely conversation with Adam Geller, CEO of National Research Inc. and a leading Republican pollster. As part of the bipartisan polling team behind…",
+   "blurb": "What did the 2026 midterm elections reveal about the American electorate—and what do the results mean for the future of both parties? Join the Institute of Politics for a timely conversation with Adam Geller, CEO of National Research Inc. and a leading…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Boylston Hall",
+   "lat": 42.373328,
+   "lon": -71.117315,
+   "geo_method": "gazetteer",
+   "walk_min": 10
   },
   {
    "id": "741ec11cbdb9",
@@ -17276,16 +17596,13 @@
    "online": false,
    "host": "Journal of Law & Technology",
    "food": {
-    "status": "confirmed",
-    "types": [
-     "Lunch"
-    ],
-    "evidence": "Lunch will be served!",
-    "cue": "strong"
+    "status": "none",
+    "types": [],
+    "evidence": ""
    },
    "registration": {
-    "status": "unknown",
-    "evidence": "",
+    "status": "required",
+    "evidence": "RSVP here: https://forms.gle/sH6FUFVYn9LYNWcJ7",
     "link": ""
    },
    "audience": {
@@ -17375,9 +17692,12 @@
    "online": false,
    "host": "Shorenstein Center on Media, Politics and Public Policy",
    "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
+    "status": "confirmed",
+    "types": [
+     "Snacks"
+    ],
+    "evidence": "Light refreshments will be provided!",
+    "cue": "strong"
    },
    "registration": {
     "status": "required",
@@ -17907,108 +18227,6 @@
    "walk_min": 5
   },
   {
-   "id": "1cc65a63d0db",
-   "title": "Colloquium with Evelyn Brooks Higginbotham John Hope Franklin and the Weapon of History",
-   "url": "https://us.list-manage.com/nFp3hXf11xo?e=a1a26792d9&c2id=7425a2fbc7f1fc01ee380a511113942f",
-   "source_id": "newsletter",
-   "source_name": "Forwarded: The Hutch: September 28 - October 4, 2026",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": {
-    "by": "Cecilia",
-    "subject": "The Hutch: September 28 - October 4, 2026",
-    "missing": [
-     "place",
-     "event page",
-     "description"
-    ]
-   },
-   "start": "2026-11-18T12:00:00-05:00",
-   "end": null,
-   "date": "2026-11-18",
-   "all_day": false,
-   "location": "",
-   "online": false,
-   "host": "",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
-   },
-   "audience": {
-    "level": "unknown",
-    "group": "",
-    "evidence": "",
-    "basis": "none"
-   },
-   "summary": "November 18, 12:00pm. Colloquium with Evelyn Brooks Higginbotham, John Hope Franklin and the Weapon of History",
-   "blurb": "",
-   "event_page": false,
-   "notes": "",
-   "place_name": "",
-   "lat": null,
-   "lon": null,
-   "geo_method": null,
-   "walk_min": null
-  },
-  {
-   "id": "d1951b0d9411",
-   "title": "Conversation with Richard J. Powell and Henry Louis Gates Jr. Colorstruck! Painting Pigment Affect",
-   "url": "https://us.list-manage.com/INj6YtYlfhQ?e=a1a26792d9&c2id=7425a2fbc7f1fc01ee380a511113942f",
-   "source_id": "newsletter",
-   "source_name": "Forwarded: The Hutch: September 28 - October 4, 2026",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": {
-    "by": "Cecilia",
-    "subject": "The Hutch: September 28 - October 4, 2026",
-    "missing": [
-     "place",
-     "event page",
-     "description"
-    ]
-   },
-   "start": "2026-11-18T17:00:00-05:00",
-   "end": null,
-   "date": "2026-11-18",
-   "all_day": false,
-   "location": "",
-   "online": false,
-   "host": "",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
-   },
-   "audience": {
-    "level": "unknown",
-    "group": "",
-    "evidence": "",
-    "basis": "none"
-   },
-   "summary": "November 18, 5:00pm. Conversation with Richard J. Powell and Henry Louis Gates, Jr., Colorstruck! Painting, Pigment, Affect",
-   "blurb": "",
-   "event_page": false,
-   "notes": "",
-   "place_name": "",
-   "lat": null,
-   "lon": null,
-   "geo_method": null,
-   "walk_min": null
-  },
-  {
    "id": "687b6a00009c",
    "title": "Events",
    "url": "https://cyber.harvard.edu/events",
@@ -18092,7 +18310,7 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "Wednesday, November 18, 2026 Time: 6:00pm EST Where: JFK Jr. Forum, 79 John F. Kennedy St., Cambridge, MA 02138 Meeting Method: Hybrid Add to Calendar 2026-11-18 18:00:00 2026-11-09 21:29:04 A Workforce in Transition: The AI Economy and What it Means for Our Future with Secretary Gina Raimondo & Governor Eric Holcomb…",
+   "summary": "Wednesday, November 18, 2026 Time: 6:00pm EST Where: JFK Jr. Forum, 79 John F. Kennedy St., Cambridge, MA 02138 Meeting Method: Hybrid Add to Calendar 2026-11-18 18:00:00 2026-11-10 14:03:06 A Workforce in Transition: The AI Economy and What it Means for Our Future with Secretary Gina Raimondo & Governor Eric Holcomb…",
    "blurb": "With AI playing an increasing role in our economy and society, how does the workforce train and transition? The Co-Chairs of Raise US, a non-partisan organization that partners with stakeholders to help prepare for this transition, will help us unpack this…",
    "event_page": true,
    "notes": "",
@@ -18199,57 +18417,6 @@
    "lon": null,
    "geo_method": null,
    "walk_min": null
-  },
-  {
-   "id": "7eeb828955e3",
-   "title": "Burchard Scholar Program applications open",
-   "url": "https://us.list-manage.com/19wlUO1Gd0t?e=f0038370fd&c2id=f3005d70bd32525f581faab165ebb147",
-   "source_id": "newsletter",
-   "source_name": "Forwarded: Tenured professors + history of Boston music + helping democracy revive",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": {
-    "by": "Cecilia",
-    "subject": "Tenured professors + history of Boston music + helping democracy revive",
-    "missing": [
-     "time",
-     "place",
-     "event page"
-    ]
-   },
-   "start": "2026-12-01T00:00:00-05:00",
-   "end": null,
-   "date": "2026-12-01",
-   "all_day": true,
-   "location": "",
-   "online": false,
-   "host": "",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
-   },
-   "audience": {
-    "level": "unknown",
-    "group": "",
-    "evidence": "",
-    "basis": "none"
-   },
-   "summary": "Burchard Scholar Program applications open The Burchard Scholars program connects students and SHASS faculty through a series of dinner seminars. MIT sophomores and juniors can apply. Submission deadline is December 1. Learn more and apply SHASS ON SOCIAL Subscribe to Data Driven Democracy on LinkedIn",
-   "blurb": "The Burchard Scholars program connects students and SHASS faculty through a series of dinner seminars. MIT sophomores and juniors can apply.",
-   "event_page": false,
-   "notes": "",
-   "place_name": "",
-   "lat": null,
-   "lon": null,
-   "geo_method": null,
-   "walk_min": null
   }
  ],
  "suggestions": [
@@ -18296,46 +18463,11 @@
   {
    "id": 4,
    "state": "scanned",
-   "label": "Scanned at every update: 20 events found, 1 with food this week",
-   "n_food": 1
+   "label": "Scanned at every update: 17 events found, 0 with food this week",
+   "n_food": 0
   }
  ],
  "newsletters": [
-  {
-   "subject": "Tenured professors + history of Boston music + helping democracy revive",
-   "sent": "2026-10-07",
-   "items": 1,
-   "sender": null,
-   "forwarded_by": "Cecilia"
-  },
-  {
-   "subject": "The Hutch: September 28 - October 4, 2026",
-   "sent": "2026-09-28",
-   "items": 2,
-   "sender": null,
-   "forwarded_by": "Cecilia"
-  },
-  {
-   "subject": null,
-   "sent": "2026-09-19",
-   "items": 0,
-   "sender": null,
-   "forwarded_by": "Cecilia"
-  },
-  {
-   "subject": null,
-   "sent": "2026-10-11",
-   "items": 0,
-   "sender": null,
-   "forwarded_by": "Cecilia"
-  },
-  {
-   "subject": null,
-   "sent": "2026-10-11",
-   "items": 0,
-   "sender": null,
-   "forwarded_by": "Cecilia"
-  },
   {
    "subject": null,
    "sent": "2026-10-12",
