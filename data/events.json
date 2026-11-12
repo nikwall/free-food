@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-11T12:55:50-05:00",
+ "generated_at": "2026-11-11T20:34:59-05:00",
  "window": {
   "start": "2026-11-11",
   "end": "2026-11-18"
@@ -22,7 +22,7 @@
    "error": null,
    "n_events": 169,
    "n_food": 11,
-   "seconds": 3.6
+   "seconds": 2.2
   },
   {
    "id": "hks",
@@ -31,8 +31,8 @@
    "ok": true,
    "error": null,
    "n_events": 39,
-   "n_food": 13,
-   "seconds": 2.1
+   "n_food": 14,
+   "seconds": 7.4
   },
   {
    "id": "hls",
@@ -42,7 +42,7 @@
    "error": null,
    "n_events": 81,
    "n_food": 49,
-   "seconds": 11.7
+   "seconds": 11.5
   },
   {
    "id": "college",
@@ -50,9 +50,9 @@
    "homepage": "https://events.college.harvard.edu/",
    "ok": true,
    "error": null,
-   "n_events": 144,
+   "n_events": 145,
    "n_food": 18,
-   "seconds": 0.6
+   "seconds": 1.1
   },
   {
    "id": "ash",
@@ -62,7 +62,7 @@
    "error": null,
    "n_events": 3,
    "n_food": 1,
-   "seconds": 2.5
+   "seconds": 2.2
   },
   {
    "id": "shorenstein",
@@ -72,7 +72,7 @@
    "error": null,
    "n_events": 2,
    "n_food": 2,
-   "seconds": 8.6
+   "seconds": 8.8
   },
   {
    "id": "fairbank",
@@ -82,7 +82,7 @@
    "error": null,
    "n_events": 5,
    "n_food": 1,
-   "seconds": 8.4
+   "seconds": 0.1
   },
   {
    "id": "newsletter",
@@ -92,7 +92,7 @@
    "error": null,
    "n_events": 21,
    "n_food": 4,
-   "seconds": 53.4
+   "seconds": 77.1
   },
   {
    "id": "suggested",
@@ -102,17 +102,17 @@
    "error": null,
    "n_events": 6,
    "n_food": 1,
-   "seconds": 4.5
+   "seconds": 6.1
   }
  ],
  "stats": {
-  "events": 394,
-  "food_confirmed": 73,
+  "events": 395,
+  "food_confirmed": 75,
   "food_likely": 17,
   "forwarded": 17,
   "forwarded_listed": 8,
   "food_restricted": 50,
-  "seconds": 63.0
+  "seconds": 87.2
  },
  "events": [
   {
@@ -3909,17 +3909,17 @@
    "source_name": "Harvard Gazette calendar",
    "also_listed": [
     {
-     "source_name": "Harvard College events",
-     "url": "https://events.college.harvard.edu/event/226180-study-group-with-alejandro-mayorkas-building-a"
+     "source_name": "Harvard Kennedy School",
+     "url": "https://www.hks.harvard.edu/events/study-group-sec-alejandro-mayorkas-building-career-through-uncertainty"
     },
     {
-     "source_name": "Harvard Kennedy School",
-     "url": "https://www.hks.harvard.edu/index%2ephp/events/study-group-sec-alejandro-mayorkas-building-career-through-uncertainty"
+     "source_name": "Harvard College events",
+     "url": "https://events.college.harvard.edu/event/226180-study-group-with-alejandro-mayorkas-building-a"
     }
    ],
    "aliases": [
     "48c12d66dd91",
-    "75b3d24214df"
+    "5b168c637a50"
    ],
    "suggested": null,
    "forwarded": null,
@@ -4043,9 +4043,9 @@
    "walk_min": 37
   },
   {
-   "id": "f53f99e36ada",
+   "id": "078db85304b8",
    "title": "State Elections & Transitions: A Behind-the-Scenes Look",
-   "url": "https://www.hks.harvard.edu/index%2Ephp/events/state-elections-transitions-behind-scenes-look-0",
+   "url": "https://www.hks.harvard.edu/events/state-elections-transitions-behind-scenes-look-0",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -4056,9 +4056,9 @@
    "end": "2026-11-12T18:00:00-05:00",
    "date": "2026-11-12",
    "all_day": false,
-   "location": "",
-   "online": false,
-   "host": "",
+   "location": "Online",
+   "online": true,
+   "host": "Taubman Center for State and Local Government",
    "food": {
     "status": "none",
     "types": [],
@@ -4075,15 +4075,15 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "",
-   "blurb": "",
+   "summary": "Join the Taubman Center for State and Local Government to reflect on the 2026 elections and what happens as new leaders take office. Taubman fellows and former chiefs of staff Brandon Tatum (Oklahoma) and Fagan Harris (Maryland) will share their perspectives on the recent elections and their experiences in government.…",
+   "blurb": "Join the Taubman Center for State and Local Government to reflect on the 2026 elections and what happens as new leaders take office. Taubman fellows and former chiefs of staff Brandon Tatum (Oklahoma) and Fagan Harris (Maryland) will share their perspectives…",
    "event_page": true,
    "notes": "",
-   "place_name": "Harvard Kennedy School",
-   "lat": 42.371989,
-   "lon": -71.121761,
-   "geo_method": "host",
-   "walk_min": 16
+   "place_name": "",
+   "lat": null,
+   "lon": null,
+   "geo_method": null,
+   "walk_min": null
   },
   {
    "id": "2bec78a6d2fd",
@@ -4093,16 +4093,16 @@
    "source_name": "Harvard Gazette calendar",
    "also_listed": [
     {
-     "source_name": "Harvard College events",
-     "url": "https://events.college.harvard.edu/event/226161-study-group-with-ambassador-nathalie-rayes"
+     "source_name": "Harvard Kennedy School",
+     "url": "https://www.hks.harvard.edu/events/amb-nathalie-rayes-study-group-lessons-los-angeles-city-hall-ft-jim-hahn"
     },
     {
-     "source_name": "Harvard Kennedy School",
-     "url": "https://www.hks.harvard.edu/index%2Ephp/events/amb-nathalie-rayes-study-group-lessons-los-angeles-city-hall-ft-jim-hahn"
+     "source_name": "Harvard College events",
+     "url": "https://events.college.harvard.edu/event/226161-study-group-with-ambassador-nathalie-rayes"
     }
    ],
    "aliases": [
-    "55ec711771ca",
+    "939ada20fddb",
     "a8ef0ab97982"
    ],
    "suggested": null,
@@ -5607,9 +5607,9 @@
    "walk_min": 15
   },
   {
-   "id": "a56ec1917bcd",
+   "id": "0507e1d1ad39",
    "title": "From Data to Decisions: The Development Finance Hackathon",
-   "url": "https://www.hks.harvard.edu/index%2ephp/events/data-decisions-development-finance-hackathon",
+   "url": "https://www.hks.harvard.edu/events/data-decisions-development-finance-hackathon",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -5620,27 +5620,30 @@
    "end": "2026-11-13T17:00:00-05:00",
    "date": "2026-11-13",
    "all_day": false,
-   "location": "",
+   "location": "Perkins Conference Room (r429)",
    "online": false,
-   "host": "",
+   "host": "Harvard Center for International Development",
    "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
+    "status": "confirmed",
+    "types": [
+     "Food"
+    ],
+    "evidence": "Food provided.",
+    "cue": "strong"
    },
    "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
+    "status": "required",
+    "evidence": "Sign up solo or with a team; we’ll help form mixed Harvard–MIT teams on the day.",
+    "link": "https://harvard.az1.qualtrics.com/jfe/form/SV_1N5ndVkpaKOHpSC"
    },
    "audience": {
-    "level": "unknown",
-    "group": "",
-    "evidence": "",
-    "basis": "none"
+    "level": "likely",
+    "group": "Harvard and MIT Sloan graduate students",
+    "evidence": "This is open to Harvard and MIT Sloan graduate students only.",
+    "basis": "text"
    },
-   "summary": "",
-   "blurb": "",
+   "summary": "Developing countries are facing cuts to aid, heavy debt burdens, rising food and energy prices, and disruption from AI. As needs grow and resources shrink, good data on development finance matters more than ever. But that data has long been scattered across sources and hard to use. ONE Data built the Development…",
+   "blurb": "Developing countries are facing cuts to aid, heavy debt burdens, rising food and energy prices, and disruption from AI. As needs grow and resources shrink, good data on development finance matters more than ever. But that data has long been scattered across…",
    "event_page": true,
    "notes": "",
    "place_name": "Harvard Kennedy School",
@@ -6178,22 +6181,22 @@
   {
    "id": "1b67623ce89b",
    "title": "American Politics Speaker Series: The Electoral Power of Public Employees",
-   "url": "https://www.hks.harvard.edu/events/american-politics-speaker-series-electoral-power-public-employees",
-   "source_id": "hks",
-   "source_name": "Harvard Kennedy School",
+   "url": "https://ash.harvard.edu/events/american-politics-speaker-series-the-electoral-power-of-public-employees/",
+   "source_id": "ash",
+   "source_name": "Ash Center (HKS)",
    "also_listed": [
-    {
-     "source_name": "Ash Center (HKS)",
-     "url": "https://ash.harvard.edu/events/american-politics-speaker-series-the-electoral-power-of-public-employees/"
-    },
     {
      "source_name": "Harvard College events",
      "url": "https://events.college.harvard.edu/ofa/event/223329-dance-in-public"
+    },
+    {
+     "source_name": "Harvard Kennedy School",
+     "url": "https://www.hks.harvard.edu/index%2ephp/events/american-politics-speaker-series-electoral-power-public-employees"
     }
    ],
    "aliases": [
-    "4a509237ad93",
-    "dd26c1875814"
+    "23dc6c19797d",
+    "4a509237ad93"
    ],
    "suggested": null,
    "forwarded": null,
@@ -6201,9 +6204,9 @@
    "end": "2026-11-13T13:30:00-05:00",
    "date": "2026-11-13",
    "all_day": false,
-   "location": "Cgis South, Room S250, 1730 Cambridge Street, Cambridge, Ma 02138",
+   "location": "CGIS South, Room S250, 1730 Cambridge Street, Cambridge, MA 02138",
    "online": false,
-   "host": "Ash Center for Democratic Governance and Innovation",
+   "host": "Ash Center for Democratic Governance",
    "food": {
     "status": "confirmed",
     "types": [
@@ -7686,6 +7689,49 @@
    "lon": -71.118646,
    "geo_method": "host",
    "walk_min": 15
+  },
+  {
+   "id": "d283954b6310",
+   "title": "Tiny Desk Concert WHRB x FLOW",
+   "url": "https://soco.college.harvard.edu/rsvp?id=383438",
+   "source_id": "college",
+   "source_name": "Harvard College events",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-13T20:00:00-05:00",
+   "end": "2026-11-13T22:00:00-05:00",
+   "date": "2026-11-13",
+   "all_day": false,
+   "location": "SoCo",
+   "online": false,
+   "host": "Dean of Students Office",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "Registration link on the event page",
+    "link": "https://soco.college.harvard.edu/rsvp?id=383438"
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "Harvard College students",
+    "evidence": "Harvard College calendar, no sign it is open to others",
+    "basis": "default"
+   },
+   "summary": "Come hear The Pitches, MxFire, and DISBAND at WHRB’s x FLOW Tiny Desk Concert! Enjoy live music, stop by the doodle booth, snap some photos at the photo booth, and take-home custom poetry written just for you. November 13th 8-10pm, don’t miss it! — Event Details: https://soco.college.harvard.edu/rsvp?id=383438",
+   "blurb": "Come hear The Pitches, MxFire, and DISBAND at WHRB’s x FLOW Tiny Desk Concert! Enjoy live music, stop by the doodle booth, snap some photos at the photo booth, and take-home custom poetry written just for you.",
+   "event_page": true,
+   "notes": "",
+   "place_name": "",
+   "lat": null,
+   "lon": null,
+   "geo_method": null,
+   "walk_min": null
   },
   {
    "id": "65f872fb1bb1",
@@ -13916,9 +13962,9 @@
    "walk_min": null
   },
   {
-   "id": "11d0bbc2de0f",
+   "id": "9c450e5b75af",
    "title": "Rethinking Capital: Creative Strategies for Funding and Impact",
-   "url": "https://www.hks.harvard.edu/index%2ephp/events/rethinking-capital-creative-strategies-funding-and-impact-0",
+   "url": "https://www.hks.harvard.edu/events/rethinking-capital-creative-strategies-funding-and-impact-0",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -13929,18 +13975,18 @@
    "end": "2026-11-17T13:00:00-05:00",
    "date": "2026-11-17",
    "all_day": false,
-   "location": "",
+   "location": "W-434 A.b, Wexner Building, Hks Main Campus",
    "online": false,
-   "host": "",
+   "host": "Social Innovation + Change Initiative (SICI)",
    "food": {
     "status": "none",
     "types": [],
     "evidence": ""
    },
    "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
+    "status": "required",
+    "evidence": "RSVP link on the event page",
+    "link": "https://forms.gle/D7XfKHbQmrDC3gLZ6"
    },
    "audience": {
     "level": "unknown",
@@ -13948,15 +13994,15 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "",
-   "blurb": "",
+   "summary": "The Social Innovation and Change Initiative (SICI) is delighted to bring back Dr. Mohamed Aburawi (‘20 MC/MPA, SICI Visiting Social Innovator), Founder and Managing Partner at Atarona Ventures, and Co-founder of Speetar and Academia, for an interactive session on how to broaden your definition of capital and position…",
+   "blurb": "The Social Innovation and Change Initiative (SICI) is delighted to bring back Dr. Mohamed Aburawi (‘20 MC/MPA, SICI Visiting Social Innovator), Founder and Managing Partner at Atarona Ventures, and Co-founder of Speetar and Academia, for an interactive…",
    "event_page": true,
    "notes": "",
-   "place_name": "Harvard Kennedy School",
-   "lat": 42.371989,
-   "lon": -71.121761,
-   "geo_method": "host",
-   "walk_min": 16
+   "place_name": "Wexner Building, Harvard Kennedy School",
+   "lat": 42.371344,
+   "lon": -71.122357,
+   "geo_method": "gazetteer",
+   "walk_min": 18
   },
   {
    "id": "1ca04c02026c",
@@ -16678,9 +16724,9 @@
    "walk_min": 10
   },
   {
-   "id": "95e08f464edb",
+   "id": "f4388faef64e",
    "title": "Who Fills the Gap? Philanthropy, Civil Society, the State, and Child Survival",
-   "url": "https://www.hks.harvard.edu/index%2ephp/events/who-fills-gap-philanthropy-civil-society-state-and-child-survival",
+   "url": "https://www.hks.harvard.edu/events/who-fills-gap-philanthropy-civil-society-state-and-child-survival",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -16691,13 +16737,16 @@
    "end": "2026-11-18T13:30:00-05:00",
    "date": "2026-11-18",
    "all_day": false,
-   "location": "",
+   "location": "Belfer - B-l-4 (lobby Level)",
    "online": false,
-   "host": "",
+   "host": "Mossavar-Rahmani Center for Business and Government",
    "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
+    "status": "confirmed",
+    "types": [
+     "Lunch"
+    ],
+    "evidence": "Lunch will be provided.",
+    "cue": "strong"
    },
    "registration": {
     "status": "unknown",
@@ -16710,8 +16759,8 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "",
-   "blurb": "",
+   "summary": "Most under-five deaths come from causes we know how to prevent: pneumonia, diarrhoea, malaria, malnutrition and complications around birth. Led by M-RCBG Senior Fellow Padmashree Gehl Sampath, this session examines the gap between knowledge and delivery: why proven interventions fail to reach the last mile, and which…",
+   "blurb": "Most under-five deaths come from causes we know how to prevent: pneumonia, diarrhoea, malaria, malnutrition and complications around birth. this session examines the gap between knowledge and delivery: why proven interventions fail to reach the last mile, and…",
    "event_page": true,
    "notes": "",
    "place_name": "Harvard Kennedy School",
@@ -17295,8 +17344,8 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "Nov 18, 2026 @ 5:30 PM Is Your Relationship With AI Healthy? A Workshop on AI, Advice, and the Self Who do we become when we take advice from machines? Drawing on insights from BKC Fellow Amelia Miller's research at the Berkman Klein Center and her human-AI relationship coaching… RSVP Event Nov 19, 2026 @ 5:00 PM…",
-   "blurb": "Who do we become when we take advice from machines? Drawing on insights from BKC Fellow Amelia Miller's research at the Berkman Klein Center and her human-AI relationship coaching… As AI becomes increasingly embedded in our lives, it has taken on roles as a…",
+   "summary": "Nov 18, 2026 @ 5:30 PM Is Your Relationship With AI Healthy? A Workshop on AI, Advice, and the Self Who do we become when we take advice from machines? Drawing on insights from BKC Fellow Amelia Miller's research at the Berkman Klein Center and her human-AI relationship coaching… RSVP Event Nov 19, 2026 @ 12:20 PM AI…",
+   "blurb": "Who do we become when we take advice from machines? Drawing on insights from BKC Fellow Amelia Miller's research at the Berkman Klein Center and her human-AI relationship coaching… The present moment is defined by both the emergence of powerful artificial…",
    "event_page": true,
    "notes": "",
    "place_name": "Berkman Klein Center",
@@ -17823,13 +17872,6 @@
  "newsletters": [
   {
    "subject": null,
-   "sent": "2026-10-12",
-   "items": 0,
-   "sender": null,
-   "forwarded_by": "Ellen"
-  },
-  {
-   "subject": null,
    "sent": "2026-10-13",
    "items": 0,
    "sender": null,
@@ -18102,6 +18144,12 @@
    "sent": "2026-11-09",
    "items": 0,
    "sender": "Hutchins Center for African & African American Research, Har"
+  },
+  {
+   "subject": "2025–2026 Weatherhead Center Annual Report / The Long View",
+   "sent": "2026-11-11",
+   "items": 0,
+   "sender": "Weatherhead Center for International Affairs"
   }
  ]
 }
