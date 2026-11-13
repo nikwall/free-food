@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T13:23:22-05:00",
+ "generated_at": "2026-11-12T19:31:51-05:00",
  "window": {
   "start": "2026-11-12",
   "end": "2026-11-19"
@@ -22,7 +22,7 @@
    "error": null,
    "n_events": 182,
    "n_food": 14,
-   "seconds": 3.0
+   "seconds": 3.1
   },
   {
    "id": "hks",
@@ -30,9 +30,9 @@
    "homepage": "https://www.hks.harvard.edu/more/events",
    "ok": true,
    "error": null,
-   "n_events": 46,
+   "n_events": 48,
    "n_food": 13,
-   "seconds": 1.0
+   "seconds": 5.8
   },
   {
    "id": "hls",
@@ -42,7 +42,7 @@
    "error": null,
    "n_events": 99,
    "n_food": 59,
-   "seconds": 15.4
+   "seconds": 8.8
   },
   {
    "id": "college",
@@ -50,9 +50,9 @@
    "homepage": "https://events.college.harvard.edu/",
    "ok": true,
    "error": null,
-   "n_events": 155,
+   "n_events": 157,
    "n_food": 20,
-   "seconds": 0.6
+   "seconds": 0.7
   },
   {
    "id": "ash",
@@ -62,7 +62,7 @@
    "error": null,
    "n_events": 3,
    "n_food": 1,
-   "seconds": 2.8
+   "seconds": 2.5
   },
   {
    "id": "shorenstein",
@@ -72,7 +72,7 @@
    "error": null,
    "n_events": 3,
    "n_food": 2,
-   "seconds": 12.0
+   "seconds": 9.3
   },
   {
    "id": "fairbank",
@@ -82,7 +82,7 @@
    "error": null,
    "n_events": 6,
    "n_food": 1,
-   "seconds": 6.7
+   "seconds": 0.1
   },
   {
    "id": "newsletter",
@@ -92,7 +92,7 @@
    "error": null,
    "n_events": 19,
    "n_food": 4,
-   "seconds": 72.5
+   "seconds": 60.5
   },
   {
    "id": "suggested",
@@ -100,19 +100,19 @@
    "homepage": "",
    "ok": true,
    "error": null,
-   "n_events": 7,
+   "n_events": 8,
    "n_food": 2,
-   "seconds": 6.6
+   "seconds": 7.9
   }
  ],
  "stats": {
-  "events": 427,
-  "food_confirmed": 82,
+  "events": 430,
+  "food_confirmed": 81,
   "food_likely": 17,
   "forwarded": 15,
   "forwarded_listed": 7,
   "food_restricted": 57,
-  "seconds": 88.2
+  "seconds": 72.6
  },
  "events": [
   {
@@ -935,7 +935,7 @@
    "registration": {
     "status": "required",
     "evidence": "Registration is required.",
-    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001lxKDIAY"
+    "link": ""
    },
    "audience": {
     "level": "unknown",
@@ -1072,9 +1072,9 @@
     "evidence": ""
    },
    "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://forms.gle/9hmANVzFD22ohbZ97"
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
    },
    "audience": {
     "level": "unknown",
@@ -1163,9 +1163,9 @@
     "cue": "strong"
    },
    "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001lPqPIAU"
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
    },
    "audience": {
     "level": "unknown",
@@ -1184,9 +1184,9 @@
    "walk_min": 18
   },
   {
-   "id": "090daec56071",
+   "id": "970b9d69ada4",
    "title": "The Future of Money: Inside the Fed's Innovation Center",
-   "url": "https://www.hks.harvard.edu/events/future-money-inside-feds-innovation-center",
+   "url": "https://www.hks.harvard.edu/index%2ephp/events/future-money-inside-feds-innovation-center",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -1197,21 +1197,18 @@
    "end": "2026-11-12T13:30:00-05:00",
    "date": "2026-11-12",
    "all_day": false,
-   "location": "Rubenstein 414 A/b",
+   "location": "",
    "online": false,
-   "host": "Digital Assets Policy Project",
+   "host": "",
    "food": {
-    "status": "confirmed",
-    "types": [
-     "Lunch"
-    ],
-    "evidence": "Lunch will be served.",
-    "cue": "strong"
+    "status": "none",
+    "types": [],
+    "evidence": ""
    },
    "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001lXHhIAM"
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
    },
    "audience": {
     "level": "unknown",
@@ -1219,15 +1216,15 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "With the rise of stablecoins, tokenized bank deposits and tokenized stocks and bonds, how is the U.S. central bank thinking about innovation in payments and money? Per von Zelowitz, Director of the New York Innovation Center (NYIC) at the Federal Reserve Bank of New York, will discuss the NYIC’s work in exploring…",
-   "blurb": "With the rise of stablecoins, tokenized bank deposits and tokenized stocks and bonds, how is the U.S. central bank thinking about innovation in payments and money? Per von Zelowitz, Director of the New York Innovation Center (NYIC) at the Federal Reserve Bank…",
+   "summary": "",
+   "blurb": "",
    "event_page": true,
    "notes": "",
-   "place_name": "Rubenstein Building, Harvard Kennedy School",
-   "lat": 42.371243,
-   "lon": -71.122687,
-   "geo_method": "gazetteer",
-   "walk_min": 18
+   "place_name": "Harvard Kennedy School",
+   "lat": 42.371989,
+   "lon": -71.121761,
+   "geo_method": "host",
+   "walk_min": 16
   },
   {
    "id": "34a8a957d39a",
@@ -1955,49 +1952,6 @@
    "walk_min": 10
   },
   {
-   "id": "fda7079ca9cf",
-   "title": "Harvard University Men’s Soccer at Cornell - Hosted by Cornell",
-   "url": "https://events.college.harvard.edu/event/224618-harvard-university-mens-soccer-vs-ivy-league",
-   "source_id": "college",
-   "source_name": "Harvard College events",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-11-12T15:30:00-05:00",
-   "end": "2026-11-12T17:30:00-05:00",
-   "date": "2026-11-12",
-   "all_day": false,
-   "location": "Ithaca, NY",
-   "online": false,
-   "host": "Main Calendar",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
-   },
-   "audience": {
-    "level": "restricted",
-    "group": "Harvard College students",
-    "evidence": "Harvard College calendar, no sign it is open to others",
-    "basis": "default"
-   },
-   "summary": "Harvard University Men’s Soccer at Cornell - Hosted by Cornell TV: ESPN+ Streaming Video: https://www.espn.com/watch/player/_/id/8a5bdbcd-c258-49e2-8359-a0d1df0aada2 URL:https://gocrimson.com/calendar.aspx?game_id=33222&sport_id=17",
-   "blurb": "",
-   "event_page": true,
-   "notes": "",
-   "place_name": "",
-   "lat": null,
-   "lon": null,
-   "geo_method": null,
-   "walk_min": null
-  },
-  {
    "id": "433a098f51a2",
    "title": "Pre-release viewing: Being Heumann",
    "url": "https://events.college.harvard.edu/event/226130-pre-release-viewing-being-heumann",
@@ -2042,6 +1996,49 @@
    "lon": -71.121506,
    "geo_method": "gazetteer",
    "walk_min": 24
+  },
+  {
+   "id": "fda7079ca9cf",
+   "title": "[L] Harvard University Men’s Soccer at Cornell - Hosted by Cornell",
+   "url": "https://events.college.harvard.edu/event/224618-harvard-university-mens-soccer-vs-ivy-league",
+   "source_id": "college",
+   "source_name": "Harvard College events",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-12T15:30:00-05:00",
+   "end": "2026-11-12T17:30:00-05:00",
+   "date": "2026-11-12",
+   "all_day": false,
+   "location": "Ithaca, NY",
+   "online": false,
+   "host": "Main Calendar",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "Harvard College students",
+    "evidence": "Harvard College calendar, no sign it is open to others",
+    "basis": "default"
+   },
+   "summary": "[L] Harvard University Men’s Soccer at Cornell - Hosted by Cornell L 1-2 TV: ESPN+ Streaming Video: https://www.espn.com/watch/player/_/id/8a5bdbcd-c258-49e2-8359-a0d1df0aada2 URL:https://gocrimson.com/calendar.aspx?game_id=33222&sport_id=17",
+   "blurb": "",
+   "event_page": true,
+   "notes": "",
+   "place_name": "",
+   "lat": null,
+   "lon": null,
+   "geo_method": null,
+   "walk_min": null
   },
   {
    "id": "b49cf9187cbc",
@@ -3024,20 +3021,20 @@
    "source_name": "Harvard Gazette calendar",
    "also_listed": [
     {
-     "source_name": "Forwarded: Election Week at the IOP!",
-     "url": "https://iop.harvard.edu/events/military-service-city-hall-mayors-patrick-farrell-beach-pace-sly-james"
+     "source_name": "Harvard Kennedy School",
+     "url": "https://www.hks.harvard.edu/events/military-service-city-hall"
     },
     {
      "source_name": "Harvard College events",
      "url": "https://events.college.harvard.edu/event/225941-from-military-service-to-city-hall-with-mayors"
     },
     {
-     "source_name": "Harvard Kennedy School",
-     "url": "https://www.hks.harvard.edu/index%2ephp/events/military-service-city-hall"
+     "source_name": "Forwarded: Election Week at the IOP!",
+     "url": "https://iop.harvard.edu/events/military-service-city-hall-mayors-patrick-farrell-beach-pace-sly-james"
     }
    ],
    "aliases": [
-    "3fb59fcf297a",
+    "15953497160a",
     "563191afe9ff",
     "be00b811fec3"
    ],
@@ -3071,7 +3068,7 @@
     "basis": "none"
    },
    "summary": "This Forum event will be held in honor of former Director of the Institute of Politics, Setti D. Warren. Held in conjunction with Veterans Day and marking the one-year anniversary of Setti's passing, the event will reflect on his nearly four decades of public service, and the pathway of three mayors who served in the…",
-   "blurb": "This Forum event will be held in honor of former Director of the Institute of Politics, Setti D. Held in conjunction with Veterans Day and marking the one-year anniversary of Setti's passing, the event will reflect on his nearly four decades of public…",
+   "blurb": "This Forum event will be held in honor of former Director of the Institute of Politics, Setti D. Held in conjunction with Veterans Day and marking the one-year anniversary of Setti’s passing, the event will reflect on his nearly four decades of public service…",
    "event_page": true,
    "notes": "Cost: Free | Harvard Key required: No",
    "place_name": "Littauer Building, Harvard Kennedy School",
@@ -4111,9 +4108,9 @@
    "walk_min": 15
   },
   {
-   "id": "a56ec1917bcd",
+   "id": "93dc33f92b84",
    "title": "From Data to Decisions: The Development Finance Hackathon",
-   "url": "https://www.hks.harvard.edu/index%2ephp/events/data-decisions-development-finance-hackathon",
+   "url": "https://www.hks.harvard.edu/index%2Ephp/events/data-decisions-development-finance-hackathon",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -4499,7 +4496,7 @@
   },
   {
    "id": "0f63e51f0357",
-   "title": "From Research to Action: Violence Against Women in Local Office",
+   "title": "Research to Action: Threats, Violence & Harassment Against Women in Local Office",
    "url": "https://www.hks.harvard.edu/events/research-action-violence-against-women-local-office",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
@@ -4910,7 +4907,7 @@
    "walk_min": null
   },
   {
-   "id": "1d0d4b182b6e",
+   "id": "0544df0bf0fe",
    "title": "Inside the Story: Trump’s Inner Circle & Stephen Miller’s Path to Power with Chris Whipple",
    "url": "https://events.college.harvard.edu/event/226246-inside-the-story-trumps-inner-circle-stephen",
    "source_id": "college",
@@ -4918,7 +4915,7 @@
    "also_listed": [
     {
      "source_name": "Harvard Kennedy School",
-     "url": "https://www.hks.harvard.edu/index%2ephp/events/inside-story-trumps-inner-circle-stephen-millers-path-power"
+     "url": "https://www.hks.harvard.edu/events/inside-story-trumps-inner-circle-stephen-millers-path-power"
     }
    ],
    "aliases": [
@@ -4942,9 +4939,9 @@
     "cue": "strong"
    },
    "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
+    "status": "required",
+    "evidence": "RSVP link on the event page",
+    "link": "https://iop.harvard.edu/events/inside-story-trumps-inner-circle-stephen-millers-path-power-chris-whipple-iop-fall-2026"
    },
    "audience": {
     "level": "unknown",
@@ -7959,6 +7956,49 @@
    "walk_min": 7
   },
   {
+   "id": "93d2ed1f8b1f",
+   "title": "Winthrop Grille Open DJ Decks",
+   "url": "https://events.college.harvard.edu/winthrop-house/event/226264-winthrop-grille-open-dj-decks",
+   "source_id": "college",
+   "source_name": "Harvard College events",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-14T21:00:00-05:00",
+   "end": "2026-11-14T23:00:00-05:00",
+   "date": "2026-11-14",
+   "all_day": false,
+   "location": "Winthrop Grille",
+   "online": false,
+   "host": "Winthrop House",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "Winthrop House residents",
+    "evidence": "Hosted by Winthrop House",
+    "basis": "inferred"
+   },
+   "summary": "STOP GATEKEEPING YOUR SPOTIFY PLAYLISTS AND COME SPIN THEM LIVE AT WHETHER YOU’RE A PRO OR HAVE NEVER TOUCHED A CONTROLLER IN YOUR LIFE, PULL UP TO LEARN DJ TIPS & TRICKS, MIX YOUR FAVORITE TRACKS, AND VIBE OUT. COME FOR THE MUSIC, STAY FOR THE TENDIES AND LOADED FRIES.",
+   "blurb": "",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Winthrop House",
+   "lat": 42.370356,
+   "lon": -71.118646,
+   "geo_method": "host",
+   "walk_min": 15
+  },
+  {
    "id": "2181cde541eb",
    "title": "Register for OFA Dance Community Courses",
    "url": "https://events.college.harvard.edu/ofa/event/223733-register-for-ofa-dance-community-courses",
@@ -8045,51 +8085,6 @@
    "walk_min": 31
   },
   {
-   "id": "1aee1ab8830b",
-   "title": "Dance in Public",
-   "url": "https://events.college.harvard.edu/ofa/event/223329-dance-in-public",
-   "source_id": "college",
-   "source_name": "Harvard College events",
-   "also_listed": [],
-   "aliases": [
-    "d027da31584f"
-   ],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-11-15T00:00:00-05:00",
-   "end": null,
-   "date": "2026-11-15",
-   "all_day": true,
-   "location": "Richard A. and Susan F. Smith Campus Center",
-   "online": false,
-   "host": "Office for the Arts Dance Program",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "none",
-    "evidence": "Each individual lab session is open to Harvard student drop-in participation.",
-    "link": ""
-   },
-   "audience": {
-    "level": "likely",
-    "group": "Harvard student drop-in participation",
-    "evidence": "Each individual lab session is open to Harvard student drop-in participation.",
-    "basis": "text"
-   },
-   "summary": "Join the Dance in Public Undergraduate Research Fellows who will be investigating and activating sites throughout the academic year, exploring themes in design and architecture, civic engagement, creative research, and public life. Each individual lab session is open to Harvard student drop-in participation. REGISTER…",
-   "blurb": "who will be investigating and activating sites throughout the academic year, exploring themes in design and architecture, civic engagement, creative research, and public life. Each individual lab session is open to Harvard student drop-in participation. Visit…",
-   "event_page": true,
-   "notes": "",
-   "place_name": "Richard A. and Susan F. Smith Campus Center",
-   "lat": 42.372951,
-   "lon": -71.118484,
-   "geo_method": "source",
-   "walk_min": 12
-  },
-  {
    "id": "6f202e153015",
    "title": "Harvard Undergraduate OpenBio Laboratory Datathon 2026",
    "url": "https://soco.college.harvard.edu/rsvp?id=383364",
@@ -8124,51 +8119,6 @@
    },
    "summary": "Join the Harvard Undergraduate OpenBio Laboratory Datathon on November 14–15, 2026! Open to undergraduate students from colleges and universities across the country, this two-day competition brings students together to explore challenges at the intersection of biology, computation, and global health. Work with a team,…",
    "blurb": "Open to undergraduate students from colleges and universities across the country, this two-day competition brings students together to explore challenges at the intersection of biology, computation, and global health. Work with a team, investigate real…",
-   "event_page": true,
-   "notes": "",
-   "place_name": "",
-   "lat": null,
-   "lon": null,
-   "geo_method": null,
-   "walk_min": null
-  },
-  {
-   "id": "45f8653884fc",
-   "title": "Harvard University Men’s Soccer vs Ivy League Tournament Championship",
-   "url": "https://events.college.harvard.edu/event/224598-harvard-university-mens-soccer-vs-ivy-league",
-   "source_id": "college",
-   "source_name": "Harvard College events",
-   "also_listed": [],
-   "aliases": [
-    "95918b895555"
-   ],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-11-15T00:00:00-05:00",
-   "end": null,
-   "date": "2026-11-15",
-   "all_day": true,
-   "location": "",
-   "online": false,
-   "host": "Main Calendar",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
-   },
-   "audience": {
-    "level": "restricted",
-    "group": "Harvard College students",
-    "evidence": "Harvard College calendar, no sign it is open to others",
-    "basis": "default"
-   },
-   "summary": "Harvard University Men’s Soccer vs Ivy League Tournament Championship TV: ESPN+ Streaming Video: https://www.espn.com/watch/catalog/28907f94-4745-4e26-b0ac-6fd8ffac0aa6/ivy-league URL:https://gocrimson.com/calendar.aspx?game_id=33223&sport_id=17",
-   "blurb": "",
    "event_page": true,
    "notes": "",
    "place_name": "",
@@ -8694,13 +8644,15 @@
    "walk_min": 7
   },
   {
-   "id": "adb4b4dfa48a",
+   "id": "45f8653884fc",
    "title": "Harvard University Women’s Basketball vs Michigan State University - Aloha Sunday",
    "url": "https://events.college.harvard.edu/event/224599-harvard-university-womens-basketball-vs-michigan",
    "source_id": "college",
    "source_name": "Harvard College events",
    "also_listed": [],
-   "aliases": [],
+   "aliases": [
+    "adb4b4dfa48a"
+   ],
    "suggested": null,
    "forwarded": null,
    "start": "2026-11-15T14:00:00-05:00",
@@ -9148,6 +9100,52 @@
    "walk_min": 15
   },
   {
+   "id": "021cbe2151c2",
+   "title": "Dance in Public",
+   "url": "https://events.college.harvard.edu/ofa/event/223329-dance-in-public",
+   "source_id": "college",
+   "source_name": "Harvard College events",
+   "also_listed": [],
+   "aliases": [
+    "1aee1ab8830b",
+    "d027da31584f"
+   ],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-15T20:30:00-05:00",
+   "end": null,
+   "date": "2026-11-15",
+   "all_day": false,
+   "location": "Richard A. and Susan F. Smith Campus Center",
+   "online": false,
+   "host": "Office for the Arts Dance Program",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "none",
+    "evidence": "Each individual lab session is open to Harvard student drop-in participation.",
+    "link": ""
+   },
+   "audience": {
+    "level": "likely",
+    "group": "Harvard student drop-in participation",
+    "evidence": "Each individual lab session is open to Harvard student drop-in participation.",
+    "basis": "text"
+   },
+   "summary": "Join the Dance in Public Undergraduate Research Fellows who will be investigating and activating sites throughout the academic year, exploring themes in design and architecture, civic engagement, creative research, and public life. Each individual lab session is open to Harvard student drop-in participation. REGISTER…",
+   "blurb": "who will be investigating and activating sites throughout the academic year, exploring themes in design and architecture, civic engagement, creative research, and public life. Each individual lab session is open to Harvard student drop-in participation. Visit…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Richard A. and Susan F. Smith Campus Center",
+   "lat": 42.372951,
+   "lon": -71.118484,
+   "geo_method": "source",
+   "walk_min": 12
+  },
+  {
    "id": "0fc1251cae17",
    "title": "Calling All Harvard Student Founders: Apply for the 2027 President’s Innovation Challenge today!",
    "url": "https://events.college.harvard.edu/event/225974-calling-all-harvard-student-founders-apply-for-the",
@@ -9189,49 +9187,6 @@
    "lon": -71.125793,
    "geo_method": "host",
    "walk_min": 31
-  },
-  {
-   "id": "aa3f75a9b17a",
-   "title": "Leading Under Pressure: Tarana Burke on Sexual and Gender-Based Violence",
-   "url": "https://www.hks.harvard.edu/events/leading-under-pressure-tarana-burke-sexual-and-gender-based-violence",
-   "source_id": "gazette",
-   "source_name": "Harvard Gazette calendar",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-11-16T05:30:00-05:00",
-   "end": "2026-11-16T06:45:00-05:00",
-   "date": "2026-11-16",
-   "all_day": false,
-   "location": "Starr Auditorium, Belfer Building 3rd Floor, Harvard Kennedy School, 79 John F. Kennedy St., Cambridge",
-   "online": false,
-   "host": "Harvard Kennedy School; Center for Public Leadership",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "required",
-    "evidence": "Registration link on the event page",
-    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001lUy9IAE&_gl=1*1u01o9c*_gcl_au*MTYyODYwMjg4Ny4xNzg4OTY5MDI3LjM0OTU2ODgxMy4xNzk0MjQwNjQ4LjE3OTQyNDA2NDcuMTEyNTg1NDIxMi4xNzk0MjQwNjQ4LjE3OTQyNDA2NDc.*_ga*OTM1MzMxODkzLjE3ODg5NzEwMjg.*_ga_72NC9RC7VN*czE3OTQ0ODgyMTckbzM5JGcxJHQxNzk0NDk3Njk5JGozMCRsMCRoMTM2NjU5OTc1"
-   },
-   "audience": {
-    "level": "harvard",
-    "group": "",
-    "evidence": "This event is open to HUID holders only.",
-    "basis": "text"
-   },
-   "summary": "This event is open to HUID holders only. What does principled leadership require when sexual and gender-based violence occurs within an institution or across the wider cultural and policy landscape? In this conversation, Tarana Burke, Founder, 'me too.' Movement and CPL Hauser Leader, and Kishaya Delaney MPP 2027, CPL…",
-   "blurb": "This event is open to HUID holders only. What does principled leadership require when sexual and gender-based violence occurs within an institution or across the wider cultural and policy landscape? In this conversation, Tarana Burke, Founder, 'me too.'…",
-   "event_page": true,
-   "notes": "Cost: Free, Harvard ID required | Harvard Key required: No",
-   "place_name": "Belfer Building, Harvard Kennedy School",
-   "lat": 42.37141,
-   "lon": -71.121513,
-   "geo_method": "gazetteer",
-   "walk_min": 17
   },
   {
    "id": "86f7b2fa4354",
@@ -9982,6 +9937,49 @@
    "lon": -71.118484,
    "geo_method": "source",
    "walk_min": 12
+  },
+  {
+   "id": "253f3d612abb",
+   "title": "Harvard University Asia Center",
+   "url": "https://asiacenter.harvard.edu/",
+   "source_id": "suggested",
+   "source_name": "Suggested calendar: Asia Center",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-16T12:00:00-05:00",
+   "end": null,
+   "date": "2026-11-16",
+   "all_day": true,
+   "location": "",
+   "online": false,
+   "host": "",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "November 16 | Politeness and Power in Thai Society: Airbrushing the Past, Anticipating the Future November 17 | Curating and Collaborating with Cambodia at the National Museum of Asian Art, Smithsonian November 18 | The Promised Republic Developmental Society and the Making of Modern Seoul, 1961–1979",
+   "blurb": "",
+   "event_page": true,
+   "notes": "",
+   "place_name": "CGIS South Building",
+   "lat": 42.375011,
+   "lon": -71.113135,
+   "geo_method": "host",
+   "walk_min": 5
   },
   {
    "id": "a0fb01bbe56b",
@@ -10972,19 +10970,26 @@
    "id": "bce376b5651c",
    "title": "Leading Under Pressure: Tarana Burke on Sexual and Gender-Based Violence",
    "url": "https://www.hks.harvard.edu/events/leading-under-pressure-tarana-burke-sexual-and-gender-based-violence",
-   "source_id": "hks",
-   "source_name": "Harvard Kennedy School",
-   "also_listed": [],
-   "aliases": [],
+   "source_id": "gazette",
+   "source_name": "Harvard Gazette calendar",
+   "also_listed": [
+    {
+     "source_name": "Harvard Kennedy School",
+     "url": "https://www.hks.harvard.edu/events/leading-under-pressure-tarana-burke-sexual-and-gender-based-violence"
+    }
+   ],
+   "aliases": [
+    "d91df8309795"
+   ],
    "suggested": null,
    "forwarded": null,
    "start": "2026-11-16T17:30:00-05:00",
    "end": "2026-11-16T18:45:00-05:00",
    "date": "2026-11-16",
    "all_day": false,
-   "location": "Starr Auditorium, Belfer Building 3rd Floor",
+   "location": "Starr Auditorium, Belfer Building 3rd Floor, Harvard Kennedy School, 79 John F. Kennedy St., Cambridge",
    "online": false,
-   "host": "Center for Public Leadership",
+   "host": "Harvard Kennedy School; Center for Public Leadership",
    "food": {
     "status": "none",
     "types": [],
@@ -10992,8 +10997,8 @@
    },
    "registration": {
     "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001lUy9IAE"
+    "evidence": "Registration link on the event page",
+    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001lUy9IAE&_gl=1*1u01o9c*_gcl_au*MTYyODYwMjg4Ny4xNzg4OTY5MDI3LjM0OTU2ODgxMy4xNzk0MjQwNjQ4LjE3OTQyNDA2NDcuMTEyNTg1NDIxMi4xNzk0MjQwNjQ4LjE3OTQyNDA2NDc.*_ga*OTM1MzMxODkzLjE3ODg5NzEwMjg.*_ga_72NC9RC7VN*czE3OTQ0ODgyMTckbzM5JGcxJHQxNzk0NDk3Njk5JGozMCRsMCRoMTM2NjU5OTc1"
    },
    "audience": {
     "level": "harvard",
@@ -11001,10 +11006,10 @@
     "evidence": "This event is open to HUID holders only.",
     "basis": "text"
    },
-   "summary": "What does principled leadership require when sexual and gender-based violence occurs within an institution or across the wider cultural and policy landscape? In this conversation, Tarana Burke, Founder, 'me too.' Movement; CPL Hauser Leader, and Kishaya Delaney, MPP 2027 candidate; CPL Equity Fellow, will examine the…",
-   "blurb": "What does principled leadership require when sexual and gender-based violence occurs within an institution or across the wider cultural and policy landscape? In this conversation, Tarana Burke, Founder, 'me too.' Movement; CPL Hauser Leader, and Kishaya…",
+   "summary": "This event is open to HUID holders only. What does principled leadership require when sexual and gender-based violence occurs within an institution or across the wider cultural and policy landscape? In this conversation, Tarana Burke, Founder, 'me too.' Movement and CPL Hauser Leader, and Kishaya Delaney MPP 2027, CPL…",
+   "blurb": "This event is open to HUID holders only. What does principled leadership require when sexual and gender-based violence occurs within an institution or across the wider cultural and policy landscape? In this conversation, Tarana Burke, Founder, 'me too.'…",
    "event_page": true,
-   "notes": "",
+   "notes": "Cost: Free, Harvard ID required | Harvard Key required: No",
    "place_name": "Belfer Building, Harvard Kennedy School",
    "lat": 42.37141,
    "lon": -71.121513,
@@ -12606,16 +12611,16 @@
    "source_name": "Harvard Gazette calendar",
    "also_listed": [
     {
-     "source_name": "Harvard College events",
-     "url": "https://events.college.harvard.edu/event/226248-the-2026-midterms-what-voters-told-us-with-adam"
+     "source_name": "Harvard Kennedy School",
+     "url": "https://www.hks.harvard.edu/events/2026-midterms-what-voters-told-us-adam-geller"
     },
     {
-     "source_name": "Harvard Kennedy School",
-     "url": "https://www.hks.harvard.edu/index%2ephp/events/2026-midterms-what-voters-told-us-adam-geller"
+     "source_name": "Harvard College events",
+     "url": "https://events.college.harvard.edu/event/226248-the-2026-midterms-what-voters-told-us-with-adam"
     }
    ],
    "aliases": [
-    "45fd600b369f",
+    "5cfd8c11a8a1",
     "d84478e13f9f"
    ],
    "suggested": null,
@@ -13894,6 +13899,49 @@
    "lon": -71.113135,
    "geo_method": "host",
    "walk_min": 5
+  },
+  {
+   "id": "4ce34e4dc097",
+   "title": "SIP Trivia Night",
+   "url": "https://events.college.harvard.edu/dunster-house/event/226266-sip-trivia-night",
+   "source_id": "college",
+   "source_name": "Harvard College events",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-17T21:00:00-05:00",
+   "end": null,
+   "date": "2026-11-17",
+   "all_day": false,
+   "location": "Dunster Dhall",
+   "online": false,
+   "host": "Dunster SIP",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "Dunster House residents",
+    "evidence": "Hosted by Dunster House",
+    "basis": "inferred"
+   },
+   "summary": "Join us in the Dhall for a SIP-funded trivia night! Join us in the Dhall for a SIP-funded trivia night!",
+   "blurb": "Join us in the Dhall for a SIP-funded trivia night! Join us in the Dhall for a SIP-funded trivia night!",
+   "event_page": true,
+   "notes": "",
+   "place_name": "",
+   "lat": null,
+   "lon": null,
+   "geo_method": null,
+   "walk_min": null
   },
   {
    "id": "55186cd0f271",
@@ -15929,6 +15977,49 @@
    "walk_min": 13
   },
   {
+   "id": "a19a551e06a6",
+   "title": "Ready to Serve: How US Foreign Policy Gets Made with Ned Price & Julian Simcock",
+   "url": "https://www.hks.harvard.edu/events/ready-serve-how-us-foreign-policy-gets-made-ned-price-julian-simcock",
+   "source_id": "hks",
+   "source_name": "Harvard Kennedy School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-18T16:00:00-05:00",
+   "end": "2026-11-18T17:00:00-05:00",
+   "date": "2026-11-18",
+   "all_day": false,
+   "location": "Rubenstein 414-ab Democracy Lab",
+   "online": false,
+   "host": "Program on Diplomacy and Statecraft",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "RSVP link on the event page",
+    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001mBDVIA2"
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "Join us for a conversation with Ned Price, former U.S. Department of State spokesperson, as part of the Ready to Serve Series hosted by Harvard Kennedy School’s Program on Diplomacy and Statecraft. Price began his government career as a CIA intelligence analyst and served on President Obama’s National Security Council…",
+   "blurb": "Join us for a conversation with Ned Price, former U.S. Department of State spokesperson, as part of the Ready to Serve Series hosted by Harvard Kennedy School’s Program on Diplomacy and Statecraft. Price began his government career as a CIA intelligence…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Rubenstein Building, Harvard Kennedy School",
+   "lat": 42.371243,
+   "lon": -71.122687,
+   "geo_method": "gazetteer",
+   "walk_min": 18
+  },
+  {
    "id": "b212af5a0fe0",
    "title": "Good Refugees, Bad Refugees: Borders and Belonging in Southeast Europe",
    "url": "https://daviscenter.fas.harvard.edu/events/good-refugees-bad-refugees-borders-and-belonging-southeast-europe",
@@ -16256,20 +16347,20 @@
    "source_name": "Harvard Gazette calendar",
    "also_listed": [
     {
-     "source_name": "Harvard Kennedy School",
-     "url": "https://www.hks.harvard.edu/events/workforce-transition-ai-economy-and-what-it-means-our-future"
-    },
-    {
      "source_name": "Forwarded: Election Week at the IOP!",
      "url": "https://iop.harvard.edu/events/workforce-transition-ai-economy-and-what-it-means-our-future-secretary-gina-raimondo"
     },
     {
      "source_name": "Harvard College events",
      "url": "https://events.college.harvard.edu/event/225984-a-workforce-in-transition-the-ai-economy-and-what"
+    },
+    {
+     "source_name": "Harvard Kennedy School",
+     "url": "https://www.hks.harvard.edu/index%2ephp/events/workforce-transition-ai-economy-and-what-it-means-our-future"
     }
    ],
    "aliases": [
-    "80835201247d",
+    "354d7d897f44",
     "b6aecb0d5399",
     "c0b8e775ae26"
    ],
@@ -18019,9 +18110,9 @@
    "walk_min": 11
   },
   {
-   "id": "6cd4d3554515",
+   "id": "b773cde74a92",
    "title": "Impact of High School Quality on Long-Term Student Outcomes",
-   "url": "https://www.hks.harvard.edu/events/impact-high-school-quality-long-term-student-outcomes",
+   "url": "https://www.hks.harvard.edu/index%2ephp/events/impact-high-school-quality-long-term-student-outcomes",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -18032,18 +18123,18 @@
    "end": "2026-11-19T13:15:00-05:00",
    "date": "2026-11-19",
    "all_day": false,
-   "location": "T-102 Wappp Cason Conference Room",
+   "location": "",
    "online": false,
-   "host": "Taubman Center for State and Local Government",
+   "host": "",
    "food": {
     "status": "none",
     "types": [],
     "evidence": ""
    },
    "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001kHgPIAU"
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
    },
    "audience": {
     "level": "unknown",
@@ -18051,18 +18142,61 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "The Program on Education Policy and Governance Colloquium Series was initiated in the spring of 2004 to foster an interest in education research within the Harvard community by inviting top scholars from across the country to present their recent research findings in an open discussion with colloquium attendees. PEPG…",
-   "blurb": "The Program on Education Policy and Governance Colloquium Series was initiated in the spring of 2004 to foster an interest in education research within the Harvard community by inviting top scholars from across the country to present their recent research…",
+   "summary": "",
+   "blurb": "",
    "event_page": true,
    "notes": "",
-   "place_name": "Taubman Building, Harvard Kennedy School",
-   "lat": 42.371822,
-   "lon": -71.122151,
-   "geo_method": "gazetteer",
-   "walk_min": 17
+   "place_name": "Harvard Kennedy School",
+   "lat": 42.371989,
+   "lon": -71.121761,
+   "geo_method": "host",
+   "walk_min": 16
   },
   {
-   "id": "ad576a5081cd",
+   "id": "f625e21ca9ca",
+   "title": "Technology and Statecraft: India's dependence on China",
+   "url": "https://www.hks.harvard.edu/events/technology-and-statecraft-indias-dependence-china",
+   "source_id": "hks",
+   "source_name": "Harvard Kennedy School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-19T12:00:00-05:00",
+   "end": "2026-11-19T13:30:00-05:00",
+   "date": "2026-11-19",
+   "all_day": false,
+   "location": "Ofer 401",
+   "online": false,
+   "host": "Mossavar-Rahmani Center for Business and Government",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "India’s manufacturing aspirations are punctuated by its large dependence on China. Led by M-RCBG Senior Fellow Padmashree Gehl Sampath, this study group will examine some of the aspects of this dependency and discuss the role of statecraft in the future.",
+   "blurb": "India’s manufacturing aspirations are punctuated by its large dependence on China. this study group will examine some of the aspects of this dependency and discuss the role of statecraft in the future.",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Harvard Kennedy School",
+   "lat": 42.371989,
+   "lon": -71.121761,
+   "geo_method": "host",
+   "walk_min": 16
+  },
+  {
+   "id": "7047fe0a809c",
    "title": "What Happens When Technology Moves Faster Than Democratic Institutions Can Adapt? with Katie Harbath",
    "url": "https://iop.harvard.edu/events/what-happens-when-technology-moves-faster-democratic-institutions-can-adapt-katie-harbath",
    "source_id": "gazette",
@@ -18070,11 +18204,11 @@
    "also_listed": [
     {
      "source_name": "Harvard Kennedy School",
-     "url": "https://www.hks.harvard.edu/events/when-technology-moves-faster-democratic-institutions-can-adapt"
+     "url": "https://www.hks.harvard.edu/index%2ephp/events/when-technology-moves-faster-democratic-institutions-can-adapt"
     }
    ],
    "aliases": [
-    "fdc5ac587535"
+    "ad576a5081cd"
    ],
    "suggested": null,
    "forwarded": null,
@@ -18115,9 +18249,9 @@
    "walk_min": 18
   },
   {
-   "id": "f1856a9f9b87",
+   "id": "fde09a36f22f",
    "title": "Friction and Military Performance",
-   "url": "https://www.hks.harvard.edu/events/friction-and-military-performance",
+   "url": "https://www.hks.harvard.edu/index%2ephp/events/friction-and-military-performance",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -18128,9 +18262,9 @@
    "end": "2026-11-19T13:45:00-05:00",
    "date": "2026-11-19",
    "all_day": false,
-   "location": "One Brattle 305",
+   "location": "",
    "online": false,
-   "host": "International Security Program",
+   "host": "",
    "food": {
     "status": "none",
     "types": [],
@@ -18147,8 +18281,8 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "Join us for a discussion with Kerby Davis on Friction and Military Performance: How the Environment Disrupts Military Operations Why do militaries underperform expectations? Most explanations point to nonmaterial factors, such as institutions or military doctrine, to explain how militaries fail to meet their…",
-   "blurb": "Join us for a discussion with Kerby Davis on Friction and Military Performance: How the Environment Disrupts Military Operations Most explanations point to nonmaterial factors, such as institutions or military doctrine, to explain how militaries fail to meet…",
+   "summary": "",
+   "blurb": "",
    "event_page": true,
    "notes": "",
    "place_name": "Harvard Kennedy School",
@@ -18975,9 +19109,9 @@
    "walk_min": 10
   },
   {
-   "id": "3d7afc817b79",
+   "id": "dfa8b95317cb",
    "title": "Why Israel Matters: American Jewish Identity After October 7",
-   "url": "https://www.hks.harvard.edu/events/why-israel-matters-american-jewish-identity-after-october-7",
+   "url": "https://www.hks.harvard.edu/index%2ephp/events/why-israel-matters-american-jewish-identity-after-october-7",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -18988,34 +19122,34 @@
    "end": "2026-11-19T18:00:00-05:00",
    "date": "2026-11-19",
    "all_day": false,
-   "location": "Malkin Penthouse",
+   "location": "",
    "online": false,
-   "host": "Carr-Ryan Center for Human Rights",
+   "host": "",
    "food": {
     "status": "none",
     "types": [],
     "evidence": ""
    },
    "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001kf7dIAA"
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
    },
    "audience": {
-    "level": "harvard",
+    "level": "unknown",
     "group": "",
-    "evidence": "In-person events are open to Harvard ID holders only.",
-    "basis": "text"
+    "evidence": "",
+    "basis": "none"
    },
-   "summary": "Why do so many American Jews feel a deep and abiding connection to Israel as a homeland? And why do many now feel estranged from, or even betrayed by, the human rights and social justice movements they once saw as natural allies? Dr. Mijal Bitton, a sociologist of American Jewry and a leading public voice on Jewish…",
-   "blurb": "Why do so many American Jews feel a deep and abiding connection to Israel as a homeland? And why do many now feel estranged from, or even betrayed by, the human rights and social justice movements they once saw as natural allies? Mijal Bitton, a sociologist…",
+   "summary": "",
+   "blurb": "",
    "event_page": true,
    "notes": "",
-   "place_name": "Littauer Building, Harvard Kennedy School",
-   "lat": 42.371045,
-   "lon": -71.12209,
-   "geo_method": "gazetteer",
-   "walk_min": 18
+   "place_name": "Harvard Kennedy School",
+   "lat": 42.371989,
+   "lon": -71.121761,
+   "geo_method": "host",
+   "walk_min": 16
   },
   {
    "id": "2fa13a7dd56d",
@@ -19343,27 +19477,6 @@
   }
  ],
  "newsletters": [
-  {
-   "subject": null,
-   "sent": "2026-10-13",
-   "items": 0,
-   "sender": null,
-   "forwarded_by": "Cecilia"
-  },
-  {
-   "subject": null,
-   "sent": "2026-10-13",
-   "items": 0,
-   "sender": null,
-   "forwarded_by": "Ellen"
-  },
-  {
-   "subject": null,
-   "sent": "2026-10-13",
-   "items": 0,
-   "sender": null,
-   "forwarded_by": "Cecilia"
-  },
   {
    "subject": null,
    "sent": "2026-10-14",
