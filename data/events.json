@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-15T12:15:12-05:00",
+ "generated_at": "2026-11-15T18:25:10-05:00",
  "window": {
   "start": "2026-11-15",
   "end": "2026-11-22"
@@ -22,7 +22,7 @@
    "error": null,
    "n_events": 150,
    "n_food": 7,
-   "seconds": 2.1
+   "seconds": 0.5
   },
   {
    "id": "hks",
@@ -31,8 +31,8 @@
    "ok": true,
    "error": null,
    "n_events": 34,
-   "n_food": 8,
-   "seconds": 4.9
+   "n_food": 7,
+   "seconds": 10.3
   },
   {
    "id": "hls",
@@ -40,9 +40,9 @@
    "homepage": "https://hls.harvard.edu/calendar/",
    "ok": true,
    "error": null,
-   "n_events": 84,
+   "n_events": 85,
    "n_food": 46,
-   "seconds": 12.0
+   "seconds": 12.6
   },
   {
    "id": "college",
@@ -50,9 +50,9 @@
    "homepage": "https://events.college.harvard.edu/",
    "ok": true,
    "error": null,
-   "n_events": 121,
+   "n_events": 122,
    "n_food": 12,
-   "seconds": 1.5
+   "seconds": 1.4
   },
   {
    "id": "ash",
@@ -62,7 +62,7 @@
    "error": null,
    "n_events": 2,
    "n_food": 0,
-   "seconds": 2.6
+   "seconds": 2.4
   },
   {
    "id": "shorenstein",
@@ -72,7 +72,7 @@
    "error": null,
    "n_events": 2,
    "n_food": 1,
-   "seconds": 9.2
+   "seconds": 9.9
   },
   {
    "id": "fairbank",
@@ -82,7 +82,7 @@
    "error": null,
    "n_events": 8,
    "n_food": 1,
-   "seconds": 6.6
+   "seconds": 0.1
   },
   {
    "id": "newsletter",
@@ -90,9 +90,9 @@
    "homepage": "",
    "ok": true,
    "error": null,
-   "n_events": 9,
+   "n_events": 10,
    "n_food": 2,
-   "seconds": 73.6
+   "seconds": 71.3
   },
   {
    "id": "suggested",
@@ -102,17 +102,17 @@
    "error": null,
    "n_events": 10,
    "n_food": 1,
-   "seconds": 4.1
+   "seconds": 5.6
   }
  ],
  "stats": {
-  "events": 340,
+  "events": 343,
   "food_confirmed": 47,
   "food_likely": 16,
   "forwarded": 7,
   "forwarded_listed": 4,
   "food_restricted": 40,
-  "seconds": 83.0
+  "seconds": 80.5
  },
  "events": [
   {
@@ -193,6 +193,49 @@
    },
    "summary": "Join the Harvard Undergraduate OpenBio Laboratory Datathon on November 14–15, 2026! Open to undergraduate students from colleges and universities across the country, this two-day competition brings students together to explore challenges at the intersection of biology, computation, and global health. Work with a team,…",
    "blurb": "Open to undergraduate students from colleges and universities across the country, this two-day competition brings students together to explore challenges at the intersection of biology, computation, and global health. Work with a team, investigate real…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "",
+   "lat": null,
+   "lon": null,
+   "geo_method": null,
+   "walk_min": null
+  },
+  {
+   "id": "45f8653884fc",
+   "title": "Harvard University Women’s Heavyweight Rowing vs USRowing Small Boat National Championship",
+   "url": "https://events.college.harvard.edu/event/225466-harvard-university-womens-heavyweight-rowing-vs",
+   "source_id": "college",
+   "source_name": "Harvard College events",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-15T00:00:00-05:00",
+   "end": null,
+   "date": "2026-11-15",
+   "all_day": true,
+   "location": "West Windsor, NJ",
+   "online": false,
+   "host": "Main Calendar",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "Harvard College students",
+    "evidence": "Harvard College calendar, no sign it is open to others",
+    "basis": "default"
+   },
+   "summary": "Harvard University Women’s Heavyweight Rowing vs USRowing Small Boat National Championship URL:https://gocrimson.com/calendar.aspx?game_id=33705&sport_id=26",
+   "blurb": "",
    "event_page": true,
    "notes": "",
    "place_name": "",
@@ -761,19 +804,16 @@
    "walk_min": 10
   },
   {
-   "id": "45f8653884fc",
-   "title": "Harvard University Women’s Basketball vs Michigan State University - Aloha Sunday",
-   "url": "https://events.college.harvard.edu/event/224599-harvard-university-womens-basketball-vs-michigan",
+   "id": "df29b5bb03b7",
+   "title": "[W] Harvard University Field Hockey vs UMass",
+   "url": "https://events.college.harvard.edu/event/226275-harvard-university-field-hockey-vs-tbd",
    "source_id": "college",
    "source_name": "Harvard College events",
    "also_listed": [],
-   "aliases": [
-    "adb4b4dfa48a",
-    "df29b5bb03b7"
-   ],
+   "aliases": [],
    "suggested": null,
    "forwarded": null,
-   "start": "2026-11-15T14:00:00-05:00",
+   "start": "2026-11-15T13:00:00-05:00",
    "end": "2026-11-15T16:00:00-05:00",
    "date": "2026-11-15",
    "all_day": false,
@@ -796,7 +836,7 @@
     "evidence": "Harvard College calendar, no sign it is open to others",
     "basis": "default"
    },
-   "summary": "Harvard University Women’s Basketball vs Michigan State University - Aloha Sunday Streaming Video: https://www.espn.com/watch/player/_/id/599f2719-ff53-4441-bf10-1271f7b41ce9 Tickets: https://gocrimson.evenue.net/event/WB26/WB03?utm_source=website&utm_medium=schedule_page&utm_campaign=wbb_michigan_state…",
+   "summary": "[W] Harvard University Field Hockey vs UMass W 1-0 TV: ESPN+ Streaming Video: https://www.espn.com/watch/player/_/id/410464c5-30d4-4152-9e2f-0759b8754687 URL:https://gocrimson.com/calendar.aspx?game_id=33776&sport_id=4",
    "blurb": "",
    "event_page": true,
    "notes": "",
@@ -891,6 +931,49 @@
    "lon": -71.114113,
    "geo_method": "gazetteer",
    "walk_min": 7
+  },
+  {
+   "id": "adb4b4dfa48a",
+   "title": "[L] Harvard University Women’s Basketball vs Michigan State University - Aloha Sunday",
+   "url": "https://events.college.harvard.edu/event/224599-harvard-university-womens-basketball-vs-michigan",
+   "source_id": "college",
+   "source_name": "Harvard College events",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-15T14:00:00-05:00",
+   "end": "2026-11-15T16:00:00-05:00",
+   "date": "2026-11-15",
+   "all_day": false,
+   "location": "Cambridge, Mass.",
+   "online": false,
+   "host": "Main Calendar",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "Harvard College students",
+    "evidence": "Harvard College calendar, no sign it is open to others",
+    "basis": "default"
+   },
+   "summary": "[L] Harvard University Women’s Basketball vs Michigan State University - Aloha Sunday L 53-75 Streaming Video: https://www.espn.com/watch/player/_/id/599f2719-ff53-4441-bf10-1271f7b41ce9 Tickets: https://gocrimson.evenue.net/event/WB26/WB03?utm_source=website&utm_medium=schedule_page&utm_campaign=wbb_michigan_state…",
+   "blurb": "",
+   "event_page": true,
+   "notes": "",
+   "place_name": "",
+   "lat": null,
+   "lon": null,
+   "geo_method": null,
+   "walk_min": null
   },
   {
    "id": "bd2207835b7f",
@@ -2275,6 +2358,49 @@
    "walk_min": 18
   },
   {
+   "id": "1b1f0da8e766",
+   "title": "ACS Event with Ian Gershengorn",
+   "url": "https://hls.harvard.edu/events/acs-event-with-ian-gershengorn/",
+   "source_id": "hls",
+   "source_name": "Harvard Law School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-16T12:15:00-05:00",
+   "end": "2026-11-16T13:15:00-05:00",
+   "date": "2026-11-16",
+   "all_day": false,
+   "location": "WCC, 1010 Classroom, Harvard Law School",
+   "online": false,
+   "host": "American Constitution Society for Law and Policy",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "RSVP here: https://forms.gle/j1Ge4zADdJyMXhrp6",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "HLS community",
+    "evidence": "HLS listing audience: HLS only",
+    "basis": "listing"
+   },
+   "summary": "Please join ACS for a conversation with Jeremy Feigenbaum (former Solicitor General of New Jersey), Ian Gershengorn (former acting U.S. Solicitor General), and Rachel Alpert (former Chief Counsel at OFAC). We will discuss the role of the solicitor general at the state and federal levels, and explore the fast-changing…",
+   "blurb": "Please join ACS for a conversation with Jeremy Feigenbaum (former Solicitor General of New Jersey), Ian Gershengorn (former acting U.S. Solicitor General), and Rachel Alpert (former Chief Counsel at OFAC). We will discuss the role of the solicitor general at…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Wasserstein Hall (WCC), Harvard Law School",
+   "lat": 42.379383,
+   "lon": -71.119421,
+   "geo_method": "gazetteer",
+   "walk_min": 10
+  },
+  {
    "id": "cc3eea2cd160",
    "title": "Civil Rights and the Rule of Law: DEI, Free Speech, and the Trump Administration — Harmeet Dhillon, Former Assistant Attorney General for Civil Rights",
    "url": "https://hls.harvard.edu/events/civil-rights-and-the-rule-of-law-dei-free-speech-and-the-trump-administration-harmeet-dhillon-former-assistant-attorney-general-for-civil-rights/",
@@ -3274,20 +3400,20 @@
    "source_name": "Harvard Gazette calendar",
    "also_listed": [
     {
-     "source_name": "Harvard Kennedy School",
-     "url": "https://www.hks.harvard.edu/events/making-vision-venture-capital-creativity-and-power-story"
-    },
-    {
      "source_name": "Harvard College events",
      "url": "https://events.college.harvard.edu/event/225992-making-the-vision-venture-capital-creativity-and"
     },
     {
      "source_name": "Forwarded: Election Week at the IOP!",
      "url": "https://iop.harvard.edu/events/making-vision-venture-capital-creativity-and-power-story-david-fialkow-oscar-winning"
+    },
+    {
+     "source_name": "Harvard Kennedy School",
+     "url": "https://www.hks.harvard.edu/index%2Ephp/events/making-vision-venture-capital-creativity-and-power-story"
     }
    ],
    "aliases": [
-    "26bf44397f2c",
+    "80d15e581df9",
     "def67110b4d9",
     "e7aea9ef928a"
    ],
@@ -4765,9 +4891,9 @@
    "walk_min": null
   },
   {
-   "id": "9c450e5b75af",
+   "id": "1c053a8a84ef",
    "title": "Rethinking Capital: Creative Strategies for Funding and Impact",
-   "url": "https://www.hks.harvard.edu/events/rethinking-capital-creative-strategies-funding-and-impact-0",
+   "url": "https://www.hks.harvard.edu/index%2Ephp/events/rethinking-capital-creative-strategies-funding-and-impact-0",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -4778,18 +4904,18 @@
    "end": "2026-11-17T13:00:00-05:00",
    "date": "2026-11-17",
    "all_day": false,
-   "location": "W-434 A.b, Wexner Building, Hks Main Campus",
+   "location": "",
    "online": false,
-   "host": "Social Innovation + Change Initiative (SICI)",
+   "host": "",
    "food": {
     "status": "none",
     "types": [],
     "evidence": ""
    },
    "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://forms.gle/D7XfKHbQmrDC3gLZ6"
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
    },
    "audience": {
     "level": "unknown",
@@ -4797,15 +4923,15 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "The Social Innovation and Change Initiative (SICI) is delighted to bring back Dr. Mohamed Aburawi (‘20 MC/MPA, SICI Visiting Social Innovator), Founder and Managing Partner at Atarona Ventures, and Co-founder of Speetar and Academia, for an interactive session on how to broaden your definition of capital and position…",
-   "blurb": "The Social Innovation and Change Initiative (SICI) is delighted to bring back Dr. Mohamed Aburawi (‘20 MC/MPA, SICI Visiting Social Innovator), Founder and Managing Partner at Atarona Ventures, and Co-founder of Speetar and Academia, for an interactive…",
+   "summary": "",
+   "blurb": "",
    "event_page": true,
    "notes": "",
-   "place_name": "Wexner Building, Harvard Kennedy School",
-   "lat": 42.371344,
-   "lon": -71.122357,
-   "geo_method": "gazetteer",
-   "walk_min": 18
+   "place_name": "Harvard Kennedy School",
+   "lat": 42.371989,
+   "lon": -71.121761,
+   "geo_method": "host",
+   "walk_min": 16
   },
   {
    "id": "2bd279d8343e",
@@ -4815,16 +4941,16 @@
    "source_name": "Harvard Gazette calendar",
    "also_listed": [
     {
-     "source_name": "Harvard Kennedy School",
-     "url": "https://www.hks.harvard.edu/events/2026-midterms-what-voters-told-us-adam-geller"
-    },
-    {
      "source_name": "Harvard College events",
      "url": "https://events.college.harvard.edu/event/226248-the-2026-midterms-what-voters-told-us-with-adam"
+    },
+    {
+     "source_name": "Harvard Kennedy School",
+     "url": "https://www.hks.harvard.edu/index%2Ephp/events/2026-midterms-what-voters-told-us-adam-geller"
     }
    ],
    "aliases": [
-    "5cfd8c11a8a1",
+    "44dec78695da",
     "d84478e13f9f"
    ],
    "suggested": null,
@@ -5747,10 +5873,15 @@
     {
      "source_name": "Harvard Gazette calendar",
      "url": "https://growthlab.hks.harvard.edu/event/escaping-venezuela-film-screening-and-panel-discussion/"
+    },
+    {
+     "source_name": "Newsletter: DRCLAS Weekly: The Far Right in Power and Cuba’s Democracy",
+     "url": "https://growthlab.hks.harvard.edu/event/escaping-venezuela-film-screening-and-panel-discussion/"
     }
    ],
    "aliases": [
-    "468747862e7c"
+    "468747862e7c",
+    "5c522ff65f88"
    ],
    "suggested": null,
    "forwarded": null,
@@ -12213,52 +12344,6 @@
    "walk_min": 12
   },
   {
-   "id": "0569c112f290",
-   "title": "Harvard University Women’s Tennis vs NCAA Individual Championships",
-   "url": "https://events.college.harvard.edu/event/224596-harvard-university-womens-tennis-vs-ncaa",
-   "source_id": "college",
-   "source_name": "Harvard College events",
-   "also_listed": [],
-   "aliases": [
-    "4bd9e4adedb6",
-    "b175479600d3"
-   ],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-11-20T00:00:00-05:00",
-   "end": null,
-   "date": "2026-11-20",
-   "all_day": true,
-   "location": "Athens, Ga.",
-   "online": false,
-   "host": "Main Calendar",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
-   },
-   "audience": {
-    "level": "restricted",
-    "group": "Harvard College students",
-    "evidence": "Harvard College calendar, no sign it is open to others",
-    "basis": "default"
-   },
-   "summary": "Harvard University Women’s Tennis vs NCAA Individual Championships URL:https://gocrimson.com/calendar.aspx?game_id=33575&sport_id=38",
-   "blurb": "",
-   "event_page": true,
-   "notes": "",
-   "place_name": "",
-   "lat": null,
-   "lon": null,
-   "geo_method": null,
-   "walk_min": null
-  },
-  {
    "id": "5ee057d240e9",
    "title": "Muriel Siebert: Redefining Power and Possibility on Wall Street",
    "url": "https://www.library.hbs.edu/special-collections-and-archives/exhibits/muriel-siebert",
@@ -13087,6 +13172,53 @@
    "lon": -71.121949,
    "geo_method": "gazetteer",
    "walk_min": 13
+  },
+  {
+   "id": "0569c112f290",
+   "title": "Harvard University Field Hockey vs Maryland",
+   "url": "https://events.college.harvard.edu/event/226288-harvard-university-field-hockey-vs-maryland",
+   "source_id": "college",
+   "source_name": "Harvard College events",
+   "also_listed": [],
+   "aliases": [
+    "4bd9e4adedb6",
+    "b175479600d3",
+    "eee5fcb9f4c4"
+   ],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-20T12:00:00-05:00",
+   "end": "2026-11-20T15:00:00-05:00",
+   "date": "2026-11-20",
+   "all_day": false,
+   "location": "Louisville, Ky.",
+   "online": false,
+   "host": "Main Calendar",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "Registration link on the event page",
+    "link": "https://am.ticketmaster.com/uofl/buy/26ncaafh"
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "Harvard College students",
+    "evidence": "Harvard College calendar, no sign it is open to others",
+    "basis": "default"
+   },
+   "summary": "Harvard University Field Hockey vs Maryland TV: ESPNU Streaming Video: https://www.espn.com/watch/player/_/id/a74b3ce9-fc90-48c8-a158-a73377977d9d Tickets: https://am.ticketmaster.com/uofl/buy/26ncaafh URL:https://gocrimson.com/calendar.aspx?game_id=33777&sport_id=4",
+   "blurb": "",
+   "event_page": true,
+   "notes": "",
+   "place_name": "",
+   "lat": null,
+   "lon": null,
+   "geo_method": null,
+   "walk_min": null
   },
   {
    "id": "b201682651d9",
@@ -15597,6 +15729,12 @@
    "sent": "2026-11-14",
    "items": 0,
    "sender": "Weatherhead Center for International Affairs"
+  },
+  {
+   "subject": "DRCLAS Weekly: The Far Right in Power and Cuba’s Democracy",
+   "sent": "2026-11-15",
+   "items": 1,
+   "sender": "David Rockefeller Center for Latin American Studies"
   }
  ]
 }
