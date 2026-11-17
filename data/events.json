@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T15:32:07-05:00",
+ "generated_at": "2026-11-16T23:33:32-05:00",
  "window": {
   "start": "2026-11-16",
   "end": "2026-11-23"
@@ -22,7 +22,7 @@
    "error": null,
    "n_events": 150,
    "n_food": 7,
-   "seconds": 2.6
+   "seconds": 2.2
   },
   {
    "id": "hks",
@@ -32,7 +32,7 @@
    "error": null,
    "n_events": 40,
    "n_food": 11,
-   "seconds": 15.3
+   "seconds": 2.8
   },
   {
    "id": "hls",
@@ -40,9 +40,9 @@
    "homepage": "https://hls.harvard.edu/calendar/",
    "ok": true,
    "error": null,
-   "n_events": 94,
-   "n_food": 51,
-   "seconds": 9.6
+   "n_events": 95,
+   "n_food": 52,
+   "seconds": 7.0
   },
   {
    "id": "college",
@@ -50,7 +50,7 @@
    "homepage": "https://events.college.harvard.edu/",
    "ok": true,
    "error": null,
-   "n_events": 112,
+   "n_events": 123,
    "n_food": 12,
    "seconds": 0.5
   },
@@ -62,7 +62,7 @@
    "error": null,
    "n_events": 2,
    "n_food": 0,
-   "seconds": 2.8
+   "seconds": 2.3
   },
   {
    "id": "shorenstein",
@@ -72,7 +72,7 @@
    "error": null,
    "n_events": 2,
    "n_food": 1,
-   "seconds": 9.0
+   "seconds": 10.9
   },
   {
    "id": "fairbank",
@@ -82,7 +82,7 @@
    "error": null,
    "n_events": 9,
    "n_food": 1,
-   "seconds": 6.6
+   "seconds": 0.1
   },
   {
    "id": "newsletter",
@@ -92,7 +92,7 @@
    "error": null,
    "n_events": 13,
    "n_food": 3,
-   "seconds": 57.0
+   "seconds": 37.9
   },
   {
    "id": "suggested",
@@ -100,19 +100,19 @@
    "homepage": "",
    "ok": true,
    "error": null,
-   "n_events": 11,
+   "n_events": 10,
    "n_food": 2,
    "seconds": 5.1
   }
  ],
  "stats": {
-  "events": 349,
-  "food_confirmed": 54,
+  "events": 359,
+  "food_confirmed": 55,
   "food_likely": 18,
   "forwarded": 7,
   "forwarded_listed": 3,
-  "food_restricted": 45,
-  "seconds": 72.6
+  "food_restricted": 46,
+  "seconds": 46.7
  },
  "events": [
   {
@@ -1834,9 +1834,9 @@
     "evidence": ""
    },
    "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://harvard.zoom.us/meeting/register/HtqXJhkgTf6AG_p8trfrbg#/registration"
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
    },
    "audience": {
     "level": "unknown",
@@ -1898,20 +1898,13 @@
    "walk_min": 7
   },
   {
-   "id": "c58cdf963418",
+   "id": "eb2c17ec45ba",
    "title": "Visiting Scholar Presentation featuring Li Zhang — Defying Slow Death: Unsafe Food, Governance, and Quiet Social Movements in China",
    "url": "https://fairbank.fas.harvard.edu/events/visiting-scholar-presentation-featuring-li-zhang-defying-slow-death-unsafe-food-governance-and-quiet-social-movements-in-china/",
    "source_id": "fairbank",
    "source_name": "Fairbank Center",
-   "also_listed": [
-    {
-     "source_name": "Suggested calendar: Fairbanks center",
-     "url": "https://fairbank.fas.harvard.edu/events/visiting-scholar-presentation-featuring-li-zhang-defying-slow-death-unsafe-food-governance-and-quiet-social-movements-in-china/"
-    }
-   ],
-   "aliases": [
-    "eb2c17ec45ba"
-   ],
+   "also_listed": [],
+   "aliases": [],
    "suggested": null,
    "forwarded": null,
    "start": "2026-11-16T15:30:00-05:00",
@@ -2099,9 +2092,9 @@
     "evidence": ""
    },
    "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001l2AfIAI"
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
    },
    "audience": {
     "level": "unknown",
@@ -2223,16 +2216,16 @@
    "source_name": "Harvard Gazette calendar",
    "also_listed": [
     {
+     "source_name": "Forwarded: Election Week at the IOP!",
+     "url": "https://iop.harvard.edu/events/making-vision-venture-capital-creativity-and-power-story-david-fialkow-oscar-winning"
+    },
+    {
      "source_name": "Harvard Kennedy School",
      "url": "https://www.hks.harvard.edu/events/making-vision-venture-capital-creativity-and-power-story"
     },
     {
      "source_name": "Harvard College events",
      "url": "https://events.college.harvard.edu/event/225992-making-the-vision-venture-capital-creativity-and"
-    },
-    {
-     "source_name": "Forwarded: Election Week at the IOP!",
-     "url": "https://iop.harvard.edu/events/making-vision-venture-capital-creativity-and-power-story-david-fialkow-oscar-winning"
     }
    ],
    "aliases": [
@@ -5058,6 +5051,49 @@
    "lon": -71.117948,
    "geo_method": "gazetteer",
    "walk_min": 12
+  },
+  {
+   "id": "413cb169fd42",
+   "title": "How to Get Good at Public Speaking",
+   "url": "https://events.college.harvard.edu/winthrop-house/event/226304-how-to-get-good-at-public-speaking",
+   "source_id": "college",
+   "source_name": "Harvard College events",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-17T20:00:00-05:00",
+   "end": "2026-11-17T21:00:00-05:00",
+   "date": "2026-11-17",
+   "all_day": false,
+   "location": "Winthrop AV Seminar Room",
+   "online": false,
+   "host": "Winthrop House",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "Winthrop House residents",
+    "evidence": "Hosted by Winthrop House",
+    "basis": "inferred"
+   },
+   "summary": "From Gene: Speaking skills do not receive the formal attention that writing skills do, yet they can also be very useful. We will discuss ideas for making an effective, enjoyable and memorable presentation before an audience. Presentation skills can be studied and practiced like any other. I have shared my “speaking…",
+   "blurb": "From Gene: Speaking skills do not receive the formal attention that writing skills do, yet they can also be very useful. We will discuss ideas for making an effective, enjoyable and memorable presentation before an audience. Presentation skills can be studied…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Winthrop House",
+   "lat": 42.370356,
+   "lon": -71.118646,
+   "geo_method": "host",
+   "walk_min": 15
   },
   {
    "id": "a3c48912c1d2",
@@ -8016,6 +8052,95 @@
    "walk_min": 10
   },
   {
+   "id": "000b38cd5b59",
+   "title": "Harvard University Men’s Fencing vs Brandeis - at MIT",
+   "url": "https://events.college.harvard.edu/event/226298-harvard-university-mens-fencing-vs-brandeis-at",
+   "source_id": "college",
+   "source_name": "Harvard College events",
+   "also_listed": [],
+   "aliases": [
+    "2d6635cefcac",
+    "ba48362f96fa"
+   ],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-18T19:00:00-05:00",
+   "end": "2026-11-18T22:00:00-05:00",
+   "date": "2026-11-18",
+   "all_day": false,
+   "location": "Cambridge, Mass.",
+   "online": false,
+   "host": "Main Calendar",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "Harvard College students",
+    "evidence": "Harvard College calendar, no sign it is open to others",
+    "basis": "default"
+   },
+   "summary": "Harvard University Men’s Fencing vs Brandeis - at MIT URL:https://gocrimson.com/calendar.aspx?game_id=33780&sport_id=11",
+   "blurb": "",
+   "event_page": true,
+   "notes": "",
+   "place_name": "",
+   "lat": null,
+   "lon": null,
+   "geo_method": null,
+   "walk_min": null
+  },
+  {
+   "id": "138b9d50e296",
+   "title": "Harvard University Women’s Fencing vs Brandeis - at MIT",
+   "url": "https://events.college.harvard.edu/event/226299-harvard-university-womens-fencing-vs-brandeis-at",
+   "source_id": "college",
+   "source_name": "Harvard College events",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-18T19:00:00-05:00",
+   "end": "2026-11-18T22:00:00-05:00",
+   "date": "2026-11-18",
+   "all_day": false,
+   "location": "Cambridge, Mass.",
+   "online": false,
+   "host": "Main Calendar",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "Harvard College students",
+    "evidence": "Harvard College calendar, no sign it is open to others",
+    "basis": "default"
+   },
+   "summary": "Harvard University Women’s Fencing vs Brandeis - at MIT URL:https://gocrimson.com/calendar.aspx?game_id=33782&sport_id=28",
+   "blurb": "",
+   "event_page": true,
+   "notes": "",
+   "place_name": "",
+   "lat": null,
+   "lon": null,
+   "geo_method": null,
+   "walk_min": null
+  },
+  {
    "id": "227195872df1",
    "title": "HYpefest",
    "url": "https://soco.college.harvard.edu/rsvp?id=383459",
@@ -10759,6 +10884,49 @@
    "walk_min": 7
   },
   {
+   "id": "b14de76cef79",
+   "title": "Fibers Workshop: Wool Roving",
+   "url": "https://events.college.harvard.edu/winthrop-house/event/226305-fibers-workshop-wool-roving",
+   "source_id": "college",
+   "source_name": "Harvard College events",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-19T18:00:00-05:00",
+   "end": "2026-11-19T20:00:00-05:00",
+   "date": "2026-11-19",
+   "all_day": false,
+   "location": "Winthrop Art Room (Standish basement)",
+   "online": false,
+   "host": "Winthrop House",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "RSVPs useful to reserve your spot.",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "Winthrop House residents",
+    "evidence": "Hosted by Winthrop House",
+    "basis": "inferred"
+   },
+   "summary": "Take a study break and get creative at our fibers wool roving workshop this Thursday, November 19, from 6–8 PM in the Standish Art Room! Our amazing instructor Mary Kenny will be guiding us on how to work with the technique of wool roving to make whatever you imagine—a little animal, a keychain, an ornament, or…",
+   "blurb": "Take a study break and get creative at our fibers wool roving workshop this Thursday, November 19, from 6–8 PM in the Standish Art Room! Our amazing instructor Mary Kenny will be guiding us on how to work with the technique of wool roving to make whatever you…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Winthrop House",
+   "lat": 42.370356,
+   "lon": -71.118646,
+   "geo_method": "host",
+   "walk_min": 15
+  },
+  {
    "id": "02e49eb2ac64",
    "title": "Steffani Jemison: Cynosure Performance at ArtLab",
    "url": "https://carpenter.center/programs/steffani-jemison-at-harvard-artlab",
@@ -10976,6 +11144,49 @@
    "walk_min": null
   },
   {
+   "id": "d79f45ff1572",
+   "title": "Art Room Gratitude Event",
+   "url": "https://events.college.harvard.edu/dunster-house/event/226295-art-room-gratitude-event",
+   "source_id": "college",
+   "source_name": "Harvard College events",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-19T19:30:00-05:00",
+   "end": null,
+   "date": "2026-11-19",
+   "all_day": false,
+   "location": "Dunster Grille",
+   "online": false,
+   "host": "Dunster House",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "Dunster House residents",
+    "evidence": "Hosted by Dunster House",
+    "basis": "inferred"
+   },
+   "summary": "Join the Art Room team for a Gratitude event! Join the Art Room team for a Gratitude event!",
+   "blurb": "Join the Art Room team for a Gratitude event! Join the Art Room team for a Gratitude event!",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Dunster House",
+   "lat": 42.3686,
+   "lon": -71.115896,
+   "geo_method": "host",
+   "walk_min": 17
+  },
+  {
    "id": "f30285039f8b",
    "title": "HUHPR Guest Speaker Event",
    "url": "https://soco.college.harvard.edu/rsvp?id=383386",
@@ -11055,6 +11266,49 @@
    },
    "summary": "Join the weekly meeting of Winthrop’s Student Leadership! Come by if you have any ideas about anything that would bring community, increase House pride, or help meet the needs of Winthropians.",
    "blurb": "Join the weekly meeting of Winthrop’s Student Leadership! Come by if you have any ideas about anything that would bring community, increase House pride, or help meet the needs of Winthropians.",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Winthrop House",
+   "lat": 42.370356,
+   "lon": -71.118646,
+   "geo_method": "host",
+   "walk_min": 15
+  },
+  {
+   "id": "6a2f3ac074f9",
+   "title": "Pre-Harvard-Yale Poster Making Stein",
+   "url": "https://events.college.harvard.edu/winthrop-house/event/226302-pre-harvard-yale-poster-making-stein",
+   "source_id": "college",
+   "source_name": "Harvard College events",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-19T20:30:00-05:00",
+   "end": "2026-11-19T21:30:00-05:00",
+   "date": "2026-11-19",
+   "all_day": false,
+   "location": "Winthrop DHall",
+   "online": false,
+   "host": "Winthrop House",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "Winthrop House residents",
+    "evidence": "Hosted by Winthrop House",
+    "basis": "inferred"
+   },
+   "summary": "",
+   "blurb": "",
    "event_page": true,
    "notes": "",
    "place_name": "Winthrop House",
@@ -12790,6 +13044,49 @@
    "walk_min": 10
   },
   {
+   "id": "3d82af5a0d5a",
+   "title": "Trans Day of Remembrance",
+   "url": "https://events.college.harvard.edu/winthrop-house/event/226296-trans-day-of-remembrance",
+   "source_id": "college",
+   "source_name": "Harvard College events",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-20T17:00:00-05:00",
+   "end": "2026-11-20T18:00:00-05:00",
+   "date": "2026-11-20",
+   "all_day": false,
+   "location": "Senior Common Room (Standish)",
+   "online": false,
+   "host": "Winthrop House",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "Winthrop House residents",
+    "evidence": "Hosted by Winthrop House",
+    "basis": "inferred"
+   },
+   "summary": "You are warmly invited to commemorate Transgender Day of Remembrance. This event offers an opportunity to honor, remember, and pay tribute to the lives lost to anti-transgender violence. We’ll share space for reflection and support. All are welcome, in solidarity, remembrance, and community.",
+   "blurb": "You are warmly invited to commemorate Transgender Day of Remembrance. This event offers an opportunity to honor, remember, and pay tribute to the lives lost to anti-transgender violence. We’ll share space for reflection and support. All are welcome, in…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Winthrop House",
+   "lat": 42.370356,
+   "lon": -71.118646,
+   "geo_method": "host",
+   "walk_min": 15
+  },
+  {
    "id": "639dd4926f3f",
    "title": "What We Carry: Understanding Trauma and Finding Paths to Healing",
    "url": "https://hcsc.clubs.harvard.edu/article.html?aid=2007",
@@ -12960,6 +13257,49 @@
    "lon": -71.114276,
    "geo_method": "gazetteer",
    "walk_min": 7
+  },
+  {
+   "id": "def6a2046232",
+   "title": "Winthrop x Davenport Harvard-Yale Stein",
+   "url": "https://events.college.harvard.edu/winthrop-house/event/226303-winthrop-x-davenport-harvard-yale-stein",
+   "source_id": "college",
+   "source_name": "Harvard College events",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-20T19:30:00-05:00",
+   "end": "2026-11-20T20:30:00-05:00",
+   "date": "2026-11-20",
+   "all_day": false,
+   "location": "Lions’ Den and Winthrop Grille",
+   "online": false,
+   "host": "Winthrop House",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "Winthrop House residents",
+    "evidence": "Hosted by Winthrop House",
+    "basis": "inferred"
+   },
+   "summary": "",
+   "blurb": "",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Winthrop House",
+   "lat": 42.370356,
+   "lon": -71.118646,
+   "geo_method": "host",
+   "walk_min": 15
   },
   {
    "id": "007b049cdd8b",
@@ -14330,6 +14670,49 @@
    "walk_min": 15
   },
   {
+   "id": "bdb1d398dd66",
+   "title": "Wellness Wheel & Cookie Dough!",
+   "url": "https://events.college.harvard.edu/winthrop-house/event/226297-wellness-wheel-cookie-dough",
+   "source_id": "college",
+   "source_name": "Harvard College events",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-22T18:00:00-05:00",
+   "end": "2026-11-22T19:00:00-05:00",
+   "date": "2026-11-22",
+   "all_day": false,
+   "location": "Winthrop DHall",
+   "online": false,
+   "host": "Winthrop House",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "Winthrop House residents",
+    "evidence": "Hosted by Winthrop House",
+    "basis": "inferred"
+   },
+   "summary": "Join Winthrop non-resident tutor Liz Kaye (Winthrop ’21) to reflect on your well-being by filling out a “Wellness Wheel” and identify areas you’d like to strengthen, all while enjoying yummy cookie dough with toppings!",
+   "blurb": "Join Winthrop non-resident tutor Liz Kaye (Winthrop ’21) to reflect on your well-being by filling out a “Wellness Wheel” and identify areas you’d like to strengthen, all while enjoying yummy cookie dough with toppings!",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Winthrop House",
+   "lat": 42.370356,
+   "lon": -71.118646,
+   "geo_method": "host",
+   "walk_min": 15
+  },
+  {
    "id": "2c74047ba6e6",
    "title": "Sonny Side Up",
    "url": "https://events.college.harvard.edu/ofa/event/226292-sonny-side-up",
@@ -15159,6 +15542,52 @@
    "walk_min": 10
   },
   {
+   "id": "fb6ce40842af",
+   "title": "Climate Litigation Lockouts with Sam Bookman",
+   "url": "https://hls.harvard.edu/events/climate-litigation-lockouts-with-sam-bookman/",
+   "source_id": "hls",
+   "source_name": "Harvard Law School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-23T12:20:00-05:00",
+   "end": "2026-11-23T13:20:00-05:00",
+   "date": "2026-11-23",
+   "all_day": false,
+   "location": "WCC, 3036 Room, Harvard Law School",
+   "online": false,
+   "host": "Environmental Law and Policy Clinic",
+   "food": {
+    "status": "confirmed",
+    "types": [
+     "Lunch"
+    ],
+    "evidence": "Please join us for a lunch conversation with Dr.",
+    "cue": "weak"
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "HLS students",
+    "evidence": "HLS listing audience: All HLS students only",
+    "basis": "listing"
+   },
+   "summary": "Please join us for a lunch conversation with Dr. Sam Bookman, Lecturer at Melbourne Law School. Sam will discuss his work on ‘Climate Litigation Lockouts’: legislative efforts to prevent or limit climate-related litigation against corporations and governments. He will discuss the proliferation of these measures at the…",
+   "blurb": "Please join us for a lunch conversation with Dr. Sam will discuss his work on ‘Climate Litigation Lockouts’: legislative efforts to prevent or limit climate-related litigation against corporations and governments. He will discuss the proliferation of these…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Wasserstein Hall (WCC), Harvard Law School",
+   "lat": 42.379383,
+   "lon": -71.119421,
+   "geo_method": "gazetteer",
+   "walk_min": 10
+  },
+  {
    "id": "b73956b96807",
    "title": "First Class: Securing and Succeeding in 1L Summer Jobs",
    "url": "https://hls.harvard.edu/events/first-class-securing-and-succeeding-in-1l-summer-jobs/",
@@ -15800,39 +16229,11 @@
   {
    "id": 4,
    "state": "scanned",
-   "label": "Scanned at every update: 17 events found, 1 with food this week",
+   "label": "Scanned at every update: 16 events found, 1 with food this week",
    "n_food": 1
   }
  ],
  "newsletters": [
-  {
-   "subject": null,
-   "sent": "2026-10-16",
-   "items": 0,
-   "sender": null,
-   "forwarded_by": "Ellen"
-  },
-  {
-   "subject": null,
-   "sent": "2026-10-16",
-   "items": 0,
-   "sender": null,
-   "forwarded_by": "Ellen"
-  },
-  {
-   "subject": null,
-   "sent": "2026-10-17",
-   "items": 0,
-   "sender": null,
-   "forwarded_by": "Cecilia"
-  },
-  {
-   "subject": null,
-   "sent": "2026-10-17",
-   "items": 0,
-   "sender": null,
-   "forwarded_by": "Cecilia"
-  },
   {
    "subject": "12 Literary Events Next Week: From Neal Stephenson to Bonnie Garmus",
    "sent": "2026-10-17",
