@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-11-16T23:33:32-05:00",
+ "generated_at": "2026-11-17T14:13:05-05:00",
  "window": {
-  "start": "2026-11-16",
-  "end": "2026-11-23"
+  "start": "2026-11-17",
+  "end": "2026-11-24"
  },
  "events_window": {
-  "start": "2026-11-16",
-  "end": "2026-12-13"
+  "start": "2026-11-17",
+  "end": "2026-12-14"
  },
  "home": {
   "name": "Lippmann House (Nieman Foundation)",
@@ -20,9 +20,9 @@
    "homepage": "https://news.harvard.edu/gazette/harvard-events/events-calendar/",
    "ok": true,
    "error": null,
-   "n_events": 150,
+   "n_events": 149,
    "n_food": 7,
-   "seconds": 2.2
+   "seconds": 3.5
   },
   {
    "id": "hks",
@@ -30,9 +30,9 @@
    "homepage": "https://www.hks.harvard.edu/more/events",
    "ok": true,
    "error": null,
-   "n_events": 40,
-   "n_food": 11,
-   "seconds": 2.8
+   "n_events": 34,
+   "n_food": 10,
+   "seconds": 5.5
   },
   {
    "id": "hls",
@@ -40,9 +40,9 @@
    "homepage": "https://hls.harvard.edu/calendar/",
    "ok": true,
    "error": null,
-   "n_events": 95,
-   "n_food": 52,
-   "seconds": 7.0
+   "n_events": 81,
+   "n_food": 42,
+   "seconds": 10.3
   },
   {
    "id": "college",
@@ -50,7 +50,7 @@
    "homepage": "https://events.college.harvard.edu/",
    "ok": true,
    "error": null,
-   "n_events": 123,
+   "n_events": 121,
    "n_food": 12,
    "seconds": 0.5
   },
@@ -62,7 +62,7 @@
    "error": null,
    "n_events": 2,
    "n_food": 0,
-   "seconds": 2.3
+   "seconds": 2.8
   },
   {
    "id": "shorenstein",
@@ -72,7 +72,7 @@
    "error": null,
    "n_events": 2,
    "n_food": 1,
-   "seconds": 10.9
+   "seconds": 12.0
   },
   {
    "id": "fairbank",
@@ -82,7 +82,7 @@
    "error": null,
    "n_events": 9,
    "n_food": 1,
-   "seconds": 0.1
+   "seconds": 6.6
   },
   {
    "id": "newsletter",
@@ -90,9 +90,9 @@
    "homepage": "",
    "ok": true,
    "error": null,
-   "n_events": 13,
+   "n_events": 10,
    "n_food": 3,
-   "seconds": 37.9
+   "seconds": 47.1
   },
   {
    "id": "suggested",
@@ -102,2483 +102,19 @@
    "error": null,
    "n_events": 10,
    "n_food": 2,
-   "seconds": 5.1
+   "seconds": 6.4
   }
  ],
  "stats": {
-  "events": 359,
-  "food_confirmed": 55,
-  "food_likely": 18,
-  "forwarded": 7,
-  "forwarded_listed": 3,
-  "food_restricted": 46,
-  "seconds": 46.7
+  "events": 332,
+  "food_confirmed": 47,
+  "food_likely": 15,
+  "forwarded": 4,
+  "forwarded_listed": 2,
+  "food_restricted": 40,
+  "seconds": 59.6
  },
  "events": [
-  {
-   "id": "0fc1251cae17",
-   "title": "Calling All Harvard Student Founders: Apply for the 2027 President’s Innovation Challenge today!",
-   "url": "https://events.college.harvard.edu/event/225974-calling-all-harvard-student-founders-apply-for-the",
-   "source_id": "college",
-   "source_name": "Harvard College events",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-11-16T00:00:00-05:00",
-   "end": null,
-   "date": "2026-11-16",
-   "all_day": true,
-   "location": "Harvard Innovation Lan",
-   "online": false,
-   "host": "Harvard Innovation Labs",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "required",
-    "evidence": "👉 Learn more and sign up here: https://innovationlabs.harvard.edu/presidents-innovation-challenge",
-    "link": ""
-   },
-   "audience": {
-    "level": "restricted",
-    "group": "Harvard College students",
-    "evidence": "Harvard College calendar, no sign it is open to others",
-    "basis": "default"
-   },
-   "summary": "The Harvard Innovation Labs is inviting student founders from across all 13 Harvard schools — who are tackling problems they cannot ignore and building futures they believe should exist — to apply for this year’s Harvard President’s Innovation Challenge. This year’s theme, Unprompted, celebrates people who move ideas…",
-   "blurb": "The Harvard Innovation Labs is inviting student founders from across all 13 Harvard schools — who are tackling problems they cannot ignore and building futures they believe should exist — to apply for this year’s Harvard President’s Innovation Challenge. This…",
-   "event_page": true,
-   "notes": "",
-   "place_name": "Harvard Innovation Labs (Allston)",
-   "lat": 42.363608,
-   "lon": -71.125793,
-   "geo_method": "host",
-   "walk_min": 31
-  },
-  {
-   "id": "65516f5857cf",
-   "title": "Weekly SITREP November 16-20",
-   "url": "https://chat.whatsapp.com/Kbx9BtC2GWWIGZvgjw53AQ",
-   "source_id": "newsletter",
-   "source_name": "Forwarded: Weekly SITREP November 16-20",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": {
-    "by": "Ellen",
-    "subject": "Weekly SITREP November 16-20",
-    "missing": [
-     "time",
-     "event page"
-    ]
-   },
-   "start": "2026-11-16T00:00:00-05:00",
-   "end": null,
-   "date": "2026-11-16",
-   "all_day": true,
-   "location": "",
-   "online": false,
-   "host": "",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
-   },
-   "audience": {
-    "level": "unknown",
-    "group": "",
-    "evidence": "",
-    "basis": "none"
-   },
-   "summary": "Subject: Weekly SITREP November 16-20 Links and Reminders Find the newsletter PDF with direct links attached to this E-Mail All events can be seen on the Armed Forces Committee Calendar (found in Outlook, under your HKS account, and \"Groups\") WhatsApp Group Instagram AFAA Course Review Document --- For questions or to…",
-   "blurb": "Armed Forces Committee Calendar (found in Outlook, under your HKS account, and \"Groups\") You’re receiving this message because you are a member of the Armed Forces Committee.",
-   "event_page": false,
-   "notes": "",
-   "place_name": "Harvard Kennedy School",
-   "lat": 42.371989,
-   "lon": -71.121761,
-   "geo_method": "text",
-   "walk_min": 16
-  },
-  {
-   "id": "86f7b2fa4354",
-   "title": "Muriel Siebert: Redefining Power and Possibility on Wall Street",
-   "url": "https://www.library.hbs.edu/special-collections-and-archives/exhibits/muriel-siebert",
-   "source_id": "gazette",
-   "source_name": "Harvard Gazette calendar",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-11-16T07:00:00-05:00",
-   "end": "2026-11-16T19:00:00-05:00",
-   "date": "2026-11-16",
-   "all_day": false,
-   "location": "North Lobby, Baker Library | Bloomberg Center, Harvard Business School, Soldiers Field Road, Boston",
-   "online": false,
-   "host": "Supported by the de Gaspé Beaubien Family Endowment at Harvard Business School and organized by Baker Library Special Collections and Archives",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
-   },
-   "audience": {
-    "level": "public",
-    "group": "",
-    "evidence": "Open to the public Monday-Thursday, 7:00 AM-7:00 PM, Friday, 7:00 AM-5:00 PM, excluding holidays.",
-    "basis": "text"
-   },
-   "summary": "Muriel Siebert: Redefining Power and Possibility on Wall Street traces the career of Muriel Siebert, the first woman to buy a seat on the New York Stock Exchange in 1967. Drawing on photographs, correspondence, advertisements, and contemporary media coverage from the Muriel Siebert Collection, generously donated to…",
-   "blurb": "Muriel Siebert: Redefining Power and Possibility on Wall Street traces the career of Muriel Siebert, the first woman to buy a seat on the New York Stock Exchange in 1967.",
-   "event_page": true,
-   "notes": "Harvard Key required: No",
-   "place_name": "Harvard Business School",
-   "lat": 42.365962,
-   "lon": -71.121506,
-   "geo_method": "gazetteer",
-   "walk_min": 24
-  },
-  {
-   "id": "eef0b378206b",
-   "title": "Morning Prayers",
-   "url": "https://memorialchurch.harvard.edu/calendar?f%5B0%5D=event_hwp_c_eventservicetypes%3A6216&f%5B1%5D=event_hwp_c_eventservicetypes%3A65731&f%5B2%5D=event_hwp_c_eventservicetypes%3A20651",
-   "source_id": "gazette",
-   "source_name": "Harvard Gazette calendar",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-11-16T08:30:00-05:00",
-   "end": "2026-11-16T08:45:00-05:00",
-   "date": "2026-11-16",
-   "all_day": false,
-   "location": "The Memorial Church of Harvard University, Appleton Chapel, One Harvard Yard, Cambridge",
-   "online": false,
-   "host": "Harvard/Memorial Church",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
-   },
-   "audience": {
-    "level": "unknown",
-    "group": "",
-    "evidence": "",
-    "basis": "none"
-   },
-   "summary": "The daily Morning Prayers service is conducted each weekday morning from 8:30 to 8:45 a.m. in Appleton Chapel during the academic term. The service consists of music, prayer, and a brief address by a member or friend of the University.",
-   "blurb": "The daily Morning Prayers service is conducted each weekday morning from 8:30 to 8:45 a.m. in Appleton Chapel during the academic term. The service consists of music, prayer, and a brief address by a member or friend of the University.",
-   "event_page": true,
-   "notes": "Cost: Free and open to the public | Harvard Key required: No",
-   "place_name": "Memorial Church",
-   "lat": 42.374917,
-   "lon": -71.116034,
-   "geo_method": "gazetteer",
-   "walk_min": 7
-  },
-  {
-   "id": "c034777354da",
-   "title": "Collecting Wonders: Tomorrow’s Discoveries",
-   "url": "https://www.hmnh.harvard.edu/collecting-wonders",
-   "source_id": "gazette",
-   "source_name": "Harvard Gazette calendar",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-11-16T09:00:00-05:00",
-   "end": "2026-11-16T17:00:00-05:00",
-   "date": "2026-11-16",
-   "all_day": false,
-   "location": "Harvard Museum of Natural History, 26 Oxford St., Cambridge",
-   "online": false,
-   "host": "Harvard Museum of Natural History",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
-   },
-   "audience": {
-    "level": "unknown",
-    "group": "",
-    "evidence": "",
-    "basis": "none"
-   },
-   "summary": "When you imagine a museum, you might picture cases of artifacts. But the objects on display at the Harvard Museum of Natural History are a tiny percentage of the total collections. Behind the scenes, experts care for 26 million specimens. These objects form the basis for studying life on Earth. They are records of the…",
-   "blurb": "When you imagine a museum, you might picture cases of artifacts. But the objects on display at the Harvard Museum of Natural History are a tiny percentage of the total collections. Behind the scenes, experts care for 26 million specimens. These objects form…",
-   "event_page": true,
-   "notes": "Cost: Regular museum admission rates apply | Harvard Key required: No",
-   "place_name": "Harvard Museum of Natural History",
-   "lat": 42.378466,
-   "lon": -71.115646,
-   "geo_method": "gazetteer",
-   "walk_min": 5
-  },
-  {
-   "id": "b0204da75f47",
-   "title": "Cooking Up Change: Women’s Agency and Community Building Through Cookbooks",
-   "url": "https://www.radcliffe.harvard.edu/event/2026-cooking-up-change-exhibition",
-   "source_id": "gazette",
-   "source_name": "Harvard Gazette calendar",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-11-16T09:00:00-05:00",
-   "end": "2026-11-16T16:30:00-05:00",
-   "date": "2026-11-16",
-   "all_day": false,
-   "location": "Lia and William Poorvu Gallery, Schlesinger Library, 3 James St., Cambridge",
-   "online": false,
-   "host": "Harvard Radcliffe Institute",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
-   },
-   "audience": {
-    "level": "unknown",
-    "group": "",
-    "evidence": "",
-    "basis": "none"
-   },
-   "summary": "Drawn from the Schlesinger Library’s collection of more than 4,300 community cookbooks, ‘Cooking Up Change: Women’s Agency and Community Building Through Cookbooks’ explores the cultural and historical significance of community cookbooks from the nineteenth century to today. These volumes document how women’s groups…",
-   "blurb": "Drawn from the Schlesinger Library’s collection of more than 4,300 community cookbooks, ‘Cooking Up Change: Women’s Agency and Community Building Through Cookbooks’ explores the cultural and historical significance of community cookbooks from the nineteenth…",
-   "event_page": true,
-   "notes": "Cost: Free",
-   "place_name": "Schlesinger Library, Radcliffe Yard",
-   "lat": 42.375748,
-   "lon": -71.123127,
-   "geo_method": "gazetteer",
-   "walk_min": 15
-  },
-  {
-   "id": "21d27abf93fe",
-   "title": "From Iran: A Visual Testimony",
-   "url": "https://peabody.harvard.edu/iran-visual-testimony",
-   "source_id": "gazette",
-   "source_name": "Harvard Gazette calendar",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-11-16T09:00:00-05:00",
-   "end": "2026-11-16T17:00:00-05:00",
-   "date": "2026-11-16",
-   "all_day": false,
-   "location": "Peabody Museum of Archaeology & Ethnology, 11 Divinity Ave., Cambridge",
-   "online": false,
-   "host": "Harvard Museum of Science & Culture",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
-   },
-   "audience": {
-    "level": "unknown",
-    "group": "",
-    "evidence": "",
-    "basis": "none"
-   },
-   "summary": "Created over the course of fourteen years, Azadeh Akhlaghi’s project stages and photographs pivotal moments from Iran’s tumultuous twentieth-century history. Drawing on meticulous archival research and her background in cinema, she casts professional and nonprofessional actors and photographs each scene from multiple…",
-   "blurb": "Created over the course of fourteen years, Azadeh Akhlaghi’s project stages and photographs pivotal moments from Iran’s tumultuous twentieth-century history. Drawing on meticulous archival research and her background in cinema, she casts professional and…",
-   "event_page": true,
-   "notes": "Cost: Regular admission applies | Harvard Key required: No",
-   "place_name": "Peabody Museum",
-   "lat": 42.378214,
-   "lon": -71.114928,
-   "geo_method": "gazetteer",
-   "walk_min": 4
-  },
-  {
-   "id": "c14c82315606",
-   "title": "Harvard-Yale Ticket Pick-Up",
-   "url": "https://events.college.harvard.edu/dso/event/225377-harvard-yale-ticket-pick-up",
-   "source_id": "college",
-   "source_name": "Harvard College events",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-11-16T09:00:00-05:00",
-   "end": "2026-11-16T16:00:00-05:00",
-   "date": "2026-11-16",
-   "all_day": false,
-   "location": "Cambridge Queens Head",
-   "online": false,
-   "host": "Dean of Students Office",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
-   },
-   "audience": {
-    "level": "restricted",
-    "group": "undergraduates (First-Year, Junior, Senior, Sophomore)",
-    "evidence": "College calendar audience: First-Year, Junior, Senior, Sophomore",
-    "basis": "listing"
-   },
-   "summary": "Students can pick up tickets to The Game at the Cambridge Queen’s Head starting November 16 through November 19. Students must be present and have a valid Harvard ID to claim a ticket. No guest tickets will be distributed. As a reminder, ticket resale is strictly prohibited. If you have questions, please call the…",
-   "blurb": "Students can pick up tickets to The Game at the Cambridge Queen’s Head starting November 16 through November 19. No guest tickets will be distributed. As a reminder, ticket resale is strictly prohibited. If you have questions, please call the Harvard…",
-   "event_page": true,
-   "notes": "",
-   "place_name": "",
-   "lat": null,
-   "lon": null,
-   "geo_method": null,
-   "walk_min": null
-  },
-  {
-   "id": "10ed9e55dfd8",
-   "title": "Pop Quiz: 1776",
-   "url": "https://hmsc.harvard.edu/visit/",
-   "source_id": "gazette",
-   "source_name": "Harvard Gazette calendar",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-11-16T09:00:00-05:00",
-   "end": "2026-11-16T17:00:00-05:00",
-   "date": "2026-11-16",
-   "all_day": false,
-   "location": "Harvard Museum of Natural History, 26 Oxford St., Cambridge",
-   "online": false,
-   "host": "Harvard Museum of Natural History",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
-   },
-   "audience": {
-    "level": "unknown",
-    "group": "",
-    "evidence": "",
-    "basis": "none"
-   },
-   "summary": "Step back into the 18th century and put your detective skills to the test! Pop Quiz: 1776 takes you on a four-museum adventure to uncover surprising ways that life at Harvard was both similar to and — or different from — today. Would Harvard students in 1776 have known about the things we see and do today? Take a…",
-   "blurb": "Step back into the 18th century and put your detective skills to the test! Pop Quiz: 1776 takes you on a four-museum adventure to uncover surprising ways that life at Harvard was both similar to and — or different from — today. Would Harvard students in 1776…",
-   "event_page": true,
-   "notes": "Cost: Regular museum admission rates apply | Harvard Key required: No",
-   "place_name": "Harvard Museum of Natural History",
-   "lat": 42.378466,
-   "lon": -71.115646,
-   "geo_method": "gazetteer",
-   "walk_min": 5
-  },
-  {
-   "id": "5ad1bdd3eb27",
-   "title": "Rubies",
-   "url": "https://www.hmnh.harvard.edu/rubies",
-   "source_id": "gazette",
-   "source_name": "Harvard Gazette calendar",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-11-16T09:00:00-05:00",
-   "end": "2026-11-16T17:00:00-05:00",
-   "date": "2026-11-16",
-   "all_day": false,
-   "location": "Harvard Museum of Natural History, 26 Oxford St., Cambridge",
-   "online": false,
-   "host": "Harvard Museums of Science & Culture Harvard Museum of Natural History",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
-   },
-   "audience": {
-    "level": "unknown",
-    "group": "",
-    "evidence": "",
-    "basis": "none"
-   },
-   "summary": "Rubies is a new, intimate collection of stunning minerals, gemstones, and jewelry on display in the Earth & Planetary Sciences Gallery. Ruby, the red variety of the mineral corundum, owes its vibrant color to trace amounts of chromium in its crystal structure. This element also gives many rubies a striking…",
-   "blurb": "Rubies is a new, intimate collection of stunning minerals, gemstones, and jewelry on display in the Earth & Planetary Sciences Gallery. Ruby, the red variety of the mineral corundum, owes its vibrant color to trace amounts of chromium in its crystal structure.",
-   "event_page": true,
-   "notes": "Cost: Regular museum admission rates apply | Harvard Key required: No",
-   "place_name": "Harvard Museum of Natural History",
-   "lat": 42.378466,
-   "lon": -71.115646,
-   "geo_method": "gazetteer",
-   "walk_min": 5
-  },
-  {
-   "id": "733b1fa0ae1f",
-   "title": "50 Shades of Modern",
-   "url": "https://library.harvard.edu/exhibits/50-shades-modern",
-   "source_id": "gazette",
-   "source_name": "Harvard Gazette calendar",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-11-16T10:00:00-05:00",
-   "end": "2026-11-16T17:00:00-05:00",
-   "date": "2026-11-16",
-   "all_day": false,
-   "location": "Houghton Library, Harvard Yard, Cambridge",
-   "online": false,
-   "host": "Houghton Library",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
-   },
-   "audience": {
-    "level": "unknown",
-    "group": "",
-    "evidence": "",
-    "basis": "none"
-   },
-   "summary": "Seeking to provoke both “wow, what an amazing object” and “wow, I didn’t know Houghton collected stuff like that,” \"50 Shades of Modern\" showcases just a few of the thousands of acquisitions Houghton’s Modern Books and Manuscripts Department has made over the past 20 years. Dating from 1800 to the present, these items…",
-   "blurb": "Seeking to provoke both “wow, what an amazing object” and “wow, I didn’t know Houghton collected stuff like that,” \"50 Shades of Modern\" showcases just a few of the thousands of acquisitions Houghton’s Modern Books and Manuscripts Department has made over the…",
-   "event_page": true,
-   "notes": "Harvard Key required: No",
-   "place_name": "Houghton Library",
-   "lat": 42.373191,
-   "lon": -71.115923,
-   "geo_method": "gazetteer",
-   "walk_min": 9
-  },
-  {
-   "id": "ca8bdae77e13",
-   "title": "Adam Smith and the other revolution of 1776",
-   "url": "https://library.harvard.edu/exhibits/adam-smith-and-other-revolution-1776",
-   "source_id": "gazette",
-   "source_name": "Harvard Gazette calendar",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-11-16T10:00:00-05:00",
-   "end": "2026-11-16T17:00:00-05:00",
-   "date": "2026-11-16",
-   "all_day": false,
-   "location": "Houghton Library, Harvard Yard, Cambridge",
-   "online": false,
-   "host": "Houghton Library",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
-   },
-   "audience": {
-    "level": "unknown",
-    "group": "",
-    "evidence": "",
-    "basis": "none"
-   },
-   "summary": "This exhibition features two items by the Scottish moral philosopher Adam Smith: his monumental two-volume \"Inquiry into the Nature and Causes of the Wealth of Nations\" (1776) and a signed letter to his publisher, William Strahan, from that same year. Smith famously argued that economic prosperity is driven by open…",
-   "blurb": "This exhibition features two items by the Scottish moral philosopher Adam Smith: his monumental two-volume \"Inquiry into the Nature and Causes of the Wealth of Nations\" (1776) and a signed letter to his publisher, William Strahan, from that same year. Smith…",
-   "event_page": true,
-   "notes": "Harvard Key required: No",
-   "place_name": "Houghton Library",
-   "lat": 42.373191,
-   "lon": -71.115923,
-   "geo_method": "gazetteer",
-   "walk_min": 9
-  },
-  {
-   "id": "bc28d9d4c7df",
-   "title": "Did you know the Ceramics Program offers courses in ceramic arts for adults of all skill levels?",
-   "url": "https://links.repoint.harvard.edu/els/v2/mkKycYKZzzT6/VFFVaVdlbEdnOEovYytFMWVrT0lhN0R5SjJER3hKd3c2cUd5aTJ1MVoveUtZcE90L0pkdGdvOW90SkxYVzZRVkJ0bzJUeUhLWDZLN3BlMWlQd1dPbE1EakM2N2s4aHJOT1d3WUZGVGg0MzA9S0/VVdJdXFIeGhTMUkyZWtQdUFzQlJ5SWt6M3MrRFQ2cTllZXBIMzlqYkhpRHBpenMyNkR1U29tVHZMd1FuOTBKRlBwS3Zvb3lTcHI0PQS2",
-   "source_id": "newsletter",
-   "source_name": "Forwarded: November Newsletter from EVP Meredith Weenick",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": {
-    "by": "Juan",
-    "subject": "November Newsletter from EVP Meredith Weenick",
-    "missing": [
-     "place",
-     "event page"
-    ]
-   },
-   "start": "2026-11-16T10:00:00-05:00",
-   "end": null,
-   "date": "2026-11-16",
-   "all_day": false,
-   "location": "",
-   "online": false,
-   "host": "",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "none",
-    "evidence": "Registration for most workshops and events is first-come, first-served.",
-    "link": ""
-   },
-   "audience": {
-    "level": "unknown",
-    "group": "",
-    "evidence": "",
-    "basis": "none"
-   },
-   "summary": "Did you know the Ceramics Program offers courses in ceramic arts for adults of all skill levels? Because these courses are popular, the Office for the Arts (OFA) uses a lottery to determine enrollment in semester-length courses. Registration for most workshops and events is first-come, first-served. To enter the…",
-   "blurb": "Because these courses are popular, the Office for the Arts (OFA) uses a lottery to determine enrollment in semester-length courses. Registration for most workshops and events is first-come, first-served. To enter the lottery for a Spring 2027 course, submit…",
-   "event_page": false,
-   "notes": "",
-   "place_name": "",
-   "lat": null,
-   "lon": null,
-   "geo_method": null,
-   "walk_min": null
-  },
-  {
-   "id": "1c5c1b52c548",
-   "title": "Harvard and the American Revolution",
-   "url": "https://library.harvard.edu/exhibits/harvard-and-american-revolution",
-   "source_id": "gazette",
-   "source_name": "Harvard Gazette calendar",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-11-16T10:00:00-05:00",
-   "end": "2026-11-16T18:00:00-05:00",
-   "date": "2026-11-16",
-   "all_day": false,
-   "location": "Lammot du Pont Copeland Gallery, Pusey Library, Harvard University Archives, Harvard Yard, Cambridge",
-   "online": false,
-   "host": "Harvard University Archives",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
-   },
-   "audience": {
-    "level": "unknown",
-    "group": "",
-    "evidence": "",
-    "basis": "none"
-   },
-   "summary": "The American Revolution (1775-1783) was a war between Great Britain and its 13 American colonies. Colonists who supported independence believed they should have more control over their own laws and taxation, while the British wanted to keep the colonies under Imperial rule. These disagreements grew into open conflict…",
-   "blurb": "The American Revolution (1775-1783) was a war between Great Britain and its 13 American colonies. Colonists who supported independence believed they should have more control over their own laws and taxation, while the British wanted to keep the colonies under…",
-   "event_page": true,
-   "notes": "Cost: Free and open to the public | Harvard Key required: No",
-   "place_name": "Harvard Yard",
-   "lat": 42.37409,
-   "lon": -71.116716,
-   "geo_method": "gazetteer",
-   "walk_min": 9
-  },
-  {
-   "id": "cbf5264b1241",
-   "title": "Making a Scene: 125 Years of the Harvard Theatre Collection",
-   "url": "https://library.harvard.edu/exhibits/making-scene-0",
-   "source_id": "gazette",
-   "source_name": "Harvard Gazette calendar",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-11-16T10:00:00-05:00",
-   "end": "2026-11-16T17:00:00-05:00",
-   "date": "2026-11-16",
-   "all_day": false,
-   "location": "Houghton Library, Harvard Yard, Cambridge",
-   "online": false,
-   "host": "Houghton Library",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
-   },
-   "audience": {
-    "level": "unknown",
-    "group": "",
-    "evidence": "",
-    "basis": "none"
-   },
-   "summary": "Founded in 1901, the Harvard Theatre Collection is one of the world’s largest repositories for rare books, manuscripts, illustrations, and archives relating to the performing arts. Pairing archival objects with a defining moment from the past 125 years, this exhibition celebrates the extraordinary breadth of HTC’s…",
-   "blurb": "Founded in 1901, the Harvard Theatre Collection is one of the world’s largest repositories for rare books, manuscripts, illustrations, and archives relating to the performing arts. Pairing archival objects with a defining moment from the past 125 years, this…",
-   "event_page": true,
-   "notes": "Harvard Key required: No",
-   "place_name": "Houghton Library",
-   "lat": 42.373191,
-   "lon": -71.115923,
-   "geo_method": "gazetteer",
-   "walk_min": 9
-  },
-  {
-   "id": "6e88cd02bf84",
-   "title": "Measurement on the Color Line: Scientific Instruments and the Making of Human Categories",
-   "url": "https://chsi.harvard.edu/measurement-color-line-scientific-instruments-and-making-human-categories",
-   "source_id": "gazette",
-   "source_name": "Harvard Gazette calendar",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-11-16T11:00:00-05:00",
-   "end": "2026-11-16T16:00:00-05:00",
-   "date": "2026-11-16",
-   "all_day": false,
-   "location": "Collection of Historical Scientific Instruments, Special Exhibitions Gallery, 1 Oxford St., Cambridge",
-   "online": false,
-   "host": "Harvard Museums of Science & Culture",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
-   },
-   "audience": {
-    "level": "unknown",
-    "group": "",
-    "evidence": "",
-    "basis": "none"
-   },
-   "summary": "Everyone thinks they know what race is—but do they?\" Measurement on the Color Line traces how present-day ideas of race were shaped by scientific, biological, anthropological, and medical practices from the eighteenth century to today. The exhibition examines how scientific instruments, measurement, and data have been…",
-   "blurb": "Everyone thinks they know what race is—but do they?\" Measurement on the Color Line traces how present-day ideas of race were shaped by scientific, biological, anthropological, and medical practices from the eighteenth century to today. The exhibition examines…",
-   "event_page": true,
-   "notes": "Cost: Free | Harvard Key required: No",
-   "place_name": "Science Center",
-   "lat": 42.376491,
-   "lon": -71.117051,
-   "geo_method": "gazetteer",
-   "walk_min": 7
-  },
-  {
-   "id": "ea12d7d88a2b",
-   "title": "Hecker Fink 1L Coffee Chat",
-   "url": "https://hls.harvard.edu/events/hecker-fink-1l-coffee-chat/",
-   "source_id": "hls",
-   "source_name": "Harvard Law School",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-11-16T11:30:00-05:00",
-   "end": "2026-11-16T13:30:00-05:00",
-   "date": "2026-11-16",
-   "all_day": false,
-   "location": "",
-   "online": false,
-   "host": "OCS",
-   "food": {
-    "status": "likely",
-    "types": [
-     "Coffee"
-    ],
-    "evidence": "Hecker Fink 1L Coffee Chat"
-   },
-   "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
-   },
-   "audience": {
-    "level": "restricted",
-    "group": "HLS 1Ls",
-    "evidence": "HLS listing audience: 1L",
-    "basis": "listing"
-   },
-   "summary": "See CSM/Symplicity for full event details. Add to Calendar November 16, 2026, 11:30 am - 1:30 pm +Google Calendar +iCal/Outlook",
-   "blurb": "",
-   "event_page": true,
-   "notes": "",
-   "place_name": "Harvard Law School",
-   "lat": 42.379106,
-   "lon": -71.119679,
-   "geo_method": "host",
-   "walk_min": 10
-  },
-  {
-   "id": "06def9ab0929",
-   "title": "Climate Finance in an Overshoot World",
-   "url": "https://www.hks.harvard.edu/events/climate-finance-overshoot-world",
-   "source_id": "hks",
-   "source_name": "Harvard Kennedy School",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-11-16T12:00:00-05:00",
-   "end": "2026-11-16T13:15:00-05:00",
-   "date": "2026-11-16",
-   "all_day": false,
-   "location": "Rubenstein 414ab",
-   "online": false,
-   "host": "Belfer Center for Science and International Affairs",
-   "food": {
-    "status": "confirmed",
-    "types": [
-     "Lunch"
-    ],
-    "evidence": "Lunch will be served.",
-    "cue": "strong"
-   },
-   "registration": {
-    "status": "required",
-    "evidence": "Registration: RSVP required.",
-    "link": ""
-   },
-   "audience": {
-    "level": "unknown",
-    "group": "",
-    "evidence": "",
-    "basis": "none"
-   },
-   "summary": "In this Energy Policy Seminar, Bella Tonkonogy, Senior Director of Global Programs at Climate Policy Initiative, will discuss the future of climate finance in a world that has failed to limit warming to 1.5°C over pre-industrial levels. Professor Joe Aldy will moderate. Q&A to follow. Lunch will be served.…",
-   "blurb": "In this Energy Policy Seminar, Bella Tonkonogy, Senior Director of Global Programs at Climate Policy Initiative, will discuss the future of climate finance in a world that has failed to limit warming to 1.5°C over pre-industrial levels. Bella Tonkonogy is…",
-   "event_page": true,
-   "notes": "",
-   "place_name": "Rubenstein Building, Harvard Kennedy School",
-   "lat": 42.371243,
-   "lon": -71.122687,
-   "geo_method": "gazetteer",
-   "walk_min": 18
-  },
-  {
-   "id": "456344781ae2",
-   "title": "Dance in Public",
-   "url": "https://events.college.harvard.edu/ofa/event/223329-dance-in-public",
-   "source_id": "college",
-   "source_name": "Harvard College events",
-   "also_listed": [
-    {
-     "source_name": "Harvard Gazette calendar",
-     "url": "https://us-japan.wcfia.harvard.edu/event/governing-technology-age-geopolitical-risk-economic-security-and-public-contestation-japan"
-    }
-   ],
-   "aliases": [
-    "e71ac654006d"
-   ],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-11-16T12:00:00-05:00",
-   "end": "2026-11-16T13:00:00-05:00",
-   "date": "2026-11-16",
-   "all_day": false,
-   "location": "Richard A. and Susan F. Smith Campus Center",
-   "online": false,
-   "host": "Office for the Arts Dance Program",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "none",
-    "evidence": "Each individual lab session is open to Harvard student drop-in participation.",
-    "link": ""
-   },
-   "audience": {
-    "level": "likely",
-    "group": "Harvard student drop-in participation",
-    "evidence": "Each individual lab session is open to Harvard student drop-in participation.",
-    "basis": "text"
-   },
-   "summary": "Join the Dance in Public Undergraduate Research Fellows who will be investigating and activating sites throughout the academic year, exploring themes in design and architecture, civic engagement, creative research, and public life. Each individual lab session is open to Harvard student drop-in participation. REGISTER…",
-   "blurb": "who will be investigating and activating sites throughout the academic year, exploring themes in design and architecture, civic engagement, creative research, and public life. Each individual lab session is open to Harvard student drop-in participation. Visit…",
-   "event_page": true,
-   "notes": "",
-   "place_name": "Richard A. and Susan F. Smith Campus Center",
-   "lat": 42.372951,
-   "lon": -71.118484,
-   "geo_method": "source",
-   "walk_min": 12
-  },
-  {
-   "id": "67f65a38fd0d",
-   "title": "Events Calendar",
-   "url": "https://hls.harvard.edu/calendar/",
-   "source_id": "suggested",
-   "source_name": "Suggested calendar: HLS",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-11-16T12:00:00-05:00",
-   "end": null,
-   "date": "2026-11-16",
-   "all_day": true,
-   "location": "",
-   "online": false,
-   "host": "",
-   "food": {
-    "status": "confirmed",
-    "types": [
-     "Lunch",
-     "Sweets"
-    ],
-    "evidence": "Free Insomnia Cookies will be served!",
-    "cue": "strong"
-   },
-   "registration": {
-    "status": "required",
-    "evidence": "Please RSVP in advance for a food headcount: https://forms.gle/zUsvZUkmKg6D8b336.",
-    "link": ""
-   },
-   "audience": {
-    "level": "unknown",
-    "group": "",
-    "evidence": "",
-    "basis": "none"
-   },
-   "summary": "November 16 Monday • 18 events Hecker Fink 1L Coffee Chat 11:30 am - 1:30 pm See CSM/Symplicity for full event details. Staff Cards, Cookies, and Compliments 12:00 pm - 1:30 pm Come send gratitude to the staff who make HLS what it is! Join us from 12:00-1:30pm in the Hark fireside lounge to write cards showing…",
-   "blurb": "See CSM/Symplicity for full event details. Come send gratitude to the staff who make HLS what it is! Join us from 12:00-1:30pm in the Hark fireside lounge to write cards showing appreciation to HLS dining and custodial staff. Free Insomnia Cookies will be…",
-   "event_page": true,
-   "notes": "",
-   "place_name": "Harvard Law School",
-   "lat": 42.379106,
-   "lon": -71.119679,
-   "geo_method": "host",
-   "walk_min": 10
-  },
-  {
-   "id": "253f3d612abb",
-   "title": "Harvard University Asia Center",
-   "url": "https://asiacenter.harvard.edu/",
-   "source_id": "suggested",
-   "source_name": "Suggested calendar: Asia Center",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-11-16T12:00:00-05:00",
-   "end": null,
-   "date": "2026-11-16",
-   "all_day": true,
-   "location": "",
-   "online": false,
-   "host": "",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
-   },
-   "audience": {
-    "level": "unknown",
-    "group": "",
-    "evidence": "",
-    "basis": "none"
-   },
-   "summary": "November 16 | Politeness and Power in Thai Society: Airbrushing the Past, Anticipating the Future November 17 | Curating and Collaborating with Cambodia at the National Museum of Asian Art, Smithsonian November 18 | The Promised Republic Developmental Society and the Making of Modern Seoul, 1961–1979",
-   "blurb": "",
-   "event_page": true,
-   "notes": "",
-   "place_name": "CGIS South Building",
-   "lat": 42.375011,
-   "lon": -71.113135,
-   "geo_method": "host",
-   "walk_min": 5
-  },
-  {
-   "id": "a0fb01bbe56b",
-   "title": "Public Research Talk: Transcendentalism, Memorialization, and Harvard's Slavery History",
-   "url": "https://news.harvard.edu/gazette/harvard-events/events-calendar/?trumbaEmbed=view%3Devent%26eventid%3D210168494",
-   "source_id": "gazette",
-   "source_name": "Harvard Gazette calendar",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-11-16T12:00:00-05:00",
-   "end": "2026-11-16T13:30:00-05:00",
-   "date": "2026-11-16",
-   "all_day": false,
-   "location": "Common Room, CSWR, 42 Francis Ave., Cambridge, MA",
-   "online": false,
-   "host": "Center for the Study of World Religions",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "required",
-    "evidence": "Registration is required.",
-    "link": "https://harvard.az1.qualtrics.com/jfe/form/SV_0rHCPzkhz7wt1FY"
-   },
-   "audience": {
-    "level": "unknown",
-    "group": "",
-    "evidence": "",
-    "basis": "none"
-   },
-   "summary": "Registration is required. Please register to attend in person. Please register to attend on Zoom. A house in Concord, Massachusetts, associated with one of the four founding benefactors of Harvard Medical School is currently threatened by a state transportation project. The house also occupies an unexpected place in…",
-   "blurb": "Please register to attend in person. Please register to attend on Zoom. A house in Concord, Massachusetts, associated with one of the four founding benefactors of Harvard Medical School is currently threatened by a state transportation project. The house also…",
-   "event_page": true,
-   "notes": "",
-   "place_name": "Center for the Study of World Religions",
-   "lat": 42.380142,
-   "lon": -71.112151,
-   "geo_method": "gazetteer",
-   "walk_min": 5
-  },
-  {
-   "id": "88f656db490d",
-   "title": "Staff Cards, Cookies, and Compliments",
-   "url": "https://hls.harvard.edu/events/staff-cards-cookies-and-compliments/",
-   "source_id": "hls",
-   "source_name": "Harvard Law School",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-11-16T12:00:00-05:00",
-   "end": "2026-11-16T13:30:00-05:00",
-   "date": "2026-11-16",
-   "all_day": false,
-   "location": "Fireside Student Lounge (WCC), Harvard Law School",
-   "online": false,
-   "host": "DOS-CEEB; The Well; Student Government; Student Wellbeing Working Group",
-   "food": {
-    "status": "confirmed",
-    "types": [
-     "Sweets"
-    ],
-    "evidence": "Free Insomnia Cookies will be served!",
-    "cue": "strong"
-   },
-   "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
-   },
-   "audience": {
-    "level": "restricted",
-    "group": "HLS students",
-    "evidence": "Run by an HLS student organization",
-    "basis": "inferred"
-   },
-   "summary": "Come send gratitude to the staff who make HLS what it is! Join us from 12:00-1:30pm in the Hark fireside lounge to write cards showing appreciation to HLS dining and custodial staff. Free Insomnia Cookies will be served! For those who cannot make it or would like to write more cards, a card drop off bin will be in the…",
-   "blurb": "Come send gratitude to the staff who make HLS what it is! Join us from 12:00-1:30pm in the Hark fireside lounge to write cards showing appreciation to HLS dining and custodial staff. Free Insomnia Cookies will be served! For those who cannot make it or would…",
-   "event_page": true,
-   "notes": "",
-   "place_name": "Wasserstein Hall (WCC), Harvard Law School",
-   "lat": 42.379383,
-   "lon": -71.119421,
-   "geo_method": "gazetteer",
-   "walk_min": 10
-  },
-  {
-   "id": "20d007bf6b15",
-   "title": "Stone Inequality & Social Policy Seminar: Daniel Hopkins",
-   "url": "https://www.hks.harvard.edu/events/stone-inequality-social-policy-seminar-daniel-hopkins",
-   "source_id": "hks",
-   "source_name": "Harvard Kennedy School",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-11-16T12:00:00-05:00",
-   "end": "2026-11-16T13:15:00-05:00",
-   "date": "2026-11-16",
-   "all_day": false,
-   "location": "Malkin Penthouse",
-   "online": false,
-   "host": "Stone Program in Wealth Distribution, Inequality, and Social Policy",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
-   },
-   "audience": {
-    "level": "unknown",
-    "group": "",
-    "evidence": "",
-    "basis": "none"
-   },
-   "summary": "The Stone Program in Wealth Distribution, Inequality, and Social Policy welcomes Professor Daniel Hopkins (University of Pennsylvania) to speak in the Stone Inequality & Social Policy Seminar. For more information about this seminar, click here.",
-   "blurb": "The Stone Program in Wealth Distribution, Inequality, and Social Policy welcomes Professor Daniel Hopkins (University of Pennsylvania) to speak in the Stone Inequality & Social Policy Seminar.",
-   "event_page": true,
-   "notes": "",
-   "place_name": "Littauer Building, Harvard Kennedy School",
-   "lat": 42.371045,
-   "lon": -71.12209,
-   "geo_method": "gazetteer",
-   "walk_min": 18
-  },
-  {
-   "id": "1b1f0da8e766",
-   "title": "ACS Event with Ian Gershengorn",
-   "url": "https://hls.harvard.edu/events/acs-event-with-ian-gershengorn/",
-   "source_id": "hls",
-   "source_name": "Harvard Law School",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-11-16T12:15:00-05:00",
-   "end": "2026-11-16T13:15:00-05:00",
-   "date": "2026-11-16",
-   "all_day": false,
-   "location": "WCC, 1010 Classroom, Harvard Law School",
-   "online": false,
-   "host": "American Constitution Society for Law and Policy",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "required",
-    "evidence": "RSVP here: https://forms.gle/j1Ge4zADdJyMXhrp6",
-    "link": ""
-   },
-   "audience": {
-    "level": "restricted",
-    "group": "HLS community",
-    "evidence": "HLS listing audience: HLS only",
-    "basis": "listing"
-   },
-   "summary": "Please join ACS for a conversation with Jeremy Feigenbaum (former Solicitor General of New Jersey), Ian Gershengorn (former acting U.S. Solicitor General), and Rachel Alpert (former Chief Counsel at OFAC). We will discuss the role of the solicitor general at the state and federal levels, and explore the fast-changing…",
-   "blurb": "Please join ACS for a conversation with Jeremy Feigenbaum (former Solicitor General of New Jersey), Ian Gershengorn (former acting U.S. Solicitor General), and Rachel Alpert (former Chief Counsel at OFAC). We will discuss the role of the solicitor general at…",
-   "event_page": true,
-   "notes": "",
-   "place_name": "Wasserstein Hall (WCC), Harvard Law School",
-   "lat": 42.379383,
-   "lon": -71.119421,
-   "geo_method": "gazetteer",
-   "walk_min": 10
-  },
-  {
-   "id": "cc3eea2cd160",
-   "title": "Civil Rights and the Rule of Law: DEI, Free Speech, and the Trump Administration — Harmeet Dhillon, Former Assistant Attorney General for Civil Rights",
-   "url": "https://hls.harvard.edu/events/civil-rights-and-the-rule-of-law-dei-free-speech-and-the-trump-administration-harmeet-dhillon-former-assistant-attorney-general-for-civil-rights/",
-   "source_id": "hls",
-   "source_name": "Harvard Law School",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-11-16T12:15:00-05:00",
-   "end": "2026-11-16T13:20:00-05:00",
-   "date": "2026-11-16",
-   "all_day": false,
-   "location": "WCC 2012, Harvard Law School",
-   "online": false,
-   "host": "Harvard Federalist Society",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
-   },
-   "audience": {
-    "level": "restricted",
-    "group": "HLS students",
-    "evidence": "Run by an HLS student organization",
-    "basis": "inferred"
-   },
-   "summary": "Join the Harvard Federalist Society for a fireside chat with Harmeet Dhillon, former Assistant Attorney General for Civil Rights at the U.S. Department of Justice. In one of her first public appearances since leaving DOJ, Dhillon will reflect on her time leading the Civil Rights Division, the Trump administration’s…",
-   "blurb": "Join the Harvard Federalist Society for a fireside chat with Harmeet Dhillon, former Assistant Attorney General for Civil Rights at the U.S. In one of her first public appearances since leaving DOJ, Dhillon will reflect on her time leading the Civil Rights…",
-   "event_page": true,
-   "notes": "",
-   "place_name": "Wasserstein Hall (WCC), Harvard Law School",
-   "lat": 42.379383,
-   "lon": -71.119421,
-   "geo_method": "gazetteer",
-   "walk_min": 10
-  },
-  {
-   "id": "6d26c5842112",
-   "title": "HBLR Corporate Law Roundtable: The End of Rule 14a-8?",
-   "url": "https://hls.harvard.edu/events/hblr-x-sullivan-cromwell/",
-   "source_id": "hls",
-   "source_name": "Harvard Law School",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-11-16T12:15:00-05:00",
-   "end": "2026-11-16T13:15:00-05:00",
-   "date": "2026-11-16",
-   "all_day": false,
-   "location": "WCC, 1015 Classroom, Harvard Law School",
-   "online": false,
-   "host": "Business Law Review",
-   "food": {
-    "status": "confirmed",
-    "types": [
-     "Lunch"
-    ],
-    "evidence": "Lunch will be provided.",
-    "cue": "strong"
-   },
-   "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
-   },
-   "audience": {
-    "level": "restricted",
-    "group": "HLS community",
-    "evidence": "HLS listing audience: HLS only",
-    "basis": "listing"
-   },
-   "summary": "Join the Harvard Business Law Review for a Corporate Law Roundtable featuring prominent transactional attorneys from leading law firms, moderated by Howell E. Jackson, the James S. Reid, Jr., Professor of Law at Harvard Law School. This year’s roundtable will explore the potential end of Rule 14a-8 and what recent…",
-   "blurb": "Join the Harvard Business Law Review for a Corporate Law Roundtable featuring prominent transactional attorneys from leading law firms, moderated by Howell E. This year’s roundtable will explore the potential end of Rule 14a-8 and what recent developments…",
-   "event_page": true,
-   "notes": "",
-   "place_name": "Wasserstein Hall (WCC), Harvard Law School",
-   "lat": 42.379383,
-   "lon": -71.119421,
-   "geo_method": "gazetteer",
-   "walk_min": 10
-  },
-  {
-   "id": "eadb4d15e833",
-   "title": "[SALSA] 1L Exam Preperation",
-   "url": "https://hls.harvard.edu/events/salsa-1l-exam-preperation/",
-   "source_id": "hls",
-   "source_name": "Harvard Law School",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-11-16T12:15:00-05:00",
-   "end": "2026-11-16T13:15:00-05:00",
-   "date": "2026-11-16",
-   "all_day": false,
-   "location": "WCC, 3011 Room, Harvard Law School",
-   "online": false,
-   "host": "Harvard South Asian Law Students Association",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "required",
-    "evidence": "Please RSVP in advance for a food headcount: https://forms.gle/zUsvZUkmKg6D8b336.",
-    "link": "http://www.google.com/calendar/event?action=TEMPLATE&text=%5BSALSA%5D%201L%20Exam%20Preperation&dates=20261116T171500Z/20261116T181500Z&details=Join%202Ls%20and%203Ls%20who%20have%20taken%20classes%20with%20an%20assortment%20of%201L%20professors%20for%20advice%20on%20how%20to%20prepare%20for%20exams!%20Please%20RSVP%20in%20advance%20for%20a%20food%20headcount:%20https://forms.gle/zUsvZUkmKg6D8b336.&sprop=Harvard%20Law%20School&location=WCC;%203011%20Room,%20,%20,%20,%20,%20"
-   },
-   "audience": {
-    "level": "restricted",
-    "group": "HLS community",
-    "evidence": "HLS listing audience: HLS only",
-    "basis": "listing"
-   },
-   "summary": "Join 2Ls and 3Ls who have taken classes with an assortment of 1L professors for advice on how to prepare for exams! Please RSVP in advance for a food headcount: https://forms.gle/zUsvZUkmKg6D8b336. Add to Calendar November 16, 2026, 12:15 pm - 1:15 pm +Google Calendar +iCal/Outlook",
-   "blurb": "who have taken classes with an assortment of 1L professors for advice on how to prepare for exams! in advance for a food headcount: https://forms.gle/zUsvZUkmKg6D8b336.",
-   "event_page": true,
-   "notes": "",
-   "place_name": "Wasserstein Hall (WCC), Harvard Law School",
-   "lat": 42.379383,
-   "lon": -71.119421,
-   "geo_method": "gazetteer",
-   "walk_min": 10
-  },
-  {
-   "id": "1a2b5f9233ea",
-   "title": "HLS Beyond Presents: Current AI Tools for Lawyers – A Workshop",
-   "url": "https://hls.harvard.edu/events/hls-beyond-presents-current-ai-tools-for-lawyers-a-workshop/",
-   "source_id": "hls",
-   "source_name": "Harvard Law School",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-11-16T12:20:00-05:00",
-   "end": "2026-11-16T13:20:00-05:00",
-   "date": "2026-11-16",
-   "all_day": false,
-   "location": "Langdell 232/233, Harvard Law School",
-   "online": false,
-   "host": "Harvard Law School",
-   "food": {
-    "status": "confirmed",
-    "types": [
-     "Lunch"
-    ],
-    "evidence": "Lunch will be provided.",
-    "cue": "strong"
-   },
-   "registration": {
-    "status": "required",
-    "evidence": "Registration Required.",
-    "link": "https://forms.gle/X6Wq6Pjd2HeywC5C9"
-   },
-   "audience": {
-    "level": "likely",
-    "group": "law students",
-    "evidence": "Bring your laptops and your appetite and join Debbie Ginsberg of HLSL’s Research Services team for a demonstration of the AI tools currently available to law students.",
-    "basis": "text"
-   },
-   "summary": "Bring your laptops and your appetite and join Debbie Ginsberg of HLSL’s Research Services team for a demonstration of the AI tools currently available to law students. Law students at Harvard have access to many AI research products – from Lexis Protege to Chat GPT. We’ll explore these products together LIVE and…",
-   "blurb": "Bring your laptops and your appetite and join Debbie Ginsberg of HLSL’s Research Services team for a demonstration of the AI tools currently available to law students. Law students at Harvard have access to many AI research products – from Lexis Protege to…",
-   "event_page": true,
-   "notes": "",
-   "place_name": "Langdell Hall, Harvard Law School",
-   "lat": 42.377966,
-   "lon": -71.118497,
-   "geo_method": "gazetteer",
-   "walk_min": 8
-  },
-  {
-   "id": "8663a38a055a",
-   "title": "The American Experiment at 250: Democracy and Legal Theory after 250 Years",
-   "url": "https://hls.harvard.edu/events/the-american-experiment-at-250-democracy-and-legal-theory-after-250-years/",
-   "source_id": "hls",
-   "source_name": "Harvard Law School",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-11-16T12:20:00-05:00",
-   "end": "2026-11-16T13:20:00-05:00",
-   "date": "2026-11-16",
-   "all_day": false,
-   "location": "Milstein West, Harvard Law School",
-   "online": false,
-   "host": "HLS Dean's Office",
-   "food": {
-    "status": "confirmed",
-    "types": [
-     "Lunch"
-    ],
-    "evidence": "Lunch will be provided.",
-    "cue": "strong"
-   },
-   "registration": {
-    "status": "required",
-    "evidence": "Register here.",
-    "link": "https://harvard.az1.qualtrics.com/jfe/form/SV_8prH6xDVCMSkYZM"
-   },
-   "audience": {
-    "level": "restricted",
-    "group": "HLS Community",
-    "evidence": "HLS listing audience: HLS Community",
-    "basis": "listing"
-   },
-   "summary": "Panelists: Jeannie Suk Gersen, John H. Watson, Jr. Professor of Law John C.P. Goldberg, Morgan and Helen Chu Dean and Professor of Law Kenneth Mack, Lawrence D. Biele Professor of Law Rachel Viscomi, Clinical Professor of Law Moderator: Alexandra Natapoff, Lee S. Kreindler Professor of Law Lunch will be provided.…",
-   "blurb": "",
-   "event_page": true,
-   "notes": "",
-   "place_name": "Wasserstein Hall (WCC), Harvard Law School",
-   "lat": 42.379383,
-   "lon": -71.119421,
-   "geo_method": "gazetteer",
-   "walk_min": 10
-  },
-  {
-   "id": "5c31993b1f98",
-   "title": "Winter Term International Travel Pre-Departure Information Session",
-   "url": "https://hls.harvard.edu/events/winter-term-international-travel-pre-departure-information-session/",
-   "source_id": "hls",
-   "source_name": "Harvard Law School",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-11-16T12:20:00-05:00",
-   "end": "2026-11-16T13:20:00-05:00",
-   "date": "2026-11-16",
-   "all_day": false,
-   "location": "Milstein East B, Harvard Law School",
-   "online": false,
-   "host": "Harvard Law School",
-   "food": {
-    "status": "confirmed",
-    "types": [
-     "Lunch"
-    ],
-    "evidence": "Lunch will be served.",
-    "cue": "strong"
-   },
-   "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
-   },
-   "audience": {
-    "level": "restricted",
-    "group": "HLS students",
-    "evidence": "Title: Winter Term International Travel Pre-Departure Information Session",
-    "basis": "inferred"
-   },
-   "summary": "Students planning to travel abroad over Winter Term for HLS credit and/or with Harvard funding must attend a MANDATORY Winter Term international travel information session. (The session will be offered twice; you need only attend one of them.*) Representatives from International Legal Studies, Global Support Services,…",
-   "blurb": "Students planning to travel abroad over Winter Term for HLS credit and/or with Harvard funding must attend a MANDATORY Winter Term international travel information session. (The session will be offered twice; you need only attend one of them. )…",
-   "event_page": true,
-   "notes": "",
-   "place_name": "Wasserstein Hall (WCC), Harvard Law School",
-   "lat": 42.379383,
-   "lon": -71.119421,
-   "geo_method": "gazetteer",
-   "walk_min": 10
-  },
-  {
-   "id": "f234f0bae3a1",
-   "title": "APALSA Exam Strategies Roundtable",
-   "url": "https://hls.harvard.edu/events/apalsa-exam-strategies-roundtable/",
-   "source_id": "hls",
-   "source_name": "Harvard Law School",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-11-16T12:30:00-05:00",
-   "end": "2026-11-16T13:15:00-05:00",
-   "date": "2026-11-16",
-   "all_day": false,
-   "location": "WCC, 3018 Classroom, Harvard Law School",
-   "online": false,
-   "host": "Asian Pacific American Law Student Association",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "required",
-    "evidence": "Registration link on the event page",
-    "link": "http://www.google.com/calendar/event?action=TEMPLATE&text=APALSA%20Exam%20Strategies%20Roundtable&dates=20261116T173000Z/20261116T181500Z&details=For%20each%201L%20doctrinal%20class,%201L%20sections%20will%20be%20paired%20with%202Ls%20and%203Ls%20who%20took%20the%20course%20with%20the%20same%20professor%20(except%20for%20new%20professors).%20The%20event%20will%20follow%20a%20round-robin%20format,%20covering%20all%20four%201L%20doctrinals.%20Please%20RSVP,%20to%20make%20sure%20we%20have%20an%20APALSA%202L/3L%20to%20cover%20your%20professors!&sprop=Harvard%20Law%20School&location=WCC;%203018%20Classroom,%20,%20,%20,%20,%20"
-   },
-   "audience": {
-    "level": "restricted",
-    "group": "HLS community",
-    "evidence": "HLS listing audience: HLS only",
-    "basis": "listing"
-   },
-   "summary": "For each 1L doctrinal class, 1L sections will be paired with 2Ls and 3Ls who took the course with the same professor (except for new professors). The event will follow a round-robin format, covering all four 1L doctrinals. Please RSVP, to make sure we have an APALSA 2L/3L to cover your professors! Add to Calendar…",
-   "blurb": "For each 1L doctrinal class, 1L sections will be paired with 2Ls and 3Ls who took the course with the same professor (except for new professors). The event will follow a round-robin format, covering all four 1L doctrinals.",
-   "event_page": true,
-   "notes": "",
-   "place_name": "Wasserstein Hall (WCC), Harvard Law School",
-   "lat": 42.379383,
-   "lon": -71.119421,
-   "geo_method": "gazetteer",
-   "walk_min": 10
-  },
-  {
-   "id": "4e67693d85b6",
-   "title": "Independent Oversight and the Role of an Inspector General with Professor Jack Goldsmith and Michael Horowitz",
-   "url": "https://hls.harvard.edu/events/edp-lunch-talk-independent-oversight-and-the-role-of-an-inspector-general-with-professor-jack-goldsmith-and-michael-horowitz/",
-   "source_id": "hls",
-   "source_name": "Harvard Law School",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-11-16T12:30:00-05:00",
-   "end": "2026-11-16T13:15:00-05:00",
-   "date": "2026-11-16",
-   "all_day": false,
-   "location": "WCC, 1019 Classroom, Harvard Law School",
-   "online": false,
-   "host": "The Equal Democracy Project",
-   "food": {
-    "status": "confirmed",
-    "types": [
-     "Lunch"
-    ],
-    "evidence": "Lunch will be provided!",
-    "cue": "strong"
-   },
-   "registration": {
-    "status": "required",
-    "evidence": "Please RSVP here: https://forms.gle/jRFpdoNoSidabjRJ6",
-    "link": "http://www.google.com/calendar/event?action=TEMPLATE&text=Independent%20Oversight%20and%20the%20Role%20of%20an%20Inspector%20General%20with%20Professor%20Jack%20Goldsmith%20and%20Michael%20Horowitz&dates=20261116T173000Z/20261116T181500Z&details=Join%20the%20Equal%20Democracy%20Project,%20Antitrust%20Association,%20Blockchain%20&%20Fintech%20Initiative,%20and%20Public%20Interest%20Law%20Students%20Association,%20for%20a%20lunch%20talk%20with%20Professor%20Jack%20Goldsmith%20and%20Michael%20Horowitz,%20the%20Inspector%20General%20for%20the%20Federal%20Reserve%20and%20the%20Consumer%20Financial%20Protection%20Bureau.%20Prior%20to%20his%20role%20with%20the%20Federal%20Reserve%20and%20CFPB,%20Mr.%20Horowitz%20served%20as%20%5B%E2%80%A6%5D&sprop=Harvard%20Law%20School&location=WCC;%201019%20Classroom,%20,%20,%20,%20,%20"
-   },
-   "audience": {
-    "level": "restricted",
-    "group": "HLS students",
-    "evidence": "Run by an HLS student organization",
-    "basis": "inferred"
-   },
-   "summary": "Join the Equal Democracy Project, Antitrust Association, Blockchain & Fintech Initiative, and Public Interest Law Students Association, for a lunch talk with Professor Jack Goldsmith and Michael Horowitz, the Inspector General for the Federal Reserve and the Consumer Financial Protection Bureau. Prior to his role with…",
-   "blurb": "Join the Equal Democracy Project, Antitrust Association, Blockchain & Fintech Initiative, and Public Interest Law Students Association, for a lunch talk with Professor Jack Goldsmith and Michael Horowitz, the Inspector General for the Federal Reserve and the…",
-   "event_page": true,
-   "notes": "",
-   "place_name": "Wasserstein Hall (WCC), Harvard Law School",
-   "lat": 42.379383,
-   "lon": -71.119421,
-   "geo_method": "gazetteer",
-   "walk_min": 10
-  },
-  {
-   "id": "d5c0c5b5dcc3",
-   "title": "Lawyering for Liberation",
-   "url": "https://hls.harvard.edu/events/lawyering-for-liberation/",
-   "source_id": "hls",
-   "source_name": "Harvard Law School",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-11-16T12:30:00-05:00",
-   "end": "2026-11-16T13:15:00-05:00",
-   "date": "2026-11-16",
-   "all_day": false,
-   "location": "WCC, 3019 Classroom, Harvard Law School",
-   "online": false,
-   "host": "Justice for Palestine",
-   "food": {
-    "status": "likely",
-    "types": [
-     "Lunch"
-    ],
-    "evidence": "A lunch talk with Lea Kayali JD ‘24 about movement lawyering and organizing to end arms transfers to Israel."
-   },
-   "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
-   },
-   "audience": {
-    "level": "harvard",
-    "group": "",
-    "evidence": "HLS listing audience: All Harvard",
-    "basis": "listing"
-   },
-   "summary": "A lunch talk with Lea Kayali JD ‘24 about movement lawyering and organizing to end arms transfers to Israel. Lea is a Palestinian community organizer, public defender, writer, and a member of the People’s Arms Embargo campaign steering committee. We will discuss how lawyers can support grassroots organizing and use…",
-   "blurb": "A lunch talk with Lea Kayali JD ‘24 about movement lawyering and organizing to end arms transfers to Israel. Lea is a Palestinian community organizer, public defender, writer, and a member of the People’s Arms Embargo campaign steering committee. We will…",
-   "event_page": true,
-   "notes": "",
-   "place_name": "Wasserstein Hall (WCC), Harvard Law School",
-   "lat": 42.379383,
-   "lon": -71.119421,
-   "geo_method": "gazetteer",
-   "walk_min": 10
-  },
-  {
-   "id": "0b9c1b646d66",
-   "title": "Public Interest and Clerkships Lunch Talk",
-   "url": "https://hls.harvard.edu/events/public-interest-and-clerkships-lunch-talk/",
-   "source_id": "hls",
-   "source_name": "Harvard Law School",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-11-16T12:30:00-05:00",
-   "end": "2026-11-16T13:30:00-05:00",
-   "date": "2026-11-16",
-   "all_day": false,
-   "location": "WCC, 2004 Classroom, Harvard Law School",
-   "online": false,
-   "host": "Harvard Texas Club",
-   "food": {
-    "status": "confirmed",
-    "types": [
-     "Lunch"
-    ],
-    "evidence": "Lunch will be provided.",
-    "cue": "strong"
-   },
-   "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
-   },
-   "audience": {
-    "level": "restricted",
-    "group": "HLS community",
-    "evidence": "HLS listing audience: HLS only",
-    "basis": "listing"
-   },
-   "summary": "Join the Texas Club with panelists to chat about public interest opportunities, clerkships, and more. Lunch will be provided. Add to Calendar November 16, 2026, 12:30 pm - 1:30 pm +Google Calendar +iCal/Outlook",
-   "blurb": "Join the Texas Club with panelists to chat about public interest opportunities, clerkships, and more.",
-   "event_page": true,
-   "notes": "",
-   "place_name": "Wasserstein Hall (WCC), Harvard Law School",
-   "lat": 42.379383,
-   "lon": -71.119421,
-   "geo_method": "gazetteer",
-   "walk_min": 10
-  },
-  {
-   "id": "edf8fb69f844",
-   "title": "Disability Access Office (DAO) Virtual Office Hours",
-   "url": "https://events.college.harvard.edu/dao/event/226010-disability-access-office-dao-virtual-office-hours",
-   "source_id": "college",
-   "source_name": "Harvard College events",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-11-16T14:00:00-05:00",
-   "end": "2026-11-16T15:00:00-05:00",
-   "date": "2026-11-16",
-   "all_day": false,
-   "location": "",
-   "online": true,
-   "host": "Disability Access Office (DAO)",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "none",
-    "evidence": "Students, staff, and faculty are welcome to join our virtual drop-in hours on Zoom Monday and Thursday from 2:00–3:00 PM ET, and Tuesday and Friday from 11:00 AM–12:00 PM ET.",
-    "link": ""
-   },
-   "audience": {
-    "level": "restricted",
-    "group": "undergraduates (First-Year, Junior, Senior, Sophomore)",
-    "evidence": "College calendar audience: First-Year, Junior, Senior, Sophomore",
-    "basis": "listing"
-   },
-   "summary": "Do you have a question about the Disability Access Office (DAO) or want to learn how to get connected with DAO? Students, staff, and faculty are welcome to join our virtual drop-in hours on Zoom Monday and Thursday from 2:00–3:00 PM ET, and Tuesday and Friday from 11:00 AM–12:00 PM ET.",
-   "blurb": "Do you have a question about the Disability Access Office (DAO) or want to learn how to get connected with DAO? Students, staff, and faculty are welcome to join our virtual drop-in hours on Zoom Monday and Thursday from 2:00–3:00 PM ET, and Tuesday and Friday…",
-   "event_page": true,
-   "notes": "",
-   "place_name": "",
-   "lat": null,
-   "lon": null,
-   "geo_method": null,
-   "walk_min": null
-  },
-  {
-   "id": "458add7967ce",
-   "title": "New England Commission of Higher Education Community Listening Session",
-   "url": "https://hls.harvard.edu/events/new-england-commission-of-higher-education-community-listening-session/",
-   "source_id": "hls",
-   "source_name": "Harvard Law School",
-   "also_listed": [
-    {
-     "source_name": "Harvard Gazette calendar",
-     "url": "https://harvard.az1.qualtrics.com/jfe/form/SV_6R3oq9xuSRP54jk"
-    }
-   ],
-   "aliases": [
-    "63cdc0f5e65e"
-   ],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-11-16T14:00:00-05:00",
-   "end": "2026-11-16T15:00:00-05:00",
-   "date": "2026-11-16",
-   "all_day": false,
-   "location": "",
-   "online": false,
-   "host": "Harvard Law School",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "required",
-    "evidence": "Registration required.",
-    "link": "https://harvard.az1.qualtrics.com/jfe/form/SV_6R3oq9xuSRP54jk"
-   },
-   "audience": {
-    "level": "harvard",
-    "group": "",
-    "evidence": "HLS listing audience: All Harvard",
-    "basis": "listing"
-   },
-   "summary": "Harvard will host representatives of its institutional accreditor, the New England Commission of Higher Education (NECHE), as part of a focused evaluation of Harvard’s ongoing efforts to combat discrimination and foster an inclusive learning environment, in accordance with accreditation standards. In addition to a…",
-   "blurb": "Harvard will host representatives of its institutional accreditor, the New England Commission of Higher Education (NECHE), as part of a focused evaluation of Harvard’s ongoing efforts to combat discrimination and foster an inclusive learning environment, in…",
-   "event_page": true,
-   "notes": "",
-   "place_name": "Harvard Law School",
-   "lat": 42.379106,
-   "lon": -71.119679,
-   "geo_method": "host",
-   "walk_min": 10
-  },
-  {
-   "id": "915b72e6c516",
-   "title": "Seyfarth Shaw 1L Coffee Chat",
-   "url": "https://hls.harvard.edu/events/seyfarth-shaw-1l-coffee-chat/",
-   "source_id": "hls",
-   "source_name": "Harvard Law School",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-11-16T14:30:00-05:00",
-   "end": "2026-11-16T16:30:00-05:00",
-   "date": "2026-11-16",
-   "all_day": false,
-   "location": "",
-   "online": false,
-   "host": "OCS",
-   "food": {
-    "status": "likely",
-    "types": [
-     "Coffee"
-    ],
-    "evidence": "Seyfarth Shaw 1L Coffee Chat"
-   },
-   "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
-   },
-   "audience": {
-    "level": "restricted",
-    "group": "HLS 1Ls",
-    "evidence": "HLS listing audience: 1L",
-    "basis": "listing"
-   },
-   "summary": "See CSM/Symplicity for full event details. Add to Calendar November 16, 2026, 2:30 pm - 4:30 pm +Google Calendar +iCal/Outlook",
-   "blurb": "",
-   "event_page": true,
-   "notes": "",
-   "place_name": "Harvard Law School",
-   "lat": 42.379106,
-   "lon": -71.119679,
-   "geo_method": "host",
-   "walk_min": 10
-  },
-  {
-   "id": "cf073afe2ce7",
-   "title": "WAPPP Seminar with Zoe Marks",
-   "url": "https://www.hks.harvard.edu/events/wappp-seminar-zoe-marks",
-   "source_id": "hks",
-   "source_name": "Harvard Kennedy School",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-11-16T15:00:00-05:00",
-   "end": "2026-11-16T16:00:00-05:00",
-   "date": "2026-11-16",
-   "all_day": false,
-   "location": "Online",
-   "online": true,
-   "host": "Women and Public Policy Program",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
-   },
-   "audience": {
-    "level": "unknown",
-    "group": "",
-    "evidence": "",
-    "basis": "none"
-   },
-   "summary": "This seminar is part of WAPPP's Fall 2026 seminar series, which explores how gender intersects with systems of power, and how individuals and movements work to reshape these systems to advance social change. Academic speakers from gender studies, sociology, organizational behavior, philosophy, and related disciplines…",
-   "blurb": "This seminar is part of WAPPP's Fall 2026 seminar series, which explores how gender intersects with systems of power, and how individuals and movements work to reshape these systems to advance social change. Academic speakers from gender studies, sociology…",
-   "event_page": true,
-   "notes": "",
-   "place_name": "",
-   "lat": null,
-   "lon": null,
-   "geo_method": null,
-   "walk_min": null
-  },
-  {
-   "id": "cbe074a78f2b",
-   "title": "SEAS Spring Course-Advising Event",
-   "url": "https://events.college.harvard.edu/fdo/event/225951-seas-spring-course-advising-event",
-   "source_id": "college",
-   "source_name": "Harvard College events",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-11-16T15:30:00-05:00",
-   "end": "2026-11-16T16:30:00-05:00",
-   "date": "2026-11-16",
-   "all_day": false,
-   "location": "Maxwell Dworkin Ground Floor Lobby",
-   "online": false,
-   "host": "SEAS",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "required",
-    "evidence": "Please RSVP here (https://forms.gle/wEFyhbWbnzqdPPjZ6) by Tue.",
-    "link": ""
-   },
-   "audience": {
-    "level": "restricted",
-    "group": "undergraduates",
-    "evidence": "Title: SEAS Spring Course-Advising Event",
-    "basis": "inferred"
-   },
-   "summary": "Come get help choosing your spring courses by attending this SEAS event with concentration advisors from Applied Mathematics, Computer Science, Energy Climate & the Environment, and each of the Engineering tracks: Biomedical, Electrical, Environmental and Mechanical. Saloniki will be served! Please RSVP here…",
-   "blurb": "Come get help choosing your spring courses by attending this SEAS event with concentration advisors from Applied Mathematics, Computer Science, Energy Climate & the Environment, and each of the Engineering tracks: Biomedical, Electrical, Environmental and…",
-   "event_page": true,
-   "notes": "",
-   "place_name": "Pierce Hall / Maxwell Dworkin (SEAS)",
-   "lat": 42.378232,
-   "lon": -71.117134,
-   "geo_method": "gazetteer",
-   "walk_min": 7
-  },
-  {
-   "id": "eb2c17ec45ba",
-   "title": "Visiting Scholar Presentation featuring Li Zhang — Defying Slow Death: Unsafe Food, Governance, and Quiet Social Movements in China",
-   "url": "https://fairbank.fas.harvard.edu/events/visiting-scholar-presentation-featuring-li-zhang-defying-slow-death-unsafe-food-governance-and-quiet-social-movements-in-china/",
-   "source_id": "fairbank",
-   "source_name": "Fairbank Center",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-11-16T15:30:00-05:00",
-   "end": "2026-11-16T16:30:00-05:00",
-   "date": "2026-11-16",
-   "all_day": false,
-   "location": "CGIS South, Room S153, 1730 Cambridge St., Cambridge",
-   "online": false,
-   "host": "Fairbank Center for Chinese Studies",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
-   },
-   "audience": {
-    "level": "unknown",
-    "group": "",
-    "evidence": "",
-    "basis": "none"
-   },
-   "summary": "@ Speaker: Li Zhang (張麗), Assistant Professor of Sociology and Environmental Studies, Amherst College; Fairbank Center Visiting Scholar Discussant: Arthur Kleinman, Esther and Sidney Rabb Research Professor of Anthropology; Research Professor of Medical Anthropology in Global Health and Social Medicine; Professor of…",
-   "blurb": "Why does China’s food safety crisis persist despite new laws, regulatory agencies, and alternative food networks since the 2008 melamine milk scandal? Drawing on more than a decade of ethnography, this talk presents a book manuscript in progress on how the…",
-   "event_page": true,
-   "notes": "",
-   "place_name": "CGIS South Building",
-   "lat": 42.375011,
-   "lon": -71.113135,
-   "geo_method": "gazetteer",
-   "walk_min": 5
-  },
-  {
-   "id": "6ca085b481d2",
-   "title": "Hindu View of Life Lecture: Special Dispensations, Sublime Realities: Keshab Chandra Sen and the Comparative Impulse in the Nineteenth Century",
-   "url": "https://news.harvard.edu/gazette/harvard-events/events-calendar/?trumbaEmbed=view%3Devent%26eventid%3D209113302",
-   "source_id": "gazette",
-   "source_name": "Harvard Gazette calendar",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-11-16T16:00:00-05:00",
-   "end": "2026-11-16T17:30:00-05:00",
-   "date": "2026-11-16",
-   "all_day": false,
-   "location": "Common Room, CSWR, 42 Francis Ave., Cambridge, MA",
-   "online": false,
-   "host": "Center for the Study of World Religions",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "required",
-    "evidence": "Registration required.",
-    "link": "https://harvard.az1.qualtrics.com/jfe/form/SV_1NdJCf9U4WbLvhk"
-   },
-   "audience": {
-    "level": "unknown",
-    "group": "",
-    "evidence": "",
-    "basis": "none"
-   },
-   "summary": "Registration required. Please register to attend in person. Please register to attend on Zoom. Radhakrishnan’s lectures on Hindu views of life 100 years ago emphasize how the world then, after a devastating world war, was witnessing an interchange of thought between religions through the mingling of populations.…",
-   "blurb": "Please register to attend in person. Please register to attend on Zoom. Radhakrishnan’s lectures on Hindu views of life 100 years ago emphasize how the world then, after a devastating world war, was witnessing an interchange of thought between religions…",
-   "event_page": true,
-   "notes": "",
-   "place_name": "Center for the Study of World Religions",
-   "lat": 42.380142,
-   "lon": -71.112151,
-   "geo_method": "gazetteer",
-   "walk_min": 5
-  },
-  {
-   "id": "0acc98b115f6",
-   "title": "Overview of Summer Research Opportunities",
-   "url": "https://events.college.harvard.edu/uraf/event/225815-overview-of-summer-research-opportunities",
-   "source_id": "college",
-   "source_name": "Harvard College events",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-11-16T16:00:00-05:00",
-   "end": null,
-   "date": "2026-11-16",
-   "all_day": false,
-   "location": "",
-   "online": false,
-   "host": "Office of Undergraduate Research and Fellowships",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://events.college.harvard.edu/uraf/event/225815-overview-of-summer-research-opportunities"
-   },
-   "audience": {
-    "level": "restricted",
-    "group": "undergraduates (First-Year, Junior, Senior, Sophomore)",
-    "evidence": "College calendar audience: First-Year, Junior, Senior, Sophomore",
-    "basis": "listing"
-   },
-   "summary": "Learn about the summer research opportunities URAF has to offer, from HSURV to our Summer Scholars program. Many of our opportunities have the option to live and eat on campus for the summer while pursuing your research and building community with other college students.",
-   "blurb": "Learn about the summer research opportunities URAF has to offer, from HSURV to our Summer Scholars program. our opportunities have the option to live and eat on campus for the summer while pursuing your research and building community with other college…",
-   "event_page": true,
-   "notes": "",
-   "place_name": "",
-   "lat": null,
-   "lon": null,
-   "geo_method": null,
-   "walk_min": null
-  },
-  {
-   "id": "7680d3dd405d",
-   "title": "Uzbekistan, China, and the Green Transition: Rethinking Development in the Global South",
-   "url": "https://daviscenter.fas.harvard.edu/events/uzbekistan-china-and-green-transition-rethinking-development-global-south",
-   "source_id": "gazette",
-   "source_name": "Harvard Gazette calendar",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-11-16T16:30:00-05:00",
-   "end": "2026-11-16T18:00:00-05:00",
-   "date": "2026-11-16",
-   "all_day": false,
-   "location": "S354 CGIS South, 1730 Cambridge St., Cambridge",
-   "online": false,
-   "host": "Davis Center for Russian and Eurasian Studies",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "required",
-    "evidence": "Registration link on the event page",
-    "link": "https://www.eventbrite.com/e/uzbekistan-china-and-green-transition-development-in-the-global-south-tickets-2004397502888?aff=oddtdtcreator"
-   },
-   "audience": {
-    "level": "unknown",
-    "group": "",
-    "evidence": "",
-    "basis": "none"
-   },
-   "summary": "How is Uzbekistan navigating economic liberalization and the green transition as China’s role in its industrial development expands? The talk examines the forces shaping this transformation, focusing on automotive production, electric vehicles, and renewable energy. It frames Uzbekistan’s economic doctrine as a form…",
-   "blurb": "How is Uzbekistan navigating economic liberalization and the green transition as China’s role in its industrial development expands? The talk examines the forces shaping this transformation, focusing on automotive production, electric vehicles, and renewable…",
-   "event_page": true,
-   "notes": "Cost: Free | Harvard Key required: No",
-   "place_name": "CGIS South Building",
-   "lat": 42.375011,
-   "lon": -71.113135,
-   "geo_method": "gazetteer",
-   "walk_min": 5
-  },
-  {
-   "id": "a342c8c39c83",
-   "title": "A Conversation with South Korean Ambassador Kang Kyung-wha",
-   "url": "https://www.hks.harvard.edu/events/conversation-south-korean-ambassador-kang-kyung-wha",
-   "source_id": "hks",
-   "source_name": "Harvard Kennedy School",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-11-16T17:00:00-05:00",
-   "end": "2026-11-16T18:00:00-05:00",
-   "date": "2026-11-16",
-   "all_day": false,
-   "location": "Rubenstein 414-ab",
-   "online": false,
-   "host": "Program on Diplomacy and Statecraft",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
-   },
-   "audience": {
-    "level": "unknown",
-    "group": "",
-    "evidence": "",
-    "basis": "none"
-   },
-   "summary": "Join us for a fireside chat between Kang Kyung-wha, Ambassador of the Republic of Korea (ROK) to the United States, and Ambassador Nicholas Burns on the enduring importance and future of the ROK-U.S. alliance amid strategic competition in the Indo-Pacific. Ambassador Kang Kyung-wha was appointed Ambassador…",
-   "blurb": "Join us for a fireside chat between Kang Kyung-wha, Ambassador of the Republic of Korea (ROK) to the United States, and Ambassador Nicholas Burns on the enduring importance and future of the ROK-U.S. alliance amid strategic competition in the Indo-Pacific.…",
-   "event_page": true,
-   "notes": "",
-   "place_name": "Rubenstein Building, Harvard Kennedy School",
-   "lat": 42.371243,
-   "lon": -71.122687,
-   "geo_method": "gazetteer",
-   "walk_min": 18
-  },
-  {
-   "id": "bce376b5651c",
-   "title": "Leading Under Pressure: Tarana Burke on Sexual and Gender-Based Violence",
-   "url": "https://www.hks.harvard.edu/events/leading-under-pressure-tarana-burke-sexual-and-gender-based-violence",
-   "source_id": "gazette",
-   "source_name": "Harvard Gazette calendar",
-   "also_listed": [
-    {
-     "source_name": "Harvard Kennedy School",
-     "url": "https://www.hks.harvard.edu/events/leading-under-pressure-tarana-burke-sexual-and-gender-based-violence"
-    }
-   ],
-   "aliases": [
-    "d91df8309795"
-   ],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-11-16T17:30:00-05:00",
-   "end": "2026-11-16T18:45:00-05:00",
-   "date": "2026-11-16",
-   "all_day": false,
-   "location": "Starr Auditorium, Belfer Building 3rd Floor, Harvard Kennedy School, 79 John F. Kennedy St., Cambridge",
-   "online": false,
-   "host": "Harvard Kennedy School; Center for Public Leadership",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "required",
-    "evidence": "Registration link on the event page",
-    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001lUy9IAE&_gl=1*1u01o9c*_gcl_au*MTYyODYwMjg4Ny4xNzg4OTY5MDI3LjM0OTU2ODgxMy4xNzk0MjQwNjQ4LjE3OTQyNDA2NDcuMTEyNTg1NDIxMi4xNzk0MjQwNjQ4LjE3OTQyNDA2NDc.*_ga*OTM1MzMxODkzLjE3ODg5NzEwMjg.*_ga_72NC9RC7VN*czE3OTQ0ODgyMTckbzM5JGcxJHQxNzk0NDk3Njk5JGozMCRsMCRoMTM2NjU5OTc1"
-   },
-   "audience": {
-    "level": "harvard",
-    "group": "",
-    "evidence": "This event is open to HUID holders only.",
-    "basis": "text"
-   },
-   "summary": "This event is open to HUID holders only. What does principled leadership require when sexual and gender-based violence occurs within an institution or across the wider cultural and policy landscape? In this conversation, Tarana Burke, Founder, 'me too.' Movement and CPL Hauser Leader, and Kishaya Delaney MPP 2027, CPL…",
-   "blurb": "This event is open to HUID holders only. What does principled leadership require when sexual and gender-based violence occurs within an institution or across the wider cultural and policy landscape? In this conversation, Tarana Burke, Founder, 'me too.'…",
-   "event_page": true,
-   "notes": "Cost: Free, Harvard ID required | Harvard Key required: No",
-   "place_name": "Belfer Building, Harvard Kennedy School",
-   "lat": 42.37141,
-   "lon": -71.121513,
-   "geo_method": "gazetteer",
-   "walk_min": 17
-  },
-  {
-   "id": "13b4a37e87c3",
-   "title": "First Class Community Dinner",
-   "url": "https://hls.harvard.edu/events/first-class-community-dinner-6/",
-   "source_id": "hls",
-   "source_name": "Harvard Law School",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-11-16T18:00:00-05:00",
-   "end": "2026-11-16T20:00:00-05:00",
-   "date": "2026-11-16",
-   "all_day": false,
-   "location": "WCC, 1019 Classroom, Harvard Law School",
-   "online": false,
-   "host": "First Class Law Students Association",
-   "food": {
-    "status": "confirmed",
-    "types": [
-     "Dinner"
-    ],
-    "evidence": "Come join us for our monthly First Class Community Dinner!",
-    "cue": "weak"
-   },
-   "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
-   },
-   "audience": {
-    "level": "restricted",
-    "group": "HLS community",
-    "evidence": "HLS listing audience: HLS only",
-    "basis": "listing"
-   },
-   "summary": "Come join us for our monthly First Class Community Dinner! Add to Calendar November 16, 2026, 6:00 pm - 8:00 pm +Google Calendar +iCal/Outlook",
-   "blurb": "",
-   "event_page": true,
-   "notes": "",
-   "place_name": "Wasserstein Hall (WCC), Harvard Law School",
-   "lat": 42.379383,
-   "lon": -71.119421,
-   "geo_method": "gazetteer",
-   "walk_min": 10
-  },
-  {
-   "id": "11d585b275d5",
-   "title": "Making the Vision: Venture Capital, Creativity, and the Power of Story with Filmmaker David Fialkow",
-   "url": "https://iop.harvard.edu/events/making-vision-venture-capital-creativity-and-power-story-david-fialkow-oscar-winning",
-   "source_id": "gazette",
-   "source_name": "Harvard Gazette calendar",
-   "also_listed": [
-    {
-     "source_name": "Forwarded: Election Week at the IOP!",
-     "url": "https://iop.harvard.edu/events/making-vision-venture-capital-creativity-and-power-story-david-fialkow-oscar-winning"
-    },
-    {
-     "source_name": "Harvard Kennedy School",
-     "url": "https://www.hks.harvard.edu/events/making-vision-venture-capital-creativity-and-power-story"
-    },
-    {
-     "source_name": "Harvard College events",
-     "url": "https://events.college.harvard.edu/event/225992-making-the-vision-venture-capital-creativity-and"
-    }
-   ],
-   "aliases": [
-    "26bf44397f2c",
-    "def67110b4d9",
-    "e7aea9ef928a"
-   ],
-   "suggested": null,
-   "forwarded": {
-    "by": "Ellen",
-    "subject": "Election Week at the IOP!",
-    "missing": []
-   },
-   "start": "2026-11-16T18:00:00-05:00",
-   "end": "2026-11-16T19:00:00-05:00",
-   "date": "2026-11-16",
-   "all_day": false,
-   "location": "JFK Jr. Forum, 79 JFK St., Cambridge",
-   "online": false,
-   "host": "Institute of Politics at Harvard Kennedy School",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "required",
-    "evidence": "Registration link on the event page",
-    "link": "https://iop.harvard.edu/events/making-vision-venture-capital-creativity-and-power-story-david-fialkow-oscar-winning"
-   },
-   "audience": {
-    "level": "unknown",
-    "group": "",
-    "evidence": "",
-    "basis": "none"
-   },
-   "summary": "David Fialkow joins us for a conversation that will explore the intersection of entrepreneurship, investing, and storytelling, drawing on his experience as a successful venture capitalist and award-winning filmmaker. Together, we’ll examine the power of storytelling to inspire and influence, and how great ideas turn…",
-   "blurb": "David Fialkow joins us for a conversation that will explore the intersection of entrepreneurship, investing, and storytelling, drawing on his experience as a successful venture capitalist and award-winning filmmaker. Together, we’ll examine the power of…",
-   "event_page": true,
-   "notes": "Cost: Free | Harvard Key required: No",
-   "place_name": "Littauer Building, Harvard Kennedy School",
-   "lat": 42.371045,
-   "lon": -71.12209,
-   "geo_method": "gazetteer",
-   "walk_min": 18
-  },
-  {
-   "id": "863b414a980d",
-   "title": "Reading Group",
-   "url": "https://hls.harvard.edu/events/hls-dems-reading-group-2/",
-   "source_id": "hls",
-   "source_name": "Harvard Law School",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-11-16T18:00:00-05:00",
-   "end": "2026-11-16T19:30:00-05:00",
-   "date": "2026-11-16",
-   "all_day": false,
-   "location": "WCC, 4057 Room, Harvard Law School",
-   "online": false,
-   "host": "Harvard Law School Democrats",
-   "food": {
-    "status": "confirmed",
-    "types": [
-     "Dinner"
-    ],
-    "evidence": "Dinner will be provided.",
-    "cue": "strong"
-   },
-   "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
-   },
-   "audience": {
-    "level": "restricted",
-    "group": "HLS community",
-    "evidence": "HLS listing audience: HLS only",
-    "basis": "listing"
-   },
-   "summary": "Please join HLS Dems for our Reading Group! Dinner will be provided. Add to Calendar November 16, 2026, 6:00 pm - 7:30 pm +Google Calendar +iCal/Outlook",
-   "blurb": "",
-   "event_page": true,
-   "notes": "",
-   "place_name": "Wasserstein Hall (WCC), Harvard Law School",
-   "lat": 42.379383,
-   "lon": -71.119421,
-   "geo_method": "gazetteer",
-   "walk_min": 10
-  },
-  {
-   "id": "c4b28c8d2477",
-   "title": "Texas Club Friendsgiving",
-   "url": "https://hls.harvard.edu/events/texas-club-friendsgiving/",
-   "source_id": "hls",
-   "source_name": "Harvard Law School",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-11-16T18:00:00-05:00",
-   "end": "2026-11-16T21:00:00-05:00",
-   "date": "2026-11-16",
-   "all_day": false,
-   "location": "WCC, 1015 Classroom, Harvard Law School",
-   "online": false,
-   "host": "Harvard Texas Club",
-   "food": {
-    "status": "confirmed",
-    "types": [
-     "Food"
-    ],
-    "evidence": "Enjoy food, drinks, games, and movies as we come together to celebrate the season.",
-    "cue": "weak"
-   },
-   "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
-   },
-   "audience": {
-    "level": "harvard",
-    "group": "",
-    "evidence": "HLS listing audience: All Harvard",
-    "basis": "listing"
-   },
-   "summary": "Join the Texas Club for our first annual Friendsgiving! Enjoy food, drinks, games, and movies as we come together to celebrate the season. We can’t wait to see you there! Add to Calendar November 16, 2026, 6:00 pm - 9:00 pm +Google Calendar +iCal/Outlook",
-   "blurb": "Join the Texas Club for our first annual Friendsgiving! Enjoy food, drinks, games, and movies as we come together to celebrate the season. We can’t wait to see you there!",
-   "event_page": true,
-   "notes": "",
-   "place_name": "Wasserstein Hall (WCC), Harvard Law School",
-   "lat": 42.379383,
-   "lon": -71.119421,
-   "geo_method": "gazetteer",
-   "walk_min": 10
-  },
-  {
-   "id": "39610d121e1e",
-   "title": "Nowhere to Go",
-   "url": "https://harvardfilmarchive.org/calendar/nowhere-to-go-2026-11",
-   "source_id": "gazette",
-   "source_name": "Harvard Gazette calendar",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-11-16T19:00:00-05:00",
-   "end": "2026-11-16T20:30:00-05:00",
-   "date": "2026-11-16",
-   "all_day": false,
-   "location": "Harvard Film Archive, 24 Quincy St., Cambridge",
-   "online": false,
-   "host": "Harvard Film Archive",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "required",
-    "evidence": "Registration link on the event page",
-    "link": "https://harvardfilmarchive.org/calendar/nowhere-to-go-2026-11"
-   },
-   "audience": {
-    "level": "unknown",
-    "group": "",
-    "evidence": "",
-    "basis": "none"
-   },
-   "summary": "This austere thriller is a cinematic tour de force, as chillingly detached as its antihero, an escaped convict pursuing stolen loot in a safety deposit box. Co-written by famous critic Kenneth Tynan, the film also features Maggie Smith in her feature debut.",
-   "blurb": "This austere thriller is a cinematic tour de force, as chillingly detached as its antihero, an escaped convict pursuing stolen loot in a safety deposit box. Co-written by famous critic Kenneth Tynan, the film also features Maggie Smith in her feature debut.",
-   "event_page": true,
-   "notes": "Cost: $10 / $8 seniors & non-Harvard students / Harvard students free | Harvard Key required: No",
-   "place_name": "Carpenter Center",
-   "lat": 42.373704,
-   "lon": -71.114276,
-   "geo_method": "gazetteer",
-   "walk_min": 7
-  },
-  {
-   "id": "cead20afa4cf",
-   "title": "Sophomore Mentoring: Pies in the Faculty Deans’ Residence",
-   "url": "https://events.college.harvard.edu/dunster-house/event/223987-sophomore-mentoring-pies-in-the-faculty-deans",
-   "source_id": "college",
-   "source_name": "Harvard College events",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-11-16T20:15:00-05:00",
-   "end": null,
-   "date": "2026-11-16",
-   "all_day": false,
-   "location": "Dunster Faculty Deans’ Residence",
-   "online": false,
-   "host": "Dunster House",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
-   },
-   "audience": {
-    "level": "restricted",
-    "group": "undergraduates (Sophomore)",
-    "evidence": "College calendar audience: Sophomore",
-    "basis": "listing"
-   },
-   "summary": "Join us for a Sophomore Mentoring event with pies in the Faculty Deans’ Residence. Join us for a Sophomore Mentoring event with pies in the Faculty Deans’ Residence.",
-   "blurb": "Join us for a Sophomore Mentoring event with pies in the Faculty Deans’ Residence. Join us for a Sophomore Mentoring event with pies in the Faculty Deans’ Residence.",
-   "event_page": true,
-   "notes": "",
-   "place_name": "Dunster House",
-   "lat": 42.3686,
-   "lon": -71.115896,
-   "geo_method": "host",
-   "walk_min": 17
-  },
-  {
-   "id": "1453810d365a",
-   "title": "Register for OFA Dance Community Courses",
-   "url": "https://events.college.harvard.edu/ofa/event/223735-register-for-ofa-dance-community-courses",
-   "source_id": "college",
-   "source_name": "Harvard College events",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-11-16T23:00:00-05:00",
-   "end": null,
-   "date": "2026-11-16",
-   "all_day": true,
-   "location": "",
-   "online": false,
-   "host": "Office for the Arts (OFA) Dance Program",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "required",
-    "evidence": "All are welcome to register for the OFA Dance Program’s Fall 2026 Community Courses which starts September 2!",
-    "link": "https://ofa.fas.harvard.edu/dance-program-community-classes"
-   },
-   "audience": {
-    "level": "public",
-    "group": "",
-    "evidence": "All are welcome to register for the OFA Dance Program’s Fall 2026 Community Courses which starts September 2!",
-    "basis": "text"
-   },
-   "summary": "All are welcome to register for the OFA Dance Program’s Fall 2026 Community Courses which starts September 2! Courses range across global dance traditions and movement frameworks including Ballet, Bharatanatyam, Conditioning, Contemporary, Feldenkrais, Gaga+, Hip-Hop, Kathak, Soca Fusion, Vogue, and West African, with…",
-   "blurb": "Courses range across global dance traditions and movement frameworks including Ballet, Bharatanatyam, Conditioning, Contemporary, Feldenkrais, Gaga+, Hip-Hop, Kathak, Soca Fusion, Vogue, and West African, with levels from beginner to advanced. Taught by…",
-   "event_page": true,
-   "notes": "",
-   "place_name": "",
-   "lat": null,
-   "lon": null,
-   "geo_method": null,
-   "walk_min": null
-  },
-  {
-   "id": "217a6d33fab5",
-   "title": "11th Monday - Fall Term - Last day upon which students may submit completed forms to withdraw from a fall term course.",
-   "url": "https://events.college.harvard.edu/academic_calendar/event/197580-11th-monday-fall-term-last-day-upon-which",
-   "source_id": "college",
-   "source_name": "Harvard College events",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-11-16T23:59:00-05:00",
-   "end": null,
-   "date": "2026-11-16",
-   "all_day": false,
-   "location": "",
-   "online": false,
-   "host": "Academic Calendar",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
-   },
-   "audience": {
-    "level": "restricted",
-    "group": "Harvard College students",
-    "evidence": "Harvard College calendar, no sign it is open to others",
-    "basis": "default"
-   },
-   "summary": "This is the deadline for students to submit completed (with all signatures) withdrawal forms to FASRO. A notation of WD will be permanently recorded on the transcript. After this date students are responsible for all courses in which they are enrolled.",
-   "blurb": "This is the deadline for students to submit completed (with all signatures) withdrawal forms to FASRO. A notation of WD will be permanently recorded on the transcript. After this date students are responsible for all courses in which they are enrolled.",
-   "event_page": true,
-   "notes": "",
-   "place_name": "",
-   "lat": null,
-   "lon": null,
-   "geo_method": null,
-   "walk_min": null
-  },
-  {
-   "id": "a80dc2499d62",
-   "title": "11th Monday - Fall Term - No course may be changed from letter-graded to Pass/Fail or from Pass/Fail to letter-graded status after this date.",
-   "url": "https://events.college.harvard.edu/academic_calendar/event/197581-11th-monday-fall-term-no-course-may-be-changed",
-   "source_id": "college",
-   "source_name": "Harvard College events",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-11-16T23:59:00-05:00",
-   "end": null,
-   "date": "2026-11-16",
-   "all_day": false,
-   "location": "",
-   "online": false,
-   "host": "Academic Calendar",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "required",
-    "evidence": "Registration link on the event page",
-    "link": "https://registrar.fas.harvard.edu/enrollment#grading-basis-change"
-   },
-   "audience": {
-    "level": "restricted",
-    "group": "Harvard College students",
-    "evidence": "Harvard College calendar, no sign it is open to others",
-    "basis": "default"
-   },
-   "summary": "Visit the Change of Grading Basis section of the Enrollment webpage on the FAS Registrar’s Office website.",
-   "blurb": "Visit the Change of Grading Basis section of the Enrollment webpage on the FAS Registrar’s Office website.",
-   "event_page": true,
-   "notes": "",
-   "place_name": "",
-   "lat": null,
-   "lon": null,
-   "geo_method": null,
-   "walk_min": null
-  },
   {
    "id": "edb9eadcb5c3",
    "title": "Calling All Harvard Student Founders: Apply for the 2027 President’s Innovation Challenge today!",
@@ -3354,6 +890,56 @@
    "walk_min": 7
   },
   {
+   "id": "608fe38f30ad",
+   "title": "Dance in Public",
+   "url": "https://events.college.harvard.edu/ofa/event/223329-dance-in-public",
+   "source_id": "college",
+   "source_name": "Harvard College events",
+   "also_listed": [
+    {
+     "source_name": "Harvard Kennedy School",
+     "url": "https://www.hks.harvard.edu/events/speaking-under-pressure-public-speaking-workshop"
+    }
+   ],
+   "aliases": [
+    "d19364e8fd55"
+   ],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-17T11:00:00-05:00",
+   "end": "2026-11-17T12:00:00-05:00",
+   "date": "2026-11-17",
+   "all_day": false,
+   "location": "Richard A. and Susan F. Smith Campus Center",
+   "online": false,
+   "host": "Office for the Arts Dance Program",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "none",
+    "evidence": "Each individual lab session is open to Harvard student drop-in participation.",
+    "link": ""
+   },
+   "audience": {
+    "level": "likely",
+    "group": "Harvard student drop-in participation",
+    "evidence": "Each individual lab session is open to Harvard student drop-in participation.",
+    "basis": "text"
+   },
+   "summary": "Join the Dance in Public Undergraduate Research Fellows who will be investigating and activating sites throughout the academic year, exploring themes in design and architecture, civic engagement, creative research, and public life. Each individual lab session is open to Harvard student drop-in participation. REGISTER…",
+   "blurb": "who will be investigating and activating sites throughout the academic year, exploring themes in design and architecture, civic engagement, creative research, and public life. Each individual lab session is open to Harvard student drop-in participation. Visit…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Richard A. and Susan F. Smith Campus Center",
+   "lat": 42.372951,
+   "lon": -71.118484,
+   "geo_method": "source",
+   "walk_min": 12
+  },
+  {
    "id": "8256f1f213e2",
    "title": "Disability Access Office (DAO) Virtual Office Hours",
    "url": "https://events.college.harvard.edu/dao/event/226070-disability-access-office-dao-virtual-office-hours",
@@ -3388,6 +974,49 @@
    },
    "summary": "Do you have a question about the Disability Access Office (DAO) or want to learn how to get connected with DAO? Students, staff, and faculty are welcome to join our virtual drop-in hours on Zoom Monday and Thursday from 2:00–3:00 PM ET, and Tuesday and Friday from 11:00 AM–12:00 PM ET.",
    "blurb": "Do you have a question about the Disability Access Office (DAO) or want to learn how to get connected with DAO? Students, staff, and faculty are welcome to join our virtual drop-in hours on Zoom Monday and Thursday from 2:00–3:00 PM ET, and Tuesday and Friday…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "",
+   "lat": null,
+   "lon": null,
+   "geo_method": null,
+   "walk_min": null
+  },
+  {
+   "id": "ca81dd04eb98",
+   "title": "Harvard/Yale Merch Drop",
+   "url": "https://soco.college.harvard.edu/rsvp?id=383480",
+   "source_id": "college",
+   "source_name": "Harvard College events",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-17T11:00:00-05:00",
+   "end": "2026-11-17T17:00:00-05:00",
+   "date": "2026-11-17",
+   "all_day": false,
+   "location": "SoCo",
+   "online": false,
+   "host": "Dean of Students Office",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "Registration link on the event page",
+    "link": "https://soco.college.harvard.edu/rsvp?id=383480"
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "Harvard College students",
+    "evidence": "Harvard College calendar, no sign it is open to others",
+    "basis": "default"
+   },
+   "summary": "Merch drop throughout the Yard. — Event Details: https://soco.college.harvard.edu/rsvp?id=383480",
+   "blurb": "",
    "event_page": true,
    "notes": "",
    "place_name": "",
@@ -3438,56 +1067,6 @@
    "lon": -71.117051,
    "geo_method": "gazetteer",
    "walk_min": 7
-  },
-  {
-   "id": "608fe38f30ad",
-   "title": "Speaking Under Pressure: A Public Speaking Workshop",
-   "url": "https://www.hks.harvard.edu/events/speaking-under-pressure-public-speaking-workshop",
-   "source_id": "hks",
-   "source_name": "Harvard Kennedy School",
-   "also_listed": [
-    {
-     "source_name": "Harvard College events",
-     "url": "https://events.college.harvard.edu/ofa/event/223329-dance-in-public"
-    }
-   ],
-   "aliases": [
-    "d19364e8fd55"
-   ],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-11-17T11:00:00-05:00",
-   "end": "2026-11-17T12:00:00-05:00",
-   "date": "2026-11-17",
-   "all_day": false,
-   "location": "Rubenstein 229",
-   "online": false,
-   "host": "Communications Program",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001kVY5IAM"
-   },
-   "audience": {
-    "level": "likely",
-    "group": "Harvard student drop-in participation",
-    "evidence": "Each individual lab session is open to Harvard student drop-in participation.",
-    "basis": "text"
-   },
-   "summary": "Speaking Under Pressure Public speaking can be nerve-racking enough, but speaking when being criticized, asked hostile questions, or otherwise uncomfortably challenged is particularly difficult. With both discussion and live practice, this session will explore techniques for responding effectively so that you protect…",
-   "blurb": "who will be investigating and activating sites throughout the academic year, exploring themes in design and architecture, civic engagement, creative research, and public life. Each individual lab session is open to Harvard student drop-in participation. Visit…",
-   "event_page": true,
-   "notes": "",
-   "place_name": "Rubenstein Building, Harvard Kennedy School",
-   "lat": 42.371243,
-   "lon": -71.122687,
-   "geo_method": "gazetteer",
-   "walk_min": 18
   },
   {
    "id": "c0517f4b82f3",
@@ -3621,6 +1200,53 @@
    "walk_min": 13
   },
   {
+   "id": "999bf02b3f9b",
+   "title": "Events Calendar",
+   "url": "https://hls.harvard.edu/calendar/",
+   "source_id": "suggested",
+   "source_name": "Suggested calendar: HLS",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-17T12:00:00-05:00",
+   "end": null,
+   "date": "2026-11-17",
+   "all_day": true,
+   "location": "",
+   "online": false,
+   "host": "",
+   "food": {
+    "status": "confirmed",
+    "types": [
+     "Lunch",
+     "Snacks"
+    ],
+    "evidence": "Lunch will be served!…",
+    "cue": "strong"
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "HLS students—come learn more and get your bar exam questions answered",
+    "evidence": "Open to all HLS students—come learn more and get your bar exam questions answered!…",
+    "basis": "text"
+   },
+   "summary": "November 17 Tuesday • 15 events Harvard Law Run Club Tuesday Run 8:00 am - 9:00 am Join Harvard Law Run Club for a 4 mile run at 8am! We will meet outside the WCC between Casperson, Langdell, and Hauser. All paces are welcome!… Proskauer 1L Coffee Chat 11:30 am - 1:30 pm See CSM/Symplicity for full event details.…",
+   "blurb": "Join Harvard Law Run Club for a 4 mile run at 8am! We will meet outside the WCC between Casperson, Langdell, and Hauser. See CSM/Symplicity for full event details. Join JLSA for practical tips and valuable guidance on preparing for final exams, including…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Harvard Law School",
+   "lat": 42.379106,
+   "lon": -71.119679,
+   "geo_method": "host",
+   "walk_min": 10
+  },
+  {
    "id": "7af211cf3714",
    "title": "James C. Gaither Junior Fellows at the Carnegie Endowment for International Peace Application Deadline",
    "url": "https://events.college.harvard.edu/uraf/event/225367-james-c-gaither-application-deadline",
@@ -3686,9 +1312,9 @@
     "evidence": ""
    },
    "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://forms.gle/D7XfKHbQmrDC3gLZ6"
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
    },
    "audience": {
     "level": "unknown",
@@ -3862,16 +1488,11 @@
    "source_name": "Harvard Law School",
    "also_listed": [
     {
-     "source_name": "Harvard College events",
-     "url": "https://events.college.harvard.edu/uraf/event/225013-sharp-info-session"
-    },
-    {
      "source_name": "Harvard Gazette calendar",
      "url": "https://crimson.toastmastersclubs.org/"
     }
    ],
    "aliases": [
-    "28ce28bc8256",
     "de1dfaf7de3f"
    ],
    "suggested": null,
@@ -3893,8 +1514,8 @@
    },
    "registration": {
     "status": "required",
-    "evidence": "Registration is required.",
-    "link": "https://events.college.harvard.edu/uraf/event/225013-sharp-info-session"
+    "evidence": "To register: harvard.zoom.us…",
+    "link": "https://harvard.zoom.us/meeting/register/ksJO4uV4TyqH1ULLWQ4dcQ#/registration"
    },
    "audience": {
     "level": "restricted",
@@ -3903,7 +1524,7 @@
     "basis": "listing"
    },
    "summary": "Join La Alianza for a lunchtime event featuring important bar exam information, yummy food, and an opportunity to ask your questions directly to HLS DOS-CEEB Bar Advisor Sarah Parker. Open to all HLS students—come learn more and get your bar exam questions answered! Add to Calendar November 17, 2026, 12:15 pm - 1:15…",
-   "blurb": "SHARP provides students with diverse research opportunities across the arts and humanities in an exciting range of research settings. Prospective fellows apply to a selection of proposed projects from Harvard affiliates or propose their own mentored project.…",
+   "blurb": "Join us for the next Crimson Toastmasters Information Session to learn how Toastmasters can help you build confidence, strengthen your communication skills, and develop your leadership abilities. Crimson Toastmasters offers a supportive, low-key environment…",
    "event_page": true,
    "notes": "",
    "place_name": "Wasserstein Hall (WCC), Harvard Law School",
@@ -4187,6 +1808,49 @@
    "walk_min": 10
   },
   {
+   "id": "98ba491930a6",
+   "title": "Pop-Up Renaissance Concert",
+   "url": "https://harvardartmuseums.org/event/4135?utm_source=gazette&utm_medium=listing&utm_campaign=Renaissance+Concert&utm_id=Pop-Up+Renaissance+Concert",
+   "source_id": "gazette",
+   "source_name": "Harvard Gazette calendar",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-17T14:00:00-05:00",
+   "end": "2026-11-17T14:45:00-05:00",
+   "date": "2026-11-17",
+   "all_day": false,
+   "location": "Harvard Art Museums, 32 Quincy St., Cambridge",
+   "online": false,
+   "host": "Harvard Art Museums; Harvard Viol Consort",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "The Harvard Viol Consort, a group of students from Harvard’s course Performance and Culture: Renaissance Music (Music 181R), will put on a pop-up concert in the Calderwood Courtyard. The course is taught by Professor Kate van Orden and assisted by Laura Jeppesen. The performers will play compositions for viol by…",
+   "blurb": "The Harvard Viol Consort, a group of students from Harvard’s course Performance and Culture: Renaissance Music (Music 181R), will put on a pop-up concert in the Calderwood Courtyard. The course is taught by Professor Kate van Orden and assisted by Laura…",
+   "event_page": true,
+   "notes": "Cost: Free admission | Harvard Key required: No",
+   "place_name": "Harvard Art Museums",
+   "lat": 42.374099,
+   "lon": -71.114113,
+   "geo_method": "gazetteer",
+   "walk_min": 7
+  },
+  {
    "id": "3cf76c001728",
    "title": "Creator Nationalism: Platforms, Politics, and Influence",
    "url": "https://shorensteincenter.org/event/creator-nationalism-platforms-politics-and-influence/",
@@ -4371,49 +2035,6 @@
    "walk_min": 12
   },
   {
-   "id": "3b5d962ab91d",
-   "title": "Amb. Nathalie Rayes Study Group: Diplomacy, Leadership, & US-Denmark Partnership",
-   "url": "https://www.hks.harvard.edu/events/amb-nathalie-rayes-study-group-diplomacy-leadership-us-denmark-partnership",
-   "source_id": "hks",
-   "source_name": "Harvard Kennedy School",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-11-17T16:00:00-05:00",
-   "end": "2026-11-17T17:15:00-05:00",
-   "date": "2026-11-17",
-   "all_day": false,
-   "location": "T-102",
-   "online": false,
-   "host": "Institute of Politics (IOP)",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://iop.harvard.edu/events/study-group-ambassador-nathalie-rayes-outside-lines-diplomacy-leadership-and-us-denmark"
-   },
-   "audience": {
-    "level": "restricted",
-    "group": "HKS students",
-    "evidence": "Title: Amb. Nathalie Rayes Study Group: Diplomacy, Leadership, & US-Denmark Partnership",
-    "basis": "inferred"
-   },
-   "summary": "Join Ambassador Nathalie Rayes for a conversation about the enduring relationship between the United States and Denmark, the importance of transatlantic alliances, and the role of diplomacy in an increasingly complex world. We'll explore Ambassador Alan Leventhal's experience representing the United States in Denmark,…",
-   "blurb": "Join Ambassador Nathalie Rayes for a conversation about the enduring relationship between the United States and Denmark, the importance of transatlantic alliances, and the role of diplomacy in an increasingly complex world. We'll explore Ambassador Alan…",
-   "event_page": true,
-   "notes": "",
-   "place_name": "Taubman Building, Harvard Kennedy School",
-   "lat": 42.371822,
-   "lon": -71.122151,
-   "geo_method": "gazetteer",
-   "walk_min": 17
-  },
-  {
    "id": "3d009700d41f",
    "title": "Modern China Lecture Series featuring Fei-Hsien Wang — Modernization Theory and Historical Knowledge in Cold War Taiwan",
    "url": "https://fairbank.fas.harvard.edu/events/modern-china-lecture-series-featuring-fei-hsien-wang/",
@@ -4508,6 +2129,61 @@
    "lon": null,
    "geo_method": null,
    "walk_min": null
+  },
+  {
+   "id": "40f6098da4d4",
+   "title": "Study Group with Ambassador Nathalie Rayes — Outside the Lines: Diplomacy, Leadership, and the U.S.–Denmark Partnership with Amb. Alan Leventhal",
+   "url": "https://iop.harvard.edu/events/study-group-ambassador-nathalie-rayes-outside-lines-diplomacy-leadership-and-us-denmark",
+   "source_id": "gazette",
+   "source_name": "Harvard Gazette calendar",
+   "also_listed": [
+    {
+     "source_name": "Harvard College events",
+     "url": "https://events.college.harvard.edu/event/226276-study-group-with-ambassador-nathalie-rayes-outside"
+    },
+    {
+     "source_name": "Harvard Kennedy School",
+     "url": "https://www.hks.harvard.edu/index%2ephp/events/amb-nathalie-rayes-study-group-diplomacy-leadership-us-denmark-partnership"
+    }
+   ],
+   "aliases": [
+    "501ac2caceb1",
+    "b0b51978cce1"
+   ],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-17T16:00:00-05:00",
+   "end": "2026-11-17T17:15:00-05:00",
+   "date": "2026-11-17",
+   "all_day": false,
+   "location": "Institute of Politics, 79 JFK St., Cambridge",
+   "online": false,
+   "host": "Institute of Politics at Harvard Kennedy School",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "Registration link on the event page",
+    "link": "https://iop.harvard.edu/events/study-group-ambassador-nathalie-rayes-outside-lines-diplomacy-leadership-and-us-denmark"
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "students",
+    "evidence": "Title: Study Group with Ambassador Nathalie Rayes — Outside the Lines: Diplomacy, Leadership, and the U.S.–Denmark Partnership with Amb. Alan Leventhal",
+    "basis": "inferred"
+   },
+   "summary": "Join Ambassador Nathalie Rayes for a conversation about the enduring relationship between the United States and Denmark, the importance of transatlantic alliances, and the role of diplomacy in an increasingly complex world. We'll explore Ambassador Alan Leventhal's experience representing the United States in Denmark,…",
+   "blurb": "Join Ambassador Nathalie Rayes for a conversation about the enduring relationship between the United States and Denmark, the importance of transatlantic alliances, and the role of diplomacy in an increasingly complex world. We'll explore Ambassador Alan…",
+   "event_page": true,
+   "notes": "Cost: Free | Harvard Key required: No",
+   "place_name": "Littauer Building, Harvard Kennedy School",
+   "lat": 42.371045,
+   "lon": -71.12209,
+   "geo_method": "gazetteer",
+   "walk_min": 18
   },
   {
    "id": "7e5bc72025e0",
@@ -5884,12 +3560,12 @@
    "source_name": "Fairbank Center",
    "also_listed": [
     {
-     "source_name": "Harvard Gazette calendar",
-     "url": "https://chinaproject.harvard.edu/event/sumeet-singh"
-    },
-    {
      "source_name": "Suggested calendar: Fairbanks center",
      "url": "https://fairbank.fas.harvard.edu/events/the-utility-of-the-future-electrification-innovation-and-the-energy-transition/"
+    },
+    {
+     "source_name": "Harvard Gazette calendar",
+     "url": "https://chinaproject.harvard.edu/event/sumeet-singh"
     }
    ],
    "aliases": [
@@ -5932,9 +3608,9 @@
    "walk_min": 5
   },
   {
-   "id": "a99b50fb7122",
+   "id": "bd1d03b1875e",
    "title": "Fixing a Broken NPT Review Process",
-   "url": "https://www.hks.harvard.edu/events/fixing-broken-npt-review-process",
+   "url": "https://www.hks.harvard.edu/index%2ephp/events/fixing-broken-npt-review-process",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -5945,9 +3621,9 @@
    "end": "2026-11-18T12:30:00-05:00",
    "date": "2026-11-18",
    "all_day": false,
-   "location": "Fainsod (l324)",
+   "location": "",
    "online": false,
-   "host": "Managing the Atom Project",
+   "host": "",
    "food": {
     "status": "none",
     "types": [],
@@ -5964,15 +3640,15 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "Speaker: Dr. Mark Goodman, Non-Resident Fellow, Center for Nonproliferation Studies The Non-Proliferation Treaty (NPT) has been remarkably successful at preventing the spread of nuclear weapons and reducing the dangers of nuclear war. By contrast, recent NPT Review Conferences have often ended in disappointment or…",
-   "blurb": "The Non-Proliferation Treaty (NPT) has been remarkably successful at preventing the spread of nuclear weapons and reducing the dangers of nuclear war. By contrast, recent NPT Review Conferences have often ended in disappointment or even discord. Does it mean…",
+   "summary": "",
+   "blurb": "",
    "event_page": true,
    "notes": "",
-   "place_name": "Littauer Building, Harvard Kennedy School",
-   "lat": 42.371045,
-   "lon": -71.12209,
-   "geo_method": "gazetteer",
-   "walk_min": 18
+   "place_name": "Harvard Kennedy School",
+   "lat": 42.371989,
+   "lon": -71.121761,
+   "geo_method": "host",
+   "walk_min": 16
   },
   {
    "id": "591cb17072cd",
@@ -6286,7 +3962,7 @@
     "types": [
      "Lunch"
     ],
-    "evidence": "Join us for lunch and a conversation with Mike van der Sleeson, President & Co-Owner, Vanson Leathers, and Kim van der Sleeson, Sales Manager & Co-Owner, Vanson Leathers.",
+    "evidence": "Join us for lunch and a conversation with Mike van der Sleesen, President & Co-Owner, Vanson Leathers, and Kim van der Sleesen, Sales Manager & Co-Owner, Vanson Leathers.",
     "cue": "weak"
    },
    "registration": {
@@ -6300,8 +3976,8 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "Join us for lunch and a conversation with Mike van der Sleeson, President & Co-Owner, Vanson Leathers, and Kim van der Sleeson, Sales Manager & Co-Owner, Vanson Leathers. Located in Fall River, Massachusetts, Vanson Leathers has been a maker of high-performance motorcycle and racing apparel since 1974. Moderated by…",
-   "blurb": "Join us for lunch and a conversation with Mike van der Sleeson, President & Co-Owner, Vanson Leathers, and Kim van der Sleeson, Sales Manager & Co-Owner, Vanson Leathers. Located in Fall River, Massachusetts, Vanson Leathers has been a maker of…",
+   "summary": "Join us for lunch and a conversation with Mike van der Sleesen, President & Co-Owner, Vanson Leathers, and Kim van der Sleesen, Sales Manager & Co-Owner, Vanson Leathers. Located in Fall River, Massachusetts, Vanson Leathers has been a maker of high-performance motorcycle and racing apparel since 1974. Moderated by…",
+   "blurb": "Join us for lunch and a conversation with Mike van der Sleesen, President & Co-Owner, Vanson Leathers, and Kim van der Sleesen, Sales Manager & Co-Owner, Vanson Leathers. Located in Fall River, Massachusetts, Vanson Leathers has been a maker of…",
    "event_page": true,
    "notes": "",
    "place_name": "Taubman Building, Harvard Kennedy School",
@@ -6354,30 +4030,26 @@
    "walk_min": null
   },
   {
-   "id": "6175c4ff63c4",
-   "title": "Outsourcing Surveillance: Online Opinion Management in China",
-   "url": "https://us.list-manage.com/AQtf5jOTj4J?e=90d45c5f42&c2id=060c6b0883ca8c5bccce2ff96b5f45a4",
-   "source_id": "newsletter",
-   "source_name": "Newsletter: Upcoming Events at the Fairbank Center",
+   "id": "213b0a2f1d18",
+   "title": "Multi-Site Exhibition Tour — Alfonso Ossorio: Line and Lineage and Knowledge Is Myth: Chimeric Continuities",
+   "url": "https://harvardartmuseums.org/event/4197?utm_source=gazette&utm_medium=listing&utm_campaign=Tour_Ossorio_Nov18&utm_id=Multi-Site+Exhibition+Tour%3A+Alfonso+Ossorio%3A+Line+and+Lineage+and+Knowledge+Is+Myth%3A+Chimeric+Continuities",
+   "source_id": "gazette",
+   "source_name": "Harvard Gazette calendar",
    "also_listed": [],
    "aliases": [],
    "suggested": null,
    "forwarded": null,
    "start": "2026-11-18T12:00:00-05:00",
-   "end": null,
+   "end": "2026-11-18T13:00:00-05:00",
    "date": "2026-11-18",
    "all_day": false,
-   "location": "",
+   "location": "Harvard Art Museums, 32 Quincy St., Cambridge",
    "online": false,
-   "host": "",
+   "host": "Harvard Art Museums",
    "food": {
-    "status": "confirmed",
-    "types": [
-     "Coffee",
-     "Sweets"
-    ],
-    "evidence": "Come test out a new idea or two, share some of your work—or just the latest China gossip—and enjoy some good tea and cookies!",
-    "cue": "weak"
+    "status": "none",
+    "types": [],
+    "evidence": ""
    },
    "registration": {
     "status": "unknown",
@@ -6390,15 +4062,15 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "Outsourcing Surveillance: Online Opinion Management in China Wednesday, November 18, 2026 | 12:00 - 1:15 PM EST Belfer Case Study Room (S020) | CGIS South | 1730 Cambridge St. | Cambridge, MA Speaker: Lynette Ong, Distinguished Professor of Chinese Politics, University of Toronto; Director, China Governance Lab, Munk…",
-   "blurb": "Digital technology facilitates information sharing among activists; however, it also affords autocrats new vectors of control, allowing them to surveil and subjugate dissenters. In this book, we examine how the Chinese state manages, moderates, and represses…",
-   "event_page": false,
-   "notes": "",
-   "place_name": "CGIS South Building",
-   "lat": 42.375011,
-   "lon": -71.113135,
-   "geo_method": "host",
-   "walk_min": 5
+   "summary": "Join Ally Cirelli, curator of Alfonso Ossorio: Line and Lineage (October 23, 2026–April 11, 2027) at the Harvard Art Museums, and Danni Shen, curator of Knowledge Is Myth: Chimeric Continuities (October 1–December 13, 2026) at the Carpenter Center for the Visual Arts, for a multi-site tour of the two interconnected…",
+   "blurb": "Join Ally Cirelli, curator of Alfonso Ossorio: Line and Lineage (October 23, 2026–April 11, 2027) at the Harvard Art Museums, and Danni Shen, curator of Knowledge Is Myth: Chimeric Continuities (October 1–December 13, 2026) at the Carpenter Center for the…",
+   "event_page": true,
+   "notes": "Cost: Free admission | Harvard Key required: No",
+   "place_name": "Harvard Art Museums",
+   "lat": 42.374099,
+   "lon": -71.114113,
+   "geo_method": "gazetteer",
+   "walk_min": 7
   },
   {
    "id": "2d3f8fbde9f8",
@@ -6719,6 +4391,52 @@
    "walk_min": 16
   },
   {
+   "id": "41a04252c56e",
+   "title": "Antitrust Association Panel: Paul, Weiss x Ropes & Gray",
+   "url": "https://hls.harvard.edu/events/antitrust-association-panel-paul-weiss-x-ropes-gray/",
+   "source_id": "hls",
+   "source_name": "Harvard Law School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-18T12:30:00-05:00",
+   "end": "2026-11-18T13:15:00-05:00",
+   "date": "2026-11-18",
+   "all_day": false,
+   "location": "Hauser Hall, 102 Malkin Classroom, Harvard Law School",
+   "online": false,
+   "host": "Harvard Law School Antitrust Association",
+   "food": {
+    "status": "confirmed",
+    "types": [
+     "Lunch"
+    ],
+    "evidence": "The Antitrust Association will host a lunchtime panel discussion featuring attorneys from Paul, Weiss and Ropes & Gray.",
+    "cue": "weak"
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "HLS students",
+    "evidence": "Run by an HLS student organization",
+    "basis": "inferred"
+   },
+   "summary": "The Antitrust Association will host a lunchtime panel discussion featuring attorneys from Paul, Weiss and Ropes & Gray. Each firm will be represented by a panelist who will share insights into their career trajectory, their day-to-day experiences as antitrust practitioners, and their perspectives on building a career…",
+   "blurb": "The Antitrust Association will host a lunchtime panel discussion featuring attorneys from Paul, Weiss and Ropes & Gray. Each firm will be represented by a panelist who will share insights into their career trajectory, their day-to-day experiences as antitrust…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Hauser Hall, Harvard Law School",
+   "lat": 42.37864,
+   "lon": -71.118138,
+   "geo_method": "gazetteer",
+   "walk_min": 8
+  },
+  {
    "id": "57520369b6ab",
    "title": "Debriefing the 2026 Election’s Legal Battles with Profs. Ruth Greenwood and Larry Schwartztol",
    "url": "https://hls.harvard.edu/events/hls-dems-debriefing-the-2026-elections-legal-battles-with-prof-ruth-greenwood/",
@@ -6784,9 +4502,9 @@
     "evidence": ""
    },
    "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
+    "status": "required",
+    "evidence": "RSVP required for entry.",
+    "link": "http://www.google.com/calendar/event?action=TEMPLATE&text=Fireside%20Chat%20with%20Justice%20Stephen%20Breyer,%20Moderated%20by%20Professor%20Jeannie%20Suk%20Gersen&dates=20261118T173000Z/20261118T181500Z&details=Join%20the%20Harvard%20Jewish%20Law%20Students%20Association%20for%20a%20special%20conversation%20with%20retired%20U.S.%20Supreme%20Court%20Justice%20and%20Harvard%20Law%20School%20Professor%20Stephen%20Breyer.%20Justice%20Breyer%20will%20reflect%20on%20his%20life%20and%20career,%20his%20judicial%20philosophy%20and%20jurisprudence,%20and%20the%20role%20Judaism%20has%20played%20in%20shaping%20his%20personal%20and%20professional%20experiences.%20RSVP%20required%20for%20entry.&sprop=Harvard%20Law%20School&location=Langdell%20Hall;%20272%20Kirkland%20and%20Ellis%20Classroom%20-%20South,%20,%20,%20,%20,%20"
    },
    "audience": {
     "level": "restricted",
@@ -7223,56 +4941,6 @@
    "walk_min": 18
   },
   {
-   "id": "074375397980",
-   "title": "Amb. Nathalie Rayes Study Group: Lessons Learned, Reflections, & Ask Me Anything",
-   "url": "https://www.hks.harvard.edu/events/amb-nathalie-rayes-study-group-lessons-learned-reflections-ask-me-anything",
-   "source_id": "hks",
-   "source_name": "Harvard Kennedy School",
-   "also_listed": [
-    {
-     "source_name": "Harvard College events",
-     "url": "https://events.college.harvard.edu/event/226280-study-group-with-ambassador-nathalie-rayes-outside"
-    }
-   ],
-   "aliases": [
-    "cc10b42b1b39"
-   ],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-11-18T16:00:00-05:00",
-   "end": "2026-11-18T17:15:00-05:00",
-   "date": "2026-11-18",
-   "all_day": false,
-   "location": "L-166",
-   "online": false,
-   "host": "Institute of Politics (IOP)",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://iop.harvard.edu/events/study-group-ambassador-nathalie-rayes-outside-lines-lessons-learned-reflections-and-ask-me"
-   },
-   "audience": {
-    "level": "restricted",
-    "group": "HKS students",
-    "evidence": "Title: Amb. Nathalie Rayes Study Group: Lessons Learned, Reflections, & Ask Me Anything",
-    "basis": "inferred"
-   },
-   "summary": "As we bring our semester to a close, we'll reflect on the conversations, experiences, and lessons that shaped our journey. What challenged our thinking? What inspired us? What will we carry forward? This will also be an open conversation where students can ask me anything, whether about leadership, diplomacy, public…",
-   "blurb": "As we bring our semester to a close, we'll reflect on the conversations, experiences, and lessons that shaped our journey. This will also be an open conversation where students can ask me anything, whether about leadership, diplomacy, public service, personal…",
-   "event_page": true,
-   "notes": "",
-   "place_name": "Littauer Building, Harvard Kennedy School",
-   "lat": 42.371045,
-   "lon": -71.12209,
-   "geo_method": "gazetteer",
-   "walk_min": 18
-  },
-  {
    "id": "2c1dd54093e5",
    "title": "Du Bois Scholars Program (DBSP) Virtual Webinar",
    "url": "https://events.college.harvard.edu/uraf/event/225839-du-bois-scholars-program-dbsp-virtual-webinar",
@@ -7402,18 +5070,78 @@
    "walk_min": 18
   },
   {
+   "id": "074375397980",
+   "title": "Study Group with Ambassador Nathalie Rayes — Outside the Lines: Lessons Learned, Reflections, and Ask Me Anything",
+   "url": "https://iop.harvard.edu/events/study-group-ambassador-nathalie-rayes-outside-lines-lessons-learned-reflections-and-ask-me",
+   "source_id": "gazette",
+   "source_name": "Harvard Gazette calendar",
+   "also_listed": [
+    {
+     "source_name": "Harvard Kennedy School",
+     "url": "https://www.hks.harvard.edu/events/amb-nathalie-rayes-study-group-lessons-learned-reflections-ask-me-anything"
+    },
+    {
+     "source_name": "Harvard College events",
+     "url": "https://events.college.harvard.edu/event/226280-study-group-with-ambassador-nathalie-rayes-outside"
+    }
+   ],
+   "aliases": [
+    "2dae132e83ec",
+    "cc10b42b1b39"
+   ],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-18T16:00:00-05:00",
+   "end": "2026-11-18T17:15:00-05:00",
+   "date": "2026-11-18",
+   "all_day": false,
+   "location": "Institute of Politics, 79 JFK St., Cambridge",
+   "online": false,
+   "host": "Institute of Politics at Harvard Kennedy School",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "Registration link on the event page",
+    "link": "https://iop.harvard.edu/events/study-group-ambassador-nathalie-rayes-outside-lines-lessons-learned-reflections-and-ask-me"
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "students",
+    "evidence": "Title: Study Group with Ambassador Nathalie Rayes — Outside the Lines: Lessons Learned, Reflections, and Ask Me Anything",
+    "basis": "inferred"
+   },
+   "summary": "As we bring our semester to a close, we'll reflect on the conversations, experiences, and lessons that shaped our journey. What challenged our thinking? What inspired us? What will we carry forward? This will also be an open conversation where students can ask me anything, whether about leadership, diplomacy, public…",
+   "blurb": "As we bring our semester to a close, we'll reflect on the conversations, experiences, and lessons that shaped our journey. This will also be an open conversation where students can ask me anything, whether about leadership, diplomacy, public service, personal…",
+   "event_page": true,
+   "notes": "Cost: Free | Harvard Key required: No",
+   "place_name": "Littauer Building, Harvard Kennedy School",
+   "lat": 42.371045,
+   "lon": -71.12209,
+   "geo_method": "gazetteer",
+   "walk_min": 18
+  },
+  {
    "id": "9d04a8a2daad",
    "title": "Study Group with Governor Doug Ducey: Leading & Governing with Rich Lowry",
-   "url": "https://www.hks.harvard.edu/events/study-group-governor-doug-ducey-leading-governing-rich-lowry",
-   "source_id": "hks",
-   "source_name": "Harvard Kennedy School",
+   "url": "https://iop.harvard.edu/events/study-group-governor-doug-ducey-leading-governing-rich-lowry",
+   "source_id": "gazette",
+   "source_name": "Harvard Gazette calendar",
    "also_listed": [
+    {
+     "source_name": "Harvard Kennedy School",
+     "url": "https://www.hks.harvard.edu/events/study-group-governor-doug-ducey-leading-governing-rich-lowry"
+    },
     {
      "source_name": "Harvard College events",
      "url": "https://events.college.harvard.edu/event/226278-study-group-with-governor-doug-ducey-leading-amp"
     }
    ],
    "aliases": [
+    "b32775e5a7cb",
     "be329abb8271"
    ],
    "suggested": null,
@@ -7422,9 +5150,9 @@
    "end": "2026-11-18T17:45:00-05:00",
    "date": "2026-11-18",
    "all_day": false,
-   "location": "L-163",
+   "location": "Institute of Politics, 79 JFK St., Cambridge",
    "online": false,
-   "host": "Institute of Politics (IOP)",
+   "host": "Institute of Politics at Harvard Kennedy School",
    "food": {
     "status": "none",
     "types": [],
@@ -7432,19 +5160,19 @@
    },
    "registration": {
     "status": "required",
-    "evidence": "RSVP link on the event page",
+    "evidence": "Registration link on the event page",
     "link": "https://iop.harvard.edu/events/study-group-governor-doug-ducey-leading-governing-rich-lowry"
    },
    "audience": {
     "level": "restricted",
-    "group": "HKS students",
+    "group": "students",
     "evidence": "Title: Study Group with Governor Doug Ducey: Leading & Governing with Rich Lowry",
     "basis": "inferred"
    },
    "summary": "Join Governor Doug Ducey for his final study group of the semester focused on the future of the Republican Party and Conservatism, along with commentary on The Left’s future, with virtual guest Rich Lowry, Editor-in-Chief of National Review. These off-the-record conversations are open to members of the Harvard…",
    "blurb": "Join Governor Doug Ducey for his final study group of the semester focused on the future of the Republican Party and Conservatism, along with commentary on The Left’s future, with virtual guest Rich Lowry, Editor-in-Chief of National Review. These…",
    "event_page": true,
-   "notes": "",
+   "notes": "Cost: Free | Harvard Key required: No",
    "place_name": "Littauer Building, Harvard Kennedy School",
    "lat": 42.371045,
    "lon": -71.12209,
@@ -9844,6 +7572,52 @@
    "walk_min": 10
   },
   {
+   "id": "c847812f5c8f",
+   "title": "Bipartisanship and National Security: A Conversation with Eric Rosenbach",
+   "url": "https://www.hks.harvard.edu/events/bipartisanship-and-national-security-conversation-eric-rosenbach",
+   "source_id": "hks",
+   "source_name": "Harvard Kennedy School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-19T12:20:00-05:00",
+   "end": "2026-11-19T13:20:00-05:00",
+   "date": "2026-11-19",
+   "all_day": false,
+   "location": "R-414ab",
+   "online": false,
+   "host": "Bipartisan Caucus",
+   "food": {
+    "status": "confirmed",
+    "types": [
+     "Lunch"
+    ],
+    "evidence": "Lunch provided.",
+    "cue": "strong"
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "RSVP link on the event page",
+    "link": "https://docs.google.com/forms/d/e/1FAIpQLSdknpd2DnOW_lyCkDAhhEIBRFfT0rAtazEH-hpnkilLwdNviQ/viewform"
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "Can national security still be a bipartisan business? Eric Rosenbach, former Chief of Staff to Secretary of Defense Ash Carter and now a Senior Lecturer at HKS, joins the Bipartisan Caucus Faculty Speaker Series for a candid conversation on Iran, Ukraine, Pentagon leadership, and what it takes to work across party…",
+   "blurb": "Can national security still be a bipartisan business? Eric Rosenbach, former Chief of Staff to Secretary of Defense Ash Carter and now a Senior Lecturer at HKS, joins the Bipartisan Caucus Faculty Speaker Series for a candid conversation on Iran, Ukraine…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Rubenstein Building, Harvard Kennedy School",
+   "lat": 42.371243,
+   "lon": -71.122687,
+   "geo_method": "gazetteer",
+   "walk_min": 18
+  },
+  {
    "id": "194ddf7686d9",
    "title": "Supporting Survivors Workshop",
    "url": "https://hls.harvard.edu/events/supporting-survivors-workshop/",
@@ -10255,52 +8029,6 @@
    "walk_min": 10
   },
   {
-   "id": "aa4827d85d4c",
-   "title": "Bipartisanship and National Security: A Conversation with Eric Rosenbach",
-   "url": "https://www.hks.harvard.edu/events/bipartisanship-and-national-security-conversation-eric-rosenbach",
-   "source_id": "hks",
-   "source_name": "Harvard Kennedy School",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-11-19T13:20:00-05:00",
-   "end": "2026-11-19T14:20:00-05:00",
-   "date": "2026-11-19",
-   "all_day": false,
-   "location": "R-414ab",
-   "online": false,
-   "host": "Bipartisan Caucus",
-   "food": {
-    "status": "confirmed",
-    "types": [
-     "Lunch"
-    ],
-    "evidence": "Lunch provided.",
-    "cue": "strong"
-   },
-   "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://docs.google.com/forms/d/e/1FAIpQLSdknpd2DnOW_lyCkDAhhEIBRFfT0rAtazEH-hpnkilLwdNviQ/viewform"
-   },
-   "audience": {
-    "level": "unknown",
-    "group": "",
-    "evidence": "",
-    "basis": "none"
-   },
-   "summary": "Can national security still be a bipartisan business? Eric Rosenbach, former Chief of Staff to Secretary of Defense Ash Carter and now a Senior Lecturer at HKS, joins the Bipartisan Caucus Faculty Speaker Series for a candid conversation on Iran, Ukraine, Pentagon leadership, and what it takes to work across party…",
-   "blurb": "Can national security still be a bipartisan business? Eric Rosenbach, former Chief of Staff to Secretary of Defense Ash Carter and now a Senior Lecturer at HKS, joins the Bipartisan Caucus Faculty Speaker Series for a candid conversation on Iran, Ukraine…",
-   "event_page": true,
-   "notes": "",
-   "place_name": "Rubenstein Building, Harvard Kennedy School",
-   "lat": 42.371243,
-   "lon": -71.122687,
-   "geo_method": "gazetteer",
-   "walk_min": 18
-  },
-  {
    "id": "e274b0aaaee9",
    "title": "Disability Access Office (DAO) Virtual Office Hours",
    "url": "https://events.college.harvard.edu/dao/event/226011-disability-access-office-dao-virtual-office-hours",
@@ -10488,8 +8216,8 @@
    "end": "2026-11-19T17:15:00-05:00",
    "date": "2026-11-19",
    "all_day": false,
-   "location": "Knafel Center, 10 Garden St., Cambridge",
-   "online": false,
+   "location": "Please register for Zoom link",
+   "online": true,
    "host": "Harvard Radcliffe Institute",
    "food": {
     "status": "none",
@@ -10511,11 +8239,11 @@
    "blurb": "Min Jin Lee returns to Harvard Radcliffe Institute for a conversation with WGBH executive arts editor and host of The Culture Show Jared Bowen about her new novel, American Hagwon. Lee worked on the novel at Radcliffe while she was the Catherine A. and Mary C.",
    "event_page": true,
    "notes": "Cost: Free | Harvard Key required: No",
-   "place_name": "Knafel Center, Radcliffe Yard",
-   "lat": 42.376246,
-   "lon": -71.122781,
-   "geo_method": "gazetteer",
-   "walk_min": 14
+   "place_name": "",
+   "lat": null,
+   "lon": null,
+   "geo_method": null,
+   "walk_min": null
   },
   {
    "id": "ec9996cb5371",
@@ -13044,6 +10772,49 @@
    "walk_min": 10
   },
   {
+   "id": "465b964f7cce",
+   "title": "Harvard x Yale Table Tennis Tournament",
+   "url": "https://soco.college.harvard.edu/rsvp?id=383384",
+   "source_id": "college",
+   "source_name": "Harvard College events",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-20T16:30:00-05:00",
+   "end": "2026-11-20T18:30:00-05:00",
+   "date": "2026-11-20",
+   "all_day": false,
+   "location": "SoCo",
+   "online": false,
+   "host": "Dean of Students Office",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "Registration link on the event page",
+    "link": "https://soco.college.harvard.edu/rsvp?id=383384"
+   },
+   "audience": {
+    "level": "likely",
+    "group": "students for some fun competition before the game",
+    "evidence": "Open to all students for some fun competition before the game.",
+    "basis": "text"
+   },
+   "summary": "A friendly scrimmage between the Harvard and Yale Table Tennis teams! Open to all students for some fun competition before the game. — Event Details: https://soco.college.harvard.edu/rsvp?id=383384",
+   "blurb": "A friendly scrimmage between the Harvard and Yale Table Tennis teams! Open to all students for some fun competition before the game.",
+   "event_page": true,
+   "notes": "",
+   "place_name": "",
+   "lat": null,
+   "lon": null,
+   "geo_method": null,
+   "walk_min": null
+  },
+  {
    "id": "3d82af5a0d5a",
    "title": "Trans Day of Remembrance",
    "url": "https://events.college.harvard.edu/winthrop-house/event/226296-trans-day-of-remembrance",
@@ -14150,51 +11921,6 @@
    "walk_min": 12
   },
   {
-   "id": "7004b80ea76b",
-   "title": "Harvard University Wrestling vs Keystone Classic",
-   "url": "https://events.college.harvard.edu/event/225132-harvard-university-wrestling-vs-keystone-classic",
-   "source_id": "college",
-   "source_name": "Harvard College events",
-   "also_listed": [],
-   "aliases": [
-    "a3292784eb10"
-   ],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-11-22T00:00:00-05:00",
-   "end": null,
-   "date": "2026-11-22",
-   "all_day": true,
-   "location": "Philadelphia, Pa.",
-   "online": false,
-   "host": "Main Calendar",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
-   },
-   "audience": {
-    "level": "restricted",
-    "group": "Harvard College students",
-    "evidence": "Harvard College calendar, no sign it is open to others",
-    "basis": "default"
-   },
-   "summary": "Harvard University Wrestling vs Keystone Classic URL:https://gocrimson.com/calendar.aspx?game_id=33659&sport_id=42",
-   "blurb": "",
-   "event_page": true,
-   "notes": "",
-   "place_name": "",
-   "lat": null,
-   "lon": null,
-   "geo_method": null,
-   "walk_min": null
-  },
-  {
    "id": "bc707d1c00a2",
    "title": "Collecting Wonders: Tomorrow’s Discoveries",
    "url": "https://www.hmnh.harvard.edu/collecting-wonders",
@@ -14537,6 +12263,52 @@
    "lon": -71.116034,
    "geo_method": "gazetteer",
    "walk_min": 7
+  },
+  {
+   "id": "7004b80ea76b",
+   "title": "Harvard Women’s Basketball Club VS Maine University",
+   "url": "https://soco.college.harvard.edu/rsvp?id=383308",
+   "source_id": "college",
+   "source_name": "Harvard College events",
+   "also_listed": [],
+   "aliases": [
+    "8d0b9cf4d712",
+    "a3292784eb10"
+   ],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-22T13:00:00-05:00",
+   "end": "2026-11-22T16:00:00-05:00",
+   "date": "2026-11-22",
+   "all_day": false,
+   "location": "SoCo",
+   "online": false,
+   "host": "Dean of Students Office",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "Registration link on the event page",
+    "link": "https://soco.college.harvard.edu/rsvp?id=383308"
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "Harvard College students",
+    "evidence": "Harvard College calendar, no sign it is open to others",
+    "basis": "default"
+   },
+   "summary": "2 consecutive basketball games between HWBC and Maine University Women’s Basketball Club — Event Details: https://soco.college.harvard.edu/rsvp?id=383308",
+   "blurb": "",
+   "event_page": true,
+   "notes": "",
+   "place_name": "",
+   "lat": null,
+   "lon": null,
+   "geo_method": null,
+   "walk_min": null
   },
   {
    "id": "cb38b6f5e78d",
@@ -15408,6 +13180,49 @@
    "walk_min": 16
   },
   {
+   "id": "b5660cb18234",
+   "title": "Elevated Risk Pre-Departure Orientation",
+   "url": "https://events.college.harvard.edu/event/225058-elevated-risk-pre-departure-orientation",
+   "source_id": "college",
+   "source_name": "Harvard College events",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-23T12:00:00-05:00",
+   "end": "2026-11-23T13:00:00-05:00",
+   "date": "2026-11-23",
+   "all_day": false,
+   "location": "Zoom and Smith Campus Center, 2nd floor, Isaacson Room",
+   "online": false,
+   "host": "Harvard Global Support Services",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "Harvard College students: sign up to attend an elevated risk pre-departure orientation before your upcoming international travel.",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "undergraduates",
+    "evidence": "Title: Elevated Risk Pre-Departure Orientation",
+    "basis": "inferred"
+   },
+   "summary": "Harvard College students: sign up to attend an elevated risk pre-departure orientation before your upcoming international travel. We’ll provide the content; you provide the questions!",
+   "blurb": "Harvard College students: sign up to attend an elevated risk pre-departure orientation before your upcoming international travel. We’ll provide the content; you provide the questions!",
+   "event_page": true,
+   "notes": "",
+   "place_name": "",
+   "lat": null,
+   "lon": null,
+   "geo_method": null,
+   "walk_min": null
+  },
+  {
    "id": "58f7197cea15",
    "title": "Energy Security Sustainability Delivered",
    "url": "https://www.hks.harvard.edu/events/energy-security-sustainability-delivered",
@@ -15452,6 +13267,49 @@
    "lon": -71.122687,
    "geo_method": "gazetteer",
    "walk_min": 18
+  },
+  {
+   "id": "b06f8ff6860f",
+   "title": "Harvard-Cambridge Scholarship Application Deadline",
+   "url": "https://events.college.harvard.edu/uraf/event/225368-harvard-cambridge-scholarship-application-deadline",
+   "source_id": "college",
+   "source_name": "Harvard College events",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-23T12:00:00-05:00",
+   "end": null,
+   "date": "2026-11-23",
+   "all_day": false,
+   "location": "",
+   "online": false,
+   "host": "Office of Undergraduate Research and Fellowships",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "RSVP link on the event page",
+    "link": "https://events.college.harvard.edu/uraf/event/225368-harvard-cambridge-scholarship-application-deadline"
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "undergraduates (Senior)",
+    "evidence": "College calendar audience: Senior",
+    "basis": "listing"
+   },
+   "summary": "The Harvard-Cambridge Scholarship program comprises four separate scholarships, each providing for one year of study at Cambridge University.",
+   "blurb": "The Harvard-Cambridge Scholarship program comprises four separate scholarships, each providing for one year of study at Cambridge University.",
+   "event_page": true,
+   "notes": "",
+   "place_name": "",
+   "lat": null,
+   "lon": null,
+   "geo_method": null,
+   "walk_min": null
   },
   {
    "id": "87fe034a179e",
@@ -15765,15 +13623,58 @@
    "walk_min": 10
   },
   {
-   "id": "826b4739d456",
-   "title": "Building a Career of Impact: Lessons in Public Service and Leadership w/ Amb. Lu",
-   "url": "https://www.hks.harvard.edu/events/building-career-impact-lessons-public-service-and-leadership-w-amb-lu",
-   "source_id": "hks",
-   "source_name": "Harvard Kennedy School",
+   "id": "ce21a73e201f",
+   "title": "Disability Access Office (DAO) Virtual Office Hours",
+   "url": "https://events.college.harvard.edu/dao/event/226012-disability-access-office-dao-virtual-office-hours",
+   "source_id": "college",
+   "source_name": "Harvard College events",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-23T14:00:00-05:00",
+   "end": "2026-11-23T15:00:00-05:00",
+   "date": "2026-11-23",
+   "all_day": false,
+   "location": "",
+   "online": true,
+   "host": "Disability Access Office (DAO)",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "none",
+    "evidence": "Students, staff, and faculty are welcome to join our virtual drop-in hours on Zoom Monday and Thursday from 2:00–3:00 PM ET, and Tuesday and Friday from 11:00 AM–12:00 PM ET.",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "undergraduates (First-Year, Junior, Senior, Sophomore)",
+    "evidence": "College calendar audience: First-Year, Junior, Senior, Sophomore",
+    "basis": "listing"
+   },
+   "summary": "Do you have a question about the Disability Access Office (DAO) or want to learn how to get connected with DAO? Students, staff, and faculty are welcome to join our virtual drop-in hours on Zoom Monday and Thursday from 2:00–3:00 PM ET, and Tuesday and Friday from 11:00 AM–12:00 PM ET.",
+   "blurb": "Do you have a question about the Disability Access Office (DAO) or want to learn how to get connected with DAO? Students, staff, and faculty are welcome to join our virtual drop-in hours on Zoom Monday and Thursday from 2:00–3:00 PM ET, and Tuesday and Friday…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "",
+   "lat": null,
+   "lon": null,
+   "geo_method": null,
+   "walk_min": null
+  },
+  {
+   "id": "e26d3f04c147",
+   "title": "Dance in Public",
+   "url": "https://events.college.harvard.edu/ofa/event/223329-dance-in-public",
+   "source_id": "college",
+   "source_name": "Harvard College events",
    "also_listed": [
     {
-     "source_name": "Harvard College events",
-     "url": "https://events.college.harvard.edu/ofa/event/223329-dance-in-public"
+     "source_name": "Harvard Kennedy School",
+     "url": "https://www.hks.harvard.edu/index%2Ephp/events/building-career-impact-lessons-public-service-and-leadership-w-amb-lu"
     }
    ],
    "aliases": [
@@ -15785,18 +13686,18 @@
    "end": "2026-11-23T16:00:00-05:00",
    "date": "2026-11-23",
    "all_day": false,
-   "location": "Cid Perkins Conference Room (r429)",
+   "location": "Richard A. and Susan F. Smith Campus Center",
    "online": false,
-   "host": "Harvard Center for International Development",
+   "host": "Office for the Arts Dance Program",
    "food": {
     "status": "none",
     "types": [],
     "evidence": ""
    },
    "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001m9rdIAA"
+    "status": "none",
+    "evidence": "Each individual lab session is open to Harvard student drop-in participation.",
+    "link": ""
    },
    "audience": {
     "level": "likely",
@@ -15804,15 +13705,15 @@
     "evidence": "Each individual lab session is open to Harvard student drop-in participation.",
     "basis": "text"
    },
-   "summary": "Please join the Harvard Center for International Development for a conversation with Chris Lu, Resident Fellow at the Institute of Politics, and former U.S. Ambassador to the United Nations for Management and Reform, U.S. Deputy Secretary of Labor, and White House Cabinet Secretary. Interested in finding your path in…",
+   "summary": "Join the Dance in Public Undergraduate Research Fellows who will be investigating and activating sites throughout the academic year, exploring themes in design and architecture, civic engagement, creative research, and public life. Each individual lab session is open to Harvard student drop-in participation. REGISTER…",
    "blurb": "who will be investigating and activating sites throughout the academic year, exploring themes in design and architecture, civic engagement, creative research, and public life. Each individual lab session is open to Harvard student drop-in participation. Visit…",
    "event_page": true,
    "notes": "",
-   "place_name": "Harvard Kennedy School",
-   "lat": 42.371989,
-   "lon": -71.121761,
-   "geo_method": "host",
-   "walk_min": 16
+   "place_name": "Richard A. and Susan F. Smith Campus Center",
+   "lat": 42.372951,
+   "lon": -71.118484,
+   "geo_method": "source",
+   "walk_min": 12
   },
   {
    "id": "be5945475f39",
@@ -15999,6 +13900,49 @@
    "walk_min": 4
   },
   {
+   "id": "b9917a073e50",
+   "title": "FD Open House",
+   "url": "https://events.college.harvard.edu/winthrop-house/event/224150-fd-open-house",
+   "source_id": "college",
+   "source_name": "Harvard College events",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-23T19:00:00-05:00",
+   "end": "2026-11-23T20:30:00-05:00",
+   "date": "2026-11-23",
+   "all_day": false,
+   "location": "Faculty Dean Residence",
+   "online": false,
+   "host": "Winthrop House",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "Winthrop House residents",
+    "evidence": "Hosted by Winthrop House",
+    "basis": "inferred"
+   },
+   "summary": "",
+   "blurb": "",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Winthrop House",
+   "lat": 42.370356,
+   "lon": -71.118646,
+   "geo_method": "host",
+   "walk_min": 15
+  },
+  {
    "id": "84dda505ce9b",
    "title": "Kanał",
    "url": "https://harvardfilmarchive.org/calendar/kanal-2026-11",
@@ -16083,6 +14027,852 @@
    "lon": -71.119421,
    "geo_method": "gazetteer",
    "walk_min": 10
+  },
+  {
+   "id": "b0f45ecdb61b",
+   "title": "Calling All Harvard Student Founders: Apply for the 2027 President’s Innovation Challenge today!",
+   "url": "https://events.college.harvard.edu/event/225974-calling-all-harvard-student-founders-apply-for-the",
+   "source_id": "college",
+   "source_name": "Harvard College events",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-24T00:00:00-05:00",
+   "end": null,
+   "date": "2026-11-24",
+   "all_day": true,
+   "location": "Harvard Innovation Lan",
+   "online": false,
+   "host": "Harvard Innovation Labs",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "👉 Learn more and sign up here: https://innovationlabs.harvard.edu/presidents-innovation-challenge",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "Harvard College students",
+    "evidence": "Harvard College calendar, no sign it is open to others",
+    "basis": "default"
+   },
+   "summary": "The Harvard Innovation Labs is inviting student founders from across all 13 Harvard schools — who are tackling problems they cannot ignore and building futures they believe should exist — to apply for this year’s Harvard President’s Innovation Challenge. This year’s theme, Unprompted, celebrates people who move ideas…",
+   "blurb": "The Harvard Innovation Labs is inviting student founders from across all 13 Harvard schools — who are tackling problems they cannot ignore and building futures they believe should exist — to apply for this year’s Harvard President’s Innovation Challenge. This…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Harvard Innovation Labs (Allston)",
+   "lat": 42.363608,
+   "lon": -71.125793,
+   "geo_method": "host",
+   "walk_min": 31
+  },
+  {
+   "id": "f5c4234f0849",
+   "title": "Muriel Siebert: Redefining Power and Possibility on Wall Street",
+   "url": "https://www.library.hbs.edu/special-collections-and-archives/exhibits/muriel-siebert",
+   "source_id": "gazette",
+   "source_name": "Harvard Gazette calendar",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-24T07:00:00-05:00",
+   "end": "2026-11-24T19:00:00-05:00",
+   "date": "2026-11-24",
+   "all_day": false,
+   "location": "North Lobby, Baker Library | Bloomberg Center, Harvard Business School, Soldiers Field Road, Boston",
+   "online": false,
+   "host": "Supported by the de Gaspé Beaubien Family Endowment at Harvard Business School and organized by Baker Library Special Collections and Archives",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "public",
+    "group": "",
+    "evidence": "Open to the public Monday-Thursday, 7:00 AM-7:00 PM, Friday, 7:00 AM-5:00 PM, excluding holidays.",
+    "basis": "text"
+   },
+   "summary": "Muriel Siebert: Redefining Power and Possibility on Wall Street traces the career of Muriel Siebert, the first woman to buy a seat on the New York Stock Exchange in 1967. Drawing on photographs, correspondence, advertisements, and contemporary media coverage from the Muriel Siebert Collection, generously donated to…",
+   "blurb": "Muriel Siebert: Redefining Power and Possibility on Wall Street traces the career of Muriel Siebert, the first woman to buy a seat on the New York Stock Exchange in 1967.",
+   "event_page": true,
+   "notes": "Harvard Key required: No",
+   "place_name": "Harvard Business School",
+   "lat": 42.365962,
+   "lon": -71.121506,
+   "geo_method": "gazetteer",
+   "walk_min": 24
+  },
+  {
+   "id": "adf7d7e3ee85",
+   "title": "Morning Prayers",
+   "url": "https://memorialchurch.harvard.edu/calendar?f%5B0%5D=event_hwp_c_eventservicetypes%3A6216&f%5B1%5D=event_hwp_c_eventservicetypes%3A65731&f%5B2%5D=event_hwp_c_eventservicetypes%3A20651",
+   "source_id": "gazette",
+   "source_name": "Harvard Gazette calendar",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-24T08:30:00-05:00",
+   "end": "2026-11-24T08:45:00-05:00",
+   "date": "2026-11-24",
+   "all_day": false,
+   "location": "The Memorial Church of Harvard University, Appleton Chapel, One Harvard Yard, Cambridge",
+   "online": false,
+   "host": "Harvard/Memorial Church",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "The daily Morning Prayers service is conducted each weekday morning from 8:30 to 8:45 a.m. in Appleton Chapel during the academic term. The service consists of music, prayer, and a brief address by a member or friend of the University.",
+   "blurb": "The daily Morning Prayers service is conducted each weekday morning from 8:30 to 8:45 a.m. in Appleton Chapel during the academic term. The service consists of music, prayer, and a brief address by a member or friend of the University.",
+   "event_page": true,
+   "notes": "Cost: Free and open to the public | Harvard Key required: No",
+   "place_name": "Memorial Church",
+   "lat": 42.374917,
+   "lon": -71.116034,
+   "geo_method": "gazetteer",
+   "walk_min": 7
+  },
+  {
+   "id": "72e144e5a10b",
+   "title": "Collecting Wonders: Tomorrow’s Discoveries",
+   "url": "https://www.hmnh.harvard.edu/collecting-wonders",
+   "source_id": "gazette",
+   "source_name": "Harvard Gazette calendar",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-24T09:00:00-05:00",
+   "end": "2026-11-24T17:00:00-05:00",
+   "date": "2026-11-24",
+   "all_day": false,
+   "location": "Harvard Museum of Natural History, 26 Oxford St., Cambridge",
+   "online": false,
+   "host": "Harvard Museum of Natural History",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "When you imagine a museum, you might picture cases of artifacts. But the objects on display at the Harvard Museum of Natural History are a tiny percentage of the total collections. Behind the scenes, experts care for 26 million specimens. These objects form the basis for studying life on Earth. They are records of the…",
+   "blurb": "When you imagine a museum, you might picture cases of artifacts. But the objects on display at the Harvard Museum of Natural History are a tiny percentage of the total collections. Behind the scenes, experts care for 26 million specimens. These objects form…",
+   "event_page": true,
+   "notes": "Cost: Regular museum admission rates apply | Harvard Key required: No",
+   "place_name": "Harvard Museum of Natural History",
+   "lat": 42.378466,
+   "lon": -71.115646,
+   "geo_method": "gazetteer",
+   "walk_min": 5
+  },
+  {
+   "id": "d739b9c7ff0b",
+   "title": "Cooking Up Change: Women’s Agency and Community Building Through Cookbooks",
+   "url": "https://www.radcliffe.harvard.edu/event/2026-cooking-up-change-exhibition",
+   "source_id": "gazette",
+   "source_name": "Harvard Gazette calendar",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-24T09:00:00-05:00",
+   "end": "2026-11-24T16:30:00-05:00",
+   "date": "2026-11-24",
+   "all_day": false,
+   "location": "Lia and William Poorvu Gallery, Schlesinger Library, 3 James St., Cambridge",
+   "online": false,
+   "host": "Harvard Radcliffe Institute",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "Drawn from the Schlesinger Library’s collection of more than 4,300 community cookbooks, ‘Cooking Up Change: Women’s Agency and Community Building Through Cookbooks’ explores the cultural and historical significance of community cookbooks from the nineteenth century to today. These volumes document how women’s groups…",
+   "blurb": "Drawn from the Schlesinger Library’s collection of more than 4,300 community cookbooks, ‘Cooking Up Change: Women’s Agency and Community Building Through Cookbooks’ explores the cultural and historical significance of community cookbooks from the nineteenth…",
+   "event_page": true,
+   "notes": "Cost: Free",
+   "place_name": "Schlesinger Library, Radcliffe Yard",
+   "lat": 42.375748,
+   "lon": -71.123127,
+   "geo_method": "gazetteer",
+   "walk_min": 15
+  },
+  {
+   "id": "8dd719bc7747",
+   "title": "From Iran: A Visual Testimony",
+   "url": "https://peabody.harvard.edu/iran-visual-testimony",
+   "source_id": "gazette",
+   "source_name": "Harvard Gazette calendar",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-24T09:00:00-05:00",
+   "end": "2026-11-24T17:00:00-05:00",
+   "date": "2026-11-24",
+   "all_day": false,
+   "location": "Peabody Museum of Archaeology & Ethnology, 11 Divinity Ave., Cambridge",
+   "online": false,
+   "host": "Harvard Museum of Science & Culture",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "Created over the course of fourteen years, Azadeh Akhlaghi’s project stages and photographs pivotal moments from Iran’s tumultuous twentieth-century history. Drawing on meticulous archival research and her background in cinema, she casts professional and nonprofessional actors and photographs each scene from multiple…",
+   "blurb": "Created over the course of fourteen years, Azadeh Akhlaghi’s project stages and photographs pivotal moments from Iran’s tumultuous twentieth-century history. Drawing on meticulous archival research and her background in cinema, she casts professional and…",
+   "event_page": true,
+   "notes": "Cost: Regular admission applies | Harvard Key required: No",
+   "place_name": "Peabody Museum",
+   "lat": 42.378214,
+   "lon": -71.114928,
+   "geo_method": "gazetteer",
+   "walk_min": 4
+  },
+  {
+   "id": "97a0711a3c2e",
+   "title": "Pop Quiz: 1776",
+   "url": "https://hmsc.harvard.edu/visit/",
+   "source_id": "gazette",
+   "source_name": "Harvard Gazette calendar",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-24T09:00:00-05:00",
+   "end": "2026-11-24T17:00:00-05:00",
+   "date": "2026-11-24",
+   "all_day": false,
+   "location": "Harvard Museum of Natural History, 26 Oxford St., Cambridge",
+   "online": false,
+   "host": "Harvard Museum of Natural History",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "Step back into the 18th century and put your detective skills to the test! Pop Quiz: 1776 takes you on a four-museum adventure to uncover surprising ways that life at Harvard was both similar to and — or different from — today. Would Harvard students in 1776 have known about the things we see and do today? Take a…",
+   "blurb": "Step back into the 18th century and put your detective skills to the test! Pop Quiz: 1776 takes you on a four-museum adventure to uncover surprising ways that life at Harvard was both similar to and — or different from — today. Would Harvard students in 1776…",
+   "event_page": true,
+   "notes": "Cost: Regular museum admission rates apply | Harvard Key required: No",
+   "place_name": "Harvard Museum of Natural History",
+   "lat": 42.378466,
+   "lon": -71.115646,
+   "geo_method": "gazetteer",
+   "walk_min": 5
+  },
+  {
+   "id": "9f4593ca3280",
+   "title": "Rubies",
+   "url": "https://www.hmnh.harvard.edu/rubies",
+   "source_id": "gazette",
+   "source_name": "Harvard Gazette calendar",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-24T09:00:00-05:00",
+   "end": "2026-11-24T17:00:00-05:00",
+   "date": "2026-11-24",
+   "all_day": false,
+   "location": "Harvard Museum of Natural History, 26 Oxford St., Cambridge",
+   "online": false,
+   "host": "Harvard Museums of Science & Culture Harvard Museum of Natural History",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "Rubies is a new, intimate collection of stunning minerals, gemstones, and jewelry on display in the Earth & Planetary Sciences Gallery. Ruby, the red variety of the mineral corundum, owes its vibrant color to trace amounts of chromium in its crystal structure. This element also gives many rubies a striking…",
+   "blurb": "Rubies is a new, intimate collection of stunning minerals, gemstones, and jewelry on display in the Earth & Planetary Sciences Gallery. Ruby, the red variety of the mineral corundum, owes its vibrant color to trace amounts of chromium in its crystal structure.",
+   "event_page": true,
+   "notes": "Cost: Regular museum admission rates apply | Harvard Key required: No",
+   "place_name": "Harvard Museum of Natural History",
+   "lat": 42.378466,
+   "lon": -71.115646,
+   "geo_method": "gazetteer",
+   "walk_min": 5
+  },
+  {
+   "id": "414286cfb1f5",
+   "title": "50 Shades of Modern",
+   "url": "https://library.harvard.edu/exhibits/50-shades-modern",
+   "source_id": "gazette",
+   "source_name": "Harvard Gazette calendar",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-24T10:00:00-05:00",
+   "end": "2026-11-24T17:00:00-05:00",
+   "date": "2026-11-24",
+   "all_day": false,
+   "location": "Houghton Library, Harvard Yard, Cambridge",
+   "online": false,
+   "host": "Houghton Library",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "Seeking to provoke both “wow, what an amazing object” and “wow, I didn’t know Houghton collected stuff like that,” \"50 Shades of Modern\" showcases just a few of the thousands of acquisitions Houghton’s Modern Books and Manuscripts Department has made over the past 20 years. Dating from 1800 to the present, these items…",
+   "blurb": "Seeking to provoke both “wow, what an amazing object” and “wow, I didn’t know Houghton collected stuff like that,” \"50 Shades of Modern\" showcases just a few of the thousands of acquisitions Houghton’s Modern Books and Manuscripts Department has made over the…",
+   "event_page": true,
+   "notes": "Harvard Key required: No",
+   "place_name": "Houghton Library",
+   "lat": 42.373191,
+   "lon": -71.115923,
+   "geo_method": "gazetteer",
+   "walk_min": 9
+  },
+  {
+   "id": "b0817be3276c",
+   "title": "Adam Smith and the other revolution of 1776",
+   "url": "https://library.harvard.edu/exhibits/adam-smith-and-other-revolution-1776",
+   "source_id": "gazette",
+   "source_name": "Harvard Gazette calendar",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-24T10:00:00-05:00",
+   "end": "2026-11-24T17:00:00-05:00",
+   "date": "2026-11-24",
+   "all_day": false,
+   "location": "Houghton Library, Harvard Yard, Cambridge",
+   "online": false,
+   "host": "Houghton Library",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "This exhibition features two items by the Scottish moral philosopher Adam Smith: his monumental two-volume \"Inquiry into the Nature and Causes of the Wealth of Nations\" (1776) and a signed letter to his publisher, William Strahan, from that same year. Smith famously argued that economic prosperity is driven by open…",
+   "blurb": "This exhibition features two items by the Scottish moral philosopher Adam Smith: his monumental two-volume \"Inquiry into the Nature and Causes of the Wealth of Nations\" (1776) and a signed letter to his publisher, William Strahan, from that same year. Smith…",
+   "event_page": true,
+   "notes": "Harvard Key required: No",
+   "place_name": "Houghton Library",
+   "lat": 42.373191,
+   "lon": -71.115923,
+   "geo_method": "gazetteer",
+   "walk_min": 9
+  },
+  {
+   "id": "514929fd7694",
+   "title": "Harvard and the American Revolution",
+   "url": "https://library.harvard.edu/exhibits/harvard-and-american-revolution",
+   "source_id": "gazette",
+   "source_name": "Harvard Gazette calendar",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-24T10:00:00-05:00",
+   "end": "2026-11-24T18:00:00-05:00",
+   "date": "2026-11-24",
+   "all_day": false,
+   "location": "Lammot du Pont Copeland Gallery, Pusey Library, Harvard University Archives, Harvard Yard, Cambridge",
+   "online": false,
+   "host": "Harvard University Archives",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "The American Revolution (1775-1783) was a war between Great Britain and its 13 American colonies. Colonists who supported independence believed they should have more control over their own laws and taxation, while the British wanted to keep the colonies under Imperial rule. These disagreements grew into open conflict…",
+   "blurb": "The American Revolution (1775-1783) was a war between Great Britain and its 13 American colonies. Colonists who supported independence believed they should have more control over their own laws and taxation, while the British wanted to keep the colonies under…",
+   "event_page": true,
+   "notes": "Cost: Free and open to the public | Harvard Key required: No",
+   "place_name": "Harvard Yard",
+   "lat": 42.37409,
+   "lon": -71.116716,
+   "geo_method": "gazetteer",
+   "walk_min": 9
+  },
+  {
+   "id": "e8c032354962",
+   "title": "Making a Scene: 125 Years of the Harvard Theatre Collection",
+   "url": "https://library.harvard.edu/exhibits/making-scene-0",
+   "source_id": "gazette",
+   "source_name": "Harvard Gazette calendar",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-24T10:00:00-05:00",
+   "end": "2026-11-24T17:00:00-05:00",
+   "date": "2026-11-24",
+   "all_day": false,
+   "location": "Houghton Library, Harvard Yard, Cambridge",
+   "online": false,
+   "host": "Houghton Library",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "Founded in 1901, the Harvard Theatre Collection is one of the world’s largest repositories for rare books, manuscripts, illustrations, and archives relating to the performing arts. Pairing archival objects with a defining moment from the past 125 years, this exhibition celebrates the extraordinary breadth of HTC’s…",
+   "blurb": "Founded in 1901, the Harvard Theatre Collection is one of the world’s largest repositories for rare books, manuscripts, illustrations, and archives relating to the performing arts. Pairing archival objects with a defining moment from the past 125 years, this…",
+   "event_page": true,
+   "notes": "Harvard Key required: No",
+   "place_name": "Houghton Library",
+   "lat": 42.373191,
+   "lon": -71.115923,
+   "geo_method": "gazetteer",
+   "walk_min": 9
+  },
+  {
+   "id": "09745e8a14eb",
+   "title": "The Way We Never Were: The American Professional Photographers Collection",
+   "url": "https://harvardartmuseums.org/exhibitions/6622/the-way-we-never-were-the-american-professional-photographers-collection?utm_source=gazette&utm_medium=listing&utm_campaign=APPC&utm_id=The+Way+We+Never+Were%3A+The+American+Professional+Photographers+Collec",
+   "source_id": "gazette",
+   "source_name": "Harvard Gazette calendar",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-24T10:00:00-05:00",
+   "end": "2026-11-24T10:00:00-05:00",
+   "date": "2026-11-24",
+   "all_day": false,
+   "location": "Harvard Art Museums, 32 Quincy St., Cambridge",
+   "online": false,
+   "host": "Harvard Art Museums",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "Life in the United States after World War II is often remembered as a time of prosperity, stability, and ease. The Way We Never Were examines the role that professional photography played in shaping this familiar image. Photographers working on commission for private clients, businesses, and civic organizations…",
+   "blurb": "Life in the United States after World War II is often remembered as a time of prosperity, stability, and ease. The Way We Never Were examines the role that professional photography played in shaping this familiar image. Photographers working on commission for…",
+   "event_page": true,
+   "notes": "Cost: Free admission | Harvard Key required: No",
+   "place_name": "Harvard Art Museums",
+   "lat": 42.374099,
+   "lon": -71.114113,
+   "geo_method": "gazetteer",
+   "walk_min": 7
+  },
+  {
+   "id": "161f67e7bab7",
+   "title": "Measurement on the Color Line: Scientific Instruments and the Making of Human Categories",
+   "url": "https://chsi.harvard.edu/measurement-color-line-scientific-instruments-and-making-human-categories",
+   "source_id": "gazette",
+   "source_name": "Harvard Gazette calendar",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-24T11:00:00-05:00",
+   "end": "2026-11-24T16:00:00-05:00",
+   "date": "2026-11-24",
+   "all_day": false,
+   "location": "Collection of Historical Scientific Instruments, Special Exhibitions Gallery, 1 Oxford St., Cambridge",
+   "online": false,
+   "host": "Harvard Museums of Science & Culture",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "Everyone thinks they know what race is—but do they?\" Measurement on the Color Line traces how present-day ideas of race were shaped by scientific, biological, anthropological, and medical practices from the eighteenth century to today. The exhibition examines how scientific instruments, measurement, and data have been…",
+   "blurb": "Everyone thinks they know what race is—but do they?\" Measurement on the Color Line traces how present-day ideas of race were shaped by scientific, biological, anthropological, and medical practices from the eighteenth century to today. The exhibition examines…",
+   "event_page": true,
+   "notes": "Cost: Free | Harvard Key required: No",
+   "place_name": "Science Center",
+   "lat": 42.376491,
+   "lon": -71.117051,
+   "geo_method": "gazetteer",
+   "walk_min": 7
+  },
+  {
+   "id": "2fde99181541",
+   "title": "Carmen Winant: Double Jeopardy Exhibition",
+   "url": "https://www.radcliffe.harvard.edu/event/2026-carmen-winant-double-jeopardy-exhibition",
+   "source_id": "gazette",
+   "source_name": "Harvard Gazette calendar",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-24T12:00:00-05:00",
+   "end": "2026-11-24T16:45:00-05:00",
+   "date": "2026-11-24",
+   "all_day": false,
+   "location": "Johnson-Kulukundis Family Gallery, Byerly Hall, 8 Garden St., Cambridge",
+   "online": false,
+   "host": "Harvard Radcliffe Institute",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "In “Double Jeopardy,” artist Carmen Winant explores the early formation of the anti-domestic violence movement through archival video, photographs, and documents from the 1970s and ’80s. Marking her first exploration of video as a medium and historical subject, Winant draws on more than 200 videotapes from the…",
+   "blurb": "In “Double Jeopardy,” artist Carmen Winant explores the early formation of the anti-domestic violence movement through archival video, photographs, and documents from the 1970s and ’80s. Marking her first exploration of video as a medium and historical…",
+   "event_page": true,
+   "notes": "Cost: Free | Harvard Key required: No",
+   "place_name": "Byerly Hall, Radcliffe Yard",
+   "lat": 42.375988,
+   "lon": -71.121949,
+   "geo_method": "gazetteer",
+   "walk_min": 13
+  },
+  {
+   "id": "04fe50320e27",
+   "title": "Conversation with Fr. Patrick Reidy on Property Law and Religion",
+   "url": "https://hls.harvard.edu/events/conversation-with-fr-patrick-reidy-on-property-law-and-religion/",
+   "source_id": "hls",
+   "source_name": "Harvard Law School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-24T12:15:00-05:00",
+   "end": "2026-11-24T13:15:00-05:00",
+   "date": "2026-11-24",
+   "all_day": false,
+   "location": "WCC, 1015 Classroom, Harvard Law School",
+   "online": false,
+   "host": "Catholic Law Students Association",
+   "food": {
+    "status": "confirmed",
+    "types": [
+     "Lunch"
+    ],
+    "evidence": "Lunch will be provided!",
+    "cue": "strong"
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "HLS community",
+    "evidence": "HLS listing audience: HLS only",
+    "basis": "listing"
+   },
+   "summary": "Join the Catholic Law Students Association for a conversation with Fr. Patrick Reidy CSC. Fr. Pat is a priest of the Congregation of Holy Cross and an Associate Professor of Law at the University of Notre Dame where he teaches property and serves as Faculty Director of the Church Properties Initiative. Fr. Pat is a…",
+   "blurb": "Join the Catholic Law Students Association for a conversation with Fr. Pat is a priest of the Congregation of Holy Cross and an Associate Professor of Law at the University of Notre Dame where he teaches property and serves as Faculty Director of the Church…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Wasserstein Hall (WCC), Harvard Law School",
+   "lat": 42.379383,
+   "lon": -71.119421,
+   "geo_method": "gazetteer",
+   "walk_min": 10
+  },
+  {
+   "id": "f739f590029d",
+   "title": "HLS Grief & Loss Support Group",
+   "url": "https://hls.harvard.edu/events/hls-grief-loss-support-group/?occurrence=12650",
+   "source_id": "hls",
+   "source_name": "Harvard Law School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-24T12:15:00-05:00",
+   "end": "2026-11-24T13:20:00-05:00",
+   "date": "2026-11-24",
+   "all_day": false,
+   "location": "Pound Hall 509, Harvard Law School",
+   "online": false,
+   "host": "The Well; Student Wellbeing Working Group",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "Registration link on the event page",
+    "link": "https://harvard.az1.qualtrics.com/jfe/form/SV_da7SyhDyxlTNlYO"
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "HLS students",
+    "evidence": "HLS listing audience: All HLS students",
+    "basis": "listing"
+   },
+   "summary": "HLS Grief & Loss Support Group is a confidential support group where HLS students can talk through grief and loss, including the death of a loved one, estrangement, a serious diagnosis, or other significant loss, whether recent or longstanding. The group is open to all HLS students and offers a space to connect with…",
+   "blurb": "HLS Grief & Loss Support Group is a confidential support group where HLS students can talk through grief and loss, including the death of a loved one, estrangement, a serious diagnosis, or other significant loss, whether recent or longstanding. The group is…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Pound Hall, Harvard Law School",
+   "lat": 42.378601,
+   "lon": -71.119747,
+   "geo_method": "gazetteer",
+   "walk_min": 10
+  },
+  {
+   "id": "480ba4d32e5f",
+   "title": "Scripture in Community: Public Reading of Scripture",
+   "url": "https://hls.harvard.edu/events/scripture-in-community-public-reading-of-scripture-4/?occurrence=12484",
+   "source_id": "hls",
+   "source_name": "Harvard Law School",
+   "also_listed": [
+    {
+     "source_name": "Harvard College events",
+     "url": "https://events.college.harvard.edu/ofa/event/223329-dance-in-public"
+    }
+   ],
+   "aliases": [
+    "ad32d13da790"
+   ],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-24T12:20:00-05:00",
+   "end": "2026-11-24T13:15:00-05:00",
+   "date": "2026-11-24",
+   "all_day": false,
+   "location": "Hauser Hall, 101 Borenstein Meeting Room, Harvard Law School",
+   "online": false,
+   "host": "Program on Biblical Law and Christian Legal Studies",
+   "food": {
+    "status": "confirmed",
+    "types": [
+     "Lunch"
+    ],
+    "evidence": "Lunch is provided for those in person.",
+    "cue": "strong"
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "Please RSVP here!",
+    "link": "https://forms.cloud.microsoft/r/n2EGMBcFCR"
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "HLS community",
+    "evidence": "HLS listing audience: HLS only",
+    "basis": "listing"
+   },
+   "summary": "Whether you’re new to reading the Bible, have studied it for years, or are just curious about what it says, you are welcome to listen, learn, and reflect on the wisdom within its pages. Scripture in Community meets over lunch to read and listen to Bible passages together – from the Psalms, the Old Testament, and the…",
+   "blurb": "who will be investigating and activating sites throughout the academic year, exploring themes in design and architecture, civic engagement, creative research, and public life. Each individual lab session is open to Harvard student drop-in participation. Visit…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Hauser Hall, Harvard Law School",
+   "lat": 42.37864,
+   "lon": -71.118138,
+   "geo_method": "gazetteer",
+   "walk_min": 8
+  },
+  {
+   "id": "17f4b6ab1821",
+   "title": "Mismatched Industrial Land Lease Terms: Urban Land Vacancy Induced by Business Turnover",
+   "url": "https://fairbank.fas.harvard.edu/events/urban-china-lecture-series-featuring-zhao-miaoxi/",
+   "source_id": "newsletter",
+   "source_name": "Newsletter: Upcoming Events at the Fairbank Center",
+   "also_listed": [
+    {
+     "source_name": "Fairbank Center",
+     "url": "https://fairbank.fas.harvard.edu/events/urban-china-lecture-series-featuring-zhao-miaoxi/"
+    },
+    {
+     "source_name": "Suggested calendar: Fairbanks center",
+     "url": "https://fairbank.fas.harvard.edu/events/urban-china-lecture-series-featuring-zhao-miaoxi/"
+    }
+   ],
+   "aliases": [
+    "9778677164f6",
+    "e43de687ad1f"
+   ],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-24T20:30:00-05:00",
+   "end": null,
+   "date": "2026-11-24",
+   "all_day": false,
+   "location": "",
+   "online": false,
+   "host": "",
+   "food": {
+    "status": "confirmed",
+    "types": [
+     "Coffee",
+     "Sweets"
+    ],
+    "evidence": "Come test out a new idea or two, share some of your work—or just the latest China gossip—and enjoy some good tea and cookies!",
+    "cue": "weak"
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "Mismatched Industrial Land Lease Terms: Urban Land Vacancy Induced by Business Turnover Tuesday, November 24, 2026 | 8:30 - 10:00 PM EST Zoom Meeting Link Speaker: Zhao Miaoxi, South China University of Technology In China’s system of public land ownership, industrial land leases often extend beyond the relatively…",
+   "blurb": "In China’s system of public land ownership, industrial land leases often extend beyond the relatively short lifespan of enterprises. Consequently, formulating land use strategies that account for business turnover has emerged as a crucial task for urban…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "CGIS South Building",
+   "lat": 42.375011,
+   "lon": -71.113135,
+   "geo_method": "host",
+   "walk_min": 5
   },
   {
    "id": "23beead64427",
@@ -16229,8 +15019,8 @@
   {
    "id": 4,
    "state": "scanned",
-   "label": "Scanned at every update: 16 events found, 1 with food this week",
-   "n_food": 1
+   "label": "Scanned at every update: 16 events found, 2 with food this week",
+   "n_food": 2
   }
  ],
  "newsletters": [
@@ -16300,7 +15090,7 @@
   {
    "subject": "Election Week at the IOP!",
    "sent": "2026-11-02",
-   "items": 2,
+   "items": 1,
    "sender": null,
    "forwarded_by": "Ellen"
   },
@@ -16321,40 +15111,16 @@
   {
    "subject": "November Newsletter from EVP Meredith Weenick",
    "sent": "2026-11-10",
-   "items": 3,
+   "items": 2,
    "sender": null,
    "forwarded_by": "Juan"
   },
   {
-   "subject": "Weekly SITREP November 16-20",
+   "subject": null,
    "sent": "2026-11-16",
-   "items": 1,
+   "items": 0,
    "sender": null,
    "forwarded_by": "Ellen"
-  },
-  {
-   "subject": null,
-   "sent": "2026-11-02",
-   "items": 0,
-   "sender": null
-  },
-  {
-   "subject": "Upcoming Events at the Fairbank Center",
-   "sent": "2026-11-02",
-   "items": 1,
-   "sender": "Fairbank Center for Chinese Studies"
-  },
-  {
-   "subject": "AC This Week: Book Talk on Underground Art During China's Cultural Revolution; African Soldiers in t",
-   "sent": "2026-11-02",
-   "items": 0,
-   "sender": "Harvard University Asia Center"
-  },
-  {
-   "subject": "The Hutch: November 2 - November 8, 2026",
-   "sent": "2026-11-02",
-   "items": 0,
-   "sender": "Hutchins Center for African & African American Research, Har"
   },
   {
    "subject": "Today! Weatherhead Forum / Women and Peacebuilding",
@@ -16395,7 +15161,7 @@
   {
    "subject": "Upcoming Events at the Fairbank Center",
    "sent": "2026-11-09",
-   "items": 2,
+   "items": 3,
    "sender": "Fairbank Center for Chinese Studies"
   },
   {
