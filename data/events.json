@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T14:13:05-05:00",
+ "generated_at": "2026-11-17T20:38:54-05:00",
  "window": {
   "start": "2026-11-17",
   "end": "2026-11-24"
@@ -22,7 +22,7 @@
    "error": null,
    "n_events": 149,
    "n_food": 7,
-   "seconds": 3.5
+   "seconds": 0.5
   },
   {
    "id": "hks",
@@ -32,7 +32,7 @@
    "error": null,
    "n_events": 34,
    "n_food": 10,
-   "seconds": 5.5
+   "seconds": 6.9
   },
   {
    "id": "hls",
@@ -40,9 +40,9 @@
    "homepage": "https://hls.harvard.edu/calendar/",
    "ok": true,
    "error": null,
-   "n_events": 81,
-   "n_food": 42,
-   "seconds": 10.3
+   "n_events": 83,
+   "n_food": 43,
+   "seconds": 9.1
   },
   {
    "id": "college",
@@ -50,9 +50,9 @@
    "homepage": "https://events.college.harvard.edu/",
    "ok": true,
    "error": null,
-   "n_events": 121,
+   "n_events": 120,
    "n_food": 12,
-   "seconds": 0.5
+   "seconds": 0.8
   },
   {
    "id": "ash",
@@ -62,7 +62,7 @@
    "error": null,
    "n_events": 2,
    "n_food": 0,
-   "seconds": 2.8
+   "seconds": 2.4
   },
   {
    "id": "shorenstein",
@@ -72,7 +72,7 @@
    "error": null,
    "n_events": 2,
    "n_food": 1,
-   "seconds": 12.0
+   "seconds": 10.1
   },
   {
    "id": "fairbank",
@@ -82,7 +82,7 @@
    "error": null,
    "n_events": 9,
    "n_food": 1,
-   "seconds": 6.6
+   "seconds": 0.2
   },
   {
    "id": "newsletter",
@@ -90,9 +90,9 @@
    "homepage": "",
    "ok": true,
    "error": null,
-   "n_events": 10,
+   "n_events": 9,
    "n_food": 3,
-   "seconds": 47.1
+   "seconds": 50.8
   },
   {
    "id": "suggested",
@@ -102,17 +102,17 @@
    "error": null,
    "n_events": 10,
    "n_food": 2,
-   "seconds": 6.4
+   "seconds": 4.9
   }
  ],
  "stats": {
-  "events": 332,
-  "food_confirmed": 47,
+  "events": 334,
+  "food_confirmed": 48,
   "food_likely": 15,
-  "forwarded": 4,
+  "forwarded": 3,
   "forwarded_listed": 2,
-  "food_restricted": 40,
-  "seconds": 59.6
+  "food_restricted": 41,
+  "seconds": 59.2
  },
  "events": [
   {
@@ -2038,26 +2038,19 @@
    "id": "3d009700d41f",
    "title": "Modern China Lecture Series featuring Fei-Hsien Wang — Modernization Theory and Historical Knowledge in Cold War Taiwan",
    "url": "https://fairbank.fas.harvard.edu/events/modern-china-lecture-series-featuring-fei-hsien-wang/",
-   "source_id": "suggested",
-   "source_name": "Suggested calendar: Fairbanks center",
-   "also_listed": [
-    {
-     "source_name": "Fairbank Center",
-     "url": "https://fairbank.fas.harvard.edu/events/modern-china-lecture-series-featuring-fei-hsien-wang/"
-    }
-   ],
-   "aliases": [
-    "abfdcb485793"
-   ],
+   "source_id": "fairbank",
+   "source_name": "Fairbank Center",
+   "also_listed": [],
+   "aliases": [],
    "suggested": null,
    "forwarded": null,
    "start": "2026-11-17T16:00:00-05:00",
    "end": "2026-11-17T17:30:00-05:00",
    "date": "2026-11-17",
    "all_day": false,
-   "location": "Room K354, CGIS Knafel, 1737 Cambridge St, Cambridge, Massachusetts, 02138, United States",
+   "location": "Room K354, CGIS Knafel, 1737 Cambridge St, Cambridge",
    "online": false,
-   "host": "",
+   "host": "Fairbank Center for Chinese Studies",
    "food": {
     "status": "none",
     "types": [],
@@ -2074,7 +2067,7 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "Speaker: Fei-Hsien Wang, Associate Professor, Department of History, Indiana University Bloomington In 1973, the Institute of Modern History (IMH) at Academia Sinica launched an ambitious collaborative project to examine late nineteenth- and early twentieth-century China through the lens of modernization theory. Over…",
+   "summary": "@ Speaker: Fei-Hsien Wang, Associate Professor, Department of History, Indiana University Bloomington In 1973, the Institute of Modern History (IMH) at Academia Sinica launched an ambitious collaborative project to examine late nineteenth- and early twentieth-century China through the lens of modernization theory.…",
    "blurb": "In 1973, the Institute of Modern History (IMH) at Academia Sinica launched an ambitious collaborative project to examine late nineteenth- and early twentieth-century China through the lens of modernization theory. Over the next sixteen years, seventeen…",
    "event_page": true,
    "notes": "",
@@ -2131,23 +2124,23 @@
    "walk_min": null
   },
   {
-   "id": "40f6098da4d4",
+   "id": "3b5d962ab91d",
    "title": "Study Group with Ambassador Nathalie Rayes — Outside the Lines: Diplomacy, Leadership, and the U.S.–Denmark Partnership with Amb. Alan Leventhal",
    "url": "https://iop.harvard.edu/events/study-group-ambassador-nathalie-rayes-outside-lines-diplomacy-leadership-and-us-denmark",
    "source_id": "gazette",
    "source_name": "Harvard Gazette calendar",
    "also_listed": [
     {
-     "source_name": "Harvard College events",
-     "url": "https://events.college.harvard.edu/event/226276-study-group-with-ambassador-nathalie-rayes-outside"
+     "source_name": "Harvard Kennedy School",
+     "url": "https://www.hks.harvard.edu/events/amb-nathalie-rayes-study-group-diplomacy-leadership-us-denmark-partnership"
     },
     {
-     "source_name": "Harvard Kennedy School",
-     "url": "https://www.hks.harvard.edu/index%2ephp/events/amb-nathalie-rayes-study-group-diplomacy-leadership-us-denmark-partnership"
+     "source_name": "Harvard College events",
+     "url": "https://events.college.harvard.edu/event/226276-study-group-with-ambassador-nathalie-rayes-outside"
     }
    ],
    "aliases": [
-    "501ac2caceb1",
+    "40f6098da4d4",
     "b0b51978cce1"
    ],
    "suggested": null,
@@ -3608,9 +3601,9 @@
    "walk_min": 5
   },
   {
-   "id": "bd1d03b1875e",
+   "id": "a99b50fb7122",
    "title": "Fixing a Broken NPT Review Process",
-   "url": "https://www.hks.harvard.edu/index%2ephp/events/fixing-broken-npt-review-process",
+   "url": "https://www.hks.harvard.edu/events/fixing-broken-npt-review-process",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -3621,9 +3614,9 @@
    "end": "2026-11-18T12:30:00-05:00",
    "date": "2026-11-18",
    "all_day": false,
-   "location": "",
+   "location": "Fainsod (l324)",
    "online": false,
-   "host": "",
+   "host": "Managing the Atom Project",
    "food": {
     "status": "none",
     "types": [],
@@ -3640,15 +3633,15 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "",
-   "blurb": "",
+   "summary": "Speaker: Dr. Mark Goodman, Non-Resident Fellow, Center for Nonproliferation Studies The Non-Proliferation Treaty (NPT) has been remarkably successful at preventing the spread of nuclear weapons and reducing the dangers of nuclear war. By contrast, recent NPT Review Conferences have often ended in disappointment or…",
+   "blurb": "The Non-Proliferation Treaty (NPT) has been remarkably successful at preventing the spread of nuclear weapons and reducing the dangers of nuclear war. By contrast, recent NPT Review Conferences have often ended in disappointment or even discord. Does it mean…",
    "event_page": true,
    "notes": "",
-   "place_name": "Harvard Kennedy School",
-   "lat": 42.371989,
-   "lon": -71.121761,
-   "geo_method": "host",
-   "walk_min": 16
+   "place_name": "Littauer Building, Harvard Kennedy School",
+   "lat": 42.371045,
+   "lon": -71.12209,
+   "geo_method": "gazetteer",
+   "walk_min": 18
   },
   {
    "id": "591cb17072cd",
@@ -4120,6 +4113,52 @@
    "lat": 42.379106,
    "lon": -71.119679,
    "geo_method": "host",
+   "walk_min": 10
+  },
+  {
+   "id": "6027dda99a9e",
+   "title": "CLA x HALS 1L Study Tips Panel",
+   "url": "https://hls.harvard.edu/events/cla-x-hals-1l-study-tips-panel/",
+   "source_id": "hls",
+   "source_name": "Harvard Law School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-18T12:15:00-05:00",
+   "end": "2026-11-18T13:15:00-05:00",
+   "date": "2026-11-18",
+   "all_day": false,
+   "location": "WCC 3007, Harvard Law School",
+   "online": false,
+   "host": "China Law Association; Harvard Asia Law Society",
+   "food": {
+    "status": "confirmed",
+    "types": [
+     "Lunch"
+    ],
+    "evidence": "Lunch from Poke City will be served.",
+    "cue": "strong"
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "HLS 1L students",
+    "evidence": "Title: CLA x HALS 1L Study Tips Panel",
+    "basis": "inferred"
+   },
+   "summary": "Join CLA and HALS for a 1L Study Tips Panel! Lunch from Poke City will be served. Add to Calendar November 18, 2026, 12:15 pm - 1:15 pm +Google Calendar +iCal/Outlook",
+   "blurb": "",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Wasserstein Hall (WCC), Harvard Law School",
+   "lat": 42.379383,
+   "lon": -71.119421,
+   "geo_method": "gazetteer",
    "walk_min": 10
   },
   {
@@ -11921,6 +11960,51 @@
    "walk_min": 12
   },
   {
+   "id": "7004b80ea76b",
+   "title": "Harvard University Wrestling vs Keystone Classic",
+   "url": "https://events.college.harvard.edu/event/225132-harvard-university-wrestling-vs-keystone-classic",
+   "source_id": "college",
+   "source_name": "Harvard College events",
+   "also_listed": [],
+   "aliases": [
+    "a3292784eb10"
+   ],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-22T00:00:00-05:00",
+   "end": null,
+   "date": "2026-11-22",
+   "all_day": true,
+   "location": "Philadelphia, Pa.",
+   "online": false,
+   "host": "Main Calendar",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "Harvard College students",
+    "evidence": "Harvard College calendar, no sign it is open to others",
+    "basis": "default"
+   },
+   "summary": "Harvard University Wrestling vs Keystone Classic URL:https://gocrimson.com/calendar.aspx?game_id=33659&sport_id=42",
+   "blurb": "",
+   "event_page": true,
+   "notes": "",
+   "place_name": "",
+   "lat": null,
+   "lon": null,
+   "geo_method": null,
+   "walk_min": null
+  },
+  {
    "id": "bc707d1c00a2",
    "title": "Collecting Wonders: Tomorrow’s Discoveries",
    "url": "https://www.hmnh.harvard.edu/collecting-wonders",
@@ -12263,52 +12347,6 @@
    "lon": -71.116034,
    "geo_method": "gazetteer",
    "walk_min": 7
-  },
-  {
-   "id": "7004b80ea76b",
-   "title": "Harvard Women’s Basketball Club VS Maine University",
-   "url": "https://soco.college.harvard.edu/rsvp?id=383308",
-   "source_id": "college",
-   "source_name": "Harvard College events",
-   "also_listed": [],
-   "aliases": [
-    "8d0b9cf4d712",
-    "a3292784eb10"
-   ],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-11-22T13:00:00-05:00",
-   "end": "2026-11-22T16:00:00-05:00",
-   "date": "2026-11-22",
-   "all_day": false,
-   "location": "SoCo",
-   "online": false,
-   "host": "Dean of Students Office",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "required",
-    "evidence": "Registration link on the event page",
-    "link": "https://soco.college.harvard.edu/rsvp?id=383308"
-   },
-   "audience": {
-    "level": "restricted",
-    "group": "Harvard College students",
-    "evidence": "Harvard College calendar, no sign it is open to others",
-    "basis": "default"
-   },
-   "summary": "2 consecutive basketball games between HWBC and Maine University Women’s Basketball Club — Event Details: https://soco.college.harvard.edu/rsvp?id=383308",
-   "blurb": "",
-   "event_page": true,
-   "notes": "",
-   "place_name": "",
-   "lat": null,
-   "lon": null,
-   "geo_method": null,
-   "walk_min": null
   },
   {
    "id": "cb38b6f5e78d",
@@ -13269,6 +13307,49 @@
    "walk_min": 18
   },
   {
+   "id": "cee5b49c79b8",
+   "title": "Harvard University Asia Center",
+   "url": "https://asiacenter.harvard.edu/",
+   "source_id": "suggested",
+   "source_name": "Suggested calendar: Asia Center",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-23T12:00:00-05:00",
+   "end": null,
+   "date": "2026-11-23",
+   "all_day": true,
+   "location": "",
+   "online": false,
+   "host": "",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "November 23 | Acts of Resistance: Three Documentary Perspectives on Contemporary Thailand November 17 | Curating and Collaborating with Cambodia at the National Museum of Asian Art, Smithsonian November 18 | The Promised Republic Developmental Society and the Making of Modern Seoul, 1961–1979",
+   "blurb": "",
+   "event_page": true,
+   "notes": "",
+   "place_name": "CGIS South Building",
+   "lat": 42.375011,
+   "lon": -71.113135,
+   "geo_method": "host",
+   "walk_min": 5
+  },
+  {
    "id": "b06f8ff6860f",
    "title": "Harvard-Cambridge Scholarship Application Deadline",
    "url": "https://events.college.harvard.edu/uraf/event/225368-harvard-cambridge-scholarship-application-deadline",
@@ -13353,6 +13434,49 @@
    "lon": -71.12209,
    "geo_method": "gazetteer",
    "walk_min": 18
+  },
+  {
+   "id": "d9dfe3dde342",
+   "title": "Finals Prep for 1Ls",
+   "url": "https://hls.harvard.edu/events/finals-prep-for-1ls-2/",
+   "source_id": "hls",
+   "source_name": "Harvard Law School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-23T12:15:00-05:00",
+   "end": "2026-11-23T13:15:00-05:00",
+   "date": "2026-11-23",
+   "all_day": false,
+   "location": "Hauser Hall, 104 Lumbard Classroom, Harvard Law School",
+   "online": false,
+   "host": "Harvard Jewish Law Students Association",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "HLS 1Ls students",
+    "evidence": "Title: Finals Prep for 1Ls",
+    "basis": "inferred"
+   },
+   "summary": "Join JLSA for practical tips and valuable guidance on preparing for final exams, including effective study strategies and preparation advice. Add to Calendar November 23, 2026, 12:15 pm - 1:15 pm +Google Calendar +iCal/Outlook",
+   "blurb": "Join JLSA for practical tips and valuable guidance on preparing for final exams, including effective study strategies and preparation advice.",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Hauser Hall, Harvard Law School",
+   "lat": 42.37864,
+   "lon": -71.118138,
+   "geo_method": "gazetteer",
+   "walk_min": 8
   },
   {
    "id": "e305b0ac2761",
@@ -13666,15 +13790,15 @@
    "walk_min": null
   },
   {
-   "id": "e26d3f04c147",
-   "title": "Dance in Public",
-   "url": "https://events.college.harvard.edu/ofa/event/223329-dance-in-public",
-   "source_id": "college",
-   "source_name": "Harvard College events",
+   "id": "826b4739d456",
+   "title": "Building a Career of Impact: Lessons in Public Service and Leadership w/ Amb. Lu",
+   "url": "https://www.hks.harvard.edu/events/building-career-impact-lessons-public-service-and-leadership-w-amb-lu",
+   "source_id": "hks",
+   "source_name": "Harvard Kennedy School",
    "also_listed": [
     {
-     "source_name": "Harvard Kennedy School",
-     "url": "https://www.hks.harvard.edu/index%2Ephp/events/building-career-impact-lessons-public-service-and-leadership-w-amb-lu"
+     "source_name": "Harvard College events",
+     "url": "https://events.college.harvard.edu/ofa/event/223329-dance-in-public"
     }
    ],
    "aliases": [
@@ -13686,18 +13810,18 @@
    "end": "2026-11-23T16:00:00-05:00",
    "date": "2026-11-23",
    "all_day": false,
-   "location": "Richard A. and Susan F. Smith Campus Center",
+   "location": "Cid Perkins Conference Room (r429)",
    "online": false,
-   "host": "Office for the Arts Dance Program",
+   "host": "Harvard Center for International Development",
    "food": {
     "status": "none",
     "types": [],
     "evidence": ""
    },
    "registration": {
-    "status": "none",
-    "evidence": "Each individual lab session is open to Harvard student drop-in participation.",
-    "link": ""
+    "status": "required",
+    "evidence": "RSVP link on the event page",
+    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001m9rdIAA"
    },
    "audience": {
     "level": "likely",
@@ -13705,15 +13829,15 @@
     "evidence": "Each individual lab session is open to Harvard student drop-in participation.",
     "basis": "text"
    },
-   "summary": "Join the Dance in Public Undergraduate Research Fellows who will be investigating and activating sites throughout the academic year, exploring themes in design and architecture, civic engagement, creative research, and public life. Each individual lab session is open to Harvard student drop-in participation. REGISTER…",
+   "summary": "Please join the Harvard Center for International Development for a conversation with Chris Lu, Resident Fellow at the Institute of Politics, and former U.S. Ambassador to the United Nations for Management and Reform, U.S. Deputy Secretary of Labor, and White House Cabinet Secretary. Interested in finding your path in…",
    "blurb": "who will be investigating and activating sites throughout the academic year, exploring themes in design and architecture, civic engagement, creative research, and public life. Each individual lab session is open to Harvard student drop-in participation. Visit…",
    "event_page": true,
    "notes": "",
-   "place_name": "Richard A. and Susan F. Smith Campus Center",
-   "lat": 42.372951,
-   "lon": -71.118484,
-   "geo_method": "source",
-   "walk_min": 12
+   "place_name": "Harvard Kennedy School",
+   "lat": 42.371989,
+   "lon": -71.121761,
+   "geo_method": "host",
+   "walk_min": 16
   },
   {
    "id": "be5945475f39",
@@ -14875,57 +14999,6 @@
    "walk_min": 5
   },
   {
-   "id": "23beead64427",
-   "title": "Breakers: How Neuroscientists Get Inside Your Head. Register",
-   "url": "https://us.list-manage.com/Dbs2cF_bLbe?e=8f0efead1f&c2id=f3d9623e085c53ebe4b5bc7eba2366f7&m=iGjru-02AdDkHVAZ4dkR28l-iQ9eeH2qQbyHaGHksU6EI7RyedFbtkWawvo0",
-   "source_id": "newsletter",
-   "source_name": "Forwarded: 12 Literary Events Next Week: From Neal Stephenson to Bonnie Garmus",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": {
-    "by": "Ellen",
-    "subject": "12 Literary Events Next Week: From Neal Stephenson to Bonnie Garmus",
-    "missing": [
-     "time",
-     "place",
-     "event page"
-    ]
-   },
-   "start": "2026-12-01T00:00:00-05:00",
-   "end": null,
-   "date": "2026-12-01",
-   "all_day": true,
-   "location": "",
-   "online": false,
-   "host": "",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
-   },
-   "audience": {
-    "level": "unknown",
-    "group": "",
-    "evidence": "",
-    "basis": "none"
-   },
-   "summary": "Breakers: How Neuroscientists Get Inside Your Head. Register for free here. And on Tuesday, December 1st, Kevin Hartnett—math and technology writer with works in Quanta Magazine, The Atlantic, The Boston Globe, WIRED, Nautilus, and Scientific American— will discuss The Proof in the Code: How a Truth Machine Is…",
-   "blurb": "And on Tuesday, December 1st, Kevin Hartnett—math and technology writer with works in",
-   "event_page": false,
-   "notes": "",
-   "place_name": "",
-   "lat": null,
-   "lon": null,
-   "geo_method": null,
-   "walk_min": null
-  },
-  {
    "id": "9396a17bb1f5",
    "title": "Harvard Freecycle",
    "url": "https://links.repoint.harvard.edu/els/v2/vNrRc_3kXXFA/VFFVaVdlbEdnOEovYytFMWVrT0lhN0R5SjJER3hKd3c2cUd5aTJ1MVoveUtZcE90L0pkdGdvOW90SkxYVzZRVkJ0bzJUeUhLWDZLN3BlMWlQd1dPbE1EakM2N2s4aHJOT1d3WUZGVGg0MzA9S0/VVdJdXFIeGhTMUkyZWtQdUFzQlJ5SWt6M3MrRFQ2cTllZXBIMzlqYkhpRHBpenMyNkR1U29tVHZMd1FuOTBKRlBwS3Zvb3lTcHI0PQS2",
@@ -15019,32 +15092,11 @@
   {
    "id": 4,
    "state": "scanned",
-   "label": "Scanned at every update: 16 events found, 2 with food this week",
+   "label": "Scanned at every update: 15 events found, 2 with food this week",
    "n_food": 2
   }
  ],
  "newsletters": [
-  {
-   "subject": "12 Literary Events Next Week: From Neal Stephenson to Bonnie Garmus",
-   "sent": "2026-10-17",
-   "items": 1,
-   "sender": null,
-   "forwarded_by": "Ellen"
-  },
-  {
-   "subject": null,
-   "sent": "2026-10-18",
-   "items": 0,
-   "sender": null,
-   "forwarded_by": "Juan"
-  },
-  {
-   "subject": null,
-   "sent": "2026-10-18",
-   "items": 0,
-   "sender": null,
-   "forwarded_by": "Juan"
-  },
   {
    "subject": null,
    "sent": "2026-10-19",
