@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T13:53:29-05:00",
+ "generated_at": "2026-11-18T20:16:31-05:00",
  "window": {
   "start": "2026-11-18",
   "end": "2026-11-25"
@@ -22,7 +22,7 @@
    "error": null,
    "n_events": 137,
    "n_food": 5,
-   "seconds": 2.4
+   "seconds": 0.4
   },
   {
    "id": "hks",
@@ -31,8 +31,8 @@
    "ok": true,
    "error": null,
    "n_events": 26,
-   "n_food": 7,
-   "seconds": 1.1
+   "n_food": 8,
+   "seconds": 6.8
   },
   {
    "id": "hls",
@@ -42,7 +42,7 @@
    "error": null,
    "n_events": 69,
    "n_food": 32,
-   "seconds": 10.3
+   "seconds": 13.7
   },
   {
    "id": "college",
@@ -52,7 +52,7 @@
    "error": null,
    "n_events": 110,
    "n_food": 10,
-   "seconds": 1.2
+   "seconds": 1.5
   },
   {
    "id": "ash",
@@ -62,7 +62,7 @@
    "error": null,
    "n_events": 1,
    "n_food": 0,
-   "seconds": 3.2
+   "seconds": 2.5
   },
   {
    "id": "shorenstein",
@@ -72,7 +72,7 @@
    "error": null,
    "n_events": 1,
    "n_food": 0,
-   "seconds": 11.1
+   "seconds": 10.2
   },
   {
    "id": "fairbank",
@@ -82,7 +82,7 @@
    "error": null,
    "n_events": 7,
    "n_food": 1,
-   "seconds": 6.7
+   "seconds": 0.2
   },
   {
    "id": "newsletter",
@@ -92,7 +92,7 @@
    "error": null,
    "n_events": 7,
    "n_food": 3,
-   "seconds": 60.3
+   "seconds": 57.3
   },
   {
    "id": "suggested",
@@ -102,17 +102,17 @@
    "error": null,
    "n_events": 7,
    "n_food": 1,
-   "seconds": 6.0
+   "seconds": 6.2
   }
  ],
  "stats": {
-  "events": 293,
-  "food_confirmed": 38,
+  "events": 294,
+  "food_confirmed": 39,
   "food_likely": 10,
   "forwarded": 3,
   "forwarded_listed": 2,
   "food_restricted": 32,
-  "seconds": 71.1
+  "seconds": 67.1
  },
  "events": [
   {
@@ -1142,9 +1142,9 @@
    "walk_min": 18
   },
   {
-   "id": "cfe0b7525a28",
+   "id": "4c97f2db0cdd",
    "title": "Made in Massachusetts: Reindustrialization in a Post-Industrial State",
-   "url": "https://www.hks.harvard.edu/index%2Ephp/events/made-massachusetts-reindustrialization-post-industrial-state",
+   "url": "https://www.hks.harvard.edu/events/made-massachusetts-reindustrialization-post-industrial-state",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -1155,13 +1155,16 @@
    "end": "2026-11-18T13:00:00-05:00",
    "date": "2026-11-18",
    "all_day": false,
-   "location": "",
+   "location": "Allison Dining Room (taubman 520)",
    "online": false,
-   "host": "",
+   "host": "Center for Public Leadership",
    "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
+    "status": "confirmed",
+    "types": [
+     "Lunch"
+    ],
+    "evidence": "Join us for lunch and a conversation with Mike van der Sleesen, President & Co-Owner, Vanson Leathers, and Kim van der Sleesen, Sales Manager & Co-Owner, Vanson Leathers.",
+    "cue": "weak"
    },
    "registration": {
     "status": "unknown",
@@ -1174,15 +1177,15 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "",
-   "blurb": "",
+   "summary": "Join us for lunch and a conversation with Mike van der Sleesen, President & Co-Owner, Vanson Leathers, and Kim van der Sleesen, Sales Manager & Co-Owner, Vanson Leathers. Located in Fall River, Massachusetts, Vanson Leathers has been a maker of high-performance motorcycle and racing apparel since 1974. Moderated by…",
+   "blurb": "Join us for lunch and a conversation with Mike van der Sleesen, President & Co-Owner, Vanson Leathers, and Kim van der Sleesen, Sales Manager & Co-Owner, Vanson Leathers. Located in Fall River, Massachusetts, Vanson Leathers has been a maker of…",
    "event_page": true,
    "notes": "",
-   "place_name": "Harvard Kennedy School",
-   "lat": 42.371989,
-   "lon": -71.121761,
-   "geo_method": "host",
-   "walk_min": 16
+   "place_name": "Taubman Building, Harvard Kennedy School",
+   "lat": 42.371822,
+   "lon": -71.122151,
+   "geo_method": "gazetteer",
+   "walk_min": 17
   },
   {
    "id": "08a8401deb46",
@@ -2064,7 +2067,7 @@
    "registration": {
     "status": "required",
     "evidence": "Registration is required.",
-    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001lqCHIAY"
+    "link": ""
    },
    "audience": {
     "level": "harvard",
@@ -2293,9 +2296,9 @@
     "evidence": ""
    },
    "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001mBDVIA2"
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
    },
    "audience": {
     "level": "unknown",
@@ -2376,17 +2379,17 @@
    "source_name": "Harvard Gazette calendar",
    "also_listed": [
     {
-     "source_name": "Harvard College events",
-     "url": "https://events.college.harvard.edu/event/226278-study-group-with-governor-doug-ducey-leading-amp"
+     "source_name": "Harvard Kennedy School",
+     "url": "https://www.hks.harvard.edu/events/study-group-governor-doug-ducey-leading-governing-rich-lowry"
     },
     {
-     "source_name": "Harvard Kennedy School",
-     "url": "https://www.hks.harvard.edu/index%2Ephp/events/study-group-governor-doug-ducey-leading-governing-rich-lowry"
+     "source_name": "Harvard College events",
+     "url": "https://events.college.harvard.edu/event/226278-study-group-with-governor-doug-ducey-leading-amp"
     }
    ],
    "aliases": [
     "b32775e5a7cb",
-    "f84a0801d9ee"
+    "be329abb8271"
    ],
    "suggested": null,
    "forwarded": null,
@@ -2706,12 +2709,12 @@
      "url": "https://www.hks.harvard.edu/events/workforce-transition-ai-economy-and-what-it-means-our-future"
     },
     {
-     "source_name": "Forwarded: Election Week at the IOP!",
-     "url": "https://iop.harvard.edu/events/workforce-transition-ai-economy-and-what-it-means-our-future-secretary-gina-raimondo"
-    },
-    {
      "source_name": "Harvard College events",
      "url": "https://events.college.harvard.edu/event/225984-a-workforce-in-transition-the-ai-economy-and-what"
+    },
+    {
+     "source_name": "Forwarded: Election Week at the IOP!",
+     "url": "https://iop.harvard.edu/events/workforce-transition-ai-economy-and-what-it-means-our-future-secretary-gina-raimondo"
     }
    ],
    "aliases": [
@@ -7295,16 +7298,13 @@
    "walk_min": 13
   },
   {
-   "id": "2ec62e535462",
+   "id": "eee5fcb9f4c4",
    "title": "Harvard University Field Hockey vs Maryland",
    "url": "https://events.college.harvard.edu/event/226288-harvard-university-field-hockey-vs-maryland",
    "source_id": "college",
    "source_name": "Harvard College events",
    "also_listed": [],
-   "aliases": [
-    "4bd9e4adedb6",
-    "eee5fcb9f4c4"
-   ],
+   "aliases": [],
    "suggested": null,
    "forwarded": null,
    "start": "2026-11-20T12:00:00-05:00",
@@ -8275,6 +8275,49 @@
    "walk_min": 8
   },
   {
+   "id": "2ec62e535462",
+   "title": "Harvard University Women’s Volleyball vs Yale University",
+   "url": "https://events.college.harvard.edu/event/224589-harvard-university-womens-volleyball-vs-ivy-league",
+   "source_id": "college",
+   "source_name": "Harvard College events",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-20T19:00:00-05:00",
+   "end": "2026-11-20T21:00:00-05:00",
+   "date": "2026-11-20",
+   "all_day": false,
+   "location": "Ithaca, N.Y.",
+   "online": false,
+   "host": "Main Calendar",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "Harvard College students",
+    "evidence": "Harvard College calendar, no sign it is open to others",
+    "basis": "default"
+   },
+   "summary": "Harvard University Women’s Volleyball vs Yale University TV: ESPN+ URL:https://gocrimson.com/calendar.aspx?game_id=33204&sport_id=40",
+   "blurb": "",
+   "event_page": true,
+   "notes": "",
+   "place_name": "",
+   "lat": null,
+   "lon": null,
+   "geo_method": null,
+   "walk_min": null
+  },
+  {
    "id": "30abd9da98cc",
    "title": "This Was a Woman",
    "url": "https://harvardfilmarchive.org/calendar/this-was-a-woman-2026-11",
@@ -9209,51 +9252,6 @@
    "walk_min": 12
   },
   {
-   "id": "7004b80ea76b",
-   "title": "Harvard University Wrestling vs Keystone Classic",
-   "url": "https://events.college.harvard.edu/event/225132-harvard-university-wrestling-vs-keystone-classic",
-   "source_id": "college",
-   "source_name": "Harvard College events",
-   "also_listed": [],
-   "aliases": [
-    "a3292784eb10"
-   ],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-11-22T00:00:00-05:00",
-   "end": null,
-   "date": "2026-11-22",
-   "all_day": true,
-   "location": "Philadelphia, Pa.",
-   "online": false,
-   "host": "Main Calendar",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
-   },
-   "audience": {
-    "level": "restricted",
-    "group": "Harvard College students",
-    "evidence": "Harvard College calendar, no sign it is open to others",
-    "basis": "default"
-   },
-   "summary": "Harvard University Wrestling vs Keystone Classic URL:https://gocrimson.com/calendar.aspx?game_id=33659&sport_id=42",
-   "blurb": "",
-   "event_page": true,
-   "notes": "",
-   "place_name": "",
-   "lat": null,
-   "lon": null,
-   "geo_method": null,
-   "walk_min": null
-  },
-  {
    "id": "bc707d1c00a2",
    "title": "Collecting Wonders: Tomorrow’s Discoveries",
    "url": "https://www.hmnh.harvard.edu/collecting-wonders",
@@ -9596,6 +9594,52 @@
    "lon": -71.116034,
    "geo_method": "gazetteer",
    "walk_min": 7
+  },
+  {
+   "id": "7004b80ea76b",
+   "title": "Harvard Women’s Basketball Club VS Maine University",
+   "url": "https://soco.college.harvard.edu/rsvp?id=383308",
+   "source_id": "college",
+   "source_name": "Harvard College events",
+   "also_listed": [],
+   "aliases": [
+    "8d0b9cf4d712",
+    "a3292784eb10"
+   ],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-22T13:00:00-05:00",
+   "end": "2026-11-22T16:00:00-05:00",
+   "date": "2026-11-22",
+   "all_day": false,
+   "location": "SoCo",
+   "online": false,
+   "host": "Dean of Students Office",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "Registration link on the event page",
+    "link": "https://soco.college.harvard.edu/rsvp?id=383308"
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "Harvard College students",
+    "evidence": "Harvard College calendar, no sign it is open to others",
+    "basis": "default"
+   },
+   "summary": "2 consecutive basketball games between HWBC and Maine University Women’s Basketball Club — Event Details: https://soco.college.harvard.edu/rsvp?id=383308",
+   "blurb": "",
+   "event_page": true,
+   "notes": "",
+   "place_name": "",
+   "lat": null,
+   "lon": null,
+   "geo_method": null,
+   "walk_min": null
   },
   {
    "id": "cb38b6f5e78d",
@@ -10929,9 +10973,9 @@
     "evidence": ""
    },
    "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
+    "status": "required",
+    "evidence": "RSVP here",
+    "link": "https://forms.gle/c2eE2qSpohLJuAjF7"
    },
    "audience": {
     "level": "unknown",
@@ -12134,7 +12178,7 @@
   },
   {
    "id": "04fe50320e27",
-   "title": "Conversation with Fr. Patrick Reidy on Property Law and Religion",
+   "title": "Conversation with Fr. Patrick Reidy on Affordable Housing and Church Property",
    "url": "https://hls.harvard.edu/events/conversation-with-fr-patrick-reidy-on-property-law-and-religion/",
    "source_id": "hls",
    "source_name": "Harvard Law School",
@@ -12148,7 +12192,7 @@
    "all_day": false,
    "location": "WCC, 1015 Classroom, Harvard Law School",
    "online": false,
-   "host": "Catholic Law Students Association",
+   "host": "Catholic Law Students Association; Religious Freedom Clinic",
    "food": {
     "status": "confirmed",
     "types": [
@@ -12168,8 +12212,8 @@
     "evidence": "HLS listing audience: HLS only",
     "basis": "listing"
    },
-   "summary": "Join the Catholic Law Students Association for a conversation with Fr. Patrick Reidy CSC. Fr. Pat is a priest of the Congregation of Holy Cross and an Associate Professor of Law at the University of Notre Dame where he teaches property and serves as Faculty Director of the Church Properties Initiative. Fr. Pat is a…",
-   "blurb": "Join the Catholic Law Students Association for a conversation with Fr. Pat is a priest of the Congregation of Holy Cross and an Associate Professor of Law at the University of Notre Dame where he teaches property and serves as Faculty Director of the Church…",
+   "summary": "Join the Religious Freedom Clinic and Catholic Law Students Association for a conversation with Fr. Patrick Reidy C.S.C. on affordable housing and church property. Fr. Pat is a priest of the Congregation of Holy Cross and an Associate Professor of Law at the University of Notre Dame where he teaches property and…",
+   "blurb": "Join the Religious Freedom Clinic and Catholic Law Students Association for a conversation with Fr. Patrick Reidy C.S.C. on affordable housing and church property. Pat is a priest of the Congregation of Holy Cross and an Associate Professor of Law at the…",
    "event_page": true,
    "notes": "",
    "place_name": "Wasserstein Hall (WCC), Harvard Law School",
@@ -13208,13 +13252,6 @@
   }
  ],
  "newsletters": [
-  {
-   "subject": null,
-   "sent": "2026-10-19",
-   "items": 0,
-   "sender": null,
-   "forwarded_by": "Juan"
-  },
   {
    "subject": null,
    "sent": "2026-10-22",
