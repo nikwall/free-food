@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T14:01:25-05:00",
+ "generated_at": "2026-11-19T20:19:00-05:00",
  "window": {
   "start": "2026-11-19",
   "end": "2026-11-26"
@@ -22,7 +22,7 @@
    "error": null,
    "n_events": 131,
    "n_food": 3,
-   "seconds": 2.4
+   "seconds": 0.6
   },
   {
    "id": "hks",
@@ -32,7 +32,7 @@
    "error": null,
    "n_events": 16,
    "n_food": 4,
-   "seconds": 2.6
+   "seconds": 1.6
   },
   {
    "id": "hls",
@@ -40,9 +40,9 @@
    "homepage": "https://hls.harvard.edu/calendar/",
    "ok": true,
    "error": null,
-   "n_events": 51,
+   "n_events": 52,
    "n_food": 22,
-   "seconds": 11.2
+   "seconds": 9.8
   },
   {
    "id": "college",
@@ -50,9 +50,9 @@
    "homepage": "https://events.college.harvard.edu/",
    "ok": true,
    "error": null,
-   "n_events": 88,
+   "n_events": 89,
    "n_food": 6,
-   "seconds": 0.6
+   "seconds": 0.4
   },
   {
    "id": "ash",
@@ -62,7 +62,7 @@
    "error": null,
    "n_events": 0,
    "n_food": 0,
-   "seconds": 3.0
+   "seconds": 2.6
   },
   {
    "id": "shorenstein",
@@ -72,7 +72,7 @@
    "error": null,
    "n_events": 1,
    "n_food": 0,
-   "seconds": 17.6
+   "seconds": 9.0
   },
   {
    "id": "fairbank",
@@ -82,7 +82,7 @@
    "error": null,
    "n_events": 5,
    "n_food": 0,
-   "seconds": 6.8
+   "seconds": 0.0
   },
   {
    "id": "newsletter",
@@ -92,7 +92,7 @@
    "error": null,
    "n_events": 7,
    "n_food": 1,
-   "seconds": 41.4
+   "seconds": 42.3
   },
   {
    "id": "suggested",
@@ -102,17 +102,17 @@
    "error": null,
    "n_events": 5,
    "n_food": 1,
-   "seconds": 9.7
+   "seconds": 7.3
   }
  ],
  "stats": {
-  "events": 249,
+  "events": 251,
   "food_confirmed": 27,
   "food_likely": 5,
   "forwarded": 5,
   "forwarded_listed": 4,
   "food_restricted": 19,
-  "seconds": 55.3
+  "seconds": 51.6
  },
  "events": [
   {
@@ -984,14 +984,14 @@
   },
   {
    "id": "713e2d849e48",
-   "title": "Artificial Intelligence and the Restructuring of News",
-   "url": "https://www.hks.harvard.edu/events/artificial-intelligence-and-restructuring-news",
-   "source_id": "hks",
-   "source_name": "Harvard Kennedy School",
+   "title": "Artificial Intelligence and the Restructuring of News: In Conversation with Gina Chua",
+   "url": "https://shorensteincenter.org/event/artificial-intelligence-and-the-restructuring-of-news-in-conversation-with-gina-chua/",
+   "source_id": "shorenstein",
+   "source_name": "Shorenstein Center (HKS)",
    "also_listed": [
     {
-     "source_name": "Shorenstein Center (HKS)",
-     "url": "https://shorensteincenter.org/event/artificial-intelligence-and-the-restructuring-of-news-in-conversation-with-gina-chua/"
+     "source_name": "Harvard Kennedy School",
+     "url": "https://www.hks.harvard.edu/events/artificial-intelligence-and-restructuring-news"
     }
    ],
    "aliases": [
@@ -1003,7 +1003,7 @@
    "end": "2026-11-19T13:00:00-05:00",
    "date": "2026-11-19",
    "all_day": false,
-   "location": "Zoom Webinar",
+   "location": "Zoom webinar",
    "online": true,
    "host": "Shorenstein Center on Media, Politics and Public Policy",
    "food": {
@@ -1013,7 +1013,7 @@
    },
    "registration": {
     "status": "required",
-    "evidence": "RSVP link on the event page",
+    "evidence": "Registration link on the event page",
     "link": "https://harvard.zoom.us/webinar/register/WN_v1V3NLONRamkzYo6raA_SQ#/registration"
    },
    "audience": {
@@ -1022,7 +1022,7 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "As more people turn to AI for information, what does that mean for community-focused newsrooms working with limited resources? Gina Chua, executive director of the Tow-Knight Center for Journalism Futures, talks with Clark Merrefield, senior editor at The Journalist’s Resource, a project of Harvard Kennedy School’s…",
+   "summary": "Join The Journalist’s Resource and the Tow-Knight Center for Journalism Futures at the Craig Newmark Graduate School of Journalism at CUNY for a discussion on how AI is changing the information landscape and practical strategies for community-focused newsrooms navigating these shifts with limited resources. As more…",
    "blurb": "As more people turn to AI for information, what does that mean for community-focused newsrooms working with limited resources? Gina Chua, executive director of the Tow-Knight Center for Journalism Futures, talks with Clark Merrefield, senior editor at The…",
    "event_page": true,
    "notes": "",
@@ -1230,9 +1230,9 @@
     "evidence": ""
    },
    "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001kHgPIAU"
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
    },
    "audience": {
     "level": "unknown",
@@ -1622,9 +1622,9 @@
     "cue": "strong"
    },
    "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://docs.google.com/forms/d/e/1FAIpQLSdknpd2DnOW_lyCkDAhhEIBRFfT0rAtazEH-hpnkilLwdNviQ/viewform"
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
    },
    "audience": {
     "level": "unknown",
@@ -2604,9 +2604,9 @@
    "walk_min": 18
   },
   {
-   "id": "dfa8b95317cb",
+   "id": "3d7afc817b79",
    "title": "Why Israel Matters: American Jewish Identity After October 7",
-   "url": "https://www.hks.harvard.edu/index%2ephp/events/why-israel-matters-american-jewish-identity-after-october-7",
+   "url": "https://www.hks.harvard.edu/events/why-israel-matters-american-jewish-identity-after-october-7",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -2617,34 +2617,34 @@
    "end": "2026-11-19T18:15:00-05:00",
    "date": "2026-11-19",
    "all_day": false,
-   "location": "",
+   "location": "Malkin Penthouse",
    "online": false,
-   "host": "",
+   "host": "Carr-Ryan Center for Human Rights",
    "food": {
     "status": "none",
     "types": [],
     "evidence": ""
    },
    "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
+    "status": "required",
+    "evidence": "RSVP link on the event page",
+    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001kf7dIAA"
    },
    "audience": {
-    "level": "unknown",
+    "level": "harvard",
     "group": "",
-    "evidence": "",
-    "basis": "none"
+    "evidence": "In-person events are open to Harvard ID holders only.",
+    "basis": "text"
    },
-   "summary": "",
-   "blurb": "",
+   "summary": "Why do so many American Jews feel a deep and abiding connection to Israel as a homeland? And why do many now feel estranged from, or even betrayed by, the human rights and social justice movements they once saw as natural allies? Dr. Mijal Bitton, a sociologist of American Jewry and a leading public voice on Jewish…",
+   "blurb": "Why do so many American Jews feel a deep and abiding connection to Israel as a homeland? And why do many now feel estranged from, or even betrayed by, the human rights and social justice movements they once saw as natural allies? Mijal Bitton, a sociologist…",
    "event_page": true,
    "notes": "",
-   "place_name": "Harvard Kennedy School",
-   "lat": 42.371989,
-   "lon": -71.121761,
-   "geo_method": "host",
-   "walk_min": 16
+   "place_name": "Littauer Building, Harvard Kennedy School",
+   "lat": 42.371045,
+   "lon": -71.12209,
+   "geo_method": "gazetteer",
+   "walk_min": 18
   },
   {
    "id": "2fa13a7dd56d",
@@ -4394,6 +4394,49 @@
    "lon": -71.118497,
    "geo_method": "gazetteer",
    "walk_min": 8
+  },
+  {
+   "id": "01bfbf03b100",
+   "title": "The Gambia v. Myanmar – Roundtable on ICJ Landmark Genocide Ruling",
+   "url": "https://hls.harvard.edu/events/the-gambia-v-myanmar-roundtable-on-icj-landmark-genocide-ruling/",
+   "source_id": "hls",
+   "source_name": "Harvard Law School",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-20T12:15:00-05:00",
+   "end": "2026-11-20T13:15:00-05:00",
+   "date": "2026-11-20",
+   "all_day": false,
+   "location": "Griswold Hall, 110 Classroom, Harvard Law School",
+   "online": false,
+   "host": "Human Rights Entrepreneurs Clinic",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "likely",
+    "group": "HLS community",
+    "evidence": "Harvard Law School calendar, audience not stated",
+    "basis": "default"
+   },
+   "summary": "On November 19th, the International Court of Justice will hand down its decision in The Gambia v. Myanmar case. No matter the outcome, it will be a landmark decision on genocide. Please join us the day after the decision for a roundtable of experts from the Harvard community who will discuss the ruling and its…",
+   "blurb": "On November 19th, the International Court of Justice will hand down its decision in The Gambia v. No matter the outcome, it will be a landmark decision on genocide. Please join us the day after the decision for a roundtable of experts from the Harvard…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Griswold Hall, Harvard Law School",
+   "lat": 42.377587,
+   "lon": -71.119023,
+   "geo_method": "gazetteer",
+   "walk_min": 9
   },
   {
    "id": "9726a379ea5d",
@@ -6615,6 +6658,49 @@
    "walk_min": null
   },
   {
+   "id": "70d8dbeef7e4",
+   "title": "Paint Pouring",
+   "url": "https://events.college.harvard.edu/winthrop-house/event/226331-paint-pouring",
+   "source_id": "college",
+   "source_name": "Harvard College events",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-22T13:15:00-05:00",
+   "end": "2026-11-22T14:00:00-05:00",
+   "date": "2026-11-22",
+   "all_day": false,
+   "location": "Standish Art Room",
+   "online": false,
+   "host": "Winthrop House",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "Winthrop House residents",
+    "evidence": "Hosted by Winthrop House",
+    "basis": "inferred"
+   },
+   "summary": "Hey Throp! Looking for a fun, low-key way to unwind after Harvard-Yale? Come join non-resident tutor Liz Kaye and me for paint pouring—a relaxing and creative event where you’ll get to make your own abstract mini canvas! It only takes about 5–10 minutes to make one painting! See examples of past-winthropians’…",
+   "blurb": "Looking for a fun, low-key way to unwind after Harvard-Yale? Come join non-resident tutor Liz Kaye and me for paint pouring—a relaxing and creative event where you’ll get to make your own abstract mini canvas! It only takes about 5–10 minutes to make one…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Winthrop House",
+   "lat": 42.370356,
+   "lon": -71.118646,
+   "geo_method": "host",
+   "walk_min": 15
+  },
+  {
    "id": "cb38b6f5e78d",
    "title": "Peabody Museum Tours Led by Harvard Students",
    "url": "https://peabody.harvard.edu/groups-and-tours/#tours",
@@ -8106,15 +8192,15 @@
    "walk_min": null
   },
   {
-   "id": "826b4739d456",
-   "title": "Building a Career of Impact: Lessons in Public Service and Leadership w/ Amb. Lu",
-   "url": "https://www.hks.harvard.edu/events/building-career-impact-lessons-public-service-and-leadership-w-amb-lu",
-   "source_id": "hks",
-   "source_name": "Harvard Kennedy School",
+   "id": "e26d3f04c147",
+   "title": "Dance in Public",
+   "url": "https://events.college.harvard.edu/ofa/event/223329-dance-in-public",
+   "source_id": "college",
+   "source_name": "Harvard College events",
    "also_listed": [
     {
-     "source_name": "Harvard College events",
-     "url": "https://events.college.harvard.edu/ofa/event/223329-dance-in-public"
+     "source_name": "Harvard Kennedy School",
+     "url": "https://www.hks.harvard.edu/index%2Ephp/events/building-career-impact-lessons-public-service-and-leadership-w-amb-lu"
     }
    ],
    "aliases": [
@@ -8126,18 +8212,18 @@
    "end": "2026-11-23T16:00:00-05:00",
    "date": "2026-11-23",
    "all_day": false,
-   "location": "Cid Perkins Conference Room (r429)",
+   "location": "Richard A. and Susan F. Smith Campus Center",
    "online": false,
-   "host": "Harvard Center for International Development",
+   "host": "Office for the Arts Dance Program",
    "food": {
     "status": "none",
     "types": [],
     "evidence": ""
    },
    "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001m9rdIAA"
+    "status": "none",
+    "evidence": "Each individual lab session is open to Harvard student drop-in participation.",
+    "link": ""
    },
    "audience": {
     "level": "likely",
@@ -8145,15 +8231,15 @@
     "evidence": "Each individual lab session is open to Harvard student drop-in participation.",
     "basis": "text"
    },
-   "summary": "Please join the Harvard Center for International Development for a conversation with Chris Lu, Resident Fellow at the Institute of Politics, and former U.S. Ambassador to the United Nations for Management and Reform, U.S. Deputy Secretary of Labor, and White House Cabinet Secretary. Interested in finding your path in…",
+   "summary": "Join the Dance in Public Undergraduate Research Fellows who will be investigating and activating sites throughout the academic year, exploring themes in design and architecture, civic engagement, creative research, and public life. Each individual lab session is open to Harvard student drop-in participation. REGISTER…",
    "blurb": "who will be investigating and activating sites throughout the academic year, exploring themes in design and architecture, civic engagement, creative research, and public life. Each individual lab session is open to Harvard student drop-in participation. Visit…",
    "event_page": true,
    "notes": "",
-   "place_name": "Harvard Kennedy School",
-   "lat": 42.371989,
-   "lon": -71.121761,
-   "geo_method": "host",
-   "walk_min": 16
+   "place_name": "Richard A. and Susan F. Smith Campus Center",
+   "lat": 42.372951,
+   "lon": -71.118484,
+   "geo_method": "source",
+   "walk_min": 12
   },
   {
    "id": "be5945475f39",
@@ -11053,7 +11139,7 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "Monday, November 30, 2026 Time: 6:00pm EST Where: JFK Jr. Forum, 79 John F. Kennedy St., Cambridge, MA 02138 Meeting Method: Hybrid Add to Calendar 2026-11-30 18:00:00 2026-11-19 09:26:05 The Final Two Years: Trump, the New Democratic Majority, and the Road Ahead with Maggie Haberman & Jonathan Swan <p>Donald Trump…",
+   "summary": "Monday, November 30, 2026 Time: 6:00pm EST Where: JFK Jr. Forum, 79 John F. Kennedy St., Cambridge, MA 02138 Meeting Method: Hybrid Add to Calendar 2026-11-30 18:00:00 2026-11-19 15:27:06 The Final Two Years: Trump, the New Democratic Majority, and the Road Ahead with Maggie Haberman & Jonathan Swan <p>Donald Trump…",
    "blurb": "Donald Trump faces a transformed Washington with two years left to shape his presidency. After a sweeping midterm defeat, will he change course or double down? How will he confront a Democratic Congress ready to investigate his administration and challenge…",
    "event_page": true,
    "notes": "",
