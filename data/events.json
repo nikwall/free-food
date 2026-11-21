@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T12:37:17-05:00",
+ "generated_at": "2026-11-21T18:50:47-05:00",
  "window": {
   "start": "2026-11-21",
   "end": "2026-11-28"
@@ -32,7 +32,7 @@
    "error": null,
    "n_events": 5,
    "n_food": 1,
-   "seconds": 0.2
+   "seconds": 2.3
   },
   {
    "id": "hls",
@@ -42,7 +42,7 @@
    "error": null,
    "n_events": 14,
    "n_food": 6,
-   "seconds": 6.5
+   "seconds": 6.9
   },
   {
    "id": "college",
@@ -50,9 +50,9 @@
    "homepage": "https://events.college.harvard.edu/",
    "ok": true,
    "error": null,
-   "n_events": 71,
-   "n_food": 5,
-   "seconds": 0.4
+   "n_events": 73,
+   "n_food": 6,
+   "seconds": 0.5
   },
   {
    "id": "ash",
@@ -62,7 +62,7 @@
    "error": null,
    "n_events": 0,
    "n_food": 0,
-   "seconds": 2.4
+   "seconds": 2.2
   },
   {
    "id": "shorenstein",
@@ -72,7 +72,7 @@
    "error": null,
    "n_events": 0,
    "n_food": 0,
-   "seconds": 11.4
+   "seconds": 10.0
   },
   {
    "id": "fairbank",
@@ -82,7 +82,7 @@
    "error": null,
    "n_events": 2,
    "n_food": 0,
-   "seconds": 6.0
+   "seconds": 0.1
   },
   {
    "id": "newsletter",
@@ -92,7 +92,7 @@
    "error": null,
    "n_events": 5,
    "n_food": 1,
-   "seconds": 41.5
+   "seconds": 44.7
   },
   {
    "id": "suggested",
@@ -102,17 +102,17 @@
    "error": null,
    "n_events": 4,
    "n_food": 0,
-   "seconds": 4.0
+   "seconds": 5.2
   }
  ],
  "stats": {
-  "events": 173,
-  "food_confirmed": 11,
+  "events": 178,
+  "food_confirmed": 12,
   "food_likely": 3,
   "forwarded": 3,
   "forwarded_listed": 2,
-  "food_restricted": 8,
-  "seconds": 48.5
+  "food_restricted": 9,
+  "seconds": 52.7
  },
  "events": [
   {
@@ -548,19 +548,13 @@
    "walk_min": 5
   },
   {
-   "id": "12d3965b5e92",
+   "id": "7fd42f505c81",
    "title": "Harvard-Yale Tailgate",
    "url": "https://events.college.harvard.edu/dso/event/225395-harvard-yale-tailgate",
    "source_id": "college",
    "source_name": "Harvard College events",
    "also_listed": [],
-   "aliases": [
-    "3d3a9c6919d8",
-    "7fd42f505c81",
-    "86351480e3b4",
-    "9f7155b0f3bc",
-    "d4adf6012ced"
-   ],
+   "aliases": [],
    "suggested": null,
    "forwarded": null,
    "start": "2026-11-21T13:00:00-05:00",
@@ -579,9 +573,9 @@
     "cue": "strong"
    },
    "registration": {
-    "status": "required",
-    "evidence": "Registration link on the event page",
-    "link": "https://www.mlb.com/redsox/tickets/events/the-game"
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
    },
    "audience": {
     "level": "restricted",
@@ -643,6 +637,95 @@
    "walk_min": 4
   },
   {
+   "id": "12d3965b5e92",
+   "title": "[L] Harvard University Men’s Water Polo vs Brown",
+   "url": "https://events.college.harvard.edu/event/224586-harvard-university-mens-water-polo-vs-tbd",
+   "source_id": "college",
+   "source_name": "Harvard College events",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-21T15:00:00-05:00",
+   "end": "2026-11-21T16:30:00-05:00",
+   "date": "2026-11-21",
+   "all_day": false,
+   "location": "Cambridge, MA, Blodgett Pool",
+   "online": false,
+   "host": "Main Calendar",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "Harvard College students",
+    "evidence": "Harvard College calendar, no sign it is open to others",
+    "basis": "default"
+   },
+   "summary": "[L] Harvard University Men’s Water Polo vs Brown L 15-16 TV: ESPN+ Streaming Video: https://gocrim.info/sy4 URL:https://gocrimson.com/calendar.aspx?game_id=33282&sport_id=23",
+   "blurb": "",
+   "event_page": true,
+   "notes": "",
+   "place_name": "",
+   "lat": null,
+   "lon": null,
+   "geo_method": null,
+   "walk_min": null
+  },
+  {
+   "id": "3d3a9c6919d8",
+   "title": "Harvard University Football vs Yale University",
+   "url": "https://events.college.harvard.edu/event/224581-harvard-university-football-vs-yale-university",
+   "source_id": "college",
+   "source_name": "Harvard College events",
+   "also_listed": [],
+   "aliases": [
+    "9f7155b0f3bc",
+    "d4adf6012ced"
+   ],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-21T15:30:00-05:00",
+   "end": "2026-11-21T18:30:00-05:00",
+   "date": "2026-11-21",
+   "all_day": false,
+   "location": "Boston, MA / Fenway Park",
+   "online": false,
+   "host": "Main Calendar",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "Registration link on the event page",
+    "link": "https://www.mlb.com/redsox/tickets/events/the-game"
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "Harvard College students",
+    "evidence": "Harvard College calendar, no sign it is open to others",
+    "basis": "default"
+   },
+   "summary": "Harvard University Football vs Yale University TV: ESPNU Streaming Audio: https://www.iheart.com/live/bloomberg-929-fm-5800/ Tickets: https://www.mlb.com/redsox/tickets/events/the-game URL:https://gocrimson.com/calendar.aspx?game_id=33146&sport_id=5",
+   "blurb": "Come see the Harvard Band perform at the Harvard Vs. Yale Football game at FENWAY PARK!",
+   "event_page": true,
+   "notes": "",
+   "place_name": "",
+   "lat": null,
+   "lon": null,
+   "geo_method": null,
+   "walk_min": null
+  },
+  {
    "id": "82970b5f44ee",
    "title": "Ashes and Diamonds",
    "url": "https://harvardfilmarchive.org/calendar/ashes-and-diamonds-2026-12",
@@ -684,6 +767,49 @@
    "lon": -71.114276,
    "geo_method": "gazetteer",
    "walk_min": 7
+  },
+  {
+   "id": "86351480e3b4",
+   "title": "Harvard University Women’s Rugby vs (2) Dartmouth College - Championship",
+   "url": "https://events.college.harvard.edu/event/224583-harvard-university-womens-rugby-vs-nira-finals",
+   "source_id": "college",
+   "source_name": "Harvard College events",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-21T19:00:00-05:00",
+   "end": "2026-11-21T22:00:00-05:00",
+   "date": "2026-11-21",
+   "all_day": false,
+   "location": "West Point, NY",
+   "online": false,
+   "host": "Main Calendar",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "Harvard College students",
+    "evidence": "Harvard College calendar, no sign it is open to others",
+    "basis": "default"
+   },
+   "summary": "Harvard University Women’s Rugby vs (2) Dartmouth College - Championship TV: YouTube.com/@GoArmyWestPoint Streaming Video: https://www.youtube.com/@GoArmyWestPoint/streams URL:https://gocrimson.com/calendar.aspx?game_id=33291&sport_id=32",
+   "blurb": "",
+   "event_page": true,
+   "notes": "",
+   "place_name": "",
+   "lat": null,
+   "lon": null,
+   "geo_method": null,
+   "walk_min": null
   },
   {
    "id": "a5adfbfa6e69",
@@ -1254,6 +1380,49 @@
    "walk_min": 7
   },
   {
+   "id": "5ede3d148bee",
+   "title": "Café Football: Man Utd vs Liverpool",
+   "url": "https://events.college.harvard.edu/winthrop-house/event/226390-caf-football-man-utd-vs-liverpool",
+   "source_id": "college",
+   "source_name": "Harvard College events",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-22T11:30:00-05:00",
+   "end": "2026-11-22T13:30:00-05:00",
+   "date": "2026-11-22",
+   "all_day": false,
+   "location": "Winthrop JCR",
+   "online": false,
+   "host": "Winthrop House",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "Winthrop House residents",
+    "evidence": "Hosted by Winthrop House",
+    "basis": "inferred"
+   },
+   "summary": "Football is back! Welcome to Café Football: We host soccer screenings at Winthrop, bringing the house together around the beautiful game. Whether it’s the Manchester Derby or the El Clásico, come watch it with us. See https://docs.google.com/document/d/1snaszuuCJLFSNB8gNn1k-SO5mdq6wjd69b78mOywMUA/edit?usp=sharing for…",
+   "blurb": "We host soccer screenings at Winthrop, bringing the house together around the beautiful game. Whether it’s the Manchester Derby or the El Clásico, come watch it with us. See…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Winthrop House",
+   "lat": 42.370356,
+   "lon": -71.118646,
+   "geo_method": "host",
+   "walk_min": 15
+  },
+  {
    "id": "36101e8e3242",
    "title": "New on View: Community and Self-Representation in the David and Jane Shapiro Collection",
    "url": "https://harvardartmuseums.org/event/4217?utm_source=gazette&utm_medium=listing&utm_campaign=Gallerytalk_Nov22&utm_id=New+on+View%3A+Community+and+Self-Representation+in+the+David+and+Jane+Shapiro+Collection",
@@ -1304,8 +1473,8 @@
    "source_name": "Harvard College events",
    "also_listed": [],
    "aliases": [
-    "8d0b9cf4d712",
-    "a3292784eb10"
+    "81e95bdfc019",
+    "8d0b9cf4d712"
    ],
    "suggested": null,
    "forwarded": null,
@@ -1470,6 +1639,52 @@
    "lon": -71.114276,
    "geo_method": "gazetteer",
    "walk_min": 7
+  },
+  {
+   "id": "8f0ac4e3424e",
+   "title": "Sunday Resets: When’s the right time to cut them off? 🤔✂️",
+   "url": "https://events.college.harvard.edu/winthrop-house/event/226389-sunday-resets-whens-the-right-time-to-cut-them-off-",
+   "source_id": "college",
+   "source_name": "Harvard College events",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-22T17:00:00-05:00",
+   "end": "2026-11-22T18:00:00-05:00",
+   "date": "2026-11-22",
+   "all_day": false,
+   "location": "Private Dining Room",
+   "online": false,
+   "host": "Winthrop House",
+   "food": {
+    "status": "confirmed",
+    "types": [
+     "Sweets"
+    ],
+    "evidence": "Boba will be available while supplies last",
+    "cue": "strong"
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "Winthrop House residents",
+    "evidence": "Hosted by Winthrop House",
+    "basis": "inferred"
+   },
+   "summary": "The topic of discussion is relationships–friendship, romantic, family, professional–and when the right time to cut folks off is (if ever). Before you go off for Thanksgiving break, join us to dig into this real discussion. Boba will be available while supplies last",
+   "blurb": "The topic of discussion is relationships–friendship, romantic, family, professional–and when the right time to cut folks off is (if ever). Before you go off for Thanksgiving break, join us to dig into this real discussion. Boba will be available while…",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Winthrop House",
+   "lat": 42.370356,
+   "lon": -71.118646,
+   "geo_method": "host",
+   "walk_min": 15
   },
   {
    "id": "5e53c951c5a6",
@@ -2252,9 +2467,9 @@
    "walk_min": 7
   },
   {
-   "id": "6c5da37bd081",
+   "id": "65ccb44ce5fe",
    "title": "BOOK TALK: 'Side Effects' with Alice Miranda Ollstein and MaryRose Mazzola",
-   "url": "https://www.hks.harvard.edu/index%2ephp/events/book-talk-side-effects-alice-miranda-ollstein-and-maryrose-mazzola",
+   "url": "https://www.hks.harvard.edu/events/book-talk-side-effects-alice-miranda-ollstein-and-maryrose-mazzola",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -2265,13 +2480,16 @@
    "end": "2026-11-23T13:00:00-05:00",
    "date": "2026-11-23",
    "all_day": false,
-   "location": "",
+   "location": "Wappp Cason Conference Room (t-102)",
    "online": false,
-   "host": "",
+   "host": "Women and Public Policy Program",
    "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
+    "status": "confirmed",
+    "types": [
+     "Lunch"
+    ],
+    "evidence": "Light lunch will be provided.",
+    "cue": "strong"
    },
    "registration": {
     "status": "unknown",
@@ -2284,8 +2502,8 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "",
-   "blurb": "",
+   "summary": "Join the Women and Public Policy Program for a groundbreaking and powerful investigation into how the fall of Roe changed American health care far beyond reproductive rights with reporter and author Alice Miranda Ollstein and HKS faculty MaryRose Mazzola. In the turbulent aftermath of the Supreme Court’s decision to…",
+   "blurb": "Join the Women and Public Policy Program for a groundbreaking and powerful investigation into how the fall of Roe changed American health care far beyond reproductive rights with reporter and author Alice Miranda Ollstein and HKS faculty MaryRose Mazzola. In…",
    "event_page": true,
    "notes": "",
    "place_name": "Harvard Kennedy School",
@@ -2338,9 +2556,9 @@
    "walk_min": null
   },
   {
-   "id": "58f7197cea15",
+   "id": "dbaf293a4239",
    "title": "Energy Security Sustainability Delivered",
-   "url": "https://www.hks.harvard.edu/events/energy-security-sustainability-delivered",
+   "url": "https://www.hks.harvard.edu/index%2ephp/events/energy-security-sustainability-delivered",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -2351,21 +2569,18 @@
    "end": "2026-11-23T13:15:00-05:00",
    "date": "2026-11-23",
    "all_day": false,
-   "location": "Rubenstein 414ab",
+   "location": "",
    "online": false,
-   "host": "Belfer Center for Science and International Affairs",
+   "host": "",
    "food": {
-    "status": "confirmed",
-    "types": [
-     "Lunch"
-    ],
-    "evidence": "Lunch will be served.",
-    "cue": "strong"
+    "status": "none",
+    "types": [],
+    "evidence": ""
    },
    "registration": {
-    "status": "required",
-    "evidence": "Registration: RSVP required.",
-    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001kjUbIAI"
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
    },
    "audience": {
     "level": "unknown",
@@ -2373,15 +2588,15 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "In this Energy Policy Seminar, Mark Brownstein, Senior Vice President at Environmental Defense Fund, will give a talk entitled, \"Energy Security Sustainability Delivered.\" Professor Joe Aldy will moderate. Q&A to follow. Lunch will be served. Registration: RSVP required. A Harvard University ID is required for…",
-   "blurb": "In this Energy Policy Seminar, Mark Brownstein, Senior Vice President at Environmental Defense Fund, will give a talk entitled, \"Energy Security Sustainability Delivered.\" Professor Joe Aldy will moderate. Mark Brownstein is Senior Vice President at…",
+   "summary": "",
+   "blurb": "",
    "event_page": true,
    "notes": "",
-   "place_name": "Rubenstein Building, Harvard Kennedy School",
-   "lat": 42.371243,
-   "lon": -71.122687,
-   "geo_method": "gazetteer",
-   "walk_min": 18
+   "place_name": "Harvard Kennedy School",
+   "lat": 42.371989,
+   "lon": -71.121761,
+   "geo_method": "host",
+   "walk_min": 16
   },
   {
    "id": "cee5b49c79b8",
@@ -2917,7 +3132,7 @@
    "walk_min": null
   },
   {
-   "id": "e26d3f04c147",
+   "id": "59f2b7839f36",
    "title": "Dance in Public",
    "url": "https://events.college.harvard.edu/ofa/event/223329-dance-in-public",
    "source_id": "college",
@@ -2925,7 +3140,7 @@
    "also_listed": [
     {
      "source_name": "Harvard Kennedy School",
-     "url": "https://www.hks.harvard.edu/index%2Ephp/events/building-career-impact-lessons-public-service-and-leadership-w-amb-lu"
+     "url": "https://www.hks.harvard.edu/index%2ephp/events/building-career-impact-lessons-public-service-and-leadership-w-amb-lu"
     }
    ],
    "aliases": [
@@ -2967,9 +3182,9 @@
    "walk_min": 12
   },
   {
-   "id": "e28885f06932",
+   "id": "be5945475f39",
    "title": "Gender Harassment: A Technology of Oppression in Organizations w/ Lilia Cortina",
-   "url": "https://www.hks.harvard.edu/index%2ephp/events/wappp-seminar-lilia-cortina",
+   "url": "https://www.hks.harvard.edu/events/wappp-seminar-lilia-cortina",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -2980,18 +3195,18 @@
    "end": "2026-11-23T16:00:00-05:00",
    "date": "2026-11-23",
    "all_day": false,
-   "location": "",
-   "online": false,
-   "host": "",
+   "location": "Online",
+   "online": true,
+   "host": "Women and Public Policy Program",
    "food": {
     "status": "none",
     "types": [],
     "evidence": ""
    },
    "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
+    "status": "required",
+    "evidence": "RSVP link on the event page",
+    "link": "https://harvard.zoom.us/meeting/register/HtqXJhkgTf6AG_p8trfrbg#/registration"
    },
    "audience": {
     "level": "unknown",
@@ -2999,15 +3214,15 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "",
-   "blurb": "",
+   "summary": "When people hear the term sexual harassment, they picture unwanted sexual pursuit. This behavior, however, has little to do with sexuality and everything to do with gender. In this talk, Professor Lilia Cortina will highlight findings on gender harassment: conduct that disparages employees based on gender but implies…",
+   "blurb": "When people hear the term sexual harassment, they picture unwanted sexual pursuit. This behavior, however, has little to do with sexuality and everything to do with gender. In this talk, Professor Lilia Cortina will highlight findings on gender harassment…",
    "event_page": true,
    "notes": "",
-   "place_name": "Harvard Kennedy School",
-   "lat": 42.371989,
-   "lon": -71.121761,
-   "geo_method": "host",
-   "walk_min": 16
+   "place_name": "",
+   "lat": null,
+   "lon": null,
+   "geo_method": null,
+   "walk_min": null
   },
   {
    "id": "49ebc59cfc45",
@@ -7592,7 +7807,7 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "Monday, November 30, 2026 Time: 6:00pm EST Where: JFK Jr. Forum, 79 John F. Kennedy St., Cambridge, MA 02138 Meeting Method: Hybrid Add to Calendar 2026-11-30 18:00:00 2026-11-21 11:29:36 The Final Two Years: Trump, the New Democratic Majority, and the Road Ahead with Maggie Haberman & Jonathan Swan <p>Donald Trump…",
+   "summary": "Monday, November 30, 2026 Time: 6:00pm EST Where: JFK Jr. Forum, 79 John F. Kennedy St., Cambridge, MA 02138 Meeting Method: Hybrid Add to Calendar 2026-11-30 18:00:00 2026-11-21 15:15:38 The Final Two Years: Trump, the New Democratic Majority, and the Road Ahead with Maggie Haberman & Jonathan Swan <p>Donald Trump…",
    "blurb": "Donald Trump faces a transformed Washington with two years left to shape his presidency. After a sweeping midterm defeat, will he change course or double down? How will he confront a Democratic Congress ready to investigate his administration and challenge…",
    "event_page": true,
    "notes": "",
@@ -7639,7 +7854,7 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "Thursday, December 3, 2026 Time: 6:00pm EST Where: JFK Jr. Forum, 79 John F. Kennedy St., Cambridge, MA 02138 Meeting Method: Hybrid Add to Calendar 2026-12-03 18:00:00 2026-11-21 07:00:58 Rethinking the International Economic Order with Ambassador Jamieson Greer, U.S. Trade Representative Join us as we close out the…",
+   "summary": "Thursday, December 3, 2026 Time: 6:00pm EST Where: JFK Jr. Forum, 79 John F. Kennedy St., Cambridge, MA 02138 Meeting Method: Hybrid Add to Calendar 2026-12-03 18:00:00 2026-11-21 12:53:22 Rethinking the International Economic Order with Ambassador Jamieson Greer, U.S. Trade Representative Join us as we close out the…",
    "blurb": "Join us as we close out the Fall 2026 semester in the JFK Jr. After having served as Chief of Staff to Ambassador Robert Lighthizer during President Trump's first term, he was confirmed by the United States Senate as U.S. Professor Jason Furman, who leads the…",
    "event_page": true,
    "notes": "",
@@ -7932,6 +8147,12 @@
    "sent": "2026-11-20",
    "items": 0,
    "sender": "Harvard University Asia Center"
+  },
+  {
+   "subject": "Weatherhead Events / Week of November 22, 2026",
+   "sent": "2026-11-21",
+   "items": 0,
+   "sender": "Weatherhead Center for International Affairs"
   }
  ]
 }
