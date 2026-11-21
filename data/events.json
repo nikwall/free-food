@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T13:38:54-05:00",
+ "generated_at": "2026-11-20T19:49:54-05:00",
  "window": {
   "start": "2026-11-20",
   "end": "2026-11-27"
@@ -22,7 +22,7 @@
    "error": null,
    "n_events": 117,
    "n_food": 2,
-   "seconds": 0.5
+   "seconds": 0.7
   },
   {
    "id": "hks",
@@ -31,8 +31,8 @@
    "ok": true,
    "error": null,
    "n_events": 6,
-   "n_food": 1,
-   "seconds": 0.4
+   "n_food": 2,
+   "seconds": 0.3
   },
   {
    "id": "hls",
@@ -42,7 +42,7 @@
    "error": null,
    "n_events": 31,
    "n_food": 14,
-   "seconds": 8.5
+   "seconds": 7.0
   },
   {
    "id": "college",
@@ -52,7 +52,7 @@
    "error": null,
    "n_events": 83,
    "n_food": 5,
-   "seconds": 0.9
+   "seconds": 0.4
   },
   {
    "id": "ash",
@@ -62,7 +62,7 @@
    "error": null,
    "n_events": 0,
    "n_food": 0,
-   "seconds": 3.2
+   "seconds": 2.4
   },
   {
    "id": "shorenstein",
@@ -72,7 +72,7 @@
    "error": null,
    "n_events": 0,
    "n_food": 0,
-   "seconds": 11.0
+   "seconds": 9.4
   },
   {
    "id": "fairbank",
@@ -82,7 +82,7 @@
    "error": null,
    "n_events": 3,
    "n_food": 0,
-   "seconds": 12.7
+   "seconds": 0.1
   },
   {
    "id": "newsletter",
@@ -92,7 +92,7 @@
    "error": null,
    "n_events": 6,
    "n_food": 1,
-   "seconds": 57.6
+   "seconds": 36.7
   },
   {
    "id": "suggested",
@@ -102,17 +102,17 @@
    "error": null,
    "n_events": 4,
    "n_food": 1,
-   "seconds": 5.3
+   "seconds": 6.1
   }
  ],
  "stats": {
   "events": 214,
-  "food_confirmed": 19,
+  "food_confirmed": 20,
   "food_likely": 4,
   "forwarded": 4,
   "forwarded_listed": 3,
   "food_restricted": 14,
-  "seconds": 66.9
+  "seconds": 44.0
  },
  "events": [
   {
@@ -1202,49 +1202,6 @@
    "walk_min": 10
   },
   {
-   "id": "eee5fcb9f4c4",
-   "title": "Harvard University Field Hockey vs Maryland",
-   "url": "https://events.college.harvard.edu/event/226288-harvard-university-field-hockey-vs-maryland",
-   "source_id": "college",
-   "source_name": "Harvard College events",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-11-20T12:00:00-05:00",
-   "end": "2026-11-20T15:00:00-05:00",
-   "date": "2026-11-20",
-   "all_day": false,
-   "location": "Louisville, Ky.",
-   "online": false,
-   "host": "Main Calendar",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "required",
-    "evidence": "Registration link on the event page",
-    "link": "https://am.ticketmaster.com/uofl/buy/26ncaafh"
-   },
-   "audience": {
-    "level": "restricted",
-    "group": "Harvard College students",
-    "evidence": "Harvard College calendar, no sign it is open to others",
-    "basis": "default"
-   },
-   "summary": "Harvard University Field Hockey vs Maryland TV: ESPNU Streaming Video: https://www.espn.com/watch/player/_/id/a74b3ce9-fc90-48c8-a158-a73377977d9d Tickets: https://am.ticketmaster.com/uofl/buy/26ncaafh URL:https://gocrimson.com/calendar.aspx?game_id=33777&sport_id=4",
-   "blurb": "",
-   "event_page": true,
-   "notes": "",
-   "place_name": "",
-   "lat": null,
-   "lon": null,
-   "geo_method": null,
-   "walk_min": null
-  },
-  {
    "id": "b201682651d9",
    "title": "J.D. Academic Advising Drop-Ins",
    "url": "https://hls.harvard.edu/events/j-d-academic-advising-drop-ins/?occurrence=12100",
@@ -1286,6 +1243,49 @@
    "lon": -71.119421,
    "geo_method": "gazetteer",
    "walk_min": 10
+  },
+  {
+   "id": "eee5fcb9f4c4",
+   "title": "[L] Harvard University Field Hockey vs Maryland",
+   "url": "https://events.college.harvard.edu/event/226288-harvard-university-field-hockey-vs-maryland",
+   "source_id": "college",
+   "source_name": "Harvard College events",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-20T12:00:00-05:00",
+   "end": "2026-11-20T15:00:00-05:00",
+   "date": "2026-11-20",
+   "all_day": false,
+   "location": "Louisville, Ky.",
+   "online": false,
+   "host": "Main Calendar",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "required",
+    "evidence": "Registration link on the event page",
+    "link": "https://am.ticketmaster.com/uofl/buy/26ncaafh"
+   },
+   "audience": {
+    "level": "restricted",
+    "group": "Harvard College students",
+    "evidence": "Harvard College calendar, no sign it is open to others",
+    "basis": "default"
+   },
+   "summary": "[L] Harvard University Field Hockey vs Maryland L 0-1 TV: ESPNU Streaming Video: https://www.espn.com/watch/player/_/id/a74b3ce9-fc90-48c8-a158-a73377977d9d Tickets: https://am.ticketmaster.com/uofl/buy/26ncaafh URL:https://gocrimson.com/calendar.aspx?game_id=33777&sport_id=4",
+   "blurb": "",
+   "event_page": true,
+   "notes": "",
+   "place_name": "",
+   "lat": null,
+   "lon": null,
+   "geo_method": null,
+   "walk_min": null
   },
   {
    "id": "14bea7dfb134",
@@ -1746,9 +1746,9 @@
    "walk_min": 10
   },
   {
-   "id": "c86af47eec62",
+   "id": "7912390bd2d8",
    "title": "Indonesian Language Class - November 20",
-   "url": "https://www.hks.harvard.edu/index%2ephp/events/indonesian-language-class-november-20",
+   "url": "https://www.hks.harvard.edu/events/indonesian-language-class-november-20",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -1759,9 +1759,9 @@
    "end": "2026-11-20T16:00:00-05:00",
    "date": "2026-11-20",
    "all_day": false,
-   "location": "",
+   "location": "Ash Center Seminar Room 202, Suite 200, 124 Mount Auburn Street",
    "online": false,
-   "host": "",
+   "host": "Rajawali Foundation Institute for Asia",
    "food": {
     "status": "none",
     "types": [],
@@ -1778,15 +1778,15 @@
     "evidence": "Title: Indonesian Language Class - November 20",
     "basis": "inferred"
    },
-   "summary": "",
-   "blurb": "",
+   "summary": "The Rajawali Foundation Institute for Asia invites you to join a not-for-credit Bahasa Indonesia and culture course. This class is open to a wide audience including Harvard students, faculty, fellows, staff members, as well as students and scholars from the greater Boston area. Your instructor, Ricardus Williams Djee…",
+   "blurb": "The Rajawali Foundation Institute for Asia invites you to join a not-for-credit Bahasa Indonesia and culture course. This class is open to a wide audience including Harvard students, faculty, fellows, staff members, as well as students and scholars from the…",
    "event_page": true,
    "notes": "",
-   "place_name": "Harvard Kennedy School",
-   "lat": 42.371989,
-   "lon": -71.121761,
-   "geo_method": "host",
-   "walk_min": 16
+   "place_name": "Ash Center (124 Mt Auburn St)",
+   "lat": 42.372952,
+   "lon": -71.123759,
+   "geo_method": "gazetteer",
+   "walk_min": 17
   },
   {
    "id": "2baccc3ca195",
@@ -2223,7 +2223,7 @@
   },
   {
    "id": "e4f9a132f934",
-   "title": "Governor Ron DeSantis: The Future of American Elite Education",
+   "title": "Postponed: Governor Ron DeSantis: The Future of American Elite Education",
    "url": "https://hls.harvard.edu/events/governor-ron-desantis-the-future-of-american-elite-education/",
    "source_id": "hls",
    "source_name": "Harvard Law School",
@@ -2254,8 +2254,8 @@
     "evidence": "Run by an HLS student organization",
     "basis": "inferred"
    },
-   "summary": "What is the future of America’s elite educational institutions? Join the Harvard Federalist Society for a special evening event featuring Florida Governor Ron DeSantis. A graduate of Yale University and Harvard Law School, Governor DeSantis will discuss the state of American higher education, the ideological and…",
-   "blurb": "What is the future of America’s elite educational institutions? Join the Harvard Federalist Society for a special evening event featuring Florida Governor Ron DeSantis. A graduate of Yale University and Harvard Law School, Governor DeSantis will discuss the…",
+   "summary": "This event has been postponed due to travel issues. What is the future of America’s elite educational institutions? Join the Harvard Federalist Society for a special evening event featuring Florida Governor Ron DeSantis. A graduate of Yale University and Harvard Law School, Governor DeSantis will discuss the state of…",
+   "blurb": "This event has been postponed due to travel issues. What is the future of America’s elite educational institutions? Join the Harvard Federalist Society for a special evening event featuring Florida Governor Ron DeSantis. A graduate of Yale University and…",
    "event_page": true,
    "notes": "",
    "place_name": "Wasserstein Hall (WCC), Harvard Law School",
@@ -4773,9 +4773,9 @@
    "walk_min": null
   },
   {
-   "id": "dbaf293a4239",
+   "id": "58f7197cea15",
    "title": "Energy Security Sustainability Delivered",
-   "url": "https://www.hks.harvard.edu/index%2ephp/events/energy-security-sustainability-delivered",
+   "url": "https://www.hks.harvard.edu/events/energy-security-sustainability-delivered",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -4786,18 +4786,21 @@
    "end": "2026-11-23T13:15:00-05:00",
    "date": "2026-11-23",
    "all_day": false,
-   "location": "",
+   "location": "Rubenstein 414ab",
    "online": false,
-   "host": "",
+   "host": "Belfer Center for Science and International Affairs",
    "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
+    "status": "confirmed",
+    "types": [
+     "Lunch"
+    ],
+    "evidence": "Lunch will be served.",
+    "cue": "strong"
    },
    "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
+    "status": "required",
+    "evidence": "Registration: RSVP required.",
+    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001kjUbIAI"
    },
    "audience": {
     "level": "unknown",
@@ -4805,15 +4808,15 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "",
-   "blurb": "",
+   "summary": "In this Energy Policy Seminar, Mark Brownstein, Senior Vice President at Environmental Defense Fund, will give a talk entitled, \"Energy Security Sustainability Delivered.\" Professor Joe Aldy will moderate. Q&A to follow. Lunch will be served. Registration: RSVP required. A Harvard University ID is required for…",
+   "blurb": "In this Energy Policy Seminar, Mark Brownstein, Senior Vice President at Environmental Defense Fund, will give a talk entitled, \"Energy Security Sustainability Delivered.\" Professor Joe Aldy will moderate. Mark Brownstein is Senior Vice President at…",
    "event_page": true,
    "notes": "",
-   "place_name": "Harvard Kennedy School",
-   "lat": 42.371989,
-   "lon": -71.121761,
-   "geo_method": "host",
-   "walk_min": 16
+   "place_name": "Rubenstein Building, Harvard Kennedy School",
+   "lat": 42.371243,
+   "lon": -71.122687,
+   "geo_method": "gazetteer",
+   "walk_min": 18
   },
   {
    "id": "cee5b49c79b8",
@@ -4902,9 +4905,9 @@
    "walk_min": null
   },
   {
-   "id": "87fe034a179e",
+   "id": "4825d0cf7b80",
    "title": "Stone Inequality & Social Policy Seminar: Nev Jones",
-   "url": "https://www.hks.harvard.edu/events/stone-inequality-social-policy-seminar-nev-jones",
+   "url": "https://www.hks.harvard.edu/index%2Ephp/events/stone-inequality-social-policy-seminar-nev-jones",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -4915,9 +4918,9 @@
    "end": "2026-11-23T13:15:00-05:00",
    "date": "2026-11-23",
    "all_day": false,
-   "location": "Malkin Penthouse",
+   "location": "",
    "online": false,
-   "host": "Stone Program in Wealth Distribution, Inequality, and Social Policy",
+   "host": "",
    "food": {
     "status": "none",
     "types": [],
@@ -4934,15 +4937,15 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "The Stone Program in Wealth Distribution, Inequality, and Social Policy welcomes Professor Nev Jones (University of Pittsburgh) to speak in the Stone Inequality & Social Policy Seminar. For more information about this seminar, click here.",
-   "blurb": "The Stone Program in Wealth Distribution, Inequality, and Social Policy welcomes Professor Nev Jones (University of Pittsburgh) to speak in the Stone Inequality & Social Policy Seminar.",
+   "summary": "",
+   "blurb": "",
    "event_page": true,
    "notes": "",
-   "place_name": "Littauer Building, Harvard Kennedy School",
-   "lat": 42.371045,
-   "lon": -71.12209,
-   "geo_method": "gazetteer",
-   "walk_min": 18
+   "place_name": "Harvard Kennedy School",
+   "lat": 42.371989,
+   "lon": -71.121761,
+   "geo_method": "host",
+   "walk_min": 16
   },
   {
    "id": "d9dfe3dde342",
@@ -5349,15 +5352,15 @@
    "walk_min": null
   },
   {
-   "id": "826b4739d456",
-   "title": "Building a Career of Impact: Lessons in Public Service and Leadership w/ Amb. Lu",
-   "url": "https://www.hks.harvard.edu/events/building-career-impact-lessons-public-service-and-leadership-w-amb-lu",
-   "source_id": "hks",
-   "source_name": "Harvard Kennedy School",
+   "id": "e26d3f04c147",
+   "title": "Dance in Public",
+   "url": "https://events.college.harvard.edu/ofa/event/223329-dance-in-public",
+   "source_id": "college",
+   "source_name": "Harvard College events",
    "also_listed": [
     {
-     "source_name": "Harvard College events",
-     "url": "https://events.college.harvard.edu/ofa/event/223329-dance-in-public"
+     "source_name": "Harvard Kennedy School",
+     "url": "https://www.hks.harvard.edu/index%2Ephp/events/building-career-impact-lessons-public-service-and-leadership-w-amb-lu"
     }
    ],
    "aliases": [
@@ -5369,18 +5372,18 @@
    "end": "2026-11-23T16:00:00-05:00",
    "date": "2026-11-23",
    "all_day": false,
-   "location": "Cid Perkins Conference Room (r429)",
+   "location": "Richard A. and Susan F. Smith Campus Center",
    "online": false,
-   "host": "Harvard Center for International Development",
+   "host": "Office for the Arts Dance Program",
    "food": {
     "status": "none",
     "types": [],
     "evidence": ""
    },
    "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001m9rdIAA"
+    "status": "none",
+    "evidence": "Each individual lab session is open to Harvard student drop-in participation.",
+    "link": ""
    },
    "audience": {
     "level": "likely",
@@ -5388,15 +5391,15 @@
     "evidence": "Each individual lab session is open to Harvard student drop-in participation.",
     "basis": "text"
    },
-   "summary": "Please join the Harvard Center for International Development for a conversation with Chris Lu, Resident Fellow at the Institute of Politics, and former U.S. Ambassador to the United Nations for Management and Reform, U.S. Deputy Secretary of Labor, and White House Cabinet Secretary. Interested in finding your path in…",
+   "summary": "Join the Dance in Public Undergraduate Research Fellows who will be investigating and activating sites throughout the academic year, exploring themes in design and architecture, civic engagement, creative research, and public life. Each individual lab session is open to Harvard student drop-in participation. REGISTER…",
    "blurb": "who will be investigating and activating sites throughout the academic year, exploring themes in design and architecture, civic engagement, creative research, and public life. Each individual lab session is open to Harvard student drop-in participation. Visit…",
    "event_page": true,
    "notes": "",
-   "place_name": "Harvard Kennedy School",
-   "lat": 42.371989,
-   "lon": -71.121761,
-   "geo_method": "host",
-   "walk_min": 16
+   "place_name": "Richard A. and Susan F. Smith Campus Center",
+   "lat": 42.372951,
+   "lon": -71.118484,
+   "geo_method": "source",
+   "walk_min": 12
   },
   {
    "id": "be5945475f39",
@@ -9419,7 +9422,7 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "Monday, November 30, 2026 Time: 6:00pm EST Where: JFK Jr. Forum, 79 John F. Kennedy St., Cambridge, MA 02138 Meeting Method: Hybrid Add to Calendar 2026-11-30 18:00:00 2026-11-19 15:27:06 The Final Two Years: Trump, the New Democratic Majority, and the Road Ahead with Maggie Haberman & Jonathan Swan <p>Donald Trump…",
+   "summary": "Monday, November 30, 2026 Time: 6:00pm EST Where: JFK Jr. Forum, 79 John F. Kennedy St., Cambridge, MA 02138 Meeting Method: Hybrid Add to Calendar 2026-11-30 18:00:00 2026-11-20 17:05:23 The Final Two Years: Trump, the New Democratic Majority, and the Road Ahead with Maggie Haberman & Jonathan Swan <p>Donald Trump…",
    "blurb": "Donald Trump faces a transformed Washington with two years left to shape his presidency. After a sweeping midterm defeat, will he change course or double down? How will he confront a Democratic Congress ready to investigate his administration and challenge…",
    "event_page": true,
    "notes": "",
