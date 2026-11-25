@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-24T15:41:19-05:00",
+ "generated_at": "2026-11-24T23:55:17-05:00",
  "window": {
   "start": "2026-11-24",
   "end": "2026-12-01"
@@ -22,7 +22,7 @@
    "error": null,
    "n_events": 105,
    "n_food": 1,
-   "seconds": 0.7
+   "seconds": 0.6
   },
   {
    "id": "hks",
@@ -42,7 +42,7 @@
    "error": null,
    "n_events": 9,
    "n_food": 6,
-   "seconds": 6.6
+   "seconds": 5.6
   },
   {
    "id": "college",
@@ -62,7 +62,7 @@
    "error": null,
    "n_events": 1,
    "n_food": 0,
-   "seconds": 2.9
+   "seconds": 2.0
   },
   {
    "id": "shorenstein",
@@ -72,7 +72,7 @@
    "error": null,
    "n_events": 1,
    "n_food": 1,
-   "seconds": 11.1
+   "seconds": 9.4
   },
   {
    "id": "fairbank",
@@ -92,7 +92,7 @@
    "error": null,
    "n_events": 5,
    "n_food": 2,
-   "seconds": 26.8
+   "seconds": 23.5
   },
   {
    "id": "suggested",
@@ -100,9 +100,9 @@
    "homepage": "",
    "ok": true,
    "error": null,
-   "n_events": 3,
+   "n_events": 2,
    "n_food": 0,
-   "seconds": 4.4
+   "seconds": 5.3
   }
  ],
  "stats": {
@@ -112,7 +112,7 @@
   "forwarded": 3,
   "forwarded_listed": 2,
   "food_restricted": 7,
-  "seconds": 32.3
+  "seconds": 29.8
  },
  "events": [
   {
@@ -1208,7 +1208,7 @@
   },
   {
    "id": "3554f7d92f3d",
-   "title": "Harvard University Men’s Basketball vs Boston University - Canned Food Drive",
+   "title": "[L] Harvard University Men’s Basketball vs Boston University - Canned Food Drive",
    "url": "https://events.college.harvard.edu/event/224577-harvard-university-mens-basketball-vs-boston",
    "source_id": "college",
    "source_name": "Harvard College events",
@@ -1241,7 +1241,7 @@
     "evidence": "Harvard College calendar, no sign it is open to others",
     "basis": "default"
    },
-   "summary": "Harvard University Men’s Basketball vs Boston University - Canned Food Drive TV: ESPN+ Streaming Video: https://www.espn.com/watch/ Tickets: https://gocrimson.evenue.net/event/MB26/MB04?utm_source=website&utm_medium=schedule_page&utm_campaign=mbb_boston_university…",
+   "summary": "[L] Harvard University Men’s Basketball vs Boston University - Canned Food Drive L 72-81 TV: ESPN+ Streaming Video: https://www.espn.com/watch/ Tickets: https://gocrimson.evenue.net/event/MB26/MB04?utm_source=website&utm_medium=schedule_page&utm_campaign=mbb_boston_university…",
    "blurb": "",
    "event_page": true,
    "notes": "",
@@ -1257,15 +1257,8 @@
    "url": "https://fairbank.fas.harvard.edu/events/urban-china-lecture-series-featuring-zhao-miaoxi/",
    "source_id": "fairbank",
    "source_name": "Fairbank Center",
-   "also_listed": [
-    {
-     "source_name": "Suggested calendar: Fairbanks center",
-     "url": "https://fairbank.fas.harvard.edu/events/urban-china-lecture-series-featuring-zhao-miaoxi/"
-    }
-   ],
-   "aliases": [
-    "e43de687ad1f"
-   ],
+   "also_listed": [],
+   "aliases": [],
    "suggested": null,
    "forwarded": null,
    "start": "2026-11-24T20:30:00-05:00",
@@ -5895,9 +5888,9 @@
    "walk_min": 7
   },
   {
-   "id": "d8666edbe3cf",
+   "id": "912cf959703d",
    "title": "Bloomberg Harvard Fellowships Information Session at HGSE",
-   "url": "https://www.hks.harvard.edu/events/bloomberg-harvard-fellowships-information-session-hgse-0",
+   "url": "https://www.hks.harvard.edu/index%2ephp/events/bloomberg-harvard-fellowships-information-session-hgse-0",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -5908,18 +5901,18 @@
    "end": "2026-11-30T13:00:00-05:00",
    "date": "2026-11-30",
    "all_day": false,
-   "location": "Hgse, Gutman Library 305",
+   "location": "",
    "online": false,
-   "host": "Bloomberg Center for Cities; Bloomberg Harvard City Leadership Initiative",
+   "host": "",
    "food": {
     "status": "none",
     "types": [],
     "evidence": ""
    },
    "registration": {
-    "status": "required",
-    "evidence": "Visit our website to register for other dates.",
-    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001mUCvIAM"
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
    },
    "audience": {
     "level": "restricted",
@@ -5927,15 +5920,15 @@
     "evidence": "Title: Bloomberg Harvard Fellowships Information Session at HGSE",
     "basis": "inferred"
    },
-   "summary": "Enrolled Harvard graduate students are invited to learn about fellowship opportunities from the Bloomberg Harvard City Leadership Initiative, located at the Bloomberg Center for Cities at Harvard University. The information sessions will cover the Bloomberg Harvard Summer Fellowships (ten-week, paid work placements…",
-   "blurb": "Enrolled Harvard graduate students are invited to learn about fellowship opportunities from the Bloomberg Harvard City Leadership Initiative, located at the Bloomberg Center for Cities at Harvard University. The information sessions will cover the Bloomberg…",
+   "summary": "",
+   "blurb": "",
    "event_page": true,
    "notes": "",
-   "place_name": "Graduate School of Education (Appian Way)",
-   "lat": 42.374893,
-   "lon": -71.12176,
-   "geo_method": "gazetteer",
-   "walk_min": 14
+   "place_name": "Harvard Kennedy School",
+   "lat": 42.371989,
+   "lon": -71.121761,
+   "geo_method": "host",
+   "walk_min": 16
   },
   {
    "id": "d0e64a32582e",
@@ -7149,9 +7142,9 @@
    "walk_min": 7
   },
   {
-   "id": "ea65acf304b9",
+   "id": "52fbc854273c",
    "title": "Bloomberg Harvard Fellowships Information Session at HKS",
-   "url": "https://www.hks.harvard.edu/events/bloomberg-harvard-fellowships-information-session-hks-1",
+   "url": "https://www.hks.harvard.edu/index%2ephp/events/bloomberg-harvard-fellowships-information-session-hks-1",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -7162,18 +7155,18 @@
    "end": "2026-12-01T13:00:00-05:00",
    "date": "2026-12-01",
    "all_day": false,
-   "location": "Belfer Building - B-500 Bell Hall",
+   "location": "",
    "online": false,
-   "host": "Bloomberg Center for Cities; Bloomberg Harvard City Leadership Initiative",
+   "host": "",
    "food": {
     "status": "none",
     "types": [],
     "evidence": ""
    },
    "registration": {
-    "status": "required",
-    "evidence": "Visit our website to register for other dates.",
-    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001mHCTIA2"
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
    },
    "audience": {
     "level": "restricted",
@@ -7181,15 +7174,15 @@
     "evidence": "Title: Bloomberg Harvard Fellowships Information Session at HKS",
     "basis": "inferred"
    },
-   "summary": "Enrolled Harvard graduate students are invited to learn about fellowship opportunities from the Bloomberg Harvard City Leadership Initiative, located at the Bloomberg Center for Cities at Harvard University. The information sessions will cover the Bloomberg Harvard Summer Fellowships (ten-week, paid work placements…",
-   "blurb": "Enrolled Harvard graduate students are invited to learn about fellowship opportunities from the Bloomberg Harvard City Leadership Initiative, located at the Bloomberg Center for Cities at Harvard University. The information sessions will cover the Bloomberg…",
+   "summary": "",
+   "blurb": "",
    "event_page": true,
    "notes": "",
-   "place_name": "Belfer Building, Harvard Kennedy School",
-   "lat": 42.37141,
-   "lon": -71.121513,
-   "geo_method": "gazetteer",
-   "walk_min": 17
+   "place_name": "Harvard Kennedy School",
+   "lat": 42.371989,
+   "lon": -71.121761,
+   "geo_method": "host",
+   "walk_min": 16
   },
   {
    "id": "94dc92d655ae",
@@ -7384,9 +7377,9 @@
    "walk_min": 16
   },
   {
-   "id": "d38cb53f2ce4",
+   "id": "e4bf644c7c94",
    "title": "Bloomberg Harvard Fellowships Information Session at HBS",
-   "url": "https://www.hks.harvard.edu/events/bloomberg-harvard-fellowships-information-session-hbs-0",
+   "url": "https://www.hks.harvard.edu/index%2ephp/events/bloomberg-harvard-fellowships-information-session-hbs-0",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -7397,18 +7390,18 @@
    "end": "2026-12-01T16:30:00-05:00",
    "date": "2026-12-01",
    "all_day": false,
-   "location": "Hbs, Cumnock 120",
+   "location": "",
    "online": false,
-   "host": "Bloomberg Center for Cities; Bloomberg Harvard City Leadership Initiative",
+   "host": "",
    "food": {
     "status": "none",
     "types": [],
     "evidence": ""
    },
    "registration": {
-    "status": "required",
-    "evidence": "Visit our website to register for other dates.",
-    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001mUEXIA2"
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
    },
    "audience": {
     "level": "restricted",
@@ -7416,15 +7409,15 @@
     "evidence": "Title: Bloomberg Harvard Fellowships Information Session at HBS",
     "basis": "inferred"
    },
-   "summary": "Enrolled Harvard graduate students are invited to learn about fellowship opportunities from the Bloomberg Harvard City Leadership Initiative, located at the Bloomberg Center for Cities at Harvard University. The information sessions will cover the Bloomberg Harvard Summer Fellowships (ten-week, paid work placements…",
-   "blurb": "Enrolled Harvard graduate students are invited to learn about fellowship opportunities from the Bloomberg Harvard City Leadership Initiative, located at the Bloomberg Center for Cities at Harvard University. The information sessions will cover the Bloomberg…",
+   "summary": "",
+   "blurb": "",
    "event_page": true,
    "notes": "",
-   "place_name": "Harvard Business School",
-   "lat": 42.365962,
-   "lon": -71.121506,
-   "geo_method": "gazetteer",
-   "walk_min": 24
+   "place_name": "Harvard Kennedy School",
+   "lat": 42.371989,
+   "lon": -71.121761,
+   "geo_method": "host",
+   "walk_min": 16
   },
   {
    "id": "341aed920157",
@@ -7739,7 +7732,7 @@
   {
    "id": 4,
    "state": "scanned",
-   "label": "Scanned at every update: 7 events found, 1 with food this week",
+   "label": "Scanned at every update: 6 events found, 1 with food this week",
    "n_food": 1
   }
  ],
