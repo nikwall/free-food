@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T14:58:28-05:00",
+ "generated_at": "2026-11-25T23:11:25-05:00",
  "window": {
   "start": "2026-11-25",
   "end": "2026-12-02"
@@ -32,7 +32,7 @@
    "error": null,
    "n_events": 14,
    "n_food": 1,
-   "seconds": 5.3
+   "seconds": 6.7
   },
   {
    "id": "hls",
@@ -42,7 +42,7 @@
    "error": null,
    "n_events": 9,
    "n_food": 6,
-   "seconds": 7.9
+   "seconds": 7.1
   },
   {
    "id": "college",
@@ -52,7 +52,7 @@
    "error": null,
    "n_events": 72,
    "n_food": 4,
-   "seconds": 0.8
+   "seconds": 0.9
   },
   {
    "id": "ash",
@@ -62,7 +62,7 @@
    "error": null,
    "n_events": 4,
    "n_food": 1,
-   "seconds": 2.8
+   "seconds": 2.6
   },
   {
    "id": "shorenstein",
@@ -72,7 +72,7 @@
    "error": null,
    "n_events": 1,
    "n_food": 1,
-   "seconds": 10.7
+   "seconds": 11.3
   },
   {
    "id": "fairbank",
@@ -82,7 +82,7 @@
    "error": null,
    "n_events": 1,
    "n_food": 0,
-   "seconds": 6.7
+   "seconds": 0.1
   },
   {
    "id": "newsletter",
@@ -92,7 +92,7 @@
    "error": null,
    "n_events": 6,
    "n_food": 2,
-   "seconds": 40.6
+   "seconds": 44.9
   },
   {
    "id": "suggested",
@@ -100,19 +100,19 @@
    "homepage": "",
    "ok": true,
    "error": null,
-   "n_events": 2,
+   "n_events": 1,
    "n_food": 0,
-   "seconds": 2.6
+   "seconds": 2.2
   }
  ],
  "stats": {
-  "events": 196,
+  "events": 195,
   "food_confirmed": 9,
   "food_likely": 5,
   "forwarded": 3,
   "forwarded_listed": 2,
   "food_restricted": 8,
-  "seconds": 49.5
+  "seconds": 50.3
  },
  "events": [
   {
@@ -805,49 +805,6 @@
    "lon": -71.121949,
    "geo_method": "gazetteer",
    "walk_min": 13
-  },
-  {
-   "id": "e9d961bf450e",
-   "title": "Events Calendar",
-   "url": "https://hls.harvard.edu/calendar/",
-   "source_id": "suggested",
-   "source_name": "Suggested calendar: HLS",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-11-25T12:00:00-05:00",
-   "end": null,
-   "date": "2026-11-25",
-   "all_day": true,
-   "location": "",
-   "online": false,
-   "host": "",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
-   },
-   "audience": {
-    "level": "unknown",
-    "group": "",
-    "evidence": "",
-    "basis": "none"
-   },
-   "summary": "Showing 0 events for the week starting 11/25/2026 Compact View There are no events today.",
-   "blurb": "",
-   "event_page": true,
-   "notes": "",
-   "place_name": "Harvard Law School",
-   "lat": 42.379106,
-   "lon": -71.119679,
-   "geo_method": "host",
-   "walk_min": 10
   },
   {
    "id": "e5a0f8b1ec01",
@@ -1682,6 +1639,49 @@
    "lon": -71.121949,
    "geo_method": "gazetteer",
    "walk_min": 13
+  },
+  {
+   "id": "36242b72197b",
+   "title": "Events Calendar",
+   "url": "https://hls.harvard.edu/calendar/",
+   "source_id": "suggested",
+   "source_name": "Suggested calendar: HLS",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-26T12:00:00-05:00",
+   "end": null,
+   "date": "2026-11-26",
+   "all_day": true,
+   "location": "",
+   "online": false,
+   "host": "",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "Showing 0 events for the week starting 11/26/2026 Compact View There are no events today.",
+   "blurb": "",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Harvard Law School",
+   "lat": 42.379106,
+   "lon": -71.119679,
+   "geo_method": "host",
+   "walk_min": 10
   },
   {
    "id": "57e9ad433a90",
@@ -4793,49 +4793,6 @@
    "lon": -71.12176,
    "geo_method": "gazetteer",
    "walk_min": 14
-  },
-  {
-   "id": "20a5af56d334",
-   "title": "Harvard University Asia Center",
-   "url": "https://asiacenter.harvard.edu/",
-   "source_id": "suggested",
-   "source_name": "Suggested calendar: Asia Center",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-11-30T12:00:00-05:00",
-   "end": null,
-   "date": "2026-11-30",
-   "all_day": true,
-   "location": "",
-   "online": false,
-   "host": "",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
-   },
-   "audience": {
-    "level": "unknown",
-    "group": "",
-    "evidence": "",
-    "basis": "none"
-   },
-   "summary": "November 30 | Segregated Sovereignty and Global Empire: Racialized Devolution from South Africa to India December 7 | Book Talk on The Presence of Peach Spring: Daoism, Ritual, and Locality December 1 | Hans Driesch’s Vitalism among Chinese Biologists: An Ecology of Reception",
-   "blurb": "November 30 | Segregated Sovereignty and Global Empire: Racialized Devolution from South Africa to India December 1 | Hans Driesch’s Vitalism among Chinese Biologists: An Ecology of Reception",
-   "event_page": true,
-   "notes": "",
-   "place_name": "CGIS South Building",
-   "lat": 42.375011,
-   "lon": -71.113135,
-   "geo_method": "host",
-   "walk_min": 5
   },
   {
    "id": "d0e64a32582e",
@@ -8230,9 +8187,9 @@
    "walk_min": null
   },
   {
-   "id": "fef7222fe586",
+   "id": "78462bd50529",
    "title": "What Do We Save? Protecting Cultural Heritage in an Age of Conflict",
-   "url": "https://www.hks.harvard.edu/index%2ephp/events/what-do-we-save-protecting-cultural-heritage-age-conflict",
+   "url": "https://www.hks.harvard.edu/events/what-do-we-save-protecting-cultural-heritage-age-conflict",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -8243,18 +8200,18 @@
    "end": "2026-12-02T18:00:00-05:00",
    "date": "2026-12-02",
    "all_day": false,
-   "location": "",
+   "location": "Littauer L-332 Deland",
    "online": false,
-   "host": "",
+   "host": "Program on Diplomacy and Statecraft",
    "food": {
     "status": "none",
     "types": [],
     "evidence": ""
    },
    "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
+    "status": "required",
+    "evidence": "RSVP link on the event page",
+    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001jglhIAA"
    },
    "audience": {
     "level": "unknown",
@@ -8262,15 +8219,15 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "",
-   "blurb": "",
+   "summary": "Join us for Session 5 of the Fall 2026 Cultural Diplomacy Initiative Study Group--a five-part series designed for anyone interested in exploring how culture can serve as a source of connection, dialogue, and resilience amid rapidly changing political, social, and technological conditions. Across five sessions, the…",
+   "blurb": "Join us for Session 5 of the Fall 2026 Cultural Diplomacy Initiative Study Group--a five-part series designed for anyone interested in exploring how culture can serve as a source of connection, dialogue, and resilience amid rapidly changing political, social…",
    "event_page": true,
    "notes": "",
-   "place_name": "Harvard Kennedy School",
-   "lat": 42.371989,
-   "lon": -71.121761,
-   "geo_method": "host",
-   "walk_min": 16
+   "place_name": "Littauer Building, Harvard Kennedy School",
+   "lat": 42.371045,
+   "lon": -71.12209,
+   "geo_method": "gazetteer",
+   "walk_min": 18
   },
   {
    "id": "ff5b37a89f60",
@@ -8434,8 +8391,8 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "December 2, 2026 | 5:30pm - 7:30pm Location S050, Thomas Chan-Soo Kang Room, CGIS South, 1730 Cambridge St., Cambridge, MA Harvard Buddhist Studies Forum at the Asia Center Clinton Godart, Professor, Tohoku University and Harvard-Yenching Institute Visiting Scholar 2026-27 Co-sponsored by the Reischauer Institute for…",
-   "blurb": "",
+   "summary": "December 2, 2026 | 5:30pm - 7:30pm Location S050, Thomas Chan-Soo Kang Room, CGIS South, 1730 Cambridge St., Cambridge, MA Harvard Buddhist Studies Forum at the Asia Center Clinton Godart, Professor, Tohoku University and Harvard-Yenching Institute Visiting Scholar 2026-27 Abstract: Ishiwara Kanji (1889–1949) is best…",
+   "blurb": "Abstract: Ishiwara Kanji (1889–1949) is best known as the Japanese army officer and strategist who played a central role in the Manchurian Incident of 1931 and predicted a future “final war” between Japan and the United States. Yet Ishiwara’s strategic…",
    "event_page": true,
    "notes": "",
    "place_name": "CGIS South Building",
@@ -8710,12 +8667,6 @@
    "id": 6,
    "state": "unreadable",
    "label": "Couldn't open that page"
-  },
-  {
-   "id": 5,
-   "state": "scanned",
-   "label": "Scanned at every update: 1 events found, 0 with food this week",
-   "n_food": 0
   }
  ],
  "newsletters": [
