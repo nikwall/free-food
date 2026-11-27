@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T14:40:24-05:00",
+ "generated_at": "2026-11-26T23:17:53-05:00",
  "window": {
   "start": "2026-11-26",
   "end": "2026-12-03"
@@ -32,7 +32,7 @@
    "error": null,
    "n_events": 22,
    "n_food": 2,
-   "seconds": 4.2
+   "seconds": 0.4
   },
   {
    "id": "hls",
@@ -42,7 +42,7 @@
    "error": null,
    "n_events": 11,
    "n_food": 7,
-   "seconds": 5.6
+   "seconds": 6.2
   },
   {
    "id": "college",
@@ -52,7 +52,7 @@
    "error": null,
    "n_events": 72,
    "n_food": 5,
-   "seconds": 0.5
+   "seconds": 0.4
   },
   {
    "id": "ash",
@@ -62,7 +62,7 @@
    "error": null,
    "n_events": 4,
    "n_food": 1,
-   "seconds": 2.1
+   "seconds": 2.8
   },
   {
    "id": "shorenstein",
@@ -72,7 +72,7 @@
    "error": null,
    "n_events": 3,
    "n_food": 1,
-   "seconds": 11.4
+   "seconds": 11.3
   },
   {
    "id": "fairbank",
@@ -82,7 +82,7 @@
    "error": null,
    "n_events": 1,
    "n_food": 0,
-   "seconds": 8.0
+   "seconds": 0.0
   },
   {
    "id": "newsletter",
@@ -92,7 +92,7 @@
    "error": null,
    "n_events": 6,
    "n_food": 2,
-   "seconds": 28.6
+   "seconds": 28.4
   },
   {
    "id": "suggested",
@@ -102,17 +102,17 @@
    "error": null,
    "n_events": 1,
    "n_food": 1,
-   "seconds": 2.6
+   "seconds": 1.6
   }
  ],
  "stats": {
   "events": 213,
-  "food_confirmed": 12,
-  "food_likely": 7,
+  "food_confirmed": 13,
+  "food_likely": 6,
   "forwarded": 3,
   "forwarded_listed": 2,
   "food_restricted": 9,
-  "seconds": 35.6
+  "seconds": 31.1
  },
  "events": [
   {
@@ -7416,19 +7416,19 @@
    "walk_min": 7
   },
   {
-   "id": "2d3875099a5a",
-   "title": "The Breakdown with Erica Chenoweth and Steve Levitsky (Tenth Session)",
-   "url": "https://ash.harvard.edu/events/the-breakdown-with-erica-chenoweth-and-steve-levitsky-tenth-session/",
-   "source_id": "ash",
-   "source_name": "Ash Center (HKS)",
+   "id": "ad09b9f53f3f",
+   "title": "The Breakdown with Erica Chenoweth and Steve Levitsky - December 2, 2026",
+   "url": "https://www.hks.harvard.edu/index%2Ephp/events/breakdown-erica-chenoweth-and-steve-levitsky-december-2-2026",
+   "source_id": "hks",
+   "source_name": "Harvard Kennedy School",
    "also_listed": [
     {
-     "source_name": "Harvard Kennedy School",
-     "url": "https://www.hks.harvard.edu/events/breakdown-erica-chenoweth-and-steve-levitsky-december-2-2026"
+     "source_name": "Ash Center (HKS)",
+     "url": "https://ash.harvard.edu/events/the-breakdown-with-erica-chenoweth-and-steve-levitsky-tenth-session/"
     }
    ],
    "aliases": [
-    "ad09b9f53f3f"
+    "dc33da1b0bd9"
    ],
    "suggested": null,
    "forwarded": null,
@@ -7436,9 +7436,9 @@
    "end": "2026-12-02T17:00:00-05:00",
    "date": "2026-12-02",
    "all_day": false,
-   "location": "Zoom Webinar",
-   "online": true,
-   "host": "Ash Center for Democratic Governance",
+   "location": "",
+   "online": false,
+   "host": "",
    "food": {
     "status": "none",
     "types": [],
@@ -7455,15 +7455,15 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "Join Erica Chenoweth and Steven Levitsky for the tenth session of The Breakdown, a webinar series on the ongoing struggle for American democracy. Join Erica Chenoweth and Steven Levitsky for the tenth session of The Breakdown, a webinar series on the ongoing struggle for American democracy. Each month, Chenoweth and…",
+   "summary": "",
    "blurb": "the tenth session of The Breakdown, a webinar series on the ongoing struggle for American democracy. the tenth session of The Breakdown, a webinar series on the ongoing struggle for American democracy. Each month, Chenoweth and Levitsky will break down key…",
    "event_page": true,
    "notes": "",
-   "place_name": "",
-   "lat": null,
-   "lon": null,
-   "geo_method": null,
-   "walk_min": null
+   "place_name": "Harvard Kennedy School",
+   "lat": 42.371989,
+   "lon": -71.121761,
+   "geo_method": "host",
+   "walk_min": 16
   },
   {
    "id": "78462bd50529",
@@ -8031,9 +8031,9 @@
    "walk_min": 24
   },
   {
-   "id": "e9d382c2e841",
+   "id": "4c4d82279f73",
    "title": "Bagels & Ballots: Election Reform and Voting Rights Laws Post-2026 Midterms",
-   "url": "https://www.hks.harvard.edu/index%2Ephp/events/bagels-ballots-election-reform-and-voting-rights-laws-post-2026-midterms",
+   "url": "https://www.hks.harvard.edu/events/bagels-ballots-election-reform-and-voting-rights-laws-post-2026-midterms",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -8044,20 +8044,22 @@
    "end": "2026-12-03T10:00:00-05:00",
    "date": "2026-12-03",
    "all_day": false,
-   "location": "",
+   "location": "124 Mount Auburn Street, Suite 200 N",
    "online": false,
-   "host": "",
+   "host": "Ash Center for Democratic Governance and Innovation",
    "food": {
-    "status": "likely",
+    "status": "confirmed",
     "types": [
-     "Breakfast"
+     "Breakfast",
+     "Coffee"
     ],
-    "evidence": "Bagels & Ballots: Election Reform and Voting Rights Laws Post-2026 Midterms"
+    "evidence": "Bagels and coffee will be served.",
+    "cue": "strong"
    },
    "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
+    "status": "required",
+    "evidence": "RSVP link on the event page",
+    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001mXCPIA2"
    },
    "audience": {
     "level": "unknown",
@@ -8065,15 +8067,15 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "",
-   "blurb": "",
+   "summary": "Join us for the final Bagels & Ballots of Fall 2026! Election Reform and Voting Rights Laws Post-2026 Midterms With major changes in leadership at the state and national levels, what can we expect from state legislatures on voting laws? What bills are already under consideration, and what might happen in Congress?…",
+   "blurb": "Join us for the final Bagels & Ballots of Fall 2026! With major changes in leadership at the state and national levels, what can we expect from state legislatures on voting laws? What bills are already under consideration, and what might happen in Congress?…",
    "event_page": true,
    "notes": "",
-   "place_name": "Harvard Kennedy School",
-   "lat": 42.371989,
-   "lon": -71.121761,
-   "geo_method": "host",
-   "walk_min": 16
+   "place_name": "Ash Center (124 Mt Auburn St)",
+   "lat": 42.372952,
+   "lon": -71.123759,
+   "geo_method": "gazetteer",
+   "walk_min": 17
   },
   {
    "id": "a9c86266a2ad",
@@ -8995,9 +8997,9 @@
    "walk_min": 14
   },
   {
-   "id": "051799eacce5",
+   "id": "31ef3ecf484f",
    "title": "Film and Discussion on Critical Minerals: The Human Side of the Global Race",
-   "url": "https://www.hks.harvard.edu/index%2Ephp/events/film-and-discussion-critical-minerals-human-side-global-race",
+   "url": "https://www.hks.harvard.edu/events/film-and-discussion-critical-minerals-human-side-global-race",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -9008,18 +9010,18 @@
    "end": "2026-12-03T17:45:00-05:00",
    "date": "2026-12-03",
    "all_day": false,
-   "location": "",
+   "location": "L-324 Fainsod Room",
    "online": false,
-   "host": "",
+   "host": "Mossavar-Rahmani Center for Business and Government",
    "food": {
     "status": "none",
     "types": [],
     "evidence": ""
    },
    "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
+    "status": "required",
+    "evidence": "RSVP link on the event page",
+    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001mEo5IAE"
    },
    "audience": {
     "level": "unknown",
@@ -9027,15 +9029,15 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "",
-   "blurb": "",
+   "summary": "The 2026 documentary Lithium Rising: The Race for Critical Minerals explores the growing global demand for lithium and other critical minerals, examining the geopolitical, economic, environmental, and social implications of expanding mineral production. Through examples from different regions of the world, it…",
+   "blurb": "The 2026 documentary Lithium Rising: The Race for Critical Minerals explores the growing global demand for lithium and other critical minerals, examining the geopolitical, economic, environmental, and social implications of expanding mineral production.…",
    "event_page": true,
    "notes": "",
-   "place_name": "Harvard Kennedy School",
-   "lat": 42.371989,
-   "lon": -71.121761,
-   "geo_method": "host",
-   "walk_min": 16
+   "place_name": "Littauer Building, Harvard Kennedy School",
+   "lat": 42.371045,
+   "lon": -71.12209,
+   "geo_method": "gazetteer",
+   "walk_min": 18
   },
   {
    "id": "b384faf775f2",
