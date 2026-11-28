@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T14:30:31-05:00",
+ "generated_at": "2026-11-27T22:57:14-05:00",
  "window": {
   "start": "2026-11-27",
   "end": "2026-12-04"
@@ -22,7 +22,7 @@
    "error": null,
    "n_events": 126,
    "n_food": 2,
-   "seconds": 0.3
+   "seconds": 0.4
   },
   {
    "id": "hks",
@@ -32,7 +32,7 @@
    "error": null,
    "n_events": 23,
    "n_food": 2,
-   "seconds": 1.9
+   "seconds": 0.9
   },
   {
    "id": "hls",
@@ -42,7 +42,7 @@
    "error": null,
    "n_events": 10,
    "n_food": 6,
-   "seconds": 7.6
+   "seconds": 6.1
   },
   {
    "id": "college",
@@ -52,7 +52,7 @@
    "error": null,
    "n_events": 76,
    "n_food": 6,
-   "seconds": 0.8
+   "seconds": 0.7
   },
   {
    "id": "ash",
@@ -62,7 +62,7 @@
    "error": null,
    "n_events": 4,
    "n_food": 1,
-   "seconds": 2.4
+   "seconds": 2.0
   },
   {
    "id": "shorenstein",
@@ -72,7 +72,7 @@
    "error": null,
    "n_events": 3,
    "n_food": 1,
-   "seconds": 11.2
+   "seconds": 8.9
   },
   {
    "id": "fairbank",
@@ -82,7 +82,7 @@
    "error": null,
    "n_events": 1,
    "n_food": 0,
-   "seconds": 7.3
+   "seconds": 0.1
   },
   {
    "id": "newsletter",
@@ -92,7 +92,7 @@
    "error": null,
    "n_events": 6,
    "n_food": 2,
-   "seconds": 44.2
+   "seconds": 39.4
   },
   {
    "id": "suggested",
@@ -102,7 +102,7 @@
    "error": null,
    "n_events": 1,
    "n_food": 0,
-   "seconds": 2.7
+   "seconds": 2.5
   }
  ],
  "stats": {
@@ -112,7 +112,7 @@
   "forwarded": 3,
   "forwarded_listed": 2,
   "food_restricted": 11,
-  "seconds": 49.9
+  "seconds": 43.2
  },
  "events": [
   {
@@ -893,49 +893,6 @@
    "walk_min": 13
   },
   {
-   "id": "8d5a7bf22f25",
-   "title": "Events Calendar",
-   "url": "https://hls.harvard.edu/calendar/",
-   "source_id": "suggested",
-   "source_name": "Suggested calendar: HLS",
-   "also_listed": [],
-   "aliases": [],
-   "suggested": null,
-   "forwarded": null,
-   "start": "2026-11-27T12:00:00-05:00",
-   "end": null,
-   "date": "2026-11-27",
-   "all_day": true,
-   "location": "",
-   "online": false,
-   "host": "",
-   "food": {
-    "status": "none",
-    "types": [],
-    "evidence": ""
-   },
-   "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
-   },
-   "audience": {
-    "level": "unknown",
-    "group": "",
-    "evidence": "",
-    "basis": "none"
-   },
-   "summary": "Showing 0 events for the week starting 11/27/2026 Compact View There are no events today.",
-   "blurb": "",
-   "event_page": true,
-   "notes": "",
-   "place_name": "Harvard Law School",
-   "lat": 42.379106,
-   "lon": -71.119679,
-   "geo_method": "host",
-   "walk_min": 10
-  },
-  {
    "id": "2f76192ad4f8",
    "title": "Peabody Museum Tours Led by Harvard Students",
    "url": "https://peabody.harvard.edu/groups-and-tours/#tours",
@@ -980,7 +937,7 @@
   },
   {
    "id": "19e901f97d75",
-   "title": "Harvard University Women’s Ice Hockey vs Dartmouth - Teddy Bear Toss",
+   "title": "[L] Harvard University Women’s Ice Hockey vs Dartmouth - Teddy Bear Toss",
    "url": "https://events.college.harvard.edu/event/224574-harvard-university-womens-ice-hockey-vs-dartmouth",
    "source_id": "college",
    "source_name": "Harvard College events",
@@ -1011,7 +968,7 @@
     "evidence": "Harvard College calendar, no sign it is open to others",
     "basis": "default"
    },
-   "summary": "Harvard University Women’s Ice Hockey vs Dartmouth - Teddy Bear Toss TV: ESPN+ Streaming Video: https://www.espn.com/watch/?redirected=true Tickets: https://gocrimson.evenue.net/event/WH26/WH06?utm_source=website&utm_medium=schedule_page&utm_campaign=wih_dartmouth…",
+   "summary": "[L] Harvard University Women’s Ice Hockey vs Dartmouth - Teddy Bear Toss L 1-2 TV: ESPN+ Streaming Video: https://www.espn.com/watch/?redirected=true Tickets: https://gocrimson.evenue.net/event/WH26/WH06?utm_source=website&utm_medium=schedule_page&utm_campaign=wih_dartmouth…",
    "blurb": "",
    "event_page": true,
    "notes": "",
@@ -1498,6 +1455,49 @@
    "walk_min": 7
   },
   {
+   "id": "bf40cb60fc14",
+   "title": "Events Calendar",
+   "url": "https://hls.harvard.edu/calendar/",
+   "source_id": "suggested",
+   "source_name": "Suggested calendar: HLS",
+   "also_listed": [],
+   "aliases": [],
+   "suggested": null,
+   "forwarded": null,
+   "start": "2026-11-28T12:00:00-05:00",
+   "end": null,
+   "date": "2026-11-28",
+   "all_day": true,
+   "location": "",
+   "online": false,
+   "host": "",
+   "food": {
+    "status": "none",
+    "types": [],
+    "evidence": ""
+   },
+   "registration": {
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
+   },
+   "audience": {
+    "level": "unknown",
+    "group": "",
+    "evidence": "",
+    "basis": "none"
+   },
+   "summary": "Showing 0 events for the week starting 11/28/2026 Compact View There are no events today.",
+   "blurb": "",
+   "event_page": true,
+   "notes": "",
+   "place_name": "Harvard Law School",
+   "lat": 42.379106,
+   "lon": -71.119679,
+   "geo_method": "host",
+   "walk_min": 10
+  },
+  {
    "id": "7107b39541a9",
    "title": "Harvard University Football at Monmouth University - FCS Playoffs First Round",
    "url": "https://events.college.harvard.edu/event/224569-harvard-university-football-vs-fcs-first-round",
@@ -1530,7 +1530,7 @@
     "evidence": "Harvard College calendar, no sign it is open to others",
     "basis": "default"
    },
-   "summary": "Harvard University Football at Monmouth University - FCS Playoffs First Round TV: ESPN+ Streaming Video: https://www.espn.com/watch/ URL:https://gocrimson.com/calendar.aspx?game_id=33147&sport_id=5",
+   "summary": "Harvard University Football at Monmouth University - FCS Playoffs First Round TV: ESPN+ Streaming Video: https://www.espn.com/watch/player/_/id/ec3a5849-159c-47cc-8e80-5eca74f0ee66 URL:https://gocrimson.com/calendar.aspx?game_id=33147&sport_id=5",
    "blurb": "",
    "event_page": true,
    "notes": "",
@@ -6675,9 +6675,9 @@
    "walk_min": null
   },
   {
-   "id": "5f4bc1cf869b",
+   "id": "d271ee901ace",
    "title": "The New American Frontier: Job Training for the Next Technological Age",
-   "url": "https://www.hks.harvard.edu/events/new-american-frontier-job-training-next-technological-age",
+   "url": "https://www.hks.harvard.edu/index%2ephp/events/new-american-frontier-job-training-next-technological-age",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -6688,18 +6688,18 @@
    "end": "2026-12-02T19:30:00-05:00",
    "date": "2026-12-02",
    "all_day": false,
-   "location": "T-520 Allison Dining Room",
+   "location": "",
    "online": false,
-   "host": "Reimagining the Economy; Malcolm Wiener Center for Social Policy",
+   "host": "",
    "food": {
     "status": "none",
     "types": [],
     "evidence": ""
    },
    "registration": {
-    "status": "required",
-    "evidence": "RSVP link on the event page",
-    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001m0mjIAA"
+    "status": "unknown",
+    "evidence": "",
+    "link": ""
    },
    "audience": {
     "level": "unknown",
@@ -6707,15 +6707,15 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "New technologies are reshaping the American economy, and this time, the gains don’t have to be limited to those with a four-year degree. In The New American Frontier, Rachel Lipson takes us to seven regions where new technologies have landed first, from batteries in Michigan and AI data centers in Virginia to small…",
-   "blurb": "New technologies are reshaping the American economy, and this time, the gains don’t have to be limited to those with a four-year degree. In The New American Frontier, Rachel Lipson takes us to seven regions where new technologies have landed first, from…",
+   "summary": "",
+   "blurb": "",
    "event_page": true,
    "notes": "",
-   "place_name": "Taubman Building, Harvard Kennedy School",
-   "lat": 42.371822,
-   "lon": -71.122151,
-   "geo_method": "gazetteer",
-   "walk_min": 17
+   "place_name": "Harvard Kennedy School",
+   "lat": 42.371989,
+   "lon": -71.121761,
+   "geo_method": "host",
+   "walk_min": 16
   },
   {
    "id": "5c5b6e819ad4",
@@ -8215,9 +8215,9 @@
    "walk_min": 14
   },
   {
-   "id": "59845d9e6d3e",
+   "id": "31ef3ecf484f",
    "title": "Film and Discussion on Critical Minerals: The Human Side of the Global Race",
-   "url": "https://www.hks.harvard.edu/index%2ephp/events/film-and-discussion-critical-minerals-human-side-global-race",
+   "url": "https://www.hks.harvard.edu/events/film-and-discussion-critical-minerals-human-side-global-race",
    "source_id": "hks",
    "source_name": "Harvard Kennedy School",
    "also_listed": [],
@@ -8228,18 +8228,18 @@
    "end": "2026-12-03T17:45:00-05:00",
    "date": "2026-12-03",
    "all_day": false,
-   "location": "",
+   "location": "L-324 Fainsod Room",
    "online": false,
-   "host": "",
+   "host": "Mossavar-Rahmani Center for Business and Government",
    "food": {
     "status": "none",
     "types": [],
     "evidence": ""
    },
    "registration": {
-    "status": "unknown",
-    "evidence": "",
-    "link": ""
+    "status": "required",
+    "evidence": "RSVP link on the event page",
+    "link": "https://hksexeced.tfaforms.net/f/registration?e=a4oPp000001mEo5IAE"
    },
    "audience": {
     "level": "unknown",
@@ -8247,15 +8247,15 @@
     "evidence": "",
     "basis": "none"
    },
-   "summary": "",
-   "blurb": "",
+   "summary": "The 2026 documentary Lithium Rising: The Race for Critical Minerals explores the growing global demand for lithium and other critical minerals, examining the geopolitical, economic, environmental, and social implications of expanding mineral production. Through examples from different regions of the world, it…",
+   "blurb": "The 2026 documentary Lithium Rising: The Race for Critical Minerals explores the growing global demand for lithium and other critical minerals, examining the geopolitical, economic, environmental, and social implications of expanding mineral production.…",
    "event_page": true,
    "notes": "",
-   "place_name": "Harvard Kennedy School",
-   "lat": 42.371989,
-   "lon": -71.121761,
-   "geo_method": "host",
-   "walk_min": 16
+   "place_name": "Littauer Building, Harvard Kennedy School",
+   "lat": 42.371045,
+   "lon": -71.12209,
+   "geo_method": "gazetteer",
+   "walk_min": 18
   },
   {
    "id": "b384faf775f2",
